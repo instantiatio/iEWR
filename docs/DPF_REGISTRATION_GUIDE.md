@@ -2,11 +2,14 @@
 
 ## Пользовательский сценарий
 
-Положите файл либо каталог одной редакции в `project/dpf/` и попросите:
+Скачайте DPF в `source/external-dpf/`, желательно сохранив original filename,
+и попросите:
 
-> Зарегистрируй DPF `project/dpf/my-dpf/2026-09-05/`.
+> Зарегистрируй DPF из source/external-dpf/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 
-Для одного файла допустимо `project/dpf/my-dpf.md`. Затем можно попросить
+Допустим также каталог одной edition, например
+`source/external-dpf/my-dpf/edition/`. Прежние источники в `project/dpf/`
+поддерживаются без перемещения. Затем можно попросить
 показать подключённые DPF, использовать подходящий DPF в задаче, добавить
 новую редакцию или снять регистрацию конкретного source_id/edition_id.
 Повторение того же подключения возвращает `already_registered` без изменения
@@ -31,9 +34,11 @@ Hash verification проверяет bytes выбранного DPF, а не е�
 ## Что хранится
 
 - `frameworks/dpf/REPERTOIRE.yaml` — exact package sources и required slots
-  SYSE, ME, OCE, PSD, SDLC.
+  SYSE, ME, OCE, PSD, OPS; отдельно сохранён experimental local SDLC.
 - `project/dpf/REPERTOIRE.yaml` — источники, которые пользователь попросил
   постоянно находить в данном проекте. Это live state, не distribution inventory.
+- `source/external-dpf/` — стандартное место пользовательских исходников;
+  поставляемый пустой `.gitkeep` сохраняет каталог, сам он не DPF и не registration.
 - Source file/tree — те же пользовательские bytes по тому же пути. Ни hidden
   cache, ни автоматической второй копии нет.
 
@@ -76,15 +81,29 @@ Metadata являются claims, которые агент должен про�
 не объявляет FPF conformity по заголовку или наличию PatternID. Source text не
 должен включать или импортировать grant applicability/authority fields в index.
 
+Для регистрации F формирует минимально достаточную intended basis, а не
+обязательный отдельный MethodDescription. Method/MethodDescription нужны,
+когда их требует текущая Work; adequate existing instruction переиспользуется.
+Регистрация даёт discovery, не applicability/precedence/authority. Для direct
+use exact source регистрация необязательна. Bundled baseline maintenance —
+отдельное поручение по [maintainer guide](BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md).
+
 ## Модульный технический consumer
 
 Current contract — [S registration](../modules/sources/REGISTRATION.md) и
 [explicit bootstrap](../app/bootstrap/ENTRY.md). S SourceResolution выполняет
-availability/inspect/verify/contribute read-only. Для requested mutation F
+availability/inspect/verify/contribute read-only. В этом bounded JSON consumer F
 задаёт immutable OperationBasis с exact source digest, metadata, Method/request
 bindings и expected target; G проверяет independent direct grounds; X initiates
 E/P, где RepertoireActuator пишет только project/dpf/REPERTOIRE.yaml. Owner
 receipts живут в explicitly bound project/process/ewr, не внутри DPF source.
+
+Обязательный `method` Binding с role `method_description` — сохранённое условие
+этого transport. Он ссылается на реально выбранную достаточную инструкцию;
+поле не разрешает выдумать Method basis и не требует отдельного документа от
+пользователя. При отсутствии basis/controls удерживается dependent consumer use.
+Instruction-led execution допускается без обязательного JSON carrying workflow;
+current direct grounds и технические границы при этом сохраняются.
 
 Для modern one-call consumer доступен help:
 `python3 -I -S -B app/bootstrap/operation.py --help`.

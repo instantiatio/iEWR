@@ -11,7 +11,7 @@ Read-only `inspect_binding`, `SourceResolution.inspect/candidates/verify/contrib
 дают bytes/identity/loci/limits. RepertoireReader ограничен DPF repertoire roots;
 произвольные direct DPF/LPF bindings читаются отдельным bound SourceReader.
 Package/project availability рассматриваются вместе без semantic приоритета.
-Ни lookup, ни required SYSE/ME/OCE/PSD/SDLC slots не applicability/conformance.
+Ни lookup, ни required package slots не applicability/conformance.
 Required slots — maintainer profile в tools/package, не S runtime algorithm.
 
 Registration нужна только для persistent discovery: in-place inspect/hash,

@@ -2,7 +2,8 @@
 
 **FPF-driven Engineering Work Runtime для организации и исполнения совместной инженерной работы людей, AI-агентов и инструментов.**
 
-Статус: **Closed Beta**; публичный release не заявлен.
+Версия: **5.0.1-beta, локальная Closed Beta**. Bundled DPF Baseline принят Human;
+`distribution_ready=false`, публичный release не заявлен.
 
 ## Что такое iEWR
 
@@ -44,6 +45,30 @@ iEWR удерживает эту связь при работе нескольк
 На выходе вы получаете результат, существенные основания и ограничения, сведения о выполненных проверках и реальных изменениях. Если для нужного использования не хватает данных, технической возможности или решения человека, iEWR обозначает конкретный пробел.
 
 Текущий интерфейс — взаимодействие с агентом в выбранной среде. Подача результата и технические возможности зависят от её конфигурации; отдельный графический интерфейс и готовый автономный сервис в поставке не заявлены.
+
+## Подключение внешнего DPF
+
+Скачайте DPF в [source/external-dpf/](source/external-dpf/), желательно сохранив
+исходное имя файла. Затем попросите iEWR обычным текстом:
+
+```text
+Зарегистрируй DPF из source/external-dpf/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
+```
+
+iEWR прочитает exact source, определит identity и edition, зафиксирует digest
+и необходимые metadata, затем зарегистрирует источник в project repertoire.
+Исходный файл остаётся на месте. Если существенных сведений не хватает, iEWR
+назовёт конкретный пробел.
+
+Регистрация делает DPF доступным для discovery. Она не делает его автоматически
+applicable, приоритетным или authoritative: iEWR использует только contributions,
+подходящие текущему вопросу. DPF — источник предметных знаний и Methods, а не
+runtime plugin. Для прямого использования указанного источника регистрация
+необязательна.
+
+Новую edition регистрируют явно; она не заменяет активную source basis молча.
+Технические правила и границы исполнения — в
+[инструкции регистрации](modules/sources/REGISTRATION.md).
 
 ## Как работает iEWR
 
@@ -121,10 +146,18 @@ flowchart TB
 | [Method Engineering — ME](frameworks/dpf/method-engineering/) | Выбор, описание, проверка и изменение способов работы. |
 | [Organization Change Engineering — OCE](frameworks/dpf/organization-change-engineering/) | Организационные изменения, рабочие отношения и способности. |
 | [Problem Structuring and Decision Support — PSD](frameworks/dpf/problem-structuring-decision-support/) | Постановка проблем, сравнение альтернатив и поддержка решений. |
+| [Operations Management — OPS](frameworks/dpf/operations-management/) | Продолжение текущей работы, operating state, commitments, capacity и operating improvement. |
 
 Отдельно в репертуаре присутствует [SDLC DPF](frameworks/dpf/sdlc/) — экспериментальный проектный черновик для ограниченной локальной пробы, **не upstream-публикация Engineering DPF Suite**. Точные редакции и provenance — в [репертуаре](frameworks/dpf/REPERTOIRE.yaml), состав выбранной конфигурации — в [manifest](PACKAGE_MANIFEST.md).
 
 Дополнительные DPF подключаются отдельно **без изменения Core/runtime architecture**. Для каждой задачи используются только применимые DPF и pattern contributions. Наличие в поставке, регистрация, имя каталога или более новая дата не устанавливают applicability, authority или precedence; существенные конфликты разрешаются по прямым основаниям соответствующего утверждения.
+
+Пять upstream DPF закреплены в редакциях **2026-09-05** из commit
+`43c46859c3926a371fa60cfb1c76aefa19f9eaf9`. Их обычный путь:
+**S → applicable source contribution → F**. Например, OPS.6 может помочь
+сформировать ограниченное продолжение по текущему прямому разрешению и Method.
+Он не создаёт OPS route, workflow в C или обязательный Admission lifecycle;
+выбор действия и изменение записи сами по себе не доказывают Work/progression.
 
 LPF — optional local practice: устойчивые местные способы работы, соглашения и ограничения. iEWR работает без LPF; при наличии используется его применимая часть. Источники проекта и предметной области добавляют фактическую ситуацию, требования и ограничения.
 
@@ -174,6 +207,35 @@ iEWR вырос из [Instantiatio DPF (iDPF)](https://github.com/instantiatio/i
 - [Core Architecture Contract](docs/EWR_CORE_ARCHITECTURE_CONTRACT.md) — архитектурные обязательства.
 - [Platform Adapters](adapters/ADAPTERS.md) — технические границы работы с агентной средой и инструментами.
 - [Source registration](modules/sources/REGISTRATION.md) — подключение дополнительных DPF.
+- [Bundled DPF Baseline Refresh and Integration Guide](docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md) — сопровождение bundled baseline для maintainers.
+
+## Проверка пакета и DPF baseline
+
+Из корня распакованного продукта:
+
+```text
+python -B tools/package/verify_configuration.py --root .
+```
+
+Bounded checks текущей product-доработки доступны в development workspace;
+tests и их input/evidence не входят в ZIP:
+
+```text
+python -B -m unittest discover -s project/artifacts/process/dpf-baseline-refresh/product-maintainer-update/tests -v
+```
+
+Эти checks проверяют exact inventory/configuration, сохранность принятых
+sources/Core, внешний source locus и packaged links. Ранее пять отдельных agent
+probes подтвердили discovery и реальное применение DPF, включая локальное
+OPS continuing-work действие и stop после изменения receiving use. Ещё два
+Direct Work controls использовали достаточный Method без чтения DPF. Полный
+DPF probe cycle для текущей product-доработки не повторялся.
+
+Проверки actual package helper/source registration требуют POSIX; на Windows
+они явно пропускаются, без ослабления adapter controls. Agent probes исполнялись
+instruction-led на controlled local inputs, без formal Work или live POSIX
+JSON qualification. Принятие, resulting evidence и границы описаны в
+[BASELINE_STATUS.md](BASELINE_STATUS.md).
 
 ## Лицензирование и upstream sources
 

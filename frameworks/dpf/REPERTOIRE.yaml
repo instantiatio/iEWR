@@ -8,36 +8,36 @@
       "aliases": [
         "SYSE"
       ],
-      "edition_id": "2026-09-03",
+      "edition_id": "2026-09-05",
       "scope": "package",
-      "source_locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
         "value": "Eternal alpha",
-        "locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/43c46859c3926a371fa60cfb1c76aefa19f9eaf9/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index",
-        "locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "9e8aa64b873139b42b5dadcfb089c3aa843fffeb60a51cafab02ff39a855f0d4"
+          "sha256": "cb5e2f3455cf18d2bd57c748fd7badfbb027fd67ef3f877ec56a0c01bea696e1"
         }
       ],
-      "edition_manifest_sha256": "9e8aa64b873139b42b5dadcfb089c3aa843fffeb60a51cafab02ff39a855f0d4",
-      "registered_at": "2026-09-05T03:45:56Z",
-      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "edition_manifest_sha256": "cb5e2f3455cf18d2bd57c748fd7badfbb027fd67ef3f877ec56a0c01bea696e1",
+      "registered_at": "2026-09-06T16:28:45Z",
+      "registration_basis": "Explicit Human request, 2026-09-06: refresh bundled Engineering DPF and add OPS in clean iEWR; exact local snapshot from project/source/SOURCE_MANIFEST.md, commit 43c46859c3926a371fa60cfb1c76aefa19f9eaf9; local development only",
       "source_bytes_modified_by_registration": false,
       "required_slot": "SYSE",
       "distribution_basis": {
-        "status": "user_reported_pending_confirmation",
-        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
-        "locus": "Human project statements, 2026-09-05"
+        "status": "unresolved",
+        "statement": "Exact refreshed edition included under the current local development request; public redistribution basis not verified. Historical confirmations are not transferred to this edition.",
+        "locus": "project/source/SOURCE_MANIFEST.md section 8; current Human development request, 2026-09-06"
       }
     },
     {
@@ -46,36 +46,36 @@
       "aliases": [
         "ME"
       ],
-      "edition_id": "2026-09-02",
+      "edition_id": "2026-09-05",
       "scope": "package",
-      "source_locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
         "value": "Eternal alpha",
-        "locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/43c46859c3926a371fa60cfb1c76aefa19f9eaf9/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index",
-        "locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "b6bf6e0eb4b5ce3eae710af9672c4ac962129d181dc9ec9125b2ee6ed7ef738a"
+          "sha256": "e0af07cf45f2ce84b893202177df2e429d09d6fe8aac2fc78c38973141f04c81"
         }
       ],
-      "edition_manifest_sha256": "b6bf6e0eb4b5ce3eae710af9672c4ac962129d181dc9ec9125b2ee6ed7ef738a",
-      "registered_at": "2026-09-05T03:45:56Z",
-      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "edition_manifest_sha256": "e0af07cf45f2ce84b893202177df2e429d09d6fe8aac2fc78c38973141f04c81",
+      "registered_at": "2026-09-06T16:28:45Z",
+      "registration_basis": "Explicit Human request, 2026-09-06: refresh bundled Engineering DPF and add OPS in clean iEWR; exact local snapshot from project/source/SOURCE_MANIFEST.md, commit 43c46859c3926a371fa60cfb1c76aefa19f9eaf9; local development only",
       "source_bytes_modified_by_registration": false,
       "required_slot": "ME",
       "distribution_basis": {
-        "status": "user_reported_pending_confirmation",
-        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
-        "locus": "Human project statements, 2026-09-05"
+        "status": "unresolved",
+        "statement": "Exact refreshed edition included under the current local development request; public redistribution basis not verified. Historical confirmations are not transferred to this edition.",
+        "locus": "project/source/SOURCE_MANIFEST.md section 8; current Human development request, 2026-09-06"
       }
     },
     {
@@ -84,36 +84,36 @@
       "aliases": [
         "OCE"
       ],
-      "edition_id": "2026-09-03",
+      "edition_id": "2026-09-05",
       "scope": "package",
-      "source_locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
         "value": "Eternal alpha",
-        "locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/43c46859c3926a371fa60cfb1c76aefa19f9eaf9/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index",
-        "locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "f594749c7acb2a3c1940f42467c9419b95c6c2b173f7b226c2847a3c1bdc5803"
+          "sha256": "423f20ca3ec01a36f08abfc58c5392baa7046b3dd40e127b8fad7d5de6fdf747"
         }
       ],
-      "edition_manifest_sha256": "f594749c7acb2a3c1940f42467c9419b95c6c2b173f7b226c2847a3c1bdc5803",
-      "registered_at": "2026-09-05T03:45:56Z",
-      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "edition_manifest_sha256": "423f20ca3ec01a36f08abfc58c5392baa7046b3dd40e127b8fad7d5de6fdf747",
+      "registered_at": "2026-09-06T16:28:45Z",
+      "registration_basis": "Explicit Human request, 2026-09-06: refresh bundled Engineering DPF and add OPS in clean iEWR; exact local snapshot from project/source/SOURCE_MANIFEST.md, commit 43c46859c3926a371fa60cfb1c76aefa19f9eaf9; local development only",
       "source_bytes_modified_by_registration": false,
       "required_slot": "OCE",
       "distribution_basis": {
-        "status": "user_reported_pending_confirmation",
-        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
-        "locus": "Human project statements, 2026-09-05"
+        "status": "unresolved",
+        "statement": "Exact refreshed edition included under the current local development request; public redistribution basis not verified. Historical confirmations are not transferred to this edition.",
+        "locus": "project/source/SOURCE_MANIFEST.md section 8; current Human development request, 2026-09-06"
       }
     },
     {
@@ -122,36 +122,74 @@
       "aliases": [
         "PSD"
       ],
-      "edition_id": "2026-09-03",
+      "edition_id": "2026-09-05",
       "scope": "package",
-      "source_locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
         "value": "Eternal alpha",
-        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/43c46859c3926a371fa60cfb1c76aefa19f9eaf9/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index",
-        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "467da00f16cf30540a3bbe588c6c35227825e80bcc82775f4d0d2f7bf3b315cf"
+          "sha256": "3a7edde17db8301a44e0cbf8c9018b9de8b343648fef555532bdc01b561a219c"
         }
       ],
-      "edition_manifest_sha256": "467da00f16cf30540a3bbe588c6c35227825e80bcc82775f4d0d2f7bf3b315cf",
-      "registered_at": "2026-09-05T03:45:56Z",
-      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "edition_manifest_sha256": "3a7edde17db8301a44e0cbf8c9018b9de8b343648fef555532bdc01b561a219c",
+      "registered_at": "2026-09-06T16:28:45Z",
+      "registration_basis": "Explicit Human request, 2026-09-06: refresh bundled Engineering DPF and add OPS in clean iEWR; exact local snapshot from project/source/SOURCE_MANIFEST.md, commit 43c46859c3926a371fa60cfb1c76aefa19f9eaf9; local development only",
       "source_bytes_modified_by_registration": false,
       "required_slot": "PSD",
       "distribution_basis": {
-        "status": "user_reported_pending_confirmation",
-        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
-        "locus": "Human project statements, 2026-09-05"
+        "status": "unresolved",
+        "statement": "Exact refreshed edition included under the current local development request; public redistribution basis not verified. Historical confirmations are not transferred to this edition.",
+        "locus": "project/source/SOURCE_MANIFEST.md section 8; current Human development request, 2026-09-06"
+      }
+    },
+    {
+      "source_id": "operations-management",
+      "display_name": "Operations Management Principles Framework",
+      "aliases": [
+        "OPS"
+      ],
+      "edition_id": "2026-09-05",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Eternal alpha",
+        "locus": "frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/43c46859c3926a371fa60cfb1c76aefa19f9eaf9/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "6b83575dff6515a05406ea35ae17881bf47cae39b915e1e1356d1da34d12443b"
+        }
+      ],
+      "edition_manifest_sha256": "6b83575dff6515a05406ea35ae17881bf47cae39b915e1e1356d1da34d12443b",
+      "registered_at": "2026-09-06T16:28:45Z",
+      "registration_basis": "Explicit Human request, 2026-09-06: refresh bundled Engineering DPF and add OPS in clean iEWR; exact local snapshot from project/source/SOURCE_MANIFEST.md, commit 43c46859c3926a371fa60cfb1c76aefa19f9eaf9; local development only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "OPS",
+      "distribution_basis": {
+        "status": "unresolved",
+        "statement": "Exact refreshed edition included under the current local development request; public redistribution basis not verified. Historical confirmations are not transferred to this edition.",
+        "locus": "project/source/SOURCE_MANIFEST.md section 8; current Human development request, 2026-09-06"
       }
     },
     {

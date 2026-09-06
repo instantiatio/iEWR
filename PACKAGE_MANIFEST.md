@@ -2,23 +2,29 @@
 
 | Field | Value |
 |---|---|
-| Package ID | `iEWR-5.0.0-beta` |
-| Version | `5.0.0-beta` |
+| Package ID | `iEWR-5.0.1-beta` |
+| Version | `5.0.1-beta` |
 | Source baseline | `iEWR-closed-beta-2026-09-05` — accepted Closed Beta |
-| Package status | Closed Beta; bounded local clean-package verification |
+| Bundled DPF baseline | `iEWR-bundled-dpf-2026-09-06` — direct Human acceptance for local Closed Beta |
+| Package status | Local Closed Beta 5.0.1-beta with accepted Bundled DPF Baseline; stated evidence limits preserved |
 | distribution_ready | `false` |
 | Public release | `not a public release` |
 | Architecture contract | `1.0 RC — status preserved` |
-| Source ZIP SHA-256 | `b0946f59a6fe8144a01c40cbbfc298842af3d8f8a89e7f8c8e5ebc01547877b0` |
+| Clean baseline ZIP SHA-256 | `45da492fd342dab6764a3b4a65229618ac806c0d7342d02e77f541430f19ea67` |
 
-84 selected components; 55 historical/developer files excluded under the accepted
-composition. Python runtime and exact framework editions are unchanged.
-Only packaging documentation/status/configuration differs from the source ZIP.
+87 selected components (86 hashed rows plus this self-unhashed manifest).
+Five upstream Engineering DPFs use the exact 2026-09-05 editions from commit
+`43c46859c3926a371fa60cfb1c76aefa19f9eaf9`: SYSE/ME/OCE/PSD refreshed, OPS added.
+Experimental local SDLC, Core Contract and functional owner Python are unchanged.
+The stable maintainer guide and empty external-DPF source scaffold are included.
+One directly authorized P adapter change accepts the new source read root;
+the project repertoire write target and existing path controls are preserved.
+Other changes are limited to package profiles and necessary documentation/metadata.
 This package does not create semantic Admission, publication or active-root cutover.
 Current scope, test evidence limits and known gaps: BASELINE_STATUS.md.
 
 Developer tests, fixtures and history are external to this inventory. Their
-presence in a separate test workspace does not expand the product or grant
+presence under the excluded project development contour does not expand the product or grant
 authority. Source distribution readiness remains independently unresolved.
 
 ## Exact file inventory
@@ -27,12 +33,12 @@ Manifest self-unhashed; its SHA-256 is recorded outside the ZIP.
 
 | Path | Role | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | selected product component | 7B73A890CBDDD5AC67AB0F784376A122CE55FB944594CE8F1F8E7CEBE46D624F |
-| `BASELINE_STATUS.md` | selected product component | 86DABBD927FF549C342BE921E54D705A6285830DF825D8A4B2DDDA55ED79500F |
+| `AGENTS.md` | selected product component | 30CEAFE8F1F2D8DF994DF66E5059EBAD85A9A370CD67053CEDC48F620699AC48 |
+| `BASELINE_STATUS.md` | selected product component | 5F5A5F5F6621F22458122624FEE0A68FAE4842C91DE2F1F9F5E17B82EAB92F77 |
 | `ENGINEERING_WORK_BOOTSTRAP_GUIDE.md` | selected product component | 3105D704E1AF6F5FA824D24B6B9347B18FEC7E21A1FE71F1666CA1FAD5E27999 |
 | `LICENSE` | selected product component | EF4DA070E506CD1018F449FC78BAE57537B96F797264CF56F133E411B5B611EC |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | selected product component | B7059B78FD8A6D90E677520FBAF880CE6EF0634855E597D56847F590FEC43490 |
-| `README.md` | selected product component | 4E4F985B03C6EB37226D1D40E3EAB266A386C99A5F4596F7BF9C6469074EAC2F |
+| `README.md` | selected product component | 57844AB309701E2AEF61432696EC78511A3729714193F516E180D81F0B60C2B1 |
 | `WORKING_PROCESS_AND_LOOPS_GUIDE.md` | selected product component | 60F642AE1EB19A05669A7F0C86E6BA65A0E47F186718DF41C85CF6FCE097F557 |
 | `adapters/ADAPTERS.md` | selected product component | 97A1C96747E2911878A03928E24C508BBB956E6FE0EDB450A43A35DF12FE396D |
 | `adapters/agent_host/channel.py` | selected product component | 115D747D2DBB037CF2E6F1A912CCB939D5C347343EB47D92DB8E751A478F0390 |
@@ -41,9 +47,9 @@ Manifest self-unhashed; its SHA-256 is recorded outside the ZIP.
 | `adapters/filesystem/local.py` | selected product component | C571A45B534B51A68C45A9CEADFBD2F3613491879197EAA30E62894513AF34D2 |
 | `adapters/filesystem/recovery.py` | selected product component | 9112729BB1F4B7ABD219F9F4D0A77300AC6AE3986C8593B8E379625D92A31BA6 |
 | `adapters/filesystem/repertoire.py` | selected product component | 025559C5CFCCCF766C37BD4B198DBFF21D7CE6D558780FA6C6636F43A50B5D43 |
-| `adapters/filesystem/repertoire_engine.py` | selected product component | 90F24FB1B34CA4EDE914B629107D09045C6BAB79290C42787AEA5A6B53546186 |
+| `adapters/filesystem/repertoire_engine.py` | selected product component | 21BDDE5B57E80544B49EA588CA246099955AFCD71B9525BC3135A0652ECE53FD |
 | `adapters/presentation/text.py` | selected product component | 84442E0AA5A586610717F5F66DCE9E91CC37D7E8969F2F8BFA9876B386D41415 |
-| `app/bootstrap/CONFIGURATION.json` | selected product component | 28DBDCC5779281135FE30FF9DEEEB50236DBC959305C63A81A2A429F5B91545A |
+| `app/bootstrap/CONFIGURATION.json` | selected product component | 0177B9A3D65A90E9543F08655E52ACF29EE53CD017B65EE1B1B90BD1583499FC |
 | `app/bootstrap/ENTRY.md` | selected product component | 5F9851ED231C3235176C4E9EFC03D254D19B8D71E0284C7502B18137D2A1E224 |
 | `app/bootstrap/operation.py` | selected product component | 6FDE3EA71CFCB8C9039C711713E60116BF56C9316370B50D91A61A9C056A0D5F |
 | `catalog/README.md` | selected product component | 59E93386563B70B8A271D01EAD116F99E9455E0CE17BD59DDA4D5082E6E5B9E9 |
@@ -53,15 +59,17 @@ Manifest self-unhashed; its SHA-256 is recorded outside the ZIP.
 | `catalog/working_process_compositions/CATALOG.md` | selected product component | 35618F6DC9C84BF782321DAA6AB8E12794F4F3CB4A9C2D9102CD75757596C472 |
 | `catalog/working_process_compositions/README.md` | selected product component | 6E2585504014BA917C4ACF7B39BD5C104FCB203A841F50B2E4805D5DB2B4CE76 |
 | `catalog/working_process_compositions/templates/WORKING_PROCESS_COMPOSITION_RECORD.yaml` | selected product component | 4AE37EFC59297FC6D2700799EF484143F825C7C8E4C6A7B2F6879C9DA3BDD449 |
+| `docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md` | product maintainer guide | CECECA19C8AEDFF68EFC99344CB690609A20803F13B501C9946B45252B207B2F |
 | `docs/DPF_FORMATION_METHOD.md` | selected product component | F5720BC446534877DA42FA63B5C7C30DE7E38110E8C7BBD17839735450BD8B52 |
-| `docs/DPF_REGISTRATION_GUIDE.md` | selected product component | 655B110F8E2AA8C846A73362D4DBD5198705FC714DE3DEB4873A6DE88E52BB4D |
+| `docs/DPF_REGISTRATION_GUIDE.md` | selected product component | 0C6AE68196ED93D337BD492A93BC5B94832E41C780C45C28CE643151D91C6D48 |
 | `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | selected product component | EA9842606C82AF26B3217FAE8D743E99E0030EC56CE089B69AD25C551B65343C |
-| `frameworks/dpf/REPERTOIRE.yaml` | selected product component | B62223CFF27ED97BF7F693495EA80534F8F4D67A00CE1799EACC0A89B0A0AFE5 |
-| `frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | B6BF6E0EB4B5CE3EAE710AF9672C4AC962129D181DC9EC9125B2EE6ED7EF738A |
-| `frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | F594749C7ACB2A3C1940F42467C9419B95C6C2B173F7B226C2847A3C1BDC5803 |
-| `frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md` | selected product component | 467DA00F16CF30540A3BBE588C6C35227825E80BCC82775F4D0D2F7BF3B315CF |
+| `frameworks/dpf/REPERTOIRE.yaml` | selected product component | 1D6049A2BC08FC8B4BBF5504092C6452E722F09ECACA2CC13986B2467A571F11 |
+| `frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | E0AF07CF45F2CE84B893202177DF2E429D09D6FE8AAC2FC78C38973141F04C81 |
+| `frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md` | selected product component | 6B83575DFF6515A05406EA35AE17881BF47CAE39B915E1E1356D1DA34D12443B |
+| `frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | 423F20CA3EC01A36F08ABFC58C5392BAA7046B3DD40E127B8FAD7D5DE6FDF747 |
+| `frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md` | selected product component | 3A7EDDE17DB8301A44E0CBF8C9018B9DE8B343648FEF555532BDC01B561A219C |
 | `frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md` | selected product component | EB6E5B1E69EE8192FBCD73ACF05BCA3484AC2637F79ABB810E63D06E3A25F7DA |
-| `frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | 9E8AA64B873139B42B5DADCFB089C3AA843FFFEB60A51CAFAB02FF39A855F0D4 |
+| `frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | CB5E2F3455CF18D2BD57C748FD7BADFBB027FD67EF3F877EC56A0C01BEA696E1 |
 | `modules/coordination/CONTRACT.md` | selected product component | 66A8CAD0E6839587D48025C8E0840FF83C37E1D6A7638F40BD0E034E9BCAEEBD |
 | `modules/coordination/GUIDANCE.md` | selected product component | D5ACBD63700E18D162557E40529395D93DF1A9D38E01B4AB626D0AE57DF6B416 |
 | `modules/coordination/api.py` | selected product component | 2DF8FB261287A54744CFA92CBB9C958BC96114BDC2FA564A0D32999A6EE735EA |
@@ -97,16 +105,17 @@ Manifest self-unhashed; its SHA-256 is recorded outside the ZIP.
 | `modules/reliance/api.py` | selected product component | FC0B842468DC11DD5F5BB2EE902697E62294699DE097354010602D95370D28A9 |
 | `modules/reliance/assessment.py` | selected product component | 2D8A1086C0D5D31D2A61B50A99839BCD775FCE0EA96FC49DE021569D26C63562 |
 | `modules/sources/CONTRACT.md` | selected product component | 95C7617B371A11756F84E3DC436BE7C5E424E94781D395B97065173E2596704F |
-| `modules/sources/GUIDANCE.md` | selected product component | FDFA1E943F3CF68CA44249520435FAB0ED5CCE4CE68265B1908FEFAE7A073A57 |
-| `modules/sources/REGISTRATION.md` | selected product component | D768164E0F9C6DF0AFE4AA704BC80398D3C74FE4BC7CC7EB4E6C523A0942DD60 |
+| `modules/sources/GUIDANCE.md` | selected product component | ED368ED69C45EF05B069E09BB42BE5E1E2F9A472246A17A69F5AA851B31D4CB9 |
+| `modules/sources/REGISTRATION.md` | selected product component | 360A8DD83AC544DB36E3ABABC220A8B1083DBB3B79B0859BF8C78FBDD8A6AD8A |
 | `modules/sources/api.py` | selected product component | 9BAEDE73E20499DF1AD3883E2DA2E969F86DBE73232A58E450083E1FFD0A3850 |
 | `modules/sources/repertoire.py` | selected product component | F229E8801612D4D402076DFC96D959C753355402859E553362C8292B54BB0ED3 |
 | `project/artifacts/.gitkeep` | selected product component | 01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B |
+| `source/external-dpf/.gitkeep` | empty external DPF source scaffold | E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855 |
 | `templates/BOUNDED_EXECUTION_PROFILE_TEMPLATE.md` | selected product component | A52D6043394C38AED93B42B7F629BF1C8FDE36DD21ABFABA837CB2B61C22D9E1 |
 | `templates/DPF_CONTRIBUTION_RESOLUTION_TEMPLATE.yaml` | selected product component | FA57C7307B90E39C8E62887B8D5CCDF180983CF2ED69A752221650F6C1DB3821 |
 | `templates/DPF_REPERTOIRE_TEMPLATE.yaml` | selected product component | 79CD2D60AF505CB0100346A553E2EDFBA738C2945C2BDFE6C1111CC9831A3ACE |
 | `templates/POST_INITIATIVE_LESSONS_REVIEW_TEMPLATE.md` | selected product component | 2132C0D8657D051467831648C571AF6B4858C6E630C3F21FC9D79EF825A190DA |
 | `templates/RUNTIME_CAPABILITY_PROFILE_TEMPLATE.yaml` | selected product component | BF60C842E513C050D0FF436A9FF30129B5B76F049A0D4FDD6E17A1E5B66680D2 |
 | `templates/STATE_INDEX_TEMPLATE.yaml` | selected product component | B8917FCD018B830585A338337E82F865060BBB11AB4211CA55EA4AFA90FF41E7 |
-| `tools/package/integrity.py` | selected product component | 48AD29416CB77D45D69E01E6B37F0D0CAEF9D81D25E784B446B85D4C16BE1E11 |
+| `tools/package/integrity.py` | selected product component | 582C846E5369B1454625B2CE2732B64AB61CABB86E640A3E57D1CC90FE29EB92 |
 | `tools/package/verify_configuration.py` | selected product component | BF172E52BD38D53074047DD80B6313224D65510CB70C11335D7C8F7E3AF44400 |

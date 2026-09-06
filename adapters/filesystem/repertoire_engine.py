@@ -37,6 +37,9 @@ except ImportError:  # No silent fallback to weaker Windows controls.
 SCHEMA_VERSION = "1.0"
 INDEX_NAME = "REPERTOIRE.yaml"
 SCOPE_ROOTS = {"package": "frameworks/dpf", "project": "project/dpf"}
+# Source read roots are separate from the unchanged repertoire write roots.
+SOURCE_ROOTS = {"package": ("frameworks/dpf",),
+                "project": ("project/dpf", "source/external-dpf")}
 MAX_FILES = 10000
 MAX_DEPTH = 24
 MAX_FILE_BYTES = 32 * 1024 * 1024
@@ -102,9 +105,9 @@ def _source_path(locus, scope):
     if scope not in SCOPE_ROOTS:
         _fail("invalid_scope", "Scope must be package or project")
     _relative(locus)
-    prefix = SCOPE_ROOTS[scope] + "/"
-    if not locus.startswith(prefix) or locus == prefix + INDEX_NAME:
-        _fail("unsafe_path", "Source must be below the scope root, not the repertoire itself")
+    if (not any(locus.startswith(root + "/") for root in SOURCE_ROOTS[scope]) or
+            locus == SCOPE_ROOTS[scope] + "/" + INDEX_NAME):
+        _fail("unsafe_path", "Source must be below an allowed source root, not the repertoire itself")
     return locus
 
 
@@ -637,7 +640,6 @@ def unregister(root, source_id, edition_id, registration_basis, commit_guard=Non
                 "effects": {"repertoire_written": True, "source_bytes_modified": False,
                             "repertoire_locus": "project/dpf/REPERTOIRE.yaml"},
                 "limit": "Future project discovery removed; source bytes and historical decisions are untouched."}
-
 
 
 

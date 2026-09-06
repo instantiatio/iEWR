@@ -3,8 +3,8 @@ import hashlib
 import os
 import re
 import stat
-REQUIRED_SLOTS = ("SYSE", "ME", "OCE", "PSD", "SDLC")
-PACKAGE_TREES = ("catalog", "docs", "examples", "frameworks", "scripts", "templates", "tests", "modules", "adapters", "app", "tools")
+REQUIRED_SLOTS = ("SYSE", "ME", "OCE", "PSD", "OPS", "SDLC")
+PACKAGE_TREES = ("catalog", "docs", "examples", "frameworks", "scripts", "source", "templates", "tests", "modules", "adapters", "app", "tools")
 ROOT_LOCAL_EXCLUSIONS = {".git", ".gitignore", ".DS_Store", "project", "PACKAGE_MANIFEST.md", "evidence"}
 OPTIONAL_PROJECT_SCAFFOLD = {"project/artifacts/.gitkeep", "project/source/.gitkeep", "project/src/.gitkeep", "project/tests/.gitkeep"}
 
@@ -57,7 +57,7 @@ def check_package(engine, root, require_distribution_basis=False):
         _fail("missing_package_repertoire", "Package repertoire is absent")
     slots = [e["required_slot"] for e in index["entries"] if "required_slot" in e]
     if sorted(slots) != sorted(REQUIRED_SLOTS):
-        _fail("required_repertoire_missing", "Exactly one edition for each configured 4 + 1 slot is required")
+        _fail("required_repertoire_missing", "Exactly one edition for each configured package slot is required")
     limits = []
     registered_source_paths = set()
     for entry in index["entries"]:
@@ -123,4 +123,3 @@ def check_package(engine, root, require_distribution_basis=False):
             "excluded_workspace_metadata": sorted(excluded_metadata),
             "distribution_ready": not limits, "distribution_limitations": limits,
             "limit": "Byte/configuration check only; not full integration, legal review, applicability, Admission or release."}
-

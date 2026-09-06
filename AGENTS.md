@@ -64,7 +64,8 @@ meaning, не universal lifecycle. Candidate label не type/status ladder.
 `frameworks/**` frozen/read-only без отдельного exact Human scope. Не создавать
 project/sources. User results/carriers только justified project/artifacts/process;
 сначала existing authoritative locus. Preserve user edits/provenance/UTF-8.
-Source registration in-place в project/dpf, без source copy/execution/network.
+Project repertoire — project/dpf/REPERTOIRE.yaml; source inspect in-place,
+без source copy/execution/network. User locus — source/external-dpf/.
 
 Exact selected package inventory: [manifest](PACKAGE_MANIFEST.md).
 Поставляемый JSON entry — app/bootstrap/operation.py; он требует independently
