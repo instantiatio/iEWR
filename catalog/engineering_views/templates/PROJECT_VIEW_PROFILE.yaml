@@ -1,0 +1,22 @@
+# Optional presentation projection. I owns preferences; domain/source owner owns model truth.
+# Persist only for an explicitly selected scope and useful repeated receiving use.
+# No decision, authority or lifecycle is created by filling this template.
+schema_version: 2
+profile_id: ""
+scope: ""
+subject_boundary: ""
+level_of_consideration: null
+receiving_uses: []
+direct_basis_refs: []
+audiences: []
+view_bindings: []
+# Each material binding: exact source/configuration, question/use, format,
+# semantic summary, fallback, confidentiality, observed freshness, local delta,
+# non_coverage, assessment refs/limits, and affected-use reopen condition.
+presentation_preferences: {}
+explicit_persistence_basis_ref: ""
+existing_source_of_record: null
+reopen_triggers: []
+legacy_refs: []
+# Schema 1 source_work_context/status fields keep their original historical
+# meaning in old records; do not convert admitted into blanket reliance.

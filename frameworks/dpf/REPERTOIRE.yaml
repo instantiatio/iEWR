@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "scope": "package",
+  "entries": [
+    {
+      "source_id": "systems-engineering",
+      "display_name": "Systems Engineering Principles Framework",
+      "aliases": [
+        "SYSE"
+      ],
+      "edition_id": "2026-09-03",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Eternal alpha",
+        "locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/systems-engineering/2026-09-03/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "9e8aa64b873139b42b5dadcfb089c3aa843fffeb60a51cafab02ff39a855f0d4"
+        }
+      ],
+      "edition_manifest_sha256": "9e8aa64b873139b42b5dadcfb089c3aa843fffeb60a51cafab02ff39a855f0d4",
+      "registered_at": "2026-09-05T03:45:56Z",
+      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "SYSE",
+      "distribution_basis": {
+        "status": "user_reported_pending_confirmation",
+        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
+        "locus": "Human project statements, 2026-09-05"
+      }
+    },
+    {
+      "source_id": "method-engineering",
+      "display_name": "Method Engineering Principles Framework",
+      "aliases": [
+        "ME"
+      ],
+      "edition_id": "2026-09-02",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Eternal alpha",
+        "locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/method-engineering/2026-09-02/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "b6bf6e0eb4b5ce3eae710af9672c4ac962129d181dc9ec9125b2ee6ed7ef738a"
+        }
+      ],
+      "edition_manifest_sha256": "b6bf6e0eb4b5ce3eae710af9672c4ac962129d181dc9ec9125b2ee6ed7ef738a",
+      "registered_at": "2026-09-05T03:45:56Z",
+      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "ME",
+      "distribution_basis": {
+        "status": "user_reported_pending_confirmation",
+        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
+        "locus": "Human project statements, 2026-09-05"
+      }
+    },
+    {
+      "source_id": "organization-change-engineering",
+      "display_name": "Organization Change Engineering Principles Framework",
+      "aliases": [
+        "OCE"
+      ],
+      "edition_id": "2026-09-03",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Eternal alpha",
+        "locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/organization-change-engineering/2026-09-03/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "f594749c7acb2a3c1940f42467c9419b95c6c2b173f7b226c2847a3c1bdc5803"
+        }
+      ],
+      "edition_manifest_sha256": "f594749c7acb2a3c1940f42467c9419b95c6c2b173f7b226c2847a3c1bdc5803",
+      "registered_at": "2026-09-05T03:45:56Z",
+      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "OCE",
+      "distribution_basis": {
+        "status": "user_reported_pending_confirmation",
+        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
+        "locus": "Human project statements, 2026-09-05"
+      }
+    },
+    {
+      "source_id": "problem-structuring-decision-support",
+      "display_name": "Problem Structuring and Decision Support Principles Framework",
+      "aliases": [
+        "PSD"
+      ],
+      "edition_id": "2026-09-03",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Eternal alpha",
+        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-09-03/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "467da00f16cf30540a3bbe588c6c35227825e80bcc82775f4d0d2f7bf3b315cf"
+        }
+      ],
+      "edition_manifest_sha256": "467da00f16cf30540a3bbe588c6c35227825e80bcc82775f4d0d2f7bf3b315cf",
+      "registered_at": "2026-09-05T03:45:56Z",
+      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "PSD",
+      "distribution_basis": {
+        "status": "user_reported_pending_confirmation",
+        "statement": "Human states these packages are freely distributable and will personally seek author confirmation; no primary licence or author confirmation recorded",
+        "locus": "Human project statements, 2026-09-05"
+      }
+    },
+    {
+      "source_id": "sdlc",
+      "display_name": "Software Development Life Cycle Principles Framework (SDLC DPF)",
+      "aliases": [
+        "SDLC"
+      ],
+      "edition_id": "0.1.0",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md",
+      "normative_loci": [
+        "frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md"
+      ],
+      "declared_status": {
+        "value": "working candidate",
+        "locus": "frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md"
+      },
+      "publication_locator": "frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index",
+        "locus": "frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md"
+      },
+      "files": [
+        {
+          "path": "SDLC_DPF.md",
+          "sha256": "eb6e5b1e69ee8192fbcd73acf05bca3484ac2637f79abb810e63d06e3a25f7da"
+        }
+      ],
+      "edition_manifest_sha256": "eb6e5b1e69ee8192fbcd73acf05bca3484ac2637f79abb810e63d06e3a25f7da",
+      "registered_at": "2026-09-05T03:45:56Z",
+      "registration_basis": "Human closed-beta implementation decision and source-distribution statement, 2026-09-05; local preparation only",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "SDLC",
+      "distribution_basis": {
+        "status": "project_authored_local_trial_only",
+        "statement": "Project-authored experimental draft; no release/publication decision, formal DPF qualification remains limited",
+        "locus": "Human project statements, 2026-09-05"
+      }
+    }
+  ]
+}

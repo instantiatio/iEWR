@@ -1,0 +1,93 @@
+# Optional derived capability/control-evidence view for one exact runtime configuration.
+# It grants no capability, assignment, permission or authority; admits no Work or
+# Result; and never replaces direct semantic sources, decisions or observations.
+
+schema_version: "2.0"
+profile:
+  id: "runtime-capability-profile"
+  revision: "1"
+  status_for_named_use: "draft"
+  receiving_use: ""
+  currentness_window: ""
+  external_configuration_hash_ref: ""  # Avoid an impossible embedded self-hash.
+  supersedes:
+    carrier_ref: ""
+    sha256: ""
+    material_change_summary: []
+
+derived_from:
+  semantic_sources: []       # Each ref includes carrier, edition/hash and exact boundary claim.
+  method_description_refs: []
+  work_or_intended_action_refs: []
+  governance_refs: []        # Projection only; capability evidence grants no authority.
+
+runtime_configuration:
+  host_or_substrate: ""
+  host_version_or_build: ""
+  toolchain: []
+  enforcement_backend: ""
+  material_settings: []
+  observed_at: ""            # RFC 3339 timestamp or explicit unknown plus limitation.
+  configuration_identity: ""
+
+capability_bindings:
+  - boundary_id: ""
+    affected_action_or_use: ""
+    semantic_requirement:
+      source_ref: ""
+      source_sha256: ""
+      claim: ""
+    required_capability_or_control: ""
+    actual_capability_or_control: ""
+    conformance_state: "declared"  # declared | enforced | compensated | unsupported
+    technical_evidence_refs: []
+    verification_case_refs: []
+    compensating_control_refs: []
+    limitations: []
+    control_route: "honest_stop"   # enforce | compensate | human_gate | honest_stop
+    invalidation_triggers: []
+    recovery_or_reopen_route: ""
+
+conformance_contract:
+  allowed_states:
+    - "declared"
+    - "enforced"
+    - "compensated"
+    - "unsupported"
+  allowed_routes:
+    - "enforce"
+    - "compensate"
+    - "human_gate"
+    - "honest_stop"
+  declared_is_enforcement_evidence: false
+  profile_is_permission_or_authority: false
+  profile_is_work_or_result_evidence: false
+  unsupported_blocks_only_affected_action: true
+
+verification:
+  method_description_ref: "tests/conformance/RUNTIME_BOUNDARY_CONFORMANCE_PROTOCOL.md"
+  required_for_receiving_use: false
+  case_dispositions: []      # RC alias, exact configuration, disposition, fresh evidence refs.
+  last_verification_work_ref: ""
+  last_verification_result_ref: ""
+  limitations: []
+
+freshness:
+  checked_at: ""
+  checked_by_or_work_ref: ""
+  invalidation_triggers:
+    - "material semantic-source change"
+    - "material host, tool, control or configuration change"
+    - "missing, stale, contradictory or failed evidence"
+  affected_only_revalidation_route: ""
+  stale_or_conflicting_profile_action: "ignore_for_consequential_execution_and_return_to_direct_source"
+
+compatibility:
+  schema_1_profiles_remain_readable: true
+  missing_successor_fields_mean: "not_supplied"
+  predecessor_evidence_role: "historical_comparison_only"
+  no_automatic_conversion_or_fresh_qualification: true
+  note: >-
+    Schema 1.0 or 1.1 Loop/Task/Run/CAP/Admission bindings retain only their
+    exact predecessor meaning. They do not create target kinds, current authority,
+    fresh evidence or a universal lifecycle.

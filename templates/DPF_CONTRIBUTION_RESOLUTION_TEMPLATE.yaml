@@ -1,0 +1,189 @@
+# Optional task-specific resolution episteme for one current question/use.
+# This carrier is not a DPF schema, plugin API, Registry, source of truth,
+# Method, WorkPlan, authority decision or Admission. Direct source content and
+# direct governance relations always remain authoritative for their own claims.
+
+schema_version: "1.0"
+
+carrier_contract:
+  label: "DPF contribution resolution record"
+  record_id: ""
+  status_for_named_use: "draft"
+  role: "optional_task_specific_resolution_episteme"
+  materialization_reason: ""  # Named audit, reproducibility, handoff or consequential-reliance need.
+  required_for_every_dpf_use: false
+  is_dpf_publication_schema: false
+  is_plugin_or_adapter_contract: false
+  is_registry_entry: false
+  requires_core_patch: false
+  imports_source_lifecycle_or_authority: false
+  mutates_or_imposes_schema_on_source: false
+  grants_source_status: false
+  grants_source_currentness: false
+  grants_applicability: false
+  grants_method_identity_or_enactment: false
+  grants_capability: false
+  grants_assignment: false
+  grants_permission: false
+  grants_authority: false
+  grants_result_adequacy: false
+  grants_verification_result: false
+  grants_assurance: false
+  grants_admission: false
+  grants_reliance: false
+
+current_use:
+  current_question: ""
+  exact_subject:
+    reference: ""
+    description: ""
+    system_status_claim: "not_asserted"
+  receiving_use: ""
+  requested_return: ""
+  consequence_and_reversibility: ""
+
+source_bindings:
+  - binding_id: "source-1"
+    source_role: "dpf"
+    publication_identity: ""
+    authoritative_locator:
+      kind: ""               # local_path | publication_uri | immutable_uri | governed_external_record | other.
+      value: ""
+    observed_snapshot_locus: ""
+    repertoire_entry_ref:    # Optional navigation only; direct source binding below remains required for its use.
+      scope: ""             # package | project; blank for direct unregistered source.
+      source_id: ""
+      edition_id: ""
+      edition_manifest_sha256: ""
+      binding_checked_at: ""
+      index_is_not_source_truth_or_authority: true
+    exact_edition_or_date: ""
+    declared_publication_status:
+      value: ""
+      exact_source_locus: ""
+    content_sha256: ""       # Required only when exact replay/reliance needs a digest.
+    digest_required_for_this_use: false
+    fpf_grounding_claim:
+      value: ""
+      exact_source_locus: ""
+      independently_qualified_by_this_record: false
+    currentness:
+      claim_for_this_use: "unresolved"
+      evidence_ref: ""
+      checked_at: ""
+      qualification_window: ""
+    source_bytes_modified_by_resolution: false
+    material_limits: []
+    reopen_conditions: []
+
+resolution:
+  selection_basis: ""
+  selected_pattern_refs:
+    - source_binding_id: "source-1"
+      pattern_id: ""
+      exact_source_locus: ""
+      declared_pattern_status: ""
+      candidate_fit_rationale: ""
+      applicability_disposition_for_current_question: "not_assessed"  # applicable | inapplicable | insufficientBasis | not_assessed.
+      applicability_basis_or_ref: ""
+      non_applicability_or_limit: ""
+  contributions:
+    # Keep each contribution's direct role/kind. Do not reduce every row to Method.
+    # Method and MethodDescription are used only after their own A.3.1/A.3.2
+    # basis; otherwise retain the source-declared pattern or descriptive cue.
+    # Typical roles: distinction, question_frame, source_declared_pattern,
+    # reusable_way_description_cue, required_result, constraint,
+    # evidence_use_boundary, dependency, specialist_return,
+    # stop_return_reopen, source_currentness.
+    - contribution_id: "contribution-1"
+      source_binding_id: "source-1"
+      pattern_id: ""
+      exact_source_locus: ""
+      direct_role_or_kind: ""
+      source_owned_identity_or_status: ""
+      resolved_contribution: ""
+      intended_consumer_in_current_use: ""
+      dependencies: []
+      evidence_or_use_limits: []
+      stop_return_or_reopen: []
+  explicitly_not_selected: []
+  conflicts:
+    - claim_or_relation: ""
+      conflicting_sources_or_positions: []
+      direct_owner: ""
+      disposition: "unresolved"
+      affected_use: ""
+  unresolved_items: []
+
+result_boundary:
+  resolution_result: ""
+  source_statement_and_resolution_interpretation_are_distinct: true
+  resolution_is_not_source_mutation: true
+  resolved_contribution_is_not_downstream_decision_or_effect: true
+  carrier_is_not_execution_authority: true
+  ordinary_unrecorded_resolution_remains_allowed: true
+
+conditional_downstream_questions:
+  method_question:
+    current: false
+    result_or_return_ref: ""
+  intended_work_planning_question:
+    current: false
+    work_plan_ref: ""
+  working_process_view_question:
+    current: false
+    carrier_ref: ""
+  verification_question:
+    current: false
+    method_or_evidence_ref: ""
+  authority_decision_question:
+    current: false
+    decision_ref: ""
+  reliance_question:
+    current: false
+    exact_result_claim_and_use_ref: ""
+
+governance:
+  semantic_authority_refs: []
+  architecture_contract_refs: []
+  execution_rule_refs: []
+  source_status_owner_refs: []
+  project_scope_or_permission_refs: []
+  authority_decision_refs: []
+  unresolved_owner_routes: []
+  framework_label_or_directory_sets_precedence: false
+  provider_or_tool_access_grants_authority: false
+
+verification_observations:
+  source_locator_observed: false
+  source_digest_observed: false
+  pattern_locus_observed: false
+  contribution_trace_reviewed: false
+  core_boundary_preimage_refs: []
+  core_boundary_postimage_refs: []
+  source_preimage_refs: []
+  source_postimage_refs: []
+  evidence_refs: []
+  limitations: []
+
+reentry_and_change:
+  active_basis_switch_requires_explicit_current_use_decision: true
+  stale_or_mismatched_binding_action: "stop_or_return_only_affected_use"
+  binding_mismatch_alone_is_not_material_claim_change: true
+  claim_sized_comparison_required_before_contribution_reopen: true
+  unaffected_results_remain_open_for_separate_currentness_check: true
+  dependency_edges:
+    - basis_ref: ""
+      dependent_contribution_refs: []
+      dependent_use_refs: []
+  reopen_routes:
+    - changed_basis_or_trigger: ""
+      claim_change_materiality_basis: ""
+      affected_contribution_refs: []
+      affected_contribution_selection_rule: ""
+      affected_use_refs: []
+      direct_owner: ""
+      action: ""
+      unaffected_contribution_refs: []
+      unaffected_use_refs: []
+  stop_condition: ""
