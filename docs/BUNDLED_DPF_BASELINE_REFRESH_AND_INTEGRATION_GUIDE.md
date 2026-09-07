@@ -9,6 +9,10 @@
 не становятся стадиями обычной работы пользователя, runtime routes или
 обязательным Verification → Human Admission lifecycle.
 
+При развитии самого iEWR общий вход, basis и packaging support задаёт
+[self-development guidance](../modules/self_development/GUIDANCE.md).
+Этот guide остаётся специализированной source-refresh инструкцией.
+
 ## Три разных случая работы с источниками
 
 | Случай | Что меняется | Что из этого не следует |
@@ -45,6 +49,8 @@ publication locator, pinned upstream snapshot, original filename, exact files
 Raw file SHA-256 и Git blob identity — разные величины. Для directory edition
 использовать действующий inventory-digest contract из
 [технического registration guide](DPF_REGISTRATION_GUIDE.md#edition-digest-обновление-и-re-entry).
+При прежней авторской дате и иных bytes сохранить дату, pinned commit и новый
+локальный revision ID отдельно; не перезаписывать same identity/edition.
 Сохранять исходные bytes, encoding, provenance и ограничения. Исправление
 metadata не должно незаметно редактировать source publication.
 
@@ -146,8 +152,9 @@ execution и конкретный executable consumer квалифицируют
 Skipped/unsupported checks фиксируются с причиной, без подмены weaker shim и
 без переноса fixture trust на live host.
 
-## 7. Принять exact baseline
+## 7. Предъявить exact candidate baseline
 
+Сначала выполнить подготовку по следующему разделу и проверить candidate ZIP.
 Предъявить Human конкретный source tuple: editions/digests, repertoire identity,
 material changes, проверенное применение, failures/skips, неизменённые invariants,
 предлагаемый package scope и ограничения. До предъявления выполнить уже
@@ -190,9 +197,12 @@ semantics достаточно exact delta, packaged links и relevant integrity
 
 ## 9. Зафиксировать resulting evidence и остановиться
 
-Связать exact accepted baseline, direct response, source/material delta,
+Связать exact candidate baseline, direct response (если получен), source/material delta,
 реальное применение, tests и их limits, final metadata, inventory и ZIP checksum.
 Hash самого manifest и ZIP хранить вне соответствующего self-hashed payload.
+До direct acceptance статус candidate сохраняется; предъявление не означает
+принятия. После решения использовать тот же проверенный ZIP без пересборки,
+observed acceptance хранить внешним record с exact digest.
 Сохранять предыдущие artifacts и их evidence; повторная сборка не переписывает
 старое решение и не создаёт новое разрешение распространения.
 

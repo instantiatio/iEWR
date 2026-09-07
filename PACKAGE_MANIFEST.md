@@ -1,121 +1,127 @@
-# Instantiatio EWR — Closed Beta
+# iEWR 5.2.1-beta — exact candidate package
 
 | Field | Value |
 |---|---|
-| Package ID | `iEWR-5.0.1-beta` |
-| Version | `5.0.1-beta` |
-| Source baseline | `iEWR-closed-beta-2026-09-05` — accepted Closed Beta |
-| Bundled DPF baseline | `iEWR-bundled-dpf-2026-09-06` — direct Human acceptance for local Closed Beta |
-| Package status | Local Closed Beta 5.0.1-beta with accepted Bundled DPF Baseline; stated evidence limits preserved |
+| Package ID | `iEWR-5.2.1-beta` |
+| Version | `5.2.1-beta` |
+| Status | Closed Beta candidate for Human acceptance; not yet accepted |
+| Source baseline | accepted local `iEWR-5.2.0-beta`, 96 files; not published |
+| Source ZIP SHA-256 | `3d6eb16840e1d36b48825bced4f880eb23bda713d7de60925cb4c1c045db0f1d` |
+| Architecture | Core Contract 1.0 RC, owner APIs and runtime semantics preserved; bounded interaction instruction clarification |
+| Bundled DPF | author date 2026-09-05; explicit licensing revision `2026-09-05-rev-d514a6fc` |
 | distribution_ready | `false` |
-| Public release | `not a public release` |
-| Architecture contract | `1.0 RC — status preserved` |
-| Clean baseline ZIP SHA-256 | `45da492fd342dab6764a3b4a65229618ac806c0d7342d02e77f541430f19ea67` |
+| Public release | not performed; separate Human request required |
 
-87 selected components (86 hashed rows plus this self-unhashed manifest).
-Five upstream Engineering DPFs use the exact 2026-09-05 editions from commit
-`43c46859c3926a371fa60cfb1c76aefa19f9eaf9`: SYSE/ME/OCE/PSD refreshed, OPS added.
-Experimental local SDLC, Core Contract and functional owner Python are unchanged.
-The stable maintainer guide and empty external-DPF source scaffold are included.
-One directly authorized P adapter change accepts the new source read root;
-the project repertoire write target and existing path controls are preserved.
-Other changes are limited to package profiles and necessary documentation/metadata.
-This package does not create semantic Admission, publication or active-root cutover.
-Current scope, test evidence limits and known gaps: BASELINE_STATUS.md.
+Exact changes, evidence scope and remaining limits: [BASELINE_STATUS.md](BASELINE_STATUS.md).
+Licenses/attribution: [upstream NOTICE](frameworks/dpf/NOTICE.md), separate [iEWR LICENSE](LICENSE).
+Interaction guidance applies to ordinary work. Self-development support still
+requires explicit development of iEWR. Neither creates a runtime owner, workflow,
+authority or automatic source/reliance transition.
+Local SDLC remains unchanged and experimental; no SDLC overlap audit.
 
-Developer tests, fixtures and history are external to this inventory. Their
-presence under the excluded project development contour does not expand the product or grant
-authority. Source distribution readiness remains independently unresolved.
+Only this exact inventory is the product. User source/reference files, development
+records/tests, candidate ZIPs and handoff archives are excluded. Empty scaffold
+and project/README are the only project members. Manifest has no self-hash;
+its SHA-256 and ZIP identity are recorded in external delivery evidence.
 
 ## Exact file inventory
 
-Manifest self-unhashed; its SHA-256 is recorded outside the ZIP.
+96 selected files; 95 hashed rows; 94 configuration rows.
 
 | Path | Role | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | selected product component | 30CEAFE8F1F2D8DF994DF66E5059EBAD85A9A370CD67053CEDC48F620699AC48 |
-| `BASELINE_STATUS.md` | selected product component | 5F5A5F5F6621F22458122624FEE0A68FAE4842C91DE2F1F9F5E17B82EAB92F77 |
-| `ENGINEERING_WORK_BOOTSTRAP_GUIDE.md` | selected product component | 3105D704E1AF6F5FA824D24B6B9347B18FEC7E21A1FE71F1666CA1FAD5E27999 |
-| `LICENSE` | selected product component | EF4DA070E506CD1018F449FC78BAE57537B96F797264CF56F133E411B5B611EC |
-| `MODEL_SELECTION_RECOMMENDATIONS.md` | selected product component | B7059B78FD8A6D90E677520FBAF880CE6EF0634855E597D56847F590FEC43490 |
-| `README.md` | selected product component | 57844AB309701E2AEF61432696EC78511A3729714193F516E180D81F0B60C2B1 |
-| `WORKING_PROCESS_AND_LOOPS_GUIDE.md` | selected product component | 60F642AE1EB19A05669A7F0C86E6BA65A0E47F186718DF41C85CF6FCE097F557 |
-| `adapters/ADAPTERS.md` | selected product component | 97A1C96747E2911878A03928E24C508BBB956E6FE0EDB450A43A35DF12FE396D |
-| `adapters/agent_host/channel.py` | selected product component | 115D747D2DBB037CF2E6F1A912CCB939D5C347343EB47D92DB8E751A478F0390 |
-| `adapters/agent_host/responses.py` | selected product component | 6DC5CA67A3F081248C6717E512DC87B87D3F7F2DD6CB0A997354FAD2889323DD |
-| `adapters/filesystem/artifacts.py` | selected product component | 635A03A3784356241FF20087DBE8E9343CF75EB8EDCD285C609E9F4FC3240A23 |
-| `adapters/filesystem/local.py` | selected product component | C571A45B534B51A68C45A9CEADFBD2F3613491879197EAA30E62894513AF34D2 |
-| `adapters/filesystem/recovery.py` | selected product component | 9112729BB1F4B7ABD219F9F4D0A77300AC6AE3986C8593B8E379625D92A31BA6 |
-| `adapters/filesystem/repertoire.py` | selected product component | 025559C5CFCCCF766C37BD4B198DBFF21D7CE6D558780FA6C6636F43A50B5D43 |
-| `adapters/filesystem/repertoire_engine.py` | selected product component | 21BDDE5B57E80544B49EA588CA246099955AFCD71B9525BC3135A0652ECE53FD |
-| `adapters/presentation/text.py` | selected product component | 84442E0AA5A586610717F5F66DCE9E91CC37D7E8969F2F8BFA9876B386D41415 |
-| `app/bootstrap/CONFIGURATION.json` | selected product component | 0177B9A3D65A90E9543F08655E52ACF29EE53CD017B65EE1B1B90BD1583499FC |
-| `app/bootstrap/ENTRY.md` | selected product component | 5F9851ED231C3235176C4E9EFC03D254D19B8D71E0284C7502B18137D2A1E224 |
-| `app/bootstrap/operation.py` | selected product component | 6FDE3EA71CFCB8C9039C711713E60116BF56C9316370B50D91A61A9C056A0D5F |
-| `catalog/README.md` | selected product component | 59E93386563B70B8A271D01EAD116F99E9455E0CE17BD59DDA4D5082E6E5B9E9 |
-| `catalog/engineering_views/CATALOG.md` | selected product component | 04362CC56908A077C47D206A9064501C8285341E6285F38352A0760DB5A5AE34 |
-| `catalog/engineering_views/README.md` | selected product component | 0576C71190C4EAC933529532D9A1CA9E91A435593CA50B1117F0E6F881099C00 |
-| `catalog/engineering_views/templates/PROJECT_VIEW_PROFILE.yaml` | selected product component | 96A70940FA3A6D1AA0130481337ADA9B05573923F2797F7E9FF6DC2AE2B970B6 |
-| `catalog/working_process_compositions/CATALOG.md` | selected product component | 35618F6DC9C84BF782321DAA6AB8E12794F4F3CB4A9C2D9102CD75757596C472 |
-| `catalog/working_process_compositions/README.md` | selected product component | 6E2585504014BA917C4ACF7B39BD5C104FCB203A841F50B2E4805D5DB2B4CE76 |
-| `catalog/working_process_compositions/templates/WORKING_PROCESS_COMPOSITION_RECORD.yaml` | selected product component | 4AE37EFC59297FC6D2700799EF484143F825C7C8E4C6A7B2F6879C9DA3BDD449 |
-| `docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md` | product maintainer guide | CECECA19C8AEDFF68EFC99344CB690609A20803F13B501C9946B45252B207B2F |
-| `docs/DPF_FORMATION_METHOD.md` | selected product component | F5720BC446534877DA42FA63B5C7C30DE7E38110E8C7BBD17839735450BD8B52 |
-| `docs/DPF_REGISTRATION_GUIDE.md` | selected product component | 0C6AE68196ED93D337BD492A93BC5B94832E41C780C45C28CE643151D91C6D48 |
-| `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | selected product component | EA9842606C82AF26B3217FAE8D743E99E0030EC56CE089B69AD25C551B65343C |
-| `frameworks/dpf/REPERTOIRE.yaml` | selected product component | 1D6049A2BC08FC8B4BBF5504092C6452E722F09ECACA2CC13986B2467A571F11 |
-| `frameworks/dpf/method-engineering/2026-09-05/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | E0AF07CF45F2CE84B893202177DF2E429D09D6FE8AAC2FC78C38973141F04C81 |
-| `frameworks/dpf/operations-management/2026-09-05/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md` | selected product component | 6B83575DFF6515A05406EA35AE17881BF47CAE39B915E1E1356D1DA34D12443B |
-| `frameworks/dpf/organization-change-engineering/2026-09-05/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | 423F20CA3EC01A36F08ABFC58C5392BAA7046B3DD40E127B8FAD7D5DE6FDF747 |
-| `frameworks/dpf/problem-structuring-decision-support/2026-09-05/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md` | selected product component | 3A7EDDE17DB8301A44E0CBF8C9018B9DE8B343648FEF555532BDC01B561A219C |
-| `frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md` | selected product component | EB6E5B1E69EE8192FBCD73ACF05BCA3484AC2637F79ABB810E63D06E3A25F7DA |
-| `frameworks/dpf/systems-engineering/2026-09-05/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | CB5E2F3455CF18D2BD57C748FD7BADFBB027FD67EF3F877EC56A0C01BEA696E1 |
-| `modules/coordination/CONTRACT.md` | selected product component | 66A8CAD0E6839587D48025C8E0840FF83C37E1D6A7638F40BD0E034E9BCAEEBD |
-| `modules/coordination/GUIDANCE.md` | selected product component | D5ACBD63700E18D162557E40529395D93DF1A9D38E01B4AB626D0AE57DF6B416 |
-| `modules/coordination/api.py` | selected product component | 2DF8FB261287A54744CFA92CBB9C958BC96114BDC2FA564A0D32999A6EE735EA |
-| `modules/effects/CONTRACT.md` | selected product component | 38339720CDE001C4AF4AF3EAC242AF2E8395F13DD2D7A156EFC14644C4C8F44B |
-| `modules/effects/GUIDANCE.md` | selected product component | E78F62BA5E09C4E9F52501807703D667AF4ECA53F3B98A85B1568064A249D237 |
-| `modules/effects/api.py` | selected product component | 054142AAEA6287187238CF97DCD1F9D3A852224D77360B6DAA907A375155A3BF |
-| `modules/effects/operations.py` | selected product component | EC2BE5EF2B71B9836772FFC935A95724104E8B7F63CE2F5511035EFD6EE699F6 |
-| `modules/execution/CONTRACT.md` | selected product component | 1AABCCABF4A4674080DCE494918920466EBB4D14FE3FDE14D3758405A0F09CEE |
-| `modules/execution/EXECUTION_BASIS.md` | selected product component | 9689E12F3A56BEB96FD2621D4044536AA88E8232290EB097302C607579947FB9 |
-| `modules/execution/api.py` | selected product component | 5F50847385764A116A0042465926B9BA5CFE45938D8DE68A3BB680EC89CCC9B0 |
-| `modules/execution/operations.py` | selected product component | AF38D55CF76B4472977FA6D7369BFAC6358E019CD6A0FC8155254123DB7BD66E |
-| `modules/execution/profiles.py` | selected product component | EE01627ED36B5543C5B8402602B1D372B32E5E71EA91B584918095B660AD9F92 |
-| `modules/execution/work_basis.py` | selected product component | D96F29CF52F4474B99B572DAA29BE14E2367F0B5045C7FE0CB68DD0A4428E16B |
-| `modules/formation/CONTRACT.md` | selected product component | 604D41CB8C9B80D299830F276411A02CC1F00EE441A67EAA5159451B41870BA8 |
-| `modules/formation/DOMAIN_WORK.md` | selected product component | C44FBC414F33E754B5040E350E264BB947259608DF443131BCECDB93C839151B |
-| `modules/formation/api.py` | selected product component | C2FFB6DD62FA3FEC34B6E06FB5CE369091653EA26778965B6AD342788F8F2BC1 |
-| `modules/formation/execution_basis.py` | selected product component | 01B3AC1D646126ED42F13A7B21878F597603B7986A0959F89279056D8AD60440 |
-| `modules/formation/operations.py` | selected product component | 2D32A3F45424D43E3FD29E8A217C10B882150AD23D11860A3EC42D8D27279573 |
-| `modules/governance/CONTRACT.md` | selected product component | 93A666400239DCF6B9CCBCB8855032FC93E3AE5899EBC232A331461C87ACF5B3 |
-| `modules/governance/GUIDANCE.md` | selected product component | 2FA3E398A9B5ACA4FC3F994D755DF986F0B5DF437E5FB505B9925F227DE18A0B |
-| `modules/governance/api.py` | selected product component | AA7FA47660DA19204449452102EC8586A87EA1AB08B9E17514F8EA47815CA6CA |
-| `modules/governance/operations.py` | selected product component | 8A28ACC269B1C6EA82B86B990FD9560E7B2574A728643435B15D3C32E302927E |
-| `modules/governance/responses.py` | selected product component | 11FC582EB81EB3D1DF75C16B626C4E46B4DA500C2375BD1626906A5B8680CD0C |
-| `modules/interaction/CONTRACT.md` | selected product component | D149E12FD6A373551D09A9620933B8B5A40ECD555C89E4024CC72406DCA19439 |
-| `modules/interaction/HUMAN_INTERACTION.md` | selected product component | 0A02B83FABEA5E807988B65E06A939201FA37B9462F80639E5007C740990F440 |
-| `modules/interaction/api.py` | selected product component | 57C2EF8E1926C0F37A0C158B5EEBEF315C060B6AAD94726EB7F3209FBD56A5A0 |
-| `modules/interaction/preferences.py` | selected product component | DE98C54AA3652BB5518442A6F8C174DFCE7C8C3C0CCBD66C0B7F80EEB7356D99 |
-| `modules/interaction/presentation.py` | selected product component | 55F0329EB0B8753263DC3C528F7B3B098806F04EE6175E19FAFF19653885128E |
-| `modules/recovery/CONTRACT.md` | selected product component | F55A04C3C69375A350C7C0370E2AF6E5AA0821B6D9321226C7A2AE7CD01B9A6F |
-| `modules/recovery/api.py` | selected product component | 12CB724D22C89207FCF7FB183F3860A911FBA8E7D8C06F01C6F072601AB755E5 |
-| `modules/reliance/CONTRACT.md` | selected product component | 7458F8DD2D291A510EC20520DC454D890D80DA0AAE62B379BDAA5E74F2C42674 |
-| `modules/reliance/RECEIVING_USE.md` | selected product component | 6432C5C41B4D68A17D23B4746DA3BFB4E240CF139F6F4DB39A75333C5BE0288D |
-| `modules/reliance/api.py` | selected product component | FC0B842468DC11DD5F5BB2EE902697E62294699DE097354010602D95370D28A9 |
-| `modules/reliance/assessment.py` | selected product component | 2D8A1086C0D5D31D2A61B50A99839BCD775FCE0EA96FC49DE021569D26C63562 |
-| `modules/sources/CONTRACT.md` | selected product component | 95C7617B371A11756F84E3DC436BE7C5E424E94781D395B97065173E2596704F |
-| `modules/sources/GUIDANCE.md` | selected product component | ED368ED69C45EF05B069E09BB42BE5E1E2F9A472246A17A69F5AA851B31D4CB9 |
-| `modules/sources/REGISTRATION.md` | selected product component | 360A8DD83AC544DB36E3ABABC220A8B1083DBB3B79B0859BF8C78FBDD8A6AD8A |
-| `modules/sources/api.py` | selected product component | 9BAEDE73E20499DF1AD3883E2DA2E969F86DBE73232A58E450083E1FFD0A3850 |
-| `modules/sources/repertoire.py` | selected product component | F229E8801612D4D402076DFC96D959C753355402859E553362C8292B54BB0ED3 |
-| `project/artifacts/.gitkeep` | selected product component | 01BA4719C80B6FE911B091A7C05124B64EEECE964E09C058EF8F9805DACA546B |
-| `source/external-dpf/.gitkeep` | empty external DPF source scaffold | E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855 |
-| `templates/BOUNDED_EXECUTION_PROFILE_TEMPLATE.md` | selected product component | A52D6043394C38AED93B42B7F629BF1C8FDE36DD21ABFABA837CB2B61C22D9E1 |
-| `templates/DPF_CONTRIBUTION_RESOLUTION_TEMPLATE.yaml` | selected product component | FA57C7307B90E39C8E62887B8D5CCDF180983CF2ED69A752221650F6C1DB3821 |
-| `templates/DPF_REPERTOIRE_TEMPLATE.yaml` | selected product component | 79CD2D60AF505CB0100346A553E2EDFBA738C2945C2BDFE6C1111CC9831A3ACE |
-| `templates/POST_INITIATIVE_LESSONS_REVIEW_TEMPLATE.md` | selected product component | 2132C0D8657D051467831648C571AF6B4858C6E630C3F21FC9D79EF825A190DA |
-| `templates/RUNTIME_CAPABILITY_PROFILE_TEMPLATE.yaml` | selected product component | BF60C842E513C050D0FF436A9FF30129B5B76F049A0D4FDD6E17A1E5B66680D2 |
-| `templates/STATE_INDEX_TEMPLATE.yaml` | selected product component | B8917FCD018B830585A338337E82F865060BBB11AB4211CA55EA4AFA90FF41E7 |
-| `tools/package/integrity.py` | selected product component | 582C846E5369B1454625B2CE2732B64AB61CABB86E640A3E57D1CC90FE29EB92 |
-| `tools/package/verify_configuration.py` | selected product component | BF172E52BD38D53074047DD80B6313224D65510CB70C11335D7C8F7E3AF44400 |
+| `AGENTS.md` | selected product component | fb208c4dc80a0c0958f60e95c88f7777101497328583e72e0e5f3c53ba2fdc7a |
+| `BASELINE_STATUS.md` | selected product component | 36db6fc5647a9e91d2d898d67d4a89c5578b3d14b21b4dbf249f451e3c078354 |
+| `ENGINEERING_WORK_BOOTSTRAP_GUIDE.md` | selected product component | 3105d704e1af6f5fa824d24b6b9347b18fec7e21a1fe71f1666ca1fad5e27999 |
+| `LICENSE` | selected product component | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
+| `MODEL_SELECTION_RECOMMENDATIONS.md` | selected product component | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
+| `README.md` | selected product component | 86cf726cb9c7872fb0bf189cb0fccb8b181c11ad080a80980dec0d3554fc5225 |
+| `WORKING_PROCESS_AND_LOOPS_GUIDE.md` | selected product component | 60f642ae1eb19a05669a7f0c86e6ba65a0e47f186718df41c85cf6fce097f557 |
+| `adapters/ADAPTERS.md` | selected product component | 97a1c96747e2911878a03928e24c508bbb956e6fe0edb450a43a35df12fe396d |
+| `adapters/agent_host/channel.py` | selected product component | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
+| `adapters/agent_host/responses.py` | selected product component | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
+| `adapters/filesystem/artifacts.py` | selected product component | 635a03a3784356241ff20087dbe8e9343cf75eb8edcd285c609e9f4fc3240a23 |
+| `adapters/filesystem/local.py` | selected product component | c571a45b534b51a68c45a9ceadfbd2f3613491879197eaa30e62894513af34d2 |
+| `adapters/filesystem/recovery.py` | selected product component | 9112729bb1f4b7abd219f9f4d0a77300ac6ae3986c8593b8e379625d92a31ba6 |
+| `adapters/filesystem/repertoire.py` | selected product component | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
+| `adapters/filesystem/repertoire_engine.py` | selected product component | 21bdde5b57e80544b49ea588ca246099955afcd71b9525bc3135a0652ece53fd |
+| `adapters/presentation/text.py` | selected product component | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
+| `app/bootstrap/CONFIGURATION.json` | selected product component | 84370492d4a7e768e0dd02159cf63736956066332242a9bc2ec78bc8dcd6fe39 |
+| `app/bootstrap/ENTRY.md` | selected product component | 5f9851ed231c3235176c4e9efc03d254d19b8d71e0284c7502b18137d2a1e224 |
+| `app/bootstrap/operation.py` | selected product component | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
+| `catalog/README.md` | selected product component | 59e93386563b70b8a271d01ead116f99e9455e0ce17bd59dda4d5082e6e5b9e9 |
+| `catalog/engineering_views/CATALOG.md` | selected product component | 04362cc56908a077c47d206a9064501c8285341e6285f38352a0760db5a5ae34 |
+| `catalog/engineering_views/README.md` | selected product component | 0576c71190c4eac933529532d9a1ca9e91a435593ca50b1117f0e6f881099c00 |
+| `catalog/engineering_views/templates/PROJECT_VIEW_PROFILE.yaml` | selected product component | 96a70940fa3a6d1aa0130481337ada9b05573923f2797f7e9ff6dc2ae2b970b6 |
+| `catalog/working_process_compositions/CATALOG.md` | selected product component | 35618f6dc9c84bf782321daa6ab8e12794f4f3cb4a9c2d9102cd75757596c472 |
+| `catalog/working_process_compositions/README.md` | selected product component | 6e2585504014ba917c4acf7b39bd5c104fcb203a841f50b2e4805d5db2b4ce76 |
+| `catalog/working_process_compositions/templates/WORKING_PROCESS_COMPOSITION_RECORD.yaml` | selected product component | 4ae37efc59297fc6d2700799ef484143f825c7c8e4c6a7b2f6879c9da3bdd449 |
+| `docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md` | selected product component | 610573e28fb9bfa55b26196622a27bf00aab4d5a885b0fa06b900fee17314114 |
+| `docs/DPF_FORMATION_METHOD.md` | selected product component | f5720bc446534877da42fa63b5c7c30de7e38110e8c7bbd17839735450bd8b52 |
+| `docs/DPF_REGISTRATION_GUIDE.md` | selected product component | 0c6ae68196ed93d337bd492a93bc5b94832e41c780c45c28ce643151d91c6d48 |
+| `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | selected product component | ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c |
+| `frameworks/dpf/LICENSE` | selected product component | 9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94 |
+| `frameworks/dpf/LICENSING.md` | selected product component | f80502802237f19a0ea85303a792281e0f9c533e86d23f8a6174d5c18bd70864 |
+| `frameworks/dpf/NOTICE.md` | selected product component | 17a0eafe4c07c5a5f7d15f0682dc067071cd6660f738a2c26b4ae010602e9b6e |
+| `frameworks/dpf/REPERTOIRE.yaml` | selected product component | f7ebd9be7a1d1d575fa6243c5b03fcb36e5e47dc59e529036b91d5d9bcee384c |
+| `frameworks/dpf/method-engineering/2026-09-05-rev-d514a6fc/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | cc9056e958c0435ec33666291f6fa4bb207d5e307ae6b28213f134f74d92bef4 |
+| `frameworks/dpf/operations-management/2026-09-05-rev-d514a6fc/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md` | selected product component | 5d2ff495c0a6fff809092c8e36c826ae3a6d94860cf58d63ef61a41feaeedd87 |
+| `frameworks/dpf/organization-change-engineering/2026-09-05-rev-d514a6fc/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | a7ab62df62afe22086165830d0c91bf04c43d07437431f7d6944c571894da5ac |
+| `frameworks/dpf/problem-structuring-decision-support/2026-09-05-rev-d514a6fc/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md` | selected product component | dbf0f86337d24dcb89d90faa38240991579b9fe6d1487120285c36126673efa9 |
+| `frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md` | selected product component | eb6e5b1e69ee8192fbcd73acf05bca3484ac2637f79abb810e63d06e3a25f7da |
+| `frameworks/dpf/systems-engineering/2026-09-05-rev-d514a6fc/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | selected product component | 45c49096102c11c7ac1024e3b459f7b9e791c48613163af46f2d63cfdf579887 |
+| `modules/coordination/CONTRACT.md` | selected product component | 66a8cad0e6839587d48025c8e0840ff83c37e1d6a7638f40bd0e034e9bcaeebd |
+| `modules/coordination/GUIDANCE.md` | selected product component | d5acbd63700e18d162557e40529395d93df1a9d38e01b4ab626d0ae57df6b416 |
+| `modules/coordination/api.py` | selected product component | 2df8fb261287a54744cfa92cbb9c958bc96114bdc2fa564a0d32999a6ee735ea |
+| `modules/effects/CONTRACT.md` | selected product component | 38339720cde001c4af4af3eac242af2e8395f13dd2d7a156efc14644c4c8f44b |
+| `modules/effects/GUIDANCE.md` | selected product component | e78f62ba5e09c4e9f52501807703d667af4eca53f3b98a85b1568064a249d237 |
+| `modules/effects/api.py` | selected product component | 054142aaea6287187238cf97dcd1f9d3a852224d77360b6daa907a375155a3bf |
+| `modules/effects/operations.py` | selected product component | ec2be5ef2b71b9836772ffc935a95724104e8b7f63ce2f5511035efd6ee699f6 |
+| `modules/execution/CONTRACT.md` | selected product component | 1aabccabf4a4674080dce494918920466ebb4d14fe3fde14d3758405a0f09cee |
+| `modules/execution/EXECUTION_BASIS.md` | selected product component | 9689e12f3a56beb96fd2621d4044536aa88e8232290eb097302c607579947fb9 |
+| `modules/execution/api.py` | selected product component | 5f50847385764a116a0042465926b9ba5cfe45938d8de68a3bb680ec89ccc9b0 |
+| `modules/execution/operations.py` | selected product component | af38d55cf76b4472977fa6d7369bfac6358e019cd6a0fc8155254123db7bd66e |
+| `modules/execution/profiles.py` | selected product component | ee01627ed36b5543c5b8402602b1d372b32e5e71ea91b584918095b660ad9f92 |
+| `modules/execution/work_basis.py` | selected product component | d96f29cf52f4474b99b572daa29be14e2367f0b5045c7fe0cb68dd0a4428e16b |
+| `modules/formation/CONTRACT.md` | selected product component | 604d41cb8c9b80d299830f276411a02cc1f00ee441a67eaa5159451b41870ba8 |
+| `modules/formation/DOMAIN_WORK.md` | selected product component | c44fbc414f33e754b5040e350e264bb947259608df443131bcecdb93c839151b |
+| `modules/formation/api.py` | selected product component | c2ffb6dd62fa3fec34b6e06fb5ce369091653ea26778965b6ad342788f8f2bc1 |
+| `modules/formation/execution_basis.py` | selected product component | 01b3ac1d646126ed42f13a7b21878f597603b7986a0959f89279056d8ad60440 |
+| `modules/formation/operations.py` | selected product component | 2d32a3f45424d43e3fd29e8a217c10b882150ad23d11860a3ec42d8d27279573 |
+| `modules/governance/CONTRACT.md` | selected product component | 93a666400239dcf6b9ccbcb8855032fc93e3ae5899ebc232a331461c87acf5b3 |
+| `modules/governance/GUIDANCE.md` | selected product component | 2fa3e398a9b5aca4fc3f994d755df986f0b5df437e5fb505b9925f227de18a0b |
+| `modules/governance/api.py` | selected product component | aa7fa47660da19204449452102ec8586a87ea1ab08b9e17514f8ea47815ca6ca |
+| `modules/governance/operations.py` | selected product component | 8a28acc269b1c6ea82b86b990fd9560e7b2574a728643435b15d3c32e302927e |
+| `modules/governance/responses.py` | selected product component | 11fc582eb81eb3d1df75c16b626c4e46b4da500c2375bd1626906a5b8680cd0c |
+| `modules/interaction/CONTRACT.md` | selected product component | d149e12fd6a373551d09a9620933b8b5a40ecd555c89e4024cc72406dca19439 |
+| `modules/interaction/HUMAN_INTERACTION.md` | selected product component | 45efc43466c9b6a209e0b5487a37393e931635c5bb68d1b315891fe180cc53b4 |
+| `modules/interaction/api.py` | selected product component | 57c2ef8e1926c0f37a0c158b5eebef315c060b6aad94726eb7f3209fbd56a5a0 |
+| `modules/interaction/preferences.py` | selected product component | de98c54aa3652bb5518442a6f8c174dfce7c8c3c0ccbd66c0b7f80eeb7356d99 |
+| `modules/interaction/presentation.py` | selected product component | c4749c9cac50683383d29cbf85bd03339a32ea164ea5b901273d97398edadd49 |
+| `modules/recovery/CONTRACT.md` | selected product component | f55a04c3c69375a350c7c0370e2af6e5aa0821b6d9321226c7a2ae7cd01b9a6f |
+| `modules/recovery/api.py` | selected product component | 12cb724d22c89207fcf7fb183f3860a911fba8e7d8c06f01c6f072601ab755e5 |
+| `modules/reliance/CONTRACT.md` | selected product component | 7458f8dd2d291a510ec20520dc454d890d80da0aae62b379bdaa5e74f2c42674 |
+| `modules/reliance/RECEIVING_USE.md` | selected product component | 6432c5c41b4d68a17d23b4746da3bfb4e240cf139f6f4db39a75333c5be0288d |
+| `modules/reliance/api.py` | selected product component | fc0b842468dc11dd5f5bb2ee902697e62294699de097354010602d95370d28a9 |
+| `modules/reliance/assessment.py` | selected product component | 2d8a1086c0d5d31d2a61b50a99839bcd775fce0ea96fc49de021569d26c63562 |
+| `modules/self_development/EXPERIENCE.md` | selected product component | 2d7d1520e1d75a76c55ca3271c8220f10482316a29d82d46354be9a271ee0ce0 |
+| `modules/self_development/GUIDANCE.md` | selected product component | 38998e5c243c4a92c9d014ea193cc1b36fdbb6b9ad2a5486161fb902ea9b7586 |
+| `modules/sources/CONTRACT.md` | selected product component | 95c7617b371a11756f84e3dc436be7c5e424e94781d395b97065173e2596704f |
+| `modules/sources/GUIDANCE.md` | selected product component | ed368ed69c45ef05b069e09bb42be5e1e2f9a472246a17a69f5aa851b31d4cb9 |
+| `modules/sources/REGISTRATION.md` | selected product component | 360a8dd83ac544db36e3ababc220a8b1083dbb3b79b0859bf8c78fbdd8a6ad8a |
+| `modules/sources/api.py` | selected product component | 9baede73e20499df1ad3883e2da2e969f86dbe73232a58e450083e1ffd0a3850 |
+| `modules/sources/repertoire.py` | selected product component | f229e8801612d4d402076dfc96d959c753355402859e553362c8292b54bb0ed3 |
+| `project/README.md` | selected product component | c233a3b5f6ed55be53c08ee9a12470386f7704cf2beca437b98fd846e56214dc |
+| `project/artifacts/.gitkeep` | selected product component | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
+| `project/reference/.gitkeep` | selected product component | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
+| `project/source/.gitkeep` | selected product component | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
+| `source/external-dpf/.gitkeep` | selected product component | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
+| `templates/BOUNDED_EXECUTION_PROFILE_TEMPLATE.md` | selected product component | a52d6043394c38aed93b42b7f629bf1c8fde36dd21abfaba837cb2b61c22d9e1 |
+| `templates/DPF_CONTRIBUTION_RESOLUTION_TEMPLATE.yaml` | selected product component | fa57c7307b90e39c8e62887b8d5ccdf180983cf2ed69a752221650f6c1db3821 |
+| `templates/DPF_REPERTOIRE_TEMPLATE.yaml` | selected product component | 79cd2d60af505cb0100346a553e2edfba738c2945c2bdfe6c1111cc9831a3ace |
+| `templates/POST_INITIATIVE_LESSONS_REVIEW_TEMPLATE.md` | selected product component | 2132c0d8657d051467831648c571af6b4858c6e630c3f21fc9d79ef825a190da |
+| `templates/RUNTIME_CAPABILITY_PROFILE_TEMPLATE.yaml` | selected product component | bf60c842e513c050d0ff436a9ff30129b5b76f049a0d4fdd6e17a1e5b66680d2 |
+| `templates/STATE_INDEX_TEMPLATE.yaml` | selected product component | b8917fcd018b830585a338337e82f865060bbb11ab4211ca55ea4afa90ff41e7 |
+| `tools/package/integrity.py` | selected product component | ffcafb5be9c72e9ead7db2c3c13eae8986306dd534d29c9732c94919e0f192bc |
+| `tools/package/prepare.py` | selected product component | 8b6e5e8c9f255ab4367eb3d8c1eba044745a4f1694065e2693a47436ba4ce1a9 |
+| `tools/package/verify_configuration.py` | selected product component | 96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812 |

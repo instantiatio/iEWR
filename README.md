@@ -2,8 +2,10 @@
 
 **FPF-driven Engineering Work Runtime для организации и исполнения совместной инженерной работы людей, AI-агентов и инструментов.**
 
-Версия: **5.0.1-beta, локальная Closed Beta**. Bundled DPF Baseline принят Human;
-`distribution_ready=false`, публичный release не заявлен.
+Версия: **5.2.1-beta, Closed Beta candidate для Human acceptance**.
+Исходный принятый локальный baseline — 5.2.0-beta, оставленный без публикации;
+новая поставка ещё не принята.
+`distribution_ready=false`, GitHub publication требует отдельного поручения.
 
 ## Что такое iEWR
 
@@ -46,6 +48,18 @@ iEWR удерживает эту связь при работе нескольк
 
 Текущий интерфейс — взаимодействие с агентом в выбранной среде. Подача результата и технические возможности зависят от её конфигурации; отдельный графический интерфейс и готовый автономный сервис в поставке не заявлены.
 
+[Правила взаимодействия](modules/interaction/HUMAN_INTERACTION.md) помогают
+агенту представить среду при знакомстве, поддерживать понятную картину работы
+и выбирать достаточный текст, таблицу или схему по инженерному вопросу.
+Существенные решения, выполненные проверки и оставшиеся вопросы показываются
+по ходу; разрешённая рутина не требует повторных подтверждений. Это instruction
+support: видимость плана не запускает действия и не подтверждает их результат.
+При длительном ожидании агент поясняет выполняемую проверку и её пределы,
+если текущая картина стала неясной. Существенные основания и неизвестность
+должны быть заметны до зависимого решения; возможность применить уточнение
+во время операции зависит от host. Улучшение формы отделяется от добавления
+необходимого содержания. Фиксированной частоты сообщений и новых согласований нет.
+
 ## Подключение внешнего DPF
 
 Скачайте DPF в [source/external-dpf/](source/external-dpf/), желательно сохранив
@@ -69,6 +83,26 @@ runtime plugin. Для прямого использования указанн�
 Новую edition регистрируют явно; она не заменяет активную source basis молча.
 Технические правила и границы исполнения — в
 [инструкции регистрации](modules/sources/REGISTRATION.md).
+
+## Материалы проекта и развитие iEWR
+
+Положите исходные материалы в `project/source/`, handoff и материалы сравнения —
+в `project/reference/`. Результаты находятся в `project/artifacts/`. Подробности
+и условно создаваемые каталоги — [project/README](project/README.md). Пустая
+структура не запускает работу.
+
+Для доработки самого iEWR достаточно поручения, например:
+
+```text
+Доработай iEWR: улучши сообщение об ошибке выбранного адаптера.
+Исходная поставка — project/source/iEWR-previous.zip.
+Подготовь проверенную новую поставку для моего принятия.
+```
+
+По такому explicit scope агент использует [поддержку саморазвития](modules/self_development/GUIDANCE.md):
+устанавливает исходные identities, обосновывает изменение, проверяет его и
+предъявляет exact candidate ZIP с evidence и полезным опытом. Обычные
+пользовательские задачи и регистрация DPF этого подхода не включают.
 
 ## Как работает iEWR
 
@@ -152,8 +186,10 @@ flowchart TB
 
 Дополнительные DPF подключаются отдельно **без изменения Core/runtime architecture**. Для каждой задачи используются только применимые DPF и pattern contributions. Наличие в поставке, регистрация, имя каталога или более новая дата не устанавливают applicability, authority или precedence; существенные конфликты разрешаются по прямым основаниям соответствующего утверждения.
 
-Пять upstream DPF закреплены в редакциях **2026-09-05** из commit
-`43c46859c3926a371fa60cfb1c76aefa19f9eaf9`. Их обычный путь:
+Пять upstream DPF сохраняют авторскую дату **2026-09-05**, но закреплены
+отдельной licensing revision **2026-09-05-rev-d514a6fc** из commit
+`d514a6fcb7908af8e773ed054b9582394f755caf`. Новая строка лицензии — единственная
+текстовая delta; дата snapshot не выдаётся за новую авторскую дату. Их обычный путь:
 **S → applicable source contribution → F**. Например, OPS.6 может помочь
 сформировать ограниченное продолжение по текущему прямому разрешению и Method.
 Он не создаёт OPS route, workflow в C или обязательный Admission lifecycle;
@@ -215,30 +251,22 @@ iEWR вырос из [Instantiatio DPF (iDPF)](https://github.com/instantiatio/i
 
 ```text
 python -B tools/package/verify_configuration.py --root .
+python -B tools/package/prepare.py check --root .
 ```
 
-Bounded checks текущей product-доработки доступны в development workspace;
-tests и их input/evidence не входят в ZIP:
-
-```text
-python -B -m unittest discover -s project/artifacts/process/dpf-baseline-refresh/product-maintainer-update/tests -v
-```
-
-Эти checks проверяют exact inventory/configuration, сохранность принятых
-sources/Core, внешний source locus и packaged links. Ранее пять отдельных agent
-probes подтвердили discovery и реальное применение DPF, включая локальное
-OPS continuing-work действие и stop после изменения receiving use. Ещё два
-Direct Work controls использовали достаточный Method без чтения DPF. Полный
-DPF probe cycle для текущей product-доработки не повторялся.
-
-Проверки actual package helper/source registration требуют POSIX; на Windows
-они явно пропускаются, без ослабления adapter controls. Agent probes исполнялись
-instruction-led на controlled local inputs, без formal Work или live POSIX
-JSON qualification. Принятие, resulting evidence и границы описаны в
-[BASELINE_STATUS.md](BASELINE_STATUS.md).
+Подготовка exact ZIP и сравнение с baseline описаны в
+[self-development guidance](modules/self_development/GUIDANCE.md).
+Portable maintainer helper проверяет selected bytes и создаёт новый ZIP;
+он не меняет hashes, не регистрирует sources и не принимает поставку.
+POSIX runtime adapters сохраняют собственные controls и host limits.
+Текущие наблюдения, failures/skips и пределы — в [BASELINE_STATUS](BASELINE_STATUS.md).
+Development tests/evidence находятся отдельно от product inventory.
 
 ## Лицензирование и upstream sources
 
-Собственные материалы iEWR распространяются по [LICENSE проекта](LICENSE) в пределах прав их правообладателей. Эта лицензия не перелицензирует upstream DPF; FPF Core в поставку не входит.
-
-Избранные upstream DPF происходят из Engineering DPF Suite; их автор — Anatoly Levenchuk, с указанным в источниках AI-assisted development and review. Авторство, редакции, provenance и upstream links сохраняются. Условия распространения определяются авторами и опубликованными лицензиями; до появления явной upstream LICENSE статус MIT/Apache для FPF/DPF не заявляется.
+Собственные материалы iEWR имеют отдельную [LICENSE](LICENSE).
+Пять оригинальных DPF Anatoly Levenchuk лицензированы по CC BY 4.0;
+exact licenses, attribution, revisions/hashes, отсутствие локальных изменений
+и third-party/software boundaries сохранены в [upstream NOTICE](frameworks/dpf/NOTICE.md).
+FPF Core не входит в поставку. Local SDLC сохраняет свой experimental local-trial
+status; upstream лицензия его автоматически не перелицензирует.

@@ -1,9 +1,18 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус поставки: iEWR Closed Beta, чистая упаковка принятого baseline.
-Проверка чистого состава ограничена local synthetic evidence;
+Статус поставки: iEWR 5.2.1-beta candidate для Human acceptance.
+Qualification ограничена portable checks и bounded local agent trials;
 distribution_ready=false, not a public release. Exact scope — BASELINE_STATUS.md.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
+
+Только explicit поручение изменить **сам iEWR** подключает
+[поддержку саморазвития](modules/self_development/GUIDANCE.md).
+Обычные задачи, упоминание iEWR и project DPF registration её не включают.
+Это bounded instruction support существующих owners, не новый runtime owner.
+
+Обычное общение, первое приветствие и понятная подача хода/предмета работы —
+по [I interaction](modules/interaction/HUMAN_INTERACTION.md). Применяй её
+соразмерно текущему вопросу; это не включает поддержку саморазвития.
 
 Перед meaningful continuation восстанови три accounts по
 [R](modules/recovery/CONTRACT.md): governance, relied execution basis, factual
@@ -66,6 +75,7 @@ project/sources. User results/carriers только justified project/artifacts/
 сначала existing authoritative locus. Preserve user edits/provenance/UTF-8.
 Project repertoire — project/dpf/REPERTOIRE.yaml; source inspect in-place,
 без source copy/execution/network. User locus — source/external-dpf/.
+Назначение project/source, reference и artifacts — [project/README](project/README.md).
 
 Exact selected package inventory: [manifest](PACKAGE_MANIFEST.md).
 Поставляемый JSON entry — app/bootstrap/operation.py; он требует independently

@@ -14,6 +14,9 @@ def verify(root):
     if index.get("schema") != 1 or index.get("activation_entry") != "AGENTS.md":
         raise ValueError("unsupported_configuration")
     failures = []
+    core = root / "docs/EWR_CORE_ARCHITECTURE_CONTRACT.md"
+    if index.get("architecture_sha256") != sha256(core.read_bytes()).hexdigest():
+        failures.append("architecture_sha256:digest")
     for locus, expected in index["files"].items():
         parts = Path(locus).parts
         if Path(locus).is_absolute() or any(p in (".", "..") for p in parts):

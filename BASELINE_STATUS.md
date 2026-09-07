@@ -1,170 +1,82 @@
-# iEWR 5.0.1-beta — принятый Bundled DPF Baseline
+# iEWR 5.2.1-beta — candidate для Human acceptance
 
-Package ID: `iEWR-5.0.1-beta`.
-Version: `5.0.1-beta`.
-Source baseline: `iEWR-closed-beta-2026-09-05` — исходная принятая Closed Beta.
-Bundled DPF Baseline: `iEWR-bundled-dpf-2026-09-06` — принят Human для локальной
-Closed Beta `iEWR-5.0.1-beta` по exact proposal и resulting integration review.
-Статус: **Closed Beta, distribution_ready=false, not a public release**.
-Прямое Human решение от 2026-09-06 сохраняет заявленные ограничения и разрешает
-final checks, локальную упаковку, evidence и затем Guide. Public release,
-blanket reliance, новое semantic Admission или active-root cutover не следуют
-из принятия source baseline. Decision/evidence carriers сохраняются отдельно
-в development: `project/artifacts/process/dpf-baseline-refresh/ACCEPTANCE.md`.
+Исходный baseline — принятая локальная 96-file поставка iEWR 5.2.0-beta.
+ZIP SHA-256: `3d6eb16840e1d36b48825bced4f880eb23bda713d7de60925cb4c1c045db0f1d`.
+Принятые ZIP и evidence сохранены неизменными. Candidate labels внутри прежнего
+snapshot описывают момент его подготовки; последующее принятие записано отдельно.
+Новая поставка ещё не принята. `distribution_ready=false`, Closed Beta,
+not a public release; GitHub publication не выполнялась.
 
-## Текущая product-доработка: maintainer guide и external source locus
+## Изменение и совместимость
 
-По следующему прямому Human запросу стабильный
-[Bundled DPF Baseline Refresh and Integration Guide](docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md)
-включён в продукт. `source/external-dpf/` поставляется с пустым `.gitkeep` как
-место пользовательских исходников. README и registration instructions
-разделяют direct use, project registration и bundled baseline maintenance.
-Регистрация сама по себе не требует отдельного MethodDescription; действующий
-JSON consumer сохраняет свой обязательный Method binding и host requirements.
+[I](modules/interaction/HUMAN_INTERACTION.md) уточняет ожидание без нового
+результата, своевременное предъявление существенных допущений, возможности
+вмешательства host, проверяемое основание и вклад выбранного источника,
+decision-changing unknown и различие содержания/формы. Сохраняется соразмерная
+подача без обязательного вступления, timer, response template или новых согласований.
 
-Текущий состав: **87 компонентов**, включая self-unhashed PACKAGE_MANIFEST;
-86 inventory rows и 85 configuration rows. Новых DPF нет: пять upstream DPF,
-отдельный experimental local SDLC и exact repertoire сохраняют прежние bytes.
-Core Contract и функциональные runtime modules не менялись.
+[Поддержка саморазвития](modules/self_development/GUIDANCE.md) добавляет короткий
+критерий проверки content/form; он действует только при explicit развитии iEWR.
+Ordinary tasks не получают процедуру исследования, acceptance или package lifecycle.
 
-Human отдельно разрешил узкую правку P `repertoire_engine.py`: project source
-может читаться из `source/external-dpf/` или прежнего `project/dpf/`, запись
-repertoire остаётся только в `project/dpf/REPERTOIRE.yaml`. Path/no-follow/locking
-controls, metadata schema, Method transport и owner contracts сохранены.
-Maintainer package checker учитывает новый `source` tree; пользовательские
-загрузки не включаются в product inventory автоматически.
+Core Contract 1.0 RC, owner APIs, Python code, import DAG, runtime semantics,
+adapters и source-selection S/F сохранены. Нет нового состояния, workflow engine,
+прямого I → X/E, DPF routes, universal Verification → Human Admission или
+обязательных ladders. Bundled DPF/licensing/local SDLC не менялись; overlap audit
+не начинался. Inventory остаётся 96 files.
 
-Текущая проверка ограничена package/configuration/inventory, сохранностью
-accepted sources/Core/owner code, допустимыми и запрещёнными source paths,
-project-entry validation и packaged links. Полный DPF integration/probe cycle
-не повторяется: принятые DPF semantics не меняются. Actual POSIX package helper
-и source registration на Windows остаются unsupported, их tests явно skipped;
-новая live-host qualification не заявляется. Exact logs и новый ZIP checksum
-сохраняются отдельным package evidence, прежний ZIP не перезаписывается.
+**5.2.1-beta** — patch к уже введённому в 5.2.0 поведению: адресные уточнения
+инструкций и способа их проверки, без новой capability/API или Core semantics.
+Version metadata в AGENTS/README/manifest/configuration согласованы с новым
+предметом; discovery routing не менялся. В принятой 5.2.0 configuration поля
+version/package_id/source_baseline_id оставались от прежнего выпуска. В новой
+конфигурации это исправлено; hashes прежних bytes и принятие не переписаны.
 
-Проверка локальных inline Markdown paths прежней упаковки обнаружила 25
-неразрешаемых occurrences в frozen OCE/PSD/SDLC. Их bytes сохранены; introduced
-product links проверяются отдельно, без переноса этих исторических ограничений
-на новые документы. Remote links и полный frozen-source anchor audit не выполнялись.
-SDLC overlap audit не начат, `distribution_ready=false` сохраняется.
+## Qualification этой конфигурации
 
-## Принятый DPF refresh — evidence до product-доработки
+Выполнены четыре fresh-context initial tasks: один accepted-baseline comparator
+и три candidate cases; два уточнения доставлены во время active turns, один
+отдельный follow-up проверил resume. Наблюдены раннее допущение, смена направления,
+проверяемый итог, простая правка без self-development и explicit proposal-only
+развитие без реализации. Оба инженерных прототипа прошли по 20 собственных
+локальных tests; parent независимо проверил семь свойств итоговых данных.
+Failures и их разрешение сохранены в evidence. Это bounded interaction cases,
+не production qualification импортёра и не семь независимых trials.
 
-SYSE, ME, OCE и PSD обновлены до объявленной редакции `2026-09-05`; OPS той же
-редакции добавлен как пятый upstream Engineering DPF. Exact upstream snapshot:
-`43c46859c3926a371fa60cfb1c76aefa19f9eaf9`; все пять Git blob IDs проверены по
-локальному SOURCE_MANIFEST, bundled bytes совпадают с `project/source/dpf/`.
-Даты в development SOURCE_MANIFEST исправлены по заголовкам исходников,
-добавлены raw SHA-256. Сами исходные документы сохранены без изменений.
+Семь affected helper regression cases прошли; final selected package проверяется
+из чистой extraction с теми же runtime bytes. Проверены configuration/import DAG,
+точный 7-file delta, согласованность version metadata, inventory/manifest hashes,
+owned links и полный текст при renderer loss. Final status/hash metadata имеет
+отдельный byte bridge к trial; behavior instructions не менялись.
 
-Состав при принятии DPF refresh: **85 компонентов**, включая self-unhashed PACKAGE_MANIFEST;
-84 inventory rows и 83 configuration rows. Шесть repertoire entries — пять
-upstream DPF и отдельный неизменённый experimental local SDLC `0.1.0`.
-В этом refresh Governing Core Contract и все runtime Python в modules/adapters/app сохранены
-побайтно. Единственное изменение Python — список package slots и его сообщение
-в maintainer-only `tools/package/integrity.py`; это не runtime routing.
+В B между существенными сообщениями наблюдалась пауза 3 мин 52 с; у comparator
+4 мин 56 с. Поэтому устойчивое сообщение при долгом ожидании не квалифицировано;
+универсальная cadence, causal superiority и удобство для человека не заявлены.
+Обе конфигурации дали достаточные инженерные решения. Представления отдельно
+проверены прямой сверкой claims; выигрыш формы не приписан новым условиям.
+Исследование и разбор прежних traces не подтвердили универсальное молчание до
+финала. Подтверждены более узкие пробелы явности инструкции и evidence о ходе
+длительной работы, вмешательстве и отдельном влиянии содержания/формы.
+Доказательства прежней 5.2.0 сохраняют прежний scope и не объявляются новыми runs.
 
-OPS использует обычный `S → applicable source contribution → F`. OPS.6 даёт
-bounded Method contribution для continuing case; permission, performance,
-effects и progression требуют собственных оснований. В C нет нового workflow,
-в G — grant, в E — инициирования, в R — repair. Новый DPF не вводит обязательный
-Admission lifecycle или namespace branch. SDLC overlap audit не выполнялся.
+## Сохранённые пределы
 
-Development tests находятся в
-`project/artifacts/process/dpf-baseline-refresh/tests/`, вне product inventory.
-Они проверяют raw bytes/metadata, exact inventory/import DAG, неизменность Core
-и runtime, synthetic OPS.6 continuation, отдельное permission, unknown-effect
-hold, reuse/stop и независимость от source_id: 6 PASS, 1 explicit SKIP.
-Configuration/import DAG проверен отдельно. Windows/Python 3.13.14 позволяет
-portable checks; actual POSIX filesystem reader/package helper здесь unsupported
-и его integration test явно skipped. Controls не ослаблялись.
+Instruction-led агент на cooperative local host использует доступные tools и
+прямые основания действий. Текст инструкции не обеспечивает поведение любого
+host/model; no scheduler и нет гарантии немедленного получения вмешательства
+во время blocking tool call. Human usability, causal superiority, general
+transfer и полный host matrix не устанавливаются несколькими agent observations.
+Подлинные Human review и acceptance отдельны от agent/fixture evidence.
 
-Семь fresh-context agent probes использовали одинаковый продукт и controlled
-local inputs. Пять подтвердили самостоятельный выбор, чтение реальных DPF
-bodies и предметное применение: OPS continuing work, SYSE combined configuration,
-ME documentary recovery/content-form, OCE operating arrangement и PSD decision
-support. Два Direct Work controls использовали уже достаточный supplied Method
-без DPF и не засчитаны в DPF integration passes. В двух отдельных продолжениях
-r4 → r5 старый result не перенесён на новый use; unknown effect не повторён.
-Это семь случаев плюс два follow-up, не девять независимых тестов.
+Portable maintainer checks на Windows не квалифицируют POSIX no-follow/flock
+runtime adapter. Live JSON direct-channel authentication, unattended E.16,
+hostile-writer/ABA enforcement и external consumers не квалифицированы.
+Source remote anchors и full domain/FPF conformance этим изменением не проверяются.
+Frozen source links имеют исходный scope; owned packaged links проверяются отдельно.
 
-OPS probe реально выполнил локальный PowerShell расчёт, сохранил результат и
-остановился на достаточном результате либо affected missing input. Это
-instruction-led execution, разрешённое текущими adapters instructions; JSON
-entry в agent probes не запускался. Источники, исходные задачи, actual commands,
-outputs, parent review и before/after hashes сохранены вне продукта. Affected
-integration points SYSE/ME/OCE/PSD проверены в указанном scope. В первой упаковке
-после принятия runtime и source bytes сохранились из проверенного agent-probe
-продукта; изменились только четыре status/version/documentation/hash carriers.
-Последующая product-доработка и её отдельные проверки описаны выше.
-
-Evidence ограничено этими controlled local cases и cooperative boundaries.
-Formal U.Work, live POSIX JSON end-to-end, полная host qualification, OPS/domain
-conformance и гарантированное чтение DPF на любой задаче не установлены.
-Исторические suites ниже в clean ZIP отсутствуют и в этой инициативе повторно
-не запускались. Финальные checks и exact ZIP verification имеют отдельные logs;
-development evidence и исходный narrative Guide не включались в тот inventory.
-Его стабильная maintainer-редакция теперь поставляется в docs.
-
-Пять текущих upstream editions имеют unresolved public redistribution basis;
-исторические statements не перенесены на них как разрешение распространения.
-`distribution_ready=false` сохранён. Full source-navigation audit новых editions
-не выполнялся; внешние/относительные ссылки сохраняются как upstream bytes.
-
-Основание сравнения: локальный `project/reference/iEWR-5.0.0-beta.zip`, SHA-256
-`45da492fd342dab6764a3b4a65229618ac806c0d7342d02e77f541430f19ea67`.
-До изменений все 84 файла workspace совпадали с этим ZIP. Historical editions
-сохраняются в нём; смена repertoire не переписывает прежние relied bindings.
-
-## Принятая чистая упаковка 5.0.0-beta — историческая basis
-
-Исходная поставка содержит 84 согласованных компонента; 55 historical/developer файлов
-исключены из ZIP и сохранены в разработке. Все 32 Python-файла, шесть framework/
-repertoire файлов и governing Core Contract побайтно сохранены из исходного ZIP.
-Изменены только packaging documentation/status/configuration и manifest hashes.
-Общие API и exact Method contracts сохранены, включая используемые consumers B1.
-
-Entry: [AGENTS.md](AGENTS.md); инструкции проверки: [README.md](README.md).
-Core Contract сохраняет собственный статус 1.0 RC. C не workflow engine;
-E не инициирует Work/action; G не создаёт authority.
-
-## Историческая фактическая проверка и её границы
-
-Чистый состав проверен без developer additions на macOS 26.6.2 ARM64 / Python
-3.14.6: configuration/DAG — 82 rows, package manifest — 83 rows, пять exact DPF
-bindings, 9 synthetic behavioral probes — PASS. Отдельно выполнены неизменённые
-регрессии: 158 PASS + 1 SKIP / 159; original suite — 77 PASS + 1 SKIP / 78.
-Это пересекающиеся evidence sets, а не 237 независимых продуктовых тестов.
-SKIP: файловая система fixture не представляет distinct case-colliding files.
-
-Эти behavioral results относятся к проверенной чистой подготовке. При финальной
-упаковке изменены только шесть documentation/metadata файлов; runtime bytes
-сохранены. Metadata/hash и проверка распакованного ZIP имеют отдельные developer
-records. Tests/evidence не входят в продукт; проверки не доказывают live Human
-authentication, полное U.Work основание или универсальную semantic conformance.
-
-## Пределы исходной поставки — историческая запись
-
-Ниже сохранены ограничения исходного baseline. Новые bounded Windows
-instruction-led observations описаны выше; они не закрывают полный host matrix.
-
-- Fresh-agent, live host/services/direct-channel authentication и general
-  language/role qualification не установлены для произвольных configurations.
-- Native PowerShell, полный Python/platform matrix и hostile-writer/ABA
-  enforcement не проверены; cooperative-local boundary не host-wide isolation.
-- HSI Method G-03 и live unattended/full E.16 остаются открыты.
-- B5 — bounded synthetic local trials; не field validation/full domain
-  conformance. SDLC 0.1.0 остаётся experimental local-trial source.
-- E-06: четыре source distribution confirmations pending; SDLC basis
-  project-authored local-trial only. LICENSE продукта не перелицензирует sources.
-- OCE/PSD уже содержат шесть неразрешаемых относительных source addresses;
-  SDLC содержит абсолютные provenance links. Их исходные bytes сохранены;
-  полная переносимость source navigation не заявлена. История и exact old
-  authority decisions не становятся runtime dependencies или blanket grants.
-- Unknown external consumers не объявлены migrated. Исключение из payload
-  сохраняет исходные historical records и их ограниченные meanings.
-
-Source ZIP SHA-256: `b0946f59a6fe8144a01c40cbbfc298842af3d8f8a89e7f8c8e5ebc01547877b0`.
-Source PACKAGE_MANIFEST SHA-256: `2b4d805a6e4a1cf180b516899b0b4c5c0203d42e2e4cd5116bad0b2f80a6821a`.
-Текущий exact manifest находится рядом. Его SHA-256 и ZIP checksum хранятся
-внешними records, чтобы не создавать self-hash cycle внутри продукта.
+Пять upstream DPF имеют прежнюю exact CC BY 4.0 licensing basis с third-party
+boundaries; local SDLC остаётся experimental project-authored local trial.
+Это не whole-package distribution readiness. Historical decisions, gaps и
+failed attempts сохраняются в исходном evidence. Exact состав —
+[PACKAGE_MANIFEST](PACKAGE_MANIFEST.md); identities и результаты проверки
+предъявляются вне product payload вместе с новой поставкой.

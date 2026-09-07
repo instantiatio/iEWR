@@ -55,8 +55,7 @@ def present(content: Presentation, preferences, depth="ordinary", renderer=None)
         text += "\n" + "; ".join(content.engineering)
     if depth == "runtime-audit" and content.audit_refs:
         text += "\nОснования: " + "; ".join(content.audit_refs)
-    if preferences.get("guidance") == "guided":
-        text += "\nМожно принять отдельные части или назвать условие."
+    # Questions and choices come from supplied content, never from guidance mode alone.
     # Progress frequency is consumed by host publication requests, not a scheduler here.
     try:
         rendered = renderer.render(text) if renderer else text
