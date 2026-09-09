@@ -37,9 +37,9 @@ iEWR удерживает эту связь при работе нескольк
 Требования — в приложенном документе.
 ```
 
-Избранные bundled DPF уже доступны: агент выбирает полезные для вопроса вклады. Читать весь набор или заранее выбирать каждый паттерн не требуется.
+Избранные DPF доступны в комплекте: агент выбирает нужные самостоятельно. Читать весь набор или заранее выбирать каждый паттерн не требуется.
 
-**Дополнительный DPF** можно предоставить отдельно: укажите файл или редакцию и попросите использовать его в задаче. Для постоянного обнаружения источника доступна регистрация; для прямого использования она необязательна. Подробности — [правила подключения](modules/sources/REGISTRATION.md).
+**Дополнительный DPF** можно предоставить отдельно: укажите файл или редакцию и попросите использовать его в задаче. Для постоянного обнаружения источника доступна регистрация в iEWR; для прямого использования она необязательна. Подробности — [правила подключения](modules/sources/REGISTRATION.md).
 
 **LPF необязателен.** Можно работать без него. Если у проекта есть оформленная локальная практика — LPF, укажите её источник и область применения вместе с задачей.
 
@@ -243,23 +243,6 @@ iEWR вырос из [Instantiatio DPF (iDPF)](https://github.com/instantiatio/i
 - [Platform Adapters](adapters/ADAPTERS.md) — технические границы работы с агентной средой и инструментами.
 - [Source registration](modules/sources/REGISTRATION.md) — подключение дополнительных DPF.
 - [Bundled DPF Baseline Refresh and Integration Guide](docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md) — сопровождение bundled baseline для maintainers.
-
-## Проверка пакета и DPF baseline
-
-Из корня распакованного продукта:
-
-```text
-python -B tools/package/verify_configuration.py --root .
-python -B tools/package/prepare.py check --root .
-```
-
-Подготовка exact ZIP и сравнение с baseline описаны в
-[self-development guidance](modules/self_development/GUIDANCE.md).
-Portable maintainer helper проверяет selected bytes и создаёт новый ZIP;
-он не меняет hashes, не регистрирует sources и не принимает поставку.
-POSIX runtime adapters сохраняют собственные controls и host limits.
-Текущие наблюдения, failures/skips и пределы — в [BASELINE_STATUS](BASELINE_STATUS.md).
-Development tests/evidence находятся отдельно от product inventory.
 
 ## Лицензирование и upstream sources
 
