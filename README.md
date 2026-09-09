@@ -2,10 +2,9 @@
 
 **FPF-driven Engineering Work Runtime для организации и исполнения совместной инженерной работы людей, AI-агентов и инструментов.**
 
-Версия: **5.2.1-beta, Closed Beta candidate для Human acceptance**.
-Исходный принятый локальный baseline — 5.2.0-beta, оставленный без публикации;
-новая поставка ещё не принята.
-`distribution_ready=false`, GitHub publication требует отдельного поручения.
+Версия: **5.2.1-beta**.
+Поставка принята и опубликована в [GitHub Releases](https://github.com/instantiatio/iEWR/releases/tag/v5.2.1-beta).
+Проверена на ограниченных локальных сценариях; ограничения проверки описаны в BASELINE_STATUS.md.
 
 ## Что такое iEWR
 
