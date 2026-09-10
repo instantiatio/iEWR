@@ -1,8 +1,10 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус поставки: iEWR 5.2.2-beta.3 candidate для Human acceptance.
-Qualification ограничена portable checks и bounded local agent trials;
-distribution_ready=false, not a public release. Exact scope — BASELINE_STATUS.md.
+Статус: iEWR 5.2.2-beta.3; редакция документации 2 принята и опубликована.
+Текущая редакция сведений о публикации — publication.1; точный принятый ZIP
+и границы испытаний указаны в BASELINE_STATUS.md. Код и правила работы сохранены.
+Проверки ограничены переносимыми проверками и локальными агентными испытаниями;
+distribution_ready=false. Приёмка не расширяет полномочия и технические возможности.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
 
 Только explicit поручение изменить **сам iEWR** подключает

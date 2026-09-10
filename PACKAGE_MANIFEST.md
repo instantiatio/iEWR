@@ -1,18 +1,18 @@
-# iEWR 5.2.2-beta.3 — состав поставки, редакция документации 2
+# iEWR 5.2.2-beta.3 — состав основной ветки, сведения о публикации 1
 
 | Параметр | Значение |
 |---|---|
-| Идентификатор поставки | `iEWR-5.2.2-beta.3-docs.2` |
+| Идентификатор текущей редакции | `iEWR-5.2.2-beta.3-publication.1` |
 | Программная версия | `5.2.2-beta.3` |
-| Редакция документации | 2 |
-| Статус | Закрытое бета-тестирование; кандидат для приёмки, ещё не принят |
-| Исходная поставка | `iEWR-5.2.2-beta.3`, 100 файлов |
-| SHA-256 исходного ZIP | `a21ffab8bb259dd2ae4abe4b0035e7abc50edc64aceb3df6d0061f72c3e67b6c` |
+| Редакция сведений о публикации | 1 |
+| Статус | Принятая редакция документации 2 опубликована; здесь отдельно обновлены сведения о выпуске |
+| Принятая исходная поставка | `iEWR-5.2.2-beta.3-docs.2`, 100 файлов |
+| SHA-256 исходного ZIP | `07df4f29c635c2807aec80f28d9c34ac36e4dd68ae2c95b3e9f6a8b67ee61bdd` |
 | Первоначальная основа | Предоставленная пользователем `iEWR-5.2.1-beta`; приёмка из предоставления не выводится |
 | Архитектура | Контракт ядра 1.0 RC; код, интерфейсы и зависимости модулей сохранены |
 | DPF | Авторская дата 2026-09-05; закреплённая редакция `2026-09-05-rev-d514a6fc` сохранена |
 | distribution_ready | `false` |
-| Публичная публикация | Не выполнена; требуется отдельное поручение |
+| Публичная публикация | [Принятый архив без пересборки](https://github.com/instantiatio/iEWR/releases/tag/v5.2.2-beta.3) |
 
 Изменения и ограничения: [сведения о поставке](BASELINE_STATUS.md).
 Лицензии: [уведомление об источниках](frameworks/dpf/NOTICE.md), [лицензия iEWR](LICENSE).
@@ -31,12 +31,12 @@
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Файл поставки | 438eeaab73a7401af206b1dc774a051b52778c7394fcbef531c1f118a25d0564 |
-| `BASELINE_STATUS.md` | Файл поставки | cbe6e6334475cf09ea41914331e5550ac2f6fc7d916de8f4a251fe0555c237ec |
+| `AGENTS.md` | Файл поставки | 2fbcb3d98477cc8e6f8239f73e6ce128ec0998f718ff35ab46873806d0ba6fb2 |
+| `BASELINE_STATUS.md` | Файл поставки | 68d77a6133f11efccf1e9f8b2ee1e609b7bb360d4781fdf30216a99dfea72042 |
 | `ENGINEERING_WORK_BOOTSTRAP_GUIDE.md` | Файл поставки | b765f4d1167471a63dc70e0045427a380442f1081d50e3837973296eb2616dab |
 | `LICENSE` | Файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Файл поставки | 57dbfe4eb3f650b2a3125a5ab371b4cdb7d24fa3b3ed29436a3a3999f8aa78a8 |
+| `README.md` | Файл поставки | edd4d347bac7395b5426dc2dc06b1d4d673ec5d46b9814db1aef498698befdcd |
 | `WORKING_PROCESS_AND_LOOPS_GUIDE.md` | Файл поставки | 60f642ae1eb19a05669a7f0c86e6ba65a0e47f186718df41c85cf6fce097f557 |
 | `adapters/ADAPTERS.md` | Файл поставки | 17a6463da3068d39b7f84074308c1481a512e6e44e83e2faaaedd30b67765d86 |
 | `adapters/agent_host/channel.py` | Файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
@@ -47,7 +47,7 @@
 | `adapters/filesystem/repertoire.py` | Файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Файл поставки | 21bdde5b57e80544b49ea588ca246099955afcd71b9525bc3135a0652ece53fd |
 | `adapters/presentation/text.py` | Файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Файл поставки | e9103e47ca979cc39e207a16e60227106a554d4dc93a4e8e1006f86a24b4ab19 |
+| `app/bootstrap/CONFIGURATION.json` | Файл поставки | 1b2c817f0bab5e345d24375b00134d2b481c47a35edd68b339cd15ce0f5270e1 |
 | `app/bootstrap/ENTRY.md` | Файл поставки | 5f9851ed231c3235176c4e9efc03d254d19b8d71e0284c7502b18137d2a1e224 |
 | `app/bootstrap/operation.py` | Файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `catalog/README.md` | Файл поставки | 85a82976fc5b058a95c08627a5533854a83072aafe973e50b2344260e866cd85 |

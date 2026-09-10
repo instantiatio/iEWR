@@ -5,12 +5,12 @@
   "architecture_sha256": "ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c",
   "scope": "single cooperative local host; semantic source and authority claims remain separate",
   "files": {
-    "AGENTS.md": "438eeaab73a7401af206b1dc774a051b52778c7394fcbef531c1f118a25d0564",
-    "BASELINE_STATUS.md": "cbe6e6334475cf09ea41914331e5550ac2f6fc7d916de8f4a251fe0555c237ec",
+    "AGENTS.md": "2fbcb3d98477cc8e6f8239f73e6ce128ec0998f718ff35ab46873806d0ba6fb2",
+    "BASELINE_STATUS.md": "68d77a6133f11efccf1e9f8b2ee1e609b7bb360d4781fdf30216a99dfea72042",
     "ENGINEERING_WORK_BOOTSTRAP_GUIDE.md": "b765f4d1167471a63dc70e0045427a380442f1081d50e3837973296eb2616dab",
     "LICENSE": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec",
     "MODEL_SELECTION_RECOMMENDATIONS.md": "b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490",
-    "README.md": "57dbfe4eb3f650b2a3125a5ab371b4cdb7d24fa3b3ed29436a3a3999f8aa78a8",
+    "README.md": "edd4d347bac7395b5426dc2dc06b1d4d673ec5d46b9814db1aef498698befdcd",
     "WORKING_PROCESS_AND_LOOPS_GUIDE.md": "60f642ae1eb19a05669a7f0c86e6ba65a0e47f186718df41c85cf6fce097f557",
     "adapters/ADAPTERS.md": "17a6463da3068d39b7f84074308c1481a512e6e44e83e2faaaedd30b67765d86",
     "adapters/agent_host/channel.py": "115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390",
@@ -106,9 +106,9 @@
   },
   "distribution_ready": false,
   "public_release": false,
-  "source_baseline_id": "iEWR-5.2.2-beta.3",
+  "source_baseline_id": "iEWR-5.2.2-beta.3-docs.2",
   "bundled_dpf_baseline_id": "iEWR-dpf-rev-d514a6fc",
   "qualification_status": "candidate_for_human_acceptance; see BASELINE_STATUS.md",
-  "package_id": "iEWR-5.2.2-beta.3-docs.2",
+  "package_id": "iEWR-5.2.2-beta.3-publication.1",
   "version": "5.2.2-beta.3"
 }
