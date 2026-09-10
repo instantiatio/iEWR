@@ -6,7 +6,7 @@ import stat
 REQUIRED_SLOTS = ("SYSE", "ME", "OCE", "PSD", "OPS", "SDLC")
 PACKAGE_TREES = ("catalog", "docs", "examples", "frameworks", "scripts", "source", "templates", "tests", "modules", "adapters", "app", "tools")
 ROOT_LOCAL_EXCLUSIONS = {".git", ".gitignore", ".DS_Store", "project", "PACKAGE_MANIFEST.md", "evidence"}
-OPTIONAL_PROJECT_SCAFFOLD = {"project/README.md", "project/artifacts/.gitkeep", "project/source/.gitkeep", "project/reference/.gitkeep"}
+OPTIONAL_PROJECT_SCAFFOLD = {"project/README.md", "project/artifacts/.gitkeep", "project/source/.gitkeep", "project/handoff/.gitkeep"}
 
 
 def _manifest_inventory(engine, raw):

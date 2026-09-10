@@ -31,6 +31,18 @@ OperationBasis требует `method` Binding с role `method_description`. П�
 [P instructions](../../adapters/ADAPTERS.md) без обязательного JSON workflow.
 
 E/P пишет только project/dpf/REPERTOIRE.yaml in place: source не меняется.
+Это граница repertoire operation, а не всего пользовательского поручения.
+При обычном постоянном подключении instruction-led агент также подготавливает
+краткую ориентацию по [правилам aids](../../catalog/dpf/README.md) в существующем
+проектном carrier либо `project/artifacts/dpf/GUIDE.md`: exact binding, решаемые
+вопросы, полезные результаты/границы и возврат к авторскому оглавлению. Это
+отдельный локальный artifact effect под тем же поручением через F/G/X/E/P;
+JSON register сам его не выполняет. Если пользователь ограничил scope только
+индексом, новых справочных файлов не создавать. При достаточном авторском aid
+использовать его; карточки добавлять по нужде, без полного пересказа DPF.
+Запись в repertoire и получение aid имеют отдельные фактические результаты:
+ошибка aid не отменяет уже записанную регистрацию и не требует повторять её.
+Отсутствие aid допускает direct source use. Источник не изменять и не переносить.
 Регистрация добавляет persistent discovery, не applicability/precedence/authority.
 Agent применяет только contributions, подходящие текущему вопросу, через
 обычный S → F → runtime owners. New edition регистрируется явно и не переключает

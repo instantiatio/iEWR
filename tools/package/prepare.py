@@ -17,7 +17,8 @@ import zipfile
 from verify_configuration import verify
 
 SCAFFOLD = {"project/README.md", "project/source/.gitkeep",
-            "project/reference/.gitkeep", "project/artifacts/.gitkeep"}
+            "project/handoff/.gitkeep", "project/artifacts/.gitkeep"}
+LEGACY_SCAFFOLD = (SCAFFOLD - {"project/handoff/.gitkeep"}) | {"project/reference/.gitkeep"}
 TREES = {"modules", "adapters", "app", "tools", "docs", "catalog",
          "frameworks", "templates"}
 EXTERNAL = "source/external-dpf/.gitkeep"
@@ -36,11 +37,11 @@ def safe_name(name):
     return unicodedata.normalize("NFC", name).casefold()
 
 
-def selected_path(name):
+def selected_path(name, *, legacy=False):
     safe_name(name)
     first = name.split("/")[0]
     if first == "project":
-        return name in SCAFFOLD
+        return name in SCAFFOLD or legacy and name in LEGACY_SCAFFOLD
     if first == "source":
         return name == EXTERNAL
     return first in TREES or "/" not in name and not name.startswith(".")
@@ -66,7 +67,7 @@ def read_file(root, name):
     return raw
 
 
-def inventory(raw):
+def inventory(raw, *, legacy=False):
     rows, seen = {}, set()
     for line in raw.decode("utf-8").splitlines():
         match = ROW.fullmatch(line)
@@ -74,7 +75,7 @@ def inventory(raw):
             continue
         name, digest = match.groups()
         key = safe_name(name)
-        if key in seen or name == "PACKAGE_MANIFEST.md" or not selected_path(name):
+        if key in seen or name == "PACKAGE_MANIFEST.md" or not selected_path(name, legacy=legacy):
             raise ValueError("invalid_selected_path:" + name)
         rows[name] = digest.lower()
         seen.add(key)
@@ -183,12 +184,15 @@ def read_zip(path):
             payload[parts[1]] = archive.read(member)
         if len(wrappers) != 1 or "PACKAGE_MANIFEST.md" not in payload:
             raise ValueError("archive_wrapper_or_manifest")
-        rows = inventory(payload["PACKAGE_MANIFEST.md"])
+        # Old archives remain inspectable; new snapshots/builds use only SCAFFOLD.
+        rows = inventory(payload["PACKAGE_MANIFEST.md"], legacy=True)
         if set(rows) | {"PACKAGE_MANIFEST.md"} != set(payload):
             raise ValueError("archive_inventory")
         for name, digest in rows.items():
             if sha256(payload[name]).hexdigest() != digest:
                 raise ValueError("archive_digest:" + name)
+            if name.endswith("/.gitkeep") and payload[name]:
+                raise ValueError("nonempty_scaffold:" + name)
         return payload
 
 

@@ -7,12 +7,46 @@ contributions; organization/project policy и Human decisions имеют соб�
 direct owners. Каталог, directory order, label или дата не задают precedence.
 Material conflict возвращается exact claim owner.
 
+Входящие материалы сохранять по [общему порядку файлов](../../project/README.md):
+оригинал не перезаписывается преобразованием или новой входящей редакцией;
+существенные происхождение и связь с известным предшественником сохраняются.
+Нужная прежняя source basis остаётся доступной; latest не заменяет её историю.
+Исключение требует прямого разрешения на затронутое действие, не вывода из каталога.
+
 Read-only `inspect_binding`, `SourceResolution.inspect/candidates/verify/contribute`
 дают bytes/identity/loci/limits. RepertoireReader ограничен DPF repertoire roots;
 произвольные direct DPF/LPF bindings читаются отдельным bound SourceReader.
 Package/project availability рассматриваются вместе без semantic приоритета.
 Ни lookup, ни required package slots не applicability/conformance.
 Required slots — maintainer profile в tools/package, не S runtime algorithm.
+
+## Самостоятельное обнаружение и достаточное чтение
+
+При выборе основы по F использовать вместе `frameworks/dpf/REPERTOIRE.yaml`
+и существующий `project/dpf/REPERTOIRE.yaml`. Неизвестные entries проверять по
+содержанию наравне с известными; отсутствие project index не создаёт его.
+Для быстрого выбора есть [package путеводитель](../../catalog/dpf/GUIDE.md) и,
+если создан, проектный `project/artifacts/dpf/GUIDE.md`. Aids не заменяют состав
+репертуара: entry без карточки остаётся кандидатом. Указанный пользователем
+exact source можно прочитать напрямую без регистрации.
+
+Начать с вопроса и первого нужного результата. Путеводитель помогает выбрать
+кандидатов; карточка или авторские оглавление/practical entries — нужный раздел.
+Достаточную, сверенную с exact source карточку можно применять в её declared
+bounded use без ритуального чтения полного паттерна. Она должна сохранять
+действия, условия, ограничения, first result/stop и source return. Для иного
+use, спорного вывода, примера или недостающего условия читать нужный original
+раздел и его decision-bearing зависимости. Отсутствие карточки не является
+ни запретом применения, ни доказательством отсутствия подходящего метода.
+
+Перед первым reliance сверить source identity/edition/digest карточки с actual
+source и текущим binding. При неизменной основе повторное чтение/hash не нужны.
+Changed/missing binding делает aid непригодным для зависимого use до проверки;
+можно вернуться к оригиналу. Совпадение hash подтверждает bytes, не полноту
+сжатия. Проверять material условия по содержанию и сохранять unresolved gaps.
+Старые source/aid revisions и прошлые uses не переключаются на latest молча.
+Читать минимально достаточные loci; ни один из этих входов не требует полного
+чтения всех DPF или FPF-Spec. Подготовка aids — [правила каталога](../../catalog/dpf/README.md).
 
 Registration нужна только для persistent discovery: in-place inspect/hash,
 explicit metadata/edition и project repertoire effect через X/E/P; source не

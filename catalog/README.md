@@ -8,6 +8,7 @@ S связывает источники; G сохраняет direct authority g
 
 | Reference family | Когда полезен | Consumer |
 |---|---|---|
+| [DPF: путеводитель и краткие карточки](dpf/README.md) | Найти и применить нужный предметный вклад с сохранением source conditions | S/F; производные aids, не runtime routes |
 | [Инженерные представления](engineering_views/README.md) | Показать material отношения предмета для конкретного решения | I; domain content остаётся у direct owner |
 | [Организация работы и Method cues](working_process_compositions/README.md) | Разрешить нужный вопрос Method, координации или concern/result coverage | F; это не библиотека runtime routes |
 

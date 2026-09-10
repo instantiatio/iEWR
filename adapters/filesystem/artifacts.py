@@ -18,7 +18,8 @@ class ArtifactActuator:
         p = json.loads(scope.parameters_json, object_pairs_hook=strict_object)
         if scope.capability != "replace_artifact" or set(p) != {"target", "before", "after"}:
             raise ValueError("unsupported_exact_artifact_operation")
-        if tuple(scope.targets) != (p["target"],) or not p["target"].startswith("project/artifacts/"):
+        if (not isinstance(p["target"], str) or tuple(scope.targets) != (p["target"],)
+                or not p["target"].startswith(("project/artifacts/", "project/handoff/"))):
             raise ValueError("artifact_target_scope_mismatch")
         committed = False
         def observe(stage):

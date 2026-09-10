@@ -184,7 +184,7 @@ class LocalEffects:
 
     def observe(self, target):
         try:
-            if parts_of(target)[:2] != ("project", "artifacts"):
+            if parts_of(target)[:2] not in (("project", "artifacts"), ("project", "handoff")):
                 raise ValueError("unsafe_target_scope")
             return Observation(target, self.tree.read(target))
         except (OSError, ValueError) as error:
@@ -201,7 +201,7 @@ class LocalEffects:
             self.hook(stage)
 
         try:
-            if parts_of(scope.target)[:2] != ("project", "artifacts"):
+            if parts_of(scope.target)[:2] not in (("project", "artifacts"), ("project", "handoff")):
                 raise ValueError("unsafe_target_scope")
             output = self.tree.replace(scope.target, scope.before.encode("utf-8"), scope.after.encode("utf-8"), guard, hook)
             return Receipt(scope.target, "applied", "readback_matches_requested_bytes", sha256(output).hexdigest(), 1,

@@ -21,6 +21,15 @@ index bytes. Неполные сведения возвращаются как n
 применимости. В source DPF не требуется добавлять iEWR schema, plugin manifest
 или какую-либо новую обязательную карточку.
 
+В обычное постоянное подключение входит краткая проектная ориентация по
+[правилам aids](../catalog/dpf/README.md): решаемые вопросы, полезные результаты,
+границы, exact binding и ссылка на авторское оглавление. Достаточная авторская
+навигация переиспользуется, карточки добавляются по текущей потребности.
+Это отдельный artifact effect агента в том же разрешённом scope; mechanical
+register пишет только индекс. При явно ограниченном «только индекс» scope
+справочных файлов не создавать. Неуспех подготовки aid не отменяет фактическую
+регистрацию; можно использовать исходный DPF напрямую.
+
 Полный FPF-Spec не является входом регистрации или обычного использования DPF.
 Соблюдай [S source-access policy](../modules/sources/GUIDANCE.md):
 FPF grounding/reference/dependency в source не разрешает загрузку FPF, включая
@@ -41,6 +50,9 @@ Hash verification проверяет bytes выбранного DPF, а не е�
   поставляемый пустой `.gitkeep` сохраняет каталог, сам он не DPF и не registration.
 - Source file/tree — те же пользовательские bytes по тому же пути. Ни hidden
   cache, ни автоматической второй копии нет.
+- `project/artifacts/dpf/GUIDE.md` либо existing authoritative carrier —
+  производная краткая ориентация; карточки при потребности рядом. Это aids,
+  не новый реестр authority, источник или дополнительная schema репертуара.
 
 Внутри edition учитываются все regular files, включая hidden files и
 `.DS_Store`, если пользователь поместил его в source edition. Вне editions
@@ -76,6 +88,11 @@ registration time и Human request basis; это не source Admission.
 5. Проверить возвращённые effects и limitations. Ошибка после atomic write
    может означать записанный index с уже changed source; не повторять вслепую,
    сначала перечитать и reconcile actual state.
+6. В пределах обычного поручения подготовить или переиспользовать краткую
+   ориентацию. Перед её записью проверить current contents и пользовательские
+   правки; source не трогать. Сохранить отдельно фактический результат index
+   operation и artifact operation. Не сообщать о готовом aid по одному register
+   receipt. При unavailable writer честно удержать только этот effect.
 
 Metadata являются claims, которые агент должен проверить по source; инструмент
 не объявляет FPF conformity по заголовку или наличию PatternID. Source text не

@@ -1,6 +1,6 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус поставки: iEWR 5.2.1-beta candidate для Human acceptance.
+Статус поставки: iEWR 5.2.2-beta.3 candidate для Human acceptance.
 Qualification ограничена portable checks и bounded local agent trials;
 distribution_ready=false, not a public release. Exact scope — BASELINE_STATUS.md.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
@@ -22,9 +22,25 @@ Human selection. STATE_INDEX optional/stale ignored. Unknown effects no replay.
 
 Current question / exact subject / receiving use → adequate reuse либо bounded
 Direct Work; нужная formation — только если missing result меняет решение.
-WorkPlan только для current intended coordination, не от complexity. Завершение
-не создаёт successor/review/Admission. Stop на adequate result и reconciled
-effects либо honest affected blocker. Следующий explicit запрос передаёт C.
+WorkPlan только для current intended coordination, не от complexity. Достаточный
+результат оценивается по всему текущему поручению: завершение части не повод
+ждать «продолжай», если остаётся необходимое разрешённое действие. Выполнить его
+в действующем scope через existing owners. Stop на результате поручения и
+reconciled effects либо honest affected blocker; независимое разрешённое
+продолжать. Завершение не создаёт successor/review/Admission; новый запрос — через C.
+Содержательную выдачу структурировать заголовками. Явно обозначать нужное участие
+Human либо завершение без обязательного следующего действия. Существенный выбор —
+«Требуется решение», реальные нумерованные варианты, рекомендация и последствия;
+в длинной выдаче непосредственно перед ним — «Кратко». Детали и связь ответа — I/G.
+Перед отправкой сверить фактическую подачу по I: в Markdown-канале смысловые
+заголовки оформлены как `## ...`, в том числе один заголовок короткого результата.
+
+При новой содержательной задаче самостоятельно рассмотри доступные DPF до
+существенной постановки, критериев и выбора способа работы. Подходящие методы
+с нужным вкладом применяй; собственное рассуждение не оправдывает их пропуск.
+Достаточную основу переиспользуй, механическая правка не требует нового поиска.
+Точное правило — [F](modules/formation/DOMAIN_WORK.md), доступ и чтение —
+[S](modules/sources/GUIDANCE.md), быстрый вход — [путеводитель](catalog/dpf/GUIDE.md).
 
 Current owners и instructions:
 
@@ -71,11 +87,16 @@ meaning, не universal lifecycle. Candidate label не type/status ladder.
 
 `project/source/**`, `project/iEWR-reference/**`, `project/reference/**`,
 `frameworks/**` frozen/read-only без отдельного exact Human scope. Не создавать
-project/sources. User results/carriers только justified project/artifacts/process;
-сначала existing authoritative locus. Preserve user edits/provenance/UTF-8.
+project/sources. User results — project/artifacts, interaction — project/handoff;
+нужные durable accounts — project/artifacts/process. Сначала existing authoritative
+locus; обычный документ можно править на месте. Preserve user edits/provenance/UTF-8.
+До использования редакции как основания/поставки обеспечить её сохранность и
+доступность; исправление зафиксированного результата — новая редакция. Оригиналы,
+зафиксированные результаты и необходимые основания — без автоматического срока
+удаления. Достаточность метаданных обосновать по use и переиспользовать.
 Project repertoire — project/dpf/REPERTOIRE.yaml; source inspect in-place,
 без source copy/execution/network. User locus — source/external-dpf/.
-Назначение project/source, reference и artifacts — [project/README](project/README.md).
+Общие правила файлов, совместных правок и решений — [project/README](project/README.md).
 
 Exact selected package inventory: [manifest](PACKAGE_MANIFEST.md).
 Поставляемый JSON entry — app/bootstrap/operation.py; он требует independently

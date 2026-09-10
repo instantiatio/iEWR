@@ -10,6 +10,14 @@ unsupported` описывают конкретную связь, не рейти
 observed control; compensated — мера, owner/evidence/residual risk. Неподдержанный
 обязательный control удерживает dependent effect. Host product name не доказательство.
 
+Для файлов [общий порядок](../../project/README.md) применяется и при ordinary
+host tools: read-before-write не объявляется защитой от любой гонки. Установить
+доступную условную запись/блокировку либо действующую очередность; неизвестный
+writer при недостаточном контроле удерживает опасную замену. После возможной
+записи reconcile effect до retry; новая редакция не разрушает сохранённую прежнюю.
+Temporary/старый файл disposable только по поручению и при отсутствии unique
+edits/downstream reliance. Атомарная замена файла не транзакция комплекта.
+
 До отправки persist recoverable intent, если без него нельзя reconcile effect.
 После — receipt/partial/unknown и disposition. External success/local crash
 может оставить unknown; idempotency key не exactly-once guarantee. Outcome

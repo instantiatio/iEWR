@@ -199,18 +199,25 @@ consequential reliance use должен восстановить exact sources �
 
 ### 6.1 Постоянно доступные DPF и direct source
 
-Для discovery прочитай, если существуют, package
-`frameworks/dpf/REPERTOIRE.yaml` и project `project/dpf/REPERTOIRE.yaml`.
-Оба индекса производны от direct source bytes. Required 4 + 1 означает
-package availability; это не требование пяти источников для каждого вопроса.
-HAWS и legacy AI SDLC сохраняют exact source/use boundaries вне нового набора.
+Текущее правило самостоятельного выбора и применения задано
+[F](modules/formation/DOMAIN_WORK.md), доступ и достаточное чтение —
+[S](modules/sources/GUIDANCE.md). При новой содержательной задаче рассмотри
+package `frameworks/dpf/REPERTOIRE.yaml` и существующий project
+`project/dpf/REPERTOIRE.yaml` до существенной постановки/критериев/способа работы.
+Подходящий нужный вклад применяй; достаточную основу переиспользуй.
+[Путеводитель](catalog/dpf/GUIDE.md), bound cards и авторская навигация дают
+компактный вход. Индексы и package slots означают availability, не applicability
+или обязательное применение каждого источника. Legacy sources сохраняют свой scope.
 
 Для запроса регистрации используй
 [`DPF registration guide`](docs/DPF_REGISTRATION_GUIDE.md): источник уже лежит
-в `project/dpf/`, агент восстанавливает его own identity/status/loci как source
+в `source/external-dpf/` (legacy `project/dpf/` также допустим), агент восстанавливает его own identity/status/loci как source
 claims, deterministic helper проверяет paths/hash и атомарно фиксирует entry.
 Загрузка, распаковка, редактирование DPF и semantic Admission не входят в это
 действие. Unregister снимает discovery entry, не уничтожает текст или историю.
+При постоянном подключении краткая проектная ориентация — отдельный artifact
+effect в пределах поручения; механический register пишет только repertoire.
+Переиспользуй author aids; отсутствие карточки не блокирует прямое применение.
 
 Для последующего use:
 

@@ -5,6 +5,12 @@ completion listeners, automatic successors или Method/source selection.
 `dispatch` выполняет ровно один explicitly requested public owner operation.
 Caller задаёт current question/use/scope и stop/return, не status→next table.
 
+Один owner operation не равен всему пользовательскому поручению и не требует
+отдельного сообщения Human для каждого необходимого внутреннего действия.
+Caller может явно передать следующий нужный operation в уже действующем scope,
+сохраняя independent F/G/X/E основания. Продолжение выбирается по текущему
+результату и зависимостям; возврат dispatch сам не запускает successor.
+
 F выбирает intended basis, G работает с direct grounds, X инициирует action,
 E реализует/account effects, L assess exact use, R восстанавливает three accounts.
 Correlation восстанавливается из owner refs; C не имеет своего truth store.

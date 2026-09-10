@@ -16,6 +16,12 @@ mentions-only и unsearched surfaces не превращаются в незав
 Material durable effect с unresolved disposition удерживает только dependent
 closure/use. External authoritative SoR не копируется в Git ради ceremony.
 
+Для файлов соблюдать [связь проверки с редакцией](../../project/README.md):
+состояние и проверенное свойство должны быть различимы и доступны для use.
+Исправление сохраняет старую проверку как факт о прежнем предмете; пересматривается
+лишь затронутое, unresolved dependency не считается независимостью. Hash без
+доступного экземпляра недостаточен; повторная сборка не тот же проверенный ZIP.
+
 `observe_reliance` хранит только direct observation конкретного receiver/use,
 не автоматическую запись из assessment/decision. Observation ref ссылается на
 actual use; переданный текст не доказывает факт сам по себе. No current adequate
