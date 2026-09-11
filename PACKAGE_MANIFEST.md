@@ -1,14 +1,14 @@
-# iEWR 5.2.2 Beta — состав комплекта для публикации
+# iEWR 5.2.2 Beta — сведения об опубликованном составе
 
 | Параметр | Значение |
 |---|---|
-| Идентификатор | iEWR-5.2.2-beta |
+| Идентификатор | iEWR-5.2.2-beta-publication.1 |
 | Версия | 5.2.2-beta |
-| Редакция подготовки | 4 — итоговые документы и обозначение Beta |
-| Статус | Комплект подготовлен к рассмотрению для публикации; публикация фиксируется отдельно |
-| Принятая основа | iEWR-5.2.2-beta.3-docs.2 |
-| Рабочий предшественник | Редакция 3.1 iEWR-5.2.2 с пользовательскими правками README |
-| SHA-256 ведомости предшественника | fc1b021b74d498eb413359316154589df7958de3846aa16b8f30cde0829fcce1 |
+| Редакция сведений о публикации | 1 |
+| Статус | Принятый архив опубликован; выпуск назначен latest |
+| Принятая основа | iEWR-5.2.2-beta |
+| Рабочий предшественник | Точный принятый архив iEWR-5.2.2-beta.zip |
+| SHA-256 ведомости предшественника | 7c4b300aeff20b672f029dfa94a94b41ef677e3e548ada48f996388acb5bf499 |
 | Основа кумулятивных заметок | Предоставленный iEWR-5.2.1-beta.zip |
 | Архитектура и источники | Сохранены; карточки исключены, навигация объединена |
 | distribution_ready | false |
@@ -26,8 +26,8 @@
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Файл поставки | 8927ccc2767e0235316cb9d4e09fc751a2d3f25e73d3d3e97b4f663a81df8015 |
-| `BASELINE_STATUS.md` | Файл поставки | 34a8e6bc1484cb7ccf264506153a390bf1c73046563ad85076f55de9b4e8960e |
+| `AGENTS.md` | Файл поставки | f8bd45bccb353a9e851912f6d1d5df150d093cd01a7a86fe020fa4101843b41e |
+| `BASELINE_STATUS.md` | Файл поставки | d4fc2490585c4c5b117bae6978845526f7f173debefb52e8c6c1e451cc5e6072 |
 | `ENGINEERING_WORK_BOOTSTRAP_GUIDE.md` | Файл поставки | b765f4d1167471a63dc70e0045427a380442f1081d50e3837973296eb2616dab |
 | `LICENSE` | Файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
@@ -42,7 +42,7 @@
 | `adapters/filesystem/repertoire.py` | Файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Файл поставки | 21bdde5b57e80544b49ea588ca246099955afcd71b9525bc3135a0652ece53fd |
 | `adapters/presentation/text.py` | Файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Файл поставки | 798c8a4676ca546042e4bb0fdd8a8612218937ca5fe149b6c632f0e48374e66a |
+| `app/bootstrap/CONFIGURATION.json` | Файл поставки | 74ae58cccd2fa3ad0f7d639a5d3dfd227509518cfe0eb1a38b2c82b135badebd |
 | `app/bootstrap/ENTRY.md` | Файл поставки | 5f9851ed231c3235176c4e9efc03d254d19b8d71e0284c7502b18137d2a1e224 |
 | `app/bootstrap/operation.py` | Файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `catalog/README.md` | Файл поставки | 4dc9b22f7edbba969411737f0574cefedd9f863caa47c36a507e57b27b59c4ea |

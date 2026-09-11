@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "activation_entry": "AGENTS.md",
-  "status": "candidate_for_review",
+  "status": "published_beta",
   "architecture_sha256": "ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c",
   "scope": "single cooperative local host; semantic source and authority claims remain separate",
   "files": {
-    "AGENTS.md": "8927ccc2767e0235316cb9d4e09fc751a2d3f25e73d3d3e97b4f663a81df8015",
-    "BASELINE_STATUS.md": "34a8e6bc1484cb7ccf264506153a390bf1c73046563ad85076f55de9b4e8960e",
+    "AGENTS.md": "f8bd45bccb353a9e851912f6d1d5df150d093cd01a7a86fe020fa4101843b41e",
+    "BASELINE_STATUS.md": "d4fc2490585c4c5b117bae6978845526f7f173debefb52e8c6c1e451cc5e6072",
     "ENGINEERING_WORK_BOOTSTRAP_GUIDE.md": "b765f4d1167471a63dc70e0045427a380442f1081d50e3837973296eb2616dab",
     "LICENSE": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec",
     "MODEL_SELECTION_RECOMMENDATIONS.md": "b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490",
@@ -102,10 +102,10 @@
     "tools/package/verify_configuration.py": "96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812"
   },
   "distribution_ready": false,
-  "public_release": false,
-  "source_baseline_id": "iEWR-5.2.2-beta.4-cards.1",
+  "public_release": true,
+  "source_baseline_id": "iEWR-5.2.2-beta",
   "bundled_dpf_baseline_id": "iEWR-dpf-rev-d514a6fc",
-  "qualification_status": "beta_publication_candidate; revision 4, final documentation; bounded tests and exact scope in BASELINE_STATUS.md",
-  "package_id": "iEWR-5.2.2-beta",
+  "qualification_status": "accepted_beta_published_latest; bounded evidence and exact archive in BASELINE_STATUS.md",
+  "package_id": "iEWR-5.2.2-beta-publication.1",
   "version": "5.2.2-beta"
 }
