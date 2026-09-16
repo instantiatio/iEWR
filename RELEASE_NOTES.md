@@ -1,8 +1,7 @@
 # Release notes — iEWR 5.3.1 Beta
 
 **Кумулятивные изменения от iEWR 5.2.2 Beta до iEWR 5.3.1 Beta.**
-Дата подготовки: 16 сентября 2026. Release notes предъявляются для согласования;
-локальный кандидат ещё не принят и не опубликован.
+Документы согласованы 16 сентября 2026. [iEWR 5.3.1 Beta](https://github.com/instantiatio/iEWR/releases/tag/v5.3.1-beta) опубликован; границы проверок и применения сохранены.
 
 Назначение iEWR, начало работы и использование описаны в [README поставки](README.md).
 
@@ -61,7 +60,7 @@ Mermaid-код в диаграмму; значимые изображения/д
 
 Core Contract 1.0 RC, owner boundaries и существующие runtime schemas сохранены.
 Готовый unattended runtime, новые полномочия и автоматическая публикация не
-добавлены. `distribution_ready=false`, `public_release=false`.
+добавлены. `distribution_ready=false`, `public_release=true`: публикация не расширяет подтверждённую область применения.
 
 ## Связанные документы
 
