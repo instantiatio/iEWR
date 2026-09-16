@@ -21,7 +21,8 @@ SCAFFOLD = {"project/README.md", "project/source/.gitkeep",
 LEGACY_SCAFFOLD = (SCAFFOLD - {"project/handoff/.gitkeep"}) | {"project/reference/.gitkeep"}
 TREES = {"modules", "adapters", "app", "tools", "docs", "catalog",
          "frameworks", "templates"}
-EXTERNAL = "source/external-dpf/.gitkeep"
+EXTERNAL = "external-sources/external-dpf/.gitkeep"
+LEGACY_EXTERNAL = "source/external-dpf/.gitkeep"
 ROW = re.compile(r"^\|\s*`([^`]+)`\s*\|[^|]*\|\s*([a-fA-F0-9]{64})\s*\|\s*$")
 LIMIT = 32 * 1024 * 1024
 
@@ -42,8 +43,10 @@ def selected_path(name, *, legacy=False):
     first = name.split("/")[0]
     if first == "project":
         return name in SCAFFOLD or legacy and name in LEGACY_SCAFFOLD
-    if first == "source":
+    if first == "external-sources":
         return name == EXTERNAL
+    if first == "source":
+        return legacy and name == LEGACY_EXTERNAL
     return first in TREES or "/" not in name and not name.startswith(".")
 
 
@@ -107,7 +110,7 @@ def snapshot(root):
     verify(root)
     repertoire = json.loads(payload["frameworks/dpf/REPERTOIRE.yaml"])
     slots = [e.get("required_slot") for e in repertoire["entries"]]
-    if sorted(slots) != sorted(["SYSE", "ME", "OCE", "PSD", "OPS", "SDLC"]):
+    if sorted(slots) != sorted(["SYSE", "ME", "OCE", "PSD", "OPS", "SDLC", "EXD", "ADM"]):
         raise ValueError("package_slots")
     for entry in repertoire["entries"]:
         locus = entry["source_locus"]
@@ -132,7 +135,7 @@ def snapshot(root):
                 if child != ".DS_Store" and name not in rows:
                     raise ValueError("unselected_product_file:" + name)
     for path in root.iterdir():
-        if path.name in TREES | {"project", "source", ".git", ".agents", ".codex", ".gitignore", ".DS_Store"}:
+        if path.name in TREES | {"project", "external-sources", ".git", ".agents", ".codex", ".gitignore", ".DS_Store"}:
             continue
         if path.name != "PACKAGE_MANIFEST.md" and path.name not in rows:
             raise ValueError("unselected_root_path:" + path.name)

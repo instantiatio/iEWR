@@ -2,13 +2,13 @@
 
 ## Пользовательский сценарий
 
-Скачайте DPF в `source/external-dpf/`, желательно сохранив original filename,
+Скачайте DPF в `external-sources/external-dpf/`, желательно сохранив original filename,
 и попросите:
 
-> Зарегистрируй DPF из source/external-dpf/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
+> Зарегистрируй DPF из external-sources/external-dpf/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 
 Допустим также каталог одной edition, например
-`source/external-dpf/my-dpf/edition/`. Прежние источники в `project/dpf/`
+`external-sources/external-dpf/my-dpf/edition/`. Прежние источники в `project/dpf/`
 поддерживаются без перемещения. Затем можно попросить
 показать подключённые DPF, использовать подходящий DPF в задаче, добавить
 новую редакцию или снять регистрацию конкретного source_id/edition_id.
@@ -57,7 +57,7 @@ Hash verification проверяет bytes выбранного DPF, а не е�
   SYSE, ME, OCE, PSD, OPS; отдельно сохранён experimental local SDLC.
 - `project/dpf/REPERTOIRE.yaml` — источники, которые пользователь попросил
   постоянно находить в данном проекте. Это live state, не distribution inventory.
-- `source/external-dpf/` — стандартное место пользовательских исходников;
+- `external-sources/external-dpf/` — стандартное место пользовательских исходников;
   поставляемый пустой `.gitkeep` сохраняет каталог, сам он не DPF и не registration.
 - Source file/tree — те же пользовательские bytes по тому же пути. Ни hidden
   cache, ни автоматической второй копии нет.

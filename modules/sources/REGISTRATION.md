@@ -5,7 +5,7 @@ package и project entries — один qualified набор кандидато�
 Unregistered exact source допускается через SourceReader/inspect_binding; index
 не обязателен для чтения. FPF/DPF/LPF не являются capability routes или plugins.
 
-Для внешнего DPF стандартный пользовательский locus — `source/external-dpf/`.
+Для внешнего DPF стандартный пользовательский locus — `external-sources/external-dpf/`.
 Пользователь скачивает файл, желательно сохраняет original filename и просит
 зарегистрировать exact path обычным текстом. Agent inspect source in-place,
 определяет identity/edition по source, фиксирует raw digest и необходимые

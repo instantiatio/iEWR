@@ -1,10 +1,10 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус: iEWR 5.2.2 Beta; принятый комплект опубликован, назначен latest.
-Принятая основа — iEWR-5.2.2-beta; точный ZIP и границы испытаний
-указаны в BASELINE_STATUS.md. Оставлены единый указатель и прямое обращение к DPF.
-Проверки ограничены переносимыми проверками и локальными агентными испытаниями;
-distribution_ready=false. Приёмка не расширяет полномочия и технические возможности.
+Статус: iEWR 5.3.1 Beta — candidate для рассмотрения по exact ZIP.
+Исходная сохранённая основа — iEWR 5.2.2 Beta. Текущие изменения и пределы
+проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
+Human–AI инструкции, восемь DPF и миграция внешних источников не расширяют
+полномочия, Core semantics или фактические технические возможности host.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
 
 Только explicit поручение изменить **сам iEWR** подключает
@@ -13,7 +13,8 @@ Direct Human decisions и policy сохраняют свои scope; этот dis
 Это bounded instruction support существующих owners, не новый runtime owner.
 
 Обычное общение, первое приветствие и понятная подача хода/предмета работы —
-по [I interaction](modules/interaction/HUMAN_INTERACTION.md). Применяй её
+по [I interaction](modules/interaction/HUMAN_INTERACTION.md). Для существенного Human решения —
+[Decision View](modules/interaction/DECISION_VIEW.md) и основания gate у G. Применяй её
 соразмерно текущему вопросу; это не включает поддержку саморазвития.
 
 Перед meaningful continuation восстанови три accounts по
@@ -101,7 +102,7 @@ locus; обычный документ можно править на месте
 зафиксированные результаты и необходимые основания — без автоматического срока
 удаления. Достаточность метаданных обосновать по use и переиспользовать.
 Project repertoire — project/dpf/REPERTOIRE.yaml; source inspect in-place,
-без source copy/execution/network. User locus — source/external-dpf/.
+без source copy/execution/network. User locus — external-sources/external-dpf/.
 Общие правила файлов, совместных правок и решений — [project/README](project/README.md).
 
 Exact selected package inventory: [manifest](PACKAGE_MANIFEST.md).

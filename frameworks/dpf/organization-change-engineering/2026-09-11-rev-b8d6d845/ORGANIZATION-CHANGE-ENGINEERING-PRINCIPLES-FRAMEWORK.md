@@ -3,7 +3,7 @@
 > A domain pattern language for changing an organization's contributions, working relations, and capability while its work continues.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -117,8 +117,8 @@ The framework contains seventeen pattern bodies. The thirteen entries below are 
 ### OCE-PARTICIPATE - Match a participation or working-culture intervention to its cause
 
 - **Situation:** A needed contribution is avoided, distorted, late or burdensome despite nominal support for the change.
-- **Question:** Which supported cause changes the next action, and what intervention can improve actual participation or recurrent local practice?
-- **First useful result or honest blocker:** A cause-sensitive intervention and bounded consequences, or an unresolved rival, professional result or protection gap.
+- **Question:** Which supported conditions or surviving explanations change the next action, and what response can improve actual participation or recurrent local practice?
+- **First useful result or honest blocker:** A warranted response, with bounded consequences when performed, or the unresolved explanation, professional result or protection gap. A response robust across surviving rivals can finish on sufficient current grounds; a new contrast is selected only when its contribution warrants its obtainable work.
 - **Start with:** OCE.10 and one concrete work episode. Obtain the relevant access, authority, workload, learning or other result from its responsible practice.
 - **Stop or return:** Do not treat a valid objection as resistance, attendance as capability, or one meeting as changed culture. Use OCE.17 for the continuation of OCE practice among practitioners.
 
@@ -196,7 +196,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Organization Change Engineering Principles Framework.
-5 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -213,7 +213,7 @@ The recurring difficulty is that a change proposal can name a desirable organiza
 
 The language offers related Methods that can be used in different combinations. Its seventeen patterns retain separate entries because an organization concept, an effective assignment, an operating contribution, a consequence comparison and a revised arrangement answer different questions. The [pattern selection and result relations](#pattern-selection-and-result-relations) identify those first results. To recognize a useful entry, start with a concrete difficulty in work; obtain the stronger evidence and authority only for the claim or action that will rely on them.
 
-## From a bounded change to continuing organization development
+## OCE.Preface:1 - From a bounded change to continuing organization development
 
 Continuing organization development concerns how an organization can keep making worthwhile contributions as its situation changes. OCE supplies the deliberate change of organization relations and capability within that broader work. Strategy can change the intended direction; Operations can reveal an unworkable commitment; human learning can supply a needed capability; product or platform engineering can change what support is possible. Each contribution retains its own result and professional basis.
 
@@ -230,25 +230,25 @@ Keep the subject of development explicit:
 
 Use these distinctions to connect development contributions: later work can expose a learning need, improved support can make existing capability usable, and criticism of an OCE case can improve the Method. The relevant result crosses between practices only when it changes the receiving question.
 
-## Actual, formal, and possible claims remain distinct
+## OCE.Preface:2 - Actual, formal, and possible claims remain distinct
 
 Sources differ in what they can establish. Use a chart, policy, position description, process map, interview, Work trace or service record for the bounded claim it supports. Check whether the asserted organization relation actually holds in the relevant situation and time window.
 
 An organization concept describes possible relations; choosing it does not establish them. A WorkPlan describes intended change Work. Support claims about performed Work, changed relations, organization capability, participation, adoption, implementation outcomes, organization results, retention and culture with the evidence each claim needs.
 
-## Several structures and several views can coexist
+## OCE.Preface:3 - Several structures and several views can coexist
 
 For the current decision, select the structure and direct relation you need to inspect. Relevant structures may concern contributions, Work, assignments, authority, resource access, information use, material transfer, service provision, coordination, capability, providers or culture. They need not be isomorphic. Do not call every connected arrangement a graph; a mathematical graph is one possible lens after its nodes, edges, relation meanings and intended use are selected.
 
 Project, process, and case views can expose different claims about the same Work. A project viewpoint foregrounds commitments, allocations, and decision slots; a process viewpoint recurring contributions and controls; a case viewpoint changing evidence, exceptions, and next decisions.
 
-## Pattern relations do not prescribe a lifecycle
+## OCE.Preface:4 - Pattern relations do not prescribe a lifecycle
 
 `OCE.1 → OCE.2 → OCE.3` shows the result dependencies when the change focus, current-organization account and concept alternatives must all be developed. It is not a calendar sequence. A current account can be repaired while a repertoire is refreshed; a known concept can enter downstream design without repeating every earlier result; changed evidence reopens only defeated claims.
 
 Use the smallest pattern whose result can change the decision. Follow a prescribed sequence when the selected Method requires it. The PumpWorks application is a worked example, the Table of Contents gives reading order, and a return to another practice asks for a needed specialist result.
 
-## How the contributions connect
+## OCE.Preface:5 - How the contributions connect
 
 The patterns connect organization design and realization with consequence comparison, revision, Method development and continuation of OCE practice. The [Table of Contents](#table-of-contents) identifies the specific question addressed by each pattern.
 
@@ -258,7 +258,7 @@ Use `OCE.10` for a participation or adoption gap in the target organization's wo
 
 Continuing organization development can combine these contributions with Strategy, Operations, Administration, human learning, research and product engineering. A comparison can remain useful when a proposed revision cannot proceed. An authorized revision still needs realization and later observation.
 
-## Conditions for using the contributions together
+## OCE.Preface:6 - Conditions for using the contributions together
 
 A combination must fit the actual organization and interval in which its results are needed. Preparing participants, practising, installing support, running old and new arrangements together, reviewing exceptions, observing consequences and recovering service can all consume the same person's time or depend on the same provider. Individually plausible contributions can therefore be unavailable together. Establish the joint feasibility of the selected contributions with the participants whose work or support is required, including capability, access, authority and protection conditions that hours alone cannot express. When change work overlaps with a continuing service, use OCE.11 to recover the complete overlap with the affected participants and service owner.
 
@@ -268,7 +268,7 @@ The same joint question applies to relations as well as resources. A repository 
 
 When an interval, support, protection or authority condition changes, reconsider the combinations that depend on it. The change need not invalidate an independent organization account, comparison or retained Method. This permits continued useful work while a defeated branch waits for the result it needs.
 
-## Architectural Rationale
+## OCE.Preface:7 - Architectural Rationale
 
 OCE is organized around recurring organization-change difficulties and the results that answer them. FPF supplies the shared distinctions for Systems, relations, capability, Work, evidence, Methods, comparison and choice. The OCE contribution is to use them in organization-change work: generate organization concepts, design contribution and position arrangements, establish assignments and enabling relations, realize a contribution while service continues, examine consequences, revise the organization, and continue the practice of doing that work. Using FPF and direct sources alone is sufficient for a question they already answer; the connected OCE language makes the recurring domain work available without reconstructing it each time.
 
@@ -285,7 +285,7 @@ The separation among patterns follows consequential choices in practice:
 
 A fixed change-stage model is useful when a selected Method actually requires that sequence. The language as a whole instead preserves direct entries, conditional returns and simultaneous work. Its Parts group reading, and its pattern relations explain how one result can support another. Neither relation imposes a complete route on every use.
 
-## Applying the language in different settings
+## OCE.Preface:8 - Applying the language in different settings
 
 The shared questions about contribution, actual work, relations, realization and consequences stay available as the setting narrows. The existing applications show which assumptions must change:
 
@@ -297,13 +297,13 @@ The shared questions about contribution, actual work, relations, realization and
 
 These applications use shared Methods with changed conditions; they do not establish transfer of a clinical, engineering or governance result between the settings. The [practitioner-population application](#app-oce-04---oce-practice-across-a-practitioner-population) changes the subject again: it concerns OCE continuation across practitioners, including observations outside one organization's control. It needs evidence about their actual cases and opportunities, rather than treating the population as one organization or capability holder.
 
-## Practical gains, costs and limits
+## OCE.Preface:9 - Practical gains, costs and limits
 
 The practical gain is a more precise next change: retain what works, identify the relation that prevents the intended contribution, obtain its missing professional result, or stop an unsupported action. The consequence comparison keeps an observed local improvement visible beside transferred burden. Revision can change the failing relation without discarding the whole arrangement. The cost is work to recover current conditions, involve knowledgeable participants, compare serious alternatives and observe use. Even a small intervention can consume scarce learning, support and recovery time.
 
 The sources and cases bring perspectives with different limits. A sponsor can see formal milestones while workers experience hidden coordination or displaced work. Available records can omit dissenting, departed or peripheral participants and people without permitted evidence access. Ask whose missing account could change the diagnosis or comparison, and preserve uncertainty when it cannot be obtained. Healthcare implementation research, software service practice and technical-product examples require qualification when used in another setting. The constructed applications illustrate the Methods; they supply no estimate of OCE's comparative effectiveness or enduring organizational improvement.
 
-## Questions before relying on a combined result
+## OCE.Preface:10 - Questions before relying on a combined result
 
 For the current use, ask:
 
@@ -316,6 +316,8 @@ For the current use, ask:
 
 Use the selected bodies' checklists for their specific questions. Recognition of an OCE difficulty needs less than assurance of an organization capability, authorized revision or causal effect; the claimed result determines the further evidence.
 
+
+## OCE.Preface:End
 
 # Part I - Frame the Change and Compare Organization Concepts
 
@@ -1234,10 +1236,11 @@ Keeping the position separate from `U.SystemRoleAssignment` also preserves cases
 
 #### OCE.5:11.2 - Source Contributions and Boundaries
 
+An organization position can persist across holders, carry several expected contributions and remain vacant. Determine which position is in force from the organization's rules for establishing and continuing it.
+
 | Source line | Retained contribution | Use boundary |
 | --- | --- | --- |
 | Current FPF `A.2.1`, `A.2.2`, `A.6.REL`, `A.10`, `A.13`, and `A.15.1` | Role-kind classification, assignment, capability, relation obtaining, evidence, performer, and Work remain separately governed. | FPF does not currently define the organization-dependent institutional position. |
-| [R5/R10](#guide-source-keys) contribution-position synthesis | Position can persist across holders, carry several expected contributions, remain vacant, and depend on organization establishment. | Use the owning organization’s actual establishment and continuation basis to determine which local position is in force. |
 | Rogiers and Collings, [job-deconstruction paradoxes](https://doi.org/10.5465/amp.2022.0236) | Task- and project-based alternatives can add adaptability, while deconstructing jobs creates persistent human and organization paradoxes rather than a universal replacement for positions. | Make the local position-versus-direct-arrangement choice using the organization’s contribution and institutional conditions. |
 | Grote et al., [contribution-based engineering role modeling](https://doi.org/10.1109/ISSE65546.2025.11370103) | Deriving contribution bundles from required process contributions and stakeholder evidence can expose gaps hidden by titles. | Test transfer beyond the bounded engineering cases; establish local positions and assignments under the owning organization’s rules. |
 | Albert, [organization-structure perspectives](https://doi.org/10.1007/s41469-023-00152-y) | Activity grouping, decision representation, and legal-entity perspectives can give different evidence about a position's place. | Use the perspective as evidence, then recover the position’s establishment basis and any separate authority relation. |
@@ -1921,7 +1924,7 @@ Choice remains a separate governed act. Recommendation, provider commitment, con
 | Aksin and Masini, [shared-service organization configurations](https://doi.org/10.1016/j.jom.2007.02.003) | Shared-service configurations and their effectiveness are contingent rather than one universal best practice. | Qualify transfer from administrative and business services before choosing an internal, external, engineering, clinical, robotic, AI, or mixed arrangement. |
 | Goth et al., [shared-service administrative cost evidence](https://doi.org/10.1108/JSTP-10-2024-0345) | Objective cost-reduction evidence for administrative shared services is often weak or methodologically under-specified. | Require local evidence of cost gain, capability, provision, and arrangement adequacy before relying on the proposed shared service or outsourcing. |
 
-Refresh only the affected OCE.8 claim when a governing FPF distinction changes, an official standard or AI-risk edition changes the action, later human–AI/robotic or provider evidence reverses a comparison obligation, a direct specialist result changes a candidate, or representative use exposes a missing arrangement move. A new publication alone does not reopen the pattern.
+When a changed source or specialist result alters an assumption, obligation or comparison for this arrangement, reopen the affected result premise, candidate or OptionSet. Return a missing reusable arrangement move exposed by use to OCE.15.
 
 ### OCE.8:12 - Relations
 
@@ -2114,13 +2117,13 @@ Use the current SYSE.11 bounded System-use result and ME.16 introduction result 
 > **Type:** Method pattern
 > **Status:** Eternal alpha
 >
-> **Primary working result:** a cause-sensitive intervention and its bounded participation or working-culture consequences, or the exact unresolved explanation, professional result or stop.
+> **Primary working result:** a warranted participation or working-culture response, its bounded consequences when performed, or the exact unresolved explanation, professional result or stop. A response can be supported across surviving explanations without claiming a unique cause or creating a new study.
 
 ### OCE.10:0 - Use This When
 
 People nominally support an organization change, but the needed contribution is avoided, distorted, late or unnecessarily burdensome. Begin with one concrete episode: what contribution was expected, what happened when a participant tried, and what made another action more reasonable or safer?
 
-Use OCE.10 to investigate the organization-side conditions, choose an intervention matched to the supported cause, perform it within its protection and authority limits, and observe the receiving work. The target-working-culture branch concerns how local ways of contributing, challenging and helping are learned, recognized and repeated. It is not a programme for changing people's personalities.
+Use OCE.10 to investigate the organization-side conditions and choose a supported response. When the task includes performing an intervention, retain its protection and authority limits and observe the receiving work. A sufficiently supported recommendation or current continuation may finish before an intervention or new inquiry is selected. The target-working-culture branch concerns how local ways of contributing, challenging and helping are learned, recognized and repeated; it is not a programme for changing people's personalities.
 
 The first useful result may be “repair the missing access”, “change the contradictory consequence”, “obtain qualified practice”, or “the current evidence does not distinguish these causes”. A resistance label or a culture score is not an intervention.
 
@@ -2171,11 +2174,11 @@ Keep the smallest live set of rival explanations that would change the next move
 | The role or change conflicts with participants' understanding and concerns. | Can people explain the contribution and its limit, and which concern survives that explanation? | Use inquiry, role dialogue or participant co-design; revise the design when the concern is valid. |
 | A recurrent norm blocks help or challenge. | How do people learn, recognize and repeat that norm in the relevant group? | Change the demonstrated practice, recognition and support, then observe recurrence. |
 
-Current HCD.3 can help distinguish a same-person capability target from task, access and support causes. Obtain clinical judgement or a full learning intervention from the appropriately qualified professional. Preserve a surviving rival when the evidence is insufficient; request the discriminating observation instead of declaring the diagnosis complete.
+Current HCD.3 can help distinguish a same-person capability target from task, access and support causes. Use the appropriately qualified professional when a clinical judgement or learning intervention is actually needed. Preserve a surviving rival when evidence does not distinguish it, and withhold an unsupported unique-cause conclusion. Request a new contrast only when its attainable result could change the response or warranted claim enough to justify its whole burden, delay and displaced work. Include the effort of designing the inquiry; C.11.DUA supplies that appraisal when needed. If the response is robust across the rivals, the contrast cannot arrive in time, or its burden exceeds its contribution, finish the qualified response on the available basis.
 
 #### OCE.10:4.3 - Choose a bounded, source-supported intervention
 
-State the intended contribution, supported cause, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. A determinant name or a strategy-menu item does not supply that Method.
+State the intended contribution, supported condition or surviving explanations, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. When several explanations support the same bounded response, retain that uncertainty without inventing a unique cause. A determinant name or a strategy-menu item does not supply the Method.
 
 For a role-understanding difficulty, conduct a working conversation: reconstruct the expected result and limit with the participant; compare them with the person's goals, concerns and observed task; resolve the actionable misunderstanding or return the unresolved design conflict; agree one next contribution and how feedback will be obtained. OCE.12 can help obtain and sustain this leadership contribution.
 
@@ -2201,11 +2204,11 @@ Use C.36 for the cultural relations. The decision to promote a practice and the 
 
 #### OCE.10:4.6 - Return the consequence, revise or stop
 
-Return what changed in participation and receiving work, what remained costly or missing, and which rival explanation survives. Continue only the intervention supported by current observations; revise a defeated mechanism or return a professional question to its owner.
+Return what the available grounds warrant now. For a performed intervention, state what changed in participation and receiving work, what remained costly or missing, and which rival explanation survives. Continue only within the support of the current observations; revise a defeated mechanism or return a professional question to its owner. A useful response can remain warranted while its isolated causal explanation is unresolved.
 
 An intervention can be useful without being sufficient. Distinguish a bounded participation improvement, evidence of recurrent local practice, an unchanged gap and a wider causal or cultural claim.
 
-For ordinary local action, a short account of the episode, change and next observation can suffice. Stronger causal reliance uses C.28 and suitable evidence. Privacy, worker protection, safety, employment authority and professional competence remain direct conditions even for a small intervention. For a wider consequence comparison, use OCE.13; for an authorized organization-relation revision, use OCE.14. This Method includes the observations and local corrections needed for its own intervention.
+For ordinary local action, a short account of the episode, supported response and its use limit can suffice. Include a next observation only when the inquiry has a worthwhile attainable contribution. Stronger causal reliance uses C.28 and suitable evidence. Privacy, worker protection, safety, employment authority and professional competence remain direct conditions even for a small intervention. For a wider consequence comparison, use OCE.13; for an authorized organization-relation revision, use OCE.14. This Method includes the observations and local corrections needed for a claimed performed intervention.
 
 ### OCE.10:5 - Archetypal Grounding
 
@@ -2221,7 +2224,9 @@ In the next constructed episodes, a peer raises a missing-source question before
 
 The supported result is a changed local participation practice in those episodes. Access repair, changed consequences and practice happened together; no isolated causal effect is claimed. A count of earlier reports is insufficient by itself: the questions must be relevant and the burden and receiving result must be inspected. The whole organization's culture, release quality and enduring adoption remain unestablished.
 
-If interviews instead showed that people already challenge freely but cannot obtain the needed source, the appropriate intervention would be access repair, not a culture campaign.
+For a current continuation of the combined repair, suppose the existing observations support its useful contribution and acceptable burden, while a component-by-component comparison would take the qualified provider away from needed practice and could not change the decision to retain it. Continue within that scope and keep the causal alternatives unresolved. A new interview or experiment is not required to finish that response. If changed access, burden or protection makes the response differ across the surviving explanations, select an obtainable worthwhile contrast or take the warranted narrower action or stop; do not claim the missing distinction.
+
+If available interviews instead showed that people already challenge freely but cannot obtain the needed source, the appropriate intervention would be access repair, not a culture campaign.
 
 #### OCE.10:5.2 - Participation without common employment authority
 
@@ -2238,9 +2243,9 @@ Sponsor-centred inquiry can turn valid objections into resistance. Fear of conse
 ### OCE.10:7 - Conformance Checklist
 
 - The gap concerns a concrete contribution and receiving work, not only an attitude label.
-- Rival explanations that change action have been considered; uncertainty remains visible.
+- Rival explanations that change action have been considered and uncertainty remains visible. A new contrast is selected only for a worthwhile attainable contribution, including design effort, delay and displaced work; a response supported across the rivals can finish without it.
 - The chosen intervention has a supported mechanism, suitable Method, owner, protection and stop.
-- Actual use, non-use, burden and receiving consequences are observed.
+- A claimed performed intervention uses actual observations of use, non-use, burden and receiving consequences. A recommendation, current continuation or selected probe is not reported as a newly performed intervention.
 - A cultural claim includes transmission, recognition and later use within a named population and window.
 - A stronger causal or professional claim is not inferred from a local participation result.
 
@@ -2276,7 +2281,7 @@ The practice question is how to choose a useful participation intervention rathe
 
 OCE.6 and the direct relation owners establish assignments, authority and enabling conditions. OCE.8 can reconsider a flawed Work arrangement. OCE.9 integrates the repaired contribution; OCE.11 addresses service/change burden; OCE.12 supplies and develops leadership contributions. OCE.15 and current Method Engineering qualify a new Method account rather than treating an intervention label as an admitted Method.
 
-Current HCD.1/HCD.3/HCD.4 can supply demand, target-diagnosis and capability-profile results; missing learning, clinical or other professional results remain external. C.36 governs cultural relations, and C.28 stronger causal use. OCE.17's OCE-discipline culture is a different subject, not a synonym for target-organization working culture.
+Current HCD.1/HCD.3/HCD.4 can supply demand, target-diagnosis and capability-profile results; missing learning, clinical or other professional results remain external. C.36 governs cultural relations, C.28 stronger causal use, and C.11.DUA appraisal of a questionable inquiry demand. OCE.17's OCE-discipline culture is a different subject, not a synonym for target-organization working culture.
 
 ### OCE.10:End
 
@@ -2837,7 +2842,7 @@ The practice question is how to obtain enough consequence evidence to change an 
 
 The [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html), especially §§2.2.1–2.2.2 and §3.4, supports intended-user and decision-timing questions, proportionate designs and explicit explanatory limits. Sections 4.3–4.5 adapt that line: reuse suitable evidence, expose rivals and request specialist attribution when it changes the use. Obtain the local measurement result and organization decision authority from their respective owners.
 
-**Adopt the domain consequence question.** R10 Systems Management and R11 Development for the Advanced distinguish desired results, observations of drift, sacrificed work and different development contributions. The PumpWorks and hospital cases carry those distinctions into an OCE comparison; the fuller Guide source keys remain the return for the narratives.
+**Compare the consequences of change.** Distinguish desired results, observed drift, sacrificed Work and different development contributions. The PumpWorks and hospital cases show how those distinctions affect an OCE comparison.
 
 **Reject** unchanged KPI reporting when it omits a decision-changing burden, and reject universal causal study as the price of a descriptive result. At comparable effort, qualifying the two relevant contrasts in PumpWorks yields a more useful next question than broad reporting. More demanding evidence is deliberately retained when its answer can change a high-consequence claim. Reopen the selected comparison when a changed population, procedure, configuration, applicable rival design or later consequence defeats its basis.
 
@@ -3071,7 +3076,7 @@ Separating comparison, authority, effectivity and realization lets a practitione
 
 The practice question is how to revise an organization after consequences or changed conditions defeat a current premise. The selected line combines explicit alternatives and losses, actual authority, practical support and evidence-driven revision. A serious alternative is to continue a staged rollout toward its original target, treating feedback only as a request for more implementation effort.
 
-**Adopt and adapt the domain line.** R10 Systems Management, R10.5:7 and R10.10:5, separates desired world results from Methods and connects authority, support, first real work, sacrificed alternatives and later improvement. R11 Development for the Advanced, R11.5:13–17, keeps organization revision distinct from direction, platform, learning and research contributions. Sections 4.1–4.6 and the PumpWorks case carry these moves. Fixed adoption calendars, compulsory software and a universal corporate decision owner are not imported.
+**Connect revision to the desired result.** Separate the result sought in the world from the Methods used to obtain it. Relate authority, support, the first performed Work, sacrificed alternatives and later improvement. Distinguish organization revision from contributions to direction, platform, learning and research. Sections 4.1–4.6 and the PumpWorks case show these moves.
 
 **Adapt proportionate evaluation use.** The [MRC update (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061) and [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html) support revisiting explanations and evidence needs when the receiving decision changes. Section 4.4 retains stronger causal inquiry where it matters without making it a prerequisite for every bounded revision. Obtain local authority and the direct service, clinical or employment result from their qualified owners.
 
@@ -3256,7 +3261,7 @@ The cost is disciplined status and evidence work. Popular interventions can rema
 
 Organization-change Methods address changing organization relations, affected people and Systems, distributed authority, continuing service, and heterogeneous intervention evidence. These conditions change what practitioners must do. Use Method Engineering and FPF for general questions of Method identity, architecture, qualification, trial, fit, worth, variants, introduction, and culture.
 
-[R7](#guide-source-keys) preserves the connected Method, Work, description, capability, instrument, role, variant, and culture account. [R10](#guide-source-keys) shows project, process, and case management as different viewpoints on one Work rather than rival Methods. OCE.15 keeps both connections.
+Recover the relations among the Method, performed Work, descriptions, capability, instruments, roles, variants and culture. Project, process and case management can offer different viewpoints on the same Work. OCE.15 uses both connections to develop the organization-change Method repertoire.
 
 ### OCE.15:11 - SoTA-Echoing
 
@@ -3269,7 +3274,7 @@ Organization-change Methods address changing organization relations, affected pe
 | Powell et al., [ERIC strategies](https://doi.org/10.1186/s13012-015-0209-1) | Discrete implementation strategies can be candidate contributions. | Determine the required sequence, local fit, and effects for the selected contributions. |
 | Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) and Reardon et al., [CFIR User Guide](https://doi.org/10.1186/s13012-025-01450-7) | A determinant framework requires project-specific boundary and construct operationalization. | CFIR is not designed to develop an innovation or specify the implementation process and is not a universal OCE Method. |
 | Proctor et al., [implementation outcomes](https://doi.org/10.1007/s10488-010-0319-7) and [ten-year review](https://doi.org/10.1186/s13012-023-01286-z) | Implementation outcomes need named referents and remain distinct from service, client, and organization results. | Causal relations among strategies, mechanisms, implementation outcomes, and downstream outcomes remain weakly established. |
-| Current Method Engineering Principles Framework; [R7/R10](#guide-source-keys) | General Method results, connected conceptual synthesis, and several viewpoints on one Work. | OCE.15 consumes the named ME results and adds only organization-change semantics and use. |
+| Current Method Engineering Principles Framework | General Method results, connected conceptual synthesis, and several viewpoints on one Work. | OCE.15 consumes the named ME results and adds only organization-change semantics and use. |
 
 Reopen when a source or representative use exposes a materially different domain contribution, framework function, mechanism, situation change, outcome boundary, bundle interaction, or candidate-development need, or when Method Engineering makes an OCE move redundant.
 
@@ -3677,11 +3682,11 @@ This makes diagnosis by case comparison practical. A preserved result under a ne
 
 The practice question is how to respond when an apparent OCE practice fails to continue. The selected line is case-based recognition followed by a mechanism-matched, condition-qualified response and later observation. The serious alternative is a common communication or training package applied to every apparent non-use. It is cheaper to schedule, but cannot distinguish a deficient example from missing permission or a valid refusal of an obsolete move.
 
-**Adopt and adapt the domain line.** R7 Methodology, R7.5:13–15 and :19 and R7.6:12/:14, supports recovering operative Methods across carriers and practitioners. R11 Development for the Advanced, R11.9:7–8, :12–15 and :22–24, adds repeated work in unlike settings. Sections 4.1–4.2 and the two cases carry that contribution. Do not import fixed hours, status ladders, biological analogies or label popularity as evidence of mastery or persistence. The fuller narratives are discoverable through the framework's Guide source keys.
+**Recover the practice being continued.** Identify operative Methods across descriptions, instruments and practitioners, and examine repeated Work in unlike settings. Sections 4.1–4.2 and the two cases show how exposure, support, use and continuation can differ.
 
 **Adapt current implementation inquiry.** The [NPT coding manual (May et al., 2022)](https://doi.org/10.1186/s13012-022-01191-x) and [NPT-derived strategy synthesis (May et al., 2025)](https://doi.org/10.1186/s13012-025-01444-5) are best-known-line contributors for matching implementation work to an identified difficulty. They change sections 4.3–4.5: ask about understanding, participation, support and appraisal before selecting a response. The synthesis used 63 health/social-care studies and interpretive coding; it supplies no comparative effectiveness result for OCE practitioners.
 
-**Retain the contextual challenge.** The [NPT consolidation, version 1 (May, Finch and Rapley, 2026)](https://doi.org/10.3310/nihropenres.14315.1) strengthens attention to changing conditions and distributed burdens in sections 4.2 and 4.5. It is a qualified comparison, not proof of cultural-evolution or individual-learning mechanisms.
+**Retain the contextual challenge.** The [NPT consolidation, version 1 (May, Finch and Rapley, 2026)](https://doi.org/10.3310/nihropenres.14315.1) strengthens attention to changing conditions and distributed burdens in sections 4.2 and 4.5. It does not establish cultural-evolution or individual-learning mechanisms.
 
 At comparable bounded effort, inspecting one useful and one doubtful case can distinguish next actions that the generic package leaves conflated. The deliberate cost is obtaining case evidence and professional input where the question needs them. **Reject** the claim that this comparison establishes intervention efficacy. Reopen the selected response when later cases, a better applicable rival or changed source evidence defeats its mechanism, protection or continuation premise.
 
@@ -3834,7 +3839,7 @@ This publication contains all seventeen pattern bodies. For the selected use, ga
 | How should product/service and organization architectures constrain each other? | `OCE.7` | Separate coordinated decisions across four candidate forms | product/service owner, `OCE.9` for realization, or continuing Operations |
 | Which complete work arrangement can produce the same bounded result? | `OCE.8` | Same-result baseline and whole-candidate comparison, followed by an authorized choice or probe, rejection, or reroute; a preliminary result may be a recommendation | Obtain the needed capability, assignment, provider, safety/domain, or Operations result from its owner. Use OCE.9 to realize missing conditions; dependent trial Work still needs its own authorization. |
 | How can the selected organization contribution become usable? | OCE.9 | Bounded capability increment or exact failed/unrealized condition | OCE.6, OCE.10–OCE.12, receiving operation or the direct result owner |
-| Which intervention can repair this participation or working-culture gap? | OCE.10 | Intervention matched to the qualified diagnosis and its bounded local consequences, or an unresolved competing explanation or gap | direct relation/learning owner; OCE.9, OCE.11 or OCE.12 where its result is needed |
+| Which response can repair this participation or working-culture gap? | OCE.10 | Supported response and bounded consequences when performed, or an unresolved competing explanation or gap; no new contrast when the current response is sufficiently supported across rivals | direct relation/learning owner; OCE.9, OCE.11 or OCE.12 where its result is needed |
 | How can change and continuing service coexist? | OCE.11 | Authorized overlap, observed service/change consequences and hand-back, or deferral/stop | current ME.6, OPS.5–OPS.7, OCE.8/OCE.16 or the exact service/protection owner |
 | Which leadership contribution is missing or dependent on one initiator? | OCE.12 | Performed contribution and tested continuation arrangement, or exact support gap | qualified learning provider, OCE.10/OCE.11, assignment/authority owner or OCE.15 |
 | What changed, for whom and under which conditions? | OCE.13 | Qualified consequence comparison with conflicting results, competing explanations and gaps, or an observation plan | OCE.14, OCE.10/OCE.11, or the owner of the needed measurement, evaluation or affected-result judgment |
@@ -3847,18 +3852,9 @@ Choose the next pattern from the result needed, not from a presumed lifecycle. O
 
 ## Source use and currentness
 
-### Guide source keys
+### Source use and conceptual synthesis
 
-These keys identify working Markdown guides by Anatoly Levenchuk consulted for this release on 2 September 2026. Use the linked texts and named sections to recover the conceptual argument. Establish local authority and performed-change claims from their own rules and evidence. A later Guide edit reopens only an OCE claim that depends on the changed content.
-
-| Key | Source identity and discovery | Reading scope and qualification |
-| --- | --- | --- |
-| R5 | Руководство по системному мышлению — Guide to Systems Thinking | Maintained working text, especially R5.6:7.A, “Характеризация роли”. It distinguishes role and organization-position questions; it does not establish a local position, its institutional force or a holder's authority. |
-| R7 | Руководство по методологии для инженеров-менеджеров — Guide to Methodology for Engineers and Managers | Maintained working text, especially R7.3:11; R7.5:13–15 and :19; R7.6:12 and :14. Recover operative Methods across words, carriers and practitioners; distinguish exposure, support, use and continuation. Culture analogies, popularity, hours and ranks supply no evidence of mastery or universal sequence. |
-| R10 | Системный менеджмент — Systems Management | Maintained working text: R10.3:6 for roles/positions, R10.7:1–2 for project/process/case viewpoints, R10.5:7 for desired results and sacrificed alternatives, and R10.10:1–5 for leadership, authority, practical support and revision. The 2002 strategy/tactic-tree discussion is a historical anchor. Fixed rollout periods, compulsory software and one universal corporate owner are not imported; local authority and actual outcomes remain separate. |
-| R11 | Развитие для развитых — Development for the Advanced | Working narrative developed from the 2026 seminar; R11.5:13–17 and R11.9:1, :7–8, :12–15 and :22–24 connect observations, several development scales, work-linked learning and later use outside direct supervisory control. The synthesis supplies neither an enacted intervention nor a universal duration, qualification ladder, transfer or effect claim. |
-
-[R7](#guide-source-keys) helps recover a Method across different descriptions, instruments, practitioners, and variants while distinguishing it from performed Work and capability. [R10](#guide-source-keys) relates project, process, and case viewpoints on the same Work to assignments, participation, and development of organization capability. [R11](#guide-source-keys) connects learning, professional work, organization and platform development, and inquiry at different scales while distinguishing their results.
+Recover a Method across descriptions, instruments, practitioners and variants while distinguishing it from performed Work and capability. Project, process and case viewpoints on the same Work can inform assignments, participation and development of organization capability. Learning, professional Work, organization and platform development, and inquiry can contribute at different scales; distinguish their results when choosing or revising a change.
 
 Each pattern's SoTA-Echoing section identifies the direct sources used for its moves, the retained contribution, and the source's limits. The summaries below highlight contributions that span several decisions or impose a significant reliance boundary.
 
@@ -3869,8 +3865,6 @@ For coordinated architectures, OCE.7 adapts the contingent line developed in [Jo
 OCE.15 uses the [change-intervention review by Hagl and colleagues](https://doi.org/10.1016/j.hrmr.2023.101000) and the [implementation-framework review by Wang and colleagues](https://doi.org/10.1186/s13012-023-01296-x) to retain different intervention contributions and implementation functions. [Nilsen's 2015 taxonomy](https://doi.org/10.1186/s13012-015-0242-0) supplies a historical distinction among framework functions; [ERIC's 2015 catalogue](https://doi.org/10.1186/s13012-015-0209-1) supplies candidate implementation strategies. The [2025 CFIR User Guide](https://doi.org/10.1186/s13012-025-01450-7) strengthens situation-specific determinant inquiry; a determinant account still leaves the intervention Method to be selected or constructed. [The ten-year review of implementation outcomes](https://doi.org/10.1186/s13012-023-01286-z) also limits inference from adoption or implementation success to later service and organization results. OCE.15 supplies the domain problem, mechanism hypothesis, participants and conditions to Method Engineering for its qualification work.
 
 For engagement and continuation, the [ADKAR](https://www.prosci.com/methodology/adkar) and [Kotter](https://www.kotterinc.com/methodology/8-steps/) provider accounts used in this edition are serious repertoire comparators. They contribute targeted support, enabling action and reinforcement; Kotter's account also describes evolution from steps into accelerators. In the OCE case, practitioners still need to establish which organization relations obtain, whose authority applies and what service recovery or capability evidence supports the intended action. Provider descriptions are not independent evidence that one school is more effective.
-
-These contributions form a source-grounded design synthesis. Their combined use is not an empirical ranking of all organization-change schools. R5, R7, R10 and R11 provide connected problem accounts and source paths; they do not independently confirm the studies they discuss. Their public source keys above preserve the exact retained loci and excluded universal durations, training ladders and authority assumptions.
 
 For OCE.8, Naikar et al. and Waterson et al. contribute distributed sociotechnical and responsibility/recovery questions. Vaccaro et al.'s findings support comparison with the best applicable solo arrangement when synergy matters. NASA and Lagomarsino et al. contribute human/automation/robotic allocation and dynamic-reallocation questions. ISO 6385:2016 contributes ergonomic requirements and ISO 10218-1/-2:2025 industrial-robot safety requirements; check the editions and requirements applicable to the proposed work. The voluntary NIST AI RMF 1.0 contributes third-party, monitoring, incident, recovery, override, and change-management questions; check later revisions before relying on those contributions. Aksin and Masini plus Goth et al. bound shared-service configuration and cost claims. The local choice still needs authority and a whole-arrangement comparison, followed by separate provision and enactment evidence. Require a human in the loop only when the direct authority, safety, or performance basis warrants it.
 
@@ -3886,7 +3880,9 @@ Refresh only the affected pattern or repertoire claim when a governing FPF disti
 
 ## FPF dependency and compatibility
 
-**Depended-on state.** This release relies on **First Principles Framework (FPF) - Core Conceptual Specification, Version August 2026**, status **Normative kernel, eternal alpha**, including the current pattern hosts used for this release. “Current FPF” inside a body refers to that source state; apply the compatibility rule below when a later host changes.
+**FPF sources.** This framework cites **First Principles Framework (FPF) - Core Conceptual Specification, Version August 2026**, status **Normative kernel, eternal alpha**, and additional pattern hosts named in the OCE bodies. That citation does not identify the exact monolith and host editions used for each claim. The ordinary FPF links lead to the evolving public text.
+
+**Recovering a comparison baseline.** To assess a later FPF change, obtain from the OCE author or source holder the previously used FPF passage and any additional host text for the consuming OCE claim, identified by PatternID and text edition. Compare those texts with the proposed changed source. Until the earlier text is recovered, the before/after compatibility conclusion for that dependency remains unresolved. Other OCE uses can continue when their needed premises and results can be established independently.
 
 **Direct uses.** FPF supplies concepts and rules for System recognition, affected-System discovery, direct relations and selected structures, Work and WorkPlans, assignments and performers, capability, evidence, comparison, choice, Method identity and description, several-structure reconciliation, currentness, and culture mechanics. OCE applies these to organization-change situations, domain relations and Methods, participants, authority, consequences, and receiving results.
 

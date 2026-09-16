@@ -66,3 +66,30 @@ receiving use. Если остаются необходимые разрешён
 Lessons — direct owner result, когда нужен current receiving use. Они не
 создают successor, LPF/DPF/Core change. Model/provider advice даётся по exact
 observed capability/cost/limits; датированное имя или ranking не superiority.
+
+Для делегации достаточно восстановимой цели, пригодного результата, существенных
+критериев/компромиссов, разрешённых effects и условий возврата. Если они уже
+даны, не проводить повторное интервью. Агент выбирает обычные способы внутри
+этих границ; Human сохраняет решения, которые direct grounds оставляют ему.
+Перед gate подготовить соразмерное обоснование по G/I; при нехватке одного
+ответа продолжать независимое разрешённое. Формат и число документов выбираются
+по use, не по сложности темы.
+
+При проектировании целевой системы исследовать внешний стандарт или guidance
+по S только если его attainable ответ может изменить критерий/решение.
+SYSE.9 и ME.2/4 помогают ограничить contribution, source и receiving use;
+project RMP может помочь при собственном исследовательском вопросе, но не
+является обязательным bundled источником. Новое обязательство не возникает
+из выбранной библиографии. Достаточный source answer завершает этот вопрос.
+
+Method, MethodDescription, WorkPlan и Work сохраняют разные meanings. Протокол,
+исходник, checklist или Loop filename не устанавливает Method identity.
+Method Engineering нужен для собственного вопроса identity/fit/composition/
+variant/description/worth, а не для каждого выполнения adequate Method.
+Когда нужен WorkPlan, связать предмет и горизонт с intended performance, Method,
+performer/window и только нужными dependencies/resources/commitments. PlanItem
+остаётся declaration-local content; план не устанавливает assignment, readiness
+или performance. Readiness A.15.5 нужен только для exact planned entry.
+Optional Working Process/Work Context/Entry Decision — производные carriers
+только для самостоятельного use; historical meanings — по
+[переходу 5.3](../../docs/MIGRATION_5_3.md), без обязательной цепочки документов.

@@ -1,0 +1,58 @@
+# Переход с 5.2.2 к iEWR 5.3.1 Beta
+
+Новая candidate-конфигурация развивает Human–AI инструкции, обновляет пять и добавляет два
+авторских DPF и меняет публичный путь внешних проектных источников. Core Contract
+1.0 RC, functional DAG, direct authority, существующие runtime schemas и локальный
+экспериментальный SDLC не меняются. Minor version отражает новые доступные
+contributions и миграцию пути; это не новая архитектура и не приёмка.
+
+## Каталог внешних источников
+
+Новый root — `external-sources/`, стандартный DPF locus —
+`external-sources/external-dpf/`. `project/source/` по-прежнему хранит входящие
+материалы проекта. `project/dpf/REPERTOIRE.yaml` остаётся repertoire writer locus;
+старый допустимый source locus `project/dpf/` сохраняется.
+
+Для разрешённой миграции сохранить source bytes и прежний repertoire, перенести
+корневой каталог целиком, изменить current source_locus/normative_loci и loci
+source claims в project repertoire, затем сверить SHA-256 и фактическое чтение.
+Не менять source identity/edition/digest только из-за нового адреса. Исторические
+bindings и решения не переписываются; старая source basis восстанавливается по
+прежнему сохранённому комплекту и mapping old→new. Неизвестный внешний consumer
+остаётся явно непроверенным; historical paths не считаются current roots.
+
+Новая регистрация принимает новый root; `source/external-dpf/` отвергается.
+Package helper читает старый scaffold только внутри historical ZIP для diff,
+не включает произвольные внешние DPF в новую поставку. Подключение источника
+по-прежнему не создаёт permission, applicability или execution.
+
+## Перенос полезного legacy
+
+Два корневых guide исключены из чистого комплекта после сверки вкладов. Они
+доступны в неизменном исходном ZIP 5.2.2 и history проекта разработки. Старые
+пути читаются как historical references; на новой поставке используются owners:
+
+| Legacy вклад | Current locus |
+| --- | --- |
+| Formation, first useful result, adequate reuse, Method question, optional WorkPlan | [F](../modules/formation/DOMAIN_WORK.md) |
+| Bounded source set, contributions, conflicts, source change, registration | [S](../modules/sources/GUIDANCE.md), [registration](../modules/sources/REGISTRATION.md) |
+| Scope, permission, authority, competence, conditional response | [G](../modules/governance/GUIDANCE.md) |
+| Direct execution, formal Work order, readiness, profiles, steering, provider mapping | [X](../modules/execution/EXECUTION_BASIS.md) |
+| Technical boundary, effects, recovery before retry | [E](../modules/effects/GUIDANCE.md), [R](../modules/recovery/CONTRACT.md) |
+| Conditional Verification, evidence, decision, actual reliance | [L](../modules/reliance/RECEIVING_USE.md) |
+| Human interaction, view, material disclosure, optional carriers | [I](../modules/interaction/HUMAN_INTERACTION.md), [Decision View](../modules/interaction/DECISION_VIEW.md) |
+
+Рабочий процесс/Working Process — optional derived view по действующим direct
+grounds, не новый owner, Method, WorkPlan или authority. Legacy Loop может быть
+кандидатным описанием способа только по содержанию; Task — request/intended-item
+carrier; Run — запись execution; Candidate — label unresolved use. Admission
+record отражает прежнее exact решение, а Relied-on — конкретный receiving use.
+Ни filename, ни status не устанавливают FPF kind. CAP — прежний alias bounded
+profile без grant; STATE_INDEX — необязательная навигация, stale игнорируется.
+Массовая конверсия истории и повторный Admission не требуются.
+
+Каталоги engineering views и working-process cues, их optional templates и
+CONTRACT B1 сохранены: они дают ограниченные вопросы, интерфейсные references
+и compatibility content, а не обязательный lifecycle. Их historical citations
+не становятся актуальным endorsement; source access — по S. Отдельный общий
+registry, scheduler, automatic successor и обязательный review не добавлены.

@@ -40,3 +40,13 @@ owner records и schema 1/2 navigation carriers читаются в исходн
 неизвестная версия удерживает dependent continuation. Текст legacy carrier
 возвращается exact UTF-8 с hash для bounded Human/agent interpretation; по имени
 Loop/Task/Run/admitted новые semantic claims не создаются.
+
+## Ожидаемые решения
+
+При handoff восстановить для каждого существенного ожидания exact вопрос и
+редакцию, адресата/decider, требуемый ответ/данные, условия, известный срок и
+зависимое действие. Различать ответы разных участников и ещё не завершённые
+формы. Сохранить уже разрешённое независимое продолжение. Pending request,
+полученный ответ и фактически применённый ответ — разные наблюдения. Repeated
+delivery и неизвестный эффект не replay; для current use вернуть G/X exact
+изменение/отзыв и восстановленные effects. R не возобновляет actuation сам.

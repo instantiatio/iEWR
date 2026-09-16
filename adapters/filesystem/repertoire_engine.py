@@ -39,7 +39,7 @@ INDEX_NAME = "REPERTOIRE.yaml"
 SCOPE_ROOTS = {"package": "frameworks/dpf", "project": "project/dpf"}
 # Source read roots are separate from the unchanged repertoire write roots.
 SOURCE_ROOTS = {"package": ("frameworks/dpf",),
-                "project": ("project/dpf", "source/external-dpf")}
+                "project": ("project/dpf", "external-sources/external-dpf")}
 MAX_FILES = 10000
 MAX_DEPTH = 24
 MAX_FILE_BYTES = 32 * 1024 * 1024
