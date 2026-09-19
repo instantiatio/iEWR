@@ -29,10 +29,10 @@ LIMIT = 1024 * 1024
 
 
 try:  # CLI and package imports retain the existing public helper names.
-    from .snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object
+    from .snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object, relative_href
 except ImportError:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object
+    from snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object, relative_href
 
 
 def render(data, input_path, output_path, root):
@@ -85,7 +85,7 @@ def render(data, input_path, output_path, root):
             gaps.append(f'{where}: ожидаемый digest не установлен')
         elif actual != ref['sha256']:
             gaps.append(f'{where}: digest не совпадает, нужна сверка')
-        href = quote(os.path.relpath(path, output_path.parent).replace(os.sep, '/'), safe='/')
+        href = relative_href(path, output_path.parent)
         return (f'<a href="{esc(href)}">{esc(ref["label"])}</a>'
                 f'<small>Файл: {esc(name)} · ожидаемый SHA-256: {esc(ref["sha256"] or "не установлен")}'
                 f' · прочитанный: {actual}</small>')

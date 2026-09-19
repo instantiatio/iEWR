@@ -4,8 +4,15 @@ import os
 from pathlib import Path
 import re
 import stat
+from urllib.parse import quote
 
 LIMIT = 1024 * 1024
+
+
+def relative_href(target, directory, path_module=os.path):
+    """Encode a relative filesystem path as URL segments, not native separators."""
+    relative = path_module.relpath(target, directory)
+    return quote(relative.replace(path_module.sep, '/'), safe='/')
 
 
 def fields(value, names, where):
@@ -79,4 +86,3 @@ def unique_object(pairs):
             raise ValueError(f"Повтор поля JSON: {key}")
         result[key] = value
     return result
-
