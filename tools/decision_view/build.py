@@ -21,8 +21,9 @@ def json_text(value):
 def write_new(path, text):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open('x', encoding='utf-8') as f:
-        f.write(text)
+    # Hashes and sizes refer to exact UTF-8 bytes, independent of host newlines.
+    with path.open('xb') as f:
+        f.write(text.encode('utf-8'))
 
 def table_html(table):
     return '<div class="table-wrap"><table><caption>'+esc(table['title'])+'</caption><thead><tr>'+''.join('<th scope="col">'+esc(x)+'</th>' for x in table['columns'])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(x)+'</td>' for x in row)+'</tr>' for row in table['rows'])+'</tbody></table></div>'
@@ -75,8 +76,9 @@ def render(source, output, source_dir):
                                     'filename':local.name,'sha256':digest}
                 local=reader
                 material['filename']=reader.name
-                material['sha256']=sha(rendered.encode())
-                material['bytes']=len(rendered.encode())
+                saved=reader.read_bytes()
+                material['sha256']=sha(saved)
+                material['bytes']=len(saved)
             if local.name.endswith('.er.json'):
                 from er import render as render_er
                 raw=local.read_bytes()
@@ -88,7 +90,8 @@ def render(source, output, source_dir):
                 material['source']={'path':quote(os.path.relpath(local,output.parent),safe='/'),
                                     'filename':local.name,'sha256':digest}
                 local=reader;material['filename']=reader.name
-                material['sha256']=sha(rendered.encode());material['bytes']=len(rendered.encode())
+                saved=reader.read_bytes()
+                material['sha256']=sha(saved);material['bytes']=len(saved)
             if local.suffix.lower() == '.zip':material['presentation']='download'
             material['path'] = quote(os.path.relpath(local, output.parent), safe='/')
         elif parsed.path.lower().endswith('.zip'):
@@ -146,7 +149,8 @@ def build(source, output, source_dir):
     if result is None:
         return {'decisionView':False,'reason':'No missing human decision'}
     write_new(output,result)
-    return {'path':str(Path(output).resolve()),'bytes':len(result.encode()),'sha256':sha(result.encode()),'buildSeconds':round(time.perf_counter()-started,4)}
+    saved=Path(output).read_bytes()
+    return {'path':str(Path(output).resolve()),'bytes':len(saved),'sha256':sha(saved),'buildSeconds':round(time.perf_counter()-started,4)}
 
 if __name__ == '__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('data',type=Path);p.add_argument('output',type=Path);a=p.parse_args()
