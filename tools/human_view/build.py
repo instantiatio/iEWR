@@ -16,12 +16,19 @@ from urllib.parse import quote, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from decision_view.snapshot import (LIMIT, fields, text, sequence, timestamp,
-                                    local_path, read_local, unique_object)
+                                    local_path, read_local, unique_object, relative_href)
 
 STYLE = Path(__file__).resolve().parents[1] / 'decision_view' / 'style.css'
 KINDS = {'situation': ('Ситуация', 'state'), 'change': ('Изменение', 'delta'),
          'plan': ('План', 'course'), 'review': ('Проверка', 'review'),
          'result': ('Результат', 'outcome')}
+HEADINGS = {
+    'situation': ('Состояние сейчас', 'Допустимое продолжение'),
+    'change': ('Значимое изменение', 'Что следует из изменения'),
+    'plan': ('Направление работы', 'Ближайший шаг и его условия'),
+    'review': ('Предмет проверки', 'Как вернуть замечания'),
+    'result': ('Полученный результат', 'Как использовать результат'),
+}
 LEVELS = {'core': 0, 'standard': 1, 'deep': 2}
 MODES = {'GLANCE': 0, 'STANDARD': 1, 'DEEP': 2}
 TONES = {'neutral': 'Сведения', 'attention': 'Внимание',
@@ -127,7 +134,7 @@ def render(data, input_path, output_path, root):
     fields(data['coverage'], 'sources omissions', 'coverage')
     omissions = strings(data['coverage']['omissions'], 'coverage.omissions')
     limits = strings(data['limits'], 'limits')
-    bindings, gaps = {}, []
+    bindings, gaps, reference_trace = {}, [], []
 
     def references(refs, where):
         sequence(refs, where)
@@ -162,15 +169,15 @@ def render(data, input_path, output_path, root):
                     if digest != expected or path in bindings and bindings[path] != digest:
                         raise ValueError('Редакция источника изменилась: ' + name)
                     bindings[path] = digest
-                    href = quote(os.path.relpath(path, output_path.parent).replace(os.sep, '/'), safe='/')
+                    href = relative_href(path, output_path.parent)
                     link = '<a href="' + esc(href) + '">' + esc(label) + '</a>'
                     if path.suffix.lower() == '.zip':
                         link = ('<details><summary>' + esc(label) + ' · ZIP</summary><p>'
                                 + esc(path.name) + ' · ' + str(len(raw)) + ' байт</p><a href="'
                                 + esc(href) + '" download="' + esc(path.name) + '">Скачать ZIP</a></details>')
-            result.append('<li>' + link + ' — ' + esc(ref['purpose'])
-                          + '<small>Файл: ' + esc(name or 'не предоставлен')
-                          + '. Если недоступен, запросите эту редакцию у автора представления.</small></li>')
+            result.append('<li>' + link + ' — ' + esc(ref['purpose']) + '</li>')
+            reference_trace.append('<li>' + esc(label) + ': ' + esc(name or 'не предоставлен')
+                                   + '<br>SHA-256: ' + esc(expected or 'не установлен') + '</li>')
         return '<ul>' + ''.join(result) + '</ul>' if result else ''
 
     sources = references(data['coverage']['sources'], 'coverage.sources')
@@ -178,7 +185,7 @@ def render(data, input_path, output_path, root):
     if not data['coverage']['sources']:
         gaps.append('Источники охвата не предоставлены; содержание требует отдельной проверки.')
     sequence(data['sections'], 'sections', 30)
-    seen, sections, disclosures = set(), [], []
+    seen, core_sections, detail_sections, disclosures = set(), [], [], []
     primary = KINDS[data['kind']][1]
     for section in data['sections']:
         fields(section, 'id title level format content', 'section')
@@ -194,41 +201,56 @@ def render(data, input_path, output_path, root):
             raise ValueError('Основная секция всегда core; delta имеет format:change')
         content = section_content(section)
         if level == 'core':
-            sections.append('<section id="' + ident + '"><h2>' + esc(section['title']) + '</h2>' + content + '</section>')
+            core_sections.append('<section id="' + ident + '"><h2>' + esc(section['title']) + '</h2>' + content + '</section>')
         else:
             opened = ' open' if LEVELS[level] <= MODES[mode] else ''
-            sections.append('<details id="' + ident + '"' + opened + '><summary>'
+            detail_sections.append('<details id="' + ident + '"' + opened + '><summary>'
                             + esc(section['title']) + '</summary>' + content + '</details>')
             disclosures.append(section['title'])
     if primary not in seen:
         raise ValueError('Нужна основная секция ' + primary)
     tone = data['status']['tone']
-    body = ('<header><p class="meta">' + KINDS[data['kind']][0] + ' · ' + esc(data['id'])
-            + ' · редакция ' + esc(data['revision']) + '</p><h1>' + esc(data['title'])
-            + '</h1><p>' + esc(data['subject']) + '</p><p class="meta">Для: ' + esc(data['recipient'])
-            + ' · Снимок на ' + esc(data['asOf']) + '</p></header>')
+    summary_heading, next_heading = HEADINGS[data['kind']]
+    body = ('<header><p class="view-label">' + data['kind'].upper() + ' VIEW'
+            + ' <span class="mode-badge">' + mode + '</span></p><h1>' + esc(data['title'])
+            + '</h1><p class="subject">' + esc(data['subject']) + '</p>'
+            + '<div class="view-context"><p>Для: ' + esc(data['recipient'])
+            + '</p><p>Снимок: <time>' + esc(data['asOf']) + '</time></p></div></header>')
     if data['synthetic']:
         body += '<p class="notice">Учебный пример. Факты условные; это не действующий запрос или решение проекта.</p>'
     body += ('<p class="status ' + tone + '">' + TONES[tone] + ': ' + esc(data['status']['label'])
-             + '</p><section class="summary"><h2>Главное</h2><p>' + esc(data['summary']) + '</p></section>')
+             + '</p><section class="summary"><h2>' + summary_heading + '</h2><p>' + esc(data['summary']) + '</p></section>')
+    next_block = ('<section class="next" id="next"><h2>' + next_heading + '</h2><p>' + esc(data['next']) + '</p></section>')
+    if mode == 'GLANCE':
+        body += next_block
     if limits:
         body += '<section class="limits"><h2>Существенные ограничения</h2>' + limits + '</section>'
     if gaps:
         body += '<section class="notice"><h2>Пробелы оснований</h2>' + strings(gaps, 'gaps') + '</section>'
-    body += ('<p class="attention"><strong>Глубина: ' + mode + '</strong> · ' + esc(data['attention']['reason'])
-             + ('<br>Детали доступны в любом режиме: ' + esc('; '.join(disclosures)) + '.' if disclosures else '<br>Дополнительных слоёв нет.')
-             + ' Режим задаёт начальное раскрытие, не время чтения.</p>' + ''.join(sections)
-             + '<section class="next"><h2>Что дальше</h2><p>' + esc(data['next']) + '</p></section>'
-             + '<section class="coverage"><h2>Охват и актуальность</h2><p>' + esc(data['scope']) + '</p>'
-             + ('<h3>Не включено / не проверено</h3>' + omissions if omissions else '<p>Составитель не указал исключений; полнота автоматически не проверена.</p>')
-             + '<p><strong>Когда сверить и обновить: </strong>' + esc(data['refreshWhen']) + '</p></section>')
+    if omissions:
+        body += '<aside class="limits"><h2>За границами вывода</h2>' + omissions + '</aside>'
+    body += ('<aside class="use-boundary"><p><strong>Охват: </strong>' + esc(data['scope']) + '</p>'
+             + '<p><strong>Когда обновить: </strong>' + esc(data['refreshWhen']) + '</p></aside>'
+             + ''.join(core_sections))
+    if mode == 'STANDARD':
+        body += next_block
+    body += ('<p class="attention">Режим задан при подготовке. ' + esc(data['attention']['reason'])
+             + (' Детали доступны во всех режимах; DEEP раскрывает все пояснения.' if disclosures else ' Дополнительных слоёв нет.')
+             + '</p>' + ''.join(detail_sections))
+    if mode == 'DEEP':
+        body += next_block
     if sources or materials:
-        body += '<section class="materials"><h2>Основания и материалы</h2>' + sources + materials + '</section>'
+        body += '<section class="materials"><h2>Материалы для этой задачи</h2>' + sources + materials + '</section>'
     canonical = json.loads(json.dumps(data))
     canonical['attention'].pop('mode')
     content_digest = sha256(json.dumps(canonical, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest()
-    body += ('<footer><p class="hint">Представление для чтения. Открытие, раскрытие и сохранение не являются ответом, приёмкой или разрешением действия. Обсудите замечания в текущей задаче, указав предмет и редакцию.</p>'
-             + '<p class="meta">SHA-256 содержания (без режима раскрытия): ' + content_digest + '</p></footer>')
+    body += ('<footer class="technical"><p class="hint">Представление для чтения. Просмотр не является ответом, приёмкой или разрешением действия.</p>'
+             + '<details id="technical-trace"><summary>Техническая трассировка</summary><p>' + esc(data['id'])
+             + ' · редакция ' + esc(data['revision']) + '</p><p>SHA-256 содержания (без режима раскрытия): '
+             + content_digest + '</p>' + ('<ul>' + ''.join(reference_trace) + '</ul>' if reference_trace else '')
+             + '<p>Если материал недоступен, запросите указанную редакцию у автора.</p>'
+             + ('<p>Пустой список исключений: полнота автоматически не проверена.</p>' if not omissions else '')
+             + '</details></footer>')
     css = read_local(STYLE).decode('utf-8')
     result = ('<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
               '<meta http-equiv="Content-Security-Policy" content="default-src \'none\'; style-src \'unsafe-inline\'; base-uri \'none\'; form-action \'none\'">'

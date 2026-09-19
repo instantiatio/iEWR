@@ -1,6 +1,6 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус: iEWR 5.5.0 Beta — опубликованный Beta-выпуск; exact ZIP и пределы в BASELINE_STATUS.md.
+Статус: iEWR 5.5.1 Beta — опубликованный Beta-выпуск; exact ZIP и пределы в BASELINE_STATUS.md.
 Исходная сохранённая основа — iEWR 5.2.2 Beta. Текущие изменения и пределы
 проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
 Human–AI инструкции, восемь DPF и миграция внешних источников не расширяют

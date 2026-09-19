@@ -12,4 +12,4 @@ __PARAMETERS__
 <p class="hint">Для изменения ответа обратитесь к Developing Engineer в текущей задаче. Изменение разбирается вручную.</p></section>
 <div class="actions"><button id="save" type="button">Сохранить ответ</button><span id="status" role="status" aria-live="polite">Ответ ещё не введён.</span></div>
 <noscript><p>Вопрос доступен для чтения. Для заполнения включите JavaScript или передайте ответ сообщением, указав номер вопроса.</p></noscript>
-</main><script type="application/json" id="dv-data">__DATA__</script><script type="application/json" id="dv-response">null</script><script>__APP__</script></body></html>
+__TECHNICAL__</main><script type="application/json" id="dv-data">__DATA__</script><script type="application/json" id="dv-response">null</script><script>__APP__</script></body></html>
