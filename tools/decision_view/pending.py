@@ -28,73 +28,11 @@ STATES = {
 LIMIT = 1024 * 1024
 
 
-def fields(value, names, where):
-    if not isinstance(value, dict) or set(value) != set(names.split()):
-        raise ValueError(f"{where}: ожидаются поля {names}")
-
-
-def text(value, where, nullable=False):
-    if nullable and value is None:
-        return
-    if not isinstance(value, str) or not value.strip() or len(value) > 12000:
-        raise ValueError(f"{where}: нужен непустой текст до 12000 символов")
-    if any(ord(c) < 32 and c not in '\n\r\t' for c in value):
-        raise ValueError(f"{where}: управляющий символ")
-
-
-def sequence(value, where, maximum=100):
-    if not isinstance(value, list) or len(value) > maximum:
-        raise ValueError(f"{where}: нужен список, максимум {maximum}")
-
-
-def timestamp(value, where, nullable=True):
-    if nullable and value is None:
-        return
-    text(value, where)
-    try:
-        parsed = datetime.fromisoformat(value.replace('Z', '+00:00'))
-        if parsed.utcoffset() is None:
-            raise ValueError()
-    except ValueError:
-        raise ValueError(f"{where}: нужна ISO-дата со временем и часовым поясом") from None
-
-
-def local_path(path, root):
-    path = Path(os.path.abspath(path))
-    try:
-        relative = path.relative_to(root)
-    except ValueError:
-        raise ValueError("Путь вне выбранного root") from None
-    current = root
-    for part in relative.parts:
-        current /= part
-        if current.exists() or current.is_symlink():
-            info = current.lstat()
-            if stat.S_ISLNK(info.st_mode) or getattr(info, 'st_file_attributes', 0) & 0x400:
-                raise ValueError("Ссылки и reparse points не поддерживаются")
-    return path
-
-
-def read_local(path, maximum=LIMIT):
-    before = path.stat()
-    if not stat.S_ISREG(before.st_mode) or before.st_size > maximum:
-        raise ValueError("Нужен обычный файл допустимого размера")
-    with path.open('rb') as source:
-        raw = source.read(maximum + 1)
-    after = path.stat()
-    if len(raw) > maximum or (before.st_ino, before.st_size, before.st_mtime_ns) != (
-            after.st_ino, after.st_size, after.st_mtime_ns):
-        raise ValueError("Файл изменился во время чтения")
-    return raw
-
-
-def unique_object(pairs):
-    result = {}
-    for key, value in pairs:
-        if key in result:
-            raise ValueError(f"Повтор поля JSON: {key}")
-        result[key] = value
-    return result
+try:  # CLI and package imports retain the existing public helper names.
+    from .snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object
+except ImportError:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from snapshot import fields, text, sequence, timestamp, local_path, read_local, unique_object
 
 
 def render(data, input_path, output_path, root):
@@ -285,7 +223,8 @@ def render(data, input_path, output_path, root):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
 <title>Ожидаемые решения</title><style>
-body{margin:0;background:#f4f6f8;color:#202c38;font:17px/1.55 system-ui,sans-serif}main{max-width:980px;margin:auto;padding:28px 20px}h1{font-size:2rem}h2{font-size:1.3rem;margin:.3em 0}h3{font-size:1rem;margin:.8em 0 .3em}p{margin:.5em 0}article,.coverage{background:white;border:1px solid #c5cfda;border-radius:12px;padding:22px;margin:20px 0}a{color:#164f96}small{display:block;color:#46515b;font-size:.78rem;overflow-wrap:anywhere}.state{font-weight:650;color:#70451b}.notice{border-left:4px solid #9d660b;padding:8px 16px;background:#fff3d8}summary{cursor:pointer;font-weight:650}details{border-top:1px solid #dce2e8;margin-top:18px;padding-top:12px}li, p, h2{overflow-wrap:anywhere;white-space:pre-wrap}ul{padding-left:24px}@media print{body{background:white}article{break-inside:avoid}details{display:block}}
+''' + (Path(__file__).parent / 'style.css').read_text(encoding='utf-8') + '''
+article,.coverage{border:1px solid var(--border);padding:24px;margin:24px 0}small{display:block}.state{font-weight:650}li,p,h2{white-space:pre-wrap}
 </style></head><body><main><h1>Ожидаемые решения</h1>'''
     html += (f'<p>{esc(data["scope"])}</p><p>Снимок на {esc(data["asOf"])}</p>'
              '<p class="notice">Только навигация. Снимок не обновляется автоматически и не разрешает действий. Перед использованием сверить текущие источники, условия, отзывы и эффекты. Ответы даются по отдельным вопросам.</p>'

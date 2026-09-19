@@ -1,6 +1,6 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус: iEWR 5.4.0 Beta — candidate для рассмотрения по exact ZIP.
+Статус: iEWR 5.5.0 Beta — candidate для рассмотрения по exact ZIP.
 Исходная сохранённая основа — iEWR 5.2.2 Beta. Текущие изменения и пределы
 проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
 Human–AI инструкции, восемь DPF и миграция внешних источников не расширяют
@@ -16,6 +16,8 @@ Direct Human decisions и policy сохраняют свои scope; этот dis
 по [I interaction](modules/interaction/HUMAN_INTERACTION.md). Для существенного Human решения —
 [Decision View](modules/interaction/DECISION_VIEW.md) и основания gate у G. Применяй её
 соразмерно текущему вопросу; это не включает поддержку саморазвития.
+Для отдельной подачи ситуации, изменения, плана, проверки или результата —
+[Human Views](modules/interaction/HUMAN_VIEWS.md); достаточный разговор первичен.
 
 Перед meaningful continuation восстанови три accounts по
 [R](modules/recovery/CONTRACT.md): governance, relied execution basis, factual

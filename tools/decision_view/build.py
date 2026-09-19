@@ -38,6 +38,12 @@ def render(source, output, source_dir):
         if not isinstance(d.get(key), str) or not d[key].strip():
             raise ValueError('Missing '+key)
     options = d.get('options', [])
+    attention = d.get('attention')
+    if attention is not None:
+        if (not isinstance(attention, dict) or set(attention) != {'mode', 'reason'}
+                or attention.get('mode') not in ('GLANCE', 'STANDARD', 'DEEP')
+                or not isinstance(attention.get('reason'), str) or not attention['reason'].strip()):
+            raise ValueError('attention requires mode GLANCE/STANDARD/DEEP and reason')
     ids = [o['id'] for o in options]
     if len(ids) != len(set(ids)) or any(not re.fullmatch(r'[a-zA-Z0-9_-]+', i) for i in ids):
         raise ValueError('Invalid option IDs')
@@ -62,7 +68,7 @@ def render(source, output, source_dir):
             material['bytes'] = local.stat().st_size
             if local.suffix.lower() == '.md':
                 script=HERE/'render_markdown.cjs'
-                css=(HERE/'style.css').read_text()
+                css=(HERE/'style.css').read_text(encoding='utf-8')
                 reader_id=sha(local.read_bytes()+script.read_bytes()+(HERE/'vendor/marked.cjs').read_bytes()+css.encode())[:10]
                 reader=output.parent/'decision-view-materials'/(local.stem+'-'+reader_id+'.html')
                 payload={'markdown':local.read_text(encoding='utf-8'),'sourcePath':str(local),
@@ -70,7 +76,7 @@ def render(source, output, source_dir):
                          'sourceSHA256':digest,'css':css}
                 rendered=subprocess.run(['node',str(script)],input=json.dumps(payload),text=True,capture_output=True,check=True,timeout=20).stdout
                 if reader.exists():
-                    if reader.read_text()!=rendered:raise ValueError('Existing reader differs; preserve it and issue a new representation')
+                    if reader.read_text(encoding='utf-8')!=rendered:raise ValueError('Existing reader differs; preserve it and issue a new representation')
                 else:write_new(reader,rendered)
                 material['source']={'path':quote(os.path.relpath(local,output.parent),safe='/'),
                                     'filename':local.name,'sha256':digest}
@@ -85,7 +91,7 @@ def render(source, output, source_dir):
                 rendered=render_er(json.loads(raw),local.name,digest)
                 reader=output.parent/'decision-view-materials'/(local.name[:-8]+'-'+sha(rendered.encode())[:10]+'.html')
                 if reader.exists():
-                    if reader.read_text()!=rendered:raise ValueError('ER reader collision')
+                    if reader.read_text(encoding='utf-8')!=rendered:raise ValueError('ER reader collision')
                 else:write_new(reader,rendered)
                 material['source']={'path':quote(os.path.relpath(local,output.parent),safe='/'),
                                     'filename':local.name,'sha256':digest}
@@ -109,12 +115,17 @@ def render(source, output, source_dir):
         if d.get(key):
             blocks.append('<section class="'+key+'"><h2>'+title+'</h2><ul>'+''.join('<li>'+esc(x)+'</li>' for x in d[key])+'</ul></section>')
     blocks.append('</div>')
+    if attention:
+        blocks.append('<p class="attention"><strong>Глубина: '+esc(attention['mode'])
+                      +'</strong> · '+esc(attention['reason'])
+                      +'. Условия, варианты и последствия видны полностью; точные основания доступны в деталях. Режим не задаёт время чтения.</p>')
     if d.get('table'):
         blocks.append(table_html(d['table']))
     for section in d.get('sections', []):
         blocks.append('<section><h2>'+esc(section['title'])+'</h2><p>'+esc(section['text'])+'</p></section>')
     if d.get('details'):
-        blocks.append('<details><summary>Точный предмет и основание</summary><p>'+esc(d['details'])+'</p></details>')
+        opened = ' open' if attention and attention['mode'] == 'DEEP' else ''
+        blocks.append('<details'+opened+'><summary>Точный предмет и основание</summary><p>'+esc(d['details'])+'</p></details>')
     blocks.append('<p class="waiting"><strong>До ответа: </strong>'+esc(d['waiting'].removeprefix('До ответа '))+'</p>')
     if d.get('materials'):
         blocks.append('<section class="materials" aria-label="Материалы">')
@@ -137,9 +148,9 @@ def render(source, output, source_dir):
     parameter_html=''
     if d.get('parameters'):
         parameter_html='<div class="parameters">'+''.join('<label>'+esc(p['label'])+', '+esc(p['unit'])+'<input id="param-'+esc(p['id'])+'" type="number" step="any" min="'+esc(p['min'])+'" value="'+esc(p['value'])+'" required></label>' for p in d['parameters'])+'</div><p class="hint">Изменённые условия сохранятся с ответом. Расчёт для них нужно выполнить до зависимого выбора.</p>'
-    replacements={'TITLE':d.get('title',d['question']), 'CSS':(HERE/'style.css').read_text(), 'CONTENT':''.join(blocks), 'PARAMETERS':parameter_html, 'DATA':json_text(d), 'APP':(HERE/'app.js').read_text()}
+    replacements={'TITLE':d.get('title',d['question']), 'CSS':(HERE/'style.css').read_text(encoding='utf-8'), 'CONTENT':''.join(blocks), 'PARAMETERS':parameter_html, 'DATA':json_text(d), 'APP':(HERE/'app.js').read_text(encoding='utf-8')}
     replacements['TITLE']=esc(replacements['TITLE'])
-    template=(HERE/'page.html.in').read_text()
+    template=(HERE/'page.html.in').read_text(encoding='utf-8')
     return re.sub(r'__(TITLE|CSS|CONTENT|PARAMETERS|DATA|APP)__', lambda m:replacements[m[1]], template)
 
 def build(source, output, source_dir):
@@ -154,4 +165,4 @@ def build(source, output, source_dir):
 
 if __name__ == '__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('data',type=Path);p.add_argument('output',type=Path);a=p.parse_args()
-    print(json.dumps(build(json.loads(a.data.read_text()),a.output,a.data.parent),ensure_ascii=False,indent=2))
+    print(json.dumps(build(json.loads(a.data.read_text(encoding='utf-8')),a.output,a.data.parent),ensure_ascii=False,indent=2))
