@@ -15,6 +15,7 @@ import unicodedata
 import zipfile
 
 from verify_configuration import verify
+from integrity import REQUIRED_SLOTS
 
 SCAFFOLD = {"project/README.md", "project/source/.gitkeep",
             "project/handoff/.gitkeep", "project/artifacts/.gitkeep"}
@@ -110,7 +111,7 @@ def snapshot(root):
     verify(root)
     repertoire = json.loads(payload["frameworks/dpf/REPERTOIRE.yaml"])
     slots = [e.get("required_slot") for e in repertoire["entries"]]
-    if sorted(slots) != sorted(["SYSE", "ME", "OCE", "PSD", "OPS", "SDLC", "EXD", "ADM"]):
+    if sorted(slots) != sorted(REQUIRED_SLOTS):
         raise ValueError("package_slots")
     for entry in repertoire["entries"]:
         locus = entry["source_locus"]

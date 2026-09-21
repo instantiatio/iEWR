@@ -53,8 +53,9 @@ Hash verification проверяет bytes выбранного DPF, а не е�
 
 ## Что хранится
 
-- `frameworks/dpf/REPERTOIRE.yaml` — exact package sources и required slots
-  SYSE, ME, OCE, PSD, OPS; отдельно сохранён experimental local SDLC.
+- `frameworks/dpf/REPERTOIRE.yaml` — exact package sources и required slots.
+  Актуальный состав указан в этом repertoire; единый maintainer-профиль
+  `tools/package/integrity.py` проверяется обоими package helpers.
 - `project/dpf/REPERTOIRE.yaml` — источники, которые пользователь попросил
   постоянно находить в данном проекте. Это live state, не distribution inventory.
 - `external-sources/external-dpf/` — стандартное место пользовательских исходников;

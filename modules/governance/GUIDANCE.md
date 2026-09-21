@@ -76,6 +76,6 @@ Bounded DecisionResponses проверяет отдельную supplied direct 
 восстановить актуальные direct grounds. Это instruction-led обязанность, не
 qualification live channel или общий authority registry.
 
-Основа: [ADM.8 и ADM.14](../../frameworks/dpf/organization-administration/2026-09-11-rev-b8d6d845/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md)
+Основа: [ADM.8 и ADM.14](../../frameworks/dpf/organization-administration/2026-09-20-rev-453144ed/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md)
 — разрешение для exact действия и связь контроля с компетентным решением.
 Подача по [I Decision View](../interaction/DECISION_VIEW.md) не меняет G authority.

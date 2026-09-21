@@ -1,9 +1,9 @@
 # AGENTS.md — Instantiatio EWR
 
-Статус: iEWR 5.5.1 Beta — опубликованный Beta-выпуск; exact ZIP и пределы в BASELINE_STATUS.md.
+Статус: iEWR 5.5.2 Beta — candidate для рассмотрения по exact ZIP.
 Исходная сохранённая основа — iEWR 5.2.2 Beta. Текущие изменения и пределы
 проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
-Human–AI инструкции, восемь DPF и миграция внешних источников не расширяют
+Human–AI инструкции, одиннадцать DPF и миграция внешних источников не расширяют
 полномочия, Core semantics или фактические технические возможности host.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
 
@@ -18,6 +18,10 @@ Direct Human decisions и policy сохраняют свои scope; этот dis
 соразмерно текущему вопросу; это не включает поддержку саморазвития.
 Для отдельной подачи ситуации, изменения, плана, проверки или результата —
 [Human Views](modules/interaction/HUMAN_VIEWS.md); достаточный разговор первичен.
+При предъявлении готового результата специалисту на утверждение, согласование
+или приёмку одновременно подготовить переносимый Decision View с материалами
+без напоминания. Основание самого решения остаётся у G; явный выбор Human иной
+формы сохраняется. Точные условия и fallback — в Decision View.
 
 Перед meaningful continuation восстанови три accounts по
 [R](modules/recovery/CONTRACT.md): governance, relied execution basis, factual

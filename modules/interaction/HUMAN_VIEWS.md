@@ -5,6 +5,9 @@ Human View — представление для конкретного чело
 runtime entity или обязательный документ. [Обычный I](HUMAN_INTERACTION.md)
 сохраняет приоритет достаточного разговора; [Decision View](DECISION_VIEW.md)
 сохраняет основания вопроса и ответа. Core EWR-39 остаётся governing.
+Готовый результат для утверждения, согласования или приёмки специалистом
+предъявляется с переносимым Decision View по его специальному правилу;
+read-only Review/Result и достаточный разговор для рабочих уточнений его не заменяют.
 
 ## Выбор по человеческой задаче
 
@@ -120,8 +123,8 @@ renderer недоступен, дать полный существенный с
 все слои без создания файла. Показ, раскрытие и сохранение не consent/actuation.
 Фактический ответ, его интерпретация и effects остаются раздельны у existing owners.
 
-Основания: [EXD.3 §4](../../frameworks/dpf/explanation-design/2026-09-11-rev-b8d6d845/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd34---solution)
-— вклад формы и сохранение условий; [EXD.6 §4](../../frameworks/dpf/explanation-design/2026-09-11-rev-b8d6d845/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd64---solution)
-— содержание/форма/помощь и предел сравнения; [OPS.4 §4](../../frameworks/dpf/operations-management/2026-09-11-rev-b8d6d845/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops44---solution)
+Основания: [EXD.3 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd34---solution)
+— вклад формы и сохранение условий; [EXD.6 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd64---solution)
+— содержание/форма/помощь и предел сравнения; [OPS.4 §4](../../frameworks/dpf/operations-management/2026-09-20-rev-453144ed/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops44---solution)
 — qualified account/omissions/refresh. Подготовленная форма, deterministic test
 и agent trial не доказывают человеческую экономию внимания или понимание.
