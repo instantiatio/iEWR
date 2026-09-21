@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "activation_entry": "AGENTS.md",
-  "status": "candidate_for_review",
+  "status": "published_beta",
   "architecture_sha256": "ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c",
   "scope": "single cooperative local host; semantic source and authority claims remain separate",
   "files": {
-    "AGENTS.md": "3db58d10571cf3ee5f91689c96f0bd24493c7539980064208913a52312a07aed",
-    "BASELINE_STATUS.md": "84e3011dfda975bcd06f7b5ce9a79622fa847ba6e46111d38a7306466d3352fb",
+    "AGENTS.md": "46943d4546972ef39092c650da152420aa4f1bd4983e489f4d681b3b7da5cc50",
+    "BASELINE_STATUS.md": "4be2237dd1a1de28244a7ef36d1c4555ebdd627f01aa57164ae4a2eece4122df",
     "LICENSE": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec",
     "MODEL_SELECTION_RECOMMENDATIONS.md": "b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490",
-    "README.md": "4d26abfeb00e83bc1b25ccfe2ab3c752588e2152a4e5ba66a1cffe53dd78b83b",
-    "RELEASE_NOTES.md": "dcce7391dbcd44b063e046a3234e361d634da088ce44772776d19d3b3bd8e3e2",
+    "README.md": "3a151372b519893974b193ae97e4f8230060e98172dcc79837124cc883fd5016",
+    "RELEASE_NOTES.md": "1f7ac03ce747431deafdf01dd0443ee77a26c0beba27294854f74324059d6d9d",
     "adapters/ADAPTERS.md": "17a6463da3068d39b7f84074308c1481a512e6e44e83e2faaaedd30b67765d86",
     "adapters/agent_host/channel.py": "115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390",
     "adapters/agent_host/responses.py": "6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd",
@@ -133,10 +133,10 @@
     "tools/package/verify_configuration.py": "96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812"
   },
   "distribution_ready": false,
-  "public_release": false,
+  "public_release": true,
   "source_baseline_id": "iEWR-5.5.1-beta",
   "bundled_dpf_baseline_id": "iEWR-dpf-rev-453144ed",
-  "qualification_status": "Exact scope and current evidence limits in BASELINE_STATUS.md; candidate not accepted or published",
+  "qualification_status": "Published Beta; exact archive and bounded evidence in BASELINE_STATUS.md; publication does not expand qualification",
   "package_id": "iEWR 5.5.2 Beta",
   "version": "5.5.2-beta"
 }

@@ -1,16 +1,16 @@
 # Exact selected package — iEWR 5.5.2 Beta
 
-Candidate for review. Этот manifest задаёт только выбранные bytes; acceptance, authority и publication из него не следуют.
+Состав основной ветки после публикации. Неизменяемая поставка сохранена в теге 5.5.2-beta и release ZIP; отличия сведений и пределы — BASELINE_STATUS.md.
 Project data, external project DPF, history и development evidence исключены. Manifest не хеширует сам себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | 3db58d10571cf3ee5f91689c96f0bd24493c7539980064208913a52312a07aed |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 84e3011dfda975bcd06f7b5ce9a79622fa847ba6e46111d38a7306466d3352fb |
+| `AGENTS.md` | Выбранный файл поставки | 46943d4546972ef39092c650da152420aa4f1bd4983e489f4d681b3b7da5cc50 |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 4be2237dd1a1de28244a7ef36d1c4555ebdd627f01aa57164ae4a2eece4122df |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Основной README поставки | 4d26abfeb00e83bc1b25ccfe2ab3c752588e2152a4e5ba66a1cffe53dd78b83b |
-| `RELEASE_NOTES.md` | Кумулятивные изменения 5.2.2 → 5.5.2 | dcce7391dbcd44b063e046a3234e361d634da088ce44772776d19d3b3bd8e3e2 |
+| `README.md` | Основной README поставки | 3a151372b519893974b193ae97e4f8230060e98172dcc79837124cc883fd5016 |
+| `RELEASE_NOTES.md` | Кумулятивные изменения 5.2.2 → 5.5.2 | 1f7ac03ce747431deafdf01dd0443ee77a26c0beba27294854f74324059d6d9d |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | 17a6463da3068d39b7f84074308c1481a512e6e44e83e2faaaedd30b67765d86 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -20,7 +20,7 @@ Project data, external project DPF, history и development evidence исключ
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 1d16deeb266eb3c3e035bfdbaae0a28666dcd82d78c7a82306bf23c634727c60 |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | c8fd505123d026dbabf4796a9d843b6a099f41801b90821eb3848c8bd074f00d |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 5f9851ed231c3235176c4e9efc03d254d19b8d71e0284c7502b18137d2a1e224 |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `catalog/README.md` | Выбранный файл поставки | 4dc9b22f7edbba969411737f0574cefedd9f863caa47c36a507e57b27b59c4ea |
