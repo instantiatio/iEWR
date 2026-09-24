@@ -8,35 +8,35 @@
       "aliases": [
         "SYSE"
       ],
-      "edition_id": "2026-09-20-rev-453144ed",
+      "edition_id": "2026-09-22-rev-4ddaf715",
       "scope": "package",
-      "source_locus": "frameworks/dpf/systems-engineering/2026-09-20-rev-453144ed/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/systems-engineering/2026-09-22-rev-4ddaf715/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/systems-engineering/2026-09-20-rev-453144ed/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/systems-engineering/2026-09-22-rev-4ddaf715/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
-        "value": "Source-reported Eternal alpha, release 20 September 2026; independent qualification not established by registration.",
-        "locus": "frameworks/dpf/systems-engineering/2026-09-20-rev-453144ed/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "value": "Source-reported Eternal alpha, author date 2026-09-22; independent qualification not established by registration.",
+        "locus": "frameworks/dpf/systems-engineering/2026-09-22-rev-4ddaf715/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/453144eda2870a14d47fd9c066deeb0405eee86f/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/4ddaf71557d4159e988cc61d2bd3088bfc1d2803/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index.",
-        "locus": "frameworks/dpf/systems-engineering/2026-09-20-rev-453144ed/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/systems-engineering/2026-09-22-rev-4ddaf715/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "2f770a38d4a3d9fb9e973f8804d4bce7cca2f9343269c017625c8e48facb341c"
+          "sha256": "b9f88e0e8729b4f0ecd2036ca06b58312e9deca0d3aed7059b073b135c429a9c"
         }
       ],
-      "edition_manifest_sha256": "2f770a38d4a3d9fb9e973f8804d4bce7cca2f9343269c017625c8e48facb341c",
-      "registered_at": "2026-09-21T14:38:29.474421+00:00",
-      "registration_basis": "Direct Human selection of option 2 on 21 September 2026: update seven upstream sources, add RMP/SIE/STR; candidate integration, not release acceptance.",
+      "edition_manifest_sha256": "b9f88e0e8729b4f0ecd2036ca06b58312e9deca0d3aed7059b073b135c429a9c",
+      "registered_at": "2026-09-24T08:14:34.942827+00:00",
+      "registration_basis": "Direct Human authorization on 24 September 2026: update SYSE and EXD, add DOCA; prepare and check local candidate, no publication or acceptance.",
       "source_bytes_modified_by_registration": false,
       "required_slot": "SYSE",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 453144eda2870a14d47fd9c066deeb0405eee86f; raw bytes unchanged, attribution and third-party notices retained.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 4ddaf71557d4159e988cc61d2bd3088bfc1d2803; raw bytes unchanged, attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       }
     },
@@ -236,35 +236,35 @@
       "aliases": [
         "EXD"
       ],
-      "edition_id": "2026-09-20-rev-453144ed",
+      "edition_id": "2026-09-20-rev-4ddaf715",
       "scope": "package",
-      "source_locus": "frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
       "normative_loci": [
-        "frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
       ],
       "declared_status": {
-        "value": "Source-reported Eternal alpha, release 20 September 2026; independent qualification not established by registration.",
-        "locus": "frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "value": "Source-reported release date 2026-09-20; independent qualification not established by registration.",
+        "locus": "frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
       },
-      "publication_locator": "https://github.com/ailev/FPF/blob/453144eda2870a14d47fd9c066deeb0405eee86f/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "publication_locator": "https://github.com/ailev/FPF/blob/4ddaf71557d4159e988cc61d2bd3088bfc1d2803/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index.",
-        "locus": "frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
       },
       "files": [
         {
           "path": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "093cada4f40a6a57d3b028c4d4745f08e6178563a149480a88937a216d1f5e98"
+          "sha256": "707c6b6ae6831595565df12a5b523c1698b16da79cd6d2d5cdaf5fc985e08803"
         }
       ],
-      "edition_manifest_sha256": "093cada4f40a6a57d3b028c4d4745f08e6178563a149480a88937a216d1f5e98",
-      "registered_at": "2026-09-21T14:38:29.474421+00:00",
-      "registration_basis": "Direct Human selection of option 2 on 21 September 2026: update seven upstream sources, add RMP/SIE/STR; candidate integration, not release acceptance.",
+      "edition_manifest_sha256": "707c6b6ae6831595565df12a5b523c1698b16da79cd6d2d5cdaf5fc985e08803",
+      "registered_at": "2026-09-24T08:14:34.944388+00:00",
+      "registration_basis": "Direct Human authorization on 24 September 2026: update SYSE and EXD, add DOCA; prepare and check local candidate, no publication or acceptance.",
       "source_bytes_modified_by_registration": false,
       "required_slot": "EXD",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 453144eda2870a14d47fd9c066deeb0405eee86f; raw bytes unchanged, attribution and third-party notices retained.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 4ddaf71557d4159e988cc61d2bd3088bfc1d2803; raw bytes unchanged, attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       }
     },
@@ -417,6 +417,44 @@
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 453144eda2870a14d47fd9c066deeb0405eee86f; raw bytes unchanged, attribution and third-party notices retained.",
+        "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
+      }
+    },
+    {
+      "source_id": "development-opportunity-construction",
+      "display_name": "Development Opportunity Construction and Development-Direction Advising Principles Framework",
+      "aliases": [
+        "DOCA"
+      ],
+      "edition_id": "2026-09-20-rev-4ddaf715",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-4ddaf715/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-4ddaf715/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Source-reported amended release 2026-09-20; already in use and continuously revised; independent qualification not established by registration.",
+        "locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-4ddaf715/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/4ddaf71557d4159e988cc61d2bd3088bfc1d2803/Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index.",
+        "locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-4ddaf715/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "66e144e5c23859210c8631cae3eb91f5dfad3fc3826b7f5df3ad9194d58eafc0"
+        }
+      ],
+      "edition_manifest_sha256": "66e144e5c23859210c8631cae3eb91f5dfad3fc3826b7f5df3ad9194d58eafc0",
+      "registered_at": "2026-09-24T08:14:34.945236+00:00",
+      "registration_basis": "Direct Human authorization on 24 September 2026: update SYSE and EXD, add DOCA; prepare and check local candidate, no publication or acceptance.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "DOCA",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 4ddaf71557d4159e988cc61d2bd3088bfc1d2803; raw bytes unchanged, attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       }
     }

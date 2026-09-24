@@ -123,8 +123,8 @@ renderer недоступен, дать полный существенный с
 все слои без создания файла. Показ, раскрытие и сохранение не consent/actuation.
 Фактический ответ, его интерпретация и effects остаются раздельны у existing owners.
 
-Основания: [EXD.3 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd34---solution)
-— вклад формы и сохранение условий; [EXD.6 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd64---solution)
+Основания: [EXD.3 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd34---solution)
+— вклад формы и сохранение условий; [EXD.6 §4](../../frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd64---solution)
 — содержание/форма/помощь и предел сравнения; [OPS.4 §4](../../frameworks/dpf/operations-management/2026-09-20-rev-453144ed/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops44---solution)
 — qualified account/omissions/refresh. Подготовленная форма, deterministic test
 и agent trial не доказывают человеческую экономию внимания или понимание.

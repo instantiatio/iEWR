@@ -3,7 +3,7 @@
 > A domain pattern language for bringing about and changing engineered Systems, from their intended use and architecture to realization, assurance, and continuing development.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 22 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -4422,13 +4422,18 @@ Use a specialist result only where it can change the comparison. Examples includ
 - Finance for funding, cash, valuation, and financial-risk claims;
 - commercial and legal practice for offers, duties, remedies, rights, licences, and contracting;
 - Governance or Administration for permission, accountability, tender, and public-procedure claims;
-- Organization Change Engineering for positions, assignments, authority, human–AI or provider Work allocation,
-  and internal capability arrangements;
-- Operations Management for continuing demand, capacity, queues, service, exceptions, and provider performance;
+- Organization Change Engineering when the arrangement requires changing organizational structure,
+  position responsibilities or decision rights;
+- Operations Management for continuing demand, capacity, queues, allocating Work within an existing authorized
+  arrangement, service, exceptions, and provider performance;
 - Enterprise Asset Management for portfolio-level acquire, retain, modify, share, or retire decisions;
 - Human Capability Development for a person's capability-development programme; and
 - safety, security, environmental, clinical, or other application practices for their acceptance and assurance
   results.
+
+Assigning a new case to an already qualified performer under existing authority is an operating allocation.
+Changing an analyst position's authority from preparing results to authorizing them changes the organizational
+arrangement. A needed capability-development result remains a separate contribution in either case.
 
 The Systems Engineering comparison cites the specialist result it uses and preserves that result's conditions.
 The responsible specialist practice and authorized Agent still supply such results as the contract form, spending
@@ -11763,6 +11768,12 @@ In this case no qualified finished-part measurement chain, applicable uncertaint
 
 For example, a returned number of 20.010 mm without the applicable procedure, uncertainty and subject identity is not yet the required conformance decision. Use the qualified measurement and acceptance Methods for the actual operation to select any required tolerance guard band and sampling plan.
 
+The Suite already supplies parts of that construction. [PHY.9](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md#phy9---construct-a-measuring-interaction-for-a-physical-distinction) helps construct the measuring interaction; C.16.MR/IR relate its recorded result to values compatible with the stated error constraints. The instrument, material, procedure and applicable error account must still be supplied for this bore. For statistical inference under a probability model of the records, use [MMP.13](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp13---infer-unknowns-under-a-stated-observation-model), retaining the meaning of its uncertainty statement.
+
+In a separate stipulated calculation, the identified finished bore reads 20.014 mm and the complete error is bounded by ±0.008 mm. Its compatible diameters are [20.006, 20.022] mm. That interval includes values inside and outside [19.980, 20.020], so this observation does not settle conformity. If an applicable procedure instead supplies a complete hard bound of ±0.004 mm for the same reading, the interval becomes [20.010, 20.018] mm and lies inside the specification. These are hard bounds, not confidence intervals. Whether obtaining a different measurement is worthwhile depends on the receiving decision and the cost of changing its answer; use C.11.DUA when that choice is unresolved.
+
+This calculation concerns the stated part and error model. Acceptance of a lot also needs its applicable decision and sampling rules.
+
 The immediate stop is precise: no acceptance claim for the finished lot from this incomplete evidence. Independent work on the interface, provider commitments or test preparation can continue.
 
 ### 5. Separate nominal cycle arithmetic from qualified delivery capability
@@ -11775,11 +11786,15 @@ After the two expected changeovers, the nominal machining time is:
 
 This arithmetic has no allowance for yield loss, rework, interruption, loading assumptions omitted from the quoted cycle, inspection that uses the same constrained resources, or transport. It also says nothing about coating capacity, batch size, lead time or whether returned acceptable parts meet the day's delivery boundary. Extra work on independent resources need not subtract directly from the machine's 430 minutes, but it can still constrain delivery.
 
+Use [OPS.10.1](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops101---construct-and-compare-capacity-models) to construct the capacity account from the needed acceptable output, actual processing and rework passes, opening work, resource demands and provider returns. Use [OPS.10.2](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops102---construct-and-revise-a-feasible-deadline-schedule) to place those operations within their availability and delivery constraints. The methods are available; the missing production values and their applicable limits still have to be obtained.
+
+A changed condition can already reject a candidate without a complete production study. Suppose the day starts with no partly completed brackets and an additional 71 minutes of machine unavailability leaves 359 minutes after changeovers. Even 120 single passes require 360 minutes. Under those assumptions, this machine cannot complete the proposed day's work. Before that change, the spare 70 minutes alone did not establish delivery through coating and return.
+
 One conforming specimen does not establish the process distribution or its sustained behavior. The [NIST/SEMATECH process-capability Method](https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm) is a bounded historical statistical source: its familiar capability indices compare a stable process with specification limits under applicable distribution and sampling conditions. Qualify the measurement chain separately. Distinguish relevant variants and operating conditions, and justify any pooling before interpreting a capability index.
 
-The exact missing results are now actionable.
+The remaining production contributions can now be assigned.
 
-| Missing professional result | What its receiver needs before the dependent claim can proceed |
+| Contribution needed for this production case | What its receiver needs before the dependent claim can proceed |
 | --- | --- |
 | Tooling, program and changeover qualification | An operative procedure and evidence for the intended machine, material, fixture variants, program/configuration and changeover conditions, including the failed or interrupted case. |
 | Finished-part measurement and acceptance | A qualified measurement chain with applicable uncertainty and an authorized decision rule for the coated bore and identified part/lot population. |
@@ -11787,7 +11802,23 @@ The exact missing results are now actionable.
 | Acceptable-part delivery capacity | An end-to-end result including yield, rework, constrained resources, provider capacity, transport, waiting and the actual delivery horizon; not the isolated nominal cycle count. |
 | Nonconforming-material and recovery disposition | An authorized way to identify and segregate affected material, determine permitted inspection/rework/replacement or acceptance, and establish the result before reuse. |
 
-The producer must obtain or develop these Methods with the relevant manufacturing practitioners and authorities. The common platform language identifies and connects their required results.
+Use the available Suite Methods for the stated constructions. Obtain or develop the physical procedures still missing, and obtain the case inputs and qualification results needed by the receiving decision. The common platform language connects those contributions.
+
+### 5.1. Compare independent preparation and a transferable setting
+
+A shorter stop can require a different physical arrangement, not just a different timetable. Consider one of the 25-minute changeovers. The machine works until minute 20. Preparation takes 12 minutes, installation and datum establishment 10, and the stipulated qualification operation 3. Performing all three after the stop gives the next start at minute 45.
+
+An alternative prepares the next module on an independent station during minutes 8–20, then performs installation and qualification on the machine: the next start is minute 33. [OPS.11.1](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops111---construct-and-reconcile-operating-models-across-scales) keeps the operator, station, module and machine demands in the same operating account. If the only fixture required for preparation remains occupied on the machine until minute 20, preparation cannot begin at minute 8 and this alternative returns to minute 45. A calendar change alone cannot create the missing independent means.
+
+The [SMED distinction between internal and external setup](https://www.lean.org/lexicon-terms/single-minute-exchange-of-die/) helps find that opportunity. A possible physical construction is a separately prepared module with a setting that can be transferred to the actual production pairing. The [MIT kinematic-coupling proposal](https://pergatory.mit.edu/kinematiccouplings/html/design_process/improvement.html) uses measured parameters of the mating halves and calibration against a known counterpart. It distinguishes the repeatability of one pair from interchangeability across pairs. Treat this as a design proposal whose actual geometry, contact, load, friction and deformation conditions must be established.
+
+[MMP.18](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp18---couple-models-with-compatible-exchanges-and-scales) constructs the correspondence between the calibration and receiving descriptions; C.29.1 preserves the conditions under which the mathematical result can be used. In a translation-only illustration, a reference pairing places the module origin at 0.020 mm in the reference station's coordinates. A module fiducial reads 10.020 mm there, so its coordinate relative to the module origin is 10.000 mm. The production pairing places the module origin at 0.035 mm in the production frame. The predicted fiducial coordinate there is 10.035 mm. Reusing the reference reading 10.020 mm would differ by 0.015 mm.
+
+Suppose the module-coordinate calibration has a complete hard error bound of ±0.003 mm, already including uncertainty from the reference pairing, and the production-origin offset has a complete bound of ±0.002 mm. Their sum permits [10.030, 10.040] mm for the production coordinate. Whether this is adequate depends on the receiving operation. The calculation assumes the stated one-dimensional correspondence; it supplies neither the physical measurements nor a model of rotation, deformation or loss of contact.
+
+With SYSE.26/.27, the proposed supported variant now states which prepared module and pairing it uses, which setting is returned and which conditions support that transfer. A different pairing or load that invalidates the correspondence returns the affected qualification question. The incumbent arrangement remains an alternative; a new coupling is unnecessary when a simpler arrangement already gives the required result.
+
+The result is a candidate for reducing this stop from 25 to 13 minutes, with its resource condition, calibration correspondence and qualification needs exposed. The three-minute qualification operation is a stipulated duration, not evidence that three minutes can qualify an actual process. SYSE.24 compares the complete provision alternatives before adopting the change. The rest of the day's capacity and coating/return constraints still apply.
 
 ### 6. Recover physical work and make exit real
 
@@ -11801,7 +11832,7 @@ An old support route can remain necessary for a disputed or infrequently ordered
 
 ### Result and practical change
 
-The application returns a constructed supported transfer, a specific mismatched-variant return, a proposed independent-provider commitment, the correct final-dimensional control location, a bounded capacity calculation and five precise missing professional results.
+The application gives the producer a supported transfer with a response that identifies the wrong fixture/program pairing, a proposed independent-provider commitment, final-dimensional control placement and a bounded capacity calculation. It also gives a candidate for independent preparation with the calculation for transferring its setting. The available measurement and operating Methods support these constructions; the physical procedures, inputs and qualifications still needed for production are identified.
 
 It stops before promising 120 acceptable brackets per day or treating the production path as qualified. `SYSE.11` may assess usability for the narrower interface or planning purpose already supported. Use `SYSE.14` for the production release decision when its required qualification and acceptance basis are available.
 

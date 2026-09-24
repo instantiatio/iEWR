@@ -3,7 +3,7 @@ import hashlib
 import os
 import re
 import stat
-REQUIRED_SLOTS = ("SYSE", "ME", "OCE", "PSD", "OPS", "SDLC", "EXD", "ADM", "RMP", "SIE", "STR")
+REQUIRED_SLOTS = ("SYSE", "ME", "OCE", "PSD", "OPS", "SDLC", "EXD", "ADM", "RMP", "SIE", "STR", "DOCA")
 PACKAGE_TREES = ("catalog", "docs", "examples", "frameworks", "scripts", "templates", "tests", "modules", "adapters", "app", "tools")
 ROOT_LOCAL_EXCLUSIONS = {".git", ".gitignore", ".DS_Store", "project", "PACKAGE_MANIFEST.md", "evidence", "external-sources"}
 OPTIONAL_PROJECT_SCAFFOLD = {"project/README.md", "project/artifacts/.gitkeep", "project/source/.gitkeep", "project/handoff/.gitkeep", "external-sources/external-dpf/.gitkeep"}

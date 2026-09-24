@@ -193,7 +193,7 @@ Engineer. Автоматическую проверку доступности �
 
 ## Методические основания
 
-[EXD.1, EXD.3, EXD.6](../../frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md)
+[EXD.1, EXD.3, EXD.6](../../frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md)
 задают вопрос получателя, достаточную форму и проверку полезности;
 [PSD.13–14](../../frameworks/dpf/problem-structuring-decision-support/2026-09-20-rev-453144ed/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md)
 различают рекомендацию, решение и последствия;

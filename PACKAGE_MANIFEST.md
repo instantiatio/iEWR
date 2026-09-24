@@ -1,16 +1,17 @@
-# Exact selected package — iEWR 5.5.2 Beta
+# Состав поставки — iEWR 5.5.3 Beta
 
-Состав основной ветки после публикации. Неизменяемая поставка сохранена в теге 5.5.2-beta и release ZIP; отличия сведений и пределы — BASELINE_STATUS.md.
-Project data, external project DPF, history и development evidence исключены. Manifest не хеширует сам себя.
+Кандидат для рассмотрения. Ведомость определяет точные файлы и контрольные суммы; она не устанавливает приёмку, полномочия или публикацию.
+Данные проекта, внешние DPF проекта и материалы разработки исключены. История выпусков включена явно. Ведомость не хеширует саму себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | 46943d4546972ef39092c650da152420aa4f1bd4983e489f4d681b3b7da5cc50 |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 4be2237dd1a1de28244a7ef36d1c4555ebdd627f01aa57164ae4a2eece4122df |
+| `AGENTS.md` | Выбранный файл поставки | 25de55f715b37cbfa76f7602f4bf1514a98cdf344e939e108d67bc7c40e25c75 |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | aaa7dbf1380aed533ce94a772a13cdcaf5a909164e252c9303d60cceee5adf33 |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Основной README поставки | 3a151372b519893974b193ae97e4f8230060e98172dcc79837124cc883fd5016 |
-| `RELEASE_NOTES.md` | Кумулятивные изменения 5.2.2 → 5.5.2 | 1f7ac03ce747431deafdf01dd0443ee77a26c0beba27294854f74324059d6d9d |
+| `README.md` | Основной README поставки | 23de16edca2cd46964ec1e31cbb6a1965063afee812c096c02b6513131b53a4d |
+| `RELEASE_HISTORY.md` | История изменений 5.2.2–5.5.2 | dcce7391dbcd44b063e046a3234e361d634da088ce44772776d19d3b3bd8e3e2 |
+| `RELEASE_NOTES.md` | Изменения текущего выпуска 5.5.3 | bd793764ae8b9364a840b8c97d07cfe4d5f26bd265bb788571d878758708bc50 |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | 17a6463da3068d39b7f84074308c1481a512e6e44e83e2faaaedd30b67765d86 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -20,11 +21,11 @@ Project data, external project DPF, history и development evidence исключ
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | c8fd505123d026dbabf4796a9d843b6a099f41801b90821eb3848c8bd074f00d |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | a72a43dee10fb94a6646085c2f1937057cb311576a9c113d7a2e0c44dd2daf4e |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 5f9851ed231c3235176c4e9efc03d254d19b8d71e0284c7502b18137d2a1e224 |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `catalog/README.md` | Выбранный файл поставки | 4dc9b22f7edbba969411737f0574cefedd9f863caa47c36a507e57b27b59c4ea |
-| `catalog/dpf/METHODS.md` | Выбранный файл поставки | 3dd39b22c810aa97adf223a6fd702efdda28db8f4d1f814e4979a154048507ca |
+| `catalog/dpf/METHODS.md` | Выбранный файл поставки | df0887c186560d90037389e414e00a353667ef72da98e0e0acf2cef1cffdfab0 |
 | `catalog/engineering_views/CATALOG.md` | Выбранный файл поставки | 04362cc56908a077c47d206a9064501c8285341e6285f38352a0760db5a5ae34 |
 | `catalog/engineering_views/README.md` | Выбранный файл поставки | 0576c71190c4eac933529532d9a1ca9e91a435593ca50b1117f0e6f881099c00 |
 | `catalog/engineering_views/templates/PROJECT_VIEW_PROFILE.yaml` | Выбранный файл поставки | 96a70940fa3a6d1aa0130481337ada9b05573923f2797f7e9ff6dc2ae2b970b6 |
@@ -36,13 +37,14 @@ Project data, external project DPF, history и development evidence исключ
 | `docs/DPF_REGISTRATION_GUIDE.md` | Выбранный файл поставки | 69e8317bfce45ebcee81208b22175dfe173c2740a547b0ddd1667ff2a0cccc12 |
 | `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | Выбранный файл поставки | ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c |
 | `docs/HUMAN_AI_SOURCE_CONTRIBUTIONS.md` | Выбранный файл поставки | 08be50486a1efa3790e78f33fad8443d8ea314aef827e7db24bef85e8ec57118 |
-| `docs/MIGRATION_5_3.md` | Выбранный файл поставки | 6ec28537ef3ce7a01a8e9e2542b92fcfb6a50e5807ee9da6996a8bf14aef5647 |
+| `docs/MIGRATION_5_3.md` | Выбранный файл поставки | 83434fbf734e50959cd902187e4bb00144de80f042e0769ec7e20a476ccd8217 |
 | `external-sources/external-dpf/.gitkeep` | Выбранный файл поставки | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
 | `frameworks/dpf/LICENSE` | Выбранный файл поставки | 9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94 |
 | `frameworks/dpf/LICENSING.md` | Выбранный файл поставки | f80502802237f19a0ea85303a792281e0f9c533e86d23f8a6174d5c18bd70864 |
-| `frameworks/dpf/NOTICE.md` | Выбранный файл поставки | ace0ef29254c3019dfbe202b8b97f3e1d1b29acafc342a4fb0276eac7f47a200 |
-| `frameworks/dpf/REPERTOIRE.yaml` | Выбранный файл поставки | e415ea1da9dd0fcbb9826c924f9bbf428935db850feac14d5ef3556b654c498a |
-| `frameworks/dpf/explanation-design/2026-09-20-rev-453144ed/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | 093cada4f40a6a57d3b028c4d4745f08e6178563a149480a88937a216d1f5e98 |
+| `frameworks/dpf/NOTICE.md` | Выбранный файл поставки | 8614886851d6530ede8adea50f6358106f00156d83b3f1aec7087bacdf009f42 |
+| `frameworks/dpf/REPERTOIRE.yaml` | Выбранный файл поставки | 57d6a434d46e1841c5ec33006de03b17260e465970ff3b80ea2214fdf991831d |
+| `frameworks/dpf/development-opportunity-construction/2026-09-20-rev-4ddaf715/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md` | Авторский DOCA; исходный файл без локальных изменений | 66e144e5c23859210c8631cae3eb91f5dfad3fc3826b7f5df3ad9194d58eafc0 |
+| `frameworks/dpf/explanation-design/2026-09-20-rev-4ddaf715/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | 707c6b6ae6831595565df12a5b523c1698b16da79cd6d2d5cdaf5fc985e08803 |
 | `frameworks/dpf/method-engineering/2026-09-20-rev-453144ed/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | bf1f96e86114f5ffe42f62e3847dd41248a61fe0773d0c8441876f35d2f5248a |
 | `frameworks/dpf/operations-management/2026-09-20-rev-453144ed/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | 5d8fc50460410a6a1938798c00180b0c0b5a2ee1ff7a03d3e41f4728bce0f1a3 |
 | `frameworks/dpf/organization-administration/2026-09-20-rev-453144ed/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | a2eed845cc57057df79d05f5ce247b5298caf31a386d4930958db519b339db10 |
@@ -52,7 +54,7 @@ Project data, external project DPF, history и development evidence исключ
 | `frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md` | Выбранный файл поставки | eb6e5b1e69ee8192fbcd73acf05bca3484ac2637f79abb810e63d06e3a25f7da |
 | `frameworks/dpf/semantic-integration-engineering/2026-09-20-rev-453144ed/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Закреплённый авторский DPF | f382eda53bb0b039c680513fcdf0a10e4d39a3833749f6b9e3b54d26486733b9 |
 | `frameworks/dpf/strategy/2026-09-20-rev-453144ed/STRATEGY-PRINCIPLES-FRAMEWORK.md` | Закреплённый авторский DPF | 88a4dc75008a102d6779f208fe61d77ce799ea97590f0720da26bce8f4260c42 |
-| `frameworks/dpf/systems-engineering/2026-09-20-rev-453144ed/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | 2f770a38d4a3d9fb9e973f8804d4bce7cca2f9343269c017625c8e48facb341c |
+| `frameworks/dpf/systems-engineering/2026-09-22-rev-4ddaf715/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Выбранный файл поставки | b9f88e0e8729b4f0ecd2036ca06b58312e9deca0d3aed7059b073b135c429a9c |
 | `modules/coordination/CONTRACT.md` | Выбранный файл поставки | 66a8cad0e6839587d48025c8e0840ff83c37e1d6a7638f40bd0e034e9bcaeebd |
 | `modules/coordination/GUIDANCE.md` | Выбранный файл поставки | 5fc0479d7787ca8d09242c529c78f0c62f16b15cfb87c7d13c8a34895c4fae54 |
 | `modules/coordination/api.py` | Выбранный файл поставки | 2df8fb261287a54744cfa92cbb9c958bc96114bdc2fa564a0d32999a6ee735ea |
@@ -77,9 +79,9 @@ Project data, external project DPF, history и development evidence исключ
 | `modules/governance/operations.py` | Выбранный файл поставки | 8a28acc269b1c6ea82b86b990fd9560e7b2574a728643435b15d3c32e302927e |
 | `modules/governance/responses.py` | Выбранный файл поставки | 11fc582eb81eb3d1df75c16b626c4e46b4da500c2375bd1626906a5b8680cd0c |
 | `modules/interaction/CONTRACT.md` | Выбранный файл поставки | d149e12fd6a373551d09a9620933b8b5a40ecd555c89e4024cc72406dca19439 |
-| `modules/interaction/DECISION_VIEW.md` | Выбранный файл поставки | d92d5b3014101f98a00d8ae8aec97fbfb3cf132cc04f05aad324228f1c2758ba |
-| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | 7b6303ecc1073315ddea66a6b43bb58b0c6a3ea884429b2b84846bc70ea85a68 |
-| `modules/interaction/HUMAN_VIEWS.md` | Human Views — выбранный файл поставки | 63ce76ec9aa398d0518327b31459f15e785dc5cc3f1eee136b4819143f9fbd10 |
+| `modules/interaction/DECISION_VIEW.md` | Выбранный файл поставки | b817b9e06ce3df36c6dbe728557821a51b51f987e1215ca3483a94d20e2a2bc8 |
+| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | a5536a02c60ce0073784813d1544c109009fc7edbbdf72c8267f4b77eb62a292 |
+| `modules/interaction/HUMAN_VIEWS.md` | Human Views — выбранный файл поставки | 058c4979d60ccd247de98ac0a5cf5d5e0b79c53dc730e0ef0f8e2c9306152666 |
 | `modules/interaction/api.py` | Выбранный файл поставки | 57c2ef8e1926c0f37a0c158b5eebef315c060b6aad94726eb7f3209fbd56a5a0 |
 | `modules/interaction/preferences.py` | Выбранный файл поставки | de98c54aa3652bb5518442a6f8c174dfce7c8c3c0ccbd66c0b7f80eeb7356d99 |
 | `modules/interaction/presentation.py` | Выбранный файл поставки | c4749c9cac50683383d29cbf85bd03339a32ea164ea5b901273d97398edadd49 |
@@ -90,7 +92,7 @@ Project data, external project DPF, history и development evidence исключ
 | `modules/reliance/api.py` | Выбранный файл поставки | fc0b842468dc11dd5f5bb2ee902697e62294699de097354010602d95370d28a9 |
 | `modules/reliance/assessment.py` | Выбранный файл поставки | 2d8a1086c0d5d31d2a61b50a99839bcd775fce0ea96fc49de021569d26c63562 |
 | `modules/self_development/EXPERIENCE.md` | Выбранный файл поставки | 2d7d1520e1d75a76c55ca3271c8220f10482316a29d82d46354be9a271ee0ce0 |
-| `modules/self_development/GUIDANCE.md` | Выбранный файл поставки | 0b258e0262a1ce06c3b4619155712fe3983e797ceea563828f764d5338e102bd |
+| `modules/self_development/GUIDANCE.md` | Выбранный файл поставки | 5d3da02dac6340952041e10c8fd3a63a6dc0d449a67fe747d097bf6ef11a989d |
 | `modules/sources/CONTRACT.md` | Выбранный файл поставки | 95c7617b371a11756f84e3dc436be7c5e424e94781d395b97065173e2596704f |
 | `modules/sources/GUIDANCE.md` | Выбранный файл поставки | 0ea2297367e92e1a69e99697e1c573e9e71fd3d1cb2e2dcc9ab57a69565aedba |
 | `modules/sources/REGISTRATION.md` | Выбранный файл поставки | 8ef5069f35631a93b2bf08d3041c684961e2aa41deb6036acc54cc4d0d7e7ea7 |
@@ -129,6 +131,6 @@ Project data, external project DPF, history и development evidence исключ
 | `tools/human_view/examples/result.json` | Human Views — выбранный файл поставки | bd6012fa4cd705b8d46f03b7976a64e3aaa48b0685b9f9a76bcb67aa51032501 |
 | `tools/human_view/examples/review.json` | Human Views — выбранный файл поставки | f9e00064fb0dd28b713749b3bdd406fec9e4c3c7ac43ab475f1f3c8ab9d7a42b |
 | `tools/human_view/examples/situation.json` | Human Views — выбранный файл поставки | a1398fb7e2a512bbbdbf34445baf7ed44e543a812ab5302650da889a9cf05f9f |
-| `tools/package/integrity.py` | Выбранный файл поставки | a8e0c4ec7222ac6ce2e014fd2f249b7981831bfc9f58dbaed9d31bfc631b038d |
+| `tools/package/integrity.py` | Выбранный файл поставки | be44adc3cc239b7d173f328f0e5c045d4fa5604975f63967af867eee511839a5 |
 | `tools/package/prepare.py` | Выбранный файл поставки | f3d0773958bca600c45de3995ec1a1d5bba0d429fb18d72304e48fd85f75388d |
 | `tools/package/verify_configuration.py` | Выбранный файл поставки | 96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812 |

@@ -589,6 +589,8 @@ Attend to what the contribution changes. “I could not hear the number,” “I
 
 Acknowledge the concrete point before extending the account. Use feedback about contact or perception to restore the channel or expression. Use a displayed relation or attempted inference to inspect understanding. Treat a premise challenge as a subject question and a changed intended use as a possible question revision. Agreement or willingness to act has its own meaning in the situation.
 
+If the recipient says that the explanation misrepresents their concern, recover the particular condition or claim they are asking you to address. Use a clear correction directly. When its meaning remains consequentially uncertain, restate what you have understood and invite correction before arguing against it. Acknowledge a point you actually accept and state where the disagreement remains. Qualify genuine uncertainty; adding reassuring words or weakening a warranted claim does not supply this repair. If the exchange itself has become the obstacle, a different time, channel or a pause may be the useful next move. Continuing to explain requires a current explanatory purpose.
+
 Several interpretations can remain plausible. In that case, ask one small diagnostic whose alternatives lead to different repairs. “Which quantity should receive equal influence here?” distinguishes a changed weighting target. “What sum does this group mean represent?” distinguishes a missing mean-to-sum relation. The diagnosis remains provisional until the contribution supports it.
 
 #### EXD.4:4.3 - Change the part that prevents the next useful move
@@ -633,6 +635,12 @@ The repair changes the target and its answer. A longer version of the pooled-mea
 Compare a different recipient contribution: “I still need the average across individuals, but I do not see why multiplying the count by the mean gives the total.” The weighting target is stable. Show that six values with mean eight have total 48, using the definition of a mean as sum divided by count. If a supported retry is useful, ask for the total of four values with mean five. The answer 20 demonstrates that response under the available help; subsequent independent use requires its own observation.
 
 In advisory use, a recipient may say, “I understand why the assignment fits my present strengths. I prefer the course because I value its social setting.” Close the explanatory distinction and return the preference to the advising decision. Asking the recipient to reproduce the recommendation would add no useful explanatory result.
+
+#### EXD.4:5.1 - Recover the concern before adding another explanation
+
+An engineer explains that a proposed service reduces response time from eight minutes to five. A colleague replies: “You keep treating my objection as resistance to speed. I need somebody available throughout the night.” The comparison of response times does not answer that staffing concern.
+
+Use the colleague's stated correction: “You need continuous coverage; the five-minute figure applies only while an operator is present.” The explanation now exposes its condition. If coverage remains the question, return it to staffing and resource work; another account of the speed calculation will not supply an operator. If the colleague instead asks why the time falls to five minutes, provide that derivation under its stated conditions. The two continuations answer different contributions. Neither establishes agreement to deploy the service.
 
 ### EXD.4:6 - Bias-Annotation
 
@@ -686,6 +694,8 @@ The current *Social Explainable AI* chapters on [Practices, §5.3](https://link.
 [Axelsson, Buschmeier and Skantze, 2022, §2](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2022.744574/full) distinguish feedback concerning contact, perception, understanding and attitude. Adopt that distinction to avoid choosing a repair from an acknowledgement alone; a signal's interpretation remains contextual.
 
 [Fichtel et al., 2025, §§5–6](https://aclanthology.org/2025.sigdial-1.1/) found that enhanced prompting elicited more co-constructive behavior in a bounded Llama 3.1 70B study without a significant mean objective-understanding advantage. Keep that limit when designing human–AI explanatory interaction. More interaction is not an effectiveness measure.
+
+For repairing a misrepresented concern, **adapt** the explicit acknowledgement and engagement examined by [Yeomans et al., 2020](https://www.mikeyeomans.info/papers/receptiveness.pdf), Study 4 and §6.2. Their written-message study concerns perceived receptiveness, persuasiveness and intentions to collaborate; it does not establish subject correctness, understanding or actual later cooperation. The contribution used here is making the addressed concern inspectable before adding a rebuttal. Against applying a linguistic recipe, keep actual agreement and uncertainty truthful and retain the subject criterion. A polite response can still answer the wrong question. Reopen this repair when the response shows that the concern remains misrepresented or the exchange no longer serves an explanatory purpose.
 
 At the same local opportunity to respond, repeating the pooled-mean derivation answers the old question. Using the recipient's explicit change of weighting rule supplies the requested branch-mean answer and preserves the earlier result under its original condition. This comparison explains the proposed move in the worked case. Reopen it when actual recurring interactions expose a different diagnostic or repair need.
 
