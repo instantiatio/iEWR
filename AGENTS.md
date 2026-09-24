@@ -10,7 +10,7 @@
 >
 > Могу также ответить на вопросы о работе iEWR.
 
-Статус: iEWR 5.5.4 Beta — candidate для рассмотрения по exact ZIP.
+Статус: iEWR 5.5.4 Beta — опубликованный Beta-выпуск; точный ZIP и пределы в BASELINE_STATUS.md.
 Основа этой доработки — exact ZIP iEWR 5.5.3 Beta. Текущие изменения и пределы
 проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
 Human–AI инструкции, двенадцать DPF и миграция внешних источников не расширяют

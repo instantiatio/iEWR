@@ -1,17 +1,17 @@
 # Состав поставки — iEWR 5.5.4 Beta
 
-Candidate 5.5.4-beta включает проверенный E-min относительно baseline ZIP 5.5.3. Ведомость определяет точные файлы и контрольные суммы; она не устанавливает приёмку, полномочия или публикацию.
+Ведомость основной ветки после публикации 5.5.4 Beta. Точный архив и тег сохранены отдельно; эта редакция сведений не меняет их bytes или пределы квалификации.
 Данные проекта, внешние DPF проекта и материалы разработки исключены. История выпусков включена явно. Ведомость не хеширует саму себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | 61ce7341dcc55c5a23f12b925c9f86b564aa2cb1657a0ea47a50e48357d2a2ad |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 84999f352ba73c8957bf2a77b8eaf0db7bb84207e20a3b09406513be1bf86f4e |
+| `AGENTS.md` | Выбранный файл поставки | 04af6698a39ce98c5c697bd89ad8352ee6ef3edaa21584942a01cb1cc889208c |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 816dc162cd82557eddd06cc37d0ab81ccb86e3e927218741ccd9f8dcd3c54501 |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Основной README поставки | f6e20d6e35329590480c86b45b1ac7b639c105f035322ab6451dff0b3449d07c |
+| `README.md` | Основной README поставки | a2d78e0b31642e12f75e0b2066dece65cd295c9bf4c6115188fd9c8ae0414a60 |
 | `RELEASE_HISTORY.md` | История изменений 5.2.2–5.5.3 | bd4ea742c398adbb3a281553d730cc9619834945f72d99d8f6b90c10d30bb371 |
-| `RELEASE_NOTES.md` | Изменения текущего выпуска 5.5.4 | 84d5b936df2b52d31c2a2e94966d801980d65ef1ce2138fdca7125f09762970f |
+| `RELEASE_NOTES.md` | Изменения текущего выпуска 5.5.4 | c5978ec95c724e12c608b855b5f8fa6e6a610563e1f0a5e8d6d1ab622b47884e |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | 7af5865ccf744667a942929b28633351554c3fe6d50314fc3b07be63d483f2c7 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -24,7 +24,7 @@ Candidate 5.5.4-beta включает проверенный E-min относи�
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 66596b09766f9394dcd22d91e85873e020959c9cc595bf6eafac7303b1f7bde3 |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 7a3fb92977123f9b1267637ac0b65f6abafe72276873137a907d9844829b9545 |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 39be503a802b0650c02dc1d6a1ca51e2a421bd6866bab39c08d09737d08a1e8c |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `app/bootstrap/recovery.py` | E-min: выбранный файл поставки | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |

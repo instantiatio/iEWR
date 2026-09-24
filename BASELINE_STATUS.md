@@ -1,3 +1,30 @@
+# iEWR 5.5.4 Beta — опубликованный выпуск
+
+По прямому поручению пользователя опубликован [iEWR 5.5.4 Beta](https://github.com/instantiatio/iEWR/releases/tag/5.5.4-beta)
+с отметкой Latest. Фактическое время публикации GitHub: `2026-09-24T19:49:01Z`.
+
+ZIP `iEWR-5.5.4-Beta.zip`: 135 файлов, 2 162 710 bytes; SHA-256
+`861ff8f3cd364feb8a7a813aa621e1605fb30d4574e134da6865151c02a8ec54`. Тег `5.5.4-beta`, commit `0960a58b8012a4533339b7d903243aa754536323`.
+Все 135 файлов тега совпадают с ранее проверенным архивом; ZIP не пересобирался.
+Контрольные суммы пяти загруженных release assets сверены с GitHub.
+
+Основная ветка содержит сведения после публикации. От тега отличаются только
+AGENTS.md, README.md, RELEASE_NOTES.md, этот документ, CONFIGURATION.json и
+PACKAGE_MANIFEST.md. Функциональный код и DPF соответствуют опубликованному тегу.
+`public_release=true` фиксирует публикацию; `distribution_ready=false` сохраняет
+границы квалификации. 54 regression tests прошли в workspace и после распаковки;
+live DSH/model и другие host не квалифицированы. В DPF остаются 50 унаследованных
+неразрешимых локальных ссылок. Для Windows рекомендуется короткий путь распаковки.
+Consumer необязателен для instruction-led работы и требует отдельного bootstrap
+для DSH enforcement. Установленный DSH не изменялся; live trial не выполнялся.
+Полные PASS / FAIL / INCONCLUSIVE — [VERIFICATION.md](https://github.com/instantiatio/iEWR/releases/download/5.5.4-beta/VERIFICATION.md).
+
+## История подготовки неизменяемого архива
+
+Ниже сохранён статус на момент фиксации candidate. Он не отменяет последующий
+факт публикации, указанный выше. Публикация не создаёт технической квалификации,
+новых полномочий или разрешения автоматически подключить consumer.
+
 # iEWR 5.5.4 Beta — candidate E-min
 
 24 сентября 2026. `candidate_for_review`, `distribution_ready=false`,
