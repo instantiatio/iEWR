@@ -1,7 +1,7 @@
 # R — восстановление execution basis
 
 Вход через C только по explicit continuation/re-entry use. Сначала bound project
-history: 0 инициатив — обычный новый вопрос; 1 — direct carrier; несколько —
+history: 0 инициатив при достаточном охвате и новом вопросе — обычный новый вопрос; 1 — direct carrier; несколько —
 Human selection. Не включать package/frozen/source или candidate evidence в
 project history. STATE_INDEX — необязательная подсказка; invalid/stale/conflicting
 index игнорируется. Не создавать новую initiative от наличия scaffold.
@@ -71,3 +71,41 @@ interpretation и фактическое применение не сливат�
 accounts и owner records, не обнаруживает отзывы вне доступных источников.
 Даже новый снимок требует current-use сверки. При отказе renderer достаточно
 текста/отдельных вопросов; старые снимки, ответы и effects сохраняются.
+
+## E-min: обязательное использование результата при re-entry
+
+`assess_reentry(request, evidence)` — read-only schema-2 assessment. P передаёт
+квалифицированный context и exact bytes/direct-channel observations. C предоставляет
+explicit route `recover_reentry`; [bootstrap](../../app/bootstrap/ENTRY.md) не
+создаёт G/X/E и не пишет records. Model-authored JSON не квалифицирует канал.
+
+Coverage проверяется до подсчёта candidates. Generic continuation с нулём найденных
+инициатив удерживается до основания; неполный поиск не даёт false new question.
+Selection — отдельная G запись с initiative/use, exact direct ref/text и current
+context. Голый ID, дата, optional index и семантическая похожесть не selection basis.
+Сам generic continuation не является ответом на вопрос о выборе инициативы.
+
+Три accounts связываются с initiative/use и context. G сохраняет exact direct
+grounds, разрешённый и запрещённый scope; F — exact relied refs/receiving use;
+X/E — полноту, intents, attempts, отдельные observations и next-action disposition.
+Completed возвращает `completed`, без successor; pending с not-attempted basis —
+`ready_for_current_use`; missing/changed/unknown/conflicting — `hold`. `new_question`
+допустим для явно нового вопроса с достаточным coverage. Все результаты имеют
+`actuation_grant=false`: R не заменяет G/X/E текущего действия.
+
+Новый helper валидирует структуру, происхождение и связность записанных утверждений.
+Он не выводит смысл разрешения из произвольного текста. Интерпретация G и
+достаточность source coverage остаются квалифицированными owner inputs. Ошибочное
+совпадающее по bytes толкование нельзя исправить одним hash. На неподготовленной
+legacy истории вернуть точный blocker; не извлекать authority regex из Markdown.
+
+Действующий host consumer обязан использовать результат до dependent action.
+Для DSH [P consumer](../../adapters/dsh-reentry/README.md) закрывает raw dispatch
+при missing/hold/completed; только ready и отдельный owning exact-call assessment
+могут снять этот технический запрет. Cold/fork/new direct context не наследует
+прошлый допуск. Ни R, ни consumer не выполняют auto repair/replay/activation.
+
+Legacy `discover` сохраняет форму результата, но selected без selection_basis и
+любой unsearched дают hold. `reconstruct` дополнительно удерживает unbound accounts
+и неустановленную factual completeness. Старые записи читаются без переписывания;
+для квалификации E-min нужны schema-2 refs и qualified reader, не фиктивная миграция.

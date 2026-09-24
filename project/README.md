@@ -1,5 +1,15 @@
 # Материалы текущего проекта
 
+Для re-entry переиспользовать достаточные existing owner records и host history.
+Если нужны недостающие machine links, допускается минимальный carrier по
+[REENTRY_BINDING_TEMPLATE](../templates/REENTRY_BINDING_TEMPLATE.json) в
+`artifacts/process/<initiative>/reentry-v1.json` либо existing authoritative locus.
+Он ссылается на G, relied basis и X/E facts раздельно и не становится общим STATE
+или current-initiative authority. Автор — owning use, reader — R; записи metadata
+тоже требуют текущего scope. При read-only запрете передать сведения через
+допустимый host record/ответ или указать blocker, не создавать файл самовольно.
+Поля unknown сохранять как unknown; не делать новый документ для каждого вопроса.
+
 | Каталог | Назначение |
 |---|---|
 | `source/` | Входящие внешние материалы: оригиналы, справочные документы, прежние результаты и возвращённые исправленные экземпляры |

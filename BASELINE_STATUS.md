@@ -1,33 +1,52 @@
-# iEWR 5.5.3 Beta — опубликованный выпуск
+# iEWR 5.5.4 Beta — candidate E-min
 
-По прямому поручению пользователя опубликован [iEWR 5.5.3 Beta](https://github.com/instantiatio/iEWR/releases/tag/5.5.3-beta)
-с отметкой Latest. Фактическое время публикации GitHub: `2026-09-24T08:44:48Z`.
+24 сентября 2026. `candidate_for_review`, `distribution_ready=false`,
+`public_release=false`, версия `5.5.4-beta`. Поставка включает только уже
+реализованный E-min и согласованные records выпуска. Приёмка и публикация
+не выполнены. Установленный DSH и исходный FAIL workspace не изменялись;
+live DSH trial запрещён scope этой сборки.
 
-Архив `iEWR-5.5.3-Beta.zip`: 130 файлов, 2 139 304 байта; SHA-256
+## Единственная основа сравнения
+
+`project/source/baseline/iEWR-5.5.3-Beta.zip`, SHA-256
 `117b43001ab92a903dc89f0fe0ca2ff57507ae732e49cde55acfd4fd87a34c2e`.
-Тег `5.5.3-beta`, commit `fd73a545709af38a46ee2e21c6e9d435985531bf`. Все 130 файлов тега
-совпадают с ZIP; архив не пересобирался. Контрольные суммы пяти вложений сверены.
+Все 130 файлов архива совпали с workspace до разработки E-min. Baseline
+сохранён без изменения и исключён из product payload. Дальнейшие сравнения
+поставки выполняются с этим ZIP, а не с промежуточным рабочим деревом.
 
-Основная ветка содержит сведения после публикации. От тега отличаются только
-AGENTS.md, README.md, RELEASE_NOTES.md, этот документ, CONFIGURATION.json и
-PACKAGE_MANIFEST.md. Код и 12 DPF совпадают с опубликованным тегом.
-Версия продукта — iEWR 5.5.3 Beta; редакцию сведений различает Git commit.
+## Состав и совместимость
 
-`public_release=true` отражает факт публикации; `distribution_ready=false`
-сохраняет прежние границы квалификации. Целостность, внутренние ссылки,
-охват методов и отрицательные случаи проверены; отдельные агентные испытания
-выполнены. Человеческая понятность и универсальная надёжность не установлены;
-визуальная проверка HTML заблокирована политикой браузера. SDLC сохраняет
-экспериментальный статус для ограниченных локальных испытаний. Публикация
-не расширяет полномочия или область применимости источников. Подробности —
-[VERIFICATION.md](https://github.com/instantiatio/iEWR/releases/download/5.5.3-beta/VERIFICATION.md).
+Усилены R validation и portable P reader; добавлены read-only bootstrap/C route,
+минимальный ссылочный template и отдельный DSH companion в `adapters/dsh-reentry/`.
+Состав — 135 файлов, включая manifest. Development tests, RCA/forensic evidence,
+raw session logs и результаты проверок исключены из ZIP. Функциональный код
+не изменялся при оформлении версии 5.5.4; его hashes сверяются с E-min evidence.
 
-## История подготовки неизменяемого архива
+Instruction-led работа Codex и других host сохраняется без DSH consumer.
+Обязательность bootstrap относится только к заявлению native enforcement при
+выбранном подключении consumer в DSH. Core Contract, bundled DPF bytes и owner
+DAG сохранены; DPF baseline ID остаётся `iEWR-dpf-5.5.3`. Более строгие recovery
+holds не расширяют authority и не выполняют миграцию исторических records.
 
-Ниже сохранены сведения на момент фиксации ZIP. Подготовительные статусы
-не отменяют приведённый выше факт публикации.
+## Проверки и пределы
 
-# iEWR 5.5.3 Beta — кандидат для рассмотрения
+E-min проверен на Windows, Python 3.13.14 и Node 24.18.0: 38 Python regression
+и 16 Node consumer contract tests, включая настоящий Python subprocess.
+Положительный контроль имеет отдельное разрешение нового действия; completed
+trial не превращается в разрешённый successor. Для exact ZIP выполняются
+повторные regression, configuration/import-DAG/inventory checks, CRC/digests,
+независимая распаковка и проверка по исходному selected inventory. Commands,
+outputs, delta и hashes хранятся в сопровождающем отчёте вне product payload.
+
+G/coverage остаются qualified owner input; filesystem reader рассчитан на
+cooperative local host. Actual DSH loader/tool graph/direct-channel trust,
+model restart/resume, ordinary agent probes и upstream TypeScript type-check —
+INCONCLUSIVE. Source API pin DSH: `477b4f420553e8a52c2fbccc464d7561b239c443`.
+Guard не охватывает внешний I/O вне registry. Без mandatory bootstrap и
+qualified ports consumer не обеспечивает заявленный технический контроль.
+POSIX-only execution adapter не квалифицируется portable package checks.
+
+## Сохранённая запись исходного baseline 5.5.3 (не текущая квалификация)
 
 24 сентября 2026. `candidate_for_review`, `distribution_ready=false`,
 `public_release=false`. Поручены обновление выбранных DPF, добавление DOCA,

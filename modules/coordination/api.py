@@ -9,7 +9,7 @@ from modules.sources.repertoire import SourceResolution
 from modules.governance.operations import OperationGovernance
 from modules.effects.operations import OperationEffects
 from modules.execution.operations import OperationExecution
-from modules.recovery.api import Recovery, discover, impact
+from modules.recovery.api import Recovery, discover, impact, assess_reentry
 from modules.formation.execution_basis import plan_need, readiness_use, external_contribution
 from modules.execution.work_basis import assess_work_basis
 from modules.governance.responses import DecisionResponses, Question, AnswerDraft
@@ -18,6 +18,11 @@ from modules.formation.operations import OperationBasis
 
 
 class Coordination:
+    @staticmethod
+    def recover_reentry(request, evidence):
+        """Explicit read-only bootstrap route; no actuator construction or scheduling."""
+        return assess_reentry(request, evidence)
+
     def __init__(self, source_reader, governance_reader, clock, actuator, effect_store, execution_store):
         # Static construction of public owners, no observation or actuation here.
         self.sources = source_reader
@@ -53,6 +58,7 @@ class Coordination:
             ("F", "external_contribution"): lambda: external_contribution(**values),
             ("X", "assess_work_basis"): lambda: assess_work_basis(**values),
             ("R", "discover"): lambda: discover(**values),
+            ("R", "assess_reentry"): lambda: assess_reentry(**values),
             ("R", "impact"): lambda: impact(**values),
             ("R", "select_successor"): lambda: Recovery.select_successor(**values),
             ("L", "assess_receiving_use"): lambda: assess(**values),
