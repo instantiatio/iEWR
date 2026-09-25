@@ -10,8 +10,8 @@
 >
 > Могу также ответить на вопросы о работе iEWR.
 
-Статус: iEWR 5.5.4 Beta — опубликованный Beta-выпуск; точный ZIP и пределы в BASELINE_STATUS.md.
-Основа этой доработки — exact ZIP iEWR 5.5.3 Beta. Текущие изменения и пределы
+Статус: iEWR 5.5.5 Beta — candidate для рассмотрения по exact ZIP.
+Основа этой доработки — опубликованный exact ZIP iEWR 5.5.4 Beta. Текущие изменения и пределы
 проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
 Human–AI инструкции, двенадцать DPF и миграция внешних источников не расширяют
 полномочия, Core semantics или фактические технические возможности host.
@@ -36,8 +36,10 @@ Direct Human decisions и policy сохраняют свои scope; этот dis
 Перед meaningful continuation восстанови три accounts по
 [R](modules/recovery/CONTRACT.md): governance, relied execution basis, factual
 execution/effects. Source/frozen/package/candidate evidence не user-project
-history. 0 инициатив — normal new question, 1 — exact direct basis, несколько —
-Human selection. STATE_INDEX optional/stale ignored. Unknown effects no replay.
+history. 0 инициатив при достаточном охвате и новом вопросе — normal new question;
+при продолжении нужен direct basis. Несколько candidates требуют Human selection
+только при отсутствии действующего прямого основания выбора; сохранённый exact
+ответ переиспользовать. STATE_INDEX optional/stale ignored. Unknown effects no replay.
 
 Generic «продолжи» после re-entry не выбирает инициативу и не расширяет scope.
 Сначала достаточный R assessment либо точный blocker; до него не выбирать новый
@@ -45,10 +47,13 @@ Generic «продолжи» после re-entry не выбирает иниц�
 неполном охвате — gap, не новая задача; несколько candidates без direct selection
 basis — вопрос Human, без выбора по recency/semantic similarity. Completed не
 создаёт successor. Exact запреты/ответы и их редакции сохраняют силу; summary,
-goal/null, hash файла или запись «current» их не заменяют. На host с E-min consumer
-использовать его read-only recovery entry; пропущенный/неисправный helper не
-разрешает обход через raw tools. На остальных host это instruction-led obligation,
-не заявленный enforcement. Обычный новый вопрос сам по себе не требует records.
+goal/null, hash файла или запись «current» их не заменяют. Это instruction-led
+obligation, не технический guard host tools. Read-only helper необязателен;
+само использование инструкций не требует Python, вызова helper или schema-2
+records; выбранные программные инструменты имеют свои зависимости. Его HOLD
+не даёт разрешения игнорировать пробелы оснований. Достаточные исходные сведения
+можно оценить по R без миграции в JSON; результат такой проверки отличать от
+результата helper. Обычный новый вопрос сам по себе не требует records.
 
 Current question / exact subject / receiving use → adequate reuse либо bounded
 Direct Work; нужная formation — только если missing result меняет решение.

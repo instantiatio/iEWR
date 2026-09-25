@@ -1,6 +1,8 @@
 # Материалы текущего проекта
 
 Для re-entry переиспользовать достаточные existing owner records и host history.
+Обычная работа по инструкциям не требует schema-2 или вызова helper. Следующий
+carrier необязателен и нужен лишь при выбранной программной проверке bindings.
 Если нужны недостающие machine links, допускается минимальный carrier по
 [REENTRY_BINDING_TEMPLATE](../templates/REENTRY_BINDING_TEMPLATE.json) в
 `artifacts/process/<initiative>/reentry-v1.json` либо existing authoritative locus.

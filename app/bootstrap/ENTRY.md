@@ -1,6 +1,11 @@
 # Явный bootstrap entry
 
-## Read-only recovery entry E-min
+## Необязательная read-only проверка Recovery
+
+Для обычной работы по `AGENTS.md` этот entry и его schema-2 records не обязательны.
+Python 3.10+ нужен только для явного программного вызова helper. Сведения без
+машинных bindings могут быть отдельно проверены по [R](../../modules/recovery/CONTRACT.md);
+отсутствие JSON не требует автоматической миграции или нового Human approval.
 
 `recovery.py` связывает qualified P reader с C → R assessment. Не импортирует
 POSIX Tree/actuator, не пишет records и не выполняет action. Python 3.10+:
@@ -53,8 +58,17 @@ hosts/forks без qualified lineage relation удерживается, не в�
 читает только explicit project carrier loci; Markdown/source нельзя механически
 превратить в governing history. Ширина supplied loci не доказывает completeness.
 
-Для обязательного использования в DSH — [thin consumer](../../adapters/dsh-reentry/README.md).
-Без него вызов helper необязателен для raw tools и enforcement не заявляется.
+Helper не подключается к агенту автоматически и не перехватывает инструменты.
+Caller сам подготавливает context/observations из независимо установленного
+источника; model-authored JSON и название host такой источник не квалифицируют.
+Вызов helper не выдаёт разрешения независимо от exit code.
+
+Ограничение schema-2 v1: `kind:continuation` не принимает текущее сообщение
+одновременно за request и selection; для этого входа selection должен ссылаться
+на предшествующее exact direct сообщение Human. Это ограничение helper, не запрет человеку
+явно выбрать инициативу текущим сообщением в обычной работе. Нельзя подставлять
+фиктивный `new_question`, seq или Human ответ ради PASS; использовать отдельную
+instruction-led проверку исходных оснований либо вернуть точный blocker.
 
 ## Существующий operation entry
 

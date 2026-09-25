@@ -1,8 +1,10 @@
 # R — восстановление execution basis
 
 Вход через C только по explicit continuation/re-entry use. Сначала bound project
-history: 0 инициатив при достаточном охвате и новом вопросе — обычный новый вопрос; 1 — direct carrier; несколько —
-Human selection. Не включать package/frozen/source или candidate evidence в
+history: 0 инициатив при достаточном охвате и новом вопросе — обычный новый вопрос;
+при продолжении нужен direct carrier. Несколько candidates требуют Human selection
+при отсутствии действующего прямого основания выбора. Сохранённый exact ответ
+переиспользуется; повторный ответ лишь из-за числа candidates не требуется. Не включать package/frozen/source или candidate evidence в
 project history. STATE_INDEX — необязательная подсказка; invalid/stale/conflicting
 index игнорируется. Не создавать новую initiative от наличия scaffold.
 
@@ -72,7 +74,22 @@ accounts и owner records, не обнаруживает отзывы вне д�
 Даже новый снимок требует current-use сверки. При отказе renderer достаточно
 текста/отдельных вопросов; старые снимки, ответы и effects сохраняются.
 
-## E-min: обязательное использование результата при re-entry
+## Работа по инструкциям и необязательный helper
+
+Для обычной задачи не нужны Python, schema-2 records или вызов helper. При
+re-entry агент восстанавливает три accounts по доступной истории и исходным
+owner records. Достаточный exact direct выбор применим и при нескольких
+инициативах. При недостающем основании удерживается зависимое продолжение;
+само отсутствие JSON carrier не доказывает отсутствия пригодной истории.
+
+Программный helper — дополнительный read-only способ проверки подготовленных
+данных. Требования schema-2 ниже относятся к его входу, не ко всякой работе.
+Если legacy/host история не представима этим входом, она может быть отдельно
+проверена агентом по исходным сведениям. Это не смена HOLD на PASS того же
+assessment; недостающие разрешения, stale basis и unknown effects обходить нельзя.
+Поставка не устанавливает guard и не блокирует host tools технически.
+
+## Программная проверка подготовленных recovery records
 
 `assess_reentry(request, evidence)` — read-only schema-2 assessment. P передаёт
 квалифицированный context и exact bytes/direct-channel observations. C предоставляет
@@ -99,13 +116,15 @@ Completed возвращает `completed`, без successor; pending с not-att
 совпадающее по bytes толкование нельзя исправить одним hash. На неподготовленной
 legacy истории вернуть точный blocker; не извлекать authority regex из Markdown.
 
-Действующий host consumer обязан использовать результат до dependent action.
-Для DSH [P consumer](../../adapters/dsh-reentry/README.md) закрывает raw dispatch
-при missing/hold/completed; только ready и отдельный owning exact-call assessment
-могут снять этот технический запрет. Cold/fork/new direct context не наследует
-прошлый допуск. Ни R, ни consumer не выполняют auto repair/replay/activation.
+Результат helper не является разрешением на действие: даже ready требует
+текущих оснований G/X/E для конкретной операции. Cold/fork/new direct context
+не наследует прошлый допуск. R не выполняет auto repair/replay/activation.
+Caller отвечает за достоверность нормализованных сведений и применение результата;
+эта поставка не подключает его автоматически к model/tool loop.
 
 Legacy `discover` сохраняет форму результата, но selected без selection_basis и
 любой unsearched дают hold. `reconstruct` дополнительно удерживает unbound accounts
 и неустановленную factual completeness. Старые записи читаются без переписывания;
-для квалификации E-min нужны schema-2 refs и qualified reader, не фиктивная миграция.
+для программного assessment нужны schema-2 refs и qualified reader, не фиктивная
+миграция. Legacy `discover` — навигация: единственный ID или `no_initiative`
+не заменяет проверки current request, трёх accounts и разрешения на действие.

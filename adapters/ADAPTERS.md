@@ -1,12 +1,12 @@
 # P — host, storage, source и presentation adapters
 
-E-min добавляет [DSH re-entry consumer](dsh-reentry/README.md) как отдельный private
-P package и portable `filesystem.recovery.ReentryReader` для read-only R entry.
-P переносит exact host IDs/direct events и технически удерживает dispatch; он не
-выбирает Formation/Method и не создаёт Governance. Bootstrap обязан установить
-consumer до agent entry; optional plugin presence не enforcement. Qualified
-exact-call owning port остаётся отдельным от R assessment. Offline contract checks
-не переносятся на actual DSH build, Codex/Kilo или произвольный plugin I/O.
+`filesystem.recovery.ReentryReader` предоставляет переносимое read-only чтение
+для необязательного [Recovery entry](../app/bootstrap/ENTRY.md). Caller независимо
+устанавливает host context и происхождение нормализованных direct events. Значение
+параметра channel basis само не создаёт доверие или разрешение. Reader не выбирает
+Formation/Method, не создаёт Governance и не блокирует dispatch host tools.
+Для обычной работы по инструкциям этот программный путь не обязателен.
+Локальная проверка входов не доказывает аутентификацию каналов конкретной среды.
 
 Adapter реализует outward port его потребителя: S source/availability reader,
 G direct channel reader, E actuator/receipt store, X execution store, R read-only
