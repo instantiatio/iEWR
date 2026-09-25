@@ -1,18 +1,18 @@
 # Состав поставки — iEWR 5.5.5 Beta
 
-Candidate на основе exact опубликованного ZIP 5.5.4: переносимый Recovery без host-specific companion. Ведомость определяет bytes, не приёмку или authority.
+Ведомость основной ветки после публикации 5.5.5 Beta. Точный архив и тег сохранены отдельно; сведения о публикации не меняют их bytes или пределы квалификации.
 
 Данные проекта, baseline ZIP, development fixtures/tests, forensic evidence и текущие reports исключены. Manifest не хеширует сам себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | e3e7e67629bb45d3ad3971fd4237d27625586ee9bda5350cbb8c8e935050a9c1 |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | d37833d8ff09483ee2e1d766cc2bcbb2b25dd294084d74c28b7ae9af28708c62 |
+| `AGENTS.md` | Выбранный файл поставки | de9d54653a4be8b71d1e31c2b64879be3e7e0633de941742fab8e73dd77237d6 |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 0c5b7825ec05bbc372bc378c8ceff30b6357f34525d78bd3107986bf6bd2ae93 |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Выбранный файл поставки | 96eba6d27abda3be5e495ab78aee25b393a2e145ac21c7d9aaa5f47ee13b99aa |
+| `README.md` | Выбранный файл поставки | a2acdede495328b1be82edc378e28ff4d2e48c347c4b4ec2d1c4c98b6c8f3746 |
 | `RELEASE_HISTORY.md` | Выбранный файл поставки | 05ec4f858d421853808fa31c044c183750cabf6c0e68c5eb588bbeff264146e8 |
-| `RELEASE_NOTES.md` | Выбранный файл поставки | 88b9518f88c47dc8820fbb2c54cb2491384ad2806f762c3ffc1241ee617419ad |
+| `RELEASE_NOTES.md` | Выбранный файл поставки | 91ce9b09c9b609cee5da58e24907041492c558ce841ad4ab21aa76f6f8d8d013 |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -22,7 +22,7 @@ Candidate на основе exact опубликованного ZIP 5.5.4: пе
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 2590fc6e346bc0ef06bc6f6b3c8ac5a8aeffff55802f76b7058178b922d83a6b |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 27aa7ade8e43a6adc17d421c85540de3e31d2acb2345655cf05039aad00daf7a |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `app/bootstrap/recovery.py` | Выбранный файл поставки | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |
