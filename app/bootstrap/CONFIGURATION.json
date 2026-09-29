@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "activation_entry": "AGENTS.md",
-  "status": "release_authorized",
+  "status": "published_beta",
   "architecture_sha256": "ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c",
   "scope": "single cooperative local host; semantic source and authority claims remain separate",
   "files": {
-    "AGENTS.md": "f8532341274a199ee3b00925e4a7ae2b9482236b45457bc73b037204af70953d",
-    "BASELINE_STATUS.md": "39991e65a06e071490d702af69515b1278e12d22f79d9d4a04bfcebd89748e5f",
+    "AGENTS.md": "8a896772c2fdd3d8f20c96e6b96e15bb2a1df11eb6a56c4b61b2d22dd9f4a7f0",
+    "BASELINE_STATUS.md": "11342547f0f35a70cdf21f0cc0f0e74a96ed3c9d4f6d26ea745a6a2c4e35ea88",
     "LICENSE": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec",
     "MODEL_SELECTION_RECOMMENDATIONS.md": "b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490",
-    "README.md": "f936e7138d4be5a058c0f6625cad11994b106de4c82df04c450a50cb7a6f677f",
+    "README.md": "b4d8363c479953c34842483496871e68c846384f30e44a8582d94aa76589592d",
     "RELEASE_HISTORY.md": "2ac6662da46c6d74c0c8438e04578a21e70eefc586f4fc32843667176c5697e3",
-    "RELEASE_NOTES.md": "0b033d2047900d51526969f4f32eec53037eb6d369c02e9111dacae6d404998a",
+    "RELEASE_NOTES.md": "86097845f2027b3d824c02f715391461cbc64c7944d396380aaade4bba733983",
     "adapters/ADAPTERS.md": "f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00",
     "adapters/agent_host/channel.py": "115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390",
     "adapters/agent_host/responses.py": "6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd",
@@ -137,12 +137,16 @@
     "tools/package/verify_configuration.py": "96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812"
   },
   "distribution_ready": false,
-  "public_release": false,
+  "public_release": true,
   "source_baseline_id": "iEWR-5.5.6-beta",
   "bundled_dpf_baseline_id": "iEWR-dpf-5.5.3",
   "qualification_status": "Bounded instruction review/trials; unchanged-code evidence reused; no general agent or live-host qualification",
   "package_id": "iEWR 5.5.7 Beta",
   "version": "5.5.7-beta",
   "source_baseline_sha256": "ad80e8c39ae83ab07a047fccedb906666d51584c70c56f6e58c576e6770d68ca",
-  "publication_authorized": true
+  "publication_authorized": true,
+  "published_at": "2026-09-29T16:02:16Z",
+  "release_url": "https://github.com/instantiatio/iEWR/releases/tag/5.5.7-beta",
+  "release_tag": "5.5.7-beta",
+  "release_zip_sha256": "15c68a5f9b5e0a320e232ad3da518cd62a2c6c34196a5711e1b248d57fad2f2e"
 }

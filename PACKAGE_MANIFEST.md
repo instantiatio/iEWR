@@ -1,18 +1,18 @@
 # Состав поставки — iEWR 5.5.7 Beta
 
-iEWR 5.5.7 Beta: соразмерное обеспечение качества проектирования и реализации. Публикация разрешена; ведомость определяет точные bytes, не квалификацию host.
+iEWR 5.5.7 Beta: соразмерное обеспечение качества проектирования и реализации. Опубликован как Latest. Ведомость описывает main после публикации; точный ZIP имеет собственную сохранённую ведомость. Квалификация host не расширена.
 
 Данные проекта, baseline ZIP, development fixtures/tests, forensic evidence и текущие reports исключены. Manifest не хеширует сам себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | f8532341274a199ee3b00925e4a7ae2b9482236b45457bc73b037204af70953d |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 39991e65a06e071490d702af69515b1278e12d22f79d9d4a04bfcebd89748e5f |
+| `AGENTS.md` | Выбранный файл поставки | 8a896772c2fdd3d8f20c96e6b96e15bb2a1df11eb6a56c4b61b2d22dd9f4a7f0 |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 11342547f0f35a70cdf21f0cc0f0e74a96ed3c9d4f6d26ea745a6a2c4e35ea88 |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Выбранный файл поставки | f936e7138d4be5a058c0f6625cad11994b106de4c82df04c450a50cb7a6f677f |
+| `README.md` | Выбранный файл поставки | b4d8363c479953c34842483496871e68c846384f30e44a8582d94aa76589592d |
 | `RELEASE_HISTORY.md` | Выбранный файл поставки | 2ac6662da46c6d74c0c8438e04578a21e70eefc586f4fc32843667176c5697e3 |
-| `RELEASE_NOTES.md` | Выбранный файл поставки | 0b033d2047900d51526969f4f32eec53037eb6d369c02e9111dacae6d404998a |
+| `RELEASE_NOTES.md` | Выбранный файл поставки | 86097845f2027b3d824c02f715391461cbc64c7944d396380aaade4bba733983 |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -22,7 +22,7 @@ iEWR 5.5.7 Beta: соразмерное обеспечение качества 
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 232c6ba366ebe7fb843ecadd2cbc350f2070ecd1aa816e9de71aeaeb034a0ef0 |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | f67a18a0fd82927a7bd5839aec26652d6bb8a1c54a8e16cd8f1ce847e90d92ae |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `app/bootstrap/recovery.py` | Выбранный файл поставки | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |

@@ -2,9 +2,8 @@
 
 **Instantiatio EWR — среда организации и исполнения инженерной работы людей, ИИ-агентов и инструментов на основе FPF.**
 
-Статус: **Beta-выпуск 5.5.7, подготовленный к публикации по прямому поручению пользователя**.
-[Страница выпуска](https://github.com/instantiatio/iEWR/releases/tag/5.5.7-beta)
-содержит архив и сведения о фактической публикации.
+Статус: **опубликованный Beta-выпуск**. [iEWR 5.5.7 Beta](https://github.com/instantiatio/iEWR/releases/tag/5.5.7-beta) — текущий Latest.
+[Скачать ZIP 5.5.7](https://github.com/instantiatio/iEWR/releases/download/5.5.7-beta/iEWR-5.5.7-Beta.zip); результаты и ограничения — во вложении [VERIFICATION.md](https://github.com/instantiatio/iEWR/releases/download/5.5.7-beta/VERIFICATION.md).
 Сохранены переносимые правила
 восстановления работы и необязательный помощник проверки. Обычное использование
 основано на инструкциях проекта и доступных инструментах выбранной среды.
