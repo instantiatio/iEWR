@@ -1,18 +1,18 @@
-# Состав поставки — iEWR 5.5.6 Beta
+# Состав поставки — iEWR 5.5.7 Beta
 
-iEWR 5.5.6 Beta: активная помощь в формировании задачи, разделение условий выполнения и результата, ответ Decision View через чат. Опубликован как Latest. Ведомость описывает main после публикации; точный ZIP имеет собственную сохранённую ведомость. Квалификация host не расширена.
+iEWR 5.5.7 Beta: соразмерное обеспечение качества проектирования и реализации. Публикация разрешена; ведомость определяет точные bytes, не квалификацию host.
 
 Данные проекта, baseline ZIP, development fixtures/tests, forensic evidence и текущие reports исключены. Manifest не хеширует сам себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | 39215b57d4c5dcad35b5b26871815e3d9777899208253690839603d0dd8db41d |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 2005078be5947bc1a0206fdc4c8e2ab9e90ea22247368f50ba1a417dabf6ba3f |
+| `AGENTS.md` | Выбранный файл поставки | f8532341274a199ee3b00925e4a7ae2b9482236b45457bc73b037204af70953d |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 39991e65a06e071490d702af69515b1278e12d22f79d9d4a04bfcebd89748e5f |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Выбранный файл поставки | 6722bb18291f691a89310979489ddc8791836485f405e99e37e6cd2d44f6c8f9 |
-| `RELEASE_HISTORY.md` | Выбранный файл поставки | 482dc901420a194ec82383ef55b7ef8cee370f44765960761e2ca770f16de294 |
-| `RELEASE_NOTES.md` | Выбранный файл поставки | 4a2553899d475ab385df09b007335671d15d15cdc00633b231c1ed3efa0c3be5 |
+| `README.md` | Выбранный файл поставки | f936e7138d4be5a058c0f6625cad11994b106de4c82df04c450a50cb7a6f677f |
+| `RELEASE_HISTORY.md` | Выбранный файл поставки | 2ac6662da46c6d74c0c8438e04578a21e70eefc586f4fc32843667176c5697e3 |
+| `RELEASE_NOTES.md` | Выбранный файл поставки | 0b033d2047900d51526969f4f32eec53037eb6d369c02e9111dacae6d404998a |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -22,7 +22,7 @@ iEWR 5.5.6 Beta: активная помощь в формировании за�
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 262f557eba5c95cf3726a264984287ca18b20136a6e71f59460bba25df95d095 |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 232c6ba366ebe7fb843ecadd2cbc350f2070ecd1aa816e9de71aeaeb034a0ef0 |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `app/bootstrap/recovery.py` | Выбранный файл поставки | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |
@@ -71,18 +71,18 @@ iEWR 5.5.6 Beta: активная помощь в формировании за�
 | `modules/execution/profiles.py` | Выбранный файл поставки | ee01627ed36b5543c5b8402602b1d372b32e5e71ea91b584918095b660ad9f92 |
 | `modules/execution/work_basis.py` | Выбранный файл поставки | d96f29cf52f4474b99b572daa29be14e2367f0b5045c7fe0cb68dd0a4428e16b |
 | `modules/formation/CONTRACT.md` | Выбранный файл поставки | 604d41cb8c9b80d299830f276411a02cc1f00ee441a67eaa5159451b41870ba8 |
-| `modules/formation/DOMAIN_WORK.md` | Выбранный файл поставки | dd6ce051e86c3692b5d3605cad8f3514096983af9cca67567dcea8213064a4cc |
+| `modules/formation/DOMAIN_WORK.md` | Выбранный файл поставки | 496a885f52f4a5fb3df75dc07094a83d9f0b48136a7844bbb4aeb988664cab6b |
 | `modules/formation/api.py` | Выбранный файл поставки | c2ffb6dd62fa3fec34b6e06fb5ce369091653ea26778965b6ad342788f8f2bc1 |
 | `modules/formation/execution_basis.py` | Выбранный файл поставки | 01b3ac1d646126ed42f13a7b21878f597603b7986a0959f89279056d8ad60440 |
 | `modules/formation/operations.py` | Выбранный файл поставки | 2d32a3f45424d43e3fd29e8a217c10b882150ad23d11860a3ec42d8d27279573 |
 | `modules/governance/CONTRACT.md` | Выбранный файл поставки | 93a666400239dcf6b9ccbcb8855032fc93e3ae5899ebc232a331461c87acf5b3 |
-| `modules/governance/GUIDANCE.md` | Выбранный файл поставки | 24afa07244f6b592546f2cc5237443a03221417c3d915532e8bb6cf569ce00e6 |
+| `modules/governance/GUIDANCE.md` | Выбранный файл поставки | f6f3fcecd420d831a3252c61c9e642e0f83a0a469d9cdf4d24da4c00f9b391a0 |
 | `modules/governance/api.py` | Выбранный файл поставки | aa7fa47660da19204449452102ec8586a87ea1ab08b9e17514f8ea47815ca6ca |
 | `modules/governance/operations.py` | Выбранный файл поставки | 8a28acc269b1c6ea82b86b990fd9560e7b2574a728643435b15d3c32e302927e |
 | `modules/governance/responses.py` | Выбранный файл поставки | 11fc582eb81eb3d1df75c16b626c4e46b4da500c2375bd1626906a5b8680cd0c |
 | `modules/interaction/CONTRACT.md` | Выбранный файл поставки | d149e12fd6a373551d09a9620933b8b5a40ecd555c89e4024cc72406dca19439 |
 | `modules/interaction/DECISION_VIEW.md` | Выбранный файл поставки | fd33e6318c16c10cecefdc97764820ca3af70812e3cc8f949a9dc5c0b1990e61 |
-| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | 01eb9e8fbe3d660ecd3fa42a283b74f3885178fd3cfa7072d742fee536c5cdfe |
+| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | a0b0fc300d9f9a200d5a60feb379601382cd18c42e55e850ca3b353dbf806476 |
 | `modules/interaction/HUMAN_VIEWS.md` | Выбранный файл поставки | 058c4979d60ccd247de98ac0a5cf5d5e0b79c53dc730e0ef0f8e2c9306152666 |
 | `modules/interaction/api.py` | Выбранный файл поставки | 57c2ef8e1926c0f37a0c158b5eebef315c060b6aad94726eb7f3209fbd56a5a0 |
 | `modules/interaction/preferences.py` | Выбранный файл поставки | de98c54aa3652bb5518442a6f8c174dfce7c8c3c0ccbd66c0b7f80eeb7356d99 |
@@ -90,7 +90,7 @@ iEWR 5.5.6 Beta: активная помощь в формировании за�
 | `modules/recovery/CONTRACT.md` | Выбранный файл поставки | 5fc24f0a623636d27fc1c244d48a896e6d7309ada811f830a8d2fa2892884d07 |
 | `modules/recovery/api.py` | Выбранный файл поставки | 904e137c2daf4134848307b2025daf7f2407ef71c3cceacdb4e5b817078a9215 |
 | `modules/reliance/CONTRACT.md` | Выбранный файл поставки | 7458f8dd2d291a510ec20520dc454d890d80da0aae62b379bdaa5e74f2c42674 |
-| `modules/reliance/RECEIVING_USE.md` | Выбранный файл поставки | ac43400409d2c523408960e4da6de30fb1764706a4d3aecee97989512e0ab465 |
+| `modules/reliance/RECEIVING_USE.md` | Выбранный файл поставки | 976f99d3b4a44105e8e8a9574e402a8ecaa887d106bb761d5afb626a1b4a7a3e |
 | `modules/reliance/api.py` | Выбранный файл поставки | fc0b842468dc11dd5f5bb2ee902697e62294699de097354010602d95370d28a9 |
 | `modules/reliance/assessment.py` | Выбранный файл поставки | 2d8a1086c0d5d31d2a61b50a99839bcd775fce0ea96fc49de021569d26c63562 |
 | `modules/self_development/EXPERIENCE.md` | Выбранный файл поставки | 2d7d1520e1d75a76c55ca3271c8220f10482316a29d82d46354be9a271ee0ce0 |
