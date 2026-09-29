@@ -53,7 +53,9 @@ def render(source, output, source_dir):
     d['options'] = options
     d['schema'] = 1
     output = Path(output).resolve()
-    d['answerFilename'] = output.stem.removesuffix('-question')+'-answer.html'
+    d.pop('answerFilename', None)
+    d.pop('documentId', None)
+    d['responseMode'] = 'chat-copy-v1'
     for material in d.get('materials', []):
         parsed = urlsplit(material['path'])
         if parsed.scheme not in ('', 'http', 'https') or material['path'].startswith('//'):

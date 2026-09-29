@@ -1,18 +1,18 @@
-# Состав поставки — iEWR 5.5.5 Beta
+# Состав поставки — iEWR 5.5.6 Beta
 
-Ведомость основной ветки после публикации 5.5.5 Beta. Точный архив и тег сохранены отдельно; сведения о публикации не меняют их bytes или пределы квалификации.
+iEWR 5.5.6 Beta: активная помощь в формировании задачи, разделение условий выполнения и результата, ответ Decision View через чат. Публикация разрешена; ведомость определяет точные bytes, не квалификацию host.
 
 Данные проекта, baseline ZIP, development fixtures/tests, forensic evidence и текущие reports исключены. Manifest не хеширует сам себя.
 
 | Путь | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Выбранный файл поставки | de9d54653a4be8b71d1e31c2b64879be3e7e0633de941742fab8e73dd77237d6 |
-| `BASELINE_STATUS.md` | Выбранный файл поставки | 0c5b7825ec05bbc372bc378c8ceff30b6357f34525d78bd3107986bf6bd2ae93 |
+| `AGENTS.md` | Выбранный файл поставки | befc4f721a748f6b48cf136a31550b603228afe1b594ae66ef9297e22e306cd0 |
+| `BASELINE_STATUS.md` | Выбранный файл поставки | 7511b51667f7fb18659daefd00261453b5d041c3ee4822f546a86736ce3be5cc |
 | `LICENSE` | Выбранный файл поставки | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Выбранный файл поставки | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Выбранный файл поставки | a2acdede495328b1be82edc378e28ff4d2e48c347c4b4ec2d1c4c98b6c8f3746 |
-| `RELEASE_HISTORY.md` | Выбранный файл поставки | 05ec4f858d421853808fa31c044c183750cabf6c0e68c5eb588bbeff264146e8 |
-| `RELEASE_NOTES.md` | Выбранный файл поставки | 91ce9b09c9b609cee5da58e24907041492c558ce841ad4ab21aa76f6f8d8d013 |
+| `README.md` | Выбранный файл поставки | e7583bb35b207e4b34f9c9fa22c0c2360eb67dfe584b3563ce0c6d40592998a6 |
+| `RELEASE_HISTORY.md` | Выбранный файл поставки | 482dc901420a194ec82383ef55b7ef8cee370f44765960761e2ca770f16de294 |
+| `RELEASE_NOTES.md` | Выбранный файл поставки | fff21131e9756257512e4da92e49a2f8cb580d36660607ddf12f4ba41f74ab6f |
 | `adapters/ADAPTERS.md` | Выбранный файл поставки | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Выбранный файл поставки | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Выбранный файл поставки | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -22,7 +22,7 @@
 | `adapters/filesystem/repertoire.py` | Выбранный файл поставки | 025559c5cfcccf766c37bd4b198dbff21d7ce6d558780fa6c6636f43a50b5d43 |
 | `adapters/filesystem/repertoire_engine.py` | Выбранный файл поставки | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Выбранный файл поставки | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 27aa7ade8e43a6adc17d421c85540de3e31d2acb2345655cf05039aad00daf7a |
+| `app/bootstrap/CONFIGURATION.json` | Выбранный файл поставки | 7e3f91cef82879701950bc6f7a71ce13ea404569065a33ebfbc62baac5fab34c |
 | `app/bootstrap/ENTRY.md` | Выбранный файл поставки | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Выбранный файл поставки | 6fde3ea71cfcb8c9039c711713e60116bf56c9316370b50d91a61a9c056a0d5f |
 | `app/bootstrap/recovery.py` | Выбранный файл поставки | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |
@@ -65,13 +65,13 @@
 | `modules/effects/api.py` | Выбранный файл поставки | 054142aaea6287187238cf97dcd1f9d3a852224d77360b6daa907a375155a3bf |
 | `modules/effects/operations.py` | Выбранный файл поставки | ec2be5ef2b71b9836772ffc935a95724104e8b7f63ce2f5511035efd6ee699f6 |
 | `modules/execution/CONTRACT.md` | Выбранный файл поставки | 1aabccabf4a4674080dce494918920466ebb4d14fe3fde14d3758405a0f09cee |
-| `modules/execution/EXECUTION_BASIS.md` | Выбранный файл поставки | 1c7c42942b52e4b9a677c9f789d72fe63d0f0e87237cdbb40e6e8f651ca128f5 |
+| `modules/execution/EXECUTION_BASIS.md` | Выбранный файл поставки | dbdf5335173e62fffc91c45aa9999f87cf6a16d7ad01cffccc98b31b96198b06 |
 | `modules/execution/api.py` | Выбранный файл поставки | 5f50847385764a116a0042465926b9ba5cfe45938d8de68a3bb680ec89ccc9b0 |
 | `modules/execution/operations.py` | Выбранный файл поставки | af38d55cf76b4472977fa6d7369bfac6358e019cd6a0fc8155254123db7bd66e |
 | `modules/execution/profiles.py` | Выбранный файл поставки | ee01627ed36b5543c5b8402602b1d372b32e5e71ea91b584918095b660ad9f92 |
 | `modules/execution/work_basis.py` | Выбранный файл поставки | d96f29cf52f4474b99b572daa29be14e2367f0b5045c7fe0cb68dd0a4428e16b |
 | `modules/formation/CONTRACT.md` | Выбранный файл поставки | 604d41cb8c9b80d299830f276411a02cc1f00ee441a67eaa5159451b41870ba8 |
-| `modules/formation/DOMAIN_WORK.md` | Выбранный файл поставки | 65c3d90204401dfcebd8b6a69a687eba65edc935451d25f37f1eb6d45ddcb8de |
+| `modules/formation/DOMAIN_WORK.md` | Выбранный файл поставки | dd6ce051e86c3692b5d3605cad8f3514096983af9cca67567dcea8213064a4cc |
 | `modules/formation/api.py` | Выбранный файл поставки | c2ffb6dd62fa3fec34b6e06fb5ce369091653ea26778965b6ad342788f8f2bc1 |
 | `modules/formation/execution_basis.py` | Выбранный файл поставки | 01b3ac1d646126ed42f13a7b21878f597603b7986a0959f89279056d8ad60440 |
 | `modules/formation/operations.py` | Выбранный файл поставки | 2d32a3f45424d43e3fd29e8a217c10b882150ad23d11860a3ec42d8d27279573 |
@@ -81,8 +81,8 @@
 | `modules/governance/operations.py` | Выбранный файл поставки | 8a28acc269b1c6ea82b86b990fd9560e7b2574a728643435b15d3c32e302927e |
 | `modules/governance/responses.py` | Выбранный файл поставки | 11fc582eb81eb3d1df75c16b626c4e46b4da500c2375bd1626906a5b8680cd0c |
 | `modules/interaction/CONTRACT.md` | Выбранный файл поставки | d149e12fd6a373551d09a9620933b8b5a40ecd555c89e4024cc72406dca19439 |
-| `modules/interaction/DECISION_VIEW.md` | Выбранный файл поставки | b817b9e06ce3df36c6dbe728557821a51b51f987e1215ca3483a94d20e2a2bc8 |
-| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | a5536a02c60ce0073784813d1544c109009fc7edbbdf72c8267f4b77eb62a292 |
+| `modules/interaction/DECISION_VIEW.md` | Выбранный файл поставки | fd33e6318c16c10cecefdc97764820ca3af70812e3cc8f949a9dc5c0b1990e61 |
+| `modules/interaction/HUMAN_INTERACTION.md` | Выбранный файл поставки | 01eb9e8fbe3d660ecd3fa42a283b74f3885178fd3cfa7072d742fee536c5cdfe |
 | `modules/interaction/HUMAN_VIEWS.md` | Выбранный файл поставки | 058c4979d60ccd247de98ac0a5cf5d5e0b79c53dc730e0ef0f8e2c9306152666 |
 | `modules/interaction/api.py` | Выбранный файл поставки | 57c2ef8e1926c0f37a0c158b5eebef315c060b6aad94726eb7f3209fbd56a5a0 |
 | `modules/interaction/preferences.py` | Выбранный файл поставки | de98c54aa3652bb5518442a6f8c174dfce7c8c3c0ccbd66c0b7f80eeb7356d99 |
@@ -100,7 +100,7 @@
 | `modules/sources/REGISTRATION.md` | Выбранный файл поставки | 8ef5069f35631a93b2bf08d3041c684961e2aa41deb6036acc54cc4d0d7e7ea7 |
 | `modules/sources/api.py` | Выбранный файл поставки | 9baede73e20499df1ad3883e2da2e969f86dbe73232a58e450083e1ffd0a3850 |
 | `modules/sources/repertoire.py` | Выбранный файл поставки | f229e8801612d4d402076dfc96d959c753355402859e553362c8292b54bb0ed3 |
-| `project/README.md` | Выбранный файл поставки | e76f7e80cf0011e12ef02a1834c0312cd5965fd146d19f67e4d7e805d099e75c |
+| `project/README.md` | Выбранный файл поставки | 80fd2b372bdb193d830f4647d019a83a743fd913240f692997d323fbef0e4cfe |
 | `project/artifacts/.gitkeep` | Выбранный файл поставки | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
 | `project/handoff/.gitkeep` | Выбранный файл поставки | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
 | `project/source/.gitkeep` | Выбранный файл поставки | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
@@ -111,16 +111,16 @@
 | `templates/REENTRY_BINDING_TEMPLATE.json` | Выбранный файл поставки | 096d5e213606ff53689ea51ef9bf62b8d6210e6f1acab41e65e5a5009d2a2c8e |
 | `templates/RUNTIME_CAPABILITY_PROFILE_TEMPLATE.yaml` | Выбранный файл поставки | bf60c842e513c050d0ff436a9ff30129b5b76f049a0d4fdd6e17a1e5b66680d2 |
 | `templates/STATE_INDEX_TEMPLATE.yaml` | Выбранный файл поставки | b8917fcd018b830585a338337e82f865060bbb11ab4211ca55ea4afa90ff41e7 |
-| `tools/decision_view/README.md` | Выбранный файл поставки | f13a934bb16e7538ec048ee657acb95395a758202ad8c62b1f326e04b908d646 |
+| `tools/decision_view/README.md` | Выбранный файл поставки | 7f7a520b1ebc59dda789f349adb64e1c1df0837255a1cdfbccd02635ed365580 |
 | `tools/decision_view/THIRD_PARTY.md` | Выбранный файл поставки | 5b84fac0031b6eeafcd8aa46e5d5ce6378feab05a2cd5a809c0e3f0f15a41176 |
-| `tools/decision_view/app.js` | Выбранный файл поставки | e6bea7c66f8f91482392c99c0374cfce5c0d0cc4de29a57b2dc211e9ccf16efc |
-| `tools/decision_view/build.py` | Выбранный файл поставки | 55ae178c59a08b7ba2dfd2e4ffbddbb131a0724ade50c63da1bf099f450c2a9b |
+| `tools/decision_view/app.js` | Выбранный файл поставки | 55b416368f721648c7e06cef06215d3d9a2a6b57e5b1aed2cce9babecbe4f778 |
+| `tools/decision_view/build.py` | Выбранный файл поставки | 0228bd04ab2f2a0b8019cf28fd08c6a66083ce502f912dedef6a9f4f944e6f4c |
 | `tools/decision_view/er.py` | Выбранный файл поставки | 32085bf41185b7dce5555088cf928d5d850b07bf3af022822dd40920de940d1a |
 | `tools/decision_view/examples/orders.er.json` | Выбранный файл поставки | 5563ebd4b1cd49ebd678c3df1a06ef8f7d8b9652d3a089577a9ac458ea6a1ffc |
 | `tools/decision_view/examples/question.json` | Выбранный файл поставки | 2fad708b235636da42a369bd08775a2634dba391d805ae6340a4024359c4dae9 |
-| `tools/decision_view/page.html.in` | Выбранный файл поставки | 5c41cc358899de90e77b7fa955be2bcc76f10b38526c32bb3a45d96df614590a |
+| `tools/decision_view/page.html.in` | Выбранный файл поставки | 820309c3e9f09225fc3b480608628884e2c13481972c6fa3bc85005ce930f7c1 |
 | `tools/decision_view/pending.py` | Выбранный файл поставки | 4a0c1b06bbf1bd29179d0d527a64f201050428ec31e698857daf5f2e8a0b41c3 |
-| `tools/decision_view/receive.py` | Выбранный файл поставки | ced2d090bb98de3ee4695431d39c7a91ca58848c7b8a9de9382b4554d1d599f4 |
+| `tools/decision_view/receive.py` | Выбранный файл поставки | 5a1c4e817843cfb3fe235ff535985e2439d3964a906440b847893e16e3c601d2 |
 | `tools/decision_view/render_markdown.cjs` | Выбранный файл поставки | ea1b237dd8638ed28a06fa77722602dfc53a36d0cf9c566b9273f2fe9a8bc5e6 |
 | `tools/decision_view/snapshot.py` | Выбранный файл поставки | bdd1983d1f20b190347caed536402f2fc1c5e24b3c1c07f093d2c6cc76885e07 |
 | `tools/decision_view/style.css` | Выбранный файл поставки | 8365e6443586b4fc9642b9f3e43f3739575f7473c9c099506ffadee0bd7afae6 |

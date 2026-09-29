@@ -10,9 +10,9 @@
 >
 > Могу также ответить на вопросы о работе iEWR.
 
-Статус: iEWR 5.5.5 Beta — опубликованный Beta-выпуск; точный ZIP и пределы в BASELINE_STATUS.md.
-Основа этой доработки — опубликованный exact ZIP iEWR 5.5.4 Beta. Текущие изменения и пределы
-проверок указаны в BASELINE_STATUS.md; distribution_ready=false.
+Статус: iEWR 5.5.6 Beta — подготовлен к публикации по прямому поручению Human.
+Основа — опубликованный exact ZIP iEWR 5.5.5 Beta. Пределы проверок и статус
+зафиксированного экземпляра указаны в BASELINE_STATUS.md; distribution_ready=false.
 Human–AI инструкции, двенадцать DPF и миграция внешних источников не расширяют
 полномочия, Core semantics или фактические технические возможности host.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.

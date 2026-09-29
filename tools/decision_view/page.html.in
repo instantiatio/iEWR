@@ -6,10 +6,10 @@
 <form id="response-form"><label for="note">Условия или ответ своими словами</label>
 <textarea id="note" rows="2" placeholder="Можно ответить без выбора варианта."></textarea>
 __PARAMETERS__
-<p class="hint">Сохраните ответ и верните HTML в эту задачу. Сохранение ничего не отправляет и не применяет.</p>
+<p class="hint">Вставьте ответ в тот чат iEWR, из которого открыли эту форму, и отправьте сообщение. Копирование само по себе не отправляет ответ.</p>
+<p class="hint">Поля можно менять после копирования. Изменение уже отправленного решения сообщите в исходном чате явно; прежний ответ сохраняется в истории.</p>
 </form>
-<section id="answer-record" hidden><h2>Ваш сохранённый ответ</h2><p id="chosen-label"></p><pre id="answer-text"></pre><p id="answer-parameters"></p>
-<p class="hint">Для изменения ответа обратитесь к Developing Engineer в текущей задаче. Изменение разбирается вручную.</p></section>
-<div class="actions"><button id="save" type="button">Сохранить ответ</button><span id="status" role="status" aria-live="polite">Ответ ещё не введён.</span></div>
+<div class="actions"><button id="copy" type="button">Скопировать ответ для чата</button><span id="status" role="status" aria-live="polite">Ответ ещё не введён.</span></div>
+<section id="copy-panel" hidden><label for="chat-text">Текст для исходного чата</label><p id="copy-state" role="status"></p><textarea id="chat-text" rows="8" readonly spellcheck="false"></textarea></section>
 <noscript><p>Вопрос доступен для чтения. Для заполнения включите JavaScript или передайте ответ сообщением, указав номер вопроса.</p></noscript>
 __TECHNICAL__</main><script type="application/json" id="dv-data">__DATA__</script><script type="application/json" id="dv-response">null</script><script>__APP__</script></body></html>
