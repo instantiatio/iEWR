@@ -1,3 +1,24 @@
+# iEWR 5.5.6 Beta — опубликованный выпуск
+
+Опубликован по прямому поручению пользователя как [Latest](https://github.com/instantiatio/iEWR/releases/tag/5.5.6-beta).
+Время публикации GitHub: `2026-09-29T15:24:06Z`.
+ZIP `iEWR-5.5.6-Beta.zip`: 132 файла, 2 155 636 bytes, SHA-256
+`ad80e8c39ae83ab07a047fccedb906666d51584c70c56f6e58c576e6770d68ca`.
+Тег `5.5.6-beta`, commit `a69b338c135c11101ff459dc88d1853c6f5fe0dd`.
+Все Git blobs тега совпадают с ZIP; архив не пересобирался после проверки.
+Пять remote asset digests совпали с локальными; ZIP скачан с GitHub и побайтно
+сверен до публикации. Endpoint releases/latest подтвердил 5.5.6-beta.
+
+Main отличается от тега только сведениями после публикации в AGENTS.md, README.md,
+RELEASE_NOTES.md, этом документе, CONFIGURATION.json и PACKAGE_MANIFEST.md.
+`public_release=true` фиксирует наблюдённую публикацию; `distribution_ready=false`
+сохраняет пределы квалификации. Инструкции, код, Core и DPF равны тегу.
+[Результаты и ограничения](https://github.com/instantiatio/iEWR/releases/download/5.5.6-beta/VERIFICATION.md).
+
+## История фиксации неизменяемого архива
+
+Следующие сведения относятся к моменту подготовки ZIP и не отменяют публикацию.
+
 # iEWR 5.5.6 Beta — сведения о зафиксированном выпуске
 
 29 сентября 2026. Версия `5.5.6-beta`, имя `iEWR 5.5.6 Beta`.
