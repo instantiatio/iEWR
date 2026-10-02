@@ -37,11 +37,11 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [ME.1 - Choose and Reopen the Project Method-of-Interest](#me1---choose-and-reopen-the-project-method-of-interest) |  | *Keywords:* Method of interest, process, project, case, workflow, methodology, capability, tool, support. *Queries:* "What needs to change when the team says its methodology is failing?" "Is the blocking question about a Method, its description, the Work, or surrounding support?" Select the smallest Method-related focus and the condition for reopening it or returning to the owning practice. | FPF A.15.6, C.11 |
+| 1 | [ME.1 - Choose and Reopen the Project's Method-Engineering Focus](#me1---choose-and-reopen-the-projects-method-engineering-focus) |  | *Keywords:* Method of interest, process, project, case, workflow, methodology, capability, tool, support. *Queries:* "What needs to change when the team says its methodology is failing?" "Is the blocking question about a Method, its description, the Work, or surrounding support?" Select the smallest Method-related focus and the condition for reopening it or returning to the owning practice. | FPF A.15.6, C.11 |
 | 2 | [ME.19 - Recover Why and How a Professional Method Architecture Differentiated](#me19---recover-why-and-how-a-professional-method-architecture-differentiated) |  | *Keywords:* professional history, Method differentiation, lineage, institutional change, tools, regulation, diffusion, causal explanation. *Queries:* "Why did this profession acquire these different Methods and arrangements?" "Which sequence, rival explanation, and observations support the historical account?" Recover how the architecture differentiated and which historical claims can inform a current choice; qualify causal reliance separately from a descriptive sequence. | ME.1; FPF C.28, A.10 |
 | 3 | [ME.2 - Recover a Reusable Method Repertoire and Its Lineages](#me2---recover-a-reusable-method-repertoire-and-its-lineages) |  | *Keywords:* Method repertoire, method base, reusable practice, source edition, family, variant, lineage, provenance. *Queries:* "What usable Methods and candidate accounts are hidden across our manuals, tools, and remembered practice?" "Which reuse and derivation claims have a recoverable source?" Build an inspectable repertoire with identities, status, applicability, source references and return conditions, and supported lineage, including gaps that change the receiving choice. | ME.1; FPF A.3.1, G.5, G.11 |
-| 4 | [ME.18 - Reconstruct a Candidate Method Account from Observed Work](#me18---reconstruct-a-candidate-method-account-from-observed-work) |  | *Keywords:* tacit practice, observed Work, logs, interviews, reconstruction, rival accounts, evidence programme, uncertainty. *Queries:* "What way of working can we reconstruct from incomplete and conflicting records?" "Which additional observations would change the candidate account?" Combine evidence around the unresolved claims when ordinary Method recovery is insufficient; return a qualified candidate account, its alternatives, and the exact remaining evidence need. | ME.1, ME.2; FPF A.3.1.MR, A.10 |
-| 5 | [ME.3 - Build Situational Method Requirements and Fit Criteria](#me3---build-situational-method-requirements-and-fit-criteria) |  | *Keywords:* situational Method Engineering, requirements, applicability, fit criteria, constraints, capability, authority, evidence timing. *Queries:* "What must this Method contribute in this project situation?" "Which limits concern the Method and which concern performers, support, or the domain result?" State decision-relevant criteria and their evidence needs so later comparison and validation can judge the required contribution under the actual conditions. | ME.1, ME.2; FPF C.11, A.10 |
+| 4 | [ME.18 - Reconstruct a Candidate Method Account through a Specialist Evidence Programme](#me18---reconstruct-a-candidate-method-account-through-a-specialist-evidence-programme) |  | *Keywords:* tacit practice, observed Work, logs, interviews, reconstruction, rival accounts, evidence programme, uncertainty. *Queries:* "What way of working can we reconstruct from incomplete and conflicting records?" "Which additional observations would change the candidate account?" Combine evidence around the unresolved claims when ordinary Method recovery is insufficient; return a qualified candidate account, its alternatives, and the exact remaining evidence need. | ME.1, ME.2; FPF A.3.1.MR, A.10 |
+| 5 | [ME.3 - Build or Reconsider Situational Method Requirements and Fit Criteria](#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria) |  | *Keywords:* situational Method Engineering, requirements, applicability, fit criteria, constraints, capability, authority, evidence timing. *Queries:* "What must this Method contribute in this project situation?" "Which limits concern the Method and which concern performers, support, or the domain result?" "Is this Method requirement justified under these conditions?" State decision-relevant criteria and their evidence needs so later comparison and validation can judge the required contribution under the actual conditions. | ME.1, ME.2; FPF C.11, A.10 |
 | 6 | [ME.4 - Recover Methods and Decision-Relevant Contributions from Documentary Packages and Corpora](#me4---recover-methods-and-decision-relevant-contributions-from-documentary-packages-and-corpora) |  | *Keywords:* documentary corpus, source-local recovery, methodology package, handbook, standard, Method content, contribution, source role. *Queries:* "Which useful contributions are hidden in this source or plural library?" "What is an asserted Method, a candidate account, or neighboring tool, support and cultural material?" Recover a bounded source-local dossier at the depth the receiving use needs; preserve single-source exits and keep returned Work-recovery accounts distinct. | ME.1, ME.2, ME.3; FPF A.3.1, C.2.1 |
 
 **Part II - Individual Qualification, Method-Architecture Alternatives and Construction**
@@ -58,10 +58,10 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 12 | [ME.8 - Author a MethodDescription for Named Uses](#me8---author-a-methoddescription-for-named-uses) |  | *Keywords:* MethodDescription, procedure, manual, description content, planner, performer, review use, applicability, stops. *Queries:* "Which Method claims does this user need for this action?" "What must the description preserve from the Method or candidate account?" Author a use-bounded description with actionable content, conditions, evidence limits, source references, and return conditions; retain the distinction between an admitted Method and a prospective account. | ME.2, ME.3, ME.7; FPF A.3.1, A.3.2, C.2.1 |
-| 13 | [ME.9 - Compose Complementary Method Representations for Their Uses](#me9---compose-complementary-method-representations-for-their-uses) |  | *Keywords:* complementary representations, MethodDescription, view, viewpoint, diagram, text, task-specific profile, exposure, omission. *Queries:* "How should performers, method engineers, support builders, and assessors see different claims about the same Method?" "Which omissions or conflicts across those uses need a shared decision?" Relate the representations chosen for different Method-related actions through their shared MethodDescription or candidate account: show where their claims correspond, conflict, or must remain separate, while keeping each selection's source, established status, grounds for use, omissions, and conditions for reconsideration. | ME.8; FPF C.37, C.2.1, E.17.0, C.29, E.24.PUB, A.22 |
+| 12 | [ME.8 - Author a MethodDescription or Candidate Method Account for Named Uses](#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses) |  | *Keywords:* MethodDescription, procedure, manual, description content, planner, performer, review use, applicability, stops. *Queries:* "Which Method claims does this user need for this action?" "What must the description preserve from the Method or candidate account?" Author a use-bounded description with actionable content, conditions, evidence limits, source references, and return conditions; retain the distinction between an admitted Method and a prospective account. | ME.2, ME.3, ME.7; FPF A.3.1, A.3.2, C.2.1 |
+| 13 | [ME.9 - Relate Method Representations across Their Different Uses](#me9---relate-method-representations-across-their-different-uses) |  | *Keywords:* complementary representations, MethodDescription, view, viewpoint, diagram, text, task-specific profile, exposure, omission. *Queries:* "How should performers, method engineers, support builders, and assessors see different claims about the same Method?" "Which omissions or conflicts across those uses need a shared decision?" Relate the representations chosen for different Method-related actions through their shared MethodDescription or candidate account: show where their claims correspond, conflict, or must remain separate, while keeping each selection's source, established status, grounds for use, omissions, and conditions for reconsideration. | ME.8; FPF C.37, C.2.1, E.17.0, C.29, E.24.PUB, A.22 |
 | 14 | [ME.22 - Compare Method Descriptions by Content and Representation](#me22---compare-method-descriptions-by-content-and-representation) |  | *Keywords:* description revision, content versus form, representation comparison, comprehension, application, confounding, causal attribution. *Queries:* "Did the new guide add needed content, improve its presentation, or change both?" "What does this comparison justify for the same receiving use?" Compare the smallest informative contrasts, retain losses and evidence limits, and return a bounded revision decision rather than a claim of Method effectiveness. | ME.8; ME.9 for cross-use relations; FPF A.6.3.RT, C.37, A.10 |
-| 15 | [ME.10 - Build a Method Base and Enactment-Support Arrangement](#me10---build-a-method-base-and-enactment-support-arrangement) |  | *Keywords:* method base, retrieval, edition selection, tailoring, enactment support, tool, permission, confidential material, feedback. *Queries:* "Can named users find and use the right Method material for their actual tasks?" "Which smallest configuration repairs a failed retrieval, comparison, tailoring, or support task?" Build and test the support arrangement against named user actions, mandatory conditions, current editions, and explicit stops. | ME.8; ME.9 when complementary representations are allocated to unlike named Method actions; FPF C.37, A.22, A.13, A.15.1, A.2.8.PER |
+| 15 | [ME.10 - Configure an Enactment-Support Arrangement, Adding a Method Base When Needed](#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed) |  | *Keywords:* method base, retrieval, edition selection, tailoring, enactment support, tool, permission, confidential material, feedback. *Queries:* "Can named users find and use the right Method material for their actual tasks?" "Which smallest configuration repairs a failed retrieval, comparison, tailoring, or support task?" Build and test the support arrangement against named user actions, mandatory conditions, current editions, and explicit stops. | ME.8; ME.9 when complementary representations are allocated to unlike named Method actions; FPF C.37, A.22, A.13, A.15.1, A.2.8.PER |
 
 **Part IV - Trial and Separate Coherence, Fit or Transfer, and Worth Decisions**
 
@@ -69,24 +69,24 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | :--- | :--- | :--- | :--- | :--- |
 | 16 | [ME.11 - Trial the Method in Representative Work](#me11---trial-the-method-in-representative-work) |  | *Keywords:* Method trial, representative Work, discriminating case, performer, support conditions, observation, evidence. *Queries:* "What happened when this Method was tried in actual Work?" "Which trial conditions would test the claimed contribution and expose its limits?" Plan and observe representative or discriminating enactment and return occurrence-level evidence for the later coherence, fit, transfer, and practical-worth decisions. | ME.3, ME.7, ME.10; FPF A.13, A.15.1, A.10 |
 | 17 | [ME.12 - Verify Method and MethodDescription Coherence](#me12---verify-method-and-methoddescription-coherence) |  | *Keywords:* verification, coherence, description mismatch, missing stop, inconsistent representation, obsolete edition, correction. *Queries:* "Which relied-on Method claim fails to agree with its description, representation, or supporting material?" "Where is the smallest correction that restores the named use?" Locate the expected agreement, the conflicting evidence, and the maintained result that owns the claim; return a bounded coherence result and repair target. | ME.8–ME.11; FPF A.10, B.3 |
-| 18 | [ME.13 - Validate Situational Fit and Transfer](#me13---validate-situational-fit-and-transfer) |  | *Keywords:* validation, situational fit, transfer, adaptation, changed conditions, capability, support, domain result. *Queries:* "Does this Method fit the situation in which we need it?" "Which claim survives when the project, industry, performer, or support conditions change?" Compare original and receiving conditions with actual Work evidence, identify relevant adaptations, and return the supported fit or transfer claim and its limits. | ME.3, ME.11; FPF A.10, G.11 |
-| 19 | [ME.14 - Evaluate Practical Worth Against Current Alternatives](#me14---evaluate-practical-worth-against-current-alternatives) |  | *Keywords:* practical worth, alternatives, burden, coordination cost, tooling, opportunity cost, trade-off, replace, stop. *Queries:* "Is this Method worth its total burden compared with current alternatives?" "Who receives the benefit and who bears capability, support, exposure, or recovery costs?" Compare keeping, revising, replacing, branching, and stopping under the actual situation, with explicit consequences and the evidence that can change the choice. | ME.11–ME.13 for the trial, coherence or fit questions actually needed; FPF A.19, C.11, A.10 |
+| 18 | [ME.13 - Validate a Method's Situational Fit and Transfer](#me13---validate-a-methods-situational-fit-and-transfer) |  | *Keywords:* validation, situational fit, transfer, adaptation, changed conditions, capability, support, domain result. *Queries:* "Does this Method fit the situation in which we need it?" "Which claim survives when the project, industry, performer, or support conditions change?" Compare original and receiving conditions with actual Work evidence, identify relevant adaptations, and return the supported fit or transfer claim and its limits. | ME.3, ME.11; FPF A.10, G.11 |
+| 19 | [ME.14 - Evaluate a Method's Practical Worth Against Current Alternatives](#me14---evaluate-a-methods-practical-worth-against-current-alternatives) |  | *Keywords:* practical worth, alternatives, burden, coordination cost, tooling, opportunity cost, trade-off, replace, stop. *Queries:* "Is this Method worth its total burden compared with current alternatives?" "Who receives the benefit and who bears capability, support, exposure, or recovery costs?" Compare keeping, revising, replacing, branching, and stopping under the actual situation, with explicit consequences and the evidence that can change the choice. | ME.11–ME.13 for the trial, coherence or fit questions actually needed; FPF A.19, C.11, A.10 |
 
 **Part V - Variants, Introduction into Practice, and Cultural Continuation**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 20 | [ME.15 - Maintain Method Variants, Provenance, and Reuse](#me15---maintain-method-variants-provenance-and-reuse) |  | *Keywords:* Method variant, reusable semantics, provenance, branching, version, adaptation, lineage, reuse. *Queries:* "Did this change alter a reusable way of working or only its description and support?" "Which applicability and evidence claims belong to the resulting branch?" Identify meaningful variants and maintain their derivation, status, and reuse conditions; return other changes to the description, Work, or support subject they actually affect. | ME.2; ME.8–ME.14 for their specific live questions; FPF A.3.1, G.11 |
-| 21 | [ME.16 - Introduce, Observe, and Revise a Method in Practice](#me16---introduce-observe-and-revise-a-method-in-practice) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observed result supports revising the Method, its description, or the surrounding arrangements?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.14, ME.15; ME.11 when a trial is selected; FPF A.13, A.15.1; C.28 for actual causal reliance |
-| 22 | [ME.17 - Deliberately Continue and Change Method-Engineering Culture](#me17---deliberately-continue-and-change-method-engineering-culture) |  | *Keywords:* Method Engineering culture, practitioner population, generation, transmission, recognition, selection, memory, retention, loss. *Queries:* "Which cultural relation should deliberately continue or change across this practitioner population?" "What observations distinguish transmission or retention from publication and local use?" Define a bounded cultural claim, compare serious explanations, and choose the next authorized intervention or informative observation with an explicit return. | ME.15, ME.16; FPF C.20, C.36, G.11 |
+| 21 | [ME.16 - Introduce a Method into Practice and Decide What to Keep or Change](#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observations support keeping or changing the Method, its description, introduction strategy, or support?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.14, ME.15; ME.11 when a trial is selected; FPF A.13, A.15.1; C.28 for actual causal reliance |
+| 22 | [ME.17 - Deliberately Continue and Change Method-Engineering Culture](#me17---deliberately-continue-and-change-method-engineering-culture) |  | *Keywords:* Method Engineering culture, practitioner population, generation, transmission, recognition, selection, memory, retention, loss. *Queries:* "Which cultural relation should deliberately continue or change across this practitioner population?" "What observations distinguish transmission or retention from publication and local use?" Define a bounded cultural claim, retain action-changing explanations, and decide what can continue or must change; select an intervention or observation only when its attainable contribution warrants its full burden. | ME.15, ME.16; FPF C.20, C.36, G.11 |
 
 **Part VI - Pattern-Language Production and Situated Use**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 23 | [ME.21 - Reconcile and Allocate Source Contributions after Exact Subtraction](#me21---reconcile-and-allocate-source-contributions-after-exact-subtraction) |  | *Keywords:* conceptual synthesis, semantic allocation, source roles, exact subtraction, merge, split, unresolved remainder. *Queries:* "What should survive from these partly agreeing sources, and where should it live?" "Is the needed answer already supplied?" Produce one justified Method-content allocation with its current supplier, conditions, source return and candidate limits. | ME.4; FPF F.0.1, F.1, F.0.2, E.4.DPF; ME.5/ME.7 for identity or composition |
-| 24 | [ME.23 - Architect a Problem-First MethodDescription Pattern Language](#me23---architect-a-problem-first-methoddescription-pattern-language) |  | *Keywords:* pattern-language architecture, problem-first entry, MethodDescription, profile, material relation, specialization, parthood. *Queries:* "How should these description contributions form a useful language?" "Which relation changes the next answer without inventing Method parts?" Allocate bodies by their subjects and independent results, preserve inherited answers and direct-description exits, and state material dependencies and loss. | ME.8, ME.21; FPF A.3.2, B.1.5, A.22, E.8, E.11.PFP |
-| 25 | [ME.24 - Falsify and Refresh Source-to-Pattern Coverage by Reconstruction](#me24---falsify-and-refresh-source-to-pattern-coverage-by-reconstruction) |  | *Keywords:* source coverage, reconstruction, missing condition, held-out contribution, source change, affected refresh, unavailable basis. *Queries:* "Can this language reconstruct the action and stop it promises from the source?" "What must return when one premise changes?" Expose a missing or misallocated contribution and its repair destination; retain independently supported results and widen the question when the dependency boundary is unknown. | ME.4, ME.21, ME.23; ME.12/ME.15 for known repair; FPF F.0.2, G.11 |
+| 23 | [ME.21 - Reconcile and Allocate Source Contributions for Method Use](#me21---reconcile-and-allocate-source-contributions-for-method-use) |  | *Keywords:* conceptual synthesis, semantic allocation, source roles, exact subtraction, merge, split, unresolved remainder. *Queries:* "What should survive from these partly agreeing sources, and where should it live?" "Is the needed answer already supplied?" Produce one justified Method-content allocation with its current supplier, conditions, source return and candidate limits. | ME.4; FPF F.0.1, F.1, F.0.2, E.4.DPF; ME.5/ME.7 for identity or composition |
+| 24 | [ME.23 - Choose Whether and How to Build a Problem-First MethodDescription Pattern Language](#me23---choose-whether-and-how-to-build-a-problem-first-methoddescription-pattern-language) |  | *Keywords:* pattern-language architecture, problem-first entry, MethodDescription, profile, material relation, specialization, parthood. *Queries:* "Do these uses need a pattern language, or will a direct Method description suffice?" "Which relation changes the next answer without inventing Method parts?" Allocate bodies by their subjects and independent results, preserve inherited answers and direct-description exits, and state material dependencies and loss. | ME.8, ME.21; FPF A.3.2, B.1.5, A.22, E.8, E.11.PFP |
+| 25 | [ME.24 - Test and Refresh Method-Source Coverage by Reconstruction from Patterns](#me24---test-and-refresh-method-source-coverage-by-reconstruction-from-patterns) |  | *Keywords:* source coverage, reconstruction, missing condition, held-out contribution, source change, affected refresh, unavailable basis. *Queries:* "Can this language reconstruct the action and stop it promises from the source?" "What must return when one premise changes?" Return the reconstructed contribution or exact loss and its repair destination; retain independently supported results and widen the question when the dependency boundary is unknown. | ME.4, ME.21, ME.23; ME.12/ME.15 for known repair; FPF F.0.2, G.11 |
 | 26 | [ME.20 - Use Pattern-Language Knowledge to Continue Situated Method Engineering](#me20---use-pattern-language-knowledge-to-continue-situated-method-engineering) |  | *Keywords:* PLUS-ME, situated use, pattern language, unfolding, next result, changed condition, CGUS, chooser, performer. *Queries:* "Which pattern contribution can supply the Method Engineering result needed now?" "What becomes blocked, unknown or worth reconsidering after this new fact?" Continue or stop at the bounded useful result; formalize CGUS only when its own question requires it and keep an ongoing-Work decision separate. | Direct ME result for the current question; FPF E.11.PUA, E.11.PUR, A.22.CGUS, A.15.7 when applicable |
 
 # Method Engineering Principles Framework Readme
@@ -177,7 +177,7 @@ Version date: as shown at the beginning of this file.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
-For a particular pattern, add its PatternID and title, for example: Method Engineering Principles Framework, ME.9 - Compose Complementary Method Representations for Their Uses. Retain the release date, and include a permanent link or stored copy when the exact wording matters.
+For a particular pattern, add its PatternID and title, for example: Method Engineering Principles Framework, ME.9 - Relate Method Representations across Their Different Uses. Retain the release date, and include a permanent link or stored copy when the exact wording matters.
 
 # Preface
 
@@ -226,6 +226,8 @@ actually consumes it. Stop early when an individual qualification, non-Method re
 repair already resolves the working difficulty.
 
 **Constituent actions in ongoing work.** During a trial of a proposed review Method, asking a participant to explain a unit conversion can constitute part of testing that Method, while the trial constitutes part of developing the team's way of reviewing. If the trial asks about unaided recognition, supplying the conversion during the attempt changes what the trial can establish. The facilitator needs both the subject knowledge and the ability to elicit performance without supplying the answer. ME.6's worked case develops this connection; FPF B.1.5.EW recovers it and B.1.5.RS helps compare a substitute constituent. Preparing the trial remains earlier work, not an activity presumed to continue throughout it.
+
+**Learning to recover and change a way of working.** If you know the work and want to learn how to explain and change its method, use the Reference's [practice with records, first attempts and explained answers](ENGINEERING-DPF-SUITE-REFERENCE.md#learn-to-recover-and-change-a-way-of-working). You can save an attempt, compare it with the discussion and correct it yourself. Individual feedback requires a qualified helper and agreed time; the text supplies material for self-checking.
 
 ## ME.Preface:4 - Status, evidence, and assurance decisions are preserved
 
@@ -390,7 +392,7 @@ Professional and local profiles may specialize conditions, select use-bounded cl
 
 # Part I - Method Focus, Architecture History, Repertoire, Situational Criteria, and Recovery
 
-## ME.1 - Choose and Reopen the Project Method-of-Interest
+## ME.1 - Choose and Reopen the Project's Method-Engineering Focus
 
 >
 > **Primary working result:** a **Method-focus result** that selects one Method, an established family or explicitly local grouping, a set of Method relations, or a non-Method return for one project decision. The result preserves every Method or candidate-account status and names one observation that would reopen the focus.
@@ -414,14 +416,14 @@ Do not use ME.1 merely because one tool failed, one practitioner lacks capabilit
 | established Method family | Identified Methods connected by an independently governed family classification or membership basis. Shared use or resemblance is insufficient. |
 | project-local grouping | A temporary set of identified Methods and candidate accounts collected by a stated criterion for one comparison or selector use. Its label creates no family or membership fact. |
 | Method-relation focus | Named Methods and candidate accounts plus the relation kinds whose truth could change the project decision. It need not contain a composite whole. |
-| project, process, or case view | A description of Work produced from a viewpoint that foregrounds selected questions. Several such views can concern the same Work and do not create that Work or its Methods. |
+| project, process, or case account | A description whose direct subject is recovered from its claims under `A.15.6` and `C.2.1`. It is a `U.View` only through its own `E.17.0` conformance relation. Several accounts can concern one Work; they can instead concern a plan, Method, result, or other subject. |
 | non-Method return | A result that redirects the decision to the actual subject, relation, and next useful question while naming what observation would reopen Method Engineering. |
 
 ### ME.1:1 - Problem Frame
 
 Project teams encounter Methods through handbooks, standards, stage models, issue trackers, training, job titles, toolchains, and remembered practice. These can reveal useful Methods, but their visible boundaries rarely coincide with Method identity.
 
-The same Work can also be described through project, process, and case viewpoints. One view may foreground deadlines and resource commitments, another recurring controls, and another the state and exceptions of one case. These views can reveal different Method questions. They describe the same Work; changing the view does not create another Work occurrence or Method.
+A project schedule can describe intended Work, a process account a reusable Method, and a case account the condition or acceptance of a named result. These descriptions can reveal connected Method questions without sharing a subject. When several accounts actually concern one admitted Work, preserve that identity across them. Recover the claim and subject before selecting a viewpoint; changing a representation creates neither another Work nor a Method.
 
 ### ME.1:2 - Problem
 
@@ -447,7 +449,7 @@ Select the smallest focus class whose subject and status are supported and whose
 
 1. **Name the receiving result and decision.** State the result at risk, who will use it, the relevant situation and interval, and what decision the focus will enable.
 2. **Recover representative Work.** Identify the Work occurrence or intended Work that exposes the difficulty. Use `A.15.6` to keep the project System, use, Work, Method, support, and development subjects distinct.
-3. **Inspect the views already in use.** For each project, process, case, lifecycle, stage, or workflow description, state its viewpoint, the questions it exposes, what it coarsens, and which same Work it describes.
+3. **Recover the subjects of the accounts already in use.** For each project, process, case, lifecycle, stage, or workflow description, state what its claims concern, their actual or intended status, the question exposed, and the material omissions. Use `A.15.6` when the label hides the subject. Keep unlike subjects separate; a claimed view additionally needs its exact viewpoint and `E.17.0` conformance result.
 4. **Recover Method-status candidates.** List Methods already identified under `A.3.1`, candidate Method accounts, established family facts, local groupings, related Methods, and support or capability alternatives. Preserve their statuses.
 5. **Form materially different focus options.** Include each plausible one-Method, plurality, relation, and non-Method branch. A renamed package or differently drawn view is not another focus option.
 6. **Test family and relation claims.** Use `G.5` for any maintained family or selector claim and the applicable relation pattern for each direct relation. When no identified whole and obtaining relations exist, retain a relation focus or local grouping rather than a composite.
@@ -459,7 +461,7 @@ Select the smallest focus class whose subject and status are supported and whose
 | --- | --- |
 | use boundary | Receiving result and decision, situation, interval, project System or other subject, and decision authority when a choice is asserted. |
 | representative Work | Actual or intended Work relevant to the decision, with its result and participant meanings. |
-| views used | Each viewpoint and view, the Work described, question foregrounded, important loss, and whether it changes the focus. |
+| accounts used | Each account's direct subject, claim, question, important loss, and effect on the focus; exact viewpoint and conformance result when a view is claimed. |
 | Method-status inventory | Identified Methods, candidate accounts, established family facts, local groupings, related Methods, and non-Method alternatives. |
 | options and choice | Four focus classes considered, selected class and subject, rejected options, basis, and unresolved claims. |
 | continuation | Next result needed and one observable reopen condition. |
@@ -472,13 +474,13 @@ The project stops asking which named methodology should replace another. It firs
 
 In the EC-417 release scenario, eight of twenty releases reopened. The package is commonly called the “release methodology”, so the first proposal is to replace it as one Method.
 
-Three existing views describe the same release Work:
+Three management questions expose different subjects in this scenario:
 
-| Viewpoint and view | Question exposed | Boundary |
+| Management question | Direct subject and claim | Boundary |
 | --- | --- | --- |
-| project view | Whether provisional integration at `D-21` and signed evidence at `D-8` can reach `D0` with available people and rig time | Its schedule positions do not identify Methods. |
-| process view | Which evidence checks, approvals, and stops recur | Repeated descriptions do not create one process-Method or whole. |
-| case view | Which evidence, mismatch, exception, and authority state belongs to one release | The case description is not the Work or a Method. |
+| project scheduling | The release WorkPlan states intended integration at `D-21`, signed evidence at `D-8`, release at `D0`, and required people and rig time. | These are intended Work and resource claims; the schedule establishes no performed release Work. |
+| recurring checks and approvals | The four identified Methods below supply reusable verification, integration, supplier-approval, and authorization actions; the reconciliation accounts remain candidates. | Keep each Method or account as its own subject; recurrence and co-use establish no composite Method. |
+| closure of the pinout-evidence question | The claim to settle is whether the signed pinout and the version used in integration satisfy the release's evidence condition. | Recover the relevant evidence and acceptance rule; the record itself establishes neither satisfaction nor release authority. |
 
 The status inventory contains four identified Methods: `M-HW-Verify`, `M-SW-Integrate`, `M-Supplier-Approve`, and `M-Release-Authorize`. It also contains candidate accounts `C-Evidence-Reconcile-Internal`, `C-Evidence-Reconcile-Supplier`, and `C-AI-Trace-Review`. `C-EC-Release-v2` is only a proposed-whole account. The PLM, CI, test rig, AI provider, safety capability, and supplier responsibility are support, System, capability, access, or assignment subjects rather than Method candidates by position.
 
@@ -491,14 +493,14 @@ The status inventory contains four identified Methods: `M-HW-Verify`, `M-SW-Inte
 | relations among the four Methods and two reconciliation accounts | selected because evidence timing, result use, allocation, and authority relations change the release decision |
 | test-rig support decision | retained as a rival non-Method return, but current evidence does not make it the sole focus |
 
-The first result is therefore a Method-relation focus. It creates no fifth Method and no composite. Reopen to a test-capability focus if two of the next three comparable delays occur while required evidence is complete and the rig is unavailable.
+The schedule exposes a timing conflict, the reusable accounts expose the checks and guards, and the case question identifies the evidence condition still to settle. These connections support a Method-relation focus without making the three subjects one Work. The first result is therefore a Method-relation focus. It creates no fifth Method and no composite. Reopen to a test-capability focus if two of the next three comparable delays occur while required evidence is complete and the rig is unavailable.
 
 ### ME.1:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
 | --- | --- | --- |
 | package bias | The boundary of a standard, methodology, or tool suite becomes one Method boundary. | Recover the receiving result, Work, Methods, accounts, and support subjects before choosing focus. |
-| management-view bias | Project, process, or case descriptions become competing kinds of Work or Methods. | State the viewpoint and keep all applicable views connected to the same Work. |
+| management-view bias | A familiar management label fixes every description to one Work or creates a new kind. | Recover the direct subject from each claim before applying its viewpoint; retain one Work only where the claims concern that Work. |
 | family-language bias | A local shortlist is presented as an established professional family. | Name its criterion and bounded use and retain unresolved family status. |
 | composite bias | Co-use of several Methods becomes a whole Method. | Select a relation focus until whole identity and obtaining relations are separately supported. |
 
@@ -508,7 +510,7 @@ The first result is therefore a Method-relation focus. It creates no fifth Metho
 - [ ] Every Method and candidate account keeps its prior status.
 - [ ] An established family cites an independent classification or membership basis.
 - [ ] A project-local grouping states its criterion, use, and non-family status.
-- [ ] Project, process, and case views name their viewpoints and the same Work they describe.
+- [ ] Project, process, and case accounts preserve their actual direct subjects and intended or performed status; a claimed view has its own viewpoint-conformance basis.
 - [ ] The options include a non-Method return whenever a tool, capability, support arrangement, description, resource, or System could be decisive.
 - [ ] The selected focus states rejected focus options, uncertainty, next useful result, and an observable reopen condition.
 - [ ] Method, family, relation and composite claims rely on their identifying evidence; package position, a view or shared use alone is not that evidence.
@@ -519,7 +521,7 @@ The first result is therefore a Method-relation focus. It creates no fifth Metho
 | --- | --- |
 | “The process failed, so change the Method.” | Identify the result, Work, view, Method, and non-Method conditions before selecting the subject. |
 | “These methods are our family.” | Use a local grouping unless governed membership is independently established. |
-| “The tracker shows the real process.” | Treat the tracker content as a case, project, or process view with stated coverage and loss. |
+| “The tracker shows the real process.” | Recover what the recorded claims concern and their coverage and loss; a tracker label establishes neither a Method nor a view. |
 | “Several contributors imply one composite.” | Return a Method-relation focus and send a proposed whole to ME.7 only when that later question is live. |
 | “Choose the smallest item.” | Choose the smallest *decision-changing* subject, which may be a relation focus rather than one operation. |
 
@@ -533,7 +535,7 @@ The cost is a short recovery of Work, views, statuses, and non-Method alternativ
 
 The focus determines which claims are admissible in later Method use. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
 
-ME.1 connects questions about Methods, their descriptions, Work, capability, tools, variants and Method change. Project, process and case management can provide different viewpoints on the same Work. The pattern uses those views to discover questions, then identifies the subjects and relations that the project decision concerns; a view label alone establishes neither a new Work nor a Method.
+ME.1 connects questions about Methods, their descriptions, Work, capability, tools, variants and Method change. Project, process and case accounts help discover those questions. Recovering each claim's subject before selecting its representation preserves both useful accounts of one Work and useful connections among different subjects.
 
 ### ME.1:11 - SoTA-Echoing
 
@@ -543,7 +545,7 @@ ME.1 connects questions about Methods, their descriptions, Work, capability, too
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Method-ecosystem and element distinctions that help locate a candidate focus. | Source elements are prompts, not FPF kinds or Method parts. |
 | Bender, [embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Current context-specific selection evidence. | One application population does not establish a universal focus taxonomy. |
 
-Reopen the affected rule when a current source or representative use exposes another materially different focus class, or when project/process/case views cannot preserve one Work while revealing the needed Method questions.
+Reopen the affected rule when a current source or representative use exposes another materially different focus class, or when an account's subject, status, or omitted claim changes the Method question or non-Method return.
 
 ### ME.1:12 - Relations
 
@@ -941,7 +943,7 @@ Reopen when a relied-on source contribution, its support or its applicability ch
 
 ### ME.2:End
 
-## ME.18 - Reconstruct a Candidate Method Account from Observed Work
+## ME.18 - Reconstruct a Candidate Method Account through a Specialist Evidence Programme
 
 >
 > **Primary working result:** a **claim-to-evidence dossier** with scoped candidate Method accounts, contradictions and rivals, a held-out result, evidence limits, and the next receiving use—or a justified lowering when the evidence supports only Work description, a local workaround, tool behavior, or an unresolved grouping.
@@ -1120,7 +1122,7 @@ The claim matrix, decision-relevant sampling, contradiction-by-scope rule, held-
 
 ### ME.18:End
 
-## ME.3 - Build Situational Method Requirements and Fit Criteria
+## ME.3 - Build or Reconsider Situational Method Requirements and Fit Criteria
 
 >
 > **Primary working result:** one **situational Method-criteria result** that states the receiving Work and result, required Method contributions, performer capabilities, technical and organizational conditions, allowable variation, non-negotiable conditions, burden limits, evidence needs, and truthful acceptance or stop observations without selecting or admitting a Method. A question about one disputed criterion returns a supported recommendation to retain or change it, together with the criterion's current force and available amendment route.
@@ -1183,7 +1185,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 
 #### ME.3:4.1 - Pattern-Use Unfolding
 
-1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Keep project, process, and case views as descriptions of the same Work when they are used.
+1. **Bound the situation family.** Name representative Work, receiving result, affected subjects, decision window, recurrence expected, important variants, and ordinary exclusions. Recover the subject of each project, process, or case claim under `A.15.6`; attach a criterion to the plan, Method, Work, result, or other subject it constrains. Several accounts concern one Work only when their claims support that reading.
 2. **State required contributions before candidates.** Describe the reusable actions, results, or preserved conditions that one Method or named Method relations must contribute. Do not write a familiar candidate's current procedure as the requirement unless that exact feature is independently non-negotiable.
 3. **Use source prompts without importing kinds.** Ask what goal, procedure, rationale, framing, mindset, intended use, representation, tool, scope, and adaptation conditions a source makes visible. Place the answer with its actual subject. A stated mindset may be description content; an obtaining capability or cultural relation needs separate evidence.
 4. **Recover conditions around enactment.** State performer capabilities, technical and organizational conditions, inputs, support/provider access, responsibility, covering Work assignments, permission and decision-authority relations, evidence timing, reversibility, and other Work or result constraints. Keep these conditions distinct from one another and from the performed Work and its decision result.
@@ -1314,7 +1316,7 @@ The cost is more explicit subject placement and fewer easy rankings. Some criter
 
 A fit claim is bounded by a particular use, subject, situation, evidence basis, and time. Criteria are inputs to that later claim, not the claim itself. Returning every condition to its actual subject prevents a well-written description from standing in for capability, a provider arrangement from standing in for a Method, or one management view from standing in for the Work.
 
-Method Content Theory and the design-method ecosystem line are complementary because they ask different source-side questions. This pattern connects situational criteria for Methods, Work, descriptions, capability, tools, culture and variants while keeping their subjects distinct. Project, process and case views show why several descriptions of the same Work may expose different requirements without establishing new Work or Methods.
+Method Content Theory and the design-method ecosystem line are complementary because they ask different source-side questions. This pattern connects situational criteria for Methods, Work, descriptions, capability, tools, culture and variants while keeping their subjects distinct. Project, process and case accounts can expose different requirements; their direct subjects determine where those requirements belong, whether the accounts concern one Work or several related subjects.
 
 ### ME.3:11 - SoTA-Echoing
 
@@ -1734,7 +1736,7 @@ Do not repeat ME.5. If the only question is whether a named relation or Method c
 
 ### ME.6:1 - Problem Frame
 
-The pattern considers Methods, Work, descriptions, capability, tools, variants and simultaneous contributions at several scales. Project, process and case management can produce different views of one Work. Several useful structures can coexist without aligning one-for-one.
+The pattern considers Methods, Work, descriptions, capability, tools, variants and simultaneous contributions at several scales. Recover the subject of each project, process or case account under `A.15.6` before comparing structures. Several useful structures and descriptions can be connected without sharing a subject or aligning one-for-one.
 
 A project still needs decisions. It must choose which provisional results may be used, which Work may overlap, where authority stays, which support arrangement is acceptable, and where burden moves. The comparison must preserve the several structures while remaining small enough to act on.
 
@@ -1797,7 +1799,7 @@ The selected structures are:
 | --- | --- |
 | Method structure | Four Methods are co-used; no `methodPartOf` or composite-Method relation is shown to obtain. |
 | Work structure | Some verification and integration Work may overlap; bounded Work set `W-TraceAcceptReject-17` contains one human accept/reject occurrence for every AI suggestion used by the branch; signed evidence and accepted safety result are genuine first–then guards for release authorization. |
-| description structure | project, process, and case views describe the same release Work while foregrounding schedule, recurring controls, and one release's state; none is an architecture alternative. |
+| description structure | the release WorkPlan carries intended dates and allocations; Method accounts carry reusable checks and guards; the case account asks whether the signed pinout meets the release evidence condition. Keep their direct subjects and needed correspondences separate. Different descriptions alone establish no architecture alternatives. |
 | allocation structure | admitted Systems `TraceReviewer-17`, `SafetyReviewer-17`, and `ReleaseDecider-17`; their decision Work; covering assignments `ASG-TraceReview-17`, `ASG-SafetyReview-17`, and `ASG-ReleaseDecision-17`; permission `PERM-TraceAcceptReject-17`; and direct authorities `AUTH-SafetyEvidence-17` and `AUTH-ReleaseDecision-17` remain separate; shared capacity can constrain later alternatives. |
 
 `ARS-EC417-RelationOnly-1` records the smaller clarification: retain the four Methods and their direct result-use, permission, and authority relations without naming a composite. The question here is only whether co-use supports a Method-whole claim. `B.1.5` supplies the composition test; where an architecture claim is made, `C.30` distinguishes the claimed structure from obtaining relations. No composite is established by the evidence shown, and no rival arrangement is at issue. Stop with that clarification, not a completed ME.6 comparison. A later choice about provisional supplier evidence opens the genuine alternatives in :5.3; their comparison can also end without creating a Method whole.
@@ -2567,7 +2569,7 @@ The serious alternative is to adapt a familiar method directly or use a redesign
 
 # Part III - Method Descriptions, Representations, and Enactment Support
 
-## ME.8 - Author a MethodDescription for Named Uses
+## ME.8 - Author a MethodDescription or Candidate Method Account for Named Uses
 
 >
 > **Primary working result:** one `U.MethodDescription` edition and a use-coverage account for one admitted `U.Method`; or, when Method admission is absent, improved candidate-account content that keeps its candidate status.
@@ -2738,7 +2740,7 @@ Reopen the pattern when a representative user cannot state the named use without
 
 ### ME.8:End
 
-## ME.9 - Compose Complementary Method Representations for Their Uses
+## ME.9 - Relate Method Representations across Their Different Uses
 
 >
 > **Primary working result:** a Method representation profile for one MethodDescription or candidate Method account. It relates logically complete use-bounded selections across Method actions, preserving source claims, cross-use correspondences, omissions, edition relations, keep-separate decisions and returns. A present profile can be sufficient working prose; when later use needs the basis retained, its rows carry their complete applicable `C.37` claim groups once.
@@ -2802,7 +2804,7 @@ Build the Method representation profile from the current MethodDescription or ca
 4. **Recover every candidate through its direct governor.** Use `C.2.1` for the claim-bearing episteme, `E.17.0` for a view with its own conformance relation, `C.29` for a mathematical lens and correspondence, `E.24.PUB` for publication, and `A.22` for a selected structure. A title, layout, Method label, carrier, or profile row supplies none of those results.
 5. **Complete the use-bounded selection.** For the receiver and action, recover the direct subject result, exact claim, applicable A.2.4 classification and material A.10 reliance, direct receiving result, exposure and loss, disposition and return. Use the direct exit when one owner already supplies this complete answer. Otherwise apply C.37; retain its complete basis once in the owning profile row only when later use needs it.
 6. **Compose the Method profile without flattening.** Connect the completed rows to one MethodDescription or candidate account. Record cross-use correspondences, conflicting omissions, edition dependencies, and keep-separate decisions. Shared profile membership creates no composite Method, super-view, collection, selected structure, or new description edition.
-7. **Handle WorkPlan and Work as supporting subjects.** Preserve WorkPlan or Work status. Project, process, and case candidates may be co-recorded inside one row only when each has its own `E.17.0` conformance result, concerns the same independently admitted Work, and can change the same exact action. A candidate for another action belongs in another row.
+7. **Recover supporting subjects before relating their accounts.** Preserve WorkPlan, Work, Method, result, and other subject statuses. Use `A.15.6` when project, process, or case wording leaves the subject unclear. Accounts of one independently admitted Work retain that same subject; accounts of different subjects remain separate epistemes with only the needed correspondence relations. Each claimed view needs its own `E.17.0` conformance result. Either arrangement may inform the same exact action under `C.37`; common subject identity alone neither permits co-use nor creates a multi-view family. Another action belongs in another row.
 8. **Resolve the live user-action question.** Direct claim inspection or an already matching observation may suffice for the present profile. Select a new probe only when a usability, interpretation or loss uncertainty can change the decision and its full design, reader, interpretation and displaced-Work burden is warranted and obtainable. For a selected probe, the named receiver retrieves the claim, distinguishes status or alternatives, performs the bounded action and applies its stop; report the actual result, not observed success from a plan. Return a defect to ME.8, C.37, the direct subject or receiving-result owner, ME.10, or the owning Method decision.
 
 #### ME.9:4.2 - Record the Result
@@ -2852,7 +2854,7 @@ ME.9 relates these four unresolved selections in cross-use profile `MRP-EC417-Cr
 | keep-separate decisions | The decision table, action-and-guard episteme, support-task episteme, three candidate readings, their viewpoint editions, each direct conformance judgment, and the receiving decision retain their own governors and statuses. The profile creates no integrated super-view, collection, selected structure, or new MethodDescription edition. |
 | cross-use return | A changed candidate status, source edition, B2 alternative, evidence-entry boundary, or recovery/stop claim reopens every affected row and this profile relation. A changed support task reopens the support row. The unresolved reopen row returns only when exact Work identity, the three direct `E.17.0` judgments, their claims, the A.10 disposition, and the governed receiving outcome are available; later change to any of those bases reopens it. |
 
-The project, process, and case readings in the fourth row concern one independently admitted Work, not three Work objects. Each becomes a `U.View` only through its own positive `E.17.0` judgment against an exact viewpoint edition, and co-recording them is useful only when each can change the same exact reopen decision. The profile does not make an integrated super-view.
+The fourth row deliberately asks about one completed trial, so its three proposed readings concern that independently admitted Work. This case does not select the subject of every project, process, or case account. Each becomes a `U.View` only through its own positive `E.17.0` judgment against an exact viewpoint edition, and co-recording them is useful only when each can change the same exact reopen decision. The profile does not make an integrated super-view.
 
 A timeline, dependency network, state-transition drawing, or other node-link material is a mathematical-lens result only when `C.29` identifies the formal object, mapping, preserved and lost structure, admitted use, and stop. Ordinary node-link material is not a mathematical graph by appearance or vocabulary.
 
@@ -2862,6 +2864,12 @@ In a constructed unchanged-use case, a method engineer relates an existing actio
 
 Now a proposed shorter preparation representation omits an uncommon stop. A fresh user's wrong action under that condition would materially change the choice. Suppose a capable receiver, permitted material and a protected preparation window make the discriminating task worth its whole burden: select that task and obtain its actual answer before claiming observed usability. If the task is unavailable, the omission can still be rejected by direct content inspection; neither the attractive layout nor the study plan establishes safe user performance.
 
+#### ME.9:5.2 - One decision with accounts of different subjects
+
+Suppose the engineer now asks whether a signed-pinout discrepancy requires revising the candidate's evidence-entry guard before another trial. Three available accounts concern different subjects: the WorkPlan states when signed evidence is required; the candidate Method account states the proposed guard; the trial account states which pinout edition was actually used in `W-EC417-B2-1`. Keep those subjects and statuses. In this constructed case, the naming scheme defines how each account identifies the required H-17 pinout input. Recover whether the planned evidence requirement, candidate guard, and trial input record refer to that same required input, while preserving any different revision values. Carry their claims into this decision's C.37 selection only with the supported correspondences.
+
+When those correspondences and the applicable reliance and receiving result are supported, the three accounts can inform this one decision without becoming views of one entity. The selection answers which claims may be used; the governing Method decision still determines whether to revise the guard. If the trial's pinout edition is unknown, return that missing fact and leave the affected comparison unresolved. If the mapping from the observed input to the guard is unknown, return that correspondence question. Neither gap makes the WorkPlan into performed Work or requires a new project/process/case relation definition. The existing accounts remain usable for questions whose premises are still supported.
+
 ### ME.9:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -2869,7 +2877,7 @@ Now a proposed shorter preparation representation omits an uncommon stop. A fres
 | artifact-as-Method bias | A diagram or playbook becomes the Method itself. | Return every row to the admitted Method or candidate account and current description edition. |
 | use-boundary collapse | One selection is reused for another action because the user, carrier, or Method is unchanged. | Give every receiver/action pair one complete embedded C.37 claim group and another row for another action. |
 | layer borrowing | Publication, provenance, evidence classification, or profile membership is treated as reliance or permission. | Keep direct subject result, optional A.2.4 classification, material A.10 reliance, and receiving result separately recoverable. |
-| viewpoint reification | Project, process, and case become three different Work objects. | Hold one admitted Work and one exact action fixed; apply each viewpoint conformance separately. |
+| viewpoint reification | A management label creates a Work or forces different direct subjects into one Work. | Recover each subject under A.15.6; apply each claimed view's conformance separately and complete the same-action selection under C.37. |
 | plan-as-work bias | A representation of intended enactment is reported as performed Work. | Preserve WorkPlan status and return the failed or absent Work-dependent result. |
 | graph metaphor bias | Any connected Method material is called a graph. | Reserve mathematical graph claims for an actual `C.29` result; call ordinary material a diagram, table, map, or other direct kind. |
 | integrated-view bias | Profile colocation creates one authoritative super-view or new MethodDescription edition. | Keep rows separate and change the edition, collection, structure, or view only through its direct owner. |
@@ -2882,7 +2890,7 @@ Now a proposed shorter preparation representation omits an uncommon stop. A fres
 - [ ] A later use that needs retention can recover the complete selection basis once in its owning result; an immediate sufficient answer requires no new record or omission certificate.
 - [ ] Each representation kind is established by its direct FPF governor rather than by layout, title, carrier, or profile membership.
 - [ ] Method, candidate account, MethodDescription, WorkPlan, Work, representation, view, publication, carrier, reliance, receiving result, and selected structure remain distinct.
-- [ ] Project, process, and case candidates concern the same independently admitted Work and are co-recorded only when each can change the same exact action.
+- [ ] Project, process, and case accounts retain their recovered direct subjects; co-use for one exact action has its own complete C.37 basis, and every claimed view has its own conformance result.
 - [ ] A mathematical-lens claim states the formal object, correspondence, intended use, and loss boundary under `C.29`; ordinary node-link material is not called a mathematical graph.
 - [ ] Failed or missing direct results return the lower episteme and named gap rather than borrowing support from another layer.
 - [ ] Current adequacy may be established by direct inspection or matching prior observations. A new user-action probe is selected only for a useful attainable question worth its whole burden; a claimed observed success or failure has its actual evidence and no wider capability, enactment, fit, transfer, worth or authority claim.
@@ -2893,7 +2901,7 @@ Now a proposed shorter preparation representation omits an uncommon stop. A fres
 | --- | --- |
 | “This diagram is the Method.” | Name the Method or candidate account, current description edition, direct subject result, exact claim, and use boundary. |
 | “Everyone should use the canonical process map.” | Make another row for every receiver/action pair and expose only its required Method claims and stops. |
-| “The project, process, and case views show different Work.” | Apply their viewpoint criteria to one admitted Work and co-record them only for the same exact action. |
+| “Every project, process, and case account must be a view of one Work.” | Recover each direct subject first. Preserve one admitted Work where the claims concern it; keep unlike subjects and their needed correspondences explicit. |
 | “The current publication proves this row may be used.” | Record publication as auxiliary fact; require the direct subject, reliance when material, and receiving results. |
 | “The planned trial is already visible as performed process Work.” | Retain a WorkPlan representation until Work exists and satisfies the direct view or Work criterion. |
 | “Combine all views into one Method structure.” | Keep rows separate unless direct composition and `A.22` selection-use results independently obtain. |
@@ -2911,7 +2919,7 @@ MethodDescriptions combine action, purpose, inputs and results, variation, evide
 
 ### ME.9:11 - SoTA-Echoing
 
-Project, process and case management can produce views of the same Method-related Work from different viewpoints. Each view must satisfy its own viewpoint; select its claims for the named action. The different views do not establish three Methods.
+Project, process and case management can raise questions about one Method-related Work or about different direct subjects. Apply `A.15.6` before selecting a viewpoint, then test each claimed view and select its claims for the named action. The management labels establish neither common subject identity nor three Methods.
 
 | Source | Adopted or adapted contribution | Boundary and practitioner implication |
 | --- | --- | --- |
@@ -2920,14 +2928,14 @@ Project, process and case management can produce views of the same Method-relate
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Adopt representation, intended use, tool, and adaptation as distinct Method questions. | A tool or representation does not become the Method or evidence of enactment. The EC-417 profile keeps these claims separate. |
 | FPF `C.37`, `C.2.1`, `E.17.0`, `C.29`, `E.24.PUB`, `A.22`, and `C.13` in this edition's named dependency state | Reuse use-bounded representation selection, episteme, view, mathematical-lens, publication, structure, and collection results. | These patterns retain authority over common representation kinds, use-bounded claim groups, reliance and receiving-result separation, and direct predicates. ME.9 contributes only the MethodDescription/candidate-account profile, cross-use relations, Method-specific omissions, and return paths. |
 
-Reopen when a representative Method user cannot perform the named action without hidden reconstruction; when a Method-content role or MethodDescription practice changes the profile action; when project, process, and case criteria cease to preserve one Work; when a row no longer carries the complete current C.37 claim group; or when the FPF dependency state changes the consumed representation-selection result.
+Reopen when a representative Method user cannot perform the named action without hidden reconstruction; when a Method-content role or MethodDescription practice changes the profile action; when a supporting account's direct subject or needed correspondence changes; when a row no longer carries the complete current C.37 claim group; or when the FPF dependency state changes the consumed representation-selection result.
 
 ### ME.9:12 - Relations
 
 - ME.8 supplies the current MethodDescription or candidate-account claims and their use boundary; ME.9 relates complete use-bounded representation rows to the Method-specific uses that consume them.
 - `C.37` governs one receiver/action selection, direct-result and reliance layers, exposure and loss, disposition, co-use, return and use-needed retention. ME.9 adds the cross-use Method profile and retains complete group content where that later use needs it.
 - `C.2.1` identifies claim-bearing epistemes; `E.17.0` governs viewpoint conformance; `C.29` governs mathematical-lens use; `E.24.PUB` governs publication; `A.22` governs selected structures; `C.13` governs material collection treatment. ME.9 cannot borrow one result from another.
-- `A.15.2` governs WorkPlan and `A.15.1` governs performed Work. A Method representation may rely on either as a supporting subject without changing its status or making ME.9 their general representation owner.
+- `A.15.6` recovers the direct subject from management wording; `A.15.2` governs WorkPlan and `A.15.1` governs performed Work. A Method representation may rely on either as a supporting subject without changing its status or making ME.9 their general representation owner.
 - `C.11.DUA` appraises a questionable user-study demand, including design, obtainable contribution and whole burden.
 - ME.10 takes the direct exit when one owning result already supplies the complete one-result/one-use answer. It consumes ME.9 only when unlike Method actions need the cross-use profile; no second standalone C.37 copy is required.
 
@@ -2999,7 +3007,7 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 - the source returns needed to support or correct it; and
 - the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
 
-When the question is how much selected structure the reader can extract, use [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+When the question is how much selected structure the reader can extract, use [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
 Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 
@@ -3110,7 +3118,7 @@ The serious cheaper alternative is direct claim inspection plus the existing rep
 
 ### ME.22:End
 
-## ME.10 - Build a Method Base and Enactment-Support Arrangement
+## ME.10 - Configure an Enactment-Support Arrangement, Adding a Method Base When Needed
 
 >
 > **Primary working result:** a tested configuration that covers a bounded set of named-user tasks, or a truthful lower result: several retained candidates, a stated split boundary, or a missing priority or test. Method material, user Systems, participating Systems, relations, Work, results, and gaps remain separate. An A.22 selected structure is returned only when its independent selection-use basis exists.
@@ -3817,7 +3825,7 @@ Reopen the pattern when practitioners cannot identify one maintained owner witho
 
 ### ME.12:End
 
-## ME.13 - Validate Situational Fit and Transfer
+## ME.13 - Validate a Method's Situational Fit and Transfer
 
 >
 > **Primary working result:** a bounded fit, failure, applicability, transfer, or missing-evidence result for an admitted Method; or bounded situation evidence about a candidate proposal whose status remains unchanged. A change in reusable Method semantics returns a variant question instead of being hidden inside a transfer claim.
@@ -4006,7 +4014,7 @@ Reopen the pattern when a stronger field method changes which situation dimensio
 
 ### ME.13:End
 
-## ME.14 - Evaluate Practical Worth Against Current Alternatives
+## ME.14 - Evaluate a Method's Practical Worth Against Current Alternatives
 
 >
 > **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves, creates, or changes and the qualification window. A bounded `XRI-14` evidence result may enter `SYSE.15` without transferring this decision or a broader claim.
@@ -4439,7 +4447,7 @@ Reopen the pattern when practitioners cannot distinguish reusable semantic chang
 
 ### ME.15:End
 
-## ME.16 - Introduce, Observe, and Revise a Method in Practice
+## ME.16 - Introduce a Method into Practice and Decide What to Keep or Change
 
 >
 > **Primary working result:** an introduction account that identifies each changed subject and keeps its kind explicit. It records the introduction strategy and its status, separately identified candidate accounts and descriptions, and any WorkPlan. It distinguishes admitted introduction Work from admitted later Work; both enact only independently admitted Methods. The account names assignment, permission, authority, access, use, enactment, and other direct-relation predicates, participants, and relied-on occurrences. It also contains decision-relevant observation positions, separate target and strategy adaptation records, an optional C.28-governed causal-use result, and one bounded `keep`, `revise`, `branch`, `replace`, or `stop` decision, or a retained set with its limitation.
@@ -4918,7 +4926,7 @@ Reopen the pattern when a field case supplies decision-changing evidence for ano
 
 # Part VI - Pattern-Language Production and Situated Use
 
-## ME.21 - Reconcile and Allocate Source Contributions after Exact Subtraction
+## ME.21 - Reconcile and Allocate Source Contributions for Method Use
 
 
 ### ME.21:1 - Problem frame
@@ -5072,7 +5080,7 @@ The professional allocation is a local synthesis, not a claim of priority over S
 
 ### ME.21:End
 
-## ME.23 - Architect a Problem-First MethodDescription Pattern Language
+## ME.23 - Choose Whether and How to Build a Problem-First MethodDescription Pattern Language
 
 
 ### ME.23:1 - Problem frame
@@ -5148,7 +5156,7 @@ When the promised use includes performing or learning a Method, show its relevan
 
 Use all twelve substantive E.8 functions for the connected account: working situation, problem, forces, selected solution, grounding, bias, practical checks, recurring failure, consequences, Architectural Rationale, source comparison and relations. E.11.PFP governs where readers reach those answers. An inherited answer can be cited precisely; shared whole conditions and profile-specific consequences still need an explanation.
 
-If a language is claimed to expose more structure to its reader, use ME.22 with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
+If a language is claimed to expose more structure to its reader, use ME.22 with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
 
 Distinguish relations across scales. A specialization narrows conditions while retaining the relevant general claims. A bounded-use projection selects claims for a reader. Reuse can connect several profiles. Method composition establishes actual parts. A publication group provides navigation. There is no fixed maximum number of scales, and overlap does not establish a mathematical lattice; use C.29 only for that qualified representation.
 
@@ -5233,7 +5241,7 @@ Against the cheaper direct description in the worked case, the language adds ind
 
 ### ME.23:End
 
-## ME.24 - Falsify and Refresh Source-to-Pattern Coverage by Reconstruction
+## ME.24 - Test and Refresh Method-Source Coverage by Reconstruction from Patterns
 
 
 ### ME.24:1 - Problem frame
@@ -5622,21 +5630,21 @@ The first move is to name the receiving result and ask which result is needed no
 
 EC-417 continues beyond the early returns because evidence timing, Method relations, allocation, support, authority, and recovery burden jointly change the release decision. All identifiers, dates, observations, capacities, and outcomes below are scenario assumptions for this worked decision.
 
-### 1. Bound the EC-417 receiving result and three viewpoint-governed readings of one Work
+### 1. Bound the EC-417 receiving result and recover the subjects of its management accounts
 
 The project must release engineering change `EC-417`: controller firmware `4.8` together with harness revision `H-17`. The receiving result is one released controller change whose affected safety requirements, implementation revisions, supplier pinout, verification results, evidence status, and release authority are traceable.
 
 The release is day `D0`. The target software-integration slot is `D-21`; signed supplier pinout is expected at `D-8`; software remains reversible until `D-1`. An AI provider may propose requirement-to-test links. It has no release authority and cannot receive confidential supplier geometry.
 
-Project, process, and case readings are intended to describe the same release Work. A current episteme counts as a view only after a separate `E.17.0` judgment against an exact viewpoint edition:
+The project, process, and case questions here concern different subjects. Use the claims below before choosing a representation; a `U.View` claim additionally needs its own positive `E.17.0` judgment against an exact viewpoint edition:
 
-| Intended viewpoint | Candidate description would expose | Boundary |
+| Management question | Direct subject and claim | Boundary |
 | --- | --- | --- |
-| project | dates, allocations, boards, authorities, and release slots | schedules do not create a Method or a second Work |
-| process | recurring supplier-evidence, integration-bundle, verification, and authorization correspondences | recurrence does not identify one process-Method or composite whole |
-| case | the changing evidence, mismatch, exception, and next decision of this release | the case description is neither the Work nor a Method |
+| project scheduling | the release WorkPlan states intended dates, allocations, boards, authority needs, and release slots | a planned slot establishes neither performed Work nor actual authority |
+| recurring checks and approvals | the identified Methods and candidate accounts in section 2 state reusable supplier-evidence, integration, verification, and authorization contributions | each keeps its own subject and status; co-use creates no composite Method |
+| closure of the evidence question | the claim to settle is whether the signed pinout and the version used in integration satisfy this release's evidence condition | the case record establishes neither criterion satisfaction nor the release decision |
 
-The three readings expose different Method and support questions. This application reports none of their epistemes as a current `U.View` until the exact candidate episteme, viewpoint edition, fixed rules, and positive `E.17.0` judgment are available. Any Method, relation, capability, allocation, or authority claim still needs its own identity or evidence.
+These accounts expose connected Method and support questions without sharing one EntityOfConcern. Their correspondence must be recovered wherever the release decision uses it: the signed-evidence date, reusable guard, and claim about the evidence actually used answer different questions. This application does not assert their viewpoint conformance, actual performance, or acceptance from their labels. Later, the completed-trial reading in ME.9 may concern one independently admitted Work; that bounded use does not change the subjects above.
 
 ### 2. Choose the subject before redesigning it
 
@@ -5950,8 +5958,8 @@ the surrounding language separates source allocation, coherence checking and rec
 three entries become one review procedure? This is a constructed comparison. The engineer knows ordinary
 procedures and can consult the complete framework, but has no private authoring notes.
 
-Use [ME.8](#me8---author-a-methoddescription-for-named-uses) for the claims describing the checking Method.
-[ME.23](#me23---architect-a-problem-first-methoddescription-pattern-language) supplies the different answer
+Use [ME.8](#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses) for the claims describing the checking Method.
+[ME.23](#me23---choose-whether-and-how-to-build-a-problem-first-methoddescription-pattern-language) supplies the different answer
 about the language arrangement: its entries serve independent questions, with different useful results and
 source returns. The existing arrangement is candidate A. The author proposes a shorter paragraph, B, and a
 table, C, for the same receiving question.
@@ -6035,7 +6043,7 @@ Refresh only the affected pattern when a governing FPF distinction changes, a di
 
 **Bounded dependency migration — ME.2 currentness.** For ME.2's G.11 use, this edition selects the currentness result in [FPF's September 2026 use-specific assurance and currentness edition](https://github.com/ailev/FPF), `FPF@2026-09-07-EA03-ASSURANCE-CURRENTNESS`. It replaces the 2026-09-05 G.11 basis only for ME.2's repertoire-currentness question: continued applicability can be sufficient without refresh Work or a waiver; changed relied-on premises reopen the affected use, and actual evidence, permission and qualification windows remain binding. The repository is the discovery route to that supplying edition and G.11, not permission to substitute a later revision. ME.2's G.2/G.5 uses, C.37 and all other unaffected FPF dependencies retain the basis stated above. FPF remains external. Reopen this dependency only when the supplied G.11 result or ME.2's receiving claim, conditions or use changes.
 
-**Bounded dependency — description structure in ME.22/.23.** These two methods select [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) from the September 2026 FPF publication of 9 September 2026 when the comparison concerns selected structure a reader can extract from a method account or pattern-language explanation. C.2.8 governs the expressed episteme, expressing publication form and reader or observer, qualified by the comparison conditions and its own scale. ME.22 retains the smallest content/form contrasts and actual evidence; ME.23 retains the direct-description or smaller-language alternative. Extraction effort, receiving usefulness and Method effectiveness remain separate questions. Other dependencies retain their stated basis. Reopen this bounded dependency when the supplied characteristic or its receiving comparison changes.
+**Bounded dependency — description structure in ME.22/.23.** These two methods select [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) from the September 2026 FPF publication of 9 September 2026 when the comparison concerns selected structure a reader can extract from a method account or pattern-language explanation. C.2.8 governs the expressed episteme, expressing publication form and reader or observer, qualified by the comparison conditions and its own scale. ME.22 retains the smallest content/form contrasts and actual evidence; ME.23 retains the direct-description or smaller-language alternative. Extraction effort, receiving usefulness and Method effectiveness remain separate questions. Other dependencies retain their stated basis. Reopen this bounded dependency when the supplied characteristic or its receiving comparison changes.
 
 **Mathematical-method contributions in ME.6.MC and ME.25.** These two additions select [this FPF source edition](https://github.com/ailev/FPF/blob/b8d6d845ba50ef52c233b8188f0e94b6368a80f7/FPF-Spec.md) for their FPF dependencies. C.29 and its refinements supply mathematical correspondence, transfer, computational formulation and realization; C.11.DUA appraises attainable further inquiry; C.11/C.11.CRC, C.18 and E.22/E.23 supply choice, contribution comparison, retained alternatives and improvement. Unaffected ME bodies retain the earlier dependency selections. MATH.17/.18 supply operations on operations and their interpretations, and CMP.14 supplies interacting computations, through the linked Foundational Thinking publications. Their mathematical results remain conditional on the model's correspondence to the work. A change to an operation or condition on which the comparison or transformation relies reopens that use; it does not reopen unaffected Method Engineering results.
 

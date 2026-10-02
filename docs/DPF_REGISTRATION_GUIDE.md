@@ -215,8 +215,8 @@ direct owner. Нет пятиэтапного DPF lifecycle и отдельно�
 
 ## Известные ограничения локальной beta configuration
 
-- Четыре external source copies имеют user-reported свободное распространение;
-  подтверждение автора ещё pending. MIT runtime не подменяет его условия.
+- Двенадцать авторских DPF имеют закреплённый CC BY 4.0 source basis в
+  frameworks/dpf/NOTICE.md. MIT runtime не подменяет условия исходных текстов.
 - SDLC 0.1.0 — experimental source с ограниченной авторской оценкой; полная
   formal qualification и broad operational usefulness не установлены.
 - Byte-preserved SDLC reference tail содержит исходные абсолютные project
