@@ -205,11 +205,11 @@ Engineer. Автоматическую проверку доступности �
 
 ## Методические основания
 
-[EXD.1, EXD.3, EXD.6](../../frameworks/dpf/explanation-design/2026-09-20-rev-d4f6b0ba/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md)
+[EXD.1, EXD.3, EXD.6](../../frameworks/dpf/explanation-design/2026-09-20-rev-9e1c4834/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md)
 задают вопрос получателя, достаточную форму и проверку полезности;
-[PSD.13–14](../../frameworks/dpf/problem-structuring-decision-support/2026-09-26-rev-d4f6b0ba/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md)
+[PSD.13–14](../../frameworks/dpf/problem-structuring-decision-support/2026-09-26-rev-9e1c4834/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md)
 различают рекомендацию, решение и последствия;
-[OPS.4/8/12](../../frameworks/dpf/operations-management/2026-10-02-rev-d4f6b0ba/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
+[OPS.4/8/12](../../frameworks/dpf/operations-management/2026-10-02-rev-9e1c4834/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
 связывают своевременность с пригодным handoff и нагрузкой участников.
 Вклад внешних рекомендаций и границы — в [source-use note](../../docs/HUMAN_AI_SOURCE_CONTRIBUTIONS.md).
 

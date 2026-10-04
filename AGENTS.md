@@ -10,10 +10,10 @@
 >
 > Могу также ответить на вопросы о работе iEWR.
 
-Статус: iEWR 5.5.8 Beta — подготовлен к публикации по прямому поручению Human.
-Основа — опубликованный exact ZIP iEWR 5.5.7 Beta. Пределы проверок и статус
+Статус: iEWR 5.6.0 Beta — публикация как Latest прямо поручена Human.
+Основа — сохранённый exact ZIP iEWR 5.5.8 Beta. Пределы проверок и статус
 зафиксированного экземпляра указаны в BASELINE_STATUS.md; distribution_ready=false.
-Human–AI инструкции, тринадцать DPF и миграция внешних источников не расширяют
+Human–AI инструкции, четырнадцать DPF и опциональное подключение FPF не расширяют
 полномочия, Core semantics или фактические технические возможности host.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
 
@@ -28,6 +28,12 @@ Direct Human decisions и policy сохраняют свои scope; этот dis
 соразмерно текущему вопросу; это не включает поддержку саморазвития.
 Для отдельной подачи ситуации, изменения, плана, проверки или результата —
 [Human Views](modules/interaction/HUMAN_VIEWS.md); достаточный разговор первичен.
+S3 — совместное мышление, S4 — делегированная работа, включая анализ. Выбирать
+по ближайшему действию, действующим основаниям и желаемому участию человека.
+Метки `S3 ·` / `S4 ·` при существенном переходе явно называют режим, причину
+и следующий шаг, не создают
+разрешение. Технический blocker не означает S3; обсуждение не разрешает реализацию.
+Полные условия и примеры — I interaction, без обязательного переключателя/record.
 При предъявлении готового результата специалисту на утверждение, согласование
 или приёмку одновременно подготовить переносимый Decision View с материалами
 без напоминания. Основание самого решения остаётся у G; явный выбор Human иной
@@ -103,10 +109,15 @@ records single-writer, нет общего RuntimeState/authority registry. Allo
 
 FPF — semantic authority; [Core Contract 1.0 RC](docs/EWR_CORE_ARCHITECTURE_CONTRACT.md)
 сохраняет governing status. DPF/LPF bounded external sources; directory order не
-precedence. Для ordinary work не требовать, скачивать, копировать или полностью
-читать FPF-Spec, в том числе частями/делегированием. Primary source development/
-audit требует separate explicit question/source/effect scope; full text отдельно.
-См. S guidance; policy declared, не host control.
+precedence. Оригинальный FPF не поставляется и по умолчанию не используется.
+Пользователь намеренно подключает ручную копию либо поручает скачивание;
+после подключения AI самостоятельно выбирает полезное применение в его scope,
+без новой просьбы на каждый раздел/задачу. Случайная копия не активирует источник.
+Правила подключения и достаточного чтения — [S](modules/sources/GUIDANCE.md)
+и [FPF guide](docs/FPF_CONNECTION_GUIDE.md). USING-FPF.md не runtime инструкция.
+Полное чтение, в том числе обходом частями/делегированием, не обычный шаг;
+для него нужен отдельный явный scope. Primary development/audit тоже требует
+собственного предмета; подключение не расширяет Core или authority.
 
 При formal Work claim строго `A.13 → independent full A.15.1 → conditional F.6`.
 Admitted actual performer/assignment, grounded performance/enactsMethod/temporal

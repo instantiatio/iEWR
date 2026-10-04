@@ -23,6 +23,7 @@ LEGACY_SCAFFOLD = (SCAFFOLD - {"project/handoff/.gitkeep"}) | {"project/referenc
 TREES = {"modules", "adapters", "app", "tools", "docs", "catalog",
          "frameworks", "templates"}
 EXTERNAL = "external-sources/external-dpf/.gitkeep"
+FPF_SCAFFOLD = "external-sources/fpf/.gitkeep"
 LEGACY_EXTERNAL = "source/external-dpf/.gitkeep"
 ROW = re.compile(r"^\|\s*`([^`]+)`\s*\|[^|]*\|\s*([a-fA-F0-9]{64})\s*\|\s*$")
 LIMIT = 32 * 1024 * 1024
@@ -45,7 +46,7 @@ def selected_path(name, *, legacy=False):
     if first == "project":
         return name in SCAFFOLD or legacy and name in LEGACY_SCAFFOLD
     if first == "external-sources":
-        return name == EXTERNAL
+        return name in {EXTERNAL, FPF_SCAFFOLD}
     if first == "source":
         return legacy and name == LEGACY_EXTERNAL
     return first in TREES or "/" not in name and not name.startswith(".")
@@ -94,7 +95,7 @@ def snapshot(root):
         raise ValueError("linked_root")
     manifest = read_file(root, "PACKAGE_MANIFEST.md")
     rows = inventory(manifest)
-    if not SCAFFOLD | {EXTERNAL, "app/bootstrap/CONFIGURATION.json"} <= rows.keys():
+    if not SCAFFOLD | {EXTERNAL, FPF_SCAFFOLD, "app/bootstrap/CONFIGURATION.json"} <= rows.keys():
         raise ValueError("missing_scaffold_or_configuration")
     payload = {name: read_file(root, name) for name in rows}
     for name, digest in rows.items():

@@ -1,36 +1,39 @@
 # Авторство и закреплённые источники DPF
 
 Copyright (c) Anatoly Levenchuk, with AI-assisted development and review.
-Двенадцать авторских DPF включены без изменения исходных bytes из commit
-`d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a` Engineering DPF Suite, проверенного 2 октября 2026.
-Авторская дата и новая локальная revision различаются: неизменная дата не
-означает неизменного текста. Даты сохранены в именах editions и реестре.
+Тринадцать авторских DPF включены без изменения исходных bytes из commit
+`9e1c48349bd0a06d8d49e2de45fbcff386d47ae5` Engineering DPF Suite, проверенного 4 октября 2026.
+Авторская дата, локальная revision и дата получения различаются; неизменная дата
+не означает неизменного текста. Для KCAE авторская дата не установлена, имя
+edition явно обозначает локальный snapshot.
 Оригинальный авторский текст: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/);
 [LICENSE](LICENSE), [условия автора](LICENSING.md). Сторонние материалы сохраняют
 свои условия. Включение не означает endorsement автора.
 
 | DPF | Авторская дата | Exact source | SHA-256 | Git blob |
 |---|---|---|---|---|
-| SYSE | 2026-09-26 | [SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md](systems-engineering/2026-09-26-rev-d4f6b0ba/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `5c1b56967dbcccc661dc6f5f66e08b8d0cfb4b09efdb81746e2fc298f1df0b8c` | `b59bdecfc350c34726da63150b01f59f3426e4cd` |
-| ME | 2026-09-20 | [METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md](method-engineering/2026-09-20-rev-d4f6b0ba/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `a8ff7752aea1caaef97e8c493ea496b10ae4533dda3641a7e8a25cc9a9a5d66b` | `369acad78d6b39dc834d224bb3345c2dfa192c68` |
-| OCE | 2026-09-20 | [ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md](organization-change-engineering/2026-09-20-rev-d4f6b0ba/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `9c1e264633d3fce1e68080cc62a6f8cd5c6efffce9cd18d038b3bf7fe79b0eea` | `ce99e8aab9133a700ddd76801a79fc4e4a128f19` |
-| PSD | 2026-09-26 | [PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md](problem-structuring-decision-support/2026-09-26-rev-d4f6b0ba/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) | `9b83c98e5a4d8a6a22ccbf6eb3bbabc74a497afbaa36cf6a00936fc6136f8af9` | `8e2ec228af47ed495a529242e6c08558dee834ce` |
-| OPS | 2026-10-02 | [OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md](operations-management/2026-10-02-rev-d4f6b0ba/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | `0ff767e3cc8efaf526dd7f3395f8089a6600517a62f8733bf78567e2742feb9c` | `8b966540ab10f3454ae216c76138670a71971dc2` |
-| EXD | 2026-09-20 | [EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md](explanation-design/2026-09-20-rev-d4f6b0ba/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | `edc1f2664b6b320bba2ff65b402ea22027ed5b0e24fc73846ed47b9818ef9a3a` | `c7d640cd80bff153960faa6ba4d569de75571d0f` |
-| ADM | 2026-09-20 | [ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md](organization-administration/2026-09-20-rev-d4f6b0ba/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | `619bccda20ac33c7c437a2d872e098b2d273961ba81e252d6e3a64dea3250ff6` | `ea186fadb382cec4f262f634422502282a50293d` |
-| RMP | 2026-09-27 | [RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md](research-method-practice/2026-09-27-rev-d4f6b0ba/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | `b5feb3d87b288f9bce8796500cd9edb015ab4f9c37bc6c9e159c5118c2e08078` | `9033698422a0ea6f475850287408177de9e91514` |
-| SIE | 2026-09-20 | [SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md](semantic-integration-engineering/2026-09-20-rev-d4f6b0ba/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `27e5f27ea5c8426787c2ab13baf7922ec95f251103dc3cc72a3eb24efbba0fa7` | `ba79d6d81c0c8f10a1ceb946923d89f2074dbd5b` |
-| STR | 2026-09-20 | [STRATEGY-PRINCIPLES-FRAMEWORK.md](strategy/2026-09-20-rev-d4f6b0ba/STRATEGY-PRINCIPLES-FRAMEWORK.md) | `f26c21231c5d430f9c4d12adaa4061bcab8afd31056a672cbac81dd463585f8c` | `3f7bbea467c76b7fd49a72cd2d8ed80c1f30ee8b` |
-| DOCA | 2026-09-20 | [DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md](development-opportunity-construction/2026-09-20-rev-d4f6b0ba/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) | `a24ff77aa509186b67cab21be2aad78daf2940b1fbb52a8c5e1001feeb567349` | `1774505316794761a688542c60095ca6449fff52` |
-| CHK | 2026-09-25 | [CHECKLIST-PRINCIPLES-FRAMEWORK.md](checklist/2026-09-25-rev-d4f6b0ba/CHECKLIST-PRINCIPLES-FRAMEWORK.md) | `8ff96f2e29d9fa50f3660fd99f6f95c502df878ba187eae86c2a5fed060b7442` | `c327288f8e2da92a2bc31badf639e45b7c325e92` |
+| SYSE | 2026-10-03 | [SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md](systems-engineering/2026-10-03-rev-9e1c4834/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `b0d0698eabc54da9b444195aac110484c7b08de923b8d0e9117efd8367140f38` | `69477d90ffa98b1bae02b018d3d26538744d1e7e` |
+| ME | 2026-09-20 | [METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md](method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6` | `22d31cc1731907b2e294b79b90a30ce4b7f00cfa` |
+| OCE | 2026-10-03 | [ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md](organization-change-engineering/2026-10-03-rev-9e1c4834/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `fc4994ff19de7fa86743f10af355de45bb4622090258b3c5d8e123e24d8708ce` | `ab78c7ce032ca8a4dc8c1ec51611abe9d2bae52e` |
+| PSD | 2026-09-26 | [PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md](problem-structuring-decision-support/2026-09-26-rev-9e1c4834/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) | `ab7a8369b38086bc08acd0aad5157325ef07eeda2f8b9b4a10f9e85f3e08b4fa` | `530f1b85b151c006500cc8fee58b122b79dd1d61` |
+| OPS | 2026-10-02 | [OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md](operations-management/2026-10-02-rev-9e1c4834/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | `c89531b2727190602fe4c61dbebf817e1ffb47a81135b36427ca00d635cbd390` | `c8458c847e843be92e6c97cb14e9add1a94a6daa` |
+| EXD | 2026-09-20 | [EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md](explanation-design/2026-09-20-rev-9e1c4834/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | `db4111b53650e22c73eee9e4999e7860873f61a2c362a76e1493ca7d290fd929` | `df910c1427acdfa76f183d181f4ee736d8456be5` |
+| ADM | 2026-09-20 | [ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md](organization-administration/2026-09-20-rev-9e1c4834/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | `917ddcfad30b96319956c8bdae58a5df18e6c64d34cf62953ac7f2df9678fa96` | `fff638a3b4410507bc6263639a6726758975562b` |
+| RMP | 2026-10-04 | [RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md](research-method-practice/2026-10-04-rev-9e1c4834/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | `5c4e9a9077cf5ffabcb87517901982c39b9c1419937ef24c027bb37b23e30df3` | `6595b973f15d5aed28284ccf96964fa6889ad39d` |
+| SIE | 2026-09-20 | [SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md](semantic-integration-engineering/2026-09-20-rev-9e1c4834/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `a16e8b39298dbd8b00175684260ba012ef18c9d4de59fc8717e8f7c313ba7889` | `6662bfd12bd888b49ca51eb4266a9b6fdf753672` |
+| STR | 2026-09-20 | [STRATEGY-PRINCIPLES-FRAMEWORK.md](strategy/2026-09-20-rev-9e1c4834/STRATEGY-PRINCIPLES-FRAMEWORK.md) | `761bf91eedeb0ee79f247d620411989586661387790e7d52a4d34958bfc18977` | `d734e88f535fbb90606006d4e3a06afa4c457c47` |
+| DOCA | 2026-09-20 | [DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md](development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) | `a0fe9a5fe0564c0b223cff8ac3bcf99828cbeef7e4e9c57919a05a34fd2afb61` | `96047a5b3e9bafcda0423e1e97ac0fa1deeeb88f` |
+| CHK | 2026-09-25 | [CHECKLIST-PRINCIPLES-FRAMEWORK.md](checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md) | `503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679` | `c000ac68f175b8c683f3cb3c5af6b38346dc52f7` |
+| KCAE | не установлена | [KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md](knowledge-corpus-access-engineering/snapshot-2026-10-04-rev-9e1c4834/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `9d47ff7f0ffa2c00df03cf4a4fdf2fc2d8ef7f0a6e8701fed1eb6fb481fb05cc` | `07372129bfa31ef2c72edad3c164aedd573b73d5` |
 
 SDLC 0.1.0 сохранён без изменения и не перелицензирован upstream grant.
-Прежние editions доступны в исходном ZIP 5.5.7 и истории Git; новые источники
-не переписывают прежние действия, разрешения или свидетельства.
+Прежние editions и bindings сохраняются в исходном ZIP iEWR 5.5.8 Beta и
+материалах этой доработки вне поставки. Новые источники не переписывают прежние
+действия, разрешения или свидетельства. При переходе сохраняйте прежний ZIP.
 Авторские cross-publication ссылки сохраняют upstream base из publication_locator
 в [REPERTOIRE.yaml](REPERTOIRE.yaml). Для локального входа используйте
-[единый указатель](../../catalog/dpf/METHODS.md). Нужный внешний источник не
-загружается автоматически; FPF-Spec не входит в комплект.
+[единый указатель](../../catalog/dpf/METHODS.md). FPF-Spec не входит в комплект;
+его намеренное подключение описано в [руководстве](../../docs/FPF_CONNECTION_GUIDE.md).
 Лицензирование, наличие, применение, квалификация и публикация различаются.
-Ограничение distribution_ready=false связано с сохранённым статусом локального
-SDLC; оно не является заявлением об отсутствии текущего прямого поручения публикации.
+`distribution_ready=false` сохраняет статус локального экспериментального SDLC;
+публикация новой поставки не поручена.
