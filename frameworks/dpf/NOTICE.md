@@ -26,7 +26,7 @@ edition явно обозначает локальный snapshot.
 | CHK | 2026-09-25 | [CHECKLIST-PRINCIPLES-FRAMEWORK.md](checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md) | `503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679` | `c000ac68f175b8c683f3cb3c5af6b38346dc52f7` |
 | KCAE | не установлена | [KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md](knowledge-corpus-access-engineering/snapshot-2026-10-04-rev-9e1c4834/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `9d47ff7f0ffa2c00df03cf4a4fdf2fc2d8ef7f0a6e8701fed1eb6fb481fb05cc` | `07372129bfa31ef2c72edad3c164aedd573b73d5` |
 
-Активный программный базис заменён на [Instantiatio SDLC DPF 0.2.2](instantiatio-sdlc/README.md) по прямому поручению Human включить и опубликовать его в iEWR 5.6.1. Авторский комплект сохранён побайтно, статус кандидата не повышен. SDLC 0.1.0 остаётся историческим источником без изменения и не перелицензирован upstream grant.
+Активный программный базис заменён на [Instantiatio SDLC DPF 0.2.2](instantiatio-sdlc/0.2.2/README.md) по прямому поручению Human включить и опубликовать его в iEWR 5.6.1. В iEWR 5.6.2 включена только текущая редакция с переименованным основным файлом и переносимыми указателями истории; 18 тел методов сохранены побайтно. Старый SDLC, прежние редакции и ревью находятся вне поставки. Статус кандидата не повышен; исходная атрибуция сохранена.
 Прежние editions и bindings сохраняются в исходном ZIP iEWR 5.5.8 Beta и
 материалах этой доработки вне поставки. Новые источники не переписывают прежние
 действия, разрешения или свидетельства. При переходе сохраняйте прежний ZIP.

@@ -221,44 +221,28 @@ FPF этим индексом не устанавливается.
 
 ## ISDLC
 
-Источник: [Instantiatio SDLC DPF](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md). Редакция `0.2.2`; SHA-256 `46e5b1e7a12fd296846e7050f11b126fae7fc6ba38c9b580e4ce407842161195`. Авторский кандидат. 18 полных методов; прежний SDLC не требуется для их применения.
+Источник: [Instantiatio SDLC DPF](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md). Авторская редакция `0.2.2`, привязка комплектации `0.2.2-package-5.6.2`; SHA-256 `7669b7b8903c36ab9bdef5f723c60077bd92b84cd9471be53e5b97e0860e548a`. Авторский кандидат. 18 полных методов; прежний SDLC не требуется для их применения.
 
 | Метод | Авторское название / вопрос | Полный раздел |
 |---|---|---|
-| ISDLC.1 | Определить проверяемый результат изменения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-1) |
-| ISDLC.2 | Выбрать качество и шаг по существенному риску | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-2) |
-| ISDLC.3 | Выбрать границы и форму программного решения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-3) |
-| ISDLC.4 | Спроектировать данные и сохраняемые инварианты | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-4) |
-| ISDLC.5 | Определить контракт взаимодействия и повторов | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-5) |
-| ISDLC.6 | Спроектировать взаимодействие и выбрать интерфейсную основу | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-6) |
-| ISDLC.7 | Установить владение клиентским состоянием | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-7) |
-| ISDLC.8 | Связать угрозы с требованиями и проверками | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-8) |
-| ISDLC.9 | Выбрать совместимый и сопровождаемый состав | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-9) |
-| ISDLC.10 | Согласовать вертикальный срез изменения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-10) |
-| ISDLC.15 | Восстановить путь нужного поведения в коде | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-15) |
-| ISDLC.16 | Выполнить согласованную правку кода | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-16) |
-| ISDLC.17 | Различить гипотезы о дефекте | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-17) |
-| ISDLC.18 | Изменить структуру кода с сохранением поведения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-18) |
-| ISDLC.11 | Проверить существенные свойства и полноту результата | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-11) |
-| ISDLC.12 | Подготовить совместимый переход и восстановление | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-12) |
-| ISDLC.13 | Наблюдать пользовательский результат и восстанавливать сервис | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-13) |
-| ISDLC.14 | Выбрать развитие, ремонт или завершение использования | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/DPF.md#isdlc-14) |
-
-<a id="sdlc"></a>
-## SDLC — исторические адреса
-
-Источник прежних привязок; не активная базовая рекомендация. SDLC.1–4 соответствуют по предмету ISDLC.15–18, но не являются их aliases.
-
-Источник: [Software Development Life Cycle Principles Framework (SDLC DPF)](../../frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md). Редакция `0.1.0`; SHA-256 `eb6e5b1e69ee8192fbcd73acf05bca3484ac2637f79abb810e63d06e3a25f7da`.
-
-| Метод | Авторское название / вопрос | Полный раздел |
-|---|---|---|
-| SDLC.1 | Восстановить, как нужное поведение реализовано в коде | [Исходный раздел](../../frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md#sdlc1---восстановить-как-нужное-поведение-реализовано-в-коде) |
-| SDLC.2 | Реализовать одно согласованное изменение программы | [Исходный раздел](../../frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md#sdlc2---реализовать-одно-согласованное-изменение-программы) |
-| SDLC.3 | Локализовать воспроизводимый программный дефект | [Исходный раздел](../../frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md#sdlc3---локализовать-воспроизводимый-программный-дефект) |
-| SDLC.4 | Изменить внутреннюю структуру с сохранением поведения | [Исходный раздел](../../frameworks/dpf/sdlc/0.1.0/SDLC_DPF.md#sdlc4---изменить-внутреннюю-структуру-с-сохранением-поведения) |
-
-Охват: 4 адресуемых методов; условия применения сохраняются в источнике.
+| ISDLC.1 | Определить проверяемый результат изменения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-1) |
+| ISDLC.2 | Выбрать качество и шаг по существенному риску | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-2) |
+| ISDLC.3 | Выбрать границы и форму программного решения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-3) |
+| ISDLC.4 | Спроектировать данные и сохраняемые инварианты | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-4) |
+| ISDLC.5 | Определить контракт взаимодействия и повторов | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-5) |
+| ISDLC.6 | Спроектировать взаимодействие и выбрать интерфейсную основу | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-6) |
+| ISDLC.7 | Установить владение клиентским состоянием | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-7) |
+| ISDLC.8 | Связать угрозы с требованиями и проверками | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-8) |
+| ISDLC.9 | Выбрать совместимый и сопровождаемый состав | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-9) |
+| ISDLC.10 | Согласовать вертикальный срез изменения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-10) |
+| ISDLC.15 | Восстановить путь нужного поведения в коде | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-15) |
+| ISDLC.16 | Выполнить согласованную правку кода | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-16) |
+| ISDLC.17 | Различить гипотезы о дефекте | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-17) |
+| ISDLC.18 | Изменить структуру кода с сохранением поведения | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-18) |
+| ISDLC.11 | Проверить существенные свойства и полноту результата | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-11) |
+| ISDLC.12 | Подготовить совместимый переход и восстановление | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-12) |
+| ISDLC.13 | Наблюдать пользовательский результат и восстанавливать сервис | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-13) |
+| ISDLC.14 | Выбрать развитие, ремонт или завершение использования | [Исходный раздел](../../frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio%20SDLC%20DPF.md#isdlc-14) |
 
 
 ## EXD

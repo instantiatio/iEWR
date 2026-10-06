@@ -219,11 +219,9 @@ direct owner. Нет пятиэтапного DPF lifecycle и отдельно�
   frameworks/dpf/NOTICE.md. MIT runtime не подменяет условия исходных текстов.
 - Instantiatio SDLC DPF 0.2.2 — активный авторский кандидат; полная
   formal qualification и broad operational usefulness не установлены.
-  SDLC 0.1.0 сохранён как исторический источник прежних привязок.
-- Byte-preserved SDLC reference tail содержит исходные абсолютные project
-  evidence links. Самодостаточные pattern bodies читаются локально, но перенос
-  этих history/evidence links в другую workspace не проверен. Публичная
-  portable source publication требует отдельной обработки, не скрытого rewrite.
+  Старый SDLC и прежние редакции не входят в поставку; exact прежние bindings
+  восстанавливаются по сохранённой версии iEWR. Ссылки на историю текущего
+  ISDLC ведут к закреплённой внешней публикации.
 - Unit tests проверяют mechanical effects. Full EWR-X01…X05/domain conformance,
   actual actor authority и source applicability не следуют из их PASS.
 
