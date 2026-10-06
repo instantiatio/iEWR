@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "DPF.md": true,
+    "FORMATION.md": true,
+    "INTEGRATION.md": true,
+    "README.md": true,
+    "SOURCES.md": true,
+    "VERIFICATION.md": true
+  },
+  "changed_bodies": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "unchanged_bodies": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "identities": {
+    "project/artifacts/instantiatio-sdlc-dpf/0.1.0/DPF.md": "0526ef792996ffd5f642c228688500e77cd7250d243ef7c5446113d6bb139a29",
+    "project/artifacts/instantiatio-sdlc-dpf/0.2.0/DPF.md": "91f8dd19a338f991858a6daa1ef81e6c2d32da7f80e8ed744e52432516128156",
+    "project/artifacts/instantiatio-sdlc-dpf/0.2.0/MANIFEST.sha256": "1327ab4d34e335a21dadfdb81456bb681c15472bb0cdb72854c1094fb655c875",
+    "project/artifacts/instantiatio-sdlc-dpf/reviews/0.2.0-astra/REVIEW.md": "3bd6bb3b5dff4f240d93c9a661716eb779a7253e9733ce44f19022a144066ca8",
+    "project/artifacts/instantiatio-sdlc-dpf/0.2.1/DPF.md": "0a2c0e87d4299b8829968f5050d368eb2ae186be3b2b016eba2503ce4780f04e"
+  },
+  "size": {
+    "lines": 1306,
+    "bytes": 189194,
+    "whitespace_words": 13962
+  },
+  "local_links": {
+    "checked": 56,
+    "missing": []
+  },
+  "package_repertoire_has_isdlc": false,
+  "project_repertoire_exists": false
+}

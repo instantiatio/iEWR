@@ -10,9 +10,9 @@
 >
 > Могу также ответить на вопросы о работе iEWR.
 
-Статус: iEWR 5.6.0 Beta — публикация как Latest прямо поручена Human.
-Основа — сохранённый exact ZIP iEWR 5.5.8 Beta. Пределы проверок и статус
-зафиксированного экземпляра указаны в BASELINE_STATUS.md; distribution_ready=false.
+Статус: iEWR 5.6.1 Beta. Замена активного SDLC на Instantiatio SDLC DPF 0.2.2
+и публикация поручены Human 6 октября 2026. Основа — опубликованная iEWR 5.6.0 Beta.
+Состав и пределы проверок указаны в BASELINE_STATUS.md и VERIFICATION.md.
 Human–AI инструкции, четырнадцать DPF и опциональное подключение FPF не расширяют
 полномочия, Core semantics или фактические технические возможности host.
 Direct Human decisions и policy сохраняют свои scope; этот dispatcher их не создаёт.
