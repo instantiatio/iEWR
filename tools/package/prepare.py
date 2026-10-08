@@ -18,7 +18,8 @@ from verify_configuration import verify
 from integrity import REQUIRED_SLOTS
 
 SCAFFOLD = {"project/README.md", "project/source/.gitkeep",
-            "project/handoff/.gitkeep", "project/artifacts/.gitkeep"}
+            "project/handoff/.gitkeep", "project/artifacts/.gitkeep",
+            "project/dpf/.gitkeep"}
 LEGACY_SCAFFOLD = (SCAFFOLD - {"project/handoff/.gitkeep"}) | {"project/reference/.gitkeep"}
 TREES = {"modules", "adapters", "app", "tools", "docs", "catalog",
          "frameworks", "templates"}

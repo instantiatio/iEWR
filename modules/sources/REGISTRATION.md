@@ -30,6 +30,13 @@ OperationBasis требует `method` Binding с role `method_description`. П�
 не вводит universal semantic gate для instruction-led работы, которая допускается
 [P instructions](../../adapters/ADAPTERS.md) без обязательного JSON workflow.
 
+Для выбранного JSON consumer до вызова проверить существующий permitted
+parent `project/dpf/`; новая поставка содержит пустой каталог. В прежнем
+проекте его подготовка — отдельное разрешённое действие. Bootstrap удерживает
+вход при отсутствии parent до записи X/E intent. P отличает доказанный отказ
+до repertoire actuation от неопределённости после возможной записи; actual
+owner-record effects учитываются отдельно.
+
 E/P пишет только project/dpf/REPERTOIRE.yaml in place: source не меняется.
 Это граница repertoire operation, а не всего пользовательского поручения.
 При обычном постоянном подключении instruction-led агент дополняет один

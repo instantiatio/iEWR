@@ -77,7 +77,13 @@ anchors, tags и alternate serialization не поддерживаются ин�
 или неподдержанный index возвращается без автоматического rewrite. Это ограничение
 runtime-owned индекса, не форма, навязываемая DPF publication.
 
-Начальный проектный index может быть создан при первой регистрации. Empty
+Начальный проектный index может быть создан при первой регистрации. Для
+выбранного программного входа сначала проверить существование permitted
+`project/dpf/` и действующие host controls. Пустой каталог входит в новую
+поставку; при переносе прежнего проекта создать его отдельным разрешённым
+действием до вызова consumer. Bootstrap проверяет parent до записи intent;
+доказанный отказ до repertoire actuation не означает неизвестный эффект
+реестра. Возможная запись с потерянным подтверждением сохраняет unknown/no-replay. Empty
 index сам по себе не создаёт initiative, WorkPlan или обязательную регистрацию.
 [`DPF_REPERTOIRE_TEMPLATE.yaml`](../templates/DPF_REPERTOIRE_TEMPLATE.yaml)
 показывает его минимальную форму. Дополнительные записи содержат source identity,
@@ -95,8 +101,11 @@ registration time и Human request basis; это не source Admission.
    заявлена и точного snapshot достаточно данному use; не выдавать её за author version.
 3. Выбрать stable project-qualified source_id и exact edition_id. Title или
    alias не служит ключом. Если identity ambiguous, запросить только это уточнение.
-4. Выполнить `inspect`, затем `register` с восстановленными metadata и basis
-   текущего Human запроса. Helper сам заново читает source и index перед записью.
+4. При выбранном программном пути выполнить `inspect`, затем `register`
+   с восстановленными metadata и basis текущего Human запроса. Helper сам заново
+   читает source и index перед записью. Instruction-led регистрация допускается
+   по REGISTRATION.md и P без обязательного JSON workflow; перед записью также
+   проверить текущие source/index и достаточные основания действия.
 5. Проверить возвращённые effects и limitations. Ошибка после atomic write
    может означать записанный index с уже changed source; не повторять вслепую,
    сначала перечитать и reconcile actual state.
@@ -225,5 +234,7 @@ direct owner. Нет пятиэтапного DPF lifecycle и отдельно�
 - Unit tests проверяют mechanical effects. Full EWR-X01…X05/domain conformance,
   actual actor authority и source applicability не следуют из их PASS.
 
-Эта подготовка не создаёт release/archive/tag/publication. Конкретная сборка
-и допустимый relying use остаются за отдельным Human decision.
+Подготовка DPF сама не разрешает сборку, выпуск или публикацию iEWR. Для
+конкретного действия достаточно уже данного прямого поручения в его scope;
+новое решение Human нужно для действия за этими границами. Допустимый relying
+use оценивается отдельно по необходимым ему основаниям.

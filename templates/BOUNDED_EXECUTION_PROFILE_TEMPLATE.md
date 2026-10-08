@@ -150,7 +150,7 @@ template does not create missing Systems, assignments, authority or Work.
 ### `AutonomyBudgetDecl`
 
 - ID and version: `...`
-- Binding state: `prospective | enactment-bound`
+- Binding state: `prospective | action-bound | enactment-bound`
 - Autonomy claim reference: `...`
 - Budget-consumer local system-role kind reference: `...`
 - Working situation and Work-admission condition: `...`
@@ -165,10 +165,29 @@ template does not create missing Systems, assignments, authority or Work.
 - Edition pins: `...`
 
 A prospective declaration describes a claim and future envelope only. It cannot
-admit actual Work. Before autonomous enactment, use an enactment-bound edition
-that resolves all actuals below.
+admit actual Work. Before a scheduled autonomous action, use an action-bound
+declaration and Green-Gate for the exact proposed action and real allocation.
+After the occurrence independently passes A.15.1, add the enactment-bound actual
+Work references. A prospective permission result does not admit Work; actual
+Work is not a prerequisite for permission to start that proposed action.
 
-### Enactment-bound actuals and Green-Gate
+### Action-bound allocation and Green-Gate
+
+- Exact proposed action / work-entry claim and identity-continuation rule: `...`
+- Artifact/subject, operation, target and intended window: `...`
+- Real performer System, obtaining assignment and applicable state: `...`
+- Real authorizer/override-authority System, obtaining assignment and current
+  independent authority relation: `...`
+- Applicable prospective A.2.7 incompatibility species and result: `...`
+- Scope/window, remaining budget, required guard results and permission: `...`
+
+Missing or failed required checks hold the affected action. An unknown result
+keeps its uncertainty and the consequence required by the exact policy; no
+unknown or unrun check is counted as pass. A permission-relevant window or
+allocation change requires recheck. Keep the later performance's match to this
+bounded action recoverable through the policy's exact identity rule.
+
+### Enactment-bound actuals — after independent Work admission
 
 - Budget-consumer performer System: `...`
 - Exact obtaining `A.2.1` assignment: `...`
@@ -186,6 +205,14 @@ gated enactment. Labels, different assignment IDs, budget prose or schema-field
 presence do not establish an actual binding, SoD or authority.
 
 ### Ledger, override and depletion
+
+Before a proposed override, bind that exact bounded action, its real performer
+System/assignment and current independent authority. Apply the declared A.2.7
+actual-Work species when its predicate concerns existing target Work, or the
+prospective species when the policy concerns allocation to the proposed action.
+Check both actual holders/assignments, subject, scope/window and applicability;
+a known prohibited joint allocation blocks performance. The proposed override
+is not yet SpeechAct Work. Admit and record it only after actual performance.
 
 - Work-anchored `AutonomyLedgerEntry` locus: `...`
 - Required entry fields: Work, performer System, exact assignment, budget edition,
@@ -260,9 +287,20 @@ as an optional view label when intended reliance is unresolved.
 
 ## 11. Deviation termination and recovery
 
-If a governing condition, boundary, action-time binding, budget or mandatory
-predicate fails, set this exact profile execution to `terminated_on_deviation`
-and immediately stop profile-controlled actions.
+Before a profile starts, a failed or unresolved required entry check prevents
+that start. It does not create an already running profile execution.
+
+For a started execution of this profile, if a governing condition, boundary,
+action-time binding, budget or mandatory predicate fails, set the exact profile
+execution to `terminated_on_deviation` and immediately stop profile-controlled
+actions. This retains the supplied Profile's stricter termination rule.
+
+The §7 E.16 budget gate and this profile execution are different subjects.
+Depletion holds the affected autonomy-gated steps under E.16 and terminates this
+started profile under the rule above. A checked ResumeAutonomy may reopen that
+budget gate; it does not resume the terminated profile. Only a separately
+selected successor edition or ordinary stepwise execution may use the reopened
+budget with its own current G/X/E basis. No successor starts automatically.
 
 Leading report:
 

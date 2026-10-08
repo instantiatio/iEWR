@@ -65,7 +65,7 @@ conformance_contract:
   unsupported_blocks_only_affected_action: true
 
 verification:
-  method_description_ref: "tests/conformance/RUNTIME_BOUNDARY_CONFORMANCE_PROTOCOL.md"
+  method_description_ref: "" # При выбранной проверке указать доступную exact инструкцию; tests вне поставки.
   required_for_receiving_use: false
   case_dispositions: []      # RC alias, exact configuration, disposition, fresh evidence refs.
   last_verification_work_ref: ""

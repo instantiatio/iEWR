@@ -67,7 +67,8 @@ conflict возвращается direct claim owner; newer не значит ob
 
 Agent выполняет требуемую domain reasoning/analysis, явно сохраняет premises,
 расчёты, alternatives и uncertainty. No automatic source execution. Domain Result
-не становится design choice, assignment, закупкой или реализацией. Formal Work
+сам по себе не устанавливает design choice, assignment, закупку или реализацию.
+Вид предметного результата сохраняется по его direct owner. Formal Work
 claim отдельно по EXECUTION_BASIS; операционный лог его не заменяет.
 
 ## Создание и содержательная переработка DPF

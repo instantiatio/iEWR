@@ -39,6 +39,10 @@ def main():
                                    basis.request, args.direct_channel_basis)
         root = Path(args.workspace).absolute()
         tree = Tree(root, root.parent)
+        if args.adapter == "repertoire":
+            # Read-only prerequisite before X/E intent; directory creation needs its own permitted action.
+            with tree.parent("project/dpf/REPERTOIRE.yaml"):
+                pass
         e = OwnerStore(tree, "effects", "project/process/ewr")
         x = OwnerStore(tree, "execution", "project/process/ewr")
         c = Coordination(reader, reader, time.time, LocalEffects(tree), e, x)

@@ -1,6 +1,8 @@
 # F/G/X — basis, steering и bounded profiles
 
-Инструкции candidate, применимые только при его explicit выборе. WorkPlan
+Эти инструкции применяются в выбранной конфигурации iEWR. Правка отдельной
+копии не делает её действующим основанием исполнения; выбор новой конфигурации —
+по G и правилам проекта. WorkPlan
 нужен для current intended coordination, readiness A.15.5 — только applicable
 PlanItem. Наличие плана не устанавливает permission. До действия X проверяет
 current direct G relations, Method и E technical boundary; перед commit G
@@ -85,14 +87,25 @@ G — независимые текущие direct permissions/conditions, E —
 controls и effect receipts. Конкретные guards/budgets/override/recovery refs
 обязательны до использования. Reservation консервативно расходует бюджет до
 действия; unknown не освобождает бюджет. `record_step` сам не запускает action.
-Deviation, override, depletion или guard/configuration failure terminates exact
-profile; return к ordinary stepwise basis, этот profile не resume. Новый
+Для начатого исполнения поставляемого детерминированного Profile deviation,
+override, depletion или guard/configuration failure прекращают exact profile;
+return к ordinary stepwise basis, этот profile не resume. Отказ entry до начала
+удерживает вход, а не создаёт начатое исполнение. Наблюдённая потеря G basis
+уже начатого Profile записывается как termination с нулевым приращением;
+недостающий evidence ref сохраняется как gap и не разрешает возобновление.
+При недоступной записи остаётся unknown accounting, а не active permission.
+E.16 ResumeAutonomy относится
+к budget gate и не возобновляет прекращённый Profile. Новый
 identity/revision требует explicit start и нового независимого G basis, не
 активируется по завершению predecessor.
 
-Suggestion-only — E.16 non-use. Actual claimed unsupervised use дополнительно
-требует enactment-bound budget/actuals/guards/ledger/override/separation-of-duties,
-current capability/G/control и independent Work/override basis. Полнота refs в
+Suggestion-only — E.16 non-use. Перед запланированным unsupervised action
+нужны action-bound budget, exact proposed action, реальные assignment/authority,
+guards/separation-of-duties и current capability/G/control. Actual Work и override
+отдельно признаются после performance по independent A.13/A.15.1 basis; затем
+нужны enactment-bound actuals и ledger. Permission до действия не создаёт Work.
+Точные поля и различение budget gate/profile termination — в
+[шаблоне профиля](../../templates/BOUNDED_EXECUTION_PROFILE_TEMPLATE.md). Полнота refs в
 Profile не доказывает E.16 qualification; текущая поставка не включает live
 unattended runner. «Форсаж» остаётся DEFER.
 

@@ -18,6 +18,29 @@ general NLP. Partial supported части не исчезают; ambiguous/early
 части unresolved. Conditional response сохраняет condition owner/criterion и
 current evidence; это отдельно от Verification requirement. Duplicate delivery
 не создаёт другой decision. Historical initial assessment не permanent effectivity.
+Короткое «да/нет» относится к одному independently recovered предъявленному
+вопросу; размер supplied subset этого не доказывает. Для нескольких вопросов
+aggregate reader проверяет полный presented set и одинаковые owner/window/group;
+иначе affected interpretation unresolved, включая supplied unambiguous label.
+Вырезанный положительный span не снимает условие или запрет полного exact ответа.
+Сложный ответ с разными условиями для нескольких вопросов может выходить за
+bounded язык helper; тогда нужна содержательная оценка, а не удаление условия.
+
+Exact source/delivery и первоначальная оценка сохраняются неизменными. Новая
+интерпретация того же ответа получает отдельный assessment с source/predecessor
+refs; creation-order index не current authority. Questions сохраняют exact
+subject/action/decider/window/presented identity: changing question не уточнение
+draft. Legacy response records читаются без миграции и перезаписи. При partial
+записи сначала сверить source, assessment и history; hold не разрешает action.
+Повторный Human ответ для технического обхода collision не требуется; основания
+новой интерпретации проверяются по actual словам и текущим G conditions.
+
+assessment_ref идентифицирует сохранённую редакцию интерпретации и её первоначальную
+оценку. items — оценка применимости на условиях текущего вызова; она может отличаться
+от initial_assessment. Изменение current_subjects, condition_evidence или времени
+само не создаёт новой редакции интерпретации. Если dependent use требует сохранённого
+основания текущей оценки, caller сохраняет его отдельно с актуальными refs;
+historical initial_assessment не используется как current permission.
 
 Номер варианта имеет смысл только в exact предъявленном вопросе/редакции, не
 по новой сортировке рекомендаций. Несколько вопросов требуют однозначной связи;

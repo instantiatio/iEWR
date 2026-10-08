@@ -64,22 +64,27 @@ def render(source, output, source_dir):
             local = (Path(source_dir)/material['path']).resolve()
             if not local.is_file():
                 raise ValueError('Material unavailable during build: '+str(local))
-            digest = sha(local.read_bytes())
+            material_raw = local.read_bytes()
+            digest = sha(material_raw)
             if material.get('sha256') and material['sha256'] != digest:
                 raise ValueError('Material revision mismatch: '+material['filename'])
             if local.name != material['filename']:
                 raise ValueError('Material filename mismatch')
             material['sha256'] = digest
-            material['bytes'] = local.stat().st_size
+            material['bytes'] = len(material_raw)
             if local.suffix.lower() == '.md':
                 script=HERE/'render_markdown.cjs'
                 css=(HERE/'style.css').read_text(encoding='utf-8')
-                reader_id=sha(local.read_bytes()+script.read_bytes()+(HERE/'vendor/marked.cjs').read_bytes()+css.encode())[:10]
+                representation={'title':material['title'],'revision':material.get('revision'),
+                                'sourcePath':str(local),'outputDirectory':str(output.parent)}
+                reader_id=sha(material_raw+script.read_bytes()+(HERE/'vendor/marked.cjs').read_bytes()+css.encode()
+                              +json.dumps(representation,ensure_ascii=False,sort_keys=True).encode())[:16]
                 reader=output.parent/'decision-view-materials'/(local.stem+'-'+reader_id+'.html')
-                payload={'markdown':local.read_text(encoding='utf-8'),'sourcePath':str(local),
+                payload={'markdown':material_raw.decode('utf-8'),'sourcePath':str(local),
                          'outputPath':str(reader),'title':material['title'],'revision':material.get('revision'),
                          'sourceSHA256':digest,'css':css}
                 rendered=subprocess.run(['node',str(script)],input=json.dumps(payload),text=True,capture_output=True,check=True,timeout=20).stdout
+                if local.read_bytes()!=material_raw:raise ValueError('Material changed during build; preserve inputs and reassess')
                 if reader.exists():
                     if reader.read_text(encoding='utf-8')!=rendered:raise ValueError('Existing reader differs; preserve it and issue a new representation')
                 else:write_new(reader,rendered)
@@ -92,8 +97,8 @@ def render(source, output, source_dir):
                 material['bytes']=len(saved)
             if local.name.endswith('.er.json'):
                 from er import render as render_er
-                raw=local.read_bytes()
-                rendered=render_er(json.loads(raw),local.name,digest)
+                rendered=render_er(json.loads(material_raw),local.name,digest)
+                if local.read_bytes()!=material_raw:raise ValueError('Material changed during build; preserve inputs and reassess')
                 reader=output.parent/'decision-view-materials'/(local.name[:-8]+'-'+sha(rendered.encode())[:10]+'.html')
                 if reader.exists():
                     if reader.read_text(encoding='utf-8')!=rendered:raise ValueError('ER reader collision')

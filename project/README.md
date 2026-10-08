@@ -190,5 +190,5 @@ registration consumer имеет свои [допустимые paths](../module
 
 Пустые каталоги не инициируют работу. Наличие файла не даёт authority, не
 переключает relied basis и не включает self-development. Поставляется только
-этот README и три пустых `.gitkeep` в source/handoff/artifacts; реальные пользовательские материалы,
+этот README и четыре пустых `.gitkeep` в source/handoff/artifacts/dpf; реальные пользовательские материалы,
 baseline ZIP, handoff и development evidence в product inventory не включаются.

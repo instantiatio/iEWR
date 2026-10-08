@@ -32,6 +32,7 @@ class RepertoireActuator:
                 "limit": "POSIX no-follow/locking and exact source checks; single cooperative writer; no host sandbox"}
 
     def perform(self, scope, guard):
+        invoked = False
         try:
             if scope.targets != ("project/dpf/REPERTOIRE.yaml",):
                 raise ValueError("unsupported_effect_targets")
@@ -45,11 +46,13 @@ class RepertoireActuator:
                         raise ValueError("unsupported_registration_parameters")
                     if not isinstance(args["expected_digest"], str) or not engine.HEX.fullmatch(args["expected_digest"]):
                         raise ValueError("missing_exact_source_digest")
+                    invoked = True
                     result = engine.register(self.tree.root, args["source_locus"], args["metadata"],
                                              args["registration_basis"], args["expected_digest"], current)
                 elif scope.capability == "unregister_source":
                     if set(args) != {"source_id", "edition_id", "registration_basis"}:
                         raise ValueError("unsupported_unregistration_parameters")
+                    invoked = True
                     result = engine.unregister(self.tree.root, **args, commit_guard=current)
                 else:
                     raise ValueError("unsupported_capability")
@@ -61,6 +64,12 @@ class RepertoireActuator:
             return OperationReceipt(disposition, "{}", json.dumps(effects, sort_keys=True), error.code)
         except ValueError as error:
             return OperationReceipt("not_performed", "{}", '{"repertoire_written": false}', str(error))
+        except OSError as error:
+            if invoked:
+                raise
+            return OperationReceipt("not_performed", "{}",
+                                    '{"repertoire_written": false, "source_bytes_modified": false}',
+                                    "repertoire_pre_actuation_failure: " + str(error))
 
 
 class PinnedSourceReader:

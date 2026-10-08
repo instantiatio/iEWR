@@ -37,7 +37,9 @@ observations/checks/effects и текущий stop/следующий уже р�
 Ссылаться на direct owner/SoR вместо дублирования его records. Имена файлов и
 формат не обязательны; отдельные документы появляются только для нужного use.
 Пустой scaffold не initiative. Несколько реальных initiatives требуют выбора
-Human; после interruption сначала сверить effects, unknown не replay.
+Human только при отсутствии действующего прямого основания выбора; сохранённый
+exact ответ переиспользовать. После interruption сначала сверить effects,
+unknown не replay.
 
 ## Основания и критерии AI-native развития
 

@@ -47,12 +47,19 @@ class DecisionResponses:
             required = ("identity", "principal", "time", "text", "presented_refs")
             if source.get("schema") != 1 or any(k not in source for k in required):
                 raise ValueError("unsupported_direct_response")
+            presented = source["presented_refs"]
+            if (not isinstance(presented, list) or not presented
+                or any(not isinstance(ref, str) or not ref for ref in presented)
+                or len(set(presented)) != len(presented)):
+                raise ValueError("unsupported_presented_questions")
+            questions = tuple(questions)
             current_subjects = current_subjects or {}
             if len({q.identity for q in questions}) != len(questions):
                 raise ValueError("duplicate_question")
             drafts = tuple(drafts)
             # The narrow shorthand is valid only after exactly one presented question.
-            if not drafts and len(questions) == 1 and source["text"].strip().lower() in ("да", "нет"):
+            if (not drafts and len(questions) == 1 and presented == [questions[0].presented_ref]
+                and source["text"].strip().lower() in ("да", "нет")):
                 drafts = (AnswerDraft(questions[0].identity, "accept" if source["text"].strip().lower() == "да" else "deny",
                                       source["text"].strip(), (), "unambiguous"),)
             if len({d.question for d in drafts}) != len(drafts):
@@ -61,9 +68,22 @@ class DecisionResponses:
             old = self.store.read(key)
             input_basis = {"reference": reference, "digest": digest, "questions": [asdict(q) for q in questions],
                            "drafts": [asdict(d) for d in drafts]}
-            # Same delivery can be assessed for current effectiveness; immutable historical source is reused.
-            if old and json.dumps(old["input_basis"], sort_keys=True) != json.dumps(input_basis, sort_keys=True):
+            # Exact delivery remains immutable, including records made before 5.7.0.
+            if old and (old["input_basis"]["reference"] != reference
+                        or old["input_basis"]["digest"] != digest or old["source_text"] != source["text"]):
                 raise ValueError("response_identity_collision")
+            history_key = sha256(("response-assessment-history:" + source["identity"]).encode()).hexdigest()
+            history = self.store.read(history_key)
+            if history and (old is None or history.get("source_record_ref") != key):
+                raise ValueError("response_history_source_gap")
+            known_questions = dict(history["questions"] if history else
+                                   {q["identity"]: q for q in old["input_basis"]["questions"]} if old else {})
+            for question in input_basis["questions"]:
+                for known in known_questions.values():
+                    if (known["identity"] == question["identity"] or known["presented_ref"] == question["presented_ref"]):
+                        if known != question:
+                            raise ValueError("presented_question_identity_collision")
+                known_questions[question["identity"]] = question
             results = []
             for q in questions:
                 draft = next((d for d in drafts if d.question == q.identity), None)
@@ -89,6 +109,13 @@ class DecisionResponses:
                     negative = bool(re.search(r"\b(не|нет|запрещ\w*|стоп)\b", text))
                     conditional = bool(re.search(r"\b(после|если|при условии)\b", text))
                     positive = bool(re.search(r"\b(да|принима\w*|подходит|соглас\w*|разреш\w*)\b", text))
+                    source_negative = bool(re.search(r"\b(не|нет|запрещ\w*|стоп)\b", source["text"].lower()))
+                    source_conditional = bool(re.search(r"\b(после|если|при условии)\b", source["text"].lower()))
+                    # Trimming a positive span cannot remove a condition or prohibition.
+                    # Complex multi-question wording needs a substantive assessment beyond this bounded reader.
+                    if (draft.disposition == "accept" and (source_negative or source_conditional)
+                        or draft.disposition == "conditional" and source_negative):
+                        reasons.append("source_condition_or_denial_cannot_be_erased")
                     # A conservative language subset, not authority from an agent's confidence label.
                     if (draft.disposition == "accept" and (negative or conditional or not positive)
                         or draft.disposition == "deny" and not negative
@@ -111,9 +138,12 @@ class DecisionResponses:
                                 "reasons": reasons, "unmet_conditions": unmet, "authority_basis_ref": q.authority_basis_ref,
                                 "source_ref": reference, "limit": "assessment_of_direct_response_not_a_grant"})
             # Aggregate wording cannot silently collapse differing owners/windows/conditions.
-            if len(questions) > 1 and source["text"].strip().lower() in ("да", "согласен со всеми"):
-                homogeneous = (len({(q.decider, q.delivered_at, q.valid_until, q.effect_group) for q in questions}) == 1
-                               and bool(questions[0].effect_group) and all(d.disposition == "accept" and not d.conditions for d in drafts)
+            if len(presented) > 1 and source["text"].strip().lower() in ("да", "нет", "согласен со всеми"):
+                disposition = "deny" if source["text"].strip().lower() == "нет" else "accept"
+                homogeneous = (len(questions) > 1 and set(presented) == {q.presented_ref for q in questions}
+                               and len(presented) == len(questions)
+                               and len({(q.decider, q.delivered_at, q.valid_until, q.effect_group) for q in questions}) == 1
+                               and bool(questions[0].effect_group) and all(d.disposition == disposition and not d.conditions for d in drafts)
                                and len(drafts) == len(questions))
                 if not homogeneous:
                     for row in results:
@@ -123,6 +153,27 @@ class DecisionResponses:
                       "initial_assessment": results, "limit": "historical_response_not_permanent_effectiveness"}
             if old is None:
                 self.store.write(key, record, None)
-            return {"outcome": "assessed", "delivery": "reused" if old else "recorded", "items": tuple(results)}
+            assessment_key = sha256(("response-interpretation:" + source["identity"] + ":" +
+                                     json.dumps(input_basis, sort_keys=True, allow_nan=False)).encode()).hexdigest()
+            assessment = self.store.read(assessment_key)
+            if assessment and (assessment.get("source_record_ref") != key
+                               or json.dumps(assessment.get("input_basis"), sort_keys=True) != json.dumps(input_basis, sort_keys=True)):
+                raise ValueError("response_assessment_identity_collision")
+            if assessment is None:
+                assessment = {"kind": "response_interpretation", "source_record_ref": key,
+                              "predecessor_ref": history["assessments"][-1] if history else key,
+                              "input_basis": input_basis, "initial_assessment": results,
+                              "current_subjects_at_assessment": dict(current_subjects),
+                              "condition_evidence_at_assessment": list(condition_evidence),
+                              "limit": "versioned_interpretation_not_new_human_response_or_grant"}
+                self.store.write(assessment_key, assessment, None)
+            revisions = list(history["assessments"]) if history else []
+            if assessment_key not in revisions:
+                revisions.append(assessment_key)
+                self.store.write(history_key, {"kind": "response_assessment_history", "source_record_ref": key,
+                                              "questions": known_questions, "assessments": revisions,
+                                              "limit": "creation_order_not_current_authority"}, history)
+            return {"outcome": "assessed", "delivery": "reused" if old else "recorded", "items": tuple(results),
+                    "source_record_ref": key, "assessment_ref": assessment_key}
         except (OSError, ValueError, TypeError, KeyError) as error:
             return {"outcome": "hold", "reason": str(error)}
