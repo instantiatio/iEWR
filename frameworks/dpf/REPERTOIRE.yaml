@@ -199,36 +199,36 @@
         "ISDLC",
         "Instantiatio SDLC"
       ],
-      "edition_id": "0.2.2-package-5.6.2",
+      "edition_id": "0.3.0-package-5.7.1",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio SDLC DPF.md",
+      "source_locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio SDLC DPF.md"
+        "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
       ],
       "declared_status": {
-        "value": "Author 0.2.2 candidate; packaging revision 5.6.2 redirects two non-method history links; all 18 pattern bodies unchanged",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio SDLC DPF.md"
+        "value": "Author 0.3.0: guidance with use and verification conditions; exact independent assessment and limits in VERIFICATION.md",
+        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
       },
-      "publication_locator": "frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio SDLC DPF.md",
+      "publication_locator": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
       "fpf_grounding_claim": {
         "value": "Source-reported grounding in FPF; no independent conformance claim from registration; FPF remains optional and disconnected by default",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.2.2/Instantiatio SDLC DPF.md"
+        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
       },
       "files": [
         {
-          "path": "Instantiatio SDLC DPF.md",
-          "sha256": "7669b7b8903c36ab9bdef5f723c60077bd92b84cd9471be53e5b97e0860e548a"
+          "path": "DPF.md",
+          "sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c"
         }
       ],
-      "edition_manifest_sha256": "7669b7b8903c36ab9bdef5f723c60077bd92b84cd9471be53e5b97e0860e548a",
-      "registered_at": "2026-10-06T18:55:19.599703+00:00",
-      "registration_basis": "Direct Human correction and publication request: rename main DPF file and exclude old SDLC, earlier ISDLC and reviews from iEWR 5.6.2; author 0.2.2 content, explicit packaging revision",
+      "edition_manifest_sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c",
+      "registered_at": "2026-10-11",
+      "registration_basis": "Direct author/Human instruction: include exact 0.3.0, verify and publish iEWR 5.7.1 Beta as Latest; portable supporting-document revision, unchanged DPF bytes",
       "source_bytes_modified_by_registration": false,
       "required_slot": "SDLC",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Explicit Human instruction to publish the renamed current source and necessary attribution, excluding historical files; author candidate status retained, no new blanket license",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.2.2/README.md"
+        "statement": "Author Albert directly confirmed authorship and authorized public inclusion of 0.3.0; no new blanket license; third-party notices retained",
+        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/README.md"
       }
     },
     {
