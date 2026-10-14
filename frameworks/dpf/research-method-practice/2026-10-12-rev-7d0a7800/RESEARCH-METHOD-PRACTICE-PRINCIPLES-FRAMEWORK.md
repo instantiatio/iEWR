@@ -1,64 +1,104 @@
 # Research Method Practice Principles Framework
 
+**DocID:** `RMP` within **FPF Library**.
+
 > A research repertoire for qualifying a question, choosing and conducting a defensible inquiry, examining and returning its knowledge contribution, and retaining or improving the Methods that serve it.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 October 2026
-- **Status:** Eternal alpha: a working framework open to correction as methods, sources and uses change. This first edition supplies the complete RMP.1–RMP.9 repertoire, with direct entries, useful stops and research-specific Method improvement.
+- **Version:** 12 October 2026
+- **Status:** Eternal alpha: a working framework open to correction as methods, sources and uses change. The repertoire supplies RMP.1–RMP.11, with direct entries, useful stops and research-specific Method improvement.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
-Begin with the research difficulty that is blocking useful work: an ambiguous request, a sufficient source answer, an unsettled design, a consequential operational choice, actual material whose use cannot be reconstructed, a claim whose support is unclear, a credibility threat whose useful examination is undecided, a contested corpus, a knowledge account whose revision and return need care, or a research Method whose adequacy or improvement is in question. Use the Table of Contents to find a pattern by question or PatternID, and the Readme for selected practical examples. The Preface explains how the nine contributions connect and where direct entry or a return is useful. The connected applications show the resulting choices. For references to this dated version, use the [Citation](#rmpreference15---citation).
+Begin with the research difficulty that is blocking useful work: an ambiguous request, a sufficient source answer, an unsettled design, a consequential operational choice, actual material whose use cannot be reconstructed, a claim whose support is unclear, a credibility threat whose useful examination is undecided, a contested corpus, a knowledge account whose revision and return need care, or a research Method whose adequacy or improvement is in question. Use the Table of Contents to find a pattern by question or PatternID, and the Readme for selected practical examples. The Architectural Reference explains how the eleven contributions connect and where direct entry or a return is useful. The connected applications show the resulting choices. For references to this dated version, use the [Citation](#rmpsources3---citation).
 
 
 # Table of Contents
 
 Use this Table of Contents to find a pattern from your actual question or a known PatternID. The Readme offers selected practical examples. Pattern bodies contain the authoritative Methods, cases, evidence limits, and stops.
 
-`RMP.*` is this framework's PatternID namespace. Numbers are stable addresses. This first edition contains RMP.1–RMP.9 in five reading Parts; supplied inputs and existing records allow direct entry, and reader order does not prescribe Work order.
+`RMP.*` is this framework's PatternID namespace. Numbers are stable addresses. The repertoire contains RMP.1–RMP.11 in six reading Parts; supplied inputs and existing records allow direct entry, and reader order does not prescribe Work order.
 
 ## Public units
 
 | Unit | Reader use |
 | :--- | :--- |
 | [Research Method Practice Principles Framework Readme](#research-method-practice-principles-framework-readme) | Follow research contributions from a question through a supported answer, correction or decision to stop. |
-| [Preface](#preface) | Understand the nine Methods, their direct entries and shared conditions, serious alternatives, and the repertoire's scope. |
+| [Research Method Practice Principles Framework Architectural Reference](#research-method-practice-principles-framework-architectural-reference) | Understand the eleven Methods, their direct entries and shared conditions, serious alternatives, and the repertoire's scope. |
+| [RMP.Reference:1](#rmpreference1---the-practical-question-behind-research-and-engineering) | The practical question behind research and engineering |
+| [RMP.Reference:2](#rmpreference2---forces-that-shape-the-first-result) | Forces that shape the first result |
+| [RMP.Reference:3](#rmpreference3---research-membership-is-not-institutional-status) | Research membership is not institutional status |
+| [RMP.Reference:4](#rmpreference4---question-frame-design-work-result-and-decision-remain-distinct) | Question, frame, design, Work, result, and decision remain distinct |
+| [RMP.Reference:5](#rmpreference5---criticism-comes-before-method-prestige) | Criticism comes before method prestige |
+| [RMP.Reference:6](#rmpreference6---pattern-relations-do-not-prescribe-a-research-lifecycle) | Pattern relations do not prescribe a research lifecycle |
+| [RMP.Reference:7](#rmpreference7---use-the-two-contributions-together) | Use the two contributions together |
+| [RMP.Reference:8](#rmpreference8---connect-operationalization-and-actual-trace) | Connect operationalization and actual trace |
+| [RMP.Reference:9](#rmpreference9---connect-analysis-and-the-credibility-choice) | Connect analysis and the credibility choice |
+| [RMP.Reference:10](#rmpreference10---connect-corpus-synthesis-and-exact-revision) | Connect corpus synthesis and exact revision |
+| [RMP.Reference:11](#rmpreference11---connect-method-improvement-and-research-consequences) | Connect Method improvement and research consequences |
+| [RMP.Reference:12](#rmpreference12---conditions-for-a-usable-combined-result) | Conditions for a usable combined result |
+| [RMP.Reference:13](#rmpreference13---architectural-rationale) | Architectural Rationale |
+| [RMP.Reference:14](#rmpreference14---what-the-repertoire-foregrounds-and-leaves-outside) | What the repertoire foregrounds and leaves outside |
+| [RMP.Reference:15](#rmpreference15---intended-use-and-ordinary-non-use) | Intended use and ordinary non-use |
+| [RMP.Reference:16](#rmpreference16---judge-the-connected-result) | Judge the connected result |
+| [RMP.Reference:17](#rmpreference17---bias-and-the-reach-of-these-examples) | Bias and the reach of these examples |
+| [RMP.Reference:18](#rmpreference18---failures-at-the-connection-between-the-patterns) | Failures at the connection between the patterns |
+| [RMP.Reference:19](#rmpreference19---practical-consequences-and-revision) | Practical consequences and revision |
+| [RMP.Reference:20](#rmpreference20---patternid-and-reader-order) | PatternID and reader order |
+| [RMP.Reference:21](#rmpreference21---available-repertoire-and-scope) | Available repertoire and scope |
+| [RMP.Reference:22](#rmpreference22---direct-result-relations-and-non-lifecycle-topology) | Direct result relations and non-lifecycle topology |
+| [RMP.Reference:23](#rmpreference23---what-the-sources-contribute-to-the-shared-architecture) | What the sources contribute to the shared architecture |
+| [RMP.Reference:24](#rmpreference24---using-fpf-for-the-source-answer) | Using FPF for the source answer |
+| [RMP.Reference:25](#rmpreference25---external-result-and-authority-boundaries) | External result and authority boundaries |
+| [RMP.Reference:26](#rmpreference26---public-returns-to-adjoining-practice) | Public returns to adjoining practice |
+| [RMP.Reference:27](#rmpreference27---representative-case-coverage) | Representative case coverage |
+| [RMP.Reference:28](#rmpreference28---publication-and-maintenance-boundary) | Publication and maintenance boundary |
+| [RMP.Sources:1](#rmpsources1---source-use-and-currentness) | Source use and currentness |
+| [RMP.Sources:2](#rmpsources2---edition-return) | Edition return |
+| [RMP.Sources:3](#rmpsources3---citation) | Citation |
 | [Cross-Pattern Application — RMP.Application](#cross-pattern-application) | Follow seal, stream, historical, Method-correction and workplace-experiment cases through their needed research contributions and receiving decisions. |
-| [Framework Boundary and Refresh — RMP.Reference](#framework-boundary-and-refresh) | Judge the combined result, inspect biases and limits, recover source contributions and public owner returns, check availability, and cite this version. |
+| [Research Method Practice Principles Framework Sources and Edition Notes](#research-method-practice-principles-framework-sources-and-edition-notes) | Judge the combined result, inspect biases and limits, recover source contributions and public owner returns, check availability, and cite this version. |
 
 **Part I - Qualify the Question and Choose a Design or Stop**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [RMP.1 — Decide Whether a Question Needs Research and When to Stop](#rmp-1) | Stable | Does this request need research, and what exact question, supplied answer, owner return, or source hold is warranted? | receiving question and available sources; F.1, F.0.1 and A.10 for source use; E.8 for SoTA comparison; applicable domain contributions |
-| 2 | [RMP.2 — Choose a Criticism-Bearing Research Design or Stop](#rmp-2) | Stable | Is evidence sufficient, is a useful obtainable design justified, is selection held, or is a qualified no-new-study answer warranted? | RMP.1 ResearchQuestionBrief or compatible direct input; qualified current frame; exact domain, measurement, access, ethics, safety and authority results |
+| 1 | [RMP.1 — Decide Whether a Question Needs Research and When to Stop](#rmp1--decide-whether-a-question-needs-research-and-when-to-stop) | Stable | Does this request need research, and what exact question, supplied answer, owner return, or source hold is warranted? | receiving question and available sources; F.1, F.0.1 and A.10 for source use; E.8 for SoTA comparison; applicable domain contributions |
+| 2 | [RMP.2 — Choose a Criticism-Bearing Research Design or Stop](#rmp2--choose-a-criticism-bearing-research-design-or-stop) | Stable | Is evidence sufficient, is a useful obtainable design justified, is selection held, or is a qualified no-new-study answer warranted? | RMP.1 ResearchQuestionBrief or compatible direct input; qualified current frame; exact domain, measurement, access, ethics, safety and authority results |
 
 **Part II - Operationalization and Research Trace**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 3 | [RMP.3 - Operationalize the Research Design without Replacing the Question](#rmp-3) | Development preview | Which operational choices preserve the selected research question and criticism, and which missing or defeated premise requires a return? | compatible RMP.1/RMP.2 or supplied brief/design; qualified domain and practical-owner results; RMP.4 for actual trace |
-| 4 | [RMP.4 - Preserve a Criticism-Ready Research Trace](#rmp-4) | Development preview | What can the actual research material support, and where do reconstruction, transformation, loss or restricted access prevent a named examination? | ongoing or inherited inquiry and receiving examination; surviving plans/records; RMP.1/RMP.2 returns and RMP.3 intentions when supplied; FPF A.10 and C.16 |
+| 3 | [RMP.3 - Operationalize the Research Design without Replacing the Question](#rmp3---operationalize-the-research-design-without-replacing-the-question) | Stable | Which operational choices preserve the selected research question and criticism, and which missing or defeated premise requires a return? | compatible RMP.1/RMP.2 or supplied brief/design; qualified domain and practical-owner results; RMP.4 for actual trace |
+| 4 | [RMP.4 - Preserve a Criticism-Ready Research Trace](#rmp4---preserve-a-criticism-ready-research-trace) | Stable | What can the actual research material support, and where do reconstruction, transformation, loss or restricted access prevent a named examination? | ongoing or inherited inquiry and receiving examination; surviving plans/records; RMP.1/RMP.2 returns and RMP.3 intentions when supplied; FPF A.10 and C.16 |
 
 **Part III - Analyze Claims and Choose Credibility Work**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 5 | [RMP.5 - Analyze and Criticize the Research Claim under Its Method](#rmp-5) |  | What bounded claim does the actual material support under its Method, and which criticism changes that answer? | supplied material, analysis, claim and receiving use; RMP.3 intentions and RMP.4 actual trace when relevant; exact RMP.1/RMP.2 returns; conditional RMP.6 |
-| 6 | [RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing](#rmp-6) |  | Which existing result, useful obtainable test, qualified no-test answer or exact selection hold bears on this claim and threat? | bounded claim, basis, use and threat from RMP.5 or direct input; qualified Methods, criteria and practical owners; conditional RMP.2/RMP.3/RMP.4 |
+| 5 | [RMP.5 - Analyze and Criticize the Research Claim under Its Method](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) |  Stable  | What bounded claim does the actual material support under its Method, and which criticism changes that answer? | supplied material, analysis, claim and receiving use; RMP.3 intentions and RMP.4 actual trace when relevant; exact RMP.1/RMP.2 returns; conditional RMP.6 |
+| 6 | [RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing) |  Stable  | Which existing result, useful obtainable test, qualified no-test answer or exact selection hold bears on this claim and threat? | bounded claim, basis, use and threat from RMP.5 or direct input; qualified Methods, criteria and practical owners; conditional RMP.2/RMP.3/RMP.4 |
 
 **Part IV - Synthesize Evidence and Revise the Exact Contribution**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 7 | [RMP.7 - Synthesize a Research Evidence Corpus](#rmp-7) |  | What does this evidence corpus establish, and which dependence, incompatible target or missing contribution limits the synthesis? | compatible supplied question, synthesis design, operations and actual trace; conditional RMP.1-RMP.6 returns; RMP.8 when wider revision or receiving reliance needs it |
-| 8 | [RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence](#rmp-8) | Stable | Which exact claim or model contribution should be retained or changed, and what bounded evidence does its actual recipient need? | actual analysis, criticism or synthesis from RMP.5-RMP.7 or direct input; FPF episteme and affected-use relations; receiving criteria and authority |
+| 7 | [RMP.7 - Synthesize a Research Evidence Corpus](#rmp7---synthesize-a-research-evidence-corpus) |  Stable  | What does this evidence corpus establish, and which dependence, incompatible target or missing contribution limits the synthesis? | compatible supplied question, synthesis design, operations and actual trace; conditional RMP.1-RMP.6 returns; RMP.8 when wider revision or receiving reliance needs it |
+| 8 | [RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) | Stable | Which exact claim or model contribution should be retained or changed, and what bounded evidence does its actual recipient need? | actual analysis, criticism or synthesis from RMP.5-RMP.7 or direct input; FPF episteme and affected-use relations; receiving criteria and authority |
 
 **Part V - Improve and Refresh Research Methods and Practice**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [RMP.9 — Decide Whether and How to Improve Research Methods and Practice](#rmp-9) |  | What Method or practice should be retained or corrected, and is further comparison worth its whole obtainable burden? | actual Method difficulty or changed research use; relevant Method Engineering and field criteria; qualified existing evidence; only affected RMP.1-RMP.8 returns |
+| 9 | [RMP.9 — Decide Whether and How to Improve Research Methods and Practice](#rmp9--decide-whether-and-how-to-improve-research-methods-and-practice) |  Stable  | What Method or practice should be retained or corrected, and is further comparison worth its whole obtainable burden? | actual Method difficulty or changed research use; relevant Core Methods and field criteria; qualified existing evidence; only affected RMP.1-RMP.8 returns |
+
+**Part VI - Reconstruct Practice and Explain Method History**
+
+| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
+| :--- | :--- | :--- | :--- | :--- |
+| 10 | [RMP.10 - Reconstruct a Candidate Method Account from Practice Evidence](#rmp10---reconstruct-a-candidate-method-account-from-practice-evidence) | Stable | Which observations, critical-incident accounts or event logs can resolve a candidate Method claim, and when is the account sufficient or must it be lowered? | A.3.1.MR ordinary recovery; selected research question/evidence strategy; RMP.2–4 where their results are missing; A.3.1 Method identity |
+| 11 | [RMP.11 - Explain Method History with Discriminating Evidence](#rmp11---explain-method-history-with-discriminating-evidence) | Stable | Why did a Method or relation differentiate, which records favor which account, and what descriptive or causal use is supported? | identified Method/variant or established family relation; RMP.4 source trace and RMP.7 corpus contribution when supplied; C.28 for a claimed causal use |
 
 # Research Method Practice Principles Framework Readme
 
@@ -66,11 +106,11 @@ Use this Table of Contents to find a pattern from your actual question or a know
 
 Research Method Practice helps a practitioner turn an uncertain question into a supported answer, an informative limitation or a decision about further inquiry. The methods connect through results: a question determines what a design must distinguish; operational choices preserve that comparison; actual material supports an analysis; criticism or synthesis can change the claim returned to its user. A later contribution can also expose a failed earlier premise.
 
-These are selected examples of that cooperation, not a catalogue or a prescribed research sequence. Start with the contribution whose inputs you have. Use the [Table of Contents](#table-of-contents) for another question and the [Preface](#preface) for the repertoire's reasons and shared conditions. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon.
+These are selected examples of that cooperation, not a catalogue or a prescribed research sequence. Start with the contribution whose inputs you have. Use the [Table of Contents](#table-of-contents) for another question and the [Architectural Reference](#research-method-practice-principles-framework-architectural-reference) for the repertoire's reasons and shared conditions. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon.
 
-A short use can finish at [RMP.1 — Decide Whether a Question Needs Research and When to Stop](#rmp-1): if an applicable source already answers the receiving question, return its answer, source and relevant limits. No study or new brief is needed. If a knowledge question remains, establish the whole inquiry’s epistemic task, inspectable question-to-result connection and bounded contribution. A justified ready protocol can support research into a disputed claim; an ordinary case result under an accepted rule returns to its own practice.
+A short use can finish at [RMP.1 — Decide Whether a Question Needs Research and When to Stop](#rmp1--decide-whether-a-question-needs-research-and-when-to-stop): if an applicable source already answers the receiving question, return its answer, source and relevant limits. No study or new brief is needed. If a knowledge question remains, establish the whole inquiry’s epistemic task, inspectable question-to-result connection and bounded contribution. A justified ready protocol can support research into a disputed claim; an ordinary case result under an accepted rule returns to its own practice.
 
-A manager considering another approver can open [Should a second approver reduce customer waiting?](#rmp-workplace-experiment). The worked application starts with event records, distinguishes a delay forecast from an intervention effect, shows the request and result supplied by a qualified analyst, and explains when a shared queue requires a different comparison.
+A manager considering another approver can open [Should a second approver reduce customer waiting?](#rmpapplication5---app-rmp-05--should-a-second-approver-reduce-customer-waiting). The worked application starts with event records, distinguishes a delay forecast from an intervention effect, shows the request and result supplied by a qualified analyst, and explains when a shared queue requires a different comparison.
 
 The examples below are constructed applications with supplied professional premises. Research can change the evidence used in a maintenance, environmental or other decision; its responsible practitioner retains the decision and its authority.
 
@@ -79,15 +119,15 @@ The examples below are constructed applications with supplied professional premi
 - **Situation:** A seal engineer needs to know whether an accelerated test supports a proposed use in pump maintenance, but the relation between laboratory degradation and service conditions may be unresolved.
 - **Question:** Which contribution can answer the evidence question, and what must change if its comparison or transfer premise fails?
 - **First useful result or blocker:** An applicable existing answer or return to routine qualification; otherwise a bounded research question and a decision about whether an obtainable inquiry can answer it.
-- **Start with:** RMP.1 for an unsettled question. Use [RMP.2 — Choose a Criticism-Bearing Research Design or Stop](#rmp-2) directly when a compatible question, source account and useful stopping condition are already supplied.
+- **Start with:** RMP.1 for an unsettled question. Use [RMP.2 — Choose a Criticism-Bearing Research Design or Stop](#rmp2--choose-a-criticism-bearing-research-design-or-stop) directly when a compatible question, source account and useful stopping condition are already supplied.
 - **Stop or return:** Finish the answer the evidence supports. Return a changed question to RMP.1, a failed design premise to RMP.2, and a maintenance choice to its responsible authority.
 
 1. **Separate routine qualification from a surviving knowledge question.** In the [Pump-P4 application](#rmpapplication1---app-rmp-01--pump-p4-accelerated-seal-evidence), an already qualified acceleration relation, test method and acceptance criteria permit an engineering or assurance return. If current evidence already establishes that the proposed acceleration changes the degradation mechanism, return that answer. If the relation remains unresolved against serious alternatives, RMP.1 specifies what would retain, narrow or defeat it within the named material and operating envelope.
 2. **Construct the comparison and choose its stopping point.** RMP.2 follows a relevant professional operation from its inputs to what its result can distinguish. In the [mechanism construction](#rmp2511---derive-and-repair-the-mechanism-comparison), two supplied references have the same overall wear index and different mechanisms. An equal-score comparison therefore cannot establish mechanism preservation. A qualified signature operation lets the researcher construct a comparison of accelerated and field-representative specimens under the required material and damage conditions. RMP.2 then distinguishes sufficient evidence, a selected design, a selection held for a missing result and a completed no-new-study answer. If the marker’s discrimination remains unknown, selection is held. Check combined demands as well: two necessary tasks, each requiring four to six non-overlapping investigator-days, cannot be treated as fitting ten days while six plus six remains possible.
-3. **Preserve the selected comparison in the actual operations.** Once a suitable marker, measurement procedure, material plan, safe conditions and access are supplied, [RMP.3 - Operationalize the Research Design without Replacing the Question](#rmp-3) specifies specimen identity and allocation, observation timing and the comparison's use. Three readings of one seal remain three readings, not three independent seals. If the specialist then finds that the marker cannot distinguish the mechanisms, return that failed premise to RMP.2. Substituting a convenient wear score needs its own relation to the question.
-4. **Give analysis the actual material and its limits.** [RMP.4 - Preserve a Criticism-Ready Research Trace](#rmp-4) connects specimen P4-07's handling damage, absent observation and exclusion decision to the remaining material. [RMP.5 - Analyze and Criticize the Research Claim under Its Method](#rmp-5) uses that history to examine the inference; an absent reading alone does not determine the direction of bias. If a proposed field claim instead rests on a simulation, reproducing its reported curve leaves the model-to-field relation open. [RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing](#rmp-6) asks whether an obtainable mechanism or field comparison can change that conclusion enough to warrant its burden. Selecting the comparison supplies no result from it.
-5. **Combine contributions only for the question they jointly answer.** In the application's corpus branch, [RMP.7 - Synthesize a Research Evidence Corpus](#rmp-7) finds that reports A and A2 describe one test, B an independent compatible test, and C service replacement under different conditions. A2 adds information but no independent estimate. For the laboratory mean-lifetime difference, the supplied independent estimates are 14 hours with standard error 4 and 8 hours with standard error 3. Under the case's justified common-effect model and normal approximation, inverse-variance weighting gives 10.16 hours, standard error 2.4 and an approximate 95% interval of 5.46–14.86 hours. C remains useful for its different service question.
-6. **Return the consequence to the claim that uses it.** [RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence](#rmp-8) locates the claim that depends on an analysis or synthesis result. In its accompanying model example, a separate supplied analysis supports a fitted dry-laboratory wear relation; the synthesis does not establish that the same rate applies in wet service. Retain the laboratory fit, but withdraw the assertion of demonstrated transfer and the service replacement-time prediction that depends on it. Return that missing premise to the reliability receiver. The engineering wear limit and the receiver's maintenance decision retain their own grounds.
+3. **Preserve the selected comparison in the actual operations.** Once a suitable marker, measurement procedure, material plan, safe conditions and access are supplied, [RMP.3 - Operationalize the Research Design without Replacing the Question](#rmp3---operationalize-the-research-design-without-replacing-the-question) specifies specimen identity and allocation, observation timing and the comparison's use. Three readings of one seal remain three readings, not three independent seals. If the specialist then finds that the marker cannot distinguish the mechanisms, return that failed premise to RMP.2. Substituting a convenient wear score needs its own relation to the question.
+4. **Give analysis the actual material and its limits.** [RMP.4 - Preserve a Criticism-Ready Research Trace](#rmp4---preserve-a-criticism-ready-research-trace) connects specimen P4-07's handling damage, absent observation and exclusion decision to the remaining material. [RMP.5 - Analyze and Criticize the Research Claim under Its Method](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) uses that history to examine the inference; an absent reading alone does not determine the direction of bias. If a proposed field claim instead rests on a simulation, reproducing its reported curve leaves the model-to-field relation open. [RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing) asks whether an obtainable mechanism or field comparison can change that conclusion enough to warrant its burden. Selecting the comparison supplies no result from it.
+5. **Combine contributions only for the question they jointly answer.** In the application's corpus branch, [RMP.7 - Synthesize a Research Evidence Corpus](#rmp7---synthesize-a-research-evidence-corpus) finds that reports A and A2 describe one test, B an independent compatible test, and C service replacement under different conditions. A2 adds information but no independent estimate. For the laboratory mean-lifetime difference, the supplied independent estimates are 14 hours with standard error 4 and 8 hours with standard error 3. Under the case's justified common-effect model and normal approximation, inverse-variance weighting gives 10.16 hours, standard error 2.4 and an approximate 95% interval of 5.46–14.86 hours. C remains useful for its different service question.
+6. **Return the consequence to the claim that uses it.** [RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) locates the claim that depends on an analysis or synthesis result. In its accompanying model example, a separate supplied analysis supports a fitted dry-laboratory wear relation; the synthesis does not establish that the same rate applies in wet service. Retain the laboratory fit, but withdraw the assertion of demonstrated transfer and the service replacement-time prediction that depends on it. Return that missing premise to the reliability receiver. The engineering wear limit and the receiver's maintenance decision retain their own grounds.
 
 A supplied answer can enter at analysis, credibility comparison or synthesis without recreating the preceding work. If the common-effect premise fails, revisit the synthesis interpretation; if qualified field evidence later becomes available, reconsider the transfer question rather than repeating an unchanged laboratory calculation.
 
@@ -112,22 +152,22 @@ The [historical application](#rmpapplication3---app-rmp-03--factory-closure-hist
 - **Situation:** A completed analysis contains a calculation defect, and a later change in the observations may also challenge the method's fit.
 - **Question:** Which object needs correction now, and when does a different method comparison become necessary?
 - **First useful result or blocker:** A verified implementation correction with the affected analysis and claim returned to their users; under changed receiving conditions, a supported method decision or the still-unresolved qualification.
-- **Start with:** [RMP.9 — Decide Whether and How to Improve Research Methods and Practice](#rmp-9), using the actual difficulty and receiving conditions.
+- **Start with:** [RMP.9 — Decide Whether and How to Improve Research Methods and Practice](#rmp9--decide-whether-and-how-to-improve-research-methods-and-practice), using the actual difficulty and receiving conditions.
 - **Stop or return:** Retain a suitable method after a determinate repair. A selected comparison under changed conditions remains a plan until its results exist.
 
-1. **Locate the defect and retain its scope.** In the [calculation application](#app-rmp-04), the supplied method is suitable for the independent observations 2, 4, 6 and 8 and specifies sample variance with denominator `n−1`. Their mean is 5 and squared-deviation sum is 20. The implementation divides by `n`, reporting 5 instead of `20/3`. RMP.4 identifies that computation and the analyses that used it.
+1. **Locate the defect and retain its scope.** In the [calculation application](#rmpapplication4---app-rmp-04--retain-the-method-and-correct-its-research-consequence), the supplied method is suitable for the independent observations 2, 4, 6 and 8 and specifies sample variance with denominator `n−1`. Their mean is 5 and squared-deviation sum is 20. The implementation divides by `n`, reporting 5 instead of `20/3`. RMP.4 identifies that computation and the analyses that used it.
 2. **Correct and verify the affected result.** RMP.9 retains the method and repairs the denominator. RMP.5 recalculates the dependent analysis; RMP.8 returns any changed uncertainty or conclusion to the actual use that relied on it. The known-answer check settles this correction without new participants or an efficacy study. Unaffected analyses retain their existing support.
 3. **Reopen fit when the question changes.** Now suppose the programme needs an equally weighted mean across independent sites, with unequal numbers of dependent observations within each site. The old pooled-observation analysis no longer answers that target under the case premises. RMP.9 compares candidates for the same site-level quantity. In the changed-situation case, a qualified statistician, existing simulation code and a two-day allocation make a useful comparison attainable: a t interval from independent site means versus resampling whole sites. The selected comparison is the result so far; the winning procedure and its qualification remain unresolved until actual results exist. Retain the restriction on the unsupported uncertainty claim and reconsider the acquisition if access, capability or worth changes.
 
-# Preface
+# Research Method Practice Principles Framework Architectural Reference
 
 **Edition:** First edition, version 4 October 2026. The source-use account states the qualification dates and limits of the methodological contributions.
 
 Research Method Practice can begin before a study or with supplied material and a claim. A current source answer may already be enough. Otherwise the practitioner may need a research-allocation answer, a question-preserving operational choice, an inspectable trace, an analysis of what the material supports, a useful credibility examination, a corpus answer, a precise knowledge revision or a decision about retaining or improving a research Method.
 
-RMP.1 and RMP.2 form the pre-study contribution: qualify the question or return its source/owner answer, then use sufficient evidence, select a worthwhile design, return a true hold or complete a no-new-study answer. RMP.3 makes a selected design executable without replacing its question. RMP.4 preserves or recovers actual material for a declared examination. RMP.5 analyzes and criticizes the claim under its Method; RMP.6 decides which further credibility contribution, if any, should be obtained. RMP.7 appraises and synthesizes a corpus under its research question; RMP.8 revises the exact claim or model contribution and returns it to its actual use. RMP.9 distinguishes a Method difficulty from a limited correction, selects useful further comparison when warranted and returns its actual consequences. The nine Methods keep intention, conduct, claim support, acquisition, Method qualification and receiving authority distinct.
+RMP.1 and RMP.2 form the pre-study contribution: qualify the question or return its source/owner answer, then use sufficient evidence, select a worthwhile design, return a true hold or complete a no-new-study answer. RMP.3 makes a selected design executable without replacing its question. RMP.4 preserves or recovers actual material for a declared examination. RMP.5 analyzes and criticizes the claim under its Method; RMP.6 decides which further credibility contribution, if any, should be obtained. RMP.7 appraises and synthesizes a corpus under its research question; RMP.8 revises the exact claim or model contribution and returns it to its actual use. RMP.9 distinguishes a Method difficulty from a limited correction, selects useful further comparison when warranted and returns its actual consequences. RMP.10 reconstructs a candidate Method account from practice evidence when ordinary recovery is insufficient; RMP.11 explains Method history through diagnostic sources and competing accounts. The eleven Methods keep intention, conduct, claim support, acquisition, Method qualification and receiving authority distinct.
 
-## RMP.Preface:1 - The practical question behind research and engineering
+## RMP.Reference:1 - The practical question behind research and engineering
 
 A reliability engineer may need to change a pump's maintenance interval, while a resident group may need to explain a stream anomaly. Both can reach the same difficulty: the answer needed for the next decision is uncertain, and the team does not yet know whether to retrieve an existing answer, apply a qualified Method, or design an inquiry. RMP.1/RMP.2 help the practitioner produce that first discriminating result. A bounded question or an exact return is useful before anyone commits to a study.
 
@@ -137,7 +177,7 @@ Science also names a social institution: organizations, occupations, careers, fu
 
 The practical gain is a better next move: use the supplied answer, obtain an ordinary professional result, qualify a question, choose a defensible design, specify its operations, recover actual material, state the bounded claim, select relevant credibility work, synthesize compatible contributions, revise and return a knowledge account, or retain or improve a research Method. Each contribution can instead identify the particular missing result or changed premise. A request to “prove that the change works” may become a question about whether the relevant mechanism transfers—or return to routine engineering if that relation is already qualified. A later operational choice must preserve that question; a retained trace cannot compensate for losing its decisive comparison.
 
-## RMP.Preface:2 - Forces that shape the first result
+## RMP.Reference:2 - Forces that shape the first result
 
 | Working tension | How it changes use of this repertoire |
 | --- | --- |
@@ -150,34 +190,34 @@ The practical gain is a better next move: use the supplied answer, obtain an ord
 | A protocol needs specific choices, but some inquiry develops through engagement with its material. | State justified advance commitments, permit method-appropriate evolution, and preserve the reasons and timing of consequential changes. |
 | Later criticism needs records, but exhaustive capture can hide decisive choices or expose protected information. | Preserve the material needed for the named examination, establish actual permitted access, and state which uses loss or redaction prevents. |
 
-## RMP.Preface:3 - Research membership is not institutional status
+## RMP.Reference:3 - Research membership is not institutional status
 
 Research can be performed in a company, public body, university, archive, community, independent practice or citizen group. Affiliation, grant, venue, publication intent, title or tool use is neither necessary nor sufficient. The boundary depends on a knowledge question unresolved in the qualified frame, a non-routine epistemic task of the whole inquiry under genuine uncertainty, a criticism-ready trace and a bounded communicable contribution. A constituent action or the execution of an already justified protocol may be routine within that inquiry.
 
 The same activity can sit on either side. A seal test can be routine qualification or a challenge to the relation that makes acceleration relevant. A fully specified replication can examine a disputed claim without inventing a new protocol. In [RMP.1’s paired assay case](#rmp157---one-supplied-protocol-two-different-epistemic-tasks), the same procedure instead supports ordinary quality control when the task is to return a lot verdict under an accepted rule. Stream sampling can be monitoring or an inquiry into rival causes; source reading can answer the question or contribute to a source-critical design.
 
-## RMP.Preface:4 - Question, frame, design, Work, result, and decision remain distinct
+## RMP.Reference:4 - Question, frame, design, Work, result, and decision remain distinct
 
 A receiving question names why knowledge may matter. A ResearchQuestionBrief states the intended episteme change, current frame, bounded question, criticism demand and constraints. It distinguishes what the evidence must establish for an adequate answer from when the present work may finish with uncertainty, refusal or a missing-input return. A research design is a prospective strategy connecting that question to observations or sources and method-appropriate criticism. A protocol or operationalization map elaborates a design. Performed Work, records, analysis output, criticism, a warranted episteme change, publication, recognition, and actual downstream use are further distinct.
 
 RMP.1/RMP.2 supply the brief and current design disposition; RMP.3 supplies operational specification or an exact return; RMP.4 supplies the trace and its receiving limits; RMP.5 supplies the bounded claim and actual criticism; RMP.6 supplies the credibility choice and interprets an actual test return when one exists. RMP.7 supplies EvidenceSynthesis; RMP.8 supplies EpistemeChangeAndEvidenceReturn; RMP.9 supplies ResearchMethodPracticeRevision, including supported retention or a bounded correction. These names require the relevant content, not a new file for each result. A protocol remains an intention, and a trace represents only conduct supported by its records. Later conduct needs actual performance and its evidence. Domain claims need their qualified support, and the receiving practice retains study permission and its engineering, management, policy, regulatory or personal decision.
 
-A Method pattern is a knowledge account of a Method and its use: the recurring problem and its frame, forces, solution, grounds, cases, limits, consequences and relations belong to its content, including FPF's SoTA comparison. The section template, natural language, notation, file organization and publication location concern how that content is presented. A pattern language additionally organizes substantive relations among its contributions; a DPF is not merely a document format. One article can develop several related contributions, and one contribution can be explained in an article and in a pattern account without erasing the distinctions between their uses. [RMP.8:4.4.1](#rmp-method-publication) explains how to preserve the content and means needed to repeat or adapt it.
+A Method pattern is a knowledge account of a Method and its use: the recurring problem and its frame, forces, solution, grounds, cases, limits, consequences and relations belong to its content, including FPF's SoTA comparison. The section template, natural language, notation, file organization and publication location concern how that content is presented. A pattern language additionally organizes substantive relations among its contributions; a DPF is not merely a document format. One article can develop several related contributions, and one contribution can be explained in an article and in a pattern account without erasing the distinctions between their uses. [RMP.8:4.4.1](#rmp8441---make-a-research-method-contribution-recoverable-across-publication-forms) explains how to preserve the content and means needed to repeat or adapt it.
 
-## RMP.Preface:5 - Criticism comes before method prestige
+## RMP.Reference:5 - Criticism comes before method prestige
 A design must first explain how its material can answer the question. Reuse a justified strategy when available. Otherwise RMP.2 applies C.39: derive the distinction the answer needs, recover an actual methodological operation, follow it on available material and construct the missing connection. A failed comparison can change the observation, arrangement or question, or return a precise missing result. The resulting strategy is then compared with the actual alternatives and no new study.
 
 Experimental, field/observational, qualitative/reflexive, historical/source-critical, computational/model, synthesis, and mixed designs expose unlike errors. No family is a universal successor or top rung. RMP.2 asks which relation can expose the live rival, dependence, invalid source use, bias, context loss, or unsupported transfer and what would defeat or narrow the claim.
 
 Real answer-changing alternatives make method capture visible; a numerical quota can invent false alternatives. A missing input holds a particular selection still needed when plausible values change its family, criticism or feasibility. A completed allocation can instead retain that unknown as a limitation of QualifiedNoNewStudy. Obtaining it is a separate commitment. A genuinely post-selection need preserves the selected relation across its full admitted range and the jointly admissible combinations.
 
-## RMP.Preface:6 - Pattern relations do not prescribe a research lifecycle
+## RMP.Reference:6 - Pattern relations do not prescribe a research lifecycle
 
 `RMP.1 → RMP.2` is a result dependency only when a passing ResearchQuestionBrief and compatible current frame exist. RMP.2 can be entered directly with those supplied inputs. Either pattern can stop. A changed receiving question or frame returns to RMP.1; a changed selection premise reopens RMP.2.
 
-RMP.3 can consume a compatible supplied brief and selected design. RMP.4 can preserve records before operationalization is complete or start directly from inherited work. RMP.5 can examine supplied material and analysis; RMP.6 can enter with a bounded claim and threat before or after new study work. Actual material or criticism can reopen a question, design or operation. The Table of Contents exposes RMP.1–RMP.9 in five reading Parts; neither Part order nor numbering is a research calendar. RMP.7 can enter from a supplied synthesis question, design and trace; RMP.8 can enter from an actual analysis, criticism or synthesis result. RMP.9 can enter from actual performance, criticism or a changed receiving use. Its result reopens only the dependent research contribution; a completed inquiry need not start Method improvement.
+RMP.3 can consume a compatible supplied brief and selected design. RMP.4 can preserve records before operationalization is complete or start directly from inherited work. RMP.5 can examine supplied material and analysis; RMP.6 can enter with a bounded claim and threat before or after new study work. Actual material or criticism can reopen a question, design or operation. The Table of Contents exposes RMP.1–RMP.11 in six reading Parts; neither Part order nor numbering is a research calendar. RMP.7 can enter from a supplied synthesis question, design and trace; RMP.8 can enter from an actual analysis, criticism or synthesis result. RMP.9 can enter from actual performance, criticism or a changed receiving use. Its result reopens only the dependent research contribution; a completed inquiry need not start Method improvement.
 
-## RMP.Preface:7 - Use the two contributions together
+## RMP.Reference:7 - Use the two contributions together
 
 RMP.1/RMP.2 supply two related Methods for a bounded pre-study use. RMP.1 qualifies why an inquiry is needed and what answer would be enough. RMP.2 decides whether current evidence already suffices, which design can answer the qualified question, or which missing result prevents that choice. Their combination is useful when a request arrives before either question has been settled. A current allocation can also finish with insufficient evidence and no new study when no worthwhile obtainable acquisition is selected. Direct use of either contribution remains possible under its stated inputs.
 
@@ -189,49 +229,49 @@ The source-answer and design-allocation questions remain distinct. RMP.1 can fin
 
 If design comparison changes the question, receiving use, or useful stop, return that change to RMP.1. If it changes only an instrument, access, or other selection premise, reopen the affected RMP.2 comparison. A usable question can survive an infeasible preferred design. A supplied-answer stop or hold can likewise be the complete result of the present use. The Part that groups these bodies helps reading; it adds no third Method and requires no chronological research lifecycle.
 
-## RMP.Preface:8 - Connect operationalization and actual trace
+## RMP.Reference:8 - Connect operationalization and actual trace
 
-With a selected design, begin [RMP.3](#rmp-3) from one consequential observation or source choice. Explain how it bears on the bounded question, then specify the necessary units, selection, comparison, timing, Method and planned use of the material. A qualified domain protocol can supply much of this. The research contribution is the connection and the change condition, not another mandatory form.
+With a selected design, begin [RMP.3](#rmp3---operationalize-the-research-design-without-replacing-the-question) from one consequential observation or source choice. Explain how it bears on the bounded question, then specify the necessary units, selection, comparison, timing, Method and planned use of the material. A qualified domain protocol can supply much of this. The research contribution is the connection and the change condition, not another mandatory form.
 
 The resulting ResearchProtocolAndOperationalizationMap makes clear what is executable and what remains blocked. A missing result may hold one operation while all admitted values preserve the selected design. A changed measure, source or comparison that can defeat the selected criticism returns to RMP.2. A changed question or useful stop returns to RMP.1. Apply those returns to the complete operational arrangement, including joint access, resource and retention conditions.
 
-Use [RMP.4](#rmp-4) to capture the material whose loss would matter and to recover what actual work can support. Preserve plans separately from actual conduct, later reports and reconstruction. Connect observations, sources and computations to their uses through consequential selection and transformation. State what was known when a change was made, including substantial human and AI contributions.
+Use [RMP.4](#rmp4---preserve-a-criticism-ready-research-trace) to capture the material whose loss would matter and to recover what actual work can support. Preserve plans separately from actual conduct, later reports and reconstruction. Connect observations, sources and computations to their uses through consequential selection and transformation. State what was known when a change was made, including substantial human and AI contributions.
 
 A trace can be prepared before a final claim exists for the criticism or analysis already intended. It can also start from inherited work. A reconstructed plan remains a reconstruction, and a new run remains new work. For a named examination, determine what the intended critic can actually inspect; controlled originals, public summaries and irrecoverable losses support different uses.
 
 One notebook may carry both the operational choices and the trace. Keeping their meanings distinct allows a reader to compare intention with conduct without multiplying documents. The next result may be an analysis-ready source set for its particular Method, or an honest account that the original comparison cannot be performed. RMP.5 supplies the research analysis and claim criticism, and RMP.6 the credibility choice, with their disciplinary inputs. RMP.7 supplies corpus synthesis when a qualified synthesis question, design and adequate actual material exist.
 
-## RMP.Preface:9 - Connect analysis and the credibility choice
+## RMP.Reference:9 - Connect analysis and the credibility choice
 
-Use [RMP.5](#rmp-5) to follow a consequential connection from the actual material through its Method to the proposed claim. An adequate existing analysis can supply the result. Preserve the distinction between planned and later choices, contrary material, uncertainty and the stronger claim the result cannot support. A bounded interpretation or unresolved answer may finish the present use.
+Use [RMP.5](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) to follow a consequential connection from the actual material through its Method to the proposed claim. An adequate existing analysis can supply the result. Preserve the distinction between planned and later choices, contrary material, uncertainty and the stronger claim the result cannot support. A bounded interpretation or unresolved answer may finish the present use.
 
-Use [RMP.6](#rmp-6) when a remaining credibility question can change the useful next move. Start directly with the supplied claim, basis, use and threat. Reproduction, replication, robustness, use-specific validation, corroboration and transfer examine different relations. Compare what the attainable result could change with access, preparation, performance, interpretation, protection, shared resources and displaced work.
+Use [RMP.6](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing) when a remaining credibility question can change the useful next move. Start directly with the supplied claim, basis, use and threat. Reproduction, replication, robustness, use-specific validation, corroboration and transfer examine different relations. Compare what the attainable result could change with access, preparation, performance, interpretation, protection, shared resources and displaced work.
 
 The selected test, its operational specification and an actual returned result remain separate. Inability to attempt an examination is not a discrepant result; an inconclusive result is not evidence of absence. A current no-new-test answer retains its uncertainty, and a newly obtainable discriminating comparison can reopen the choice. The protected-function merits of a disputed requirement and the authority to amend its current force also remain distinct.
 
-## RMP.Preface:10 - Connect corpus synthesis and exact revision
+## RMP.Reference:10 - Connect corpus synthesis and exact revision
 
-Use [RMP.7](#rmp-7) when the question concerns what a corpus jointly establishes. First inspect whether a supplied synthesis already answers it. Otherwise recover the reports, underlying studies or sources, their dependence, exclusions and missing contributions. The question and applicable Method determine whether to pool estimates, compare results without an aggregate, develop an interpretation, reconcile historical accounts or relate mixed findings.
+Use [RMP.7](#rmp7---synthesize-a-research-evidence-corpus) when the question concerns what a corpus jointly establishes. First inspect whether a supplied synthesis already answers it. Otherwise recover the reports, underlying studies or sources, their dependence, exclusions and missing contributions. The question and applicable Method determine whether to pool estimates, compare results without an aggregate, develop an interpretation, reconcile historical accounts or relate mixed findings.
 
 A synthesis preserves useful differences. Two reports from one study may add information without adding independent support. A shared theme can remain situated rather than becoming a population percentage. A refusal to estimate a common magnitude can finish when it says what the corpus does and does not establish.
 
-Use [RMP.8](#rmp-8) when that result or an individual analysis changes a wider claim, model or actual receiving use. Identify the same subject and conditions on both sides, retain the supported part and reconcile the affected dependent claims. A date for a decision does not by itself explain the later implementation. An unsupported field-transfer premise can invalidate a model's field prediction while leaving its laboratory relation usable.
+Use [RMP.8](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) when that result or an individual analysis changes a wider claim, model or actual receiving use. Identify the same subject and conditions on both sides, retain the supported part and reconcile the affected dependent claims. A date for a decision does not by itself explain the later implementation. An unsupported field-transfer premise can invalidate a model's field prediction while leaving its laboratory relation usable.
 
 Return the current answer with the basis, uncertainty and limitation that changes reliance. Known consequential uses need the permitted correction through their responsible owner. A short linked explanation may suffice; neither an unused change form nor a general consumer register is required. A worthwhile new research possibility remains a separate question of attainable contribution and whole burden.
 
-For a contribution that includes a reusable Method, use [RMP.8's publication branch](#rmp-method-publication) to distinguish the supported knowledge from its article, pattern or framework presentation. Reconstructing a derivation, rerunning a calculation, obtaining new measurements and transferring the Method require different means and agreement criteria. The [calibration case](#rmp-calibration-publications) shows what remains unchanged across publications and what a shortened account must not lose.
+For a contribution that includes a reusable Method, use [RMP.8's publication branch](#rmp8441---make-a-research-method-contribution-recoverable-across-publication-forms) to distinguish the supported knowledge from its article, pattern or framework presentation. Reconstructing a derivation, rerunning a calculation, obtaining new measurements and transferring the Method require different means and agreement criteria. The [calibration case](#rmp856---one-calibration-contribution-an-article-and-a-pattern) shows what remains unchanged across publications and what a shortened account must not lose.
 
-## RMP.Preface:11 - Connect Method improvement and research consequences
+## RMP.Reference:11 - Connect Method improvement and research consequences
 
-Use [RMP.9](#rmp-9) when a research Method or its practice becomes the actual question. First distinguish the Method from its description, implementation, local execution, capability and affected claim. An adequate current Method can be retained, and a determinate correction can finish after its relevant verification.
+Use [RMP.9](#rmp9--decide-whether-and-how-to-improve-research-methods-and-practice) when a research Method or its practice becomes the actual question. First distinguish the Method from its description, implementation, local execution, capability and affected claim. An adequate current Method can be retained, and a determinate correction can finish after its relevant verification.
 
 When a material choice remains open, compare attainable alternatives for the same research purpose and the criticism it must withstand. Obtain further evidence only when its possible results can change that choice and its complete burden is warranted. Otherwise retain the supported position and restrict any unsupported use. A decision to decline a comparison does not qualify the Method.
 
 A corrected analysis can return through RMP.5/RMP.8 while a wider Method question remains open. A Method change can instead reopen an operational choice, credibility claim or synthesis contribution. Keep the actual dependency and unaffected results visible. New research still needs the RMP.1 membership conditions; Method improvement does not prescribe a ninth stage after every study.
 
-The relevant Method Engineering contributions supply reusable identity, trial, fit, worth, variant and introduction distinctions. [RMP.9's source account](#rmp911---sota-echoing) connects these to research practice. ME.14 permits an adequate present choice or a retained set with its limitation; further inquiry depends on its useful obtainable contribution and whole burden. RMP.9 applies those distinctions to the research question and its affected result. A sufficient research account can carry the decision without a separate ME.14 record.
+Core supplies Method identity, trial, fit, worth and variant distinctions; A.3.1.MI supplies introduction. [RMP.9's source account](#rmp911---sota-echoing) connects these to research practice. C.11.MV permits an adequate present choice or a retained set with its limitation; further inquiry depends on its useful obtainable contribution and whole burden. RMP.9 applies those distinctions to the research question and its affected result. A sufficient research account can carry the decision without a separate C.11.MV record.
 
-## RMP.Preface:12 - Conditions for a usable combined result
+## RMP.Reference:12 - Conditions for a usable combined result
 
 Use one receiving question, intended episteme change, and useful stop across the combination. The source frame, rival accounts, applicability envelope, and supplied owner results must be compatible with that same use. Two locally plausible results cannot be combined when, for example, the brief concerns field seal degradation but the design comparison quietly assumes a different material or temperature mechanism. Requalify the changed question or obtain the missing relation before treating the design as its answer.
 
@@ -245,7 +285,7 @@ These conditions first qualify the selected design and then constrain its operat
 
 **Constituent actions in ongoing work.** During a study, classifying one observation can constitute part of constructing the analytical comparison, within an ongoing inquiry into a stated explanation. If the inquiry changes from describing recorded cases to explaining their occurrence, a classification that ignores how cases were selected may no longer support it. Recording skill and statistical calculation can both be available while the intermediate operationalization is inadequate. RMP.3 addresses that operationalization; the design and analysis Methods retain their own questions. Recover the vertical with B.1.5.EW and account for the access, specialist capability and shared observation burden needed by the combined work. Earlier collection is not assumed to continue during every later calculation.
 
-## RMP.Preface:13 - Architectural Rationale
+## RMP.Reference:13 - Architectural Rationale
 
 The question/design Part follows two decisions that practitioners can complete separately: whether a new inquiry is needed, and which strategy could answer its qualified question. Combining the Methods preserves continuity between them without forcing every request through a study. Separating their results also makes revision precise: a new source can close the question; an invalid sensor can reopen design while the question remains useful.
 
@@ -258,23 +298,216 @@ The question/design Part follows two decisions that practitioners can complete s
 | Stop the published repertoire after question qualification alone. | RMP.1 already avoids unnecessary studies and returns adjacent work correctly. | It leaves a passing brief without the justified design-or-stop result needed by the seal and stream users. The second Method closes that pre-study question, including an explicit hold when selection cannot be completed. |
 | Stop the repertoire at question and design. | It gives a complete pre-study disposition without a larger research account. | Use RMP.1/RMP.2 directly when that is the result needed. A selected design does not itself connect the detailed operational choices or preserve actual conduct; RMP.3/RMP.4 address those additional difficulties. |
 | Combine protocol and trace into one undifferentiated result. | A small inquiry may use one notebook, reducing paperwork. | Keep that single carrier when useful, but distinguish intended choices from actual and reconstructed conduct. The distinction permits direct legacy entry and criticism of changes. |
-| Use a comprehensive disciplinary handbook. | It can supply detailed professional techniques, instruments and qualified procedures for a known field. | Use that source for its actual contribution. RMP's nine Methods connect the research question, evidence and Method decision; they do not replace every discipline's professional practice. |
+| Use a comprehensive disciplinary handbook. | It can supply detailed professional techniques, instruments and qualified procedures for a known field. | Use that source for its actual contribution. RMP's Methods connect the research question, evidence and Method decision; they do not replace every discipline's professional practice. |
 
 The source architecture follows the same choice. Generic source recovery, evidence use, and reusable Method qualification retain their existing owners; RMP connects their supplied results to the research question, design, operational choices, actual trace, bounded claim and credibility question. This costs an explicit external-result dependency, but preserves source maturity, domain competence, and the ability to stop when a supplied premise is absent. A retelling can reduce navigation, but it also creates a second account whose source qualifications need maintenance. RMP instead explains the receiving research use and returns to the supplying Method for its content.
 
-<a id="what-this-preview-foregrounds-and-leaves-outside"></a>
-## RMP.Preface:14 - What the repertoire foregrounds and leaves outside
+
+## RMP.Reference:14 - What the repertoire foregrounds and leaves outside
 
 The repertoire foregrounds the question/current-frame boundary, useful completion, exact owner returns, real design alternatives, honest allocation with insufficient evidence, question-preserving operations and trace, method-appropriate claim criticism, relevant credibility work, corpus synthesis, exact revision/return and research-Method improvement or retention.
 
-Generic source, evidence, inference, representation, comparison, uncertainty, value, decision, Method, monitoring, assurance, acceptance, and current-state mechanics retain their FPF, Method Engineering, domain, or institutional owners. The full nine-pattern repertoire still depends on the particular field's professional criteria, competence and obtainable results.
+Generic source, evidence, inference, representation, comparison, uncertainty, value, decision, Method, monitoring, assurance, acceptance, and current-state mechanics retain their Core, domain, or institutional owners. The full eleven-pattern repertoire still depends on the particular field's professional criteria, competence and obtainable results.
 
-## RMP.Preface:End
+## RMP.Reference:15 - Intended use and ordinary non-use
+
+Use this repertoire to qualify a research question, answer a current design-allocation question, make the selected inquiry operational, recover actual material, examine its claim, select relevant credibility work, synthesize its corpus, return the exact knowledge revision, or retain or improve a research Method. Enter from the actual missing contribution with compatible supplied inputs.
+
+Do not use it as a generic literature-search guide, research-administration manual, ethics or safety process, ready-to-run domain protocol, statistics handbook, domain measurement guide, publication checklist, evidence hierarchy, funding rule, or authority for the receiving decision. It does not establish that Work occurred or a claim became true.
+
+## RMP.Reference:16 - Judge the connected result
+
+The practical entries are recognition aids. Correct use requires the reasons and conditions in the complete bodies. Inherit the [RMP.1 checklist](#rmp17---conformance-checklist) for a passing brief, the [RMP.2 checklist](#rmp27---conformance-checklist) for a design disposition, the [RMP.3 checklist](#rmp37---conformance-checklist) for operationalization, the [RMP.4 checklist](#rmp47---conformance-checklist) for the trace, the [RMP.5 checklist](#rmp57---conformance-checklist) for analysis and claim criticism, the [RMP.6 checklist](#rmp67---conformance-checklist) for the credibility decision, the [RMP.7 checklist](#rmp77---conformance-checklist) for synthesis and the [RMP.8 checklist](#rmp87---conformance-checklist) for revision/return and the [RMP.9 checklist](#rmp97---conformance-checklist) for Method retention or change. For the contributions actually combined, also examine their connection:
+
+| Substantive question | A usable answer and its return when absent |
+| --- | --- |
+| Does the design answer the same bounded question for the same receiver and useful stop? | Show the brief positions used by the comparison. Requalify a changed question; obtain an unresolved material, population, context, or source relation instead of assuming compatibility. |
+| Does the completion concern sufficient evidence or the present allocation with insufficient evidence? | Preserve the adequate answer for EvidenceSufficientStop, or the bounded answer and no-new-study reason for QualifiedNoNewStudy. A missing result holds only the selection it prevents; resource and authority decisions retain their owners. |
+| Can the chosen strategy expose the criticism demand, including the dependence and disagreement of any components? | Name the defeating or narrowing result and the shared assumptions. Apply the [whole-combination conditions](#rmpreference12---conditions-for-a-usable-combined-result) when several Methods contribute. |
+| For a design selection still needed, could remaining values alone or jointly change the family, criticism, feasibility or refusal? | Return ResearchDesignHold when those values prevent that selection. Only an actually selected design can retain invariant PostSelectionNeed. A completed QualifiedNoNewStudy answer keeps its evidence limit without turning it into an acquisition. |
+| Do the operational choices still support the selected question and criticism? | Follow one consequential observation or source choice through the whole arrangement. Name a blocked action or return a defeated premise under RMP.3; do not hide a changed design in protocol detail. |
+| Does the receiving examination have the actual material and access it needs? | Use RMP.4 to distinguish plans, conduct, reconstruction, transformations and loss. State the particular examinations still supported and those prevented. |
+| Does the analysis warrant the proposed claim under its Method? | RMP.5 follows the material-to-claim connection and retains consequential choices, contrary material, uncertainty and unsupported stronger uses. |
+| Does the credibility examination address the actual threat, and is it obtainable and worthwhile? | RMP.6 compares the meaningful result with the whole arrangement, preserves a useful no-new-test answer, and distinguishes selection from actual performance. |
+| Does the corpus answer preserve the question, source dependence and warranted transformation? | RMP.7 distinguishes independent support, compatible synthesis, context and missing material. A refusal states the narrower supported result. |
+| Does the revision concern the same assertion and reach the actual use that needs it? | RMP.8 reconciles affected claims, preserves uncertainty and returns the permitted correction through its responsible owner. |
+| Does the Method decision address the actual subject and change only its dependent use? | RMP.9 separates supported retention, bounded correction, worthwhile evidence acquisition and restricted use; RMP.5/RMP.8 or another actual consumer receives only the consequential return. |
+| What has actually been returned, and what can the receiver do with it now? | Identify the supplied answer, brief, design disposition, operational specification, limited trace, bounded claim/criticism, credibility decision and actual test result when one exists, corpus synthesis, exact knowledge revision and return, or supported Method retention or change. The receiving action still needs its own criteria and authority. |
+
+These questions test the present result; counting completed rows does not establish that evidence exists or that Work occurred. A direct use of RMP.2 with a compatible supplied brief needs no second RMP.1 record. When one premise changes, revisit the result and combinations that rely on it while retaining unaffected work.
+
+## RMP.Reference:17 - Bias and the reach of these examples
+
+The seal and stream cases foreground engineering evidence and observable anomalies; the historical and interpretive contrast prevents controlled experiment from becoming the implicit model of every inquiry. The Method-correction case additionally exposes the difference between implementation repair, Method qualification and a changed receiving claim. Together these cases make important branch and loss decisions recognizable, but they are constructed cases, not field validation of the repertoire. RMP.2 compares unlike design families, RMP.3 preserves their operational differences, RMP.4 relates actual material to the intended examination, and RMP.5/RMP.6 connect method-appropriate criticism and testing to the bounded claim. These contributions do not provide each family's complete professional practice or establish equal coverage of every research tradition.
+
+The requirement for a named receiving use can make a sponsor's decision too prominent. The receiver may instead need a bounded explanation or corpus contribution; immediate commercial, policy, or operational action is not required. Keep rival accounts capable of changing the favored answer, and distinguish a sponsor's preference from the criticism demand. The [RMP.1 bias account](#rmp16---bias-annotation) and [RMP.2 bias account](#rmp26---bias-annotation) address status, activity, favourite-Method, tool and authority drift. [RMP.3](#rmp36---bias-annotation) adds operational selection and researcher-position questions; [RMP.4](#rmp46---bias-annotation) adds retrospective reconstruction, unrecorded exclusions and access consequences. [RMP.5](#rmp56---bias-annotation) and [RMP.6](#rmp66---bias-annotation) address interpretive overreach, technique prestige, repetition and acquisition bias. [RMP.7](#rmp76---bias-annotation) adds corpus selection and source-dependence limits; [RMP.8](#rmp86---bias-annotation) adds wider model reliance and receiving-use limits. [RMP.9](#rmp96---bias-annotation) adds novelty, easy-metric, compulsory-acquisition and unsupported-retention risks.
+
+Applying the same membership conditions does not give every group the same resources or access. Community access, specialist competence, funds, archive rights, or a safe sampling window can determine what can actually be done. Preserve those conditions as concrete results and constraints. Bounded communicability requires a critic to recover the reasoning; it does not demand public release of protected records or convert an institutional template into the only acceptable trace.
+
+## RMP.Reference:18 - Failures at the connection between the patterns
+
+| Consequential misreading | Practical correction |
+| --- | --- |
+| A passing ResearchQuestionBrief is treated as approval to begin the favored test. | Use RMP.2 to justify the design and obtain the actual owner results. The brief establishes the epistemic question, not permission or a selected strategy. |
+| The brief, design, protocol or trace looks complete, but its question, source frame, material or receiving use differs from the contribution it relies on. | Compare the shared premises at the connection and return the changed question or missing compatibility result. Individually detailed accounts do not repair the mismatch. |
+| Every component of a mixed design is feasible, so the combination is declared feasible. | Check shared capacity, burdens, access windows, and the integration claim for the whole set, as in the twelve-day example. |
+| A missed comparison is carefully recorded but the original claim remains unchanged. | Preserve the loss and return the defeated design premise. The trace can support a narrower examination without restoring absent evidence. |
+| A final reconstructed protocol is called a prospective commitment. | Preserve the actual evidential basis and timing. A useful reconstruction cannot establish an earlier decision that its sources do not support. |
+| A public summary is treated as equivalent to the protected original for every criticism. | State which examination each available view supports; obtain permitted access or narrow the receiving use. |
+| A repeated computation is treated as evidence that the model is adequate for any field use. | Preserve the computational result and examine the claimed model-to-field relation under RMP.5/RMP.6. |
+| A selected credibility test is treated as an actual result. | Preserve the decision, actual performance and returned evidence as different facts. |
+| A corpus count is treated as independent corroboration or unlike results as one magnitude. | RMP.7 recovers contributions and the justified transformation before synthesis. |
+| A correction changes the event or leaves a dependent model claim unqualified. | RMP.8 matches the assertion and reconciles its actual dependent uses. |
+| A selected Method trial is treated as a qualified improvement, or its cost makes unsupported use appear adequate. | RMP.9 keeps acquisition worth, performed evidence and Method adequacy separate. Restrict the unsupported use and preserve the affected claim's limit. |
+
+## RMP.Reference:19 - Practical consequences and revision
+
+The arrangement can save a study, give a team a defensible research direction, identify one missing external result, or return a claim whose support and limits are clear. It also makes routine qualification and monitoring easier to recognize and continue under their own Methods. The work required depends on the live question: reuse adequate source, design and analytical results; obtain only the additional contribution that warrants its arrangement. Operational choices and timely records can preserve an otherwise lost comparison. Analysis can narrow an unsupported explanation, and a relevant credibility examination can change its support. Corpus synthesis can distinguish genuine joint support from repeated or incompatible material; exact revision makes that result usable without hiding its limits. Method improvement can retain adequate practice or correct its implementation; a changed Method or situation can justify a further comparison and a precise return to its actual research consumer. These contributions earn their cost through the distinction they preserve or the uncertainty they can change.
+
+Reconsider a particular use when the question, receiver, source frame, live rivals, mechanism, measure, access, resource envelope, or authority changes. Reconsider the repertoire's shared architecture when repeated cases cannot distinguish ordinary practice from research with its four conditions, when an unlike design is systematically misrouted, or when the Methods cannot produce their promised bounded results without silently borrowing an absent or unqualified external result. Preserve the failed case and the missing contribution so that revision addresses the difficulty. The [source-currentness account](#rmpsources1---source-use-and-currentness) states the source changes that reopen the relied-on methodological claims.
+
+A new version can improve any contribution or its connections. Wider disciplinary coverage requires the corresponding Methods and evidence. The present examples show how to obtain bounded results; they do not establish that the framework improves outcomes in every setting or that a selected study will yield the desired answer.
+
+## RMP.Reference:20 - PatternID and reader order
+
+`RMP.*` is the Research Method Practice namespace. Pattern numbers are stable addresses. The public Table of Contents includes only authoritative bodies available in this carrier.
+
+| Available PatternID | Recurring practitioner difficulty | First useful result |
+| --- | --- | --- |
+| `RMP.1` | Decide whether an ambiguous request is a genuine unresolved research question or an exact source/non-research return. | `ResearchQuestionBrief` or exact supplied-result, owner-result, or source-gap return |
+| `RMP.2` | Decide whether evidence is sufficient, a useful feasible design is selected, a particular selection is held, or the current allocation closes with no new study. | One `ResearchDesignDisposition` |
+| `RMP.3` | Make the selected design executable while preserving its question and criticism. | ResearchProtocolAndOperationalizationMap for the supported scope, or an exact operation/owner, design or question return |
+| `RMP.4` | Preserve or recover actual research material for a named examination. | ResearchTracePackage with inspectable connections and explicit access, reconstruction and loss limits |
+| `RMP.5` | Establish what the material supports under its Method and what criticism changes the claim. | Bounded ClaimCandidate with its CriticismRecord |
+| `RMP.6` | Choose the useful examination of a claim-relative threat and interpret its actual return when supplied. | CredibilityTestDecision, distinct from a performed test and its result |
+| `RMP.7` | Establish what a contested corpus warrants under its synthesis question. | EvidenceSynthesis, adequate existing answer, useful refusal or exact input return |
+| `RMP.8` | Revise the identified knowledge contribution and return it with consequential reliance limits. | EpistemeChangeAndEvidenceReturn, proportionate to the actual account and receiving use |
+| `RMP.9` | Retain or improve a research Method and its practice for a named use. | ResearchMethodPracticeRevision with supported retention, correction, change or restricted use; a selected comparison remains distinct from obtained qualification |
+| `RMP.10` | Reconstruct a candidate reusable way from a justified specialist evidence programme. | Scoped candidate accounts, claim-to-evidence connections, variants and uncertainty, or an honest lower result |
+| `RMP.11` | Explain Method differentiation using dated and diagnostic evidence. | Differentiation account with rivals and evidential limits; a separate C.28 result only when causal reliance is needed |
+
+Part I groups RMP.1/RMP.2 for question and design; Part II groups RMP.3/RMP.4 for operationalization and research trace; Part III groups RMP.5/RMP.6 for claim analysis and credibility work; Part IV groups RMP.7/RMP.8 for corpus synthesis and exact revision/return; Part V supplies RMP.9 for Method improvement and retention. Part VI supplies RMP.10 for evidence-based reconstruction of practice and RMP.11 for explanation of Method history; either can enter with compatible supplied research inputs. An ambiguous request can begin with RMP.1; compatible supplied inputs permit direct entry to RMP.2 or RMP.3. RMP.4 also admits existing work and can begin capture before a final protocol or claim exists. Supplied material and analysis permit direct RMP.5 entry; a bounded claim, basis, use and threat permit direct RMP.6 entry. RMP.7 accepts a compatible synthesis question, design and trace; RMP.8 accepts actual analysis, criticism or synthesis for the identified account and receiving use. RMP.9 accepts an actual Method difficulty or changed research use and tries the supported present answer before further comparison. Neither reader order nor an arrow asserts performed Work, a universal sequence or compulsory continuation.
+
+## RMP.Reference:21 - Available repertoire and scope
+
+| Contribution | PatternIDs | Available result and scope |
+| --- | --- | --- |
+| Question, current frame, and design/stop | `RMP.1`–`RMP.2` | An exact source/owner answer or research question, then EvidenceSufficientStop, ResearchDesignDecision with genuine PostSelectionNeed, ResearchDesignHold or QualifiedNoNewStudy for the current selection. |
+| Operationalization and trace | `RMP.3`–`RMP.4` | Question-preserving operationalization or an exact obstacle/return, and a trace for its named examination with explicit limitations. These results come from their respective Methods, not from design selection alone. |
+| Analysis, criticism, and credibility | `RMP.5`–`RMP.6` | A bounded claim with method-appropriate criticism, and a relevant credibility decision with interpretation of an actual test result when supplied. Either can finish the present question. |
+| Synthesis, episteme revision, and evidence return | `RMP.7`–`RMP.8` | A warranted corpus answer, including an adequate existing synthesis or useful refusal, and an exact knowledge revision with its bounded receiving return. |
+| Research Method and practice improvement | `RMP.9` | Supported retention, correction or change for the named research use, or a restricted/stopped unsupported use. Relevant Core and field contributions retain their own scope. |
+| Practice reconstruction | `RMP.10` | A larger evidence programme for an unresolved candidate-Method question, with ordinary recovery and a sufficient bounded stop retained. |
+| Method history | `RMP.11` | Diagnostic historical comparison that preserves source dependence, surviving rivals and separate causal-use conditions. |
+
+The repertoire contains all eleven RMP patterns. A complete repertoire provides their Methods, not the case-specific evidence, competence or authority needed to use them. A missing external contribution remains a precise limitation on the dependent result.
+
+## RMP.Reference:22 - Direct result relations and non-lifecycle topology
+
+- RMP.1:4.3 applies F.1, F.0.1 and A.10 to the receiving question and available source texts. The result is an answer with its source basis and limitations. A suitable supplied answer permits direct use.
+- RMP.1:4.3.2 compares alternatives when their differences could change the answer. F.1 guides source selection; a claim about the best-known current answer also uses E.8's SoTA distinctions. The comparison can narrow the question, supply a sufficient answer or identify what remains to be investigated.
+- RMP.1 supplies RMP.2 only on its passing branch. Supplied-answer, non-research, and source-gap branches exit.
+- RMP.2 can finish with EvidenceSufficientStop or QualifiedNoNewStudy, or identify the selection held by a missing result. Only ResearchDesignDecision or a compatible supplied selected design supports RMP.3.
+- RMP.3 connects the selected question/design to operational choices and record needs. A blocked operation, defeated design or changed question returns to its exact owner.
+- RMP.4 admits ongoing or inherited work directly. Its trace connects actual records and changes to the named examination, without requiring a final claim or a new prospective protocol.
+- Operational choices can guide capture; actual loss or changed conduct can reopen the dependent design or question. Neither connection requires a fixed sequence.
+- RMP.5 examines the claim through supplied actual material and its Method. It can return the bounded answer directly or a precise defeated premise.
+- RMP.6 enters with a bounded claim, basis, use and threat. It can use an existing result, select useful attainable testing, finish with a qualified answer without it, or return the input that prevents selection.
+- RMP.7 uses a compatible supplied question/design and trace to appraise and synthesize the corpus. Its dependence, compatibility and source limits remain part of the answer.
+- RMP.8 accepts actual analysis, criticism or synthesis to revise the same identified contribution and return it to its actual use. Earlier direct answers remain sufficient when no broader reconciliation is needed.
+- RMP.9 enters with a Method difficulty or changed research use. Its supported retention or change returns only to the affected question, operationalization, material, analysis, credibility, synthesis or knowledge account. An unselected comparison creates no trial result.
+- RMP.10 uses ordinary A.3.1.MR recovery and the evidence programme the remaining question warrants. It returns scoped candidate accounts without Method admission; a complete current account needs no larger programme.
+- RMP.11 uses records and their dependencies to compare actual historical accounts. RMP.8 receives a revised knowledge claim where needed; current architecture and causal-use decisions retain their distinct grounds.
+- A changed question, current frame, receiver, or useful stop reopens RMP.1. A changed selection premise reopens RMP.2.
+
+The corporate, citizen, and historical applications take different routes. No route establishes one universal scientific method or mandatory lifecycle.
+
+## RMP.Reference:23 - What the sources contribute to the shared architecture
+
+The question/design foundation connects two source questions. Frascati supplies a cross-sector comparison for research membership; UNESCO’s participation account prevents an affiliation gate. RMP.1 applies its adapted conditions to the whole inquiry’s knowledge contribution. The National Academies’ new-data replication distinction prevents a ready protocol from excluding a useful examination of disputed knowledge. Ordinary quality control still returns its case verdict under an accepted rule. Historical and citizen inquiries need not promise universal generalization or a repeatable event. The [Frascati comparison](#rmp146---frascati-criteria-mutated-for-this-boundary) states the adaptations and their limits; none supplies truth or study authority.
+
+For the design question, MRC/NIHR connects programme theory, context and key uncertainties with choosing and refining an inquiry. Cochrane’s conceptual models connect intended effects to assumptions and useful comparisons within intervention reviews. RMP.2 adapts these constructive contributions and applies C.39’s general recovery and backward/forward construction to a research evidence relation. SRQR and AHA preserve situated and historical criticism; the National Academies keeps reproduction and replication distinct. The [RMP.2 account](#rmp211---sota-echoing) states the comparison and limits. None of these sources supplies the case’s domain truth or selects the receiving action.
+
+This is a methodological synthesis for the pre-study use. It is not evidence that one source supplied the question/design architecture or empirically validated its results. In particular, the PostSelectionNeed counterfactual is the repertoire's explicit rule for completing selection: it makes the consequence of an unknown value inspectable. The worked holds and selections explain that rule; the cited reporting standards do not certify it.
+
+For operationalization and trace, the selected best-known line is question-relative specification with an inspectable account of actual change and use. Flake/Fried and Lakens make consequential measurement and information choices explicit; SPIRIT supplies bounded specification distinctions and TOP separates timed commitments. Haven and the RTARG critique preserve an approach's justified evolution while challenging generic checklist use. RMP.3 adapts those contributions to operational choices and precise returns, not to one mandatory protocol.
+
+RMP.4 adapts source-critical, search and run-provenance distinctions to actual material. CARE/FAIR and responsible-AI guidance make data authority, permitted access and substantial human or tool contributions consequential to that account. The applicable owners' rules determine what can be retained and disclosed; the trace states which examination remains possible. The alternative of preserving and publishing everything can add burden and harm while still omitting a decisive choice. The alternative of keeping only a final methods narrative loses timing and selection. The chosen arrangement accepts selective recording work to preserve those particular distinctions; a competent existing protocol and trace remain the cheaper sufficient route.
+
+For analysis and credibility, SCORE's distinct examinations make analytical choices, obtainable computation and the comparison criterion consequential. RTARG and AHA preserve unlike interpretive and source-critical warrant. RMP.5/RMP.6 use those contributions to connect a bounded claim, its remaining threat and the test's possible result; existing adequate analysis and a qualified no-new-test answer can complete the present use.
+
+For corpus synthesis, Cochrane makes dependence, a justified quantitative model, explicit alternatives and missing contributions consequential. Its qualitative guidance and JBI preserve a choice between same-question integration and separately synthesized aspects; CERQual supplies a bounded finding-level confidence approach. AHA source criticism keeps historical dependence and chronology distinct from narrative count. RMP.7 adapts those contributions to the actual research question. RMP.8 combines bounded interpretation with FPF episteme and affected-use relations so that the result changes the exact account and reaches its actual receiver.
+
+For Method improvement, the established statistical simulation-design line and newer transparency and failure-handling work make the selected comparison's target, performance and limits inspectable. RTARG and AHA preserve interpretation and source-use criteria that a generic benchmark would miss. RMP.9 connects those contributions to a research-specific Method decision, with supported retention, bounded correction and a justified acquisition choice kept distinct. Its Core Method-development account retains C.11.MV's distinction between an adequate current choice and further inquiry selected for its useful obtainable contribution.
+
+The resulting cross-family arrangement is a reasoned synthesis, not an empirically validated universal procedure. A stronger comparison, a changed research use or an observed failure can reopen the affected Method; adding sources without changing an answer is not an improvement by itself.
+
+The retained source dates and scopes matter. Frascati 2015 is a statistical-methodology comparator; the National Academies report supplies particular distinctions; reporting guidance supplies transparency obligations within its field. None is presented as a timeless complete research method. The source-currentness statement above remains the qualification for the claims inherited by this version. A stronger current answer or an observed misrouting reopens the affected claim and its consuming comparison, as described there.
+
+The [source-use and currentness notes](#rmpsources1---source-use-and-currentness) retain the bibliographic grounds, qualifications and source changes relevant to these architectural contributions.
+
+## RMP.Reference:24 - Using FPF for the source answer
+
+RMP.1:4.3 shows how to begin with a question and the available material. F.1 helps select sources by their contribution to the answer, F.0.1 recovers a consequential expression's meaning in its source, and A.10 supplies claim-bound evidence and provenance relations. For a claim about the best-known current answer, E.8:11 supplies the distinctions used to compare the relevant SoTA contributions. The account states what the sources answer and what their conditions or omissions leave unresolved.
+
+A relevant existing answer can be reused after checking that its question, sources and applicability fit. F.0.2 is a conditional contribution for conceptual synthesis in framework authoring. G.2 serves a broader refreshable SoTA pack under its declared frame. RMP.7 supplies research-corpus appraisal and synthesis when that is the task.
+
+FPF C.16 supplies the measurement discipline used when RMP.3 specifies an observation and RMP.4 distinguishes indications, measurement results and derived values. Domain methods supply the instrument and validity knowledge for that measurement.
+
+## RMP.Reference:25 - External result and authority boundaries
+
+Domain practices own phenomena, mechanisms, instruments, measurements, admissible observations, validity criteria, safety, and truth conditions. Core supplies Method identity, repertoire, requirements, performance/provision architecture, qualification, trial, fit, worth and variant Methods; A.3.1.MI supplies introduction and revision in practice. Operations, audit, evaluation, assurance, acceptance, governance, and institutional administration retain their own results.
+
+Ethics, rights, confidentiality, privacy, security, community control, access, resources, providers, and receiving authorities supply their exact permissions or decisions. RMP may identify that one of those results changes the question or design; it does not issue the result.
+
+Research returns a bounded episteme contribution and relevance to a receiver. It does not choose a maintenance interval, remediation, policy, release, treatment, compliance verdict, employment action, or personal decision.
+
+## RMP.Reference:26 - Public returns to adjoining practice
+
+Use the companion publications when the first result belongs to an adjoining practice. The requested result remains theirs; finding the publication does not establish that the result has been supplied for the current case.
+
+For FPF, [download the complete FPF-Spec.md](https://github.com/ailev/FPF/raw/refs/heads/main/FPF-Spec.md), open the downloaded file in a text or Markdown reader, and search for the full pattern headings given below.
+
+| Needed contribution | Where to continue and what to bring back |
+| --- | --- |
+| Develop a missing research strategy. | Start with RMP.2:4.4 and its worked seal construction. In the downloaded FPF specification, find `## C.39 - Find and Develop a Way to Obtain a Result` for the general recovery, construction and adaptation Method. Bring back an explained research evidence relation or the precise missing operation, with its conditions and useful stop. |
+| Recover an answer from existing sources. | Start with RMP.1:4.3 in this publication. In the downloaded FPF specification, find `## F.1 - Find and Select Sources for a Current Question`, `## F.0.1 - Source-Local Meaning Recovery`, and `## A.10 - Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph` for their contributing methods. Bring back the answer, sources, applicability and remaining uncertainty relevant to the research question. |
+| Specify or examine the measurement account used by the inquiry. | In the downloaded FPF specification, find `## C.16 - Measurement & Metrics Characterization (MM‑CHR)`. Bring back the measurand, applicable method and model, qualification, value and uncertainty needed for the research use, together with the competent domain or laboratory result. |
+| Identify or improve a reusable research Method, or test its situational fit. | Start with [FPF C.39.MF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39mf---choose-and-reopen-a-method-development-focus) for the Method being changed; use [FPF A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) for a trial in representative work and [FPF A.3.1.FT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31ft---qualify-method-fit-and-transfer) for fit or transfer. Bring the research-specific failure, question and criticism requirement. [RMP.9](#rmp9--decide-whether-and-how-to-improve-research-methods-and-practice) locates the research-practice decision and determines whether a trial is needed. |
+| Engineer the system or arrangement needed to obtain a result. | Use [Systems Engineering (SYSE.1)](Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1---choose-and-reopen-the-project-system-of-interest) for the system being changed and [SYSE.24](Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result) when obtaining arrangements compete. Bring the needed engineering contribution and applicable research constraints; a delivered apparatus is distinct from the research claim it may help test. |
+| Continue routine operating observation or response. | Use [Operations Management (OPS)](Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) with the supplied variables, response conditions, and operating authority. Return an unexplained mechanism, validity, or transfer question to RMP.1 only if the research conditions become relevant. |
+
+Domain-specific instruments, observation admissibility, source authenticity, ethics, rights, safety, and receiving decisions still require their actual competent owners. These public returns locate reusable contributions; they do not replace those case-specific results.
+
+## RMP.Reference:27 - Representative case coverage
+
+| Case family | Available RMP coverage | Preserved outside result |
+| --- | --- | --- |
+| corporate accelerated seal evidence | Routine qualification versus mechanism-validity question; current-evidence stop; design alternatives and joint-input test; mechanism-relative operational choices, repeated-observation units, marker failure return and damaged-specimen trace; analysis qualified by the field relation and a credibility choice that separates computational reproduction from validation for maintenance use. | Failure truth, instrument validity, safety/access, assurance, and maintenance decision. |
+| citizen urban-stream salinity | Monitoring versus unresolved anomaly; holder-neutral membership; current-evidence stop; design alternatives and holds; site-period operationalization, missed-event return, a trace separating downstream inspection from an unavailable paired comparison, a bounded descriptive claim, and the limit of a later season as a test of the missed event. | Environmental truth, sampling competence, safe/legal access, laboratory result, and regulatory response. |
+| historical factory-closure account | Authenticated-source stop versus source-critical question; historical/synthesis alternatives; provenance/access hold; question-relative source selection, inspected-source trace, contrary material and archival-loss consequences; an explanation narrowed or defeated by an authenticated counter-source and corroboration chosen for the surviving claim. | Archive rights, provenance facts, harm constraints, and public/institutional action. |
+| computational/model question | Distinct design and credibility questions; operational input/model/environment choices, run-specific provenance, substantial human/AI contribution and the limits of unavailable service replay; model-relative interpretation, defensible analytic sensitivity and explicit distinctions among reproduction, replication and use validation. | Domain model truth, validation target, compute/data/code access, and receiving engineering decision. |
+| contested evidence corpus | Question-led eligibility and trace; recovery of reports, studies and dependence; compatible quantitative combination, structured refusal, situated and mixed synthesis; exact revision and return with retained uncertainty. | Domain appraisal and synthesis criteria, access/rights and the receiver's authority. |
+| research Method and implementation | Suitable Method retained after a determinate calculation correction; affected analysis and claim returned; a materially changed receiving situation can justify a comparison whose actual qualification remains unresolved. Reflexive, historical and mixed cases preserve their own criteria. | Field criteria, actual comparison evidence, competence, source access, Method qualification and receiving authority. |
+
+These are use probes and reader examples. They establish no performed study, actual claim, effectiveness, recognition, or downstream use.
+
+## RMP.Reference:28 - Publication and maintenance boundary
+
+The complete pattern bodies supply the Methods, their cases, sources and conditions. The Readme and connected applications provide entry and explanation; return to the body for the particular move and its limits.
+
+A copy in another folder can carry a different edition. Check the date and available bodies in the copy actually being read before relying on its coverage or sharing a pattern reference.
+
+The carrier is a Research Method Practice practitioner reference, not an educational Guide and not the Engineering DPF Suite Reference. A repository link, Table of Contents row, or carrier declaration does not by itself constitute product-series admission, Suite membership, maintenance, continued availability, recognition, actual use, or effectiveness. Those claims require their own current evidence and owner.
+
+For source qualifications, citation and edition information, see the [Sources and Edition Notes](#research-method-practice-principles-framework-sources-and-edition-notes).
+
+## RMP.Reference:End
 
 
 # Part I - Qualify the Question and Choose a Design or Stop
 
-<a id="rmp-1"></a>
+
 ## RMP.1 — Decide Whether a Question Needs Research and When to Stop
 
 > **Type:** Research Method Practice practitioner method pattern
@@ -401,7 +634,7 @@ Say what this comparison changes: the answer, its applicability, the remaining r
 | troubleshooting, incident response, or fault isolation aimed at restoring one operating result | Return the diagnosis and recovery result to the domain engineering, service, or Operations Method. | A knowledge question survives the recovery, matters beyond the episode, and passes all four conditions. |
 | audit, compliance assessment, programme evaluation, or product acceptance against supplied criteria and authority | Return the verdict, evaluation, or acceptance result to the audit, governance, assurance, evaluation, or receiving-domain owner. | The validity of criteria, causal interpretation, transfer, or evidence claim itself becomes unresolved. |
 | source retrieval, currentness checking, or bounded cross-source comparison sufficient for the use | Return the answer and the source, applicability and comparison limits needed by its receiver, using §4.3. | A material source gap or a new question changes what that answer can establish. |
-| application of an already qualified professional Method to produce its ordinary domain result | Return the Work to that Method and domain owner. | Method fit, an underlying claim, or a materially new case creates the four-condition question. Repair of reusable Method identity, qualification, fit, trial, worth, or variants remains with Method Engineering. |
+| application of an already qualified professional Method to produce its ordinary domain result | Return the Work to that Method and domain owner. | Method fit, an underlying claim, or a materially new case creates the four-condition question. Repair of reusable Method identity, qualification, fit, trial, worth, or variants returns to the corresponding Core Method, with A.3.1.MI for introduction. |
 
 For adjacent Work or a missing result, carry forward the exact question, available material, expected result kind, owner, and reopen condition so useful Work can continue. A supplied answer returns to its receiver as a completed answer; it does not need a next owner task.
 
@@ -633,7 +866,7 @@ These sources do not decide claim truth, supply domain instruments, authorize Wo
 - **`A.10` — Evidence Graph Referring:** supplies exact evidence-use and provenance paths and limits; it does not create truth, assurance, authority, or Work.
 - **`F.0.2` and `G.2`:** supply conceptual synthesis for a framework-authoring decision and a broad refreshable SoTA pack respectively, when those uses are current. Ordinary source-answer preparation follows §4.3.
 - **`E.8:11`:** defines SoTA and its comparison roles. Section 4.3.2 applies those distinctions to what the existing research can answer; its practical consequence is a changed answer, applicability, research question or stop.
-- **Current Method Engineering:** owns reusable Method identity, repertoire, requirements, qualification, trial, fit, worth, variants/provenance, and introduction or revision. RMP.1 owns only the research-specific boundary and question semantics.
+- **Core Method development and A.3.1.MI:** supply reusable Method identity, repertoire, requirements, qualification, trial, fit, worth, variants/provenance, and introduction or revision. RMP.1 owns only the research-specific boundary and question semantics.
 - **`RMP.6` — Choose the Credibility Test That Bears on the Research Claim, or Answer without New Testing:** reuses a compatible bounded claim, basis and threat to choose a relevant examination, including new-data replication under a supplied design. Its whole-burden and no-new-test distinctions remain separate from membership.
 - **`RMP.2` — Choose a Criticism-Bearing Research Design or Stop:** consumes a compatible ResearchQuestionBrief and qualified current frame. RMP.1 does not select its design disposition.
 - **Domain engineering, Operations, assurance, audit, evaluation, safety, ethics, rights, access, instrument, governance, and receiving authorities:** supply their own results and retain their own decisions.
@@ -642,7 +875,7 @@ These sources do not decide claim truth, supply domain instruments, authorize Wo
 
 ### RMP.1:End
 
-<a id="rmp-2"></a>
+
 ## RMP.2 — Choose a Criticism-Bearing Research Design or Stop
 
 > **Type:** Research Method Practice practitioner method pattern
@@ -1013,10 +1246,12 @@ The selected sources do not supply domain truth, universal validity criteria, in
 
 ### RMP.2:12 - Relations
 
+RMP.10 supplies a specialist reconstruction of a candidate Method account when ordinary A.3.1.MR recovery cannot settle a worthwhile receiving question. RMP.11 supplies a dated, source-critical explanation of Method differentiation. Their evidence distinctions can inform design selection; naming either Method does not establish access, feasible sampling or a selected design.
+
 - **`RMP.1` — Decide Whether a Question Needs Research and When to Stop:** supplies the compatible ResearchQuestionBrief and qualified current frame. A changed question, use, frame, or useful stop returns there.
 - **`RMP.1:4.3`:** shows how F.1, F.0.1 and A.10 contribute to an answer from existing sources and how a comparison can change the research question. RMP.2 uses that answer, its limitations and any unresolved criticism demand to decide whether and how to investigate.
 - **`C.39` — Find and Develop a Way to Obtain a Result:** supplies recovery, backward/forward construction and repair of an obtaining way. Section 4.4 applies that Method to a research strategy; domain relations and professional competence remain external inputs.
-- **Current Method Engineering:** owns reusable Method identity, repertoire, requirements, architecture, qualification, trial, fit, worth, variants, and introduction. RMP.2 selects a research strategy for one qualified question; it does not qualify a reusable Method.
+- **Core Method development and A.3.1.MI:** supply reusable Method identity, repertoire, requirements, architecture, qualification, trial, fit, worth, variants, and introduction. RMP.2 selects a research strategy for one qualified question; it does not qualify a reusable Method.
 - **Operationalization and trace practice:** RMP.3 requires an actual ResearchDesignDecision and its genuine PostSelectionNeed items, or compatible supplied equivalents. EvidenceSufficientStop, QualifiedNoNewStudy and ResearchDesignHold do not supply a selected design. Subsequent trace practice preserves the records of actual Work; the RMP.2 disposition does not assert that Work occurred.
 - **Domain science and engineering, measurement and instrument owners, archives and data stewards, site and participant owners, ethics, safety, rights, privacy, security, community, resource, provider, assurance, and receiving authorities:** supply their own results and retain their own decisions.
 - **MRC/NIHR complex-intervention framework:** supports perspective pluralism, uncertainty-led design, non-linear entry, reconsideration, and stopping for its declared intervention-research scope.
@@ -1026,11 +1261,11 @@ The selected sources do not supply domain truth, universal validity criteria, in
 
 # Part II - Operationalization and Research Trace
 
-<a id="rmp-3"></a>
+
 ## RMP.3 - Operationalize the Research Design without Replacing the Question
 
 > **Type:** Research Method Practice practitioner method pattern
-> **Status:** Development preview
+> **Status:** Stable
 
 ### RMP.3:1 - Problem Frame
 
@@ -1259,20 +1494,22 @@ The combined arrangement is a reasoned methodological synthesis, not a demonstra
 
 ### RMP.3:12 - Relations
 
+For a selected practice-reconstruction question, RMP.10 connects candidate claims to observations, critical-incident elicitation and log evidence. For Method history, RMP.11 develops the dated sequence, rivals and diagnostic observations. Their particular operations enter the specification with their actual limitations; this protocol does not silently substitute one evidence form for another.
+
 - **RMP.1** supplies the bounded research question and useful stop; a changed question or receiving use returns there.
 - **RMP.2**, especially §4.3, supplies the selected design and joint-input condition; a defeated selection premise returns there.
 - **RMP.4** preserves actual conduct, changes and receiving limitations. It can begin capture while operationalization is developing.
 - **FPF C.16** supplies measurement and characterization discipline; **FPF A.10** supplies claim-bound evidence and provenance discipline. RMP.3 adds the particular research question and operational connection.
-- Qualified domain, statistical, interpretive, source, ethics, safety, access and resource practices supply their own results. Method Engineering applies when the reusable Method itself needs design or repair.
+- Qualified domain, statistical, interpretive, source, ethics, safety, access and resource practices supply their own results. The Core Method-development family applies when the reusable Method itself needs design or repair.
 - **RMP.5** connects the actual material and analysis to a bounded claim; **RMP.6** chooses a useful claim-relative credibility examination and interprets its actual result. An operational protocol supplies relevant intentions and choices; it does not perform either contribution.
 
 ### RMP.3:End
 
-<a id="rmp-4"></a>
+
 ## RMP.4 - Preserve a Criticism-Ready Research Trace
 
 > **Type:** Research Method Practice practitioner method pattern
-> **Status:** Development preview
+> **Status:** Stable
 
 ### RMP.4:1 - Problem Frame
 
@@ -1533,6 +1770,8 @@ This is a reasoned combination of methodological guidance, bounded failure evide
 
 ### RMP.4:12 - Relations
 
+RMP.10 consumes occurrence records, elicited accounts and event logs with their different evidential reach. RMP.11 consumes dated source and Work evidence, including dependence and survival limits. Preserve the material each named claim needs rather than treating a polished reconstruction as an original record.
+
 - **RMP.3** supplies operational intentions and research-relative record needs. Capture can begin while those intentions develop.
 - **RMP.2** receives a lost comparison or other defeated design premise; **RMP.1** receives a changed question or receiving use.
 - **FPF A.10** supplies claim-bound evidence and provenance discipline; **FPF C.16** supplies the measurement account needed to distinguish indications, qualified results and derived values.
@@ -1545,8 +1784,10 @@ This is a reasoned combination of methodological guidance, bounded failure evide
 
 # Part III - Analyze Claims and Choose Credibility Work
 
-<a id="rmp-5"></a>
+
 ## RMP.5 - Analyze and Criticize the Research Claim under Its Method
+
+> **Status:** Stable
 
 > **Type:** Research Method Practice practitioner method pattern
 
@@ -1792,8 +2033,10 @@ These sources constrain the relevant Method distinctions; they do not supply a d
 
 ### RMP.5:End
 
-<a id="rmp-6"></a>
+
 ## RMP.6 - Choose a Credibility Test That Bears on the Research Claim, or Answer without New Testing
+
+> **Status:** Stable
 
 > **Type:** Research Method Practice practitioner method pattern
 
@@ -2064,8 +2307,10 @@ These sources do not supply the actual data, domain threshold, empirical result 
 
 # Part IV - Synthesize Evidence and Revise the Exact Contribution
 
-<a id="rmp-7"></a>
+
 ## RMP.7 - Synthesize a Research Evidence Corpus
+
+> **Status:** Stable
 
 > **Type:** Research Method Practice practitioner method pattern
 
@@ -2259,15 +2504,17 @@ These comparisons support different research traditions. Their combination here 
 
 ### RMP.7:12 - Relations
 
+RMP.10 can supply separately scoped candidate-practice accounts rather than an average of conflicting variants. RMP.11 develops diagnostic comparisons between specific historical accounts; this corpus synthesis supplies source contributions and dependence without claiming that a count of reports settles that comparison.
+
 - **RMP.1–RMP.4** can supply the qualified question, design, operations and actual trace. Compatible direct inputs are equally usable; return only a missing or changed premise.
 - **RMP.5** supplies examined source claims and receives a defeated individual inference. **RMP.6** supplies an actual credibility result when available or decides a useful further examination.
 - **RMP.8** receives the synthesis when a wider claim or model must be revised or evidence returned to an actual receiving use. A sufficient bounded corpus answer can finish directly.
 - **FPF F.1, F.0.1 and A.10**, with a qualified F.0.2 contribution when applicable, supply source selection, comparison and evidence-use relations. Their source work does not by itself establish this research synthesis.
-- **Domain, access and receiving-practice Methods** supply their criteria, permissions and decisions. Research-Method improvement remains a distinct RMP.9/Method Engineering question.
+- **Domain, access and receiving-practice Methods** supply their criteria, permissions and decisions. Research-Method improvement remains a distinct RMP.9/Core Method-development question.
 
 ### RMP.7:End
 
-<a id="rmp-8"></a>
+
 ## RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence
 
 > **Type:** Research Method Practice practitioner method pattern
@@ -2363,7 +2610,7 @@ Respect confidentiality, source rights, participant protection and applicable co
 
 The receiving practice then evaluates its available actions, values, constraints and authority. Research can narrow an action's evidential premise without selecting or authorizing that action.
 
-<a id="rmp-method-publication"></a>
+
 
 ##### RMP.8:4.4.1 - Make a research Method contribution recoverable across publication forms
 
@@ -2395,7 +2642,7 @@ If further inquiry could materially improve an explanation, reusable finding or 
 
 Use RMP.2 for a research-design choice and RMP.6 for a relevant credibility choice. A still-needed selection prevented by a missing input differs from a completed no-new-study allocation. Preserve that distinction and the current evidence limit. A worthwhile new possibility can later reopen the choice.
 
-A recurring failure in how research Methods are selected or performed may identify an RMP.9 or Method Engineering question. State that need at its own available owner; it neither supplies a new Method-improvement result nor prevents the present knowledge contribution from being returned.
+A recurring failure in how research Methods are selected or performed may identify an RMP.9 or Core Method-development question. State that need at its own available owner; it neither supplies a new Method-improvement result nor prevents the present knowledge contribution from being returned.
 
 ### RMP.8:5 - Archetypal Grounding
 
@@ -2445,7 +2692,7 @@ A historical synthesis resolves a chronology but leaves a scientifically valuabl
 
 The historian returns the supported chronology and unresolved mechanism and selects no further study for the current allocation. The explanation remains valuable and incomplete. If an accessible archive later supplies material capable of discriminating the live alternatives, its contribution and burden can justify a new research choice. Neither an immediate commercial payoff nor an unused continuation form is a prerequisite for the present answer.
 
-<a id="rmp-calibration-publications"></a>
+
 
 #### RMP.8:5.6 - One calibration contribution, an article and a pattern
 
@@ -2525,15 +2772,17 @@ The external guidance contributes to bounded interpretation and research reporti
 - **RMP.1 and RMP.2** receive a changed research question or design-selection need. **RMP.3 and RMP.4** retain the distinction between intended inquiry and actual material when it matters to the correction.
 - **FPF C.2.1, A.10 and A.10.1** supply the underlying episteme, evidence-use and affected-use relations. **C.11.DUA** supplies the general useful-evidence and obtainable-inquiry comparison.
 - **Receiving domain and practice Methods** supply action alternatives, values, safety, access, confidentiality and authority. A bounded research result informs those decisions.
-- **RMP.9 and Method Engineering** receive a distinct research-Method improvement difficulty through their actual available contributions.
+- **RMP.9 and Core Method development** receive a distinct research-Method improvement difficulty through their actual available contributions.
 - **FPF E.8** supplies the substantive functions of a pattern account and their publication conventions; **E.4.CM** supplies development of a composite Method contribution. **E.4.DPF** governs whether those contributions warrant a new or revised DPF; article layout alone cannot answer that question.
 
 ### RMP.8:End
 
 # Part V - Improve and Refresh Research Methods and Practice
 
-<a id="rmp-9"></a>
+
 ## RMP.9 — Decide Whether and How to Improve Research Methods and Practice
+
+> **Status:** Stable
 
 > **Type:** Research Method Practice practitioner method pattern
 
@@ -2543,7 +2792,7 @@ Use this pattern when actual research work, criticism, a changed instrument or a
 
 The practical gain is an adequate Method kept in use, a justified change that reaches its actual users, or a clear limitation on an unsupported use. A known calculation error can be corrected without starting a Method-efficacy study. A materially changed research situation can justify a comparison when its possible results can change the decision and the whole effort is worthwhile.
 
-Research-Method improvement is the branch of wider Method improvement governed here. Its particular concerns are the knowledge question, research validity and criticism, field-specific interpretation, actual research material and the claims that depend on the Method. Method Engineering supplies reusable identity, trial, fit, worth, variant and introduction contributions where needed.
+Research-Method improvement is the branch of wider Method improvement governed here. Its particular concerns are the knowledge question, research validity and criticism, field-specific interpretation, actual research material and the claims that depend on the Method. Core supplies reusable Method identity, trial, fit, worth and variant contributions; A.3.1.MI supplies introduction when needed.
 
 A disappointing finding, an unfamiliar technique, reviewer disagreement or a software release is a cue to inspect the question, not proof that the Method has failed. If only a particular analysis or knowledge claim needs correction, use RMP.5 or RMP.8. Return routine equipment recovery, institutional administration and permissions to their actual owners. Investigating a Method enters new research only when the RMP.1 research-membership conditions pass.
 
@@ -2616,7 +2865,7 @@ These questions select acquisition; they do not require a new form. If existing 
 
 Otherwise preserve the strongest supported position and its limits. Restrict or stop the unsupported use where the missing basis prevents it. “Further evidence is not worth obtaining now” and “existing evidence is sufficient” answer different questions. Neither an unselected experiment nor an unchanged adequate Method needs an omission certificate.
 
-For a selected comparison, choose the research or Method Engineering contribution that can obtain the required evidence. Preserve the difference among the proposed change, intended trial, actual work, observations, inference and Method decision. A trial plan is not an obtained improvement.
+For a selected comparison, choose the research or Core Method-development contribution that can obtain the required evidence. Preserve the difference among the proposed change, intended trial, actual work, observations, inference and Method decision. A trial plan is not an obtained improvement.
 
 In a statistical simulation, define the aim, generating situations, common estimand, candidate procedures and performance measures before judging results. Account for Monte Carlo uncertainty and failed or non-convergent outputs. Performance calculated only among successful runs can conceal a consequential weakness. Use the full observed result at its applicable reach; a favourable selected case does not establish general fit.
 
@@ -2726,13 +2975,13 @@ Reopen when criticism, instruments, tools, receiving conditions, relevant source
 
 ### RMP.9:10 - Rationale
 
-Research-Method improvement needs a research-specific connection between a Method difficulty, its criticism and the knowledge contributions that depend on it. General Method Engineering already provides reusable distinctions for trial, fit, worth, variants and introduction. Using those contributions at the required scope avoids reconstructing a full Method lifecycle for every correction.
+Research-Method improvement needs a research-specific connection between a Method difficulty, its criticism and the knowledge contributions that depend on it. Core already provides reusable distinctions for trial, fit, worth and variants; A.3.1.MI supplies introduction. Using those contributions at the required scope avoids reconstructing a full Method lifecycle for every correction.
 
 The order matters. Identifying the actual object and trying the supported present answer prevent unnecessary acquisition before its costs arise. Separating evidence sufficiency from acquisition worth then protects the opposite boundary: a justified decision to stop looking does not establish an unsupported claim.
 
 ### RMP.9:11 - SoTA-Echoing
 
-The working question is how to improve research practice when criticism leaves a Method decision open, without spending effort on evidence that cannot change the answer. The best-known answer selected here combines situated comparison with a prior decision about whether further evidence is worth obtaining. [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies reusable identity, trial, fit, worth, variant and introduction distinctions. ME.14:4.1–4.2 compares feasible courses and their full burdens, permits an adequate present choice or a retained set with its limitation, and selects further inquiry only when its obtainable result could change the choice enough to warrant the whole burden. RMP.9 **adopts** these stopping and acquisition distinctions and **adapts** the comparison to the research question, criticism requirement and affected research result in §4.3. A sufficient existing research account can carry that decision without a separate ME.14 record. At the effort needed to diagnose §5.1's specified calculation error, retention plus verified repair already answers the use; a further efficacy study adds no discrimination. Where qualification is unresolved, preserve the uncertainty and restrict unsupported use. Reopen this source use if Method Engineering changes the relied-on stopping or acquisition conditions; reconsider a research comparison when its obtainable result becomes worth the whole burden.
+The working question is how to improve research practice when criticism leaves a Method decision open, without spending effort on evidence that cannot change the answer. The best-known answer selected here combines situated comparison with a prior decision about whether further evidence is worth obtaining. [Core Method development (FPF C.39.MF)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39mf---choose-and-reopen-a-method-development-focus) supplies reusable identity, trial, fit, worth and variant distinctions. [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) supplies introduction into practice. C.11.MV:4.1–4.2 compares feasible courses and their full burdens, permits an adequate present choice or a retained set with its limitation, and selects further inquiry only when its obtainable result could change the choice enough to warrant the whole burden. RMP.9 **adopts** these stopping and acquisition distinctions and **adapts** the comparison to the research question, criticism requirement and affected research result in §4.3. A sufficient existing research account can carry that decision without a separate C.11.MV record. At the effort needed to diagnose §5.1's specified calculation error, retention plus verified repair already answers the use; a further efficacy study adds no discrimination. Where qualification is unresolved, preserve the uncertainty and restrict unsupported use. Reopen this source use if the supplying Core Method changes the relied-on stopping or acquisition conditions; reconsider a research comparison when its obtainable result becomes worth the whole burden.
 
 For a simulation already selected, the question is which procedure answers the intended research target under the relevant conditions. RMP.9 **adopts** the common-target design in [Morris, White and Crowther (2019)](https://doi.org/10.1002/sim.8086), refined by [Williams et al. (2024)](https://doi.org/10.1111/2041-210X.14415) on inspectable planning/reporting and [Pawel et al.](https://doi.org/10.1080/00031305.2025.2540002) on missing outputs and non-convergence. These sources support the selected line over a comparison that silently ranks only successful runs: different failure rates can make that ranking answer another question. In §§4.3 and 5.2, preserve the common estimand, generating situations, performance criteria, Monte Carlo uncertainty and failed runs. This deliberately accepts the effort of diagnosing and interpreting failures within the comparison's whole burden; apparent simplicity is insufficient reason to discard them. Their treatment follows the study's aim. The sources discipline an obtained comparison, not its necessity or a universally winning Method. Reopen when a changed target, newly observed failure or stronger treatment of missing outputs changes the applicable comparison.
 
@@ -2744,20 +2993,466 @@ These comparisons preserve different research purposes rather than ranking stati
 
 ### RMP.9:12 - Relations
 
+Use A.3.1.MR for ordinary recovery of a candidate way from Work. RMP.10 is the larger evidence programme only when the receiving question warrants it. Use RMP.11 when an explanation of Method differentiation can change the research-practice decision; that historical account does not select the present Method or inherit its qualification.
+
 | Contribution | Actual relation |
 | --- | --- |
 | RMP.1 and RMP.2 | RMP.1 qualifies a newly opened research question; RMP.2 chooses a needed research design or useful stop. A Method difficulty alone supplies neither result. |
 | RMP.3 and RMP.4 | RMP.3 receives a changed operational choice; RMP.4 preserves affected actual material, deviations, transformation and provenance. |
 | RMP.5 and RMP.6 | RMP.5 receives the affected analysis or claim. RMP.6 chooses a credibility examination when that choice remains open; an improvement proposal is not its automatic trigger. |
 | RMP.7 and RMP.8 | RMP.7 receives a changed synthesis contribution; RMP.8 revises the exact claim or model and returns bounded evidence to its actual reliance. Their separate Method difficulty can enter RMP.9 directly. |
-| Method Engineering | Use the relevant current identity, repertoire, trial, fit, worth, variant, introduction or practice-culture contribution. Invoke only the contribution needed by the actual question. |
+| Core Method development and A.3.1.MI | Use the relevant identity, repertoire, trial, fit, worth, variant or practice-culture Method; A.3.1.MI supplies introduction. Invoke only the contribution needed by the actual question. |
 | Domain practice and institutional owners | Engineering, operational, policy, access and adoption decisions retain their own criteria and authority. Research-Method evidence informs the corresponding decision without performing it. |
 
 ### RMP.9:End
 
+# Part VI - Reconstruct Practice and Explain Method History
+
+## RMP.10 - Reconstruct a Candidate Method Account from Practice Evidence
+
+> **Status:** Stable
+
+> **Type:** Method pattern
+>
+> **Primary working result:** a **claim-to-evidence dossier** with scoped candidate Method accounts, contradictions and rivals, results of any selected further checks, evidence limits, and the next receiving use—or a justified lowering when the evidence supports only Work description, a local workaround, tool behavior, or an unresolved grouping.
+
+### RMP.10:0 - Use This When
+
+Use this pattern only after `A.3.1.MR` has recovered an ordinary candidate account or honest lower result and a named receiving decision still cannot be made without a larger evidence programme. Typical triggers are heterogeneous settings, disputed variants, tacit cues or judgments, incomplete records, consequential use, or a need for a stronger held-out application.
+
+Begin with the receiving decision and the few candidate-account claims whose uncertainty changes it. Select evidence forms for those claims rather than collecting every available trace or interview.
+
+The first useful result is a claim-to-evidence matrix and sampling decision. It states what would support, contradict, split, or lower each claim and why the selected evidence form can distinguish those outcomes. This makes the specialist burden visible before the study grows.
+
+Use the larger evidence programme only when ordinary candidate recovery is insufficient for the named decision. No observation, interview, log, or synthesis backdates a Method into past Work, promotes a log into a MethodDescription, or admits a Method without `A.3.1`.
+
+#### RMP.10:0.1 - Working Distinctions
+
+| Evidence or result | Contribution retained here | Boundary |
+| --- | --- | --- |
+| occurrence observation and artifacts | overt actions, results, versions, coordination, and traces for one Work occurrence | observed recurrence does not identify a Method by itself |
+| Critical Decision Method (CDM) probe | recalled critical-incident cues, options, judgments, and counterfactual reflections | recall and interviewer effects remain visible; CDM supplies no event-log claim |
+| event-log analysis | recorded recurrence, sequence, deviation, and conformance relative to declared log semantics | tool traces describe recorded events, not intent, tacit contribution, or a MethodDescription |
+| contextual observation or protocol elicitation | coordination, workarounds, or otherwise inaccessible reasoning when their particular risk is named | these moves are selected separately; CDM and process-mining sources do not support them by proxy |
+| expert synthesis | claim-to-evidence matrix, decision-relevant sampling, contradiction-by-scope rule, choice of further checks, and stopping rule | disclose the synthesis rather than attributing it to the specialist sources |
+| candidate Method account | a scoped episteme about a possible reusable way of doing | Method identification remains with `A.3.1` |
+
+### RMP.10:1 - Problem Frame
+
+Ordinary records show only part of practice. Logs favor tool-visible events, procedures favor intended behavior, interviews favor memorable episodes, and successful outcomes can hide competent minority variants or recovery Work. A stronger reconstruction therefore needs several evidence forms and an explicit account of which claim each supports.
+
+More evidence is not automatically better. The programme earns its cost only when its combined result changes candidate-account content, scope, rivals, or the receiving decision beyond what `A.3.1.MR` already returned.
+
+### RMP.10:2 - Problem
+
+A trace-only reconstruction turns log regularity into a Method. An interview-only reconstruction turns confident recall into recurrence. A majority-vote synthesis erases variants and failure cases. An expanding study collects material without a stopping decision.
+
+The resulting account looks rich yet cannot say which claim each item supports, what would contradict it, or which remaining uncertainty matters to its use.
+
+### RMP.10:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Tacit contribution | Important cues and judgments may be absent from records, while elicitation can distort them. |
+| Heterogeneity | Several performers and settings improve discrimination, while indiscriminate sampling raises cost. |
+| Contradiction | Variants may be real, while some disagreement is error or incomplete evidence. |
+| Tool visibility | Event logs are precise about recorded fields, while invisible coordination and intent remain outside them. |
+| Further discrimination | An unseen case can test prediction or transfer, while an unavailable or decision-irrelevant case adds no useful assurance. Retrofitting after inspection loses the intended discrimination. |
+| Specialist burden | Consequential decisions may justify a programme, while ordinary recovery needs an affordable stop. |
+
+### RMP.10:4 - Solution
+
+RMP.2 supplies a selected evidence strategy or a justified stop when that design question remains open; a compatible supplied selection is enough. RMP.3 makes its consequential operational choices executable, and RMP.4 preserves the actual observation, elicitation and log trace with its access limits. The reconstruction below makes the specific claim-to-evidence connection: which uncertainty about a reusable way needs which evidence, how setting-specific variants survive contradiction, and what bounded account the combined material supports. Reuse an adequate design or trace; the programme needs the missing discrimination, not another copy of those results.
+
+Organize evidence around decision-changing claims, keep evidence forms distinct, resolve contradiction by scope, and select further checks only where their attainable result warrants the burden. Return scoped accounts or a lower result when the receiving decision has an adequate basis.
+
+#### RMP.10:4.1 - Pattern-Use Unfolding
+
+1. **Name the receiving decision and unresolved claims.** Include only intended result, entry conditions, reusable operations or invariants, cues and decisions, participants and capabilities, information and artifacts, support, variation, recovery, and stop claims that can change the decision.
+2. **Build the claim-to-evidence matrix.** For each claim, state what observation could support, contradict, split, or lower it and why the evidence form can distinguish those outcomes for that claim.
+3. **Sample for decision-relevant variation.** Select cases that differ in success or failure, routine or exceptional conditions, performer, setting, and tool or provider. Add a disconfirming case when the emerging account explains only the convenient sample. Use no universal participant count.
+4. **Keep evidence forms distinct.** Use occurrence observation/artifacts for overt actions and results; CDM for recalled critical-incident cognition; event-log analysis for recorded recurrence and deviation. Select contextual or protocol evidence only for a named gap and risk.
+5. **Keep occurrence and candidate layers separate.** Record each Work occurrence before abstracting an account. Preserve missing fields, observer effects, recall limits, tool coverage, and source access.
+6. **Resolve contradiction by scope, not vote.** Compare performer, setting, outcome, and evidence form. Correct a supported error; otherwise split variants, narrow applicability, retain rivals, or lower the claim.
+7. **Choose whether a further check is needed.** Identify the unresolved claim and the possible answers that would change the receiving use. Compare the attainable discrimination with evidence access, practitioner capacity, delay, and the whole acquisition burden. Select a held-out case when prediction or transfer to that case matters and can be examined usefully. State each serious account's predictions about cues, decisions, variation, and result before inspecting it; record surprise and revision. Another claim may instead need a source comparison, a targeted elicitation, or no additional check because the existing evidence already supports the bounded decision. An unavailable check leaves its claim uncertain; it does not oblige an unproductive study or license a stronger claim.
+8. **Stop or lower.** Stop when the scoped accounts and explicit uncertainty dispositions support the receiving decision. Rivals may remain unresolved when distinguishing them would not change that decision. Narrow the use or defer it if a load-bearing uncertainty remains. Return no candidate account when the evidence supports only a Work description, local workaround, tool behavior, or unresolved grouping.
+
+#### RMP.10:4.2 - Record the Result
+
+| Result position | Required content |
+| --- | --- |
+| receiving boundary | Decision, situation, consequence, candidate accounts, and unresolved claims. |
+| claim-to-evidence matrix | Claim, discriminating observation, selected evidence form, support/contradiction/split/lowering rule, and stopping use. |
+| sample and occurrences | Decision-relevant variation, each Work occurrence, source access, missing fields, and evidence-form limits. |
+| synthesis | Scoped accounts, retained variants/rivals, contradiction disposition, and attribution of each synthesis move. |
+| selected further checks, when needed | Claim and use at issue, why the attainable answer warrants the burden, actual result and remaining uncertainty. For a held-out check, also preserve predictions made before inspection, surprise and revision. When existing evidence suffices, state that basis in the return; no empty held-out record is needed. |
+| return | Account(s) or lower result, evidence limits, next receiving use, and reopen condition. |
+
+#### RMP.10:4.3 - What Changes in Practice
+
+Teams stop equating a discovered sequence or interview narrative with the Method. They spend specialist effort only where a receiving decision needs it, know which evidence form supports which claim, and can retain two scoped variants instead of averaging them into a misleading universal account.
+
+### RMP.10:5 - Archetypal Grounding
+
+#### RMP.10:5.1 - Ordinary `A.3.1.MR` Stop
+
+A maintenance team has six source-traceable calibration Work records using the same released instruction, input schema, equipment configuration, decision authority, and result meaning. One failed record contains an explicit missing-input stop already described by the candidate account. The receiving decision needs only a source-traceable account for comparing two instructions; no tacit cue, disputed variant, consequential transfer, or held-out prediction changes that decision.
+
+`A.3.1.MR` returns the source-traceable candidate account, any real rival and the important gaps, with its provisional status and comparison-use limits. No distinguishing question or available follow-up is needed for this instruction comparison. RMP.10 is not entered; interviews and process mining would add cost without changing the result.
+
+#### RMP.10:5.2 - Genuine Escalation: EC-417 Evidence Reconciliation
+
+The EC-417 decision cannot determine whether internal and supplier-originated evidence reconciliation are one account or scoped variants from ordinary records alone. Here the consequential evidence-closure question, available case access and practitioner capacity justify the larger programme and its whole burden. This constructed reconstruction uses a twelve-case development sample plus one held-out case; that count is not an entry rule for other recoveries:
+
+- four firmware-only and four internal harness-plus-firmware releases accepted versioned provisional pinout evidence before safety closure;
+- four supplier-originated releases required signed evidence at closure;
+- four reconciliation boards were observed;
+- CDM probes involved two supplier, two software, one hardware, and one safety practitioner; and
+- a thirteenth supplier-originated change was reserved unseen for the held-out discriminator.
+
+| Evidence move | Scenario contribution | Limit retained |
+| --- | --- | --- |
+| observation and artifacts | overt evidence versions, board records, integration bundles, approval states, and closure results | no population estimate or tacit-cue claim |
+| CDM probes | cues, considered options, judgments about provisional versus signed evidence, and counterfactual reflections in critical incidents | retrospective recall and interviewer effects remain |
+| event-log analysis | recorded recurrence and deviations in evidence-version, integration, approval, and closure events | log fields do not establish intent or a reusable Method |
+| disclosed expert synthesis | twelve-plus-one sample, internal/supplier scope split, contradiction rule, held-out discriminator, and stop | not attributed to CDM or process-mining sources |
+
+Before inspecting the thirteenth case, the team recorded three rival predictions:
+
+| Account or rival | Cues and decision predicted | Variation and result predicted |
+| --- | --- | --- |
+| `C-Evidence-Reconcile-Internal` applied beyond its observed scope | internally controlled versioned evidence would be the decisive cue; the internal reconciliation role could decide the branch without a distinct supplier approval | supplier origin would not change the branch; closure could proceed from the internal reconciliation result without signed supplier approval |
+| `C-Evidence-Reconcile-Supplier` | supplier-owned configuration and restricted geometry would be decisive; supplier responsibility and signed approval would remain required for closure | reversible early integration could occur, but a signed-delta comparison and affected verification would precede either closure or an explicit missing-approval stop |
+| `R-Rig-Capacity-Only` | rig unavailability, rather than evidence origin, would trigger the hold and next-slot decision | the same branch would occur for internal and supplier changes and would clear when rig access returned |
+
+The held-out case then showed **cues** of supplier-owned geometry, restricted provider access, and available rig capacity; the **decision** allowed reversible early integration but withheld closure pending signed supplier approval; the **variation** required a signed-delta comparison and one affected verification; and the **result** was truthful closure after signed approval arrived at `D-8`. No load-bearing observation surprised the supplier-scoped account. The available rig contradicted the capacity-only rival for this case, and the retained supplier-approval requirement contradicted the internal-account extrapolation.
+
+The resulting disposition is to keep `C-Evidence-Reconcile-Internal` for the eight internal cases, keep and narrow `C-Evidence-Reconcile-Supplier` to supplier-owned configuration with the signed-evidence branch, and retain rig availability as a support condition rather than the account that explains this split. The scope split is not decided by majority count. One held-out supplier case leaves transfer to other suppliers, other configuration classes, and missing-approval situations uncertain; neither account is admitted as a Method, and no effectiveness or population claim is made.
+
+#### RMP.10:5.3 - A Specialist Programme Can Finish without a New Case
+
+A retired repair service used two routing practices. Ordinary `A.3.1.MR` recovery from its mixed logs and instruction editions cannot tell whether an urgent route was a repeatable cue-based branch or an occasional supervisor override. The receiving museum archive needs a qualified comparison of the two candidate accounts for this service's final year. It is not deciding to reopen the service or transfer either account to current work.
+
+The larger programme is justified because the disputed cue is absent from the logs. Its claim matrix selects the dated routing sheets and targeted critical-incident interviews with the two available former dispatchers. The sheets record whether replacement stock was present; the logs record only the chosen route. Linking them to the same occurrences shows that the disputed route accompanied absent stock in the accessible cases. Each dispatcher recalls using the stock cue and describes one exception requiring supervisor involvement. Their recalled reasons remain elicited accounts; the routing sheets support recorded stock and routing, not unrecorded intentions or universal recurrence.
+
+The evidence supports a stock-conditioned candidate branch with a separately retained supervisor exception. The archive can now compare that account with the earlier instruction and state the unresolved gaps. A new live repair cannot be observed because the service has closed. Simulating one would test present performance under new conditions, which the archive's comparison does not need. The programme therefore returns the bounded account, source links, recall limits and unresolved coverage outside the accessible records. It makes no claim about transfer or effectiveness, and it does not identify a Method through these observations.
+
+The programme entered RMP.10 and completed useful specialist work. Its stop rests on the adequacy of that work for the receiving comparison. If a later operator wants to reuse the reconstructed branch, that changed use reopens the evidence and check choice; the archive's descriptive result cannot settle it.
+
+### RMP.10:6 - Bias-Annotation
+
+| Recurring bias | Likely drift | Repair |
+| --- | --- | --- |
+| trace bias | Recorded sequence becomes the Method or its complete description. | State log semantics and combine only with evidence needed for the claims. |
+| interview bias | Memorable explanations become recurrence or causal evidence. | Keep CDM claims to cues, options, judgments, and reflections with recall limits. |
+| majority bias | The largest variant erases a competent minority or setting-specific branch. | Resolve contradictions by performer, setting, outcome, and evidence form. |
+| method-brand bias | Using a named evidence Method lends authority to the whole synthesis. | Attribute each sourced move and disclose the project synthesis separately. |
+| programme bias | More cases are collected because the study is open. | Tie sampling and stop to the receiving decision and load-bearing claims. |
+
+### RMP.10:7 - Conformance Checklist
+
+- [ ] `A.3.1.MR` has already returned an ordinary result, and a named receiving decision justifies the larger burden.
+- [ ] The first useful result is a claim-to-evidence matrix and decision-relevant sampling choice.
+- [ ] Observation/artifacts, CDM, event-log analysis, contextual/protocol evidence, and expert synthesis keep distinct contributions and limits.
+- [ ] Each Work occurrence is recorded before candidate-account abstraction.
+- [ ] Contradictions are resolved by scope or retained, not averaged by vote.
+- [ ] Any further check addresses a use-changing uncertainty and has an attainable result worth its burden; an adequate existing basis can support a bounded stop.
+- [ ] A selected held-out discriminator states predictions before inspection and records surprise/revision.
+- [ ] Scoped variants and rivals remain visible.
+- [ ] The result can lower to Work description, local workaround, tool behavior, or unresolved grouping.
+- [ ] No evidence form identifies a Method, creates a MethodDescription, backdates Work, or establishes causality by itself.
+
+### RMP.10:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Repair |
+| --- | --- |
+| “Mine the log and recover the Method.” | Recover only recorded events; use the claim matrix to identify missing intent, tacit, and context evidence. |
+| “Interview experts until their stories converge.” | Sample for decision-relevant variation and preserve contradiction, recall limits, and minority variants. |
+| “Use every evidence form.” | Select only forms whose possible results can change a claim or the receiving decision. |
+| “A specialist programme must always obtain another unseen case.” | Select the check from the unresolved claim and receiving use; finish on adequate existing evidence, or narrow/defer the use when uncertainty matters. |
+| “The held-out case fits after we revised the account.” | Record predictions before inspection and report surprise rather than retrofitting. |
+| “The reconstructed account is now an admitted Method.” | Return the account and send Method identity to `A.3.1`. |
+
+### RMP.10:9 - Consequences
+
+For consequential decisions, practitioners reconstruct candidate accounts claim by claim, make the sources traceable, and can retain variants. The receiving decision gains stronger accounts or an honest lower result rather than a single fluent reconstruction.
+
+The cost is specialist sampling, evidence access, and analysis. Some evidence will remain unusable for the desired claim, and a well-run programme can still return no Method candidate.
+
+### RMP.10:10 - Rationale
+
+No single evidence form covers overt action, recorded recurrence, recalled judgment, tacit coordination, and cross-setting variation. Combining these evidence forms is useful only when each is connected to a claim and a receiving decision. The matrix, scope rule, justified check choice, and stop make that combination testable without claiming a universal research protocol.
+
+### RMP.10:11 - SoTA-Echoing
+
+| Source | Retained contribution | Use boundary |
+| --- | --- | --- |
+| Current FPF `A.3.1.MR` | Ordinary several-occurrence recovery, real rival accounts, source-to-claim trace, useful distinguishing questions and honest lowering. A provisional account can finish without irrelevant or unavailable follow-up. | RMP.10 begins only when a named decision needs and warrants its larger programme; the ordinary question is not a study commitment. |
+| Klein, Calderwood, and MacGregor, [Critical Decision Method](https://doi.org/10.1109/21.31053) | Retrospective critical-incident probes for cues, options, judgments, and counterfactual reflections. | CDM supplies no event-log, recurrence, population, or causal result. |
+| IEEE Task Force, [Process Mining Manifesto](https://www.tf-pm.org/resources/manifesto) | Discovery, monitoring, and conformance analysis over recorded event logs. | Event-log regularity establishes neither intent, tacit contribution, Method identity, nor causality. |
+| Ordinary observation and artifacts | Overt occurrence evidence and result traces. | Observation supplies only what its access, scheme, and window support. |
+
+The claim matrix, decision-relevant sampling, contradiction-by-scope rule, conditional further checks, and combined stop are the bounded DPF synthesis. Reopen when a current evidence Method changes one of those moves, or when representative uses show that the extra burden does not improve account scope or the receiving decision.
+
+### RMP.10:12 - Relations
+
+- Use RMP.2 when research-design selection is still open and RMP.3 for the operationalization of a selected design; RMP.4 preserves the actual material. Use compatible supplied results directly. RMP.5 can criticize the resulting account under its actual evidence relation; RMP.9 receives a separate difficulty in the research Method itself.
+- `A.3.1.MR` supplies the ordinary floor and specialist-exit question; RMP.10 does not replace it.
+- `A.15.1` governs any claimed Work occurrence; `A.10` governs evidence paths and provenance; `A.3.1` alone governs Method identification.
+- C.39.RP may add returned accounts provisionally to a repertoire. A.3.1.QM may qualify an account without changing its status.
+- Later description, support, trial, or architecture patterns consume only the scoped account, evidence limit, and next use their entry conditions admit.
+- RMP.11 addresses a different question: why and how a Method architecture differentiated. Use it for that explanation and any needed causal-use support assessment; evidence reconstruction here supplies no causal conclusion by itself.
+
+### RMP.10:End
+
+
+## RMP.11 - Explain Method History with Discriminating Evidence
+
+> **Status:** Stable
+
+> **Type:** Method pattern
+>
+> **Primary working result:** a **differentiation account** with a dated sequence, named pressure/response/variation/selection links, serious rivals, diagnostic observations, and graded claims. When a receiving decision needs causal reliance, RMP.11 also returns one separate `C.28` causal-use support result; the downstream architecture decision remains a third episteme.
+
+### RMP.11:0 - Use This When
+
+Use this pattern when an identified Method, independently established family inclusion, or named relations among Methods are treated as natural or inevitable and a present decision depends on how that differentiation arose. Typical questions concern why a variant appeared, why one contribution separated from another, why a provider or profession retained a form, or why a relation changed under pressure.
+
+Begin by bounding the exact Method, established family inclusion, or relation change to explain and the decision that will use the account. Decide immediately whether the receiver needs only a dated descriptive account or intends to rely on a causal conclusion.
+
+The first useful result can be a descriptive stop: a dated sequence with source and evidence limits. When causal reliance is live, name the causal-use question, claim kind, causality-ladder rung, and required support before constructing the explanation.
+
+Do not use a project-local grouping label as a professional-family fact. Do not use RMP.11 for decorative history, chronology, popularity ranking, or present architecture choice alone.
+
+#### RMP.11:0.1 - Working Distinctions
+
+| Name used here | Meaning |
+| --- | --- |
+| explanandum | One identified Method, established family inclusion, or named Method relation and the differentiation that the present decision needs explained. |
+| differentiation account | An episteme containing dated description, link claims, rivals, diagnostic observations, grades, limits, and reopen conditions. It does not select today's architecture. |
+| descriptive sequence | Dated source editions, Work evidence, variants, disappearances, and decision points with no causal-use claim. |
+| link claim | A proposed relation among pressure or environmental change, affected actor or carrier, response or variation, selection/retention, and Method or relation change. |
+| rival | A materially different account such as constraint, provider/tool availability, regulation, authority, diffusion/fashion, recording artifact, redesign, or survivorship bias. Rivals may coincide. |
+| causal-use support result | A separate `C.28` result that states the question, claim kind, rung, actual support-component refs, threat screen, verdict, supported/unsupported uses, limits/window, and reopen. |
+| non-causal observation or hypothesis | A separately named descriptive result that may justify a bounded probe without licensing a causal claim. |
+| downstream architecture decision | A separate authorized choice that cites only support allowed by the causal verdict and keeps its own criteria, authority, stops, and burden. |
+
+### RMP.11:1 - Problem Frame
+
+An account of professional Method change relates variants recorded in successive sources to changes in institutions, tools, regulation and local Work. It examines deliberate redesign, diffusion, fashion, retention and loss. Questions about variants and selection help develop competing accounts. Process-tracing research supplies methods for examining the sequence within a case, rival explanations and diagnostic observations.
+
+For causal reliance on either contribution, use C.28. A plausible sequence can support description and hypothesis while leaving an interventional claim unsupported. The pattern therefore separates differentiation, causal support, and current choice.
+
+### RMP.11:2 - Problem
+
+Chronology is often narrated as cause: a pressure appears, a practice changes, and the account says “therefore”. Search frequency or institutional prominence is treated as adoption evidence. Surviving versions hide abandoned variants. A project-local label is promoted into a professional family.
+
+The downstream decision then consumes a causal premise that no identified result supports, or a useful descriptive account is discarded because it cannot prove causality.
+
+### RMP.11:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Useful history | Dated differentiation can expose alternatives and assumptions, while decorative chronology adds no decision value. |
+| Diagnostic depth | Within-case observations can discriminate rivals, while narrative confidence does not supply identification or estimation. |
+| Evolutionary language | Variation, selection, retention, and loss organize inquiry, while analogy can overstate causal mechanism. |
+| Causal cost | Some decisions need causal reliance, while many can stop with description or a non-causal trial hypothesis. |
+| Present authority | History can inform a choice, while it neither selects today's architecture nor grants decision authority. |
+
+### RMP.11:4 - Solution
+
+RMP.4 supplies the surviving records and their access, reconstruction and loss limits. RMP.7 supplies a corpus boundary and qualified source-dependence account where that contribution is already available. The historical construction below then explains the particular Method differentiation: identify competing accounts, derive the observations that separate them, compare diagnostic weight conditional on the sources already used, and carry a supported historical result into its receiving question. A corpus synthesis or chronological list does not replace that construction. C.28 still governs a separately claimed causal use.
+
+Recover dated differentiation and rivals first. Apply the full `C.28` causal-use assessment only when another decision needs a causal conclusion, and return every result with its own identity and use limit.
+
+#### RMP.11:4.1 - Pattern-Use Unfolding
+
+1. **Bound the explanandum.** Identify one Method under `A.3.1`, an independently established family inclusion, or named Method relations and the differentiation to explain. A local grouping can supply candidates and questions, not the family fact.
+2. **Name causal use or choose a descriptive stop.** State the receiver's exact question. If causal reliance is needed, name `CausalUseClaimKind`, target `CausalityLadderRung`, comparator or intervention where applicable, and the link claims. Otherwise return dated description without causal vocabulary.
+3. **Establish the dated descriptive sequence.** Recover source editions, Work evidence, variant appearances and disappearances, abandoned forms, and decision points. A timeline is an index, not an explanation.
+4. **Propose explicit link claims.** Name the pressure or environmental change, affected actor or carrier, response or variation, selection or retention process, and resulting Method or relation change. Use *mechanism* only in a source-local sense unless an `A.6.1` `U.Mechanism` is separately identified.
+5. **Generate serious rivals.** Consider demand or constraint, provider/tool, regulation, authority, diffusion/fashion, recording-artifact, deliberate-redesign, and survivorship accounts where they are plausible for this history. Explain which alternatives compete and which can coexist; do not invent a demand account merely to fill a category.
+6. **Derive and collect diagnostic observations.** Before choosing observations that are easy to collect, state which dated records, version differences, decisions, Work evidence, interviews, abandoned variants, negative cases, or cross-setting contrasts are expected under each link and rival. Preserve provenance and source dependence. Weigh the observations through :4.4 before grading the resulting claims; provenance alone does not establish diagnostic strength.
+7. **Run the complete `C.28` boundary when needed.** Issue one identifiable support result with question ref, claim kind, rung, actual evidence-path/data-regime and specialist-result refs, common-threat-screen ref, verdict, supported/unsupported causal uses, limits/window, and reopen. Raw observations or source names are not support-component results. A missing identification, bound, or estimate required for this named causal-use question, or an unresolved live threat to that use, lowers the verdict. Do not commission an estimate merely because another kind of causal question would need one.
+8. **Return distinguishable results.** Grade differentiation claims as observed, source-supported, inferred, expert-estimated, contradicted, or missing and retain rivals. Keep the causal result separate. A downstream choice cites only causal reliance allowed by the verdict and retains its own authority. An `unsupported` or `undecided` result may not serve as positive causal evidence; a separately named non-causal observation or hypothesis may still support a bounded trial.
+
+#### RMP.11:4.2 - Record the Results
+
+| Result | Required content |
+| --- | --- |
+| differentiation account | Explanandum, dated sequence, source editions and Work evidence, link claims, rivals, diagnostic comparisons with their assumptions and source dependencies, grades, limits, and reopen. |
+| optional causal-use support result | Question ref, claim kind, rung, actual support-component refs, threat-screen ref, verdict, supported/unsupported uses, limits/evidence window, and reopen. |
+| optional non-causal observation or hypothesis | Separate identity, descriptive basis, bounded design use, inferences this result does not support, and reopen. |
+| downstream handoff | The result and its allowed use supplied to another decision, which retains its own authority. |
+
+#### RMP.11:4.3 - What Changes in Practice
+
+Practitioners can use history without turning it into inevitability. A dated account can reveal forgotten variants and serious rivals; a causal stop can prevent unsupported reliance; and a current architecture decision can still authorize a reversible probe from a separate non-causal observation.
+
+#### RMP.11:4.4 - Weigh Historical Evidence between the Actual Accounts
+
+A reliable source can contain a fact that all serious accounts predict. Such a fact helps establish the sequence without favoring one explanation. Conversely, a potentially revealing statement may have little weight because its date, authorship or relation to the events is uncertain. Keep these questions separate from the claim grades in :4.1.
+
+1. **Make the comparison specific.** For the same finding, ask how expected it would be under each serious account, given the evidence already incorporated. Explain the difference. Compatibility with one account alone is insufficient. If two causes can operate together, compare their proposed contributions or a combined account rather than forcing an exclusive choice.
+2. **Examine how the finding became available.** Distinguish an event from a later assertion about it. Ask what the source could observe, why it was recorded, and how it was selected and preserved. A missing record weighs against an account only to the extent that the proposed event should have produced an accessible surviving record.
+3. **Use additional information, not additional copies.** A brochure, an interview repeating it and an article citing that interview may transmit one assertion. Assess the later item conditional on what is already known; do not count it as independent corroboration. Separately established timing or Work evidence can add information even when it appears in the same archive.
+4. **Return a conditional comparison.** State which finding favors which account and which assumptions carry that judgement. Preserve an indistinguishable result when the accounts predict the same observations or source uncertainty defeats discrimination. Check whether the preference survives plausible changes in disputed coding, source selection, dependence or the weight given to a key finding. If it does not, make that fragility part of the result. Use numerical analysis only with a justified observation model; do not invent probabilities or turn named test types into automatic grades.
+5. **Reconsider the relevant evidence when the account changes.** A newly discovered actor, date or mechanism may alter what earlier findings would mean. Compare the revised account with the relevant prior corpus as well as the new item, keeping source dependence visible. Do not attach the old conclusion to a newly worded hypothesis without this reconsideration.
+6. **Return only the supported use.** The comparison can identify a promising next inquiry or a bounded historical hypothesis. When a receiver needs causal reliance, supply this contribution and its limits to `C.28`; the comparison alone is not its complete support result. If a revised premise matters to an existing repertoire or choice, use its evidence dependencies to identify the affected C.39.RP, A.3.1.QM or C.32.MWA.PP result and reassess that reliance. A change to historical attribution need not invalidate an independently qualified current Method.
+
+### RMP.11:5 - Archetypal Grounding
+
+#### RMP.11:5.1 - Descriptive Stop
+
+This is a constructed design-office history, not a report about a real organization. The office must reconcile names and source editions after drawing signoff differentiated. For this case, independent A.3.1 identification and A.3.1.MV variant qualification have already established common Method `M-Signoff-0` and local variants `M-Signoff-E` and `M-Signoff-M`. All return approve/reject for a drawing, but the electrical variant requires clearance and harness-revision checks, while the mechanical variant requires load-case and fit checks; each withholds approval when its required check is absent. Those reusable differences are not inferred from separate form names. No professional-family or composite-Method claim is made.
+
+The explanandum is this local differentiation and its documented timing. The receiver needs to distinguish the introduction of the different checks from their later representation in separate electronic forms. It does not need a claim that one pressure caused the split or that either variant is better.
+
+The case premises also admit `ElectricalReviewer-E` and `MechanicalReviewer-M` as Agents for their respective checking under A.13, and their 9 and 18 April occurrences `WE7` and `WM4` as Work under A.15.1. The Work enacts `M-Signoff-E` and `M-Signoff-M`, respectively; E1 and M1 are the instructions used, not the enacted Methods. The bounded source set contains these case facts:
+
+| Date and source | Recoverable fact and limit |
+| --- | --- |
+| 15 January 2024, signoff instruction S3 | One common signoff account covers both drawing types and checks that required evidence is present. S3 contains neither variant's distinct test-and-withhold rule. A source omission alone does not prove that nobody already performed such checks. |
+| 4 March, exception log X2; 11 March, proposal P1 | X2 records two returned drawings, one lacking an electrical-clearance check and one lacking the mechanical load case. P1 cites these exceptions and proposes the two domain-specific rules. It also retains the alternative of common signoff with expert escalation; the record does not show that the exceptions alone determined the choice. |
+| 2 April, approval A14 and instructions E1/M1 | A14 approves the two local variants for their respective drawing types. E1 and M1 state the different required checks and failure returns. The common-with-escalation proposal is not selected in A14, but the deliberation minutes are missing. |
+| 9 and 18 April, signoff Work WE7/WM4 and their annotated results | ElectricalReviewer-E follows E1 in WE7 and withholds approval for missing clearance evidence; MechanicalReviewer-M follows M1 in WM4 and withholds it for a missing load case. The records support these two enactments before electronic-form separation, not population-wide use or the first-ever occurrences. |
+| 6 May, PLM migration note T2 and form edition F2 | Separate electronic forms and approval-record names are introduced. T2 says they carry the existing E1/M1 rules. It supplies no new variant semantics and no evidence that the forms caused earlier Work. |
+
+Before inspecting the April records, the office has two serious explanations. **R-demand** says domain-specific omissions prompted the proposal and selection of different rules; it predicts a problem record, a response proposal, and distinct checks before the form migration. **R-carrier** says the apparent split is only a naming or recording effect of that migration; it predicts unchanged checks beneath the new names. R-carrier is initially plausible because the searchable PLM history starts with F2 and makes the split look like a May event.
+
+Comparing E1/M1 and WE7/WM4 with S3 and T2 is diagnostic: different reusable checks and their enactments are recorded in April, before F2. This contradicts R-carrier's strong claim that only names changed in May. It fits R-demand, but the available records do not settle why the office selected separate rules over common signoff with escalation, or how other pressures contributed. Missing deliberation evidence leaves that link unresolved here; a separate control office is not a universal requirement for within-case causal inquiry. A weaker carrier contribution to later retention remains possible and untested; rejecting the naming-only account does not prove its rival.
+
+`DA-Signoff-Differentiation-1` returns these grades and limits:
+
+| Claim | Grade and allowed use |
+| --- | --- |
+| The common and domain-specific instructions differ in the named required checks and stops. | **Source-supported** by S3/E1/M1; Method identity and variant qualification remain the separate case premises. |
+| Separate rules were approved by 2 April and enacted in the two named April Work occurrences. | **Source-supported** by A14 and WE7/WM4. This is a documented bound, not an exact origin date or evidence of universal uptake. |
+| The March exceptions were a stated reason for proposing the variants. | **Source-supported** by P1; that stated reason is not a causal-effect result. |
+| The split was merely a May renaming with no earlier semantic difference. | **Contradicted** by the April instructions and Work records. |
+| Demand caused selection over common signoff with escalation, or the carrier caused later retention. | **Missing causal support**; retain the distinct hypotheses and missing deliberation/continuation evidence. |
+
+The receiving source-reconciliation decision can now keep E1 and M1 as different variant descriptions, keep S3 as the common predecessor account, and link F2 as their later form without dating Method differentiation from form creation. It leaves the exact first occurrence and reasons for selection unresolved. No `C.28` result is created because no causal reliance is taken. Reopen the relevant date, relation, or link claim if an earlier instruction, the missing deliberation record, or contrary Work evidence appears; do not choose today's architecture from this history alone.
+
+#### RMP.11:5.2 - Causal-Use Branch and Non-Causal C.32.MWA.PP Consumption
+
+The EC-417 release scenario records a cadence/evidence mismatch near several reopenings. Four result identities remain separate:
+
+- `DA-EC417-CadenceDifferentiation-1` is a partial descriptive account: the retained co-occurrences do not fill the dates, variants, and selection history needed for a complete differentiation account;
+- `CUR-EC417-CadenceEffect-1` is the causal-use support result;
+- `DC-EC417-CadenceMismatch-1` is a non-causal timing/co-occurrence hypothesis; and
+- `AD-EC417-B2-Trial-1` is the receiving C.32.MWA.PP architecture decision.
+
+The causal-use question `CUQ-EC417-CadenceEffect-1` asks: “Would entering provisional-evidence reconciliation at `D-21`, rather than waiting for signed evidence at `D-8`, reduce mismatch-related reopenings in EC-417-like releases for this team, supplier, and change class?” Its `causalUseClaimKind` is `causalEffectClaim`; its target rung is `interventionalActionRung`.
+
+The actual support-component refs are `evidencePathRefs=[EP-EC417-BundleSequence-20, EP-EC417-RigAvailability-20, EP-EC417-QuarterlyCadence-2]` and `empiricalDataRegimeRefs=[EDR-EC417-NaturalReleaseHistory]`. No identification or estimate result exists.
+
+Common threat screen `CTS-EC417-CadenceEffect-1` records:
+
+| Threat-screen field | Result |
+| --- | --- |
+| `causalUseQuestionRef` | `CUQ-EC417-CadenceEffect-1` |
+| `interventionWellDefinedOrConsistency` | `liveThreat` |
+| `temporalOrdering` | `clear` |
+| `exchangeabilityOrConfounding` | `liveThreat` |
+| `positivityOrOverlap` | `liveThreat` |
+| `interferenceOrSpillover` | `liveThreat` |
+| `selectionCensoringOrMissingness` | `liveThreat` |
+| `measurementErrorOrConstructShift` | `liveThreat` |
+| `transportToTarget` | `liveThreat` |
+| `routedThreatRefs` | `[]` |
+| `resultingSupportBoundary` | `unsupported` |
+
+Every live threat lowers the causal-support verdict because no specialist result closes it. The C.28 verdict is `unsupported`. `supportedUse`: no interventional causal reliance; use this result only as a stop against that reliance. `unsupportedUse`: claiming that cadence mismatch caused the reopenings or that B2 will reduce them. The evidence window is the named twenty releases and two earlier cases for this team, supplier, and change class. Reopen only on a governed comparison or replayable identification or bound that varies reconciliation timing while rig, approver capacity, outcome definition, and evidence access are controlled or explicitly modeled.
+
+`DC-EC417-CadenceMismatch-1` separately retains only the observed timing/co-occurrence as a trial hypothesis and design constraint. `AD-EC417-B2-Trial-1` consumes that non-causal result, capacity, confidentiality, authority, and reversibility to select only a bounded B2 trial. `SafetyReviewer-17` performs `W-SafetyEvidenceDecision-17` under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17` for the evidence-condition result; `ReleaseDecider-17` separately performs `W-ReleaseDecision-17` under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17` for branch entry and release disposition. The architecture decision does not cite `CUR-EC417-CadenceEffect-1` as positive causal evidence.
+
+#### RMP.11:5.3 - A Dated Proposal Has More Weight than Repeated Promotion
+
+Consider a constructed extension of the signoff history. Method and variant identification remain the independent premises of :5.1. The next historical inquiry must choose between **H-response**, in which repeated domain-specific omissions contributed to selecting separate rules, and **H-tool-only**, in which a provider's form package induced the split and the omissions were invoked afterwards. Tool support may also have helped retain a split selected for other reasons, so these are not the only possible contributions.
+
+A newly recovered internal decision memo compares separate rules with common escalation, rejects escalation because the named specialist would not be available, and recommends separation. Its authenticated March date precedes the earliest presently documented provider contact. This combination is more expected under H-response than H-tool-only: it records a problem-specific choice and reason before the currently known tool opportunity. The weight depends on the memo's authenticity, whether it recorded an actual decision rather than advocacy, and whether earlier provider influence remains unrecorded.
+
+A budget approval refers to that memo. It supplies evidence that resources were authorized, but its repeated rationale is not a second independent explanation. A later brochure and three interviews all repeat the same launch narrative; they show circulation of that story, not four independent confirmations. No trial of common escalation has been found, but trial records were not routinely preserved. That absence adds little against an account in which such a trial occurred.
+
+The investigator therefore gives H-response greater relative support than H-tool-only under the stated evidence and assumptions, while retaining possible provider influence and a mixed account. This selects a focused search for earlier contact and actual decision records. It supplies neither a numerical probability nor a claim about the effect of imposing separate rules today.
+
+Suppose the next archive yields an authenticated February provider proposal. The earlier temporal advantage disappears. The investigator reassesses the memo and budget in light of that contact, and compares a mixed account with tool-only influence and response to omissions. The memo still records its stated reason; it no longer independently shows that this reason preceded any known provider opportunity. Revised historical attribution returns to a present repertoire or decision only where that result relied on the attribution. Existing direct evidence that a local variant works within its qualified scope remains available.
+
+### RMP.11:6 - Bias-Annotation
+
+| Recurring bias | Likely drift | Repair |
+| --- | --- | --- |
+| chronology bias | Earlier and later events become cause and effect. | Return the descriptive sequence first and open C.28 only for a named causal use. |
+| survival bias | Current variants hide abandoned or excluded alternatives. | Seek abandoned variants, negative cases, and source gaps before grading links. |
+| fashion-metric bias | publication count, search frequency, or institutional promotion becomes adoption or effectiveness evidence. | Treat it as a possible diffusion indicator with scope and rivals, not a causal result. |
+| family-label bias | A local grouping becomes a professional family explanandum. | Require independent family membership or explain named Methods and relations instead. |
+| history-authority bias | A differentiation account chooses today's architecture. | Keep current decision criteria, authority, causal boundary, and trial stops in the downstream pattern. |
+
+### RMP.11:7 - Conformance Checklist
+
+- [ ] The explanandum is an identified Method, established family inclusion, or named Method relation change.
+- [ ] The receiving decision and exact causal use or descriptive stop are explicit.
+- [ ] The dated sequence precedes explanation and keeps source editions, Work evidence, variants, disappearances, and decision points recoverable.
+- [ ] Every link claim names pressure/change, affected actor or carrier, response/variation, selection/retention, and resulting Method or relation change.
+- [ ] Serious rivals and diagnostic observations are derived before convenient collection.
+- [ ] Diagnostic weight compares the actual rivals under stated prior evidence, source-generation conditions and dependencies; source repetition is not independent support.
+- [ ] Differentiation claims carry grades and limits, and changed accounts prompt reconsideration of the relevant earlier evidence.
+- [ ] Any causal-use result contains the complete current `C.28` identity, support, threat, verdict, use, window, and reopen fields.
+- [ ] Raw observations and source names are not presented as specialist support results.
+- [ ] Differentiation, causal support, non-causal hypothesis, and downstream architecture decision remain separate.
+- [ ] An `unsupported` or `undecided` result supplies no positive causal premise.
+
+### RMP.11:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Repair |
+| --- | --- |
+| “The pressure came first, so it caused the Method change.” | State a link claim, rivals, diagnostic observations, and the C.28 result required by the receiving use. |
+| “The timeline is the explanation.” | Treat it as an index and test explicit links and rivals. |
+| “Process tracing proves the causal effect.” | Use it for within-case diagnosis; apply C.28 for the named causal use and lower the verdict when identification, a bound, or estimation required for that use is missing. |
+| “Unsupported means the history is useless.” | Retain descriptive sequence and a separately named non-causal hypothesis within their use boundaries. |
+| “The history tells us what to implement.” | Send bounded results to a separate authorized architecture decision. |
+
+### RMP.11:9 - Consequences
+
+Professional Method history becomes decision-usable without being made causally stronger than its evidence. Forgotten variants and rivals remain available, while current architecture choices can distinguish causal reliance from a reversible probe based on non-causal observations.
+
+The cost is explicit result separation and threat screening. Some elegant origin stories will end as descriptive accounts, and some causal questions will remain unsupported until a stronger design or bound exists.
+
+### RMP.11:10 - Rationale
+
+Differentiation history, causal support, and present choice have different subjects and truth conditions. A dated sequence can be accurate while its causal explanation is unsupported; an unsupported causal claim can coexist with a useful non-causal design constraint; and neither supplies present authority.
+
+The pattern connects questions about variant generation, transmission, fashion, retention and loss. Evolutionary analogies and search-frequency examples can suggest hypotheses and rivals; their causal use depends on diagnostic observations. Process-tracing sources strengthen that inquiry. C.28 states what support a causal use needs, keeping a plausible narrative separate from identification or estimation.
+
+### RMP.11:11 - SoTA-Echoing
+
+| Source | Retained contribution | Use boundary |
+| --- | --- | --- |
+| Stacey et al., [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9) | Attention to Method knowledge, variation, loss, and engineering context. | Conceptual history supplies no project causal verdict or current architecture authority. |
+| Collier, [Understanding Process Tracing, with 2019 addendum](https://polisci.berkeley.edu/sites/default/files/people/u3827/2011%20Collier-Understanding%20Process%20Tracing%20with%20Addendum.pdf) | The 2011 foundation supplies within-case sequencing and diagnostic observations; the addendum develops relations among rivals and moves beyond rigid necessity/sufficiency test classes. | This historical foundation is supplemented by the later inferential treatment below; it does not replace FPF causal-use assessment. |
+| Fairfield and Charman, [Explicit Bayesian Analysis for Process Tracing](https://researchonline.lse.ac.uk/id/eprint/69203/2/Fairfield_Explicit%20bayesian%20analysis_author_2017%20LSERO.pdf) and [A Dialogue with the Data](https://doi.org/10.1017/S1537592718002177) | Compare specified alternatives, condition on prior evidence, retain source dependence, and reconsider existing evidence when hypotheses develop. | These foundations discipline qualitative comparison; numerical probabilities require warranted assumptions. They supply no complete causal-use verdict or architecture decision. |
+| [Fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing, v2](https://arxiv.org/abs/2606.16683v2), 2026 preprint | Model-based evidence weighting and sensitivity analysis sharpen the question of how a conclusion depends on coding, selection and weight. | Its binomial observation model and one-rival comparisons require substantive justification; clustered source dependence limits the claimed guarantees. This optional numerical development is not a default historical protocol. |
+| Mahoney, [The Logic of Process Tracing Tests](https://doi.org/10.1177/0049124112437709) | Weak, necessary-condition, and strongly discriminating test logic. | Grades observations; it does not make the whole chain certain. |
+| Current FPF `C.28` | Causal-use question, rung, support components, common threat screen, verdict, use boundary, limits, and reopen. | C.28 states evidence support only; downstream choice and authority remain separate. |
+
+Reopen when a current source changes the diagnostic logic or causal-use rules, when a representative history cannot keep differentiation and causal support separate, or when a downstream use repeatedly needs a missing result field.
+
+### RMP.11:12 - Relations
+
+- RMP.4 supplies inspectable source relations and limits; RMP.7 supplies warranted corpus contributions without multiplying dependent reports. RMP.5 can examine the historical claim under its Method, and RMP.8 returns an affected knowledge claim to its actual receiver.
+- `A.3.1` governs Method identity; `G.5` governs established family or selector claims; a local grouping label supplies neither.
+- `A.10` governs source and evidence paths; `A.10.1` helps locate actual dependencies when a premise changes; `C.27` governs temporal-claim adequacy; `C.28` and `C.28.CM` govern causal-use support and construction of causal inquiry.
+- C.39.RP may retain variants and lineages without inheriting causal truth.
+- C.32.MWA.PP may consume the differentiation account, causal-use verdict, or separately named non-causal observation only within each result's use boundary and keeps its own authority.
+- Cultural continuation and professional-history uses remain separate from one current project architecture decision.
+
+### RMP.11:End
+
+
 # Cross-Pattern Application
 
-<a id="app-rmp-01--pump-p4-accelerated-seal-evidence"></a>
+
 
 ## RMP.Application:1 - APP-RMP-01 — Pump-P4 accelerated seal evidence
 
@@ -2765,7 +3460,7 @@ This constructed application connects RMP.1–RMP.8. It is not evidence about an
 
 Pump-P4's reliability council asks whether a high-temperature accelerated seal test supports changing the maintenance interval. The maintenance authority retains that choice. Domain engineering and assurance own the qualified failure relation, test Method and criteria; instrument, laboratory, safety, access, and material owners supply their own results.
 
-<a id="first-fork--routine-qualification-supplied-answer-or-research-question"></a>
+
 
 ### RMP.Application:1.1 - First fork — routine qualification, supplied answer, or research question
 
@@ -2780,7 +3475,7 @@ RMP.1 recovers the receiving use and current frame before treating the laborator
 
 The brief states the receiving use, the proposed change to the mechanism-to-evidence claim, the materials and operating conditions covered, current sources and rivals, required criticism, constraints and results supplied by other practitioners. It distinguishes the answer condition from conditions for finishing work with uncertainty. The maintenance authority retains the interval decision.
 
-<a id="construct-a-comparison-that-can-answer-the-mechanism-question"></a>
+
 
 ### RMP.Application:1.2 - Construct a comparison that can answer the mechanism question
 
@@ -2788,7 +3483,7 @@ The [RMP.2 seal case](#rmp2511---derive-and-repair-the-mechanism-comparison) beg
 
 Recovering the laboratory’s mechanism-sensitive operation gives the researcher a different possible result: a surface/chemical signature with a qualified interpretation. From the question, derive the needed comparison between accelerated and field-representative conditions, preserving material identity, assignment and the qualified damage range. Follow the operation on the reference records and explain what a compatible, discrepant or uninterpretable return would mean. Missing material correspondence or failed signature discrimination returns a precise prerequisite; it is not concealed as protocol detail. Only a worthwhile obtainable arrangement can become the selected design.
 
-<a id="second-fork--answer-the-current-research-allocation-question"></a>
+
 
 ### RMP.Application:1.3 - Second fork — answer the current research-allocation question
 
@@ -2803,7 +3498,7 @@ With the brief fixed, RMP.2 uses an adequate current answer or compares the real
 
 If a missing value prevents a particular selection still needed, a hold is the useful return. A settled no-new-study allocation instead retains the unknown as a limitation without inventing an awaited investigation. On the selected-design branch, the decision remains the source of the comparison and its limits; RMP.3 supplies the operational work it does not itself perform.
 
-<a id="from-the-selected-design-to-operational-choices-and-actual-trace"></a>
+
 
 ### RMP.Application:1.4 - From the selected design to operational choices and actual trace
 
@@ -2815,7 +3510,7 @@ On the valid-marker branch, specimen P4-07 is damaged in handling before a plann
 
 The operational result is an executable specification for its supported scope and a trace whose examinations and limits are clear. RMP.5 uses the actual specimen, measurement and exclusion history to analyze the bounded claim under its qualified Method. A missing observation does not by itself establish the direction or importance of any resulting bias; preserve the analysis and criticism that bear on that consequence.
 
-<a id="from-analysis-to-a-relevant-credibility-examination"></a>
+
 
 ### RMP.Application:1.5 - From analysis to a relevant credibility examination
 
@@ -2823,7 +3518,7 @@ Suppose the proposed field conclusion rests instead on a calibrated simulation w
 
 RMP.6 can finish with that limited result when no relevant worthwhile examination is obtainable. If independent qualified field material later makes a discriminating mechanism comparison feasible, assess its contribution and select the appropriate validation or comparison. The selection supplies no performed result. A later returned comparison may retain, narrow or defeat the proposed field use; the maintenance authority retains the interval decision.
 
-<a id="from-a-corpus-answer-to-the-exact-model-return"></a>
+
 
 ### RMP.Application:1.6 - From a corpus answer to the exact model return
 
@@ -2833,7 +3528,7 @@ RMP.8 compares the synthesis with the model's particular claims. The laboratory 
 
 The reliability council receives that bounded result. A current source answer, limited synthesis or exact correction can finish the research question; a future field study earns a separate selection, and the maintenance authority retains its decision.
 
-<a id="app-rmp-02--residentstream-s17-salinity-anomaly"></a>
+
 
 ## RMP.Application:2 - APP-RMP-02 — ResidentStream-S17 salinity anomaly
 
@@ -2859,7 +3554,7 @@ For a passing brief, RMP.2 uses sufficient evidence or compares the real researc
 
 Citizen status changes none of these branches. A selected design does not authorize site entry or sampling, and the eventual evidence cannot order remediation.
 
-<a id="preserve-the-comparison-when-the-field-situation-changes"></a>
+
 
 ### RMP.Application:2.1 - Preserve the comparison when the field situation changes
 
@@ -2873,7 +3568,7 @@ If volunteers started before recording a protocol, a dated reconstruction can de
 
 RMP.5 can return the supported downstream pattern while leaving attribution to the proposed source unresolved. Repeated downstream readings do not supply the lost reference reach. RMP.6 assesses whether an authorized matched observation in a later period is worth obtaining for that new question. Its future result cannot recreate the missed thaw comparison, and the current limited answer can finish without promising it. The environmental receiver retains the response decision.
 
-<a id="relate-unlike-contributions-and-return-the-limitation"></a>
+
 
 ### RMP.Application:2.2 - Relate unlike contributions and return the limitation
 
@@ -2881,7 +3576,7 @@ If residents also receive other catchment studies and interpretations, RMP.7 ask
 
 If a briefing attributes the local anomaly to one source beyond the supplied evidence, RMP.8 retains the supported downstream pattern and removes that unsupported causal assertion. It returns the particular uncertainty to the environmental receiver. A synthesis of participation experiences can separately inform the group's account of distrust; it cannot supply a population frequency or estimate remediation effects. The group's data authority and the regulator's response decision remain at their own owners.
 
-<a id="app-rmp-03--factory-closure-historical-transfer-probe"></a>
+
 
 ## RMP.Application:3 - APP-RMP-03 — Factory-closure historical transfer probe
 
@@ -2895,8 +3590,8 @@ A different question—how former workers experienced the closure—may use a su
 
 In a further supplied corpus, several later accounts say a public protest prompted the decision to close. RMP.7 finds that they share a retrospective memoir; an authenticated record dates that decision before the protest. The supported chronology defeats that decision-causation claim, while the cause of the decision and any effect on later implementation remain unresolved. RMP.8 carries the same identified correction to a museum description that actually relied on it, through the responsible editor and applicable source-access terms. This added corpus question does not change the earlier directive comparison into the same event or explanation.
 
-<a id="app-rmp-04"></a>
-<a id="app-rmp-04--retain-the-method-and-correct-its-research-consequence"></a>
+
+
 
 ## RMP.Application:4 - APP-RMP-04 — Retain the Method and correct its research consequence
 
@@ -2908,8 +3603,8 @@ RMP.4 locates the affected computation and dependent material. RMP.9 retains the
 
 A later change to dependent observations or the intended site-level quantity can raise a new Method-fit question. RMP.9 then compares the actual alternatives and whether useful evidence is attainable and worth obtaining. The [changed-situation case](#rmp952---select-a-worthwhile-comparison-without-inventing-its-result) selects such a comparison under its stated premises; it does not supply a winning Method before the evidence exists. The receiving uncertainty claim remains restricted until its missing qualification is resolved.
 
-<a id="rmp-workplace-experiment"></a>
-<a id="app-rmp-05--should-a-second-approver-reduce-customer-waiting"></a>
+
+
 
 ## RMP.Application:5 - APP-RMP-05 — Should a second approver reduce customer waiting?
 
@@ -2917,13 +3612,13 @@ Use this application when a manager can describe a workflow but needs help turni
 
 The example is constructed. Its branch arrangement, professional results and numbers are stipulated for explanation, not observations of an organization or a recommended sample size. It shows how to obtain and inspect a contribution from a specialist. Reading it does not establish that someone can independently design a causal experiment.
 
-<a id="find-the-question-that-matters"></a>
+
 
 ### RMP.Application:5.1 - Find the question that matters
 
 A quotations manager sees many overdue offers and proposes a second approver. Two different aims are possible: meet the promised date, or shorten customers' actual wait. Moving the promised date can improve the first indicator while leaving the second unchanged. The manager selects the second aim and keeps quotation errors as an outcome that must not worsen beyond an agreed limit.
 
-The initial working question is: **Would making an additional approver available, under a specified arrangement, shorten the time from a customer's request to the quotation actually sent?** Approval may be only one delay. Missing customer input and difficult calculations are also plausible. Existing evidence may already support a sufficient repair, such as restoring a known failed forwarding rule. [RMP.1](#rmp-1) can return that answer without making a new study compulsory. Here, suppose the effect of additional approval capacity remains unresolved and matters to a recurring staffing decision.
+The initial working question is: **Would making an additional approver available, under a specified arrangement, shorten the time from a customer's request to the quotation actually sent?** Approval may be only one delay. Missing customer input and difficult calculations are also plausible. Existing evidence may already support a sufficient repair, such as restoring a known failed forwarding rule. [RMP.1](#rmp1--decide-whether-a-question-needs-research-and-when-to-stop) can return that answer without making a new study compulsory. Here, suppose the effect of additional approval capacity remains unresolved and matters to a recurring staffing decision.
 
 Keep three questions separate:
 
@@ -2931,9 +3626,9 @@ Keep three questions separate:
 - **Which mechanisms explain the waits?** Consider approval delay, missing input, or both, with initial complexity and workload affecting them.
 - **What would the additional-approver arrangement change?** This needs a justified comparison of intervention versions and outcomes.
 
-[Constructing and challenging a causal model](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) helps articulate these mechanisms. A diagram makes their implications inspectable; it does not establish which arrows are warranted.
+[Constructing and challenging a causal model (FPF C.28.CM)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) helps articulate these mechanisms. A diagram makes their implications inspectable; it does not establish which arrows are warranted.
 
-<a id="obtain-records-that-preserve-the-needed-distinction"></a>
+
 
 ### RMP.Application:5.2 - Obtain records that preserve the needed distinction
 
@@ -2953,9 +3648,9 @@ This office counts working time from 09:00 to 17:00 on weekdays. The total is 25
 
 The registration trial should expose missing events, inconsistent clocks, retrospective guesses, duplicate requests and the effort required to keep the record. If the old messages do not survive, mark the missing history. Begin suitable prospective recording when worthwhile; do not invent past timestamps. If two durations of seven and eight hours are both stored as "one day", repeating that rounded record need not recover their difference.
 
-[RMP.3](#rmp-3) connects these choices to the question; [RMP.4](#rmp-4) preserves what actually happened and what can still be examined. Retain both the intended record and consequential departures from it. Stage durations are useful for understanding mechanisms, while the intervention's total effect still concerns the whole time to sending.
+[RMP.3](#rmp3---operationalize-the-research-design-without-replacing-the-question) connects these choices to the question; [RMP.4](#rmp4---preserve-a-criticism-ready-research-trace) preserves what actually happened and what can still be examined. Retain both the intended record and consequential departures from it. Stage durations are useful for understanding mechanisms, while the intervention's total effect still concerns the whole time to sending.
 
-<a id="separate-a-delay-forecast-from-an-intervention-effect"></a>
+
 
 ### RMP.Application:5.3 - Separate a delay forecast from an intervention effect
 
@@ -2965,9 +3660,9 @@ This calculation describes the association in that table, under its use as the r
 
 To compare "approval delay", "missing input" and "both", an analyst needs the likelihood of the proposed records under those accounts, or a weaker contrast the available records can actually support. Accounts can allow the same observation with different probabilities. Conversely, available observations may fail to distinguish them. Do not fill "the hypothesis is false" with an arbitrary mixture of alternatives or force coexisting mechanisms into an exclusive pair.
 
-Use [MMP.13, statistical inference under an observation model](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp13---infer-unknowns-statistically-under-a-stated-observation-model), for the probability model and update; [MMP.16, observations that distinguish model alternatives](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp16---design-observations-to-separate-mathematical-model-alternatives), for what an obtainable observation could discriminate; and [MMP.15, intervention-effect identification](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp15---identify-an-intervention-effect-from-available-data), for whether the available comparison identifies the causal quantity. These are different supplied results. A plausible mechanism or larger probability is not yet a staffing decision.
+Use [statistical inference under an observation model (MMP.13)](Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp13---infer-unknowns-statistically-under-a-stated-observation-model), for the probability model and update; [observations that distinguish model alternatives (MMP.16)](Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp16---design-observations-to-separate-mathematical-model-alternatives), for what an obtainable observation could discriminate; and [intervention-effect identification (MMP.15)](Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp15---identify-an-intervention-effect-from-available-data), for whether the available comparison identifies the causal quantity. These are different supplied results. A plausible mechanism or larger probability is not yet a staffing decision.
 
-<a id="ask-for-a-comparison-the-organization-can-obtain-and-run"></a>
+
 
 ### RMP.Application:5.4 - Ask for a comparison the organization can obtain and run
 
@@ -2977,7 +3672,7 @@ The manager gives a qualified analyst a concrete request:
 
 The request supplies current workload and complexity records, staffing arrangements, queues, expected arrival volumes, the reporting deadline and the people who can operate the record. The manager also provides a prospective criterion: the lower limit of the specified two-sided 95% interval for the mean reduction must exceed **one working day**, and the upper limit of the corresponding interval for the increase in correction rate must be below **0.5 percentage points**. These are this case's operating criteria, chosen with the responsible decision owner before examining intervention results. They are not universal scientific thresholds.
 
-The analyst must explain how the assignment, outcome, dependence, expected precision, observation period, analysis and stopping rule answer this question. "Run an A/B test" leaves those operations unspecified. [RMP.2](#rmp-2) uses the supplied professional construction to choose an obtainable design or a useful stop; [RMP.3](#rmp-3) makes its consequential operations executable. Ask the analyst to work through one branch and one request so that the responsible staff can check what they would actually do. A citation or an assisting agent's fluent explanation does not supply an unavailable design qualification.
+The analyst must explain how the assignment, outcome, dependence, expected precision, observation period, analysis and stopping rule answer this question. "Run an A/B test" leaves those operations unspecified. [RMP.2](#rmp2--choose-a-criticism-bearing-research-design-or-stop) uses the supplied professional construction to choose an obtainable design or a useful stop; [RMP.3](#rmp3---operationalize-the-research-design-without-replacing-the-question) makes its consequential operations executable. Ask the analyst to work through one branch and one request so that the responsible staff can check what they would actually do. A citation or an assisting agent's fluent explanation does not supply an unavailable design qualification.
 
 For the positive branch, suppose the analyst supplies and justifies the following arrangement for this workplace:
 
@@ -2992,7 +3687,7 @@ Matching branches reduces known background differences; random assignment suppli
 
 Obtain the complete protocol and its grounds from the analyst before relying on it. The summary above identifies what the manager inspects and operates. It is not a replacement for the setting-specific treatment of unfinished cases, precision and analysis.
 
-<a id="decide-whether-the-study-is-worth-obtaining"></a>
+
 
 ### RMP.Application:5.5 - Decide whether the study is worth obtaining
 
@@ -3002,7 +3697,7 @@ In this case the owner judges the prospective answer worth that burden because a
 
 If no competent provider is available on useful terms, the plan has not been obtained. The manager can finish the current allocation decision with no new study, retain the observed stage delays and leave the additional approver's causal effect unresolved. Alternatively, a worthwhile limited recording improvement can prepare a later decision. Specify what new availability, consequence or evidence would make reconsideration useful. Stopping expenditure neither proves the proposal ineffective nor increases confidence in it.
 
-<a id="use-the-returned-analysis-at-the-strength-it-supports"></a>
+
 
 ### RMP.Application:5.6 - Use the returned analysis at the strength it supports
 
@@ -3020,11 +3715,11 @@ For correction rate, the paired changes, new minus current arrangement, are **�
 
 The intervals express uncertainty under the supplied analysis, not a guarantee about the effect in every branch. In particular, one pair's observed correction-rate increase is 0.6 percentage points. The stated criterion concerns the average; a requirement that each branch stay below 0.5 would be a different decision and would not be cleared by this table.
 
-[RMP.5](#rmp-5) connects the actual material, analysis and criticism to the claim. [RMP.8](#rmp-8) returns the supported change in the knowledge account: **the specified additional-approver arrangement reduced average customer waiting under these branch, workload and monitoring conditions, with the stated remaining uncertainty and average quality bound**. This result does not establish that approval was the only source of delay or that every form of extra staffing would work.
+[RMP.5](#rmp5---analyze-and-criticize-the-research-claim-under-its-method) connects the actual material, analysis and criticism to the claim. [RMP.8](#rmp8---use-research-results-to-retain-or-revise-an-epistemes-claims-and-return-bounded-evidence) returns the supported change in the knowledge account: **the specified additional-approver arrangement reduced average customer waiting under these branch, workload and monitoring conditions, with the stated remaining uncertainty and average quality bound**. This result does not establish that approval was the only source of delay or that every form of extra staffing would work.
 
 The decision owner still compares the recurring benefit with the recurring burden and alternative uses of staff. Continuing in eight branches requires 160 approval hours per four-week period; extending to sixteen requires 320 under the same schedule. Suppose only 160 hours are available without sacrificing a more valuable commitment. A reasonable authorized action is bounded continuation where those hours can be provided, with the affected service outcomes observed. The research result informs that choice; it does not create the missing capacity or determine which branches should receive it.
 
-<a id="change-the-shared-queue-condition"></a>
+
 
 ### RMP.Application:5.7 - Change the shared-queue condition
 
@@ -3034,7 +3729,7 @@ Return the actual queue, staffing and transfer relation to the analyst through R
 
 If the organization has one shared queue and no obtainable design that can answer the causal question at worthwhile cost, finish with the supported descriptive answer and the unresolved effect. The original plan's numbers and intervals cannot qualify this different arrangement. A proposed new study remains a proposal until its needed construction and conduct exist.
 
-<a id="keep-the-threats-connected-to-actual-decisions"></a>
+
 
 ### RMP.Application:5.8 - Keep the threats connected to actual decisions
 
@@ -3052,139 +3747,29 @@ Use these distinctions while inspecting the supplied plan and its execution. Eac
 | Inadequate recording resolution or precision | Inspect the recording operation and the planned uncertainty. More rounded rows may add no distinction; more genuinely informative units may still be too costly to obtain. |
 | Selecting outcomes, analyses or stopping after seeing results | Preserve what was fixed beforehand and why later choices changed. An exploratory favorable subgroup can suggest another question; it does not retrospectively become the planned confirmatory answer. |
 
-Before extending the result, check the receiving workload, staffing and interactions that its use depends on. Re-running the same data can expose a computational error; it supplies no new workplace cases. A relevant new-data check earns its cost through [RMP.6](#rmp-6). The useful finish is the supported answer and the action it can inform, or a precise limitation with a justified next move.
+Before extending the result, check the receiving workload, staffing and interactions that its use depends on. Re-running the same data can expose a computational error; it supplies no new workplace cases. A relevant new-data check earns its cost through [RMP.6](#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing). The useful finish is the supported answer and the action it can inform, or a precise limitation with a justified next move.
+
+## RMP.Application:6 - Restore a service while investigating an unresolved mechanism
+
+This is a constructed illustration; its working conditions are stipulated.
+
+A team observes longer response times after enabling a cache. It must decide what to do for today's service. An applicable operating procedure and current observations support restoring the previous configuration; the authorized operator can do that under its ordinary conditions. Restoring acceptable service does not require first discovering a general explanation of caching performance.
+
+A separate inquiry asks under which workload conditions contention for the cache's shared lock can worsen response times despite reducing remote requests. Suppose the available sources do not settle this mechanism for the specified implementation and concurrency range. The intended research return is a bounded, criticizable claim that could change the model and later design guidance. This inquiry seeks a result of its own even if today's operating choice is already settled.
+
+Use [the distinction between model, explanation, research and advice (PSDA.Reference:2.1)](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psdareference21---do-we-need-a-model-an-explanation-research-or-advice) to separate the contributions. A simulation reproduces the delay under a locking hypothesis. Another model reproduces it through changes in request composition. Matching the aggregate delay therefore fails to discriminate these accounts. [PSDA.3](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda3---construct-complementary-situation-and-option-models) preserves what each model assumes and supports; [RMP.2](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp2--choose-a-criticism-bearing-research-design-or-stop) asks what obtainable observation or comparison could challenge the competing mechanism claims.
+
+Continue with a design whose measures and workload conditions can discriminate the mechanisms. A candidate design calls for observing lock waiting and request classes during a replay that preserves the relevant concurrency. Qualify its measurement, comparison, access and workload correspondence for this question before selecting it. A replay that serializes the requests would remove the interaction the question concerns. Repeating the same aggregate simulation would leave the two explanations compatible.
+
+If a qualified design is available and its contribution warrants the whole burden, operationalize it with [RMP.3](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp3---operationalize-the-research-design-without-replacing-the-question), perform the inquiry under its qualified domain Method, and use [RMP.4](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp4---preserve-a-criticism-ready-research-trace) to preserve the actual trace, with [RMP.5](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp5---analyze-and-criticize-the-research-claim-under-its-method) for interpretation and [RMP.6](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp6---choose-a-credibility-test-that-bears-on-the-research-claim-or-answer-without-new-testing) when a further credibility test is worthwhile. Interpret the actual material before returning a bounded claim. If the required observations cannot be obtained at worthwhile cost, finish the present research-allocation question with no new study and an unresolved mechanism claim. Do not relabel that stop as confirmation of either model. Today's supported service restoration remains usable in either branch.
+
+Suppose suitable later evidence supports the locking explanation only within the tested concurrency range. Return that range and its grounds to the model and design users. The service owner still needs the qualification appropriate to any proposed new configuration and the authority to deploy it. [EXD.4](https://github.com/ailev/FPF/blob/main/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue) helps explain why “we understand one mechanism” differs from “this new configuration is ready to use”, without requiring the recipient to agree to deployment. A later workload outside the supported range reopens applicability; it does not erase the earlier result.
 
 ## RMP.Application:End
 
-# Framework Boundary and Refresh
+# Research Method Practice Principles Framework Sources and Edition Notes
 
-<a id="intended-use-and-ordinary-non-use"></a>
-
-## RMP.Reference:1 - Intended use and ordinary non-use
-
-Use this repertoire to qualify a research question, answer a current design-allocation question, make the selected inquiry operational, recover actual material, examine its claim, select relevant credibility work, synthesize its corpus, return the exact knowledge revision, or retain or improve a research Method. Enter from the actual missing contribution with compatible supplied inputs.
-
-Do not use it as a generic literature-search guide, research-administration manual, ethics or safety process, ready-to-run domain protocol, statistics handbook, domain measurement guide, publication checklist, evidence hierarchy, funding rule, or authority for the receiving decision. It does not establish that Work occurred or a claim became true.
-
-<a id="judge-the-connected-result"></a>
-
-## RMP.Reference:2 - Judge the connected result
-
-The practical entries are recognition aids. Correct use requires the reasons and conditions in the complete bodies. Inherit the [RMP.1 checklist](#rmp17---conformance-checklist) for a passing brief, the [RMP.2 checklist](#rmp27---conformance-checklist) for a design disposition, the [RMP.3 checklist](#rmp37---conformance-checklist) for operationalization, the [RMP.4 checklist](#rmp47---conformance-checklist) for the trace, the [RMP.5 checklist](#rmp57---conformance-checklist) for analysis and claim criticism, the [RMP.6 checklist](#rmp67---conformance-checklist) for the credibility decision, the [RMP.7 checklist](#rmp77---conformance-checklist) for synthesis and the [RMP.8 checklist](#rmp87---conformance-checklist) for revision/return and the [RMP.9 checklist](#rmp97---conformance-checklist) for Method retention or change. For the contributions actually combined, also examine their connection:
-
-| Substantive question | A usable answer and its return when absent |
-| --- | --- |
-| Does the design answer the same bounded question for the same receiver and useful stop? | Show the brief positions used by the comparison. Requalify a changed question; obtain an unresolved material, population, context, or source relation instead of assuming compatibility. |
-| Does the completion concern sufficient evidence or the present allocation with insufficient evidence? | Preserve the adequate answer for EvidenceSufficientStop, or the bounded answer and no-new-study reason for QualifiedNoNewStudy. A missing result holds only the selection it prevents; resource and authority decisions retain their owners. |
-| Can the chosen strategy expose the criticism demand, including the dependence and disagreement of any components? | Name the defeating or narrowing result and the shared assumptions. Apply the [whole-combination conditions](#rmppreface12---conditions-for-a-usable-combined-result) when several Methods contribute. |
-| For a design selection still needed, could remaining values alone or jointly change the family, criticism, feasibility or refusal? | Return ResearchDesignHold when those values prevent that selection. Only an actually selected design can retain invariant PostSelectionNeed. A completed QualifiedNoNewStudy answer keeps its evidence limit without turning it into an acquisition. |
-| Do the operational choices still support the selected question and criticism? | Follow one consequential observation or source choice through the whole arrangement. Name a blocked action or return a defeated premise under RMP.3; do not hide a changed design in protocol detail. |
-| Does the receiving examination have the actual material and access it needs? | Use RMP.4 to distinguish plans, conduct, reconstruction, transformations and loss. State the particular examinations still supported and those prevented. |
-| Does the analysis warrant the proposed claim under its Method? | RMP.5 follows the material-to-claim connection and retains consequential choices, contrary material, uncertainty and unsupported stronger uses. |
-| Does the credibility examination address the actual threat, and is it obtainable and worthwhile? | RMP.6 compares the meaningful result with the whole arrangement, preserves a useful no-new-test answer, and distinguishes selection from actual performance. |
-| Does the corpus answer preserve the question, source dependence and warranted transformation? | RMP.7 distinguishes independent support, compatible synthesis, context and missing material. A refusal states the narrower supported result. |
-| Does the revision concern the same assertion and reach the actual use that needs it? | RMP.8 reconciles affected claims, preserves uncertainty and returns the permitted correction through its responsible owner. |
-| Does the Method decision address the actual subject and change only its dependent use? | RMP.9 separates supported retention, bounded correction, worthwhile evidence acquisition and restricted use; RMP.5/RMP.8 or another actual consumer receives only the consequential return. |
-| What has actually been returned, and what can the receiver do with it now? | Identify the supplied answer, brief, design disposition, operational specification, limited trace, bounded claim/criticism, credibility decision and actual test result when one exists, corpus synthesis, exact knowledge revision and return, or supported Method retention or change. The receiving action still needs its own criteria and authority. |
-
-These questions test the present result; counting completed rows does not establish that evidence exists or that Work occurred. A direct use of RMP.2 with a compatible supplied brief needs no second RMP.1 record. When one premise changes, revisit the result and combinations that rely on it while retaining unaffected work.
-
-<a id="bias-and-the-reach-of-these-examples"></a>
-
-## RMP.Reference:3 - Bias and the reach of these examples
-
-The seal and stream cases foreground engineering evidence and observable anomalies; the historical and interpretive contrast prevents controlled experiment from becoming the implicit model of every inquiry. The Method-correction case additionally exposes the difference between implementation repair, Method qualification and a changed receiving claim. Together these cases make important branch and loss decisions recognizable, but they are constructed cases, not field validation of the repertoire. RMP.2 compares unlike design families, RMP.3 preserves their operational differences, RMP.4 relates actual material to the intended examination, and RMP.5/RMP.6 connect method-appropriate criticism and testing to the bounded claim. These contributions do not provide each family's complete professional practice or establish equal coverage of every research tradition.
-
-The requirement for a named receiving use can make a sponsor's decision too prominent. The receiver may instead need a bounded explanation or corpus contribution; immediate commercial, policy, or operational action is not required. Keep rival accounts capable of changing the favored answer, and distinguish a sponsor's preference from the criticism demand. The [RMP.1 bias account](#rmp16---bias-annotation) and [RMP.2 bias account](#rmp26---bias-annotation) address status, activity, favourite-Method, tool and authority drift. [RMP.3](#rmp36---bias-annotation) adds operational selection and researcher-position questions; [RMP.4](#rmp46---bias-annotation) adds retrospective reconstruction, unrecorded exclusions and access consequences. [RMP.5](#rmp56---bias-annotation) and [RMP.6](#rmp66---bias-annotation) address interpretive overreach, technique prestige, repetition and acquisition bias. [RMP.7](#rmp76---bias-annotation) adds corpus selection and source-dependence limits; [RMP.8](#rmp86---bias-annotation) adds wider model reliance and receiving-use limits. [RMP.9](#rmp96---bias-annotation) adds novelty, easy-metric, compulsory-acquisition and unsupported-retention risks.
-
-Applying the same membership conditions does not give every group the same resources or access. Community access, specialist competence, funds, archive rights, or a safe sampling window can determine what can actually be done. Preserve those conditions as concrete results and constraints. Bounded communicability requires a critic to recover the reasoning; it does not demand public release of protected records or convert an institutional template into the only acceptable trace.
-
-<a id="failures-at-the-connection-between-the-patterns"></a>
-
-## RMP.Reference:4 - Failures at the connection between the patterns
-
-| Consequential misreading | Practical correction |
-| --- | --- |
-| A passing ResearchQuestionBrief is treated as approval to begin the favored test. | Use RMP.2 to justify the design and obtain the actual owner results. The brief establishes the epistemic question, not permission or a selected strategy. |
-| The brief, design, protocol or trace looks complete, but its question, source frame, material or receiving use differs from the contribution it relies on. | Compare the shared premises at the connection and return the changed question or missing compatibility result. Individually detailed accounts do not repair the mismatch. |
-| Every component of a mixed design is feasible, so the combination is declared feasible. | Check shared capacity, burdens, access windows, and the integration claim for the whole set, as in the twelve-day example. |
-| A missed comparison is carefully recorded but the original claim remains unchanged. | Preserve the loss and return the defeated design premise. The trace can support a narrower examination without restoring absent evidence. |
-| A final reconstructed protocol is called a prospective commitment. | Preserve the actual evidential basis and timing. A useful reconstruction cannot establish an earlier decision that its sources do not support. |
-| A public summary is treated as equivalent to the protected original for every criticism. | State which examination each available view supports; obtain permitted access or narrow the receiving use. |
-| A repeated computation is treated as evidence that the model is adequate for any field use. | Preserve the computational result and examine the claimed model-to-field relation under RMP.5/RMP.6. |
-| A selected credibility test is treated as an actual result. | Preserve the decision, actual performance and returned evidence as different facts. |
-| A corpus count is treated as independent corroboration or unlike results as one magnitude. | RMP.7 recovers contributions and the justified transformation before synthesis. |
-| A correction changes the event or leaves a dependent model claim unqualified. | RMP.8 matches the assertion and reconciles its actual dependent uses. |
-| A selected Method trial is treated as a qualified improvement, or its cost makes unsupported use appear adequate. | RMP.9 keeps acquisition worth, performed evidence and Method adequacy separate. Restrict the unsupported use and preserve the affected claim's limit. |
-
-<a id="practical-consequences-and-revision"></a>
-
-## RMP.Reference:5 - Practical consequences and revision
-
-The arrangement can save a study, give a team a defensible research direction, identify one missing external result, or return a claim whose support and limits are clear. It also makes routine qualification and monitoring easier to recognize and continue under their own Methods. The work required depends on the live question: reuse adequate source, design and analytical results; obtain only the additional contribution that warrants its arrangement. Operational choices and timely records can preserve an otherwise lost comparison. Analysis can narrow an unsupported explanation, and a relevant credibility examination can change its support. Corpus synthesis can distinguish genuine joint support from repeated or incompatible material; exact revision makes that result usable without hiding its limits. Method improvement can retain adequate practice or correct its implementation; a changed Method or situation can justify a further comparison and a precise return to its actual research consumer. These contributions earn their cost through the distinction they preserve or the uncertainty they can change.
-
-Reconsider a particular use when the question, receiver, source frame, live rivals, mechanism, measure, access, resource envelope, or authority changes. Reconsider the repertoire's shared architecture when repeated cases cannot distinguish ordinary practice from research with its four conditions, when an unlike design is systematically misrouted, or when the nine Methods cannot produce their promised bounded results without silently borrowing an absent or unqualified external result. Preserve the failed case and the missing contribution so that revision addresses the difficulty. The [source-currentness account](#rmpreference9---source-use-and-currentness) states the source changes that reopen the relied-on methodological claims.
-
-A new version can improve any contribution or its connections. Wider disciplinary coverage requires the corresponding Methods and evidence. The present examples show how to obtain bounded results; they do not establish that the framework improves outcomes in every setting or that a selected study will yield the desired answer.
-
-<a id="patternid-and-reader-order"></a>
-
-## RMP.Reference:6 - PatternID and reader order
-
-`RMP.*` is the Research Method Practice namespace. Pattern numbers are stable addresses. The public Table of Contents includes only authoritative bodies available in this carrier.
-
-| Available PatternID | Recurring practitioner difficulty | First useful result |
-| --- | --- | --- |
-| `RMP.1` | Decide whether an ambiguous request is a genuine unresolved research question or an exact source/non-research return. | `ResearchQuestionBrief` or exact supplied-result, owner-result, or source-gap return |
-| `RMP.2` | Decide whether evidence is sufficient, a useful feasible design is selected, a particular selection is held, or the current allocation closes with no new study. | One `ResearchDesignDisposition` |
-| `RMP.3` | Make the selected design executable while preserving its question and criticism. | ResearchProtocolAndOperationalizationMap for the supported scope, or an exact operation/owner, design or question return |
-| `RMP.4` | Preserve or recover actual research material for a named examination. | ResearchTracePackage with inspectable connections and explicit access, reconstruction and loss limits |
-| `RMP.5` | Establish what the material supports under its Method and what criticism changes the claim. | Bounded ClaimCandidate with its CriticismRecord |
-| `RMP.6` | Choose the useful examination of a claim-relative threat and interpret its actual return when supplied. | CredibilityTestDecision, distinct from a performed test and its result |
-| `RMP.7` | Establish what a contested corpus warrants under its synthesis question. | EvidenceSynthesis, adequate existing answer, useful refusal or exact input return |
-| `RMP.8` | Revise the identified knowledge contribution and return it with consequential reliance limits. | EpistemeChangeAndEvidenceReturn, proportionate to the actual account and receiving use |
-| `RMP.9` | Retain or improve a research Method and its practice for a named use. | ResearchMethodPracticeRevision with supported retention, correction, change or restricted use; a selected comparison remains distinct from obtained qualification |
-
-Part I groups RMP.1/RMP.2 for question and design; Part II groups RMP.3/RMP.4 for operationalization and research trace; Part III groups RMP.5/RMP.6 for claim analysis and credibility work; Part IV groups RMP.7/RMP.8 for corpus synthesis and exact revision/return; Part V supplies RMP.9 for Method improvement and retention. An ambiguous request can begin with RMP.1; compatible supplied inputs permit direct entry to RMP.2 or RMP.3. RMP.4 also admits existing work and can begin capture before a final protocol or claim exists. Supplied material and analysis permit direct RMP.5 entry; a bounded claim, basis, use and threat permit direct RMP.6 entry. RMP.7 accepts a compatible synthesis question, design and trace; RMP.8 accepts actual analysis, criticism or synthesis for the identified account and receiving use. RMP.9 accepts an actual Method difficulty or changed research use and tries the supported present answer before further comparison. Neither reader order nor an arrow asserts performed Work, a universal sequence or compulsory continuation.
-
-<a id="available-and-unavailable-packages"></a>
-<a id="available-repertoire-and-scope"></a>
-
-## RMP.Reference:7 - Available repertoire and scope
-
-| Contribution | PatternIDs | Available result and scope |
-| --- | --- | --- |
-| Question, current frame, and design/stop | `RMP.1`–`RMP.2` | An exact source/owner answer or research question, then EvidenceSufficientStop, ResearchDesignDecision with genuine PostSelectionNeed, ResearchDesignHold or QualifiedNoNewStudy for the current selection. |
-| Operationalization and trace | `RMP.3`–`RMP.4` | Question-preserving operationalization or an exact obstacle/return, and a trace for its named examination with explicit limitations. These results come from their respective Methods, not from design selection alone. |
-| Analysis, criticism, and credibility | `RMP.5`–`RMP.6` | A bounded claim with method-appropriate criticism, and a relevant credibility decision with interpretation of an actual test result when supplied. Either can finish the present question. |
-| Synthesis, episteme revision, and evidence return | `RMP.7`–`RMP.8` | A warranted corpus answer, including an adequate existing synthesis or useful refusal, and an exact knowledge revision with its bounded receiving return. |
-| Research Method and practice improvement | `RMP.9` | Supported retention, correction or change for the named research use, or a restricted/stopped unsupported use. Relevant Method Engineering and field contributions retain their own scope. |
-
-This first edition contains all nine RMP patterns. A complete repertoire provides their Methods, not the case-specific evidence, competence or authority needed to use them. A missing external contribution remains a precise limitation on the dependent result.
-
-<a id="direct-result-relations-and-non-lifecycle-topology"></a>
-
-## RMP.Reference:8 - Direct result relations and non-lifecycle topology
-
-- RMP.1:4.3 applies F.1, F.0.1 and A.10 to the receiving question and available source texts. The result is an answer with its source basis and limitations. A suitable supplied answer permits direct use.
-- RMP.1:4.3.2 compares alternatives when their differences could change the answer. F.1 guides source selection; a claim about the best-known current answer also uses E.8's SoTA distinctions. The comparison can narrow the question, supply a sufficient answer or identify what remains to be investigated.
-- RMP.1 supplies RMP.2 only on its passing branch. Supplied-answer, non-research, and source-gap branches exit.
-- RMP.2 can finish with EvidenceSufficientStop or QualifiedNoNewStudy, or identify the selection held by a missing result. Only ResearchDesignDecision or a compatible supplied selected design supports RMP.3.
-- RMP.3 connects the selected question/design to operational choices and record needs. A blocked operation, defeated design or changed question returns to its exact owner.
-- RMP.4 admits ongoing or inherited work directly. Its trace connects actual records and changes to the named examination, without requiring a final claim or a new prospective protocol.
-- Operational choices can guide capture; actual loss or changed conduct can reopen the dependent design or question. Neither connection requires a fixed sequence.
-- RMP.5 examines the claim through supplied actual material and its Method. It can return the bounded answer directly or a precise defeated premise.
-- RMP.6 enters with a bounded claim, basis, use and threat. It can use an existing result, select useful attainable testing, finish with a qualified answer without it, or return the input that prevents selection.
-- RMP.7 uses a compatible supplied question/design and trace to appraise and synthesize the corpus. Its dependence, compatibility and source limits remain part of the answer.
-- RMP.8 accepts actual analysis, criticism or synthesis to revise the same identified contribution and return it to its actual use. Earlier direct answers remain sufficient when no broader reconciliation is needed.
-- RMP.9 enters with a Method difficulty or changed research use. Its supported retention or change returns only to the affected question, operationalization, material, analysis, credibility, synthesis or knowledge account. An unselected comparison creates no trial result.
-- A changed question, current frame, receiver, or useful stop reopens RMP.1. A changed selection premise reopens RMP.2.
-
-The corporate, citizen, and historical applications take different routes. No route establishes one universal scientific method or mandatory lifecycle.
-
-<a id="source-use-and-currentness"></a>
-
-## RMP.Reference:9 - Source use and currentness
+## RMP.Sources:1 - Source use and currentness
 
 The source question for this repertoire is: **Which cross-sector and design-family sources change research membership, allocation, operations and trace, the claim warranted by analysis, the useful examination of a credibility threat, warranted corpus synthesis, exact knowledge revision/return and situated Method improvement or retention?**
 
@@ -3212,110 +3797,24 @@ The source question for this repertoire is: **Which cross-sector and design-fami
 
 Currentness was checked for the question/design uses on 3 October 2026, for the operationalization/trace methodological comparison on 6 September 2026, for the analytical and credibility distinctions on 8 September 2026, and for the synthesis and revision contributions on 8 September 2026. The Method-improvement source comparison is qualified on 8 September 2026 at its stated statistical, reflexive and historical reach; its Method Engineering stopping and acquisition contribution was rechecked on 9 September 2026. A later edition number alone reopens nothing. Reopen the affected source claim when a new source changes a criterion, family-specific criticism, participation boundary, or use limit; when a cited current web source changes the relied-on content; or when a serious omitted alternative can change an RMP disposition.
 
+RMP.10 uses Critical Decision Method for retrospective critical-incident cues and process mining for recorded event relations; neither source supplies the combined candidate-account synthesis. RMP.11 uses process-tracing and historical-evidence contributions for diagnostic comparisons, with C.28 retaining causal-use authority. Their complete source contributions, serious alternatives and limits are stated in their own SoTA sections.
+
 Sources are selected by answer-changing role, not citation count. Pattern-body SoTA sections state the exact mutation and serious alternative. Domain sources still govern the actual failure mechanism, salinity measure, historical source, instrument, safety condition, or other claim at issue.
 
-<a id="what-the-sources-contribute-to-the-shared-architecture"></a>
+The [shared-architecture account](#rmpreference23---what-the-sources-contribute-to-the-shared-architecture) explains what the sources contribute to the connected research Methods.
 
-### RMP.Reference:9.1 - What the sources contribute to the shared architecture
+## RMP.Sources:2 - Edition return
 
-The question/design foundation connects two source questions. Frascati supplies a cross-sector comparison for research membership; UNESCO’s participation account prevents an affiliation gate. RMP.1 applies its adapted conditions to the whole inquiry’s knowledge contribution. The National Academies’ new-data replication distinction prevents a ready protocol from excluding a useful examination of disputed knowledge. Ordinary quality control still returns its case verdict under an accepted rule. Historical and citizen inquiries need not promise universal generalization or a repeatable event. The [Frascati comparison](#rmp146---frascati-criteria-mutated-for-this-boundary) states the adaptations and their limits; none supplies truth or study authority.
+**Research Method Practice Principles Framework — First Edition** designates this Readme, Table of Contents, Architectural Reference, six reading Parts, twelve ordinary practical entries, five connected applications, framework boundary and refresh account, and the complete RMP.1–RMP.11 bodies.
 
-For the design question, MRC/NIHR connects programme theory, context and key uncertainties with choosing and refining an inquiry. Cochrane’s conceptual models connect intended effects to assumptions and useful comparisons within intervention reviews. RMP.2 adapts these constructive contributions and applies C.39’s general recovery and backward/forward construction to a research evidence relation. SRQR and AHA preserve situated and historical criticism; the National Academies keeps reproduction and replication distinct. The [RMP.2 account](#rmp211---sota-echoing) states the comparison and limits. None of these sources supplies the case’s domain truth or selects the receiving action.
+The eleven-pattern repertoire preserves direct entry and useful completion. Disciplinary techniques, case-specific results and receiving decisions retain their actual owners; completeness here does not claim a comprehensive handbook for every research field.
 
-This is a methodological synthesis for the pre-study use. It is not evidence that one source supplied the question/design architecture or empirically validated its results. In particular, the PostSelectionNeed counterfactual is the repertoire's explicit rule for completing selection: it makes the consequence of an unknown value inspectable. The worked holds and selections explain that rule; the cited reporting standards do not certify it.
-
-For operationalization and trace, the selected best-known line is question-relative specification with an inspectable account of actual change and use. Flake/Fried and Lakens make consequential measurement and information choices explicit; SPIRIT supplies bounded specification distinctions and TOP separates timed commitments. Haven and the RTARG critique preserve an approach's justified evolution while challenging generic checklist use. RMP.3 adapts those contributions to operational choices and precise returns, not to one mandatory protocol.
-
-RMP.4 adapts source-critical, search and run-provenance distinctions to actual material. CARE/FAIR and responsible-AI guidance make data authority, permitted access and substantial human or tool contributions consequential to that account. The applicable owners' rules determine what can be retained and disclosed; the trace states which examination remains possible. The alternative of preserving and publishing everything can add burden and harm while still omitting a decisive choice. The alternative of keeping only a final methods narrative loses timing and selection. The chosen arrangement accepts selective recording work to preserve those particular distinctions; a competent existing protocol and trace remain the cheaper sufficient route.
-
-For analysis and credibility, SCORE's distinct examinations make analytical choices, obtainable computation and the comparison criterion consequential. RTARG and AHA preserve unlike interpretive and source-critical warrant. RMP.5/RMP.6 use those contributions to connect a bounded claim, its remaining threat and the test's possible result; existing adequate analysis and a qualified no-new-test answer can complete the present use.
-
-For corpus synthesis, Cochrane makes dependence, a justified quantitative model, explicit alternatives and missing contributions consequential. Its qualitative guidance and JBI preserve a choice between same-question integration and separately synthesized aspects; CERQual supplies a bounded finding-level confidence approach. AHA source criticism keeps historical dependence and chronology distinct from narrative count. RMP.7 adapts those contributions to the actual research question. RMP.8 combines bounded interpretation with FPF episteme and affected-use relations so that the result changes the exact account and reaches its actual receiver.
-
-For Method improvement, the established statistical simulation-design line and newer transparency and failure-handling work make the selected comparison's target, performance and limits inspectable. RTARG and AHA preserve interpretation and source-use criteria that a generic benchmark would miss. RMP.9 connects those contributions to a research-specific Method decision, with supported retention, bounded correction and a justified acquisition choice kept distinct. Its Method Engineering source account retains ME.14's distinction between an adequate current choice and further inquiry selected for its useful obtainable contribution.
-
-The resulting cross-family arrangement is a reasoned synthesis, not an empirically validated universal procedure. A stronger comparison, a changed research use or an observed failure can reopen the affected Method; adding sources without changing an answer is not an improvement by itself.
-
-The retained source dates and scopes matter. Frascati 2015 is a statistical-methodology comparator; the National Academies report supplies particular distinctions; reporting guidance supplies transparency obligations within its field. None is presented as a timeless complete research method. The source-currentness statement above remains the qualification for the claims inherited by this version. A stronger current answer or an observed misrouting reopens the affected claim and its consuming comparison, as described there.
-
-<a id="using-fpf-for-the-source-answer"></a>
-
-## RMP.Reference:10 - Using FPF for the Source Answer
-
-RMP.1:4.3 shows how to begin with a question and the available material. F.1 helps select sources by their contribution to the answer, F.0.1 recovers a consequential expression's meaning in its source, and A.10 supplies claim-bound evidence and provenance relations. For a claim about the best-known current answer, E.8:11 supplies the distinctions used to compare the relevant SoTA contributions. The account states what the sources answer and what their conditions or omissions leave unresolved.
-
-A relevant existing answer can be reused after checking that its question, sources and applicability fit. F.0.2 is a conditional contribution for conceptual synthesis in framework authoring. G.2 serves a broader refreshable SoTA pack under its declared frame. RMP.7 supplies research-corpus appraisal and synthesis when that is the task.
-
-FPF C.16 supplies the measurement discipline used when RMP.3 specifies an observation and RMP.4 distinguishes indications, measurement results and derived values. Domain methods supply the instrument and validity knowledge for that measurement.
-
-<a id="external-result-and-authority-boundaries"></a>
-
-## RMP.Reference:11 - External result and authority boundaries
-
-Domain practices own phenomena, mechanisms, instruments, measurements, admissible observations, validity criteria, safety, and truth conditions. Method Engineering owns reusable Method identity, repertoire, requirements, architecture, qualification, trial, fit, worth, variants/provenance, and introduction or revision. Operations, audit, evaluation, assurance, acceptance, governance, and institutional administration retain their own results.
-
-Ethics, rights, confidentiality, privacy, security, community control, access, resources, providers, and receiving authorities supply their exact permissions or decisions. RMP may identify that one of those results changes the question or design; it does not issue the result.
-
-Research returns a bounded episteme contribution and relevance to a receiver. It does not choose a maintenance interval, remediation, policy, release, treatment, compliance verdict, employment action, or personal decision.
-
-<a id="public-returns-to-adjoining-practice"></a>
-
-## RMP.Reference:12 - Public returns to adjoining practice
-
-Use the companion publications when the first result belongs to an adjoining practice. The requested result remains theirs; finding the publication does not establish that the result has been supplied for the current case.
-
-For FPF, [download the complete FPF-Spec.md](https://github.com/ailev/FPF/raw/refs/heads/main/FPF-Spec.md), open the downloaded file in a text or Markdown reader, and search for the full pattern headings given below.
-
-| Needed contribution | Where to continue and what to bring back |
-| --- | --- |
-| Develop a missing research strategy. | Start with RMP.2:4.4 and its worked seal construction. In the downloaded FPF specification, find `## C.39 - Find and Develop a Way to Obtain a Result` for the general recovery, construction and adaptation Method. Bring back an explained research evidence relation or the precise missing operation, with its conditions and useful stop. |
-| Recover an answer from existing sources. | Start with RMP.1:4.3 in this publication. In the downloaded FPF specification, find `## F.1 - Find and Select Sources for a Current Question`, `## F.0.1 - Source-Local Meaning Recovery`, and `## A.10 - Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph` for their contributing methods. Bring back the answer, sources, applicability and remaining uncertainty relevant to the research question. |
-| Specify or examine the measurement account used by the inquiry. | In the downloaded FPF specification, find `## C.16 - Measurement & Metrics Characterization (MM‑CHR)`. Bring back the measurand, applicable method and model, qualification, value and uncertainty needed for the research use, together with the competent domain or laboratory result. |
-| Identify or improve a reusable research Method, or test its situational fit. | Start with [Method Engineering ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-projects-method-engineering-focus) for the Method being changed; use [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) for a trial in representative work and [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-a-methods-situational-fit-and-transfer) for fit or transfer. Bring the research-specific failure, question and criticism requirement. [RMP.9](#rmp-9) locates the research-practice decision and determines whether a trial is needed. |
-| Engineer the system or arrangement needed to obtain a result. | Use [Systems Engineering SYSE.1](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1---choose-and-reopen-the-project-system-of-interest) for the system being changed and [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result) when obtaining arrangements compete. Bring the needed engineering contribution and applicable research constraints; a delivered apparatus is distinct from the research claim it may help test. |
-| Continue routine operating observation or response. | Use [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) with the supplied variables, response conditions, and operating authority. Return an unexplained mechanism, validity, or transfer question to RMP.1 only if the research conditions become relevant. |
-
-Domain-specific instruments, observation admissibility, source authenticity, ethics, rights, safety, and receiving decisions still require their actual competent owners. These public returns locate reusable contributions; they do not replace those case-specific results.
-
-<a id="representative-case-coverage"></a>
-
-## RMP.Reference:13 - Representative case coverage
-
-| Case family | Available RMP coverage | Preserved outside result |
-| --- | --- | --- |
-| corporate accelerated seal evidence | Routine qualification versus mechanism-validity question; current-evidence stop; design alternatives and joint-input test; mechanism-relative operational choices, repeated-observation units, marker failure return and damaged-specimen trace; analysis qualified by the field relation and a credibility choice that separates computational reproduction from validation for maintenance use. | Failure truth, instrument validity, safety/access, assurance, and maintenance decision. |
-| citizen urban-stream salinity | Monitoring versus unresolved anomaly; holder-neutral membership; current-evidence stop; design alternatives and holds; site-period operationalization, missed-event return, a trace separating downstream inspection from an unavailable paired comparison, a bounded descriptive claim, and the limit of a later season as a test of the missed event. | Environmental truth, sampling competence, safe/legal access, laboratory result, and regulatory response. |
-| historical factory-closure account | Authenticated-source stop versus source-critical question; historical/synthesis alternatives; provenance/access hold; question-relative source selection, inspected-source trace, contrary material and archival-loss consequences; an explanation narrowed or defeated by an authenticated counter-source and corroboration chosen for the surviving claim. | Archive rights, provenance facts, harm constraints, and public/institutional action. |
-| computational/model question | Distinct design and credibility questions; operational input/model/environment choices, run-specific provenance, substantial human/AI contribution and the limits of unavailable service replay; model-relative interpretation, defensible analytic sensitivity and explicit distinctions among reproduction, replication and use validation. | Domain model truth, validation target, compute/data/code access, and receiving engineering decision. |
-| contested evidence corpus | Question-led eligibility and trace; recovery of reports, studies and dependence; compatible quantitative combination, structured refusal, situated and mixed synthesis; exact revision and return with retained uncertainty. | Domain appraisal and synthesis criteria, access/rights and the receiver's authority. |
-| research Method and implementation | Suitable Method retained after a determinate calculation correction; affected analysis and claim returned; a materially changed receiving situation can justify a comparison whose actual qualification remains unresolved. Reflexive, historical and mixed cases preserve their own criteria. | Field criteria, actual comparison evidence, competence, source access, Method qualification and receiving authority. |
-
-These are use probes and reader examples. They establish no performed study, actual claim, effectiveness, recognition, or downstream use.
-
-<a id="edition-return"></a>
-
-## RMP.Reference:14 - Edition return
-
-**Research Method Practice Principles Framework — First Edition** designates this Readme, Table of Contents, Preface, five reading Parts, twelve ordinary practical entries, four connected applications, framework boundary and refresh account, and the complete RMP.1–RMP.9 bodies.
-
-The complete accepted nine-pattern repertoire preserves direct entry and useful completion. Disciplinary techniques, case-specific results and receiving decisions retain their actual owners; completeness here does not claim a comprehensive handbook for every research field.
-
-<a id="citation"></a>
-
-## RMP.Reference:15 - Citation
+## RMP.Sources:3 - Citation
 
 Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Version 4 October 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
 
 For a particular pattern, add its PatternID and title to this dated citation. The date identifies the cited version; the availability account identifies which bodies it supplies.
 
-<a id="publication-and-maintenance-boundary"></a>
+The [Architectural Reference](#research-method-practice-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
 
-## RMP.Reference:16 - Publication and maintenance boundary
-
-The complete pattern bodies supply the Methods, their cases, sources and conditions. The Readme and connected applications provide entry and explanation; return to the body for the particular move and its limits.
-
-A copy in another folder can carry a different edition. Check the date and available bodies in the copy actually being read before relying on its coverage or sharing a pattern reference.
-
-The carrier is a Research Method Practice practitioner reference, not an educational Guide and not the Engineering DPF Suite Reference. A repository link, Table of Contents row, or carrier declaration does not by itself constitute product-series admission, Suite membership, maintenance, continued availability, recognition, actual use, or effectiveness. Those claims require their own current evidence and owner.
-
-## RMP.Reference:End
+## RMP.Sources:End

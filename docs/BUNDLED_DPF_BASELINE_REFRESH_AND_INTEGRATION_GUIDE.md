@@ -15,7 +15,9 @@
 
 ## Проверить авторские обновления
 
-Постоянный upstream: [Engineering DPF Suite](https://github.com/ailev/FPF/tree/main/Engineering%20DPF%20Suite).
+Постоянный upstream: [каталог авторских DPF](https://github.com/ailev/FPF/tree/main/DPFs).
+До 13 октября 2026 источники находились в Engineering DPF Suite; старый адрес
+не определяет текущий состав. Suite boundary не определяет package slots iEWR.
 Просьба «проверь авторские обновления DPF» использует этот адрес; повторная
 ссылка от пользователя не нужна. Проверка сама не разрешает обновить поставку.
 
@@ -231,6 +233,70 @@ observed acceptance хранить внешним record с exact digest.
 применение от semantic conformance, локальные checks от live-host qualification.
 При adequate result и reconciled effects завершить порученную инициативу.
 Следующая работа, включая overlap audit, требует собственного explicit question.
+
+## Переход 5.7.2 без расширения состава
+
+В локальном кандидате iEWR 5.7.2 Beta десять включённых авторских публикаций
+обновлены на commit `7d0a78002c04f2337283b97d707991c888013a73` от 14 октября 2026.
+Сохранены 14 package slots и Instantiatio SDLC 0.3.0. Точный состав и digests —
+[repertoire](../frameworks/dpf/REPERTOIRE.yaml), [NOTICE](../frameworks/dpf/NOTICE.md)
+и [manifest](../PACKAGE_MANIFEST.md). Новые DPF, целые Suites и оригинальный FPF
+в комплект не добавлены. Новые методы внутри обновлённых источников доводят
+указатель с 242 до 247 адресуемых методов; это обновление прежних предметов.
+
+ME, CHK и DOCA сохранены на commit `9e1c48349bd0a06d8d49e2de45fbcff386d47ae5`.
+Они больше не самостоятельные публикации в текущем каталоге автора. Общие
+методы перенесены автором в Core, а специализированные вклады распределены
+по DPF; полнота замены здесь не установлена. Ссылки новых публикаций на Core
+не подключают его. Для use, которому недостаёт необходимого внешнего результата,
+получить этот результат в разрешённом scope либо вернуть точный предел;
+не объявлять старый ME или DOCA эквивалентом любого нового раздела Core.
+
+PSD заменён преемником Decision Design (PSDA). Идентичность package slot `PSD`
+и source_id `problem-structuring-decision-support` сохранена для совместимости
+реестра. `PSD` — поисковый alias источника, а не правило перевода PatternID.
+PSDA.19 добавляет границы консультирования по развитию; PSDA.10 в текущем
+источнике отсутствует. Ни последовательные номера, ни совпадение названия
+не устанавливают равенство всех условий двух редакций.
+
+| Прежний метод | Соответствующая ветвь PSDA | Основание |
+|---|---|---|
+| PSD.1 | PSDA.11 | Bound the Decision-Support Engagement and Authority Boundary |
+| PSD.2 | PSDA.12 | Recover Participants, Concerns, and Affected Systems for a Decision-Support Inquiry |
+| PSD.3 | PSDA.1 | Generate Plural Problem Formulations |
+| PSD.4 | PSDA.2 | Set and Reopen the Problem Boundary |
+| PSD.5 | PSDA.3 | Construct Complementary Situation and Option Models |
+| PSD.6 | PSDA.4 | Select Problem-Structuring Methods and Combine Them When Needed |
+| PSD.7 | PSDA.13 | Facilitate Decision-Support Inquiry and Preserve Material Dissent |
+| PSD.8 | PSDA.5 | Generate Decision Alternatives |
+| PSD.9 | PSDA.6 | Represent Values and Trade-Offs |
+| PSD.10 | PSDA.7 | Represent Decision-Relevant Uncertainty and Evidence Limits |
+| PSD.11 | PSDA.8 | Compare Consequences of Decision Alternatives |
+| PSD.12 | PSDA.9 | Test Robustness and Sensitivity of Decision Alternatives and Their Comparison |
+| PSD.13 | PSDA.14 | Prepare and Return a Decision-Support Recommendation |
+| PSD.14 | PSDA.15 | Arrange Decision Follow-up or Reassess Advice After a Change |
+| PSD.15 | PSDA.16 | Decide Whether and How to Change Problem-Structuring and Decision-Support Methods |
+| PSD.16 | PSDA.17 | Reconcile Simultaneous Problem-Structuring and Decision-Support Work |
+| PSD.17 | PSDA.18 | Deliberately Continue and Change Problem-Structuring and Decision-Support Culture |
+
+Таблица задаёт предметное соответствие для поиска, не semantic equivalence.
+В действующих основаниях Decision View ссылки PSD.13/14 заменены на PSDA.14/15
+после чтения их условий рекомендации, выбора, выполнения и наблюдения.
+Старые source bindings, решения, результаты и их применение не переводятся
+на новую редакцию задним числом. До продолжения проекта восстановить его basis.
+
+Из OCE исключён OCE.12, добавлен OCE.18; это разные методы. Нужный вклад
+лидерства автор теперь получает через внешние методы LDR, которых в составе нет.
+OCE.18 может использовать вклады HCD и LDR, но их наличие не следует из наличия
+OCE. Новая редакция не даёт права создавать отсутствующие назначения или
+полномочия и не обязывает добавлять эти DPF без отдельного scope.
+
+Для перехода сохранить прежнюю поставку и перенести проект в отдельный новый
+каталог с проверкой его собственных источников и решений. Не смешивать файлы
+двух архивов и не переключать уже выполняемую работу на latest автоматически.
+Пределы текущей проверки — [VERIFICATION](../VERIFICATION.md). Независимая
+профессиональная квалификация всех новых методов и новый чистый agent trial
+этим обновлением не установлены.
 
 ## Validated example и provenance
 
