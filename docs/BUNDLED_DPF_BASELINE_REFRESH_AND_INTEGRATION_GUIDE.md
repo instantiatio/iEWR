@@ -236,7 +236,7 @@ observed acceptance хранить внешним record с exact digest.
 
 ## Переход 5.7.2 без расширения состава
 
-В локальном кандидате iEWR 5.7.2 Beta десять включённых авторских публикаций
+При подготовке iEWR 5.7.2 Beta десять включённых авторских публикаций
 обновлены на commit `7d0a78002c04f2337283b97d707991c888013a73` от 14 октября 2026.
 Сохранены 14 package slots и Instantiatio SDLC 0.3.0. Точный состав и digests —
 [repertoire](../frameworks/dpf/REPERTOIRE.yaml), [NOTICE](../frameworks/dpf/NOTICE.md)
