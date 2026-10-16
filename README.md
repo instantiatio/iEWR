@@ -8,8 +8,9 @@ VID подробнее описывает компактные элементы 
 и состояния интерфейса во времени. Состав прежний: 17 DPF и 278 методов.
 Версия продолжает развитие собственного репертуара, начатое в iEWR 5.8.0.
 
-iEWR 5.8.1 Beta подготовлена для порученной публикации как Latest.
-[Архив выпуска](https://github.com/instantiatio/iEWR/releases/download/5.8.1-beta/iEWR-5.8.1-Beta.zip) · [Страница выпуска](https://github.com/instantiatio/iEWR/releases/tag/5.8.1-beta).
+iEWR 5.8.1 Beta опубликована как Latest.
+[Скачать архив](https://github.com/instantiatio/iEWR/releases/download/5.8.1-beta/iEWR-5.8.1-Beta.zip) · [Страница выпуска](https://github.com/instantiatio/iEWR/releases/tag/5.8.1-beta).
+Проверенный ZIP и контрольная сумма приложены к выпуску; main отражает последующую публикацию.
 Предыдущий выпуск — [iEWR 5.8.0 Beta](https://github.com/instantiatio/iEWR/releases/tag/5.8.0-beta).
 [Проверки и ограничения](VERIFICATION.md) описывают, что подтверждено для этой поставки.
 Обычная работа опирается на инструкции проекта и инструменты выбранной среды.
