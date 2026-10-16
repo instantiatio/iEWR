@@ -542,35 +542,35 @@
       "aliases": [
         "WEP"
       ],
-      "edition_id": "0.1.4-package-5.8.0",
+      "edition_id": "0.1.5-package-5.8.1",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.1/WEP.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+        "frameworks/dpf/instantiatio/5.8.1/WEP.md"
       ],
       "declared_status": {
-        "value": "Author 0.1.4; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
-        "locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+        "value": "Author 0.1.5; source-reported positive independent AI rechecks for ordinary guidance. Package integration checks and limits are distinct; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.1/WEP.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/WEP.md",
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/bd1cabb2e0e1757801aab142d44184ee195034ce/DPFs/WEP.md",
       "fpf_grounding_claim": {
         "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
-        "locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+        "locus": "frameworks/dpf/instantiatio/5.8.1/WEP.md"
       },
       "files": [
         {
           "path": "WEP.md",
-          "sha256": "e7c57f2056419fbaa518b73626c739b441dc85e2d7ab60cb5e58245296c79211"
+          "sha256": "cffaeb24ff0a0865e9a6eb551ad6367a0c8cf2fee60a4c996f67f64b10bc701f"
         }
       ],
-      "edition_manifest_sha256": "e7c57f2056419fbaa518b73626c739b441dc85e2d7ab60cb5e58245296c79211",
-      "registered_at": "2026-10-16T12:47:57.030960+00:00",
-      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "edition_manifest_sha256": "cffaeb24ff0a0865e9a6eb551ad6367a0c8cf2fee60a4c996f67f64b10bc701f",
+      "registered_at": "2026-10-16T19:46:37.770135+00:00",
+      "registration_basis": "Direct author/Human instruction: update reviewed WEP 0.1.5 and VID 0.3.0, verify and publish iEWR 5.8.1 Beta as Latest and update main. Original bytes retained; only Markdown destinations adapted before registration. Additional direct instruction: edit README and RELEASE_NOTES using WEP.",
       "source_bytes_modified_by_registration": false,
       "required_slot": "WEP",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
+        "statement": "Author Albert identified these as own DPF and directly authorized updating the reviewed editions and public release in iEWR 5.8.1. No new blanket license; third-party notices retained.",
         "locus": "frameworks/dpf/instantiatio/README.md"
       }
     },
@@ -618,35 +618,35 @@
       "aliases": [
         "VID"
       ],
-      "edition_id": "0.2.0-package-5.8.0",
+      "edition_id": "0.3.0-package-5.8.1",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio/5.8.0/VID.md",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.1/VID.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio/5.8.0/VID.md"
+        "frameworks/dpf/instantiatio/5.8.1/VID.md"
       ],
       "declared_status": {
-        "value": "Author 0.2.0; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
-        "locus": "frameworks/dpf/instantiatio/5.8.0/VID.md"
+        "value": "Author 0.3.0; source-reported positive independent AI rechecks for ordinary guidance. Package integration checks and limits are distinct; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.1/VID.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/VID.md",
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/bd1cabb2e0e1757801aab142d44184ee195034ce/DPFs/VID.md",
       "fpf_grounding_claim": {
         "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
-        "locus": "frameworks/dpf/instantiatio/5.8.0/VID.md"
+        "locus": "frameworks/dpf/instantiatio/5.8.1/VID.md"
       },
       "files": [
         {
           "path": "VID.md",
-          "sha256": "6fd0aaf2c233ac465b93a50c9879ebe7fcc01f8634ca60cee875acbfe6c932d8"
+          "sha256": "8a72afd59c3cf0764c62f07f4d3c4f8f9bf9745d3b406513eaba58e1f7de1112"
         }
       ],
-      "edition_manifest_sha256": "6fd0aaf2c233ac465b93a50c9879ebe7fcc01f8634ca60cee875acbfe6c932d8",
-      "registered_at": "2026-10-16T12:47:57.034837+00:00",
-      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "edition_manifest_sha256": "8a72afd59c3cf0764c62f07f4d3c4f8f9bf9745d3b406513eaba58e1f7de1112",
+      "registered_at": "2026-10-16T19:46:37.772930+00:00",
+      "registration_basis": "Direct author/Human instruction: update reviewed WEP 0.1.5 and VID 0.3.0, verify and publish iEWR 5.8.1 Beta as Latest and update main. Original bytes retained; only Markdown destinations adapted before registration. Additional direct instruction: edit README and RELEASE_NOTES using WEP.",
       "source_bytes_modified_by_registration": false,
       "required_slot": "VID",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
+        "statement": "Author Albert identified these as own DPF and directly authorized updating the reviewed editions and public release in iEWR 5.8.1. No new blanket license; third-party notices retained.",
         "locus": "frameworks/dpf/instantiatio/README.md"
       }
     }
