@@ -1,17 +1,17 @@
-# Состав iEWR 5.7.2 Beta
+# Состав iEWR 5.8.0 Beta
 
-Выбранный состав: 143 файла. Состояние main после публикации: 14 DPF, десять обновлённых авторских источников; 247 методов в указателе. Точная редакция исходных файлов и контрольные суммы. Пределы — VERIFICATION.md, происхождение — BASELINE_STATUS.md. FPF, материалы проектов, прежние DPF и скрипты разработки исключены. PACKAGE_MANIFEST.md включён без рекурсивного self-hash. Exact опубликованный ZIP закреплён тегом 5.7.2-beta; main содержит последующее обновление главной и публикационных сведений.
+Выбранный состав: 147 файлов. Проверяемый экземпляр для прямо разрешённой публикации. 17 DPF, 278 методов в указателе. Точные bytes, происхождение и пределы — BASELINE_STATUS.md, VERIFICATION.md и сопровождение собственных DPF. Оригинальный FPF, материалы проектов, частные исследования и скрипты разработки исключены. PACKAGE_MANIFEST.md включён без рекурсивного self-hash. Публикуемый ZIP закрепляется тегом 5.8.0-beta; последующее обновление main не пересобирает архив.
 
 | Файл | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 54da6a01b414ad4ee91034e186c58dd8dc8ca5ef53ea86fbd8c40a9a014577a4 |
-| `BASELINE_STATUS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | a6c5c1371eb39d81d6a32bd6ab45710d877dfef3a11fefa41300732d7da7ffbd |
+| `AGENTS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 6e0becb68a1c76afb79c14d63c21cb1e697180381cc01f0286eb53a0149b4153 |
+| `BASELINE_STATUS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 40ee8b019f656fc58292c0a1e62cc232368de678ff533db3f50976fa80777818 |
 | `LICENSE` | Лицензия, атрибуция и пределы распространения | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | ab421f163de751afa1e67b6a0063854cea4f9191d7d0c79c83305a4753527f3d |
-| `RELEASE_HISTORY.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | f0b41c074f76b8ac0549e41fb887d33e79cd6c671ba0cb59204c1d182efab4f9 |
-| `RELEASE_NOTES.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | cd8089470480bc4390995ec9efe2f9caeacad2a893ad04356e87213502ccd336 |
-| `VERIFICATION.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 1bce306191269fffdd1e6b15f6696b85a346fb1f100378da784d065a0068533a |
+| `README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | ee9efaff4ad7b0d047daf60db046108f630e32248a4d00039daac1c2758ee300 |
+| `RELEASE_HISTORY.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 73abc192e2495794bb76f51ce0a751c470d5e1d63dcc8561e1d5de33ca59fe27 |
+| `RELEASE_NOTES.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 808e2802e7dcf2381c6489b25f62f15acf5368f8f544ae93d3148bb50707e88f |
+| `VERIFICATION.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | aa8c230cb2842c4a9cc9c17fe281013672e2b3a18bd5d20c1ec51dd2fad914b0 |
 | `adapters/ADAPTERS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Программный consumer/helper; роль и границы по owning guidance | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Программный consumer/helper; роль и границы по owning guidance | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -21,19 +21,19 @@
 | `adapters/filesystem/repertoire.py` | Программный consumer/helper; роль и границы по owning guidance | 6455cfc4862c05b354c70a3723628ecb13e4b37141d6ef5363d3b459327e253a |
 | `adapters/filesystem/repertoire_engine.py` | Программный consumer/helper; роль и границы по owning guidance | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Программный consumer/helper; роль и границы по owning guidance | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | b97f9dacd28e39bf56fcb8b9ff4ce73a5d635ba2c0363fb5aefba920c741c7b4 |
+| `app/bootstrap/CONFIGURATION.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | 3760ab1d5fd46863cb504bbfcc96eca83f5fc1a7e6c2029519b76a0052d72614 |
 | `app/bootstrap/ENTRY.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Программный consumer/helper; роль и границы по owning guidance | f4da43f3458c417bab08c968f06e7a7f3dbaeab3c1ce707095736d90aa30c780 |
 | `app/bootstrap/recovery.py` | Программный consumer/helper; роль и границы по owning guidance | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |
 | `catalog/README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 4dc9b22f7edbba969411737f0574cefedd9f863caa47c36a507e57b27b59c4ea |
-| `catalog/dpf/METHODS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 3e0274d566304d73de9dcdb2f74319bf2af82e643db741d197f611d0ff414e02 |
+| `catalog/dpf/METHODS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 79a79c896b737d3fb458819b6dbf43086b0e63368587895b08a98e6ba44f8764 |
 | `catalog/engineering_views/CATALOG.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 04362cc56908a077c47d206a9064501c8285341e6285f38352a0760db5a5ae34 |
 | `catalog/engineering_views/README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 0576c71190c4eac933529532d9a1ca9e91a435593ca50b1117f0e6f881099c00 |
 | `catalog/engineering_views/templates/PROJECT_VIEW_PROFILE.yaml` | Инструкция, источник, документация либо ограниченные сведения о проверках | 96a70940fa3a6d1aa0130481337ada9b05573923f2797f7e9ff6dc2ae2b970b6 |
 | `catalog/working_process_compositions/CATALOG.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 35618f6dc9c84bf782321daa6ab8e12794f4f3cb4a9c2d9102cd75757596c472 |
 | `catalog/working_process_compositions/README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 6e2585504014ba917c4acf7b39bd5c104fcb203a841f50b2e4805d5db2b4ce76 |
 | `catalog/working_process_compositions/templates/WORKING_PROCESS_COMPOSITION_RECORD.yaml` | Инструкция, источник, документация либо ограниченные сведения о проверках | 4ae37efc59297fc6d2700799ef484143f825c7c8e4c6a7b2f6879c9da3bdd449 |
-| `docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 580fe0c523798ac0be57f534a40c1d47821d969f3b07a871e652f135014a93c5 |
+| `docs/BUNDLED_DPF_BASELINE_REFRESH_AND_INTEGRATION_GUIDE.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 0d9d0e66bd7be0ebd80a3aa4b28613e3fa05f12439da38e2cbe9811df48fa8e6 |
 | `docs/DPF_FORMATION_METHOD.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | b90a7312e5f4940d6bc9a8dfdc8b61c19a13cc8a344de7e36778b36bfc099db4 |
 | `docs/DPF_REGISTRATION_GUIDE.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 1213430c97cc37ac9f892b9cf400c910917be43e7efb9f7b5c83ed8649e451eb |
 | `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | Неизменённый governing Core Contract 1.0 RC | ea9842606c82af26b3217fae8d743e99e0030ec56ce089b69ad25c551b65343c |
@@ -44,8 +44,8 @@
 | `external-sources/fpf/.gitkeep` | Пустой каталог; не user data | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 |
 | `frameworks/dpf/LICENSE` | Лицензия, атрибуция и пределы распространения | 9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94 |
 | `frameworks/dpf/LICENSING.md` | Лицензия, атрибуция и пределы распространения | 305af7f05ed7e837e427acabdd8706735fc31911a1aa64aeb8813341038e9175 |
-| `frameworks/dpf/NOTICE.md` | Лицензия, атрибуция и пределы распространения | fdab5d450271330e6b0ff06cb84f9f7053c86f32170b3ceb2e639aa1b7f3b112 |
-| `frameworks/dpf/REPERTOIRE.yaml` | Инструкция, источник, документация либо ограниченные сведения о проверках | 5ba2ea2fa8359de00de4c423e606a10dbe47d22bf292a7d1d42a8bf192dc1150 |
+| `frameworks/dpf/NOTICE.md` | Лицензия, атрибуция и пределы распространения | 314a3e0d2b90c9d8177bc7dcbc8e98cb1baa80736e8db4478bdf4d501122897a |
+| `frameworks/dpf/REPERTOIRE.yaml` | Инструкция, источник, документация либо ограниченные сведения о проверках | c93d8cda9b9d33a628a568ca72c811dbe4f7df505101bf1f6702bd44c35c40f1 |
 | `frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679 |
 | `frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | a0fe9a5fe0564c0b223cff8ac3bcf99828cbeef7e4e9c57919a05a34fd2afb61 |
 | `frameworks/dpf/explanation-design/2026-09-20-rev-7d0a7800/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | c8ee965f58ae660461d354326702f8a8a7ffb13811d83d0ed2857b49e1bc2fdd |
@@ -54,6 +54,10 @@
 | `frameworks/dpf/instantiatio-sdlc/0.3.0/README.md` | Exact авторский DPF либо явно выделенное переносимое сопровождение | ded240a5dc60f0cbb9e0c4ca87975d907b04046c8b37564efcc7cffd93ae101b |
 | `frameworks/dpf/instantiatio-sdlc/0.3.0/SOURCES.md` | Exact авторский DPF либо явно выделенное переносимое сопровождение | 513c19326ba01e5e36a8343add8c477296a54e1acbf1475b70231ac8482ce18a |
 | `frameworks/dpf/instantiatio-sdlc/0.3.0/SOURCE_LOCATORS.md` | Exact авторский DPF либо явно выделенное переносимое сопровождение | dc9bcb478b40faf949503e723b0ac8e7b39315aa55f39f4965569e97349fdcc1 |
+| `frameworks/dpf/instantiatio/5.8.0/BPD.md` | Авторский DPF либо переносимое сопровождение собственной серии | ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b |
+| `frameworks/dpf/instantiatio/5.8.0/VID.md` | Авторский DPF либо переносимое сопровождение собственной серии | 6fd0aaf2c233ac465b93a50c9879ebe7fcc01f8634ca60cee875acbfe6c932d8 |
+| `frameworks/dpf/instantiatio/5.8.0/WEP.md` | Авторский DPF либо переносимое сопровождение собственной серии | e7c57f2056419fbaa518b73626c739b441dc85e2d7ab60cb5e58245296c79211 |
+| `frameworks/dpf/instantiatio/README.md` | Авторский DPF либо переносимое сопровождение собственной серии | c0f2c9654a44a445d29cb495f495e8a1704fc2cb0737d0df2aa00ea1f512d334 |
 | `frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec |
 | `frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6 |
 | `frameworks/dpf/operations-management/2026-10-12-rev-7d0a7800/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 393d6d7d7078580e651b90a3dffd6bd17defc2c05312fabe8c5d0ee097f72630 |
@@ -143,6 +147,6 @@
 | `tools/human_view/examples/result.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | bd6012fa4cd705b8d46f03b7976a64e3aaa48b0685b9f9a76bcb67aa51032501 |
 | `tools/human_view/examples/review.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | f9e00064fb0dd28b713749b3bdd406fec9e4c3c7ac43ab475f1f3c8ab9d7a42b |
 | `tools/human_view/examples/situation.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | a1398fb7e2a512bbbdbf34445baf7ed44e543a812ab5302650da889a9cf05f9f |
-| `tools/package/integrity.py` | Программный consumer/helper; роль и границы по owning guidance | 84b4e0d19aba146e93768662c5c7a94958ee40e883b915ddd3488ad6adda41ec |
+| `tools/package/integrity.py` | Программный consumer/helper; роль и границы по owning guidance | 98a5cdc352b3097d6ef25880bb2a729759e97589645fa1c428aa781321a5bfc7 |
 | `tools/package/prepare.py` | Программный consumer/helper; роль и границы по owning guidance | 3dab910958c0a5492a005bac1669e15b1e314306b93c67440112b8f4e2f7c695 |
 | `tools/package/verify_configuration.py` | Программный consumer/helper; роль и границы по owning guidance | 96e8df954f0f7fdb2afbc60099d47c63e08ff902766d2adca1d5ca50f122e812 |

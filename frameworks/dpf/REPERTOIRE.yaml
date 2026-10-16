@@ -535,6 +535,120 @@
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       }
+    },
+    {
+      "source_id": "writing-editing",
+      "display_name": "Writing & Editing Principles Framework",
+      "aliases": [
+        "WEP"
+      ],
+      "edition_id": "0.1.4-package-5.8.0",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+      ],
+      "declared_status": {
+        "value": "Author 0.1.4; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/WEP.md",
+      "fpf_grounding_claim": {
+        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/WEP.md"
+      },
+      "files": [
+        {
+          "path": "WEP.md",
+          "sha256": "e7c57f2056419fbaa518b73626c739b441dc85e2d7ab60cb5e58245296c79211"
+        }
+      ],
+      "edition_manifest_sha256": "e7c57f2056419fbaa518b73626c739b441dc85e2d7ab60cb5e58245296c79211",
+      "registered_at": "2026-10-16T12:47:57.030960+00:00",
+      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "WEP",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
+        "locus": "frameworks/dpf/instantiatio/README.md"
+      }
+    },
+    {
+      "source_id": "business-presentation",
+      "display_name": "Business Presentation Principles Framework",
+      "aliases": [
+        "BPD"
+      ],
+      "edition_id": "1.1-package-5.8.0",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      ],
+      "declared_status": {
+        "value": "Author 1.1; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/BPD.md",
+      "fpf_grounding_claim": {
+        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      },
+      "files": [
+        {
+          "path": "BPD.md",
+          "sha256": "ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b"
+        }
+      ],
+      "edition_manifest_sha256": "ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b",
+      "registered_at": "2026-10-16T12:47:57.032962+00:00",
+      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "BPD",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
+        "locus": "frameworks/dpf/instantiatio/README.md"
+      }
+    },
+    {
+      "source_id": "visual-interface-design",
+      "display_name": "Visual Interface Design Principles Framework",
+      "aliases": [
+        "VID"
+      ],
+      "edition_id": "0.2.0-package-5.8.0",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.0/VID.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio/5.8.0/VID.md"
+      ],
+      "declared_status": {
+        "value": "Author 0.2.0; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/VID.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/VID.md",
+      "fpf_grounding_claim": {
+        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/VID.md"
+      },
+      "files": [
+        {
+          "path": "VID.md",
+          "sha256": "6fd0aaf2c233ac465b93a50c9879ebe7fcc01f8634ca60cee875acbfe6c932d8"
+        }
+      ],
+      "edition_manifest_sha256": "6fd0aaf2c233ac465b93a50c9879ebe7fcc01f8634ca60cee875acbfe6c932d8",
+      "registered_at": "2026-10-16T12:47:57.034837+00:00",
+      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "VID",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
+        "locus": "frameworks/dpf/instantiatio/README.md"
+      }
     }
   ]
 }
