@@ -1,17 +1,17 @@
 # Состав iEWR 5.8.0 Beta
 
-Выбранный состав: 147 файлов. Проверяемый экземпляр для прямо разрешённой публикации. 17 DPF, 278 методов в указателе. Точные bytes, происхождение и пределы — BASELINE_STATUS.md, VERIFICATION.md и сопровождение собственных DPF. Оригинальный FPF, материалы проектов, частные исследования и скрипты разработки исключены. PACKAGE_MANIFEST.md включён без рекурсивного self-hash. Публикуемый ZIP закрепляется тегом 5.8.0-beta; последующее обновление main не пересобирает архив.
+Выбранный состав: 147 файлов. Состояние main после публикации. 17 DPF, 278 методов в указателе. Точные bytes, происхождение и пределы — BASELINE_STATUS.md, VERIFICATION.md и сопровождение собственных DPF. Оригинальный FPF, материалы проектов, частные исследования и скрипты разработки исключены. PACKAGE_MANIFEST.md включён без рекурсивного self-hash. Публикуемый ZIP закрепляется тегом 5.8.0-beta; последующее обновление main не пересобирает архив.
 
 | Файл | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 6e0becb68a1c76afb79c14d63c21cb1e697180381cc01f0286eb53a0149b4153 |
-| `BASELINE_STATUS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 40ee8b019f656fc58292c0a1e62cc232368de678ff533db3f50976fa80777818 |
+| `AGENTS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 1e762f4985e995a35fb6ca9bcdd3c96387757228e93008a9bbc8f5e561636e3a |
+| `BASELINE_STATUS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | c56a442742fb032a5225e4a6acc6499231f046bb660e100238dfef4496fa3c2c |
 | `LICENSE` | Лицензия, атрибуция и пределы распространения | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
 | `MODEL_SELECTION_RECOMMENDATIONS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | b7059b78fd8a6d90e677520fbaf880ce6ef0634855e597d56847f590fec43490 |
-| `README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | ee9efaff4ad7b0d047daf60db046108f630e32248a4d00039daac1c2758ee300 |
+| `README.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 01bfc4b03cc1e50edff0533db8747ce8b531dde6fb65f792a0c6e8bc37a16bdc |
 | `RELEASE_HISTORY.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 73abc192e2495794bb76f51ce0a751c470d5e1d63dcc8561e1d5de33ca59fe27 |
-| `RELEASE_NOTES.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 808e2802e7dcf2381c6489b25f62f15acf5368f8f544ae93d3148bb50707e88f |
-| `VERIFICATION.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | aa8c230cb2842c4a9cc9c17fe281013672e2b3a18bd5d20c1ec51dd2fad914b0 |
+| `RELEASE_NOTES.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 27bd2b6b649e69e0ae3aec923cce64147520b674b947aeb6b04a86a192628058 |
+| `VERIFICATION.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 1cab092fdeeebd1820d8e06004a7fc1252c5ca4db918e1cb2fb9397321c9fb32 |
 | `adapters/ADAPTERS.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | f65439a96ef3a053e1c21ea9efc694b947f2171d4b6efd016f28be641656af00 |
 | `adapters/agent_host/channel.py` | Программный consumer/helper; роль и границы по owning guidance | 115d747d2dbb037cf2e6f1a912ccb939d5c347343eb47d92db8e751a478f0390 |
 | `adapters/agent_host/responses.py` | Программный consumer/helper; роль и границы по owning guidance | 6dc5ca67a3f081248c6717e512dc87b87d3f7f2dd6cb0a997354fad2889323dd |
@@ -21,7 +21,7 @@
 | `adapters/filesystem/repertoire.py` | Программный consumer/helper; роль и границы по owning guidance | 6455cfc4862c05b354c70a3723628ecb13e4b37141d6ef5363d3b459327e253a |
 | `adapters/filesystem/repertoire_engine.py` | Программный consumer/helper; роль и границы по owning guidance | 85b6a113bdbb1b15ffa5775a5542b226d6a37b2874f4a51987032957073a6463 |
 | `adapters/presentation/text.py` | Программный consumer/helper; роль и границы по owning guidance | 84442e0aa5a586610717f5f66dce9e91cc37d7e8969f2f8bfa9876b386d41415 |
-| `app/bootstrap/CONFIGURATION.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | 3760ab1d5fd46863cb504bbfcc96eca83f5fc1a7e6c2029519b76a0052d72614 |
+| `app/bootstrap/CONFIGURATION.json` | Инструкция, источник, документация либо ограниченные сведения о проверках | c38fb2c345b198dd03b03931e42c69aedfdead1f4d13859561b6c4835cf7e112 |
 | `app/bootstrap/ENTRY.md` | Инструкция, источник, документация либо ограниченные сведения о проверках | 77b24e3dcddf998be34331a14d130e680f7a3ebda969f86e697bb5bc29f25f2c |
 | `app/bootstrap/operation.py` | Программный consumer/helper; роль и границы по owning guidance | f4da43f3458c417bab08c968f06e7a7f3dbaeab3c1ce707095736d90aa30c780 |
 | `app/bootstrap/recovery.py` | Программный consumer/helper; роль и границы по owning guidance | 432cb6a56abee240d6c3d25fa4565537dabc6bf790e10a9a4bdbd45472ca108d |
