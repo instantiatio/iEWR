@@ -1,9 +1,10 @@
 # Engineering Work Runtime (EWR) — Core Architecture Contract
 
-**Version:** 1.0 RC  
-**Date:** 2026-09-03  
-**Status:** Release Candidate architecture contract after scenario and source/conformance audit  
-**Predecessor:** Instantiatio DPF (iDPF) 4.0.1 — Engineering Work Runtime · Beta  
+**Version:** 1.1 RC  
+**Revision:** 2 (original-FPF audit corrections)  
+**Date:** 2026-10-17  
+**Status:** Release Candidate; local revision 2 with approved EWR-15 correction and EWR-29/INV-15 amendment; bounded original-FPF review, no whole-contract conformance claim  
+**Predecessor:** EWR Core Architecture Contract 1.0 RC (2026-09-03)  
 **Architectural classification:** functional specialization of the Engineering Platform concept (`SYSE.12`)  
 **Methodological foundation:** FPF Core + applicable FPF-grounded DPFs + optional LPFs
 
@@ -407,7 +408,7 @@ A dashboard/index/chat summary is not authoritative merely by presentation.
 
 ## EWR-15 — FPF readiness, not EWR readiness
 
-When work-entry readiness is current for a WorkPlan/PlanItem, EWR SHALL obtain, evaluate and enforce the applicable FPF `A.15.5 WorkEntryReadiness@Context` result.
+When work-entry readiness is current for a WorkPlan/PlanItem, EWR SHALL apply FPF `A.15.5` to the exact intended performance, its readiness criterion and current inputs. It SHALL use the returned readiness value, reliance window and stop or recheck condition for that work entry; a readiness result remains separate from permission, a gate decision and actual performance.
 
 EWR owns only the runtime use of that result:
 - connect it to the exact attempted entry;
@@ -632,13 +633,15 @@ The change takes effect only through an explicit current-use/re-entry decision a
 
 # 15. Re-entry and recovery
 
-## EWR-29 — Deterministic recovery procedure
+## EWR-29 — Recoverable execution basis
 
-After interruption, handoff, session/model/host change or ambiguity, EWR SHALL follow a deterministic recovery procedure that returns either:
-- sufficiently resolved governing accounts for safe continuation; or
-- an explicit unresolved/blocker result.
+After interruption, handoff, session/model/host change or ambiguity, EWR SHALL assess the direct grounds, relied execution basis and factual execution separately, preserving the sources and material limits needed to inspect the assessment.
 
-The procedure SHALL NOT promise that all external facts can always be reconstructed.
+The assessment SHALL return either:
+- sufficiently resolved governing accounts for the bounded continuation; or
+- an explicit unresolved/blocker result identifying the affected use and the missing basis.
+
+The assessment SHALL NOT promise deterministic AI judgement or that all external facts can always be reconstructed. Unknown effects SHALL be reconciled before retry; a returned assessment does not itself initiate or authorize an action.
 
 At minimum it resolves independently:
 
@@ -870,8 +873,8 @@ A new FPF-grounded DPF can contribute normally without EWR Core modification.
 ### INV-14 — LPF optionality
 EWR works with or without persistent LPF.
 
-### INV-15 — Deterministic re-entry procedure
-Re-entry deterministically resolves or explicitly reports unresolved governance, basis and factual execution.
+### INV-15 — Inspectable re-entry basis
+Re-entry separately resolves or explicitly reports unresolved governance, relied basis and factual execution, with recoverable direct sources and material limits. It neither promises deterministic AI judgement nor authorizes replay of unknown effects.
 
 ### INV-16 — Affected-only reopen
 Changed premises reopen only dependent claims/Work where feasible.

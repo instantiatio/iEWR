@@ -8,6 +8,8 @@
 ISDLC 0.3.0 — руководство для подготовленного разработчика; условия проверки и
 пределы — в его README. Формальная conformance к FPF этим индексом не устанавливается.
 
+Для авторских ссылок с прежней структурой каталогов есть [карта доступных источников и пробелов](SOURCE_LINKS.md). Она не подключает отсутствующие DPF и не заменяет проверку нужного original body.
+
 ## Выбор по вопросу
 
 | Источник | Полезный вопрос | Методы |
@@ -23,15 +25,14 @@ ISDLC 0.3.0 — руководство для подготовленного р�
 | RMP | Достаточно ли существующих источников; как получить и критиковать новое знание? | [Раздел](#rmp) |
 | SIE | Как согласовать значения, идентичность и преобразования разных источников? | [Раздел](#sie) |
 | STR | Как связать направления, горизонты, сценарии и обязательства? | [Раздел](#str) |
-| DOCA | Какие возможности развития полезны и достижимы с учётом совместных ограничений? | [Раздел](#doca) |
 | CHK | Какие существенные вопросы проверить и насколько пригодны критерии и средства проверки? | [Раздел](#chk) |
 | KCAE | Как устроить доступ к корпусу знаний, достаточно читать и сохранять редакции? | [Раздел](#kcae) |
 
 | WEP | Как написать или отредактировать текст, сохранив смысл, естественность и авторский голос? | [Раздел](#wep) |
-| BPD | Как переработать деловую презентацию, сохранив данные и согласованный стиль? | [Раздел](#bpd) |
 | VID | Как выбрать, реализовать и проверить визуальное решение интерфейса или страницы? | [Раздел](#vid) |
 
-Версия 5.8.1 содержит 17 DPF и 278 адресуемых методов. WEP объединяет вклады HUM/WED; BPD добавляет работу с презентациями, VID — профильное углубление визуального проектирования рядом с ISDLC. Выбирать нужный метод по текущему вопросу. Остальные 14 источников сохранены; прежние номера PSD не являются номерами PSDA. [Происхождение и границы собственных DPF](../../frameworks/dpf/instantiatio/README.md). Внешние ссылки не подключают отсутствующие источники.
+База iEWR 6.0.0 содержит 15 DPF. DOCA и BPD не входят в базу; их получение и включение требуют прямого основания. Источники читаются in-place. Оригинальный FPF не поставляется и не подключён по умолчанию. [Состав и границы](../../BASELINE_STATUS.md), [происхождение собственных DPF](../../frameworks/dpf/instantiatio/README.md).
+
 
 ## SYSE
 
@@ -364,25 +365,6 @@ ISDLC 0.3.0 — руководство для подготовленного р�
 Охват: 17 адресуемых методов; условия применения сохраняются в источнике.
 
 
-## DOCA
-
-Источник: [Development Opportunity Construction and Development-Direction Advising Principles Framework](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md). Редакция `2026-09-20-rev-9e1c4834`; SHA-256 `a0fe9a5fe0564c0b223cff8ac3bcf99828cbeef7e4e9c57919a05a34fd2afb61`.
-
-| Метод | Авторское название / вопрос | Полный раздел |
-|---|---|---|
-| DOCA.1 | Bound the Development-Opportunity Inquiry | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry) |
-| DOCA.1.CHR | Characterize the Development Subject and Intended Change | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1chr---characterize-the-development-subject-and-intended-change) |
-| DOCA.2 | Search Neighboring Uses, Technologies, Characteristics, and Supports for Development Opportunities | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca2---search-neighboring-uses-technologies-characteristics-and-supports-for-development-opportunities) |
-| DOCA.3 | Construct a Worthwhile Problem and Proposed Contribution | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca3---construct-a-worthwhile-problem-and-proposed-contribution) |
-| DOCA.4 | Construct Development Directions with Their Support Configurations | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca4---construct-development-directions-with-their-support-configurations) |
-| DOCA.5 | Qualify Development-Direction Dependencies and Bound Joint Reachability | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability) |
-| DOCA.6 | Maintain an Opportunity Portfolio and Preserve Stepping Stones | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) |
-| DOCA.7 | Bound the Development-Direction Advising Engagement | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement) |
-| DOCA.8 | Requalify Changed Development Opportunities | [Исходный раздел](../../frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) |
-
-Охват: 9 адресуемых методов; условия применения сохраняются в источнике.
-
-
 ## CHK
 
 Источник: [Checklist Principles Framework](../../frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md). Редакция `2026-09-25-rev-9e1c4834`; SHA-256 `503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679`.
@@ -440,24 +422,6 @@ ISDLC 0.3.0 — руководство для подготовленного р�
 | WEP.12 | Проверить результат и остановиться | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.1/WEP.md#wep12---проверить-результат-и-остановиться) |
 
 Охват: 12 адресуемых методов; условия и пределы применения сохраняются в источнике.
-
-
-## BPD
-
-Источник: [Business Presentation Principles Framework](../../frameworks/dpf/instantiatio/5.8.0/BPD.md). Редакция `1.1-package-5.8.0`; SHA-256 `ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b`.
-
-| Метод | Авторское название / вопрос | Полный раздел |
-|---|---|---|
-| BPD.1 | Условия подачи | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd1---условия-подачи) |
-| BPD.2 | Сообщение и подтверждение | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd2---сообщение-и-подтверждение) |
-| BPD.3 | Представление по операции читателя | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd3---представление-по-операции-читателя) |
-| BPD.4 | Визуальное направление | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd4---визуальное-направление) |
-| BPD.5 | Композиция и фокус | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd5---композиция-и-фокус) |
-| BPD.6 | Типографика, цвет и изображения | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd6---типографика-цвет-и-изображения) |
-| BPD.7 | Плотность и последовательность | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd7---плотность-и-последовательность) |
-| BPD.8 | Проверка и локальная правка | [Исходный раздел](../../frameworks/dpf/instantiatio/5.8.0/BPD.md#bpd8---проверка-и-локальная-правка) |
-
-Охват: 8 адресуемых методов; условия и пределы применения сохраняются в источнике.
 
 
 ## VID
