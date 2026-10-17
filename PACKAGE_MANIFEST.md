@@ -1,18 +1,18 @@
-# Состав iEWR 6.0.0
+# Состав iEWR 6.0.1
 
 Выбранный комплект выпуска: 49 файлов, 15 базовых DPF, 261 адресуемый метод. Нет программного runtime и обязательных renderer. Project data, история исследования, старые modules/adapters/app/tools, исходники DOCA/BPD и оригинальный FPF не включены. CONFIGURATION.json — статическая опись, не entry исполнения. Manifest включён без self-hash. Публичная поставка по прямому поручению Human.
 
 | Файл | Назначение | SHA-256 |
 |---|---|---|
-| `AGENTS.md` | Инструкция, навигация, документация или пустой scaffold | f8dfbcb1d6e896d40793a6c606ca832754b2f4d8f3789828ce43f23a5755ad53 |
-| `BASELINE_STATUS.md` | Инструкция, навигация, документация или пустой scaffold | c914e512fb0bb1313b34ae41a0af627d0bd5e21806334d4a016c2d8c1699aae2 |
-| `CONFIGURATION.json` | Инструкция, навигация, документация или пустой scaffold | 96fb2420ac50ce140b688c7e17eff23714c11d92e72bdb40f5ee3803aefbe8c5 |
+| `AGENTS.md` | Инструкция, навигация, документация или пустой scaffold | b6d6655526a65ef093e7c7cfe1f79dbb0a9d03ccb1c5be02e39a574de55cc118 |
+| `BASELINE_STATUS.md` | Инструкция, навигация, документация или пустой scaffold | 461f9763e1d656a064842f1f36b50b393c9939c34a7efb7dd805a34cd1b2ae40 |
+| `CONFIGURATION.json` | Инструкция, навигация, документация или пустой scaffold | 9138eff17e63b232b9cebd6c4820dad874e981d409a9a3ffcb0ff5540de26ef6 |
 | `LICENSE` | Инструкция, навигация, документация или пустой scaffold | ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec |
-| `README.md` | Инструкция, навигация, документация или пустой scaffold | 1c1b7e87cec6ee18ff19337c9f5fb8cf91332a15c16148513085c4f201137244 |
-| `RELEASE_NOTES.md` | Инструкция, навигация, документация или пустой scaffold | 8f5e3378064af7ef476b0a07c8241dd1f2a09a5e23f7c8af974b5b001216eede |
-| `VERIFICATION.md` | Инструкция, навигация, документация или пустой scaffold | 90036149ad2491a98432ee408593633a4e3efe62c2aa5bbf3b503e621b400b71 |
+| `README.md` | Инструкция, навигация, документация или пустой scaffold | 4cfd5c8c4bccfc1786099e07f20ee6f634542fa0af9e5eb5db2b4c5a292fbc01 |
+| `RELEASE_NOTES.md` | Инструкция, навигация, документация или пустой scaffold | c78181c15da1a14014b8282784933ce7f932dbb18f20466f353e9a23d0af6bcc |
+| `VERIFICATION.md` | Инструкция, навигация, документация или пустой scaffold | 1576d32352d200968843e3507c2ff0ae6412bb30f0bc7f711f4d71a660ba5bd7 |
 | `catalog/README.md` | Инструкция, навигация, документация или пустой scaffold | a853b0257656100d64a21d30a265e2ba4251ad07cb9e02b4ae50a394045233de |
-| `catalog/dpf/METHODS.md` | Инструкция, навигация, документация или пустой scaffold | 409483d2661f0b795c12b227742b38464a446088f6743b108cec00081880bff3 |
+| `catalog/dpf/METHODS.md` | Инструкция, навигация, документация или пустой scaffold | c2dba4dddda07a996bae05dddac70d62d3a5d45c1cfb47342b1deca7b54f58ac |
 | `catalog/dpf/SOURCE_LINKS.md` | Инструкция, навигация, документация или пустой scaffold | bdfe756da8ed01159fae836a549fb823f158f56664d85182fb496a81f71aa232 |
 | `docs/DPF_FORMATION_METHOD.md` | Инструкция, навигация, документация или пустой scaffold | d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea |
 | `docs/DPF_REGISTRATION_GUIDE.md` | Инструкция, навигация, документация или пустой scaffold | a11580ec87d38198c89f0c4646fb381a7c172fa6b3b7b298b5325e77a345434b |
