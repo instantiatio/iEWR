@@ -423,6 +423,44 @@
       }
     },
     {
+      "source_id": "development-opportunity-construction",
+      "display_name": "Development Opportunity Construction and Development-Direction Advising Principles Framework",
+      "aliases": [
+        "DOCA"
+      ],
+      "edition_id": "2026-09-20-rev-9e1c4834",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+      "normative_loci": [
+        "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      ],
+      "declared_status": {
+        "value": "Source-reported author date 2026-09-20; evolving publication; independent qualification not established by registration.",
+        "locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "publication_locator": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+      "fpf_grounding_claim": {
+        "value": "Source references FPF Core; independent conformance not established by this index.",
+        "locus": "frameworks/dpf/development-opportunity-construction/2026-09-20-rev-9e1c4834/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "files": [
+        {
+          "path": "DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md",
+          "sha256": "a0fe9a5fe0564c0b223cff8ac3bcf99828cbeef7e4e9c57919a05a34fd2afb61"
+        }
+      ],
+      "edition_manifest_sha256": "a0fe9a5fe0564c0b223cff8ac3bcf99828cbeef7e4e9c57919a05a34fd2afb61",
+      "registered_at": "2026-10-04T15:16:56.017504+00:00",
+      "registration_basis": "Direct Human instruction: «Ок, давай делать», after agreement to refresh 12 author DPF and add KCAE; local candidate implementation, no publication grant.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "DOCA",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; raw bytes unchanged, attribution and third-party notices retained.",
+        "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
+      }
+    },
+    {
       "source_id": "checklist",
       "display_name": "Checklist Principles Framework",
       "aliases": [
@@ -533,6 +571,44 @@
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Author Albert identified these as own DPF and directly authorized updating the reviewed editions and public release in iEWR 5.8.1. No new blanket license; third-party notices retained.",
+        "locus": "frameworks/dpf/instantiatio/README.md"
+      }
+    },
+    {
+      "source_id": "business-presentation",
+      "display_name": "Business Presentation Principles Framework",
+      "aliases": [
+        "BPD"
+      ],
+      "edition_id": "1.1-package-5.8.0",
+      "scope": "package",
+      "source_locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      ],
+      "declared_status": {
+        "value": "Author 1.1; ordinary guidance with stated prerequisites and limits. Source-reported independent AI assessments are not a new qualification of this package; see VERIFICATION.md.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/86559f33a61fa8007445c13be281662d6e2d4084/DPFs/BPD.md",
+      "fpf_grounding_claim": {
+        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
+        "locus": "frameworks/dpf/instantiatio/5.8.0/BPD.md"
+      },
+      "files": [
+        {
+          "path": "BPD.md",
+          "sha256": "ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b"
+        }
+      ],
+      "edition_manifest_sha256": "ee6573447e2263812e29244b425b3f509aac996f1ca8ce55e39c91e6fc701a4b",
+      "registered_at": "2026-10-16T12:47:57.032962+00:00",
+      "registration_basis": "Direct author/Human instruction 2026-10-16: add WEP/BPD/VID, check, publish iEWR 5.8.0 as Latest and update main. Only Markdown link targets adapted for the package; original bytes and mapping preserved in development evidence. See frameworks/dpf/instantiatio/README.md.",
+      "source_bytes_modified_by_registration": false,
+      "required_slot": "BPD",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert identified these as own DPF and directly authorized inclusion and public release of these selected editions in iEWR 5.8.0. No blanket open license inferred; third-party notices retained.",
         "locus": "frameworks/dpf/instantiatio/README.md"
       }
     },

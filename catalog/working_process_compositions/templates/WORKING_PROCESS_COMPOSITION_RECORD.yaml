@@ -1,0 +1,24 @@
+# Optional F-owned intended-basis description, not a workflow or authority store.
+schema_version: "2.0"
+record_id: ""
+question: ""
+receiving_use: ""
+exact_subject_boundary: ""
+direct_basis_refs: []
+source_bindings: []
+composition_cues: []
+method_contributions: []
+concern_result_cues: []
+project_specific_concerns: []
+applicability_and_counter_signals: []
+actual_dependencies: []
+adaptations_and_omissions: []
+representations: []
+gaps_and_affected_uses: []
+workplan_ref_if_useful: null
+required_decision_refs_if_any: []
+reopen_conditions: []
+legacy_refs: []
+# Old schema 1 context/status/candidate_working_process/process_authority_decision
+# fields remain readable historical content; no automatic schema conversion.
+# G/direct sources own decisions; this document merely references them.

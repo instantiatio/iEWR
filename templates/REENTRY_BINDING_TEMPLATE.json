@@ -1,0 +1,10 @@
+{
+  "schema": 2,
+  "kind": "continuation",
+  "context": { "host": "", "workspace": "", "session": "", "lineage": "", "through_seq": null },
+  "request_ref": null,
+  "coverage": { "complete": false, "unsearched": ["owner history not yet bound"], "ref": null },
+  "candidates": [],
+  "selection_ref": null,
+  "accounts": { "G": null, "basis": null, "facts": null }
+}

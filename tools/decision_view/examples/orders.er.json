@@ -1,0 +1,16 @@
+{
+  "schema":1,"title":"Учебная модель гостевого заказа","revision":"Orders concept-2",
+  "purpose":"Показать необязательную связь заказа с зарегистрированным клиентом. Данные синтетические; это проект модели, не действующая база.",
+  "entities":[
+    {"id":"Customer","label":"Клиент (Customer)","attributes":[{"name":"id","type":"uuid","keys":["PK"]},{"name":"email","type":"text","keys":["UK"]}]},
+    {"id":"Order","label":"Заказ (Order)","attributes":[{"name":"id","type":"uuid","keys":["PK"]},{"name":"customer_id","type":"uuid, nullable","keys":["FK"]},{"name":"contact_email","type":"text, required"}]},
+    {"id":"Product","label":"Товар (Product)","attributes":[{"name":"id","type":"uuid","keys":["PK"]},{"name":"name","type":"text"}]},
+    {"id":"OrderItem","label":"Позиция заказа (OrderItem)","attributes":[{"name":"order_id","type":"uuid","keys":["PK","FK"]},{"name":"line_no","type":"integer","keys":["PK"]},{"name":"product_id","type":"uuid","keys":["FK"]},{"name":"quantity","type":"integer > 0"}]}
+  ],
+  "relationships":[
+    {"from":"Customer","fromAttribute":"id","fromCardinality":"0..1","to":"Order","toAttribute":"customer_id","toCardinality":"0..*","label":"Гостевой заказ допускает отсутствие клиента; контакт хранится в заказе."},
+    {"from":"Order","fromAttribute":"id","fromCardinality":"1","to":"OrderItem","toAttribute":"order_id","toCardinality":"1..*","label":"У принятого заказа хотя бы одна позиция."},
+    {"from":"Product","fromAttribute":"id","fromCardinality":"1","to":"OrderItem","toAttribute":"product_id","toCardinality":"0..*","label":"Каждая позиция указывает на один товар."}
+  ],
+  "notes":["В OrderItem первичный ключ составной: (order_id, line_no).","Минимум одной позиции — правило модели; здесь не утверждается, что его обеспечивает один внешний ключ.","Согласование удаления, миграции старых данных и обработки персональных данных не входит в этот учебный выбор."]
+}

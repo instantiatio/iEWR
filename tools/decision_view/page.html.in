@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>__TITLE__</title><style>__CSS__</style></head><body><main>
+<article id="dv-context">__CONTENT__</article>
+<form id="response-form"><label for="note">Условия или ответ своими словами</label>
+<textarea id="note" rows="2" placeholder="Можно ответить без выбора варианта."></textarea>
+__PARAMETERS__
+<p class="hint">Вставьте ответ в тот чат iEWR, из которого открыли эту форму, и отправьте сообщение. Копирование само по себе не отправляет ответ.</p>
+<p class="hint">Поля можно менять после копирования. Изменение уже отправленного решения сообщите в исходном чате явно; прежний ответ сохраняется в истории.</p>
+</form>
+<div class="actions"><button id="copy" type="button">Скопировать ответ для чата</button><span id="status" role="status" aria-live="polite">Ответ ещё не введён.</span></div>
+<section id="copy-panel" hidden><label for="chat-text">Текст для исходного чата</label><p id="copy-state" role="status"></p><textarea id="chat-text" rows="8" readonly spellcheck="false"></textarea></section>
+<noscript><p>Вопрос доступен для чтения. Для заполнения включите JavaScript или передайте ответ сообщением, указав номер вопроса.</p></noscript>
+__TECHNICAL__</main><script type="application/json" id="dv-data">__DATA__</script><script type="application/json" id="dv-response">null</script><script>__APP__</script></body></html>

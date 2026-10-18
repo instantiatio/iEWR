@@ -1,0 +1,100 @@
+# Optional navigation projection over three separately governed execution accounts.
+# This file is never a source of truth, authority, permission, Work, Result or
+# currentness. Adopt it only for a named project use and derive every entry from
+# exact direct carriers or authoritative external systems of record.
+
+schema_version: "2.0"
+index:
+  id: ""
+  project_or_initiative_ref: ""
+  receiving_use: ""
+  generated_at: ""          # RFC 3339 timestamp.
+  generated_from_configuration: ""
+  projection_status: "draft"
+
+reference_contract:
+  required_when_material:
+    - "exact carrier or external-system identifier"
+    - "edition or version"
+    - "sha256 or equivalent configuration identity"
+    - "currentness boundary"
+  unresolved_reference_action: "report_and_return_to_direct_owner"
+
+navigation:
+  current_subject_or_work_summary: ""
+  current_work_refs: []
+  intended_work_refs: []
+  selected_method_refs: []
+  work_plan_refs: []         # Empty when intended-work planning is not current.
+  next_lawful_action_or_return: ""
+
+execution_governance_account:
+  # References remain distinct; inclusion here grants none of the relations.
+  assignment_refs: []
+  permission_and_prohibition_refs: []
+  authority_refs: []
+  responsibility_refs: []
+  commitment_refs: []
+  pending_decision_refs: []
+  unresolved_governance_routes: []
+
+relied_execution_basis_account:
+  source_edition_refs: []
+  method_description_refs: []
+  work_plan_or_intended_item_refs: []
+  runtime_configuration_refs: []
+  project_baseline_refs: []
+  external_system_of_record_refs: []
+  other_basis_refs: []
+  unresolved_or_stale_basis_routes: []
+
+factual_execution_account:
+  actual_work_refs: []
+  actual_performer_refs: []  # Only where independently established.
+  produced_result_refs: []
+  durable_effect_refs: []
+  interruption_refs: []
+  retry_or_resumption_refs: []
+  unresolved_partial_effect_refs: []
+
+receiving_use_relations:
+  # Each item identifies exact Result/claim/configuration, use, evidence and
+  # authority decision only when required; no universal Candidate→Admission route.
+  - result_or_claim_ref: ""
+    exact_configuration_ref: ""
+    receiving_use: ""
+    evidence_or_assurance_refs: []
+    authority_decision_ref: ""
+    reliance_observation_ref: ""
+    currentness_boundary: ""
+    reopen_condition: ""
+
+reentry:
+  unresolved_routes: []
+  affected_only_blocks: []
+  unaffected_continuation_refs: []
+  last_reconciled_at: ""
+  reconciliation_work_or_result_ref: ""
+
+freshness_contract:
+  missing_invalid_stale_or_conflicting_action: "report_and_ignore_projection"
+  authority_recovery_source: "exact_direct_carriers_and_decisions"
+  relied_basis_recovery_source: "exact_sources_configurations_and_systems_of_record"
+  factual_recovery_source: "actual_work_effect_and_result_evidence"
+  filename_mtime_chat_or_dashboard_is_authority: false
+
+compatibility:
+  schema_1_indexes_remain_readable: true
+  legacy_fields:
+    - "product_baseline"
+    - "current_phase"
+    - "current_loop"
+    - "current_task"
+    - "current_run"
+    - "admitted_results"
+    - "candidate_results"
+    - "next_human_gate"
+  interpretation_rule: >-
+    Legacy fields retain their exact predecessor carrier and receiving-use meaning.
+    Missing target fields mean not supplied. No legacy status is auto-converted
+    into current authority, actual Work, Result correctness or reliance.
