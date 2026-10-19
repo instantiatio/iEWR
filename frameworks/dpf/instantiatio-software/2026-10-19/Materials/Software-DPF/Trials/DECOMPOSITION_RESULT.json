@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "publication": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/DDB/0.1.1/DDB.md",
+  "publication_sha256": "fe99630a6a222f005da52bc5602f522abba2e4389a65db85761f40ae6018255d",
+  "script_sha256": "ee35c4d9a2c9aab67415b0599e51e80733cf1d0aff88da9a9627b345ca98fd66",
+  "sqlite": "3.53.3",
+  "observations": {
+    "lossless_join": [
+      [
+        1,
+        "x",
+        "blue"
+      ],
+      [
+        1,
+        "x",
+        "red"
+      ],
+      [
+        2,
+        "y",
+        "green"
+      ]
+    ],
+    "dependency_preserved": "A→B within AB",
+    "updated_join": [
+      [
+        1,
+        "z",
+        "blue"
+      ],
+      [
+        1,
+        "z",
+        "red"
+      ],
+      [
+        2,
+        "y",
+        "green"
+      ]
+    ],
+    "constraint_rejections": [
+      "duplicate-A",
+      "missing-parent"
+    ],
+    "single_R_uncoordinated_update_breaks_FD": true
+  },
+  "limits": [
+    "Three-row relational example and local SQLite constraints only.",
+    "Constructive comparison; no latency or total-cost measurement.",
+    "Single R can preserve A→B with a separately established atomic writer/control; countercase does not prove it impossible."
+  ]
+}

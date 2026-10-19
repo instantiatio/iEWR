@@ -1,0 +1,115 @@
+{
+  "purpose": "Bounded counterexamples informing proposed framework boundaries",
+  "python": "3.14.6",
+  "sqlite": "3.53.3",
+  "script_sha256": "8ec520c44821e1ef22d712646d1ab7d444509883987f6314f8dfed9c51b9a439",
+  "cases": [
+    {
+      "id": "B1",
+      "question": "row constraints versus concurrent operation",
+      "stale_reads": [
+        1,
+        1
+      ],
+      "weak_remaining": 0,
+      "weak_reserved": 2,
+      "writer_block": "SQLITE_BUSY",
+      "guarded_outcomes": [
+        "reserved",
+        "insufficient"
+      ],
+      "limit": "SQLite lock observation plus two sequential guarded operations; no PostgreSQL or exhaustive concurrency proof."
+    },
+    {
+      "id": "B2",
+      "question": "contract, storage mechanism and evidence across lost response",
+      "original_result": "reserved",
+      "reopened_connection_retry": "reserved",
+      "effect_quantity": 1,
+      "payload_collision": "rejected",
+      "exception_rollback": true,
+      "limit": "One process, exception injection and connection reopen; no machine crash, network or distributed exactly-once test."
+    },
+    {
+      "id": "B3",
+      "question": "physical design versus correctness and performance evidence",
+      "rows": 54,
+      "same_answers": true,
+      "before_plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN entries"
+        ]
+      ],
+      "after_plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH entries USING INDEX entries_owner (owner=?)"
+        ]
+      ],
+      "limit": "SQLite plan and answer preservation only; elapsed-time, production workload and PostgreSQL plans not measured."
+    },
+    {
+      "id": "B4",
+      "question": "migration shape versus preserved meaning",
+      "row_count_and_ids_pass": true,
+      "amounts_preserved": false,
+      "original_cents": [
+        [
+          1,
+          199
+        ],
+        [
+          2,
+          250
+        ]
+      ],
+      "recovered_cents": [
+        [
+          1,
+          100
+        ],
+        [
+          2,
+          200
+        ]
+      ],
+      "limit": "Synthetic integer conversion, not a database migration rehearsal."
+    },
+    {
+      "id": "B5",
+      "question": "verification versus validation",
+      "verification_of_partial_spec": true,
+      "complete_kit_need_satisfied": false,
+      "limit": "Explicitly constructed mismatch of specification and need; no human-user validation observation."
+    },
+    {
+      "id": "B6",
+      "question": "V&V usable without a database dependency",
+      "input": [
+        3,
+        1,
+        3,
+        2
+      ],
+      "wrong_output": [
+        1,
+        2,
+        3
+      ],
+      "required_order": [
+        3,
+        1,
+        2
+      ],
+      "weak_set_check": true,
+      "order_check": false,
+      "limit": "One deterministic library counterexample, not a claim of complete test coverage."
+    }
+  ],
+  "method_effectiveness_qualified": false
+}

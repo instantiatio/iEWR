@@ -1,0 +1,206 @@
+{
+  "purpose": "Text-guided author applications and counterexamples for the accepted DDB/SVV scope",
+  "python": "3.14.6",
+  "sqlite": "3.53.3",
+  "tests": 10,
+  "success": true,
+  "elapsed_seconds": 0.14620270894374698,
+  "hashes": {
+    "trials.py": "d0443667fec67c40c7c0e5c2a0cb6297472adf2d8d7829e875211c23b53ce7fa",
+    "trial_application.py": "8deb6bc28d373dfe9ab0690f89569319305c559761321a385b50c2d6b4db2b38"
+  },
+  "observations": [
+    {
+      "id": "APPLICATION",
+      "patterns": [
+        "DDB.1",
+        "DDB.2",
+        "DDB.3",
+        "DDB.4",
+        "DDB.5",
+        "DDB.6",
+        "SVV.1",
+        "SVV.2",
+        "SVV.3",
+        "SVV.4",
+        "SVV.6"
+      ],
+      "confirmation_total_cents": 597,
+      "current_catalog_cents": 250,
+      "first_historical_millis": 1990,
+      "same_query_answers": true,
+      "query_plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH reservations USING INDEX reservations_principal (principal=?)"
+        ]
+      ],
+      "delta_operations": 2,
+      "final_remaining": 4,
+      "final_active_qty": 1,
+      "snapshot_only_insufficient": true,
+      "snapshot_plus_available_delta_equal": true,
+      "limit": "One local SQLite application, compatible writer, quiescent backup, available reserve/cancel journal and deterministic replay. No machine-crash or unavailable-delta recovery claim."
+    },
+    {
+      "id": "RELATIONS",
+      "patterns": [
+        "DDB.2",
+        "SVV.1",
+        "SVV.2"
+      ],
+      "lossy_join_rows": 4,
+      "lossless_criterion_separate_from_local_dependency_control": true,
+      "limit": "Two small relational examples and explicit closures; not a proof for arbitrary SQL decompositions."
+    },
+    {
+      "id": "SQL-CONSTRAINTS",
+      "patterns": [
+        "DDB.2",
+        "SVV.2",
+        "SVV.3"
+      ],
+      "nullable_check_accepted_null": true,
+      "not_null_check_and_foreign_key_rejected_invalid": true,
+      "limit": "Observed SQLite constraints only; implementation checks distinct from relational FD reasoning."
+    },
+    {
+      "id": "FINITE-MODEL",
+      "patterns": [
+        "DDB.3",
+        "DDB.5",
+        "SVV.1",
+        "SVV.2",
+        "SVV.6"
+      ],
+      "boundaries": [
+        [
+          0,
+          "invalid"
+        ],
+        [
+          1,
+          "reserved"
+        ],
+        [
+          3,
+          "reserved"
+        ],
+        [
+          4,
+          "insufficient"
+        ],
+        [
+          true,
+          "invalid"
+        ]
+      ],
+      "action_alphabet": 5,
+      "max_depth": 4,
+      "sequences": 781,
+      "observed_steps": 2930,
+      "limit": "Complete enumeration only over this five-action alphabet, one principal and depth <=4; reference model shares its author, no formal all-execution proof."
+    },
+    {
+      "id": "RETRY",
+      "patterns": [
+        "DDB.3",
+        "SVV.1",
+        "SVV.4",
+        "SVV.6"
+      ],
+      "client_before": "unknown",
+      "client_after": "reserved",
+      "one_same_identity_effect": true,
+      "payload_collision_rejected": true,
+      "transaction_exception_rolled_back": true,
+      "principal_scopes_distinct": true,
+      "other_principal_cannot_cancel": true,
+      "limit": "Injected exception/response loss and connection reopen, not process or machine failure; no authentication/security qualification."
+    },
+    {
+      "id": "WRITER-OVERLAP",
+      "patterns": [
+        "DDB.3",
+        "SVV.2",
+        "SVV.4"
+      ],
+      "held_writer_observation": [
+        "SQLITE_BUSY"
+      ],
+      "after_commit_second_request": "insufficient",
+      "same_identity_retry": "original-result",
+      "limit": "Two connections at an explicitly injected overlap with SQLite BEGIN IMMEDIATE, not arbitrary scheduler, PostgreSQL or distributed concurrency."
+    },
+    {
+      "id": "HISTORY-PROJECTION",
+      "patterns": [
+        "DDB.1",
+        "DDB.5",
+        "SVV.1",
+        "SVV.4"
+      ],
+      "historical_price_unchanged": true,
+      "double_cancel_returns_resource_once": true,
+      "corrupted_projection_detected_and_rebuilt": true,
+      "accepted_quantity_does_not_recover_requested": true,
+      "limit": "Synthetic history and projection; no claim of recovering never-recorded data."
+    },
+    {
+      "id": "MIGRATION",
+      "patterns": [
+        "DDB.6",
+        "SVV.1",
+        "SVV.3",
+        "SVV.4",
+        "SVV.6"
+      ],
+      "backfill_preserved_historical_value": true,
+      "compatible_writer_after_expand": true,
+      "unsupported_legacy_writer_mismatch_detected": true,
+      "subcent_value_not_representable_in_old_schema": true,
+      "row_count_proxy_missed_amount_loss": true,
+      "limit": "Local expand/backfill and controlled writes; no production-size timing, zero-downtime deployment or general rollback claim."
+    },
+    {
+      "id": "LIBRARY",
+      "patterns": [
+        "SVV.1",
+        "SVV.2",
+        "SVV.3",
+        "SVV.6"
+      ],
+      "domain": "Lists length 0..4 over {0,1,2}",
+      "checked": 121,
+      "sorted_set_mutant_rejected_cases": 68,
+      "weak_set_oracle_false_pass": true,
+      "database_required": false,
+      "limit": "Author-constructed finite example, not a cold-reader test or proof outside the enumerated domain."
+    },
+    {
+      "id": "VALIDATION-AND-COMPLETENESS",
+      "patterns": [
+        "SVV.1",
+        "SVV.3",
+        "SVV.5",
+        "SVV.6"
+      ],
+      "partial_spec_verified": true,
+      "complete_kit_need_unsatisfied": true,
+      "implemented_subset_green": true,
+      "missing_requirement": [
+        "cancel"
+      ],
+      "real_user_observation": "not performed",
+      "limit": "Constructed need/specification discrepancy and set completeness check; no human usability validation claim."
+    }
+  ],
+  "test_output": "test_01_cross_family_application (__main__.Trials.test_01_cross_family_application) ... ok\ntest_02_relational_distinctions (__main__.Trials.test_02_relational_distinctions) ... ok\ntest_03_sql_null_and_constraints (__main__.Trials.test_03_sql_null_and_constraints) ... ok\ntest_04_boundaries_and_finite_model (__main__.Trials.test_04_boundaries_and_finite_model) ... ok\ntest_05_commit_response_identity_and_rollback (__main__.Trials.test_05_commit_response_identity_and_rollback) ... ok\ntest_06_controlled_writer_overlap (__main__.Trials.test_06_controlled_writer_overlap) ... ok\ntest_07_history_projection_and_missing_information (__main__.Trials.test_07_history_projection_and_missing_information) ... ok\ntest_08_mixed_migration_and_precision_boundary (__main__.Trials.test_08_mixed_migration_and_precision_boundary) ... ok\ntest_09_library_case_and_oracle_challenge (__main__.Trials.test_09_library_case_and_oracle_challenge) ... ok\ntest_10_validation_and_requirement_completeness (__main__.Trials.test_10_validation_and_requirement_completeness) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.146s\n\nOK\n",
+  "limits": [
+    "Author constructed and performed these applications; no independent reviewer or cold reader yet.",
+    "Local SQLite, small finite domains, simulated response/exception; no industrial, human-understanding or machine-crash qualification.",
+    "Mechanism observations support bounded claims; they do not assign E.21 coordinates or establish package adequacy."
+  ]
+}

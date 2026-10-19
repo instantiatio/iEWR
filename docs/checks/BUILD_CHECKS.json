@@ -1,0 +1,1484 @@
+{
+  "status": "passed for local selected release build",
+  "checked_at": "2026-10-19T17:41:57.386799+00:00",
+  "scope": "Local package construction and exact source transfer; not a new independent semantic assessment, public release, human study or production qualification.",
+  "base_dpf_count": 15,
+  "additional_dpf_count": 2,
+  "method_counts": {
+    "SYSE": 53,
+    "ME": 25,
+    "OCE": 17,
+    "PSDA": 18,
+    "OPS": 22,
+    "ISDLC": 18,
+    "EXD": 6,
+    "ADM": 15,
+    "RMP": 11,
+    "SIE": 12,
+    "STR": 17,
+    "CHK": 6,
+    "KCAE": 11,
+    "WEP": 12,
+    "VID": 11,
+    "DDB": 6,
+    "SVV": 6
+  },
+  "unique_method_count": 266,
+  "predecessor_count_correction": {
+    "reported_base": 261,
+    "observed_base": 254,
+    "basis": "Distinct method headings and matching catalog entries; no method removed"
+  },
+  "catalog_method_entries_verified": 266,
+  "catalog_source_digests_verified": 17,
+  "unchanged_other_base_editions": [
+    "systems-engineering",
+    "method-engineering",
+    "organization-change-engineering",
+    "problem-structuring-decision-support",
+    "operations-management",
+    "explanation-design",
+    "organization-administration",
+    "research-method-practice",
+    "semantic-integration-engineering",
+    "strategy",
+    "checklist",
+    "knowledge-corpus-access-engineering",
+    "writing-editing",
+    "visual-interface-design"
+  ],
+  "protected_unchanged_files": [
+    "docs/EWR_CORE_ARCHITECTURE_CONTRACT.md",
+    "docs/DPF_FORMATION_METHOD.md",
+    "LICENSE",
+    "frameworks/dpf/LICENSE",
+    "frameworks/dpf/LICENSING.md"
+  ],
+  "historical_ISDLC_0_3_0_retained_for_VID": true,
+  "AGENTS_eight_sections_and_prior_text_preserved": true,
+  "source_transfers_reversed_and_full_bytes_verified": 55,
+  "source_assessment_json_bytes_preserved": 31,
+  "reviewed_source_chain_verified": [
+    "ISDLC0.4.1",
+    "DDB0.1.1",
+    "SVV0.1.1"
+  ],
+  "reused_full_assessment_coverage": {
+    "patterns": 30,
+    "coordinate_ascriptions": 570,
+    "dpf_coordinate_ascriptions": 36,
+    "PFM_dispositions": 39,
+    "all_required_floor_at_least_4_or_pass": true,
+    "new_scoring_performed": false,
+    "qualified_PFM_dispositions_retained": [
+      "ISDLC PFM10: passWithinDeclaredAccess",
+      "SVV PFM10: pass, local file use only"
+    ]
+  },
+  "original_reader_trial_records_preserved": 31,
+  "joint_author_applications_rerun": {
+    "observations": 6,
+    "selected_assertions_passed": true,
+    "independent_evaluation": false,
+    "result": "JOINT_APPLICATION_RESULTS.json"
+  },
+  "navigation": {
+    "parser": "marked",
+    "documents": 64,
+    "relative_links_checked": 2035,
+    "changed_document_failures": [],
+    "inherited_source_failures": [
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12433---prepare-a-proposal-for-decision-and-first-use",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-or-reconsider-situational-method-requirements-and-fit-criteria",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+        "href": "WEP.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+        "href": "../5.8.0/BPD.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+        "href": "WEP.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+        "href": "../5.8.0/BPD.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#learn-to-recover-and-change-a-way-of-working",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda6---represent-values-and-trade-offs",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "STRATEGY-PRINCIPLES-FRAMEWORK.md#str8---relate-capabilities-dependencies-business-models-and-initiatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd11--assess-human-performance-in-representative-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov13---monitor-corporate-performance-and-require-an-account",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma7---explain-a-cost-or-margin-difference",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference6---connect-contributions-concerns-and-consequences-across-a-whole-project",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse6---decide-and-reopen-the-engineering-architecture",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference20---explore-a-situation-through-goals-and-dependencies",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference20---explore-a-situation-through-goals-and-dependencies",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference112---recommend-a-programme-before-the-learners-are-known",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp1--decide-whether-a-question-needs-research-and-when-to-stop",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp2--choose-a-criticism-bearing-research-design-or-stop",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "href": "Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd10---choose-whether-and-how-to-vary-space-interleave-or-progress-practice",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1---choose-and-reopen-the-project-system-of-interest",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp13---infer-unknowns-statistically-under-a-stated-observation-model",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp16---design-observations-to-separate-mathematical-model-alternatives",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "href": "Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp15---identify-an-intervention-effect-from-available-data",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#c39rp---organize-a-repertoire-for-method-development",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#decision-design-principles-framework-architectural-reference",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#readme",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda19---bound-the-development-direction-advising-engagement",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "href": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference193---choose-and-perform-a-way-to-complete-the-current-task",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference19---make-an-available-contribution-work-in-the-whole-task",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference197---develop-the-arrangement-across-attempts",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference6---connect-contributions-concerns-and-consequences-across-a-whole-project",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference19---make-an-available-contribution-work-in-the-whole-task",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#e4dpf---domain-and-local-principle-frameworks-whether-and-how-to-author-and-publish",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../../FPF-Spec.md#e19---pattern-quality-gates-review-and-refresh-profiles",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam341---first-use-with-two-quotations",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt1241---first-use-with-a-replacement-history",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1041---recover-one-consequential-participation-gap",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce104---solution",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce104---solution",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie2---recover-and-qualify-source-semantics-and-authority",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie4---judge-cross-source-correspondences-and-their-permitted-uses",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie6---fuse-source-qualified-claims-without-erasing-conflict",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference24---how-can-independently-maintained-corpora-supply-one-usable-working-environment",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference196---understand-a-collaborator-before-choosing-the-next-contribution",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference197---develop-the-arrangement-across-attempts",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2641---learn-from-interleaved-actions-and-observations",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2642---allocate-training-attempts-and-select-the-update",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2643---learn-a-strategy-together-with-its-execution",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2644---learn-actions-whose-value-persists-across-sessions",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2645---transfer-a-procedure-through-teacher-guided-learning",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference2646---select-what-to-learn-and-reassess-the-support-that-remains",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference197---develop-the-arrangement-across-attempts",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops101---construct-and-compare-operating-capacity-models",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops102---construct-and-revise-a-feasible-deadline-schedule",
+        "error": "missing file"
+      },
+      {
+        "file": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "href": "../Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops111---construct-and-reconcile-operating-models-across-scales",
+        "error": "missing file"
+      }
+    ]
+  },
+  "limits": [
+    "277 inherited relative source paths require the existing SOURCE_LINKS map or a separately available source; they were not rewritten.",
+    "Included DPF bodies and changed-document local navigation are available offline; referenced outside libraries and bibliography are not all included or revalidated.",
+    "Old VID pinned ISDLC kept; WEP0.1.4 and BPD1.1 referenced by VID are not included. No silent edition substitution.",
+    "No original FPF, application runtime, project input material, deployment or publication."
+  ]
+}

@@ -1,0 +1,381 @@
+[
+  {
+    "id": "D01",
+    "direction": "Постановка программной задачи",
+    "isdlc_methods": [
+      "ISDLC.1",
+      "ISDLC.2"
+    ],
+    "current_coverage": "Есть пользователь, результат, границы, альтернативы и различающий случай.",
+    "core_recommendation": "Сохранить полный базовый ответ; уточнять только неизвестное, меняющее ближайшее решение.",
+    "other_dpf_contributions": [
+      "PSDA",
+      "SYSE"
+    ],
+    "optional_specialization": "Модуль не нужен для обычной постановки.",
+    "change_kind": "Навигация и переиспользование",
+    "professional_sources": [
+      "S04"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D02",
+    "direction": "Требования и спецификации",
+    "isdlc_methods": [
+      "ISDLC.1",
+      "ISDLC.2",
+      "ISDLC.14"
+    ],
+    "current_coverage": "Есть ожидания, ограничения, приёмка и влияние изменения; нет отдельного входа для работы со спецификацией.",
+    "core_recommendation": "Сохранить правила, примеры, открытые вопросы, владельца смысла и связь с проверками. Добавить удобный вход к существующим действиям.",
+    "other_dpf_contributions": [
+      "SIE.1",
+      "SIE.3",
+      "NOT.1"
+    ],
+    "optional_specialization": "Профиль управления требованиями при множестве согласующих сторон, версий и продуктов. Его полный состав ещё требует адресного исследования.",
+    "change_kind": "Навигация; профиль при масштабе",
+    "professional_sources": [
+      "S04",
+      "S18"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D03",
+    "direction": "Программная архитектура",
+    "isdlc_methods": [
+      "ISDLC.3",
+      "ISDLC.9",
+      "ISDLC.10",
+      "ISDLC.14"
+    ],
+    "current_coverage": "Есть ответственности, причины изменения, сравнение монолита/сервисов, контракты и проход сценария.",
+    "core_recommendation": "Сохранить программные решения в ядре. Уточнить входы к сравнению вариантов и достаточному описанию; ADR и диаграммы использовать по потребности.",
+    "other_dpf_contributions": [
+      "SYSE.6",
+      "SYSE.53",
+      "NOT.1"
+    ],
+    "optional_specialization": "Новый общий архитектурный DPF сейчас не обоснован; профиль для независимых выпусков и сложных межсистемных границ — по задаче.",
+    "change_kind": "Существующий метод и связи",
+    "professional_sources": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D04",
+    "direction": "Предметная модель и значения",
+    "isdlc_methods": [
+      "ISDLC.3",
+      "ISDLC.4",
+      "ISDLC.5"
+    ],
+    "current_coverage": "Есть понятия, владельцы правил, контексты, единицы и временной смысл.",
+    "core_recommendation": "Сохранить переход от предметного правила к коду и данным. При конфликте значений получать отдельный семантический результат.",
+    "other_dpf_contributions": [
+      "SIE.1",
+      "SIE.3",
+      "NOT.1"
+    ],
+    "optional_specialization": "Использовать существующий SIE; оснований для нового Domain Modeling DPF в этом обзоре не получено.",
+    "change_kind": "Переиспользование",
+    "professional_sources": [
+      "S19"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D05",
+    "direction": "Проектирование баз данных",
+    "isdlc_methods": [
+      "ISDLC.4",
+      "ISDLC.12"
+    ],
+    "current_coverage": "Есть ключи, зависимости, нормализация, сохранение соединения, ограничения, транзакции и история.",
+    "core_recommendation": "Сохранить весь базовый способ .4. Усилить доступ к проверке конкретных механизмов СУБД, конкурентных изменений и миграций.",
+    "other_dpf_contributions": [
+      "SIE.3",
+      "CMP.10"
+    ],
+    "optional_specialization": "Профиль данных: физическая модель, планы запросов, индексы, большие миграции, распределённое хранение. Первый приоритет для углубления; отдельный DPF ещё не выбран.",
+    "change_kind": "Профиль глубины",
+    "professional_sources": [
+      "S05",
+      "S06",
+      "S16"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D06",
+    "direction": "API и интеграционные контракты",
+    "isdlc_methods": [
+      "ISDLC.5",
+      "ISDLC.9",
+      "ISDLC.10",
+      "ISDLC.12"
+    ],
+    "current_coverage": "Есть семантика операции, повторы, потребители и промежуточные версии.",
+    "core_recommendation": "Сохранить в ядре; различать описанный контракт, проверенную пару и фактический эффект. Перенос уточнений .5 из пробной 0.3.1 проверять вместе с .7/.11.",
+    "other_dpf_contributions": [
+      "SIE.1",
+      "SIE.10",
+      "SYSE.53"
+    ],
+    "optional_specialization": "Профиль для множества независимых потребителей; Pact и сходные инструменты выбирать по условиям, а не назначать всем API.",
+    "change_kind": "Адресное уточнение и профиль",
+    "professional_sources": [
+      "S07",
+      "S08",
+      "S09",
+      "S18"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D07",
+    "direction": "Распределённые операции и клиентское состояние",
+    "isdlc_methods": [
+      "ISDLC.5",
+      "ISDLC.7",
+      "ISDLC.13"
+    ],
+    "current_coverage": "Есть частичный отказ, идентичность повтора, offline и unknown; 0.3.1 делает подтверждение после эффекта более явным.",
+    "core_recommendation": "Сохранить базовые обязательства .5/.7. Проверять эффект, пригодность подтверждения и состояние получателя в одном выбранном случае.",
+    "other_dpf_contributions": [
+      "SIE.10",
+      "SYSE.53"
+    ],
+    "optional_specialization": "Профиль сложных протоколов, очередей, конфликтов и offline-синхронизации при нескольких владельцах состояния.",
+    "change_kind": "Адресное уточнение и профиль",
+    "professional_sources": [
+      "S08",
+      "S09"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D08",
+    "direction": "Верификация программного результата",
+    "isdlc_methods": [
+      "ISDLC.2",
+      "ISDLC.11",
+      "ISDLC.16"
+    ],
+    "current_coverage": "Есть свойство, основание, ошибочный вариант, oracle, уровни проверки и пределы результата.",
+    "core_recommendation": "Сохранить достаточный выбор и выполнение проверок в .11. Отдельно показать вход «соответствие заданному требованию»; проверять эффект и отказную границу.",
+    "other_dpf_contributions": [
+      "CHK.6",
+      "CMP.10"
+    ],
+    "optional_specialization": "Профиль глубоких проверок при сложном состоянии, протоколе или повышенных последствиях: property/model based, fault injection, формальные методы по основанию.",
+    "change_kind": "Навигация и профиль глубины",
+    "professional_sources": [
+      "S09",
+      "S11"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D09",
+    "direction": "Валидация и приёмка",
+    "isdlc_methods": [
+      "ISDLC.1",
+      "ISDLC.6",
+      "ISDLC.11"
+    ],
+    "current_coverage": "Есть исходная задача и пользовательская проба, но нет отдельного различимого входа для пригодности в реальном использовании.",
+    "core_recommendation": "Сохранить проверку исходной задачи; явнее различать соответствие спецификации и пригодность для пользователя. При выводе о человеке получать его наблюдение.",
+    "other_dpf_contributions": [
+      "RMP.1",
+      "SIE.10"
+    ],
+    "optional_specialization": "Профиль исследований использования при неизвестных задачах, аудитории и спорной понятности. Отдельный агент не заменяет пользователя.",
+    "change_kind": "Навигация и профиль глубины",
+    "professional_sources": [
+      "S12"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D10",
+    "direction": "UX и информационная архитектура",
+    "isdlc_methods": [
+      "ISDLC.1",
+      "ISDLC.6",
+      "ISDLC.7"
+    ],
+    "current_coverage": "Есть путь, состояния, ошибки, платформа, доступность и проверка целого сценария.",
+    "core_recommendation": "Сохранить базовую организацию взаимодействия. Разделять знание о состоянии, его отображение и исследование поведения пользователя.",
+    "other_dpf_contributions": [
+      "VID.1",
+      "VID.10",
+      "RMP.1"
+    ],
+    "optional_specialization": "Профиль UX research для получения неизвестных пользовательских оснований; VID отвечает за визуальный вклад, а не весь UX.",
+    "change_kind": "Разделение вкладов",
+    "professional_sources": [
+      "S12"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D11",
+    "direction": "Визуальный интерфейс",
+    "isdlc_methods": [
+      "ISDLC.6",
+      "ISDLC.7",
+      "ISDLC.11"
+    ],
+    "current_coverage": "В ядре есть связь с поведением; отдельный VID уже содержит специализированные методы.",
+    "core_recommendation": "Сохранить состояния, требования и проверку интеграции. Визуальные решения получать из VID по задаче.",
+    "other_dpf_contributions": [
+      "VID.1",
+      "VID.10",
+      "VID.11"
+    ],
+    "optional_specialization": "Использовать существующий VID; наличие в базе не делает его обязательным для библиотеки без UI.",
+    "change_kind": "Готовая специализация",
+    "professional_sources": [
+      "S20"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D12",
+    "direction": "Безопасность и приватность",
+    "isdlc_methods": [
+      "ISDLC.8",
+      "ISDLC.11"
+    ],
+    "current_coverage": "Есть активы, границы доверия, серверный доступ, данные, контроли и негативные проверки.",
+    "core_recommendation": "Сохранить базовую безопасность в ядре. Связать существенную угрозу с контролем и проверкой; требования к данным брать из проекта.",
+    "other_dpf_contributions": [
+      "CHK.6"
+    ],
+    "optional_specialization": "Профиль ИБ для сложной авторизации, многоарендности, криптографии и специальных требований. Общие DPF о полномочиях не заменяют программную ИБ.",
+    "change_kind": "Профиль глубины",
+    "professional_sources": [
+      "S13",
+      "S14"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D13",
+    "direction": "Реализация и сопровождение кода",
+    "isdlc_methods": [
+      "ISDLC.3",
+      "ISDLC.10",
+      "ISDLC.15",
+      "ISDLC.16",
+      "ISDLC.17",
+      "ISDLC.18"
+    ],
+    "current_coverage": "Есть путь поведения, связанные правки, отладка, сохранение поведения и проверка неправильного варианта.",
+    "core_recommendation": "Сохранить самостоятельные способы .15–18. Малость изменения определять связностью результата, а не лимитом строк; AI-исполнение проверять по тем же обещаниям.",
+    "other_dpf_contributions": [
+      "CMP.10",
+      "CHK.6"
+    ],
+    "optional_specialization": "CMP для существенной алгоритмической глубины; языковые и платформенные инструкции остаются прямыми источниками.",
+    "change_kind": "Переиспользование",
+    "professional_sources": [
+      "S10",
+      "S11"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D14",
+    "direction": "Производительность и масштабирование",
+    "isdlc_methods": [
+      "ISDLC.2",
+      "ISDLC.3",
+      "ISDLC.11",
+      "ISDLC.13"
+    ],
+    "current_coverage": "Есть целевой объём, стоимость, измерение, узкое место и пользовательский результат.",
+    "core_recommendation": "Сохранить постановку цели, выбор наблюдения и достаточную локальную пробу. Масштаб проверочной среды должен соответствовать выводу.",
+    "other_dpf_contributions": [
+      "CMP.10",
+      "MMP.10",
+      "SYSE.36"
+    ],
+    "optional_specialization": "Профиль performance engineering при значимом ресурсном ограничении; нагрузочный стенд и математическая модель не нужны каждой правке.",
+    "change_kind": "Профиль глубины",
+    "professional_sources": [
+      "S17",
+      "S20"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D15",
+    "direction": "Сборка поставка и миграции",
+    "isdlc_methods": [
+      "ISDLC.9",
+      "ISDLC.10",
+      "ISDLC.12"
+    ],
+    "current_coverage": "Есть точная конфигурация, смешанные версии, переход, остановка и восстановление с учётом новых записей.",
+    "core_recommendation": "Сохранить программный переход и восстановление в ядре; готовность не подменять успешной сборкой.",
+    "other_dpf_contributions": [
+      "SYSE.13",
+      "SYSE.53"
+    ],
+    "optional_specialization": "Профиль поставки при нескольких площадках/версиях/контурных ограничениях. Самостоятельный общий Release DPF сейчас не требуется.",
+    "change_kind": "Существующий метод и профиль",
+    "professional_sources": [
+      "S16",
+      "S18"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D16",
+    "direction": "Эксплуатация развитие и завершение",
+    "isdlc_methods": [
+      "ISDLC.13",
+      "ISDLC.14",
+      "ISDLC.17"
+    ],
+    "current_coverage": "Есть пользовательский показатель, восстановление, стоимость, ремонт, замена и вывод из использования.",
+    "core_recommendation": "Сохранить восстановление полезного результата и работу с известными потребителями; общие показатели сервиса получать из SYSE.36 по условиям.",
+    "other_dpf_contributions": [
+      "SYSE.36",
+      "CHK.6"
+    ],
+    "optional_specialization": "Профиль эксплуатации при существенных требованиях к доступности, восстановлению и нескольким владельцам. Организационные процедуры SRE не копировать целиком.",
+    "change_kind": "Переиспользование и профиль",
+    "professional_sources": [
+      "S15",
+      "S18"
+    ],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  },
+  {
+    "id": "D17",
+    "direction": "Особые классы программных систем",
+    "isdlc_methods": [
+      "ISDLC.2",
+      "ISDLC.8",
+      "ISDLC.11"
+    ],
+    "current_coverage": "В базисе есть триггер обращения к профильным методам; сам он не даёт глубины ML, real time или safety-critical.",
+    "core_recommendation": "Сохранить распознавание границы применимости и обязательств. Не обещать пригодность общего руководства для специального класса.",
+    "other_dpf_contributions": [
+      "MMP.10",
+      "CMP.10"
+    ],
+    "optional_specialization": "Отдельные специализации и компетентный вклад по выбранному классу. В этом обзоре их внутренние методы не сравнивались.",
+    "change_kind": "Граница исследования",
+    "professional_sources": [],
+    "claim_scope": "Content-based comparison for ordinary prepared developer use; not empirical qualification of the domain."
+  }
+]

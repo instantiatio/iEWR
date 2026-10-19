@@ -1,0 +1,79 @@
+[
+  {
+    "id": "SYSE",
+    "edition": "2026-10-15-rev-b40c9df9",
+    "path": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "ME",
+    "edition": "2026-09-20-rev-9e1c4834",
+    "path": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6",
+    "upstream": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "ISDLC",
+    "edition": "0.3.0-package-5.7.1",
+    "path": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
+    "sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c",
+    "upstream": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
+  },
+  {
+    "id": "RMP",
+    "edition": "2026-10-15-rev-b40c9df9",
+    "path": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "SIE",
+    "edition": "2026-10-15-rev-b40c9df9",
+    "path": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "CHK",
+    "edition": "2026-09-25-rev-9e1c4834",
+    "path": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679",
+    "upstream": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/CHECKLIST-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "KCAE",
+    "edition": "snapshot-2026-10-14-rev-7d0a7800",
+    "path": "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+    "sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec",
+    "upstream": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Engineering%20DPF%20Suite/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+  },
+  {
+    "id": "VID",
+    "edition": "0.3.0-package-5.8.1",
+    "path": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+    "sha256": "8a72afd59c3cf0764c62f07f4d3c4f8f9bf9745d3b406513eaba58e1f7de1112",
+    "upstream": "https://github.com/instantiatio/dpf-lab/blob/bd1cabb2e0e1757801aab142d44184ee195034ce/DPFs/VID.md"
+  },
+  {
+    "id": "NOT",
+    "edition": "2026-09-20-rev-cc2e8aa9",
+    "path": "external-sources/external-dpf/fpf-library/2026-10-19-rev-cc2e8aa9/DPFs/Foundational Thinking DPF Suite/NOTATIONAL-ENGINEERING-DPF.md",
+    "sha256": "ce19219568169efa7c2bb77cbb54097cce242bb0821bb61dcea15426836da357",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md"
+  },
+  {
+    "id": "CMP",
+    "edition": "2026-10-14-rev-cc2e8aa9",
+    "path": "external-sources/external-dpf/fpf-library/2026-10-19-rev-cc2e8aa9/DPFs/Foundational Thinking DPF Suite/COMPUTATIONAL-THINKING-DPF.md",
+    "sha256": "968a680407440693179cbebdf150460532495b70ca61ce0cf2a56293256c2a57",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md"
+  },
+  {
+    "id": "MMP",
+    "edition": "2026-10-12-rev-cc2e8aa9",
+    "path": "external-sources/external-dpf/fpf-library/2026-10-19-rev-cc2e8aa9/DPFs/Foundational Thinking DPF Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md",
+    "sha256": "873d808cd18f3d73b9972be6af77dc509d1a413598452474e9b40554ebd7df4e",
+    "upstream": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md"
+  }
+]

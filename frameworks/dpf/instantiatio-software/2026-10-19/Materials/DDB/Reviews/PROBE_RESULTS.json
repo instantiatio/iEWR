@@ -1,0 +1,26 @@
+{
+  "checked_edition_sha256": "bc340abc551fecdbb0aa21985b6951f9a433ccb1158a2c1660af94cf25e860ab",
+  "basis": "Reviewer-created code after frozen INITIAL_RECONSTRUCTION, and after inspecting author traces; not a blind independent experiment.",
+  "python": "3.14.6",
+  "sqlite": "3.53.3",
+  "observations": {
+    "historical_price": 250,
+    "same_identity_same_result": true,
+    "mismatched_payload_rejected": true,
+    "oversized_full_reservation_refused": true,
+    "answers_equal_after_index": true,
+    "rebuilt_active_qty": 2,
+    "snapshot_alone_loses_new_write": true,
+    "snapshot_plus_replayed_same_condition_operation_equal": true,
+    "migration125_to1250_exact": true,
+    "legacy_cannot_express1255": true,
+    "lossy_join_rows": 4,
+    "dependency_control_countercase": true
+  },
+  "limits": [
+    "One in-memory synthetic SQLite arrangement; sequential operations, no machine/process crash or industrial workload.",
+    "Replay only demonstrated with unchanged catalogue after snapshot and known operation order; unlogged price changes would require additional history.",
+    "Does not establish human learning, all interleavings, asynchronous projections, statistical independence or all-six-family universal adequacy."
+  ],
+  "source_sha256": "68714ad805bb4ea0d6c269b01f6759be16ff7439bb60b05bbe0f6bb6dfec1ea1"
+}

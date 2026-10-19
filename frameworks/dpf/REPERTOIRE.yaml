@@ -218,39 +218,47 @@
       "source_id": "instantiatio-sdlc",
       "display_name": "Instantiatio SDLC DPF",
       "aliases": [
-        "ISDLC",
-        "Instantiatio SDLC"
+        "ISDLC"
       ],
-      "edition_id": "0.3.0-package-5.7.1",
+      "edition_id": "0.4.1",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
+      "selection_role": "base",
+      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/ISDLC.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
+        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/ISDLC.md"
       ],
       "declared_status": {
-        "value": "Author 0.3.0: guidance with use and verification conditions; exact independent assessment and limits in VERIFICATION.md",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
+        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
+        "locus": "VERIFICATION.md"
       },
-      "publication_locator": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/ISDLC.md",
       "fpf_grounding_claim": {
-        "value": "Source-reported grounding in FPF; no independent conformance claim from registration; FPF remains optional and disconnected by default",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md"
+        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
+        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/ISDLC/Development-0.4.0/README.md"
       },
       "files": [
         {
-          "path": "DPF.md",
-          "sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c"
+          "path": "ISDLC.md",
+          "sha256": "1a9c52eb94f236bde01d23879a89b7c8ff67659e6cf0ea83aabc4f38bbe47fd3"
         }
       ],
-      "edition_manifest_sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c",
-      "registered_at": "2026-10-14T14:43:45.334839+00:00",
-      "registration_basis": "Direct author/Human instruction: include exact 0.3.0, verify and publish iEWR 5.7.1 Beta as Latest; portable supporting-document revision, unchanged DPF bytes; 2026-10-14 metadata-only RFC-3339 compatibility repair: predecessor registered_at was date-only 2026-10-11. Current timestamp records this metadata repair, not original authorship or source inclusion; source and edition unchanged.",
-      "source_bytes_modified_by_registration": false,
-      "required_slot": "SDLC",
+      "edition_manifest_sha256": "1a9c52eb94f236bde01d23879a89b7c8ff67659e6cf0ea83aabc4f38bbe47fd3",
+      "registered_at": "2026-10-19T17:46:58.170647+00:00",
+      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
+      "source_bytes_modified_by_registration": true,
+      "source_sha256": "d5219d0e5b36b787c7d82eaca3794832d6c05bbe47c75e5e44fb987439e255e1",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Author Albert directly confirmed authorship and authorized public inclusion of 0.3.0; no new blanket license; third-party notices retained",
-        "locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/README.md"
+        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+        "locus": "BASELINE_STATUS.md"
+      },
+      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json",
+      "required_slot": "SDLC",
+      "predecessor": {
+        "edition_id": "0.3.0-package-5.7.1",
+        "source_locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
+        "sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c",
+        "purpose": "Retained historical snapshot for explicit VID 0.3.0 dependency; not the active ISDLC selection."
       }
     },
     {
@@ -668,6 +676,86 @@
         "statement": "Author Albert identified these as own DPF and directly authorized updating the reviewed editions and public release in iEWR 5.8.1. No new blanket license; third-party notices retained.",
         "locus": "frameworks/dpf/instantiatio/README.md"
       }
+    },
+    {
+      "source_id": "instantiatio-ddb",
+      "display_name": "Data and Database Design DPF",
+      "aliases": [
+        "DDB"
+      ],
+      "edition_id": "0.1.1",
+      "scope": "package",
+      "selection_role": "optional",
+      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/DDB.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/DDB.md"
+      ],
+      "declared_status": {
+        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
+        "locus": "VERIFICATION.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/DDB.md",
+      "fpf_grounding_claim": {
+        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
+        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/DDB/README.md"
+      },
+      "files": [
+        {
+          "path": "DDB.md",
+          "sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a"
+        }
+      ],
+      "edition_manifest_sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a",
+      "registered_at": "2026-10-19T17:46:58.170989+00:00",
+      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
+      "source_bytes_modified_by_registration": false,
+      "source_sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+        "locus": "BASELINE_STATUS.md"
+      },
+      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json"
+    },
+    {
+      "source_id": "instantiatio-svv",
+      "display_name": "Software Verification and Validation DPF",
+      "aliases": [
+        "SVV"
+      ],
+      "edition_id": "0.1.1",
+      "scope": "package",
+      "selection_role": "optional",
+      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/SVV.md",
+      "normative_loci": [
+        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/SVV.md"
+      ],
+      "declared_status": {
+        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
+        "locus": "VERIFICATION.md"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/SVV.md",
+      "fpf_grounding_claim": {
+        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
+        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/SVV/README.md"
+      },
+      "files": [
+        {
+          "path": "SVV.md",
+          "sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849"
+        }
+      ],
+      "edition_manifest_sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849",
+      "registered_at": "2026-10-19T17:46:58.170991+00:00",
+      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
+      "source_bytes_modified_by_registration": false,
+      "source_sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849",
+      "distribution_basis": {
+        "status": "confirmed",
+        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+        "locus": "BASELINE_STATUS.md"
+      },
+      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json"
     }
   ]
 }

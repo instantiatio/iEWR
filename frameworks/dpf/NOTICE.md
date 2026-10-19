@@ -2,9 +2,9 @@
 
 Copyright (c) Anatoly Levenchuk, with AI-assisted development and review.
 
-В базу iEWR 6.0.2 Beta включены 12 его публикаций, Instantiatio SDLC, WEP и VID автора Albert. Обновлены EXD, WEP и пять публикаций с редакционными изменениями. Тексты Anatoly Levenchuk сохранены побайтно из закреплённых источников; в WEP адаптированы только назначения относительных Markdown-ссылок. Остальные источники сохранены из 6.0.1. Авторские даты, commits, локальные editions и digests не смешиваются. DOCA/BPD не входят в выбранный базовый комплект.
+В iEWR 6.0.3 Beta сохранены 12 публикаций Anatoly Levenchuk и WEP/VID автора Albert в прежних редакциях. Основной ISDLC обновлён до 0.4.1; DDB и SVV 0.1.1 включены как дополнительные авторские DPF. В новых текстах адаптированы только навигационные назначения ссылок; оценки JSON сохранены побайтно. Прежний ISDLC 0.3.0 сохранён для явной привязки VID и не является вторым активным ISDLC.
 
-Оригинальные публикации Anatoly Levenchuk — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [LICENSE](LICENSE), [условия автора](LICENSING.md). Сторонние материалы сохраняют свои условия; включение не означает endorsement. MIT iEWR и эта CC BY не переносятся на самостоятельные тексты Albert. Прежние разрешения на определённые публикации не создают нового blanket grant; публичная поставка выбранных редакций разрешена прямым поручением Human от 19.10.2026.
+Оригинальные публикации Anatoly Levenchuk — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [LICENSE](LICENSE), [условия автора](LICENSING.md). Сторонние материалы сохраняют свои условия; включение не означает endorsement. MIT iEWR и эта CC BY не переносятся на самостоятельные тексты Albert. Прежние разрешения на определённые публикации не создают нового blanket grant; прежние публичные выпуски имели отдельное разрешение. После проверки локальной сборки Human прямо разрешил публичное включение выбранных редакций, выпуск 6.0.3 Beta как Latest и обновление main. Это точное разрешение не создаёт общей лицензии на прочие авторские тексты.
 
 | DPF | Авторская дата / основа | Exact source | SHA-256 | Git blob |
 |---|---|---|---|---|
@@ -21,4 +21,4 @@ Copyright (c) Anatoly Levenchuk, with AI-assisted development and review.
 | CHK | сохранена редакция 2026-09-25-rev-9e1c4834 | [CHECKLIST-PRINCIPLES-FRAMEWORK.md](checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md) | `503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679` | `c000ac68f175b8c683f3cb3c5af6b38346dc52f7` |
 | KCAE | не установлена | [KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md](knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | `413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec` | `3018533b4a075f6182d7a1a5302bda0f60f2e07c` |
 
-Instantiatio SDLC 0.3.0 сохранён вместе с исходными сопроводительными файлами; их исторические примеры и проверки относятся к прежнему use. WEP обновлён до 0.1.6; VID 0.3.0 сохраняет прежнюю package edition 5.8.1. [Точные редакции и собственные notices](instantiatio/README.md), [активный репертуар](REPERTOIRE.yaml), [текущие проверки](../../VERIFICATION.md). Ссылки источников на FPF и необязательные DPF не означают их включения.
+ISDLC, DDB и SVV изготовлены Albert с AI-помощью. Их отдельная общая лицензия не назначается. [Происхождение и перенос](instantiatio/README.md), [репертуар](REPERTOIRE.yaml), [проверки](../../VERIFICATION.md). Ссылки на FPF и необязательные DPF не означают их включения.
