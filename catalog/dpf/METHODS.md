@@ -231,7 +231,7 @@ ISDLC 0.5.0 — руководство для подготовленного р�
 
 ## ISDLC
 
-Источник: [Instantiatio SDLC DPF](../../frameworks/dpf/ISDLC/0.5.0/ISDLC.md). Редакция `0.5.0`; SHA-256 `647e16e9aad2cb5a38640731bd869d52c29f110988025e5e13b26ca07b016f93`.
+Источник: [Instantiatio SDLC DPF](../../frameworks/dpf/ISDLC/0.5.0/ISDLC.md). Редакция `0.5.0`; SHA-256 `44bdba49c02286ebc0546bef116c5a2719839c33d71c7e48be07c6fe62c0b59b`.
 
 | Метод | Авторское название / вопрос | Полный раздел |
 |---|---|---|
@@ -406,7 +406,7 @@ ISDLC 0.5.0 — руководство для подготовленного р�
 
 ## WEP
 
-Источник: [Writing & Editing Principles Framework](../../frameworks/dpf/WEP/0.2.0/WEP.md). Редакция `0.2.0`; SHA-256 `55393186d85b8b218a5eecba04215b6f2b696e387771eb9d80f45bd1b4dd7645`.
+Источник: [Writing & Editing Principles Framework](../../frameworks/dpf/WEP/0.2.0/WEP.md). Редакция `0.2.0`; SHA-256 `06707ead52f948f69f84f710c50eae87a90c09b483fa11a98fcc290827315be0`.
 
 | Метод | Авторское название / вопрос | Полный раздел |
 |---|---|---|
@@ -428,7 +428,7 @@ ISDLC 0.5.0 — руководство для подготовленного р�
 
 ## VID
 
-Источник: [Visual Interface Design Principles Framework](../../frameworks/dpf/VID/0.4.0/VID.md). Редакция `0.4.0`; SHA-256 `0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4`.
+Источник: [Visual Interface Design Principles Framework](../../frameworks/dpf/VID/0.4.0/VID.md). Редакция `0.4.0`; SHA-256 `fbbed8467ebb19c458e7068cd9ad8be3587f2e4324436913bce92790e623c140`.
 
 | Метод | Авторское название / вопрос | Полный раздел |
 |---|---|---|
@@ -449,7 +449,7 @@ ISDLC 0.5.0 — руководство для подготовленного р�
 
 ## DDB
 
-Источник: [Data and Database Design DPF](../../frameworks/dpf/DDB/0.2.0/DDB.md). Редакция `0.2.0`; SHA-256 `d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57`.
+Источник: [Data and Database Design DPF](../../frameworks/dpf/DDB/0.2.0/DDB.md). Редакция `0.2.0`; SHA-256 `8ec4f829e6e8b4f79a8224032f1440e09da32dba00fc2bc8515145d579b68fa9`.
 
 Дополнительный DPF: читать выбранный метод при существенном предметном вопросе. Полный цикл не обязателен.
 
@@ -467,7 +467,7 @@ ISDLC 0.5.0 — руководство для подготовленного р�
 
 ## SVV
 
-Источник: [Software Verification and Validation DPF](../../frameworks/dpf/SVV/0.2.0/SVV.md). Редакция `0.2.0`; SHA-256 `a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea`.
+Источник: [Software Verification and Validation DPF](../../frameworks/dpf/SVV/0.2.0/SVV.md). Редакция `0.2.0`; SHA-256 `8822280c24c1b141fb371aadfdb2e9448938a07daf8dcbc40b2136f72351cabb`.
 
 Дополнительный DPF: читать выбранный метод при существенном предметном вопросе. Полный цикл не обязателен.
 
