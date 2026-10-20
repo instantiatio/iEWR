@@ -1,0 +1,183 @@
+{
+  "configuration": {
+    "request": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/VID-RECHECK.json",
+    "sourceSha256Before": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+    "sourceSha256After": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+    "expected": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+    "round1InputSha256": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+    "initialExpected": "7216eaef9c5b32b3f74a1239ebfd66d684a80da503b32ba32a5374327216750e",
+    "round1FilesBefore": {
+      "initial.md": "7216eaef9c5b32b3f74a1239ebfd66d684a80da503b32ba32a5374327216750e",
+      "assessment.json": "81e7ad4b89202f1b9d751f844821147f34c92383c685049e57751607a35f44be",
+      "assessment.md": "7577f65d8a1865cd909e9e999cd8b16f7e99c43a690da7e13607b782cfd593ce",
+      "source-access.json": "c6cb45d4198cb072f864ee8100e6d5550a5d154474691ace9b7a4fbdbfd43b87"
+    },
+    "round1FilesAfter": {
+      "initial.md": "7216eaef9c5b32b3f74a1239ebfd66d684a80da503b32ba32a5374327216750e",
+      "assessment.json": "81e7ad4b89202f1b9d751f844821147f34c92383c685049e57751607a35f44be",
+      "assessment.md": "7577f65d8a1865cd909e9e999cd8b16f7e99c43a690da7e13607b782cfd593ce",
+      "source-access.json": "c6cb45d4198cb072f864ee8100e6d5550a5d154474691ace9b7a4fbdbfd43b87"
+    },
+    "checks": {
+      "currentMatchesRequest": true,
+      "initialMatchesRequest": true,
+      "FPFUnchanged": true,
+      "frozenMatchesRound1": true,
+      "actualDiffExactlyRepairs": true,
+      "fullOriginalInverse": true,
+      "sourceMapAfterHash": true,
+      "round1StillUnchanged": true,
+      "inputStillUnchanged": true,
+      "completeMatrix": true
+    },
+    "FPFHash": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+    "newColdRecovery": false,
+    "publication": false
+  },
+  "files": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/VID-RECHECK.json",
+      "sha256": "7842101bd4d2879907376e9dff459055a621e7ce38e0815a05ea05711ff9b344",
+      "sections": "full request",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/VID/0.4.0/VID.md",
+      "sha256": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+      "sections": "complete exact current for diff/correspondence; all changed spans/surrounding front/header fresh; unchanged sections prior whole expert reading qualified",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/frameworks/dpf/VID/0.4.0/VID.md",
+      "sha256": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+      "sections": "complete exact frozen input/diff",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/VID/round-1/assessment.json",
+      "sha256": "81e7ad4b89202f1b9d751f844821147f34c92383c685049e57751607a35f44be",
+      "sections": "full matrix for qualified reuse; each row exactPriorClaim/currentHash recorded",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/VID/round-1/source-access.json",
+      "sha256": "c6cb45d4198cb072f864ee8100e6d5550a5d154474691ace9b7a4fbdbfd43b87",
+      "sections": "prior source scope/hashes; qualified bounded reuse",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/VID/round-1/initial.md",
+      "sha256": "7216eaef9c5b32b3f74a1239ebfd66d684a80da503b32ba32a5374327216750e",
+      "sections": "preservation hash; original actual response not replaced",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/VID/round-1/assessment.md",
+      "sha256": "7577f65d8a1865cd909e9e999cd8b16f7e99c43a690da7e13607b782cfd593ce",
+      "sections": "preservation hash",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/REPAIRS.json",
+      "sha256": "ebc93b5b99d4699ae8e576ce4890cb93b1038982fa07130579a6055f360ff36d",
+      "sections": "VID3 repair groups/current hashes; unrelated records visible but not evaluated",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/INTEGRATION_FINDINGS.json",
+      "sha256": "1ccb5c8ba0d7bc3b21b83211449e90b8a809f14f386898229c9714070b75c5d1",
+      "sections": "VID-relevant I01/I03 and possible common source-map I02/I04 impact",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/README.md",
+      "sha256": "988c7d238611b25105792badf950c974c029c73d5854ef803ea9266e63eff124",
+      "sections": "full current/diff",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/VERIFICATION.md",
+      "sha256": "7fc69661c0c59ac131a4e7c0380da46979cd2aed029c3378895c850f6654b523",
+      "sections": "full current/diff",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/PROVENANCE.md",
+      "sha256": "3aceae427589c3d719995979d9515e1b7cdb7dcf7baaec0a4e9041951135f66e",
+      "sections": "unchanged diff; fresh opening1–24/history scope; prior reading reused",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/NOTICE.md",
+      "sha256": "5472a4515cb4e13ff43d2d8eaba3f9ef69813455ccaaa151c25ecb5dab90e536",
+      "sections": "VID relevant current/historical/distribution changes",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/catalog/dpf/SOURCE_LINKS.md",
+      "sha256": "151a6a34b4871ee17d8097d6421181b92db77329b7e45b1a37eae8fddaa983d6",
+      "sections": "whole diff independent-entry wording",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/README.md",
+      "sha256": "bc8b9225faa1eb2fa5a0bd743e3fabe4d6e26311fd2255de8a44f52a2e1011b3",
+      "sections": "version/update current-local vs historical release from diff",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/REPERTOIRE.yaml",
+      "sha256": "cdb3629f190ad46c4e2111b7dab932598f14ceed790056bf2e8db9acae16adb3",
+      "sections": "exact full VID record",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/SOURCES.json",
+      "sha256": "774b9d2ddda089caea51943a6943d1716594f403b46162820d0c367bf772aa39",
+      "sections": "root keys + exact complete VID current transformation and full inverse",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/predecessors/VID/VID.md",
+      "sha256": "2c99f8318335b7fcfebb04f6d488cecbb2e70c279e068779225220cf84e4a6c4",
+      "sections": "complete exact original inventory/inverse; semantic correspondence via prior full check",
+      "mode": "fresh direct reading/comparison"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+      "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+      "sections": "hash same as round1; fresh E8H10 95223–95249, E11.PFP4.1/4.2 102543–102584 and102558–102573; PFM1/7/12 93580–93605; sufficient original round1 E21/DA/PFIP/F19/comparator body readings reused",
+      "mode": "fresh limited refresh + qualified canonical reading reuse"
+    }
+  ],
+  "sourceReuse": {
+    "primarySourcePayloads": "No new web visits. Round1 limited primary/qualified prior source-reading payloads reused only where exact :11/other sections and receiving claims/conditions unchanged. No source actuality/grade expansion.",
+    "gradeReuse": "Seven affected coordinates per11 fresh(77). Remaining132 qualified claim-scoped reuse; prior full rationale retained with exact correspondence, not silently inherited. DA/PFM/D12 current projection complete.",
+    "readingCoverage": "full prior expert reading + current complete exact diff/unchanged sections checks + fresh changed wording/surrounding units. Same familiar reviewer."
+  },
+  "errorsAndLimits": [
+    {
+      "item": "first inline result assembly stopped on an AssertionError",
+      "effect": "no result files were saved in that attempt, only round2 directory existed; inputs/results subsequently re-read, explicit precondition/result checks all true. No source effect/retry of external operation."
+    },
+    {
+      "item": "large source/provenance rule output partially truncated",
+      "effect": "no new full-original reading claimed; sufficient prior canonical reading reused, H10/PFP selected status rule reread in separate short output."
+    },
+    {
+      "item": "initial generic repertoire search hit an unrelated VID mention",
+      "effect": "not used for judgement; exact VID record read afterward."
+    },
+    {
+      "item": "pending companion use_status",
+      "effect": "receiver has not yet applied this returned current report; pending integration not confused with publication/admission."
+    }
+  ],
+  "boundary": {
+    "writes": "only three round2 result files; no outside helper created",
+    "sourceEdits": false,
+    "otherAgents": false,
+    "filesystemIsolation": "unsupported; task/sequence/report compensated",
+    "reader": "same familiar AI evaluator; not human or statistical independence"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "baseline_commit": "7ffd17c",
+  "baseline_sha256": "ec0e16353471599aeca912fd4ca1c52715955691c93797ba727f7cf67d691bf2",
+  "current_sha256": "7de6e5610c5e43e5a7cd125afc76ea40231fde91e9604885bb3e4b221230f09d",
+  "changed_sections": [
+    {
+      "section": "VID.1:4",
+      "change": "paragraph_reorder_only"
+    },
+    {
+      "section": "VID.9:4",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.9:5",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.9:7",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.9:11",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.4:4",
+      "change": "paragraph_reorder_only"
+    },
+    {
+      "section": "VID.4:11",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.10:4",
+      "change": "paragraph_reorder_only"
+    },
+    {
+      "section": "VID.5:4",
+      "change": "paragraph_reorder_only"
+    },
+    {
+      "section": "VID.5:11",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.6:4",
+      "change": "paragraph_reorder_only"
+    },
+    {
+      "section": "VID.6:5",
+      "change": "substantive_local_change"
+    },
+    {
+      "section": "VID.6:11",
+      "change": "substantive_local_change"
+    }
+  ],
+  "whole_unchanged_patterns": [
+    "VID.2",
+    "VID.7",
+    "VID.3",
+    "VID.8",
+    "VID.11"
+  ],
+  "fresh_coordinate_pairs": [
+    {
+      "pattern": "VID.1",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.1",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.1",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.10",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.10",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.10",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "EntityOfConcernPrimacyAndSemioBiasResistance"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "ClaimJustificationTraceabilityCurrentnessAndReplayability"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "EntityOfConcernPrimacyAndSemioBiasResistance"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "ClaimJustificationTraceabilityCurrentnessAndReplayability"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "SemanticKindAndNameRecoverability"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "ClaimJustificationTraceabilityCurrentnessAndReplayability"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "SoTABindingAndCurrentness"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "WorkingSituationAndUseBoundaryRecognizability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "EntityOfConcernAndClaimScopeStability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "PatternApplicationGuidance"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "ClosureAndBoundedNonUseRecoverability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "SemanticKindAndNameRecoverability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "NeighborAuthorityAndBoundedUseFit"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "EntityOfConcernPrimacyAndSemioBiasResistance"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "PracticalUseDeltaAndHarmPrevention"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "UseAffordabilityAndApparatusProportionality"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "RepairLocalityAndChangeImpactPredictability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "ProxyForValueSubstitutionResistance"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "ClaimJustificationTraceabilityCurrentnessAndReplayability"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "CaseCountercaseAndTransferCoverage"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "MaturePatternParityAndSelectedContentSufficiency"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "SoTABindingAndCurrentness"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "FormalClaimAdmissibilityAndLensFit"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "FalsifiabilityAndLoweringCondition"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "EvolutionFrontAndRefreshDiscipline"
+    },
+    {
+      "pattern": "VID.1",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.2",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.7",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.3",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.8",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.9",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.4",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.10",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.5",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.11",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    },
+    {
+      "pattern": "VID.6",
+      "coordinate": "CorpusEntryProjectionAndEcologyFit"
+    }
+  ],
+  "reuse_rule": "Current row refers to exact initial same PatternID and Coordinate rationale, only when initial=4 and semantic correspondence/current source/use remains verified."
+}

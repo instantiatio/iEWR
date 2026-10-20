@@ -1,0 +1,16 @@
+{
+  "parser": "marked",
+  "scope": "project/artifacts/dpf-layout-2026-10-20/stage/frameworks/dpf/VID/0.3.1/VID.md",
+  "blockCounts": {
+    "heading": 182,
+    "paragraph": 259,
+    "space": 273,
+    "table": 4,
+    "list": 4,
+    "blockquote": 11
+  },
+  "renderedHeadingCount": 182,
+  "sourceHeadingCount": 182,
+  "tables": 4,
+  "rawHtmlTokens": 0
+}

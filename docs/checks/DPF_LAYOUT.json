@@ -1,0 +1,162 @@
+{
+  "result": "Storage/source-preservation/navigation checks passed; separate complete VID assessment and repair recheck completed within declared scope",
+  "structure": {
+    "result": "Structural/source-preservation checks passed; semantic qualification is recorded separately.",
+    "method_counts": {
+      "SYSE": 53,
+      "ME": 25,
+      "OCE": 17,
+      "PSDA": 18,
+      "OPS": 22,
+      "ISDLC": 18,
+      "EXD": 6,
+      "ADM": 15,
+      "RMP": 11,
+      "SIE": 12,
+      "STR": 17,
+      "CHK": 6,
+      "KCAE": 11,
+      "WEP": 12,
+      "VID": 11,
+      "DDB": 6,
+      "SVV": 6
+    },
+    "unique_method_count": 266,
+    "physical_selected_DPF": 17,
+    "one_edition_per_code": true,
+    "source_body_content_preserved_other_16_DPF": true,
+    "VID_11_method_comparisons": [
+      {
+        "PatternID": "VID.1",
+        "prior_body_sha256": "b0b57aef32dbc6e10a7241ccef34628cb51d56eb4ec05390e1de60d4d8aade7d",
+        "current_body_sha256": "b0b57aef32dbc6e10a7241ccef34628cb51d56eb4ec05390e1de60d4d8aade7d",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.2",
+        "prior_body_sha256": "3fa16f57f4d9526c7470df20be63ccc05353a4331390dbf6acf23d6cce70f3b4",
+        "current_body_sha256": "3fa16f57f4d9526c7470df20be63ccc05353a4331390dbf6acf23d6cce70f3b4",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.3",
+        "prior_body_sha256": "60963753a5742e1f894d6475f585b07c4ff2b52b33f79f7f39cdf20413692b93",
+        "current_body_sha256": "60963753a5742e1f894d6475f585b07c4ff2b52b33f79f7f39cdf20413692b93",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.4",
+        "prior_body_sha256": "d41f665678083cf8f1633857f638e36c4b0361a6b3edfacb7626d1e275dc2b28",
+        "current_body_sha256": "931d862ff4680b1c6c987306e9f3a9382de8e70da35c65096dda0b4254459a6b",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.5",
+        "prior_body_sha256": "c2441921ce36a3ab5bbdfd107378744bfbca2225c133221d49d39a3d7dfc6bda",
+        "current_body_sha256": "c2441921ce36a3ab5bbdfd107378744bfbca2225c133221d49d39a3d7dfc6bda",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.6",
+        "prior_body_sha256": "646a27100d17ae4a23cff6063a9b0ff0c329f0130ce94ac22b86215f250e5b93",
+        "current_body_sha256": "72a4804fe36636917edd7954a20d330044adb87e1a11ff073f790c9875bfd5d5",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": true
+      },
+      {
+        "PatternID": "VID.7",
+        "prior_body_sha256": "ff69fd5e1f1c0e7704dce2714ca91fc27f8c9cfa1c42c9afe94731a64ce13644",
+        "current_body_sha256": "ff69fd5e1f1c0e7704dce2714ca91fc27f8c9cfa1c42c9afe94731a64ce13644",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.8",
+        "prior_body_sha256": "5597152425bba8f9da93c0fa0e72a485ccecfa622a899a8fa08102d94eabe492",
+        "current_body_sha256": "5597152425bba8f9da93c0fa0e72a485ccecfa622a899a8fa08102d94eabe492",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.9",
+        "prior_body_sha256": "7ee7301b9854eba480dc21ea8acb0cbd5e987cb3ff21676ebf1d54b8ca4646bb",
+        "current_body_sha256": "7ee7301b9854eba480dc21ea8acb0cbd5e987cb3ff21676ebf1d54b8ca4646bb",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.10",
+        "prior_body_sha256": "7dda51241c296457e101a300d1ca7a8a858d995a9974dc1a8bd97c9aae620794",
+        "current_body_sha256": "7dda51241c296457e101a300d1ca7a8a858d995a9974dc1a8bd97c9aae620794",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      },
+      {
+        "PatternID": "VID.11",
+        "prior_body_sha256": "adb1b854c7e56eda61f70502a4456614eb9e3a8273014b2b58ba242f0e1e35f1",
+        "current_body_sha256": "adb1b854c7e56eda61f70502a4456614eb9e3a8273014b2b58ba242f0e1e35f1",
+        "only_links_Reference_key_and_declared_F01_repair": true,
+        "source_attribution_repaired": false
+      }
+    ],
+    "VID_exact_prior_assessment_source_sha256": "7de6e5610c5e43e5a7cd125afc76ea40231fde91e9604885bb3e4b221230f09d",
+    "source_transforms": 116,
+    "Core_formation_entry_licenses_unchanged": true,
+    "no_legacy_DPF_storage_trees": true,
+    "catalog_entries_and_17_source_hashes_verified": true
+  },
+  "navigation": {
+    "parser": "marked",
+    "documents": 80,
+    "relative_links_checked": 1956,
+    "changed_document_failures": [],
+    "inherited_source_failures": []
+  },
+  "UI_probe": {
+    "kind": "Bounded author-created DOM interaction probe; not independent reader evidence",
+    "browser": "155.0.8059.85",
+    "methods": [
+      "ISDLC.5/.6/.7/.11",
+      "VID.10/.6"
+    ],
+    "fixture_sha256": "9dd0eada8e837722f2215a7c2b8e7746d74b0367a17251393ebf7f287094561e",
+    "observations": [
+      {
+        "width": 320,
+        "committed_effects": 1,
+        "unknown_after_truncated_confirmation": true,
+        "input_retained_after_reload": true,
+        "reconcile_confirmed_without_second_effect": true,
+        "no_horizontal_overflow": true
+      },
+      {
+        "width": 1280,
+        "committed_effects": 1,
+        "unknown_after_truncated_confirmation": true,
+        "input_retained_after_reload": true,
+        "reconcile_confirmed_without_second_effect": true,
+        "no_horizontal_overflow": true
+      }
+    ],
+    "negative_counterexample": {
+      "defect": "Treat transport200 with unusable body as application success",
+      "detected_by_same_status_criterion": true
+    },
+    "limits": [
+      "Synthetic facts in same-origin localStorage; no real remote server, HTTP failure injection, database durability or machine failure.",
+      "No human perception, aesthetic acceptance, complete WCAG or general visual regression claim.",
+      "The probe supports the retained handoff only; it does not assign E21 coordinate values."
+    ]
+  },
+  "VID_edition": "0.3.1",
+  "VID_sha256": "2c99f8318335b7fcfebb04f6d488cecbb2e70c279e068779225220cf84e4a6c4",
+  "VID_admission": "admissibleForDeclaredUse",
+  "review": "docs/dpf/VID/0.3.1/VERIFICATION.md",
+  "publication": "not requested; not performed",
+  "history": "project/artifacts/dpf-layout-2026-10-20/history; published6.0.3 unchanged"
+}

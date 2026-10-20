@@ -1,0 +1,394 @@
+{
+  "round": "SVV final dependent round3",
+  "source": {
+    "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/SVV/0.2.0/SVV.md",
+    "sha256Before": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+    "sha256After": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+    "matchesRECHECK": true
+  },
+  "ownSupport": {
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/SVV/0.2.0/SVV.md": {
+      "before": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+      "after": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+      "unchanged": true
+    },
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/PROVENANCE.md": {
+      "before": "c154f8836d7a9f53fd70a40a6486b3cadab970b257756e120d06e6afa2fe12a8",
+      "after": "c154f8836d7a9f53fd70a40a6486b3cadab970b257756e120d06e6afa2fe12a8",
+      "unchanged": true
+    },
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/README.md": {
+      "before": "05ea58d86729239a8a35057f039a683e9e20e377349797f8d17439ac227c59de",
+      "after": "05ea58d86729239a8a35057f039a683e9e20e377349797f8d17439ac227c59de",
+      "unchanged": true
+    },
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/VERIFICATION.md": {
+      "before": "8210714fc45d35d77ab12d8ccc8412287fb7a3a31327c3a7c6172c514ddd7ce5",
+      "after": "8210714fc45d35d77ab12d8ccc8412287fb7a3a31327c3a7c6172c514ddd7ce5",
+      "unchanged": true
+    },
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/initial.md": {
+      "before": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+      "after": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+      "unchanged": true
+    },
+    "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/VERIFICATION.md": {
+      "before": "4c481b76246df03e458987c9046a807715d2c277632a45b21bd6a4305ef61c49",
+      "after": "4c481b76246df03e458987c9046a807715d2c277632a45b21bd6a4305ef61c49",
+      "unchanged": true
+    }
+  },
+  "initial": {
+    "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/initial.md",
+    "sha256": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+    "unchanged": true,
+    "newColdResponse": false
+  },
+  "records": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/SVV-RECHECK-3.json",
+      "sha256": "e5377eb3f86f0d73ce966a52ee25012a146690aeaf6615bc3a416f942322a452",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full current request, own support hashes and write-target discrepancy"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/SVV-SUPPORT-REPAIR.json",
+      "sha256": "5b3e04ddad015b0a1327d1a0587a2a00d8ad6e0411daebbd02f57a66e553584e",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full exact accepted before/after and scope"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/SVV/0.2.0/SVV.md",
+      "sha256": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "fresh source hash, all6 full-body exact comparison and direct source-use occurrences; unchanged whole text/entry/reference judgement qualified from prior"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/PROVENANCE.md",
+      "sha256": "c154f8836d7a9f53fd70a40a6486b3cadab970b257756e120d06e6afa2fe12a8",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full own support, receiver paragraph/date/captures/paths/limits/attribution"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/README.md",
+      "sha256": "05ea58d86729239a8a35057f039a683e9e20e377349797f8d17439ac227c59de",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full current result promise and constraints"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/VERIFICATION.md",
+      "sha256": "8210714fc45d35d77ab12d8ccc8412287fb7a3a31327c3a7c6172c514ddd7ce5",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full actual target/results/pending/limits/local links"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/VERIFICATION.md",
+      "sha256": "4c481b76246df03e458987c9046a807715d2c277632a45b21bd6a4305ef61c49",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "global actual pending SVV relation; unrelated DPF status not independently assessed"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/assessment.json",
+      "sha256": "5dc3ee48843bef8d7168e956168bf43533baf53eb68b035a1608838f8ce667af",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "full prior complete114/DA/PFM/D12/F19/PFIP content qualified against current text/conditions"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/assessment.json",
+      "sha256": "7d3af30e9717864fd3ecdcf7316c6e708d8295beac5a7b1f1e152c328f071e0a",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "original complete basis and current original FPF/source hash qualification"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/source-access.json",
+      "sha256": "0b5fc19e1e5077114ffc056813387cc6441f549cf1f0b77562d4ede64eeac760",
+      "mode": "fresh byte identity and qualified prior actual-access basis reuse",
+      "coverage": "retained exact previous reading conditions, support pins and primary-source provenance"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/docs/dpf/SVV/0.2.0/VERIFICATION.md",
+      "sha256": "dc3ae09985efe6c683705c374de84c6e4b440f6f726cad0b45b85b8573407759",
+      "mode": "fresh content/identity inspection or parsed comparison",
+      "coverage": "complete prior support source reconstructed/checkable from exact old bytes"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/initial.md",
+      "sha256": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+      "mode": "fresh byte hash; original reading response qualified reuse",
+      "coverage": "No rewrite/no new response; matches both request and copied own Reviews initial."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+      "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+      "mode": "fresh byte hash; normative content reading qualified reuse",
+      "coverage": "Exact07b2f...; original selected E4/PFAD/DA/PFIP,E8,E11PFP,E19,E21,E22.4.3,F19 and A3.1 mature comparator read in round1; no full FPF reading/new authoring."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N03.pdf",
+      "sha256": "3b072f81db5c7671aadacc42553e726faa93913a969cc7a89e9dc28c2318d1f1",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N04.html",
+      "sha256": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N05.html",
+      "sha256": "23395653f04984e4310b287ed548202d874e06ecd2cba17f32b2714e5b7ebef7",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S10.html",
+      "sha256": "0637b70bbb8235a8a3dfe86041e206bd91db35b4b8a4c34cb938f4d8fd6bf5c3",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S11.html",
+      "sha256": "2bb41561075b9dab5462356b04eb4a017faede5a750ce91df2704297b747e828",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S12.html",
+      "sha256": "3e1bb2481af3ddbf74a1af8d1e9c03e44a1e204925d5a84fd4038430894b1152",
+      "mode": "fresh complete capture-byte identity; primary-content reading qualified reuse",
+      "coverage": "Same capture payload/claims as round1; fresh corrected current receiver mapping checks; no new live website verification."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/assessment.json",
+      "sha256": "7d3af30e9717864fd3ecdcf7316c6e708d8295beac5a7b1f1e152c328f071e0a",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/assessment.md",
+      "sha256": "92fea7ace90d9c7724fb9282ed56e9f9a2f2efb13da9818555897a83d3de206e",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/source-access.json",
+      "sha256": "3f47032a103152366ad6d492fc72c479f63a3480b4548e9353f1e82cb5f22db8",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/initial.md",
+      "sha256": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/assessment.json",
+      "sha256": "5dc3ee48843bef8d7168e956168bf43533baf53eb68b035a1608838f8ce667af",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/assessment.md",
+      "sha256": "afc35cc30104f685793e98ef8dd8727a4bf47d517e521a195df4176643d00e20",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/source-access.json",
+      "sha256": "0b5fc19e1e5077114ffc056813387cc6441f549cf1f0b77562d4ede64eeac760",
+      "mode": "fresh byte equality and linked prior-record content",
+      "coverage": "Exact prior negative/current limits and initial records copied; no inferred new grade from copy existence."
+    }
+  ],
+  "qualifiedReuse": {
+    "priorCompleteResult": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/assessment.json",
+    "priorCompleteResultSHA256": "5dc3ee48843bef8d7168e956168bf43533baf53eb68b035a1608838f8ce667af",
+    "originalWholeResult": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/assessment.json",
+    "bodyCorrespondence": [
+      {
+        "method": "SVV.1",
+        "fullBodySHA256": "3ac9560b080a154b0c3019961748a65bbd5036714e40d25b88a04e5b4ef46d85",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "3ac9560b080a154b0c3019961748a65bbd5036714e40d25b88a04e5b4ef46d85",
+        "freshEqualityCheck": true
+      },
+      {
+        "method": "SVV.2",
+        "fullBodySHA256": "8d10d6199384e3e6f59cd66453cff5bdaddd0b464b3321596061c9417641c00f",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "8d10d6199384e3e6f59cd66453cff5bdaddd0b464b3321596061c9417641c00f",
+        "freshEqualityCheck": true
+      },
+      {
+        "method": "SVV.3",
+        "fullBodySHA256": "33d97e01741d0e4afbe0b214f5f9094fa306ff795b33ddd7576d86de3557da6d",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "33d97e01741d0e4afbe0b214f5f9094fa306ff795b33ddd7576d86de3557da6d",
+        "freshEqualityCheck": true
+      },
+      {
+        "method": "SVV.4",
+        "fullBodySHA256": "d864c995d6252adc729dee4e45a63e8b6562d93d1753cb28ecd655b208802b04",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "d864c995d6252adc729dee4e45a63e8b6562d93d1753cb28ecd655b208802b04",
+        "freshEqualityCheck": true
+      },
+      {
+        "method": "SVV.5",
+        "fullBodySHA256": "093479c5263d9a116c6cfb39422f1991c8203a13c7d8da338cd411f02ef39bcd",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "093479c5263d9a116c6cfb39422f1991c8203a13c7d8da338cd411f02ef39bcd",
+        "freshEqualityCheck": true
+      },
+      {
+        "method": "SVV.6",
+        "fullBodySHA256": "c2bb9f5d1c3f665c71b382f98bff5ac94dbf6713fe0066854dd8e2ce25c48f33",
+        "oldBodyEqualsCurrent": true,
+        "scopeReaderUseCaseCriteriaUnchanged": true,
+        "correspondence": "Every section1–12 and End byte-identical, including source citations, applicability, good/bad case, stop/reopen and internal relations; front declaration and source-tail route outside bodies changed.",
+        "currentSHA256": "c2bb9f5d1c3f665c71b382f98bff5ac94dbf6713fe0066854dd8e2ce25c48f33",
+        "freshEqualityCheck": true
+      }
+    ],
+    "sourceConditions": "Same primary captures/FPF exact bytes, same ordinary field/reader/input cases and semantic comparators; current used-locus/result relations separately fresh assessed.",
+    "perCoordinate": "All114 current rows carry own mode/correspondence/rationale; affected traceability and corpus rows newly judged, all other judgments retained only after exact content/premise comparison.",
+    "initialBoundary": "Original initial immutable; no new cold response or better independence inferred."
+  },
+  "captureChecks": [
+    {
+      "ID": "N03",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N03.pdf",
+      "sha256": "3b072f81db5c7671aadacc42553e726faa93913a969cc7a89e9dc28c2318d1f1",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    },
+    {
+      "ID": "N04",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N04.html",
+      "sha256": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    },
+    {
+      "ID": "N05",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N05.html",
+      "sha256": "23395653f04984e4310b287ed548202d874e06ecd2cba17f32b2714e5b7ebef7",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    },
+    {
+      "ID": "S10",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S10.html",
+      "sha256": "0637b70bbb8235a8a3dfe86041e206bd91db35b4b8a4c34cb938f4d8fd6bf5c3",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    },
+    {
+      "ID": "S11",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S11.html",
+      "sha256": "2bb41561075b9dab5462356b04eb4a017faede5a750ce91df2704297b747e828",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    },
+    {
+      "ID": "S12",
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S12.html",
+      "sha256": "3e1bb2481af3ddbf74a1af8d1e9c03e44a1e204925d5a84fd4038430894b1152",
+      "freshByteMatch": true,
+      "date": "19.10.2026",
+      "readingBasis": "Содержательное чтение оригинальных captures/выдержек в round1 квалифицированно переиспользовано: bytes и получающие assertions не менялись. Свежая проверка данного round — identity/доступ и receiving-use соответствие."
+    }
+  ],
+  "copiedRecordChecks": [
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/assessment.json",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/assessment.json",
+      "sha256": "7d3af30e9717864fd3ecdcf7316c6e708d8295beac5a7b1f1e152c328f071e0a",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/assessment.md",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/assessment.md",
+      "sha256": "92fea7ace90d9c7724fb9282ed56e9f9a2f2efb13da9818555897a83d3de206e",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/source-access.json",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/source-access.json",
+      "sha256": "3f47032a103152366ad6d492fc72c479f63a3480b4548e9353f1e82cb5f22db8",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-1/initial.md",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-1/initial.md",
+      "sha256": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/assessment.json",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/assessment.json",
+      "sha256": "5dc3ee48843bef8d7168e956168bf43533baf53eb68b035a1608838f8ce667af",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/assessment.md",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/assessment.md",
+      "sha256": "afc35cc30104f685793e98ef8dd8727a4bf47d517e521a195df4176643d00e20",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    },
+    {
+      "source": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/SVV/round-2/source-access.json",
+      "copy": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/Reviews/round-2/source-access.json",
+      "sha256": "0b5fc19e1e5077114ffc056813387cc6441f549cf1f0b77562d4ede64eeac760",
+      "byteEqual": true,
+      "meaning": "Прежний собственный предмет/отрицательный вывод сохранён, не допуск текущего ремонта."
+    }
+  ],
+  "renderAndLinkBasis": "Bundled marked GFM current source/PROVENANCE/README/VERIFICATION rendered in memory; actual local targets and source/record meanings inspected. Structured rendering/link evidence in assessment.json; no installation or new source carrier write.",
+  "errors": [],
+  "scopeLimits": [
+    "Whole-publication wording judgement is expert reading plus original limited AI actual response, not new cold or human validation.",
+    "No live website currentness, backend correctness, production/crash/distributed reliability, performance, efficiency or human effect inferred.",
+    "No arbitrary-writer isolation or statistical independence claim; before/after exact-source checks compensate within shared workspace.",
+    "Result is locally admissible ordinary guidance for fixed scope; admission/installation/publication and projection of this final result are separate root/Human actions."
+  ],
+  "isolation": {
+    "declared": "Only own round3 result writes; frozen source/support/prior reports read-only",
+    "enforced": "Workspace sandbox, not review-directory read isolation",
+    "compensated": "Explicit actual-access reporting, source/support/initial hashes before/after, exact body/capture/copy checks",
+    "unsupported": "No statistical independence or exclusive control over arbitrary writer claimed"
+  },
+  "actualWrites": [
+    "assessment.json",
+    "assessment.md",
+    "source-access.json"
+  ],
+  "publication": false,
+  "installation": false,
+  "otherAgents": false,
+  "sourceEdits": false,
+  "requestInterpretation": "RECHECK-3 retains stale allowed_writes round-2 wording; direct parent explicitly assigns round-3 and round2_dir itself points round-3. Write authority taken from that explicit current instruction; only round3 files written."
+}

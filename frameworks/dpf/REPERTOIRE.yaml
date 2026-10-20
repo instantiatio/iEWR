@@ -10,29 +10,29 @@
       ],
       "edition_id": "2026-10-15-rev-b40c9df9",
       "scope": "package",
-      "source_locus": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/SYSE/2026-10-15-rev-b40c9df9/SYSE.md",
       "normative_loci": [
-        "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/SYSE/2026-10-15-rev-b40c9df9/SYSE.md"
       ],
       "declared_status": {
         "value": "Pinned author publication with editorial Library naming changes only; original author date preserved in source. No new whole-publication conformance claim.",
-        "locus": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/SYSE/2026-10-15-rev-b40c9df9/SYSE.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/SYSE/2026-10-15-rev-b40c9df9/SYSE.md"
       },
       "files": [
         {
-          "path": "SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235"
+          "path": "SYSE.md",
+          "sha256": "d88b2bda2346a3dd151ef95ca7e517b335dbbe7faf8caf12260c9229a31687a3"
         }
       ],
-      "edition_manifest_sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "d88b2bda2346a3dd151ef95ca7e517b335dbbe7faf8caf12260c9229a31687a3",
+      "registered_at": "2026-10-20T14:31:21.053371+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "SYSE",
       "distribution_basis": {
         "status": "confirmed",
@@ -40,12 +40,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235",
-      "predecessor": {
-        "edition_id": "2026-10-12-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/systems-engineering/2026-10-12-rev-7d0a7800/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "5f008a86a5e525076cd48afdf3b983a4984dbffda4aba5865edbbacfa6a39679",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/systems-engineering/2026-10-15-rev-b40c9df9/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "method-engineering",
@@ -55,35 +56,42 @@
       ],
       "edition_id": "2026-09-20-rev-9e1c4834",
       "scope": "package",
-      "source_locus": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md",
       "normative_loci": [
-        "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md"
       ],
       "declared_status": {
         "value": "Source-reported author date 2026-09-20; evolving publication; independent qualification not established by registration.",
-        "locus": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index.",
-        "locus": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md"
       },
       "files": [
         {
-          "path": "METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6"
+          "path": "ME.md",
+          "sha256": "a64b6fb1c697088ceb9683cf730f61986ed28ae54dbb6f982a495ec87593111c"
         }
       ],
-      "edition_manifest_sha256": "15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6",
-      "registered_at": "2026-10-04T15:16:56.004224+00:00",
-      "registration_basis": "Direct Human instruction: «Ок, давай делать», after agreement to refresh 12 author DPF and add KCAE; local candidate implementation, no publication grant.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "a64b6fb1c697088ceb9683cf730f61986ed28ae54dbb6f982a495ec87593111c",
+      "registered_at": "2026-10-20T14:31:21.055955+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "ME",
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; raw bytes unchanged, attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/method-engineering/2026-09-20-rev-9e1c4834/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "organization-change-engineering",
@@ -93,29 +101,29 @@
       ],
       "edition_id": "2026-10-15-rev-b40c9df9",
       "scope": "package",
-      "source_locus": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md",
       "normative_loci": [
-        "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md"
       ],
       "declared_status": {
         "value": "Pinned author publication with editorial Library naming changes only; original author date preserved in source. No new whole-publication conformance claim.",
-        "locus": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md"
       },
       "files": [
         {
-          "path": "ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "fe38dc07204ccac79b8bd8d22e299c8a360e1b634830b68e3725088c5db13235"
+          "path": "OCE.md",
+          "sha256": "5761b872000c51d796dc1c1bb88ddc034fd50c55dbd13edaaf20dee44a1ea6cf"
         }
       ],
-      "edition_manifest_sha256": "fe38dc07204ccac79b8bd8d22e299c8a360e1b634830b68e3725088c5db13235",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "5761b872000c51d796dc1c1bb88ddc034fd50c55dbd13edaaf20dee44a1ea6cf",
+      "registered_at": "2026-10-20T14:31:21.056239+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "OCE",
       "distribution_basis": {
         "status": "confirmed",
@@ -123,12 +131,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "fe38dc07204ccac79b8bd8d22e299c8a360e1b634830b68e3725088c5db13235",
-      "predecessor": {
-        "edition_id": "2026-10-12-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/organization-change-engineering/2026-10-12-rev-7d0a7800/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "4329abf5bb5c4deab425218ecaa051f46663bfd914718275c6d37d019bab80e9",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "fe38dc07204ccac79b8bd8d22e299c8a360e1b634830b68e3725088c5db13235",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/organization-change-engineering/2026-10-15-rev-b40c9df9/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "problem-structuring-decision-support",
@@ -139,35 +148,42 @@
       ],
       "edition_id": "2026-10-12-rev-7d0a7800",
       "scope": "package",
-      "source_locus": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md",
       "normative_loci": [
-        "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md"
       ],
       "declared_status": {
         "value": "Source-reported author date 2026-10-12; working/Eternal alpha publication with author-reported pattern statuses. Local source refresh candidate; no independent whole-publication conformance claim.",
-        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md"
       },
       "files": [
         {
-          "path": "DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "dd3db5f227c3fa913f2253c55b8145de68f164e1c60e8bb89ff2f44027ccac08"
+          "path": "PSDA.md",
+          "sha256": "316c1097e11a28df8a94855212b42ea0f971995fe12f78ea2221f71a6d02c106"
         }
       ],
-      "edition_manifest_sha256": "dd3db5f227c3fa913f2253c55b8145de68f164e1c60e8bb89ff2f44027ccac08",
-      "registered_at": "2026-10-14T14:43:45.334839+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-14: «Давай обновим состав, но расширять не будем.» Refresh the reviewed ten upstream publications; retain ME/CHK/DOCA and ISDLC; no new slots, FPF connection or publication grant.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "316c1097e11a28df8a94855212b42ea0f971995fe12f78ea2221f71a6d02c106",
+      "registered_at": "2026-10-20T14:31:21.056545+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "PSD",
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "dd3db5f227c3fa913f2253c55b8145de68f164e1c60e8bb89ff2f44027ccac08",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/problem-structuring-decision-support/2026-10-12-rev-7d0a7800/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "operations-management",
@@ -177,29 +193,29 @@
       ],
       "edition_id": "2026-10-15-rev-b40c9df9",
       "scope": "package",
-      "source_locus": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md",
       "normative_loci": [
-        "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md"
       ],
       "declared_status": {
         "value": "Pinned author publication with editorial Library naming changes only; original author date preserved in source. No new whole-publication conformance claim.",
-        "locus": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md"
       },
       "files": [
         {
-          "path": "OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "2b97199a8c16f77d6d46c1431829bb985a6389c164b01b245c4277952a94da91"
+          "path": "OPS.md",
+          "sha256": "17fb2e191d7935235277811d9b4d7a3d8bff6eb451f1533a0c533e0018504754"
         }
       ],
-      "edition_manifest_sha256": "2b97199a8c16f77d6d46c1431829bb985a6389c164b01b245c4277952a94da91",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "17fb2e191d7935235277811d9b4d7a3d8bff6eb451f1533a0c533e0018504754",
+      "registered_at": "2026-10-20T14:31:21.056880+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "OPS",
       "distribution_basis": {
         "status": "confirmed",
@@ -207,12 +223,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "2b97199a8c16f77d6d46c1431829bb985a6389c164b01b245c4277952a94da91",
-      "predecessor": {
-        "edition_id": "2026-10-12-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/operations-management/2026-10-12-rev-7d0a7800/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "393d6d7d7078580e651b90a3dffd6bd17defc2c05312fabe8c5d0ee097f72630",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "2b97199a8c16f77d6d46c1431829bb985a6389c164b01b245c4277952a94da91",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/operations-management/2026-10-15-rev-b40c9df9/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "instantiatio-sdlc",
@@ -220,46 +237,53 @@
       "aliases": [
         "ISDLC"
       ],
-      "edition_id": "0.4.1",
+      "edition_id": "0.5.0",
       "scope": "package",
       "selection_role": "base",
-      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/ISDLC.md",
+      "source_locus": "frameworks/dpf/ISDLC/0.5.0/ISDLC.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/ISDLC.md"
+        "frameworks/dpf/ISDLC/0.5.0/ISDLC.md"
       ],
       "declared_status": {
-        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
-        "locus": "VERIFICATION.md"
+        "value": "Five-reader independent complete first assessment plus qualified dependent recheck; current exact text/package meets ordinary prepared-reader floor 4 in declared bounds. No runtime/Human/production claim; unpublished local edition.",
+        "locus": "docs/dpf/ISDLC/0.5.0/VERIFICATION.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/ISDLC.md",
+      "publication_locator": "frameworks/dpf/ISDLC/0.5.0/ISDLC.md",
       "fpf_grounding_claim": {
-        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
-        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/ISDLC/Development-0.4.0/README.md"
+        "value": "Bounded original canonical formation route at cc2e8aa9, SHA25607b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e; exact quality status in own VERIFICATION.",
+        "locus": "docs/dpf/ISDLC/0.5.0/PROVENANCE.md"
       },
       "files": [
         {
           "path": "ISDLC.md",
-          "sha256": "1a9c52eb94f236bde01d23879a89b7c8ff67659e6cf0ea83aabc4f38bbe47fd3"
+          "sha256": "647e16e9aad2cb5a38640731bd869d52c29f110988025e5e13b26ca07b016f93"
         }
       ],
-      "edition_manifest_sha256": "1a9c52eb94f236bde01d23879a89b7c8ff67659e6cf0ea83aabc4f38bbe47fd3",
-      "registered_at": "2026-10-19T17:46:58.170647+00:00",
-      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
+      "edition_manifest_sha256": "647e16e9aad2cb5a38640731bd869d52c29f110988025e5e13b26ca07b016f93",
+      "registered_at": "2026-10-20T14:31:21.056991+00:00",
+      "registration_basis": "Human2026-10-20: five independently maintained local DPF; exact source/quality in own edition support. No publication.",
       "source_bytes_modified_by_registration": true,
-      "source_sha256": "d5219d0e5b36b787c7d82eaca3794832d6c05bbe47c75e5e44fb987439e255e1",
+      "source_sha256": "647e16e9aad2cb5a38640731bd869d52c29f110988025e5e13b26ca07b016f93",
       "distribution_basis": {
-        "status": "confirmed",
-        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
-        "locus": "BASELINE_STATUS.md"
+        "status": "local_authoring_only",
+        "statement": "Human authorized local independent revisions and five read-only independent reviewers. Publication of these exact new editions is not requested; predecessor publication grants remain historical. No new blanket license.",
+        "locus": "frameworks/dpf/NOTICE.md"
       },
-      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json",
+      "transfer_record": "docs/dpf/shared/software-2026-10-19/IEWR_6_0_3_TRANSFER.json",
       "required_slot": "SDLC",
-      "predecessor": {
-        "edition_id": "0.3.0-package-5.7.1",
-        "source_locus": "frameworks/dpf/instantiatio-sdlc/0.3.0/DPF.md",
-        "sha256": "87084e9a6d11e85bf11e3b2d38427b7e3aa9655aef24a285f23e626147be909c",
-        "purpose": "Retained historical snapshot for explicit VID 0.3.0 dependency; not the active ISDLC selection."
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/ISDLC/0.4.1/ISDLC.md",
+        "sha256": "9fd5e8d81c520d5acfd8dea1f6aafd23ea8c9cfbe3da118eeda134c1683748ef",
+        "historical_carrier": "docs/dpf/ISDLC/0.4.1/History/ISDLC.md",
+        "exact_original_archive": "project/artifacts/dpf-independence-2026-10-20/predecessors/ISDLC/ISDLC.md",
+        "distribution_basis": {
+          "status": "confirmed",
+          "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+          "locus": "BASELINE_STATUS.md"
+        }
+      },
+      "use_status": "admissibleForDeclaredDPFUse"
     },
     {
       "source_id": "explanation-design",
@@ -269,29 +293,29 @@
       ],
       "edition_id": "2026-10-17-rev-d9c3dd65",
       "scope": "package",
-      "source_locus": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/EXD/2026-10-17-rev-d9c3dd65/EXD.md",
       "normative_loci": [
-        "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/EXD/2026-10-17-rev-d9c3dd65/EXD.md"
       ],
       "declared_status": {
         "value": "Pinned author publication; EXD.2 updated 17 October 2026; displayed release date remains 20 September 2026. No independent whole-publication conformance claim.",
-        "locus": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/EXD/2026-10-17-rev-d9c3dd65/EXD.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/EXD/2026-10-17-rev-d9c3dd65/EXD.md"
       },
       "files": [
         {
-          "path": "EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "5573c21c117fa2348dddb04414a405dd15c06c60fb14017be6a4035c100e91fd"
+          "path": "EXD.md",
+          "sha256": "502e0bc8aeaff7bb66e82a88f2e5ca84f540426f25f37f30008b6fe68c8f931c"
         }
       ],
-      "edition_manifest_sha256": "5573c21c117fa2348dddb04414a405dd15c06c60fb14017be6a4035c100e91fd",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "502e0bc8aeaff7bb66e82a88f2e5ca84f540426f25f37f30008b6fe68c8f931c",
+      "registered_at": "2026-10-20T14:31:21.057057+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "EXD",
       "distribution_basis": {
         "status": "confirmed",
@@ -299,12 +323,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "5573c21c117fa2348dddb04414a405dd15c06c60fb14017be6a4035c100e91fd",
-      "predecessor": {
-        "edition_id": "2026-09-20-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/explanation-design/2026-09-20-rev-7d0a7800/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "c8ee965f58ae660461d354326702f8a8a7ffb13811d83d0ed2857b49e1bc2fdd",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "5573c21c117fa2348dddb04414a405dd15c06c60fb14017be6a4035c100e91fd",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/explanation-design/2026-10-17-rev-d9c3dd65/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "organization-administration",
@@ -314,35 +339,42 @@
       ],
       "edition_id": "2026-09-20-rev-7d0a7800",
       "scope": "package",
-      "source_locus": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/ADM/2026-09-20-rev-7d0a7800/ADM.md",
       "normative_loci": [
-        "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/ADM/2026-09-20-rev-7d0a7800/ADM.md"
       ],
       "declared_status": {
         "value": "Source-reported author date 2026-09-20; working/Eternal alpha publication with author-reported pattern statuses. Local source refresh candidate; no independent whole-publication conformance claim.",
-        "locus": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/ADM/2026-09-20-rev-7d0a7800/ADM.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/ADM/2026-09-20-rev-7d0a7800/ADM.md"
       },
       "files": [
         {
-          "path": "ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "441f633d9be8dbb4fe4e79d01fb2ef9486c7afeb1720e55d92f2cf2c5f960b07"
+          "path": "ADM.md",
+          "sha256": "9fa234afba70f84d555386597acaceffa93fff76b8da55c012a27e05ba04b2b9"
         }
       ],
-      "edition_manifest_sha256": "441f633d9be8dbb4fe4e79d01fb2ef9486c7afeb1720e55d92f2cf2c5f960b07",
-      "registered_at": "2026-10-14T14:43:45.334839+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-14: «Давай обновим состав, но расширять не будем.» Refresh the reviewed ten upstream publications; retain ME/CHK/DOCA and ISDLC; no new slots, FPF connection or publication grant.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "9fa234afba70f84d555386597acaceffa93fff76b8da55c012a27e05ba04b2b9",
+      "registered_at": "2026-10-20T14:31:21.057182+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "ADM",
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "441f633d9be8dbb4fe4e79d01fb2ef9486c7afeb1720e55d92f2cf2c5f960b07",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/organization-administration/2026-09-20-rev-7d0a7800/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "research-method-practice",
@@ -352,29 +384,29 @@
       ],
       "edition_id": "2026-10-15-rev-b40c9df9",
       "scope": "package",
-      "source_locus": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md",
       "normative_loci": [
-        "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md"
       ],
       "declared_status": {
         "value": "Pinned author publication with editorial Library naming changes only; original author date preserved in source. No new whole-publication conformance claim.",
-        "locus": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md"
       },
       "files": [
         {
-          "path": "RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2"
+          "path": "RMP.md",
+          "sha256": "901ce47bc815c8835b0adc8d82a8f9109ebec22c2ef92145e91a58260bee817d"
         }
       ],
-      "edition_manifest_sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "901ce47bc815c8835b0adc8d82a8f9109ebec22c2ef92145e91a58260bee817d",
+      "registered_at": "2026-10-20T14:31:21.057393+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "RMP",
       "distribution_basis": {
         "status": "confirmed",
@@ -382,12 +414,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2",
-      "predecessor": {
-        "edition_id": "2026-10-12-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/research-method-practice/2026-10-12-rev-7d0a7800/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "f0f2f8054a75f2e0801a13e5dca92081c9c9b0b89371c703283020b95dca1401",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/research-method-practice/2026-10-15-rev-b40c9df9/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "semantic-integration-engineering",
@@ -397,29 +430,29 @@
       ],
       "edition_id": "2026-10-15-rev-b40c9df9",
       "scope": "package",
-      "source_locus": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md",
       "normative_loci": [
-        "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md"
       ],
       "declared_status": {
         "value": "Pinned author publication with editorial Library naming changes only; original author date preserved in source. No new whole-publication conformance claim.",
-        "locus": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md"
       },
       "files": [
         {
-          "path": "SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40"
+          "path": "SIE.md",
+          "sha256": "91f5ac7fafaefd0488534bde4924723622b82b62f816d3fad729aca014dba189"
         }
       ],
-      "edition_manifest_sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "91f5ac7fafaefd0488534bde4924723622b82b62f816d3fad729aca014dba189",
+      "registered_at": "2026-10-20T14:31:21.057507+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "SIE",
       "distribution_basis": {
         "status": "confirmed",
@@ -427,12 +460,13 @@
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40",
-      "predecessor": {
-        "edition_id": "2026-09-20-rev-7d0a7800",
-        "source_locus": "frameworks/dpf/semantic-integration-engineering/2026-09-20-rev-7d0a7800/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
-        "sha256": "c468bee469aa44191917345603b42df0f6407210053e70194f1ef834fd7e0960",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
-      }
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/semantic-integration-engineering/2026-10-15-rev-b40c9df9/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "strategy",
@@ -442,35 +476,42 @@
       ],
       "edition_id": "2026-10-14-rev-7d0a7800",
       "scope": "package",
-      "source_locus": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md",
       "normative_loci": [
-        "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md"
       ],
       "declared_status": {
         "value": "Source-reported author date 2026-10-14; working/Eternal alpha publication with author-reported pattern statuses. Local source refresh candidate; no independent whole-publication conformance claim.",
-        "locus": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md"
       },
       "files": [
         {
-          "path": "STRATEGY-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "3c8c348e5d638f3728a2a110bdd0c407a0c5e5622a5b1b00b0e61f85e54be66a"
+          "path": "STR.md",
+          "sha256": "765f39a55b6de6898fb0488fcb5c2583733d86048a35ab12ccb856af759e31a4"
         }
       ],
-      "edition_manifest_sha256": "3c8c348e5d638f3728a2a110bdd0c407a0c5e5622a5b1b00b0e61f85e54be66a",
-      "registered_at": "2026-10-14T14:43:45.334839+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-14: «Давай обновим состав, но расширять не будем.» Refresh the reviewed ten upstream publications; retain ME/CHK/DOCA and ISDLC; no new slots, FPF connection or publication grant.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "765f39a55b6de6898fb0488fcb5c2583733d86048a35ab12ccb856af759e31a4",
+      "registered_at": "2026-10-20T14:31:21.057710+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "STR",
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "3c8c348e5d638f3728a2a110bdd0c407a0c5e5622a5b1b00b0e61f85e54be66a",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/strategy/2026-10-14-rev-7d0a7800/STRATEGY-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "checklist",
@@ -481,34 +522,41 @@
       "scope": "package",
       "required_slot": "CHK",
       "edition_id": "2026-09-25-rev-9e1c4834",
-      "source_locus": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/CHK/2026-09-25-rev-9e1c4834/CHK.md",
       "normative_loci": [
-        "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/CHK/2026-09-25-rev-9e1c4834/CHK.md"
       ],
       "declared_status": {
         "value": "Source-reported author date 2026-09-25; evolving publication; independent qualification not established by registration.",
-        "locus": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/CHK/2026-09-25-rev-9e1c4834/CHK.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; independent conformance not established by this index.",
-        "locus": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/CHK/2026-09-25-rev-9e1c4834/CHK.md"
       },
       "files": [
         {
-          "path": "CHECKLIST-PRINCIPLES-FRAMEWORK.md",
-          "sha256": "503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679"
+          "path": "CHK.md",
+          "sha256": "028e882dbaa8e0df6f5a5934552ed14e8f8f7cbb0f000196b3086c214bb6f140"
         }
       ],
-      "edition_manifest_sha256": "503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679",
-      "registered_at": "2026-10-04T15:16:56.018598+00:00",
-      "registration_basis": "Direct Human instruction: «Ок, давай делать», after agreement to refresh 12 author DPF and add KCAE; local candidate implementation, no publication grant.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "028e882dbaa8e0df6f5a5934552ed14e8f8f7cbb0f000196b3086c214bb6f140",
+      "registered_at": "2026-10-20T14:31:21.057798+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
+      "source_bytes_modified_by_registration": true,
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; raw bytes unchanged, attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/checklist/2026-09-25-rev-9e1c4834/CHECKLIST-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "knowledge-corpus-access-engineering",
@@ -518,35 +566,42 @@
       ],
       "edition_id": "snapshot-2026-10-14-rev-7d0a7800",
       "scope": "package",
-      "source_locus": "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "source_locus": "frameworks/dpf/KCAE/snapshot-2026-10-14-rev-7d0a7800/KCAE.md",
       "normative_loci": [
-        "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "frameworks/dpf/KCAE/snapshot-2026-10-14-rev-7d0a7800/KCAE.md"
       ],
       "declared_status": {
         "value": "Author date not established; local snapshot 2026-10-14; working/Eternal alpha publication with author-reported pattern statuses. Local source refresh candidate; no independent whole-publication conformance claim.",
-        "locus": "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/KCAE/snapshot-2026-10-14-rev-7d0a7800/KCAE.md"
       },
       "publication_locator": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Engineering%20DPF%20Suite/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
       "fpf_grounding_claim": {
         "value": "Source references FPF Core; original FPF is optional and disconnected by default. References do not activate it; independent conformance and complete transfer from predecessor sources not established by registration.",
-        "locus": "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+        "locus": "frameworks/dpf/KCAE/snapshot-2026-10-14-rev-7d0a7800/KCAE.md"
       },
       "files": [
         {
-          "path": "KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+          "path": "KCAE.md",
           "sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec"
         }
       ],
       "edition_manifest_sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec",
-      "registered_at": "2026-10-14T14:43:45.334839+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-14: «Давай обновим состав, но расширять не будем.» Refresh the reviewed ten upstream publications; retain ME/CHK/DOCA and ISDLC; no new slots, FPF connection or publication grant.",
+      "registered_at": "2026-10-20T14:31:21.057933+00:00",
+      "registration_basis": "Human2026-10-20: update VID and normalize storage of all DPF. Local revision; no new publication authorization.",
       "source_bytes_modified_by_registration": false,
       "required_slot": "KCAE",
       "distribution_basis": {
         "status": "confirmed",
         "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
-      }
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+        "sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec",
+        "available_in": "Published iEWR6.0.3; project/artifacts/dpf-layout-2026-10-20/history/published-6.0.3/frameworks/dpf/knowledge-corpus-access-engineering/snapshot-2026-10-14-rev-7d0a7800/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md"
+      },
+      "selection_role": "base"
     },
     {
       "source_id": "writing-editing",
@@ -554,90 +609,98 @@
       "aliases": [
         "WEP"
       ],
-      "edition_id": "0.1.6",
+      "edition_id": "0.2.0",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio/0.1.6/WEP.md",
+      "source_locus": "frameworks/dpf/WEP/0.2.0/WEP.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio/0.1.6/WEP.md"
+        "frameworks/dpf/WEP/0.2.0/WEP.md"
       ],
       "declared_status": {
-        "value": "Author WEP 0.1.6, 19 October 2026; descriptive simplification; all Solution and Archetypal Grounding sections unchanged from 0.1.5. Author-reported separate AI review is not an iEWR-wide qualification.",
-        "locus": "frameworks/dpf/instantiatio/0.1.6/WEP.md"
+        "value": "Five-reader independent complete first assessment plus qualified dependent recheck; current exact text/package meets ordinary prepared-reader floor 4 in declared bounds. No runtime/Human/production claim; unpublished local edition.",
+        "locus": "docs/dpf/WEP/0.2.0/VERIFICATION.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/DPFs/WEP.md",
+      "publication_locator": "frameworks/dpf/WEP/0.2.0/WEP.md",
       "fpf_grounding_claim": {
-        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
-        "locus": "frameworks/dpf/instantiatio/0.1.6/WEP.md"
+        "value": "Bounded original canonical formation route at cc2e8aa9, SHA25607b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e; exact quality status in own VERIFICATION.",
+        "locus": "docs/dpf/WEP/0.2.0/PROVENANCE.md"
       },
       "files": [
         {
           "path": "WEP.md",
-          "sha256": "4570bc23bb8515e692d72100789e129ef803f5ad08181a7cd252a206f32ca3d6"
+          "sha256": "55393186d85b8b218a5eecba04215b6f2b696e387771eb9d80f45bd1b4dd7645"
         }
       ],
-      "edition_manifest_sha256": "4570bc23bb8515e692d72100789e129ef803f5ad08181a7cd252a206f32ca3d6",
-      "registered_at": "2026-10-19T10:26:38.997488+00:00",
-      "registration_basis": "Direct Human instruction 2026-10-19: update agreed DPF set, verify, publish iEWR 6.0.2 Beta as Latest and update main. No DPF authoring or FPF connection.",
-      "source_bytes_modified_by_registration": true,
+      "edition_manifest_sha256": "55393186d85b8b218a5eecba04215b6f2b696e387771eb9d80f45bd1b4dd7645",
+      "registered_at": "2026-10-20T14:31:21.058016+00:00",
+      "registration_basis": "Human2026-10-20: five independently maintained local DPF; exact source/quality in own edition support. No publication.",
+      "source_bytes_modified_by_registration": false,
       "required_slot": "WEP",
       "distribution_basis": {
-        "status": "confirmed",
-        "statement": "Author Albert directly authorized the reviewed WEP 0.1.6 update and public iEWR 6.0.2 Beta release. Only relative Markdown destinations adapted to pinned source URLs; no new blanket license.",
-        "locus": "frameworks/dpf/instantiatio/README.md"
+        "status": "local_authoring_only",
+        "statement": "Human authorized local independent revisions and five read-only independent reviewers. Publication of these exact new editions is not requested; predecessor publication grants remain historical. No new blanket license.",
+        "locus": "frameworks/dpf/NOTICE.md"
       },
-      "source_sha256": "4d92065e45beec728ce787ebbe0aa129fb78bf24f7170e0da9e0bebda80ef276",
-      "predecessor": {
-        "edition_id": "0.1.5-package-5.8.1",
-        "source_locus": "frameworks/dpf/instantiatio/5.8.1/WEP.md",
-        "sha256": "cffaeb24ff0a0865e9a6eb551ad6367a0c8cf2fee60a4c996f67f64b10bc701f",
-        "available_in": "iEWR 6.0.1 release and Git history; local preparation archive"
+      "source_sha256": "55393186d85b8b218a5eecba04215b6f2b696e387771eb9d80f45bd1b4dd7645",
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/WEP/0.1.6/WEP.md",
+        "sha256": "4570bc23bb8515e692d72100789e129ef803f5ad08181a7cd252a206f32ca3d6",
+        "historical_carrier": "docs/dpf/WEP/0.1.6/History/WEP.md",
+        "exact_original_archive": "project/artifacts/dpf-independence-2026-10-20/predecessors/WEP/WEP.md",
+        "distribution_basis": {
+          "status": "confirmed",
+          "statement": "Author Albert directly authorized the reviewed WEP 0.1.6 update and public iEWR 6.0.2 Beta release. Only relative Markdown destinations adapted to pinned source URLs; no new blanket license.",
+          "locus": "frameworks/dpf/README.md"
+        },
+        "package_link_adaptations": [
+          {
+            "from": "../Materials/WEP/Development-0.1.5/Decision.md#источники-и-границы-применения",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.5/Decision.md#источники-и-границы-применения"
+          },
+          {
+            "from": "WED.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/DPFs/WED.md"
+          },
+          {
+            "from": "HUM.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/DPFs/HUM.md"
+          },
+          {
+            "from": "../Materials/HUM/Practicum.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Practicum.md"
+          },
+          {
+            "from": "../Materials/WEP/Development/First-Trial-Feedback.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development/First-Trial-Feedback.md"
+          },
+          {
+            "from": "../Materials/WED/Research/SOURCES-REVIEW.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WED/Research/SOURCES-REVIEW.md"
+          },
+          {
+            "from": "../Materials/WED/Research/GAPS-AND-DECISIONS.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WED/Research/GAPS-AND-DECISIONS.md"
+          },
+          {
+            "from": "../Materials/HUM/Research.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Research.md"
+          },
+          {
+            "from": "../Materials/HUM/Improvement-Research.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Improvement-Research.md"
+          },
+          {
+            "from": "../Materials/WEP/Development-0.1.6/README.md#источники-и-перенос",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.6/README.md#источники-и-перенос"
+          },
+          {
+            "from": "../Materials/WEP/Development-0.1.6/README.md",
+            "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.6/README.md"
+          }
+        ]
       },
-      "package_link_adaptations": [
-        {
-          "from": "../Materials/WEP/Development-0.1.5/Decision.md#источники-и-границы-применения",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.5/Decision.md#источники-и-границы-применения"
-        },
-        {
-          "from": "WED.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/DPFs/WED.md"
-        },
-        {
-          "from": "HUM.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/DPFs/HUM.md"
-        },
-        {
-          "from": "../Materials/HUM/Practicum.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Practicum.md"
-        },
-        {
-          "from": "../Materials/WEP/Development/First-Trial-Feedback.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development/First-Trial-Feedback.md"
-        },
-        {
-          "from": "../Materials/WED/Research/SOURCES-REVIEW.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WED/Research/SOURCES-REVIEW.md"
-        },
-        {
-          "from": "../Materials/WED/Research/GAPS-AND-DECISIONS.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WED/Research/GAPS-AND-DECISIONS.md"
-        },
-        {
-          "from": "../Materials/HUM/Research.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Research.md"
-        },
-        {
-          "from": "../Materials/HUM/Improvement-Research.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/HUM/Improvement-Research.md"
-        },
-        {
-          "from": "../Materials/WEP/Development-0.1.6/README.md#источники-и-перенос",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.6/README.md#источники-и-перенос"
-        },
-        {
-          "from": "../Materials/WEP/Development-0.1.6/README.md",
-          "to": "https://github.com/instantiatio/dpf-lab/blob/10a94c403ff9fd70e6e69a2db93d68e585bfef0f/Materials/WEP/Development-0.1.6/README.md"
-        }
-      ]
+      "selection_role": "base",
+      "use_status": "admissibleForDeclaredDPFUse"
     },
     {
       "source_id": "visual-interface-design",
@@ -645,37 +708,52 @@
       "aliases": [
         "VID"
       ],
-      "edition_id": "0.3.0-package-5.8.1",
+      "edition_id": "0.4.0",
       "scope": "package",
-      "source_locus": "frameworks/dpf/instantiatio/5.8.1/VID.md",
+      "source_locus": "frameworks/dpf/VID/0.4.0/VID.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio/5.8.1/VID.md"
+        "frameworks/dpf/VID/0.4.0/VID.md"
       ],
       "declared_status": {
-        "value": "Author 0.3.0; source-reported positive independent AI rechecks for ordinary guidance. Package integration checks and limits are distinct; see VERIFICATION.md.",
-        "locus": "frameworks/dpf/instantiatio/5.8.1/VID.md"
+        "value": "Five-reader independent complete first assessment plus qualified dependent recheck; current exact text/package meets ordinary prepared-reader floor 4 in declared bounds. No runtime/Human/production claim; unpublished local edition.",
+        "locus": "docs/dpf/VID/0.4.0/VERIFICATION.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/bd1cabb2e0e1757801aab142d44184ee195034ce/DPFs/VID.md",
+      "publication_locator": "frameworks/dpf/VID/0.4.0/VID.md",
       "fpf_grounding_claim": {
-        "value": "Source-reported FPF grounding; registration does not establish independent conformance. Original FPF is not bundled or activated.",
-        "locus": "frameworks/dpf/instantiatio/5.8.1/VID.md"
+        "value": "Bounded original canonical formation route at cc2e8aa9, SHA25607b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e; exact quality status in own VERIFICATION.",
+        "locus": "docs/dpf/VID/0.4.0/PROVENANCE.md"
       },
       "files": [
         {
           "path": "VID.md",
-          "sha256": "8a72afd59c3cf0764c62f07f4d3c4f8f9bf9745d3b406513eaba58e1f7de1112"
+          "sha256": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4"
         }
       ],
-      "edition_manifest_sha256": "8a72afd59c3cf0764c62f07f4d3c4f8f9bf9745d3b406513eaba58e1f7de1112",
-      "registered_at": "2026-10-16T19:46:37.772930+00:00",
-      "registration_basis": "Direct author/Human instruction: update reviewed WEP 0.1.5 and VID 0.3.0, verify and publish iEWR 5.8.1 Beta as Latest and update main. Original bytes retained; only Markdown destinations adapted before registration. Additional direct instruction: edit README and RELEASE_NOTES using WEP.",
-      "source_bytes_modified_by_registration": false,
+      "edition_manifest_sha256": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+      "registered_at": "2026-10-20T14:31:21.058108+00:00",
+      "registration_basis": "Human2026-10-20: five independently maintained local DPF; exact source/quality in own edition support. No publication.",
+      "source_bytes_modified_by_registration": true,
       "required_slot": "VID",
       "distribution_basis": {
-        "status": "confirmed",
-        "statement": "Author Albert identified these as own DPF and directly authorized updating the reviewed editions and public release in iEWR 5.8.1. No new blanket license; third-party notices retained.",
-        "locus": "frameworks/dpf/instantiatio/README.md"
-      }
+        "status": "local_authoring_only",
+        "statement": "Human authorized local independent revisions and five read-only independent reviewers. Publication of these exact new editions is not requested; predecessor publication grants remain historical. No new blanket license.",
+        "locus": "frameworks/dpf/NOTICE.md"
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "source_sha256": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+      "previous_package": {
+        "path": "frameworks/dpf/VID/0.3.1/VID.md",
+        "sha256": "2c99f8318335b7fcfebb04f6d488cecbb2e70c279e068779225220cf84e4a6c4",
+        "historical_carrier": "docs/dpf/VID/0.3.1/History/VID.md",
+        "exact_original_archive": "project/artifacts/dpf-independence-2026-10-20/predecessors/VID/VID.md",
+        "distribution_basis": {
+          "status": "local_edit_authorized",
+          "statement": "Author requested VID update and all-DPF storage normalization. Publication of this new edition not requested.",
+          "locus": "docs/dpf/VID/0.3.1/DECISION.md"
+        }
+      },
+      "selection_role": "base",
+      "use_status": "admissibleForDeclaredDPFUse"
     },
     {
       "source_id": "instantiatio-ddb",
@@ -683,39 +761,52 @@
       "aliases": [
         "DDB"
       ],
-      "edition_id": "0.1.1",
+      "edition_id": "0.2.0",
       "scope": "package",
       "selection_role": "optional",
-      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/DDB.md",
+      "source_locus": "frameworks/dpf/DDB/0.2.0/DDB.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/DDB.md"
+        "frameworks/dpf/DDB/0.2.0/DDB.md"
       ],
       "declared_status": {
-        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
-        "locus": "VERIFICATION.md"
+        "value": "Five-reader independent complete first assessment plus qualified dependent recheck; current exact text/package meets ordinary prepared-reader floor 4 in declared bounds. No runtime/Human/production claim; unpublished local edition.",
+        "locus": "docs/dpf/DDB/0.2.0/VERIFICATION.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/DDB.md",
+      "publication_locator": "frameworks/dpf/DDB/0.2.0/DDB.md",
       "fpf_grounding_claim": {
-        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
-        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/DDB/README.md"
+        "value": "Bounded original canonical formation route at cc2e8aa9, SHA25607b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e; exact quality status in own VERIFICATION.",
+        "locus": "docs/dpf/DDB/0.2.0/PROVENANCE.md"
       },
       "files": [
         {
           "path": "DDB.md",
-          "sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a"
+          "sha256": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57"
         }
       ],
-      "edition_manifest_sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a",
-      "registered_at": "2026-10-19T17:46:58.170989+00:00",
-      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
-      "source_bytes_modified_by_registration": false,
-      "source_sha256": "7305265eeb64b8addc557f3ddfe8f485e4203e4c0f6c6ec0fcdcb7cf816f2b5a",
+      "edition_manifest_sha256": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
+      "registered_at": "2026-10-20T14:31:21.058373+00:00",
+      "registration_basis": "Human2026-10-20: five independently maintained local DPF; exact source/quality in own edition support. No publication.",
+      "source_bytes_modified_by_registration": true,
+      "source_sha256": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
       "distribution_basis": {
-        "status": "confirmed",
-        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
-        "locus": "BASELINE_STATUS.md"
+        "status": "local_authoring_only",
+        "statement": "Human authorized local independent revisions and five read-only independent reviewers. Publication of these exact new editions is not requested; predecessor publication grants remain historical. No new blanket license.",
+        "locus": "frameworks/dpf/NOTICE.md"
       },
-      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json"
+      "transfer_record": "docs/dpf/shared/software-2026-10-19/IEWR_6_0_3_TRANSFER.json",
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/DDB/0.1.1/DDB.md",
+        "sha256": "59ca20b31ea109f6f70c7a4b7c334399ffc851253c8cda8a798476a605b63f39",
+        "historical_carrier": "docs/dpf/DDB/0.1.1/History/DDB.md",
+        "exact_original_archive": "project/artifacts/dpf-independence-2026-10-20/predecessors/DDB/DDB.md",
+        "distribution_basis": {
+          "status": "confirmed",
+          "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+          "locus": "BASELINE_STATUS.md"
+        }
+      },
+      "use_status": "admissibleForDeclaredDPFUse"
     },
     {
       "source_id": "instantiatio-svv",
@@ -723,39 +814,52 @@
       "aliases": [
         "SVV"
       ],
-      "edition_id": "0.1.1",
+      "edition_id": "0.2.0",
       "scope": "package",
       "selection_role": "optional",
-      "source_locus": "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/SVV.md",
+      "source_locus": "frameworks/dpf/SVV/0.2.0/SVV.md",
       "normative_loci": [
-        "frameworks/dpf/instantiatio-software/2026-10-19/DPFs/SVV.md"
+        "frameworks/dpf/SVV/0.2.0/SVV.md"
       ],
       "declared_status": {
-        "value": "Author guidance for a prepared developer or assisting AI in bounded ordinary use; prior full E.21 and F.19 reused, limits in accompanying Materials and VERIFICATION.md.",
-        "locus": "VERIFICATION.md"
+        "value": "Five-reader independent complete first assessment plus qualified dependent recheck; current exact text/package meets ordinary prepared-reader floor 4 in declared bounds. No runtime/Human/production claim; unpublished local edition.",
+        "locus": "docs/dpf/SVV/0.2.0/VERIFICATION.md"
       },
-      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/fe1267ac7d84196342408e1367f912ff8fe95810/DPFs/SVV.md",
+      "publication_locator": "frameworks/dpf/SVV/0.2.0/SVV.md",
       "fpf_grounding_claim": {
-        "value": "Canonical formation and full assessments were performed for the source edition. This registration is link-only transfer, not new qualification. Original FPF is not shipped or activated.",
-        "locus": "frameworks/dpf/instantiatio-software/2026-10-19/Materials/SVV/README.md"
+        "value": "Bounded original canonical formation route at cc2e8aa9, SHA25607b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e; exact quality status in own VERIFICATION.",
+        "locus": "docs/dpf/SVV/0.2.0/PROVENANCE.md"
       },
       "files": [
         {
           "path": "SVV.md",
-          "sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849"
+          "sha256": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea"
         }
       ],
-      "edition_manifest_sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849",
-      "registered_at": "2026-10-19T17:46:58.170991+00:00",
-      "registration_basis": "Human: build new iEWR release; selected only ISDLC, DDB and SVV. Local preparation, no publication. Subsequent direct Human instruction 2026-10-19: publish on GitHub as Latest and update main/README; metadata updated, source edition unchanged.",
-      "source_bytes_modified_by_registration": false,
-      "source_sha256": "258305edf7c808d15e4d53c99e516e0bfaee26195207e8bdbc997a06c9c3b849",
+      "edition_manifest_sha256": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+      "registered_at": "2026-10-20T14:31:21.058422+00:00",
+      "registration_basis": "Human2026-10-20: five independently maintained local DPF; exact source/quality in own edition support. No publication.",
+      "source_bytes_modified_by_registration": true,
+      "source_sha256": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
       "distribution_basis": {
-        "status": "confirmed",
-        "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
-        "locus": "BASELINE_STATUS.md"
+        "status": "local_authoring_only",
+        "statement": "Human authorized local independent revisions and five read-only independent reviewers. Publication of these exact new editions is not requested; predecessor publication grants remain historical. No new blanket license.",
+        "locus": "frameworks/dpf/NOTICE.md"
       },
-      "transfer_record": "docs/SOFTWARE_DPF_TRANSFER.json"
+      "transfer_record": "docs/dpf/shared/software-2026-10-19/IEWR_6_0_3_TRANSFER.json",
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "previous_package": {
+        "path": "frameworks/dpf/SVV/0.1.1/SVV.md",
+        "sha256": "467788373c9aa1f8c19c0432e60067d48726e1f17e3edcfae303617dbf8d89f4",
+        "historical_carrier": "docs/dpf/SVV/0.1.1/History/SVV.md",
+        "exact_original_archive": "project/artifacts/dpf-independence-2026-10-20/predecessors/SVV/SVV.md",
+        "distribution_basis": {
+          "status": "confirmed",
+          "statement": "Author Albert directly selected ISDLC0.4.1 and DDB/SVV0.1.1 for the release, then explicitly authorized publication on GitHub as Latest and updating main. No new blanket license; existing third-party notices retained.",
+          "locus": "BASELINE_STATUS.md"
+        }
+      },
+      "use_status": "admissibleForDeclaredDPFUse"
     }
   ]
 }

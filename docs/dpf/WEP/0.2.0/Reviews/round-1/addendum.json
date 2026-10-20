@@ -1,0 +1,93 @@
+{
+  "scope": "PFM7 consistency addendum only; original round-1 retained unchanged",
+  "source": {
+    "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/WEP/0.2.0/WEP.md",
+    "sha256": "924c4b31da035a1ebdd0ae84ced4894debdc9ea8739f8cefb972d7c07283e5e5",
+    "beforeAfterUnchanged": true,
+    "DraftOccurrences": 24,
+    "ToCLines": [
+      18,
+      29
+    ],
+    "headerLines": [
+      144,
+      214,
+      292,
+      359,
+      426,
+      500,
+      567,
+      646,
+      713,
+      794,
+      861,
+      929
+    ]
+  },
+  "canonicalBasis": {
+    "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+    "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+    "readOrReusedLoci": [
+      "E.8:4.1 lines 95132–95141: mandatory seed/header with Type, Status",
+      "E.8:4.1.1 H-10 PatternRef: truthful ToC status, structural checker does not establish status",
+      "E.4.DPF.DA:4.3a PFM7 lines 93594–93602: separate development-state absence and avoid duplicate charge",
+      "E.11.PFP:4.1 lines 102550–102554: visible status no acceptance/currentness/authorization evidence, maintainer evidence separate"
+    ],
+    "sourceRuleApplication": "Обязательность поля Status устанавливает место значения; не устанавливает пригодность любого значения для user-facing carrier. PFM7 проверяет содержание development-state независимо от field-presence."
+  },
+  "observation": {
+    "publicMeaning": "В WEP 0.2.0 нет определения Draft как долговременного пользовательского состояния, соответствующего правила выбора/действия/остановки или отдельного domain значения. Все 12 методов помечены одинаково; practical routes используют предметные условия, а не Draft.",
+    "developmentMeaning": "Смысл Draft восстанавливается как этап подготовки/оценки публикации. Это согласуется с companion README/VERIFICATION, но не делает этот процесс пользовательской инструкцией.",
+    "counterfactualCheck": "Удаление Draft как process-value не меняет выбор WEP.1–12 или границы редакторского действия; само обязательное поле Status удалить этим рассуждением нельзя.",
+    "authorityLimit": "Отсутствие user-facing смысла не разрешает reviewer назначить Stable/accepted или иной положительный статус."
+  },
+  "correctionOfPriorJudgement": {
+    "previousPFM7": "pass",
+    "previousRationaleProblem": "Ранее я допустил Draft, сославшись на обязательное canonical Status. Это недостаточное основание: поле и конкретное development-state значение различаются.",
+    "currentPFM7": "fail",
+    "findingID": "WEP-F4",
+    "priority": "P2",
+    "finding": "24 появления Draft в ToC/headers — development-state residue в carrier, оцениваемом для обычного пользовательского применения. Само поле Status не дефект.",
+    "sameCriterionAcrossFrameworks": "Результат получен по собственному WEP и точному FPF, без наследования чужого VID verdict."
+  },
+  "packageImpact": {
+    "D5PackageFormLayeringAndRelationAdequacy": {
+      "previous": 3,
+      "current": 3,
+      "basis": "WEP-F4 добавляет основание к уже below-floor D5; числовое снижение за дублирующую PFM-проверку не выполняется."
+    },
+    "D9EditionStateAndCurrentnessAdequacy": {
+      "previous": 4,
+      "current": 3,
+      "ShortRationale": "Exact edition/hash и companion позволяют восстановить состояние, поэтому 2 занижает основу; 4 завышает separation, пока development-state Draft распространяется через user-facing ToC/headers без самостоятельного значения."
+    },
+    "D10ImprovementAndRefreshAdequacy": {
+      "previous": 4,
+      "current": 4,
+      "basis": "Локальные причины пересмотра, source returns и companion quality-route не исчезли; не найдено отдельного дефекта refresh mechanism от самого Draft."
+    },
+    "PFM12": "already fail from WEP-F2; WEP-F4 учитывается один раз в PFM7, дополнительная PFM12 charge не нужна",
+    "overall": "repairBeforeDPFUse remains; findings set now WEP-F1–F4",
+    "unchangedConclusions": "Новая находка не доказывает отсутствия доменных операций или зависимости от HUM/WED. Предыдущие содержательные findings и cold initial сохраняются."
+  },
+  "repairDirection": "Сохранить обязательное Status и согласованность ToC/header с истинным продуктовым состоянием. Development-stage/ожидание оценки вести в maintainer/quality companion. Для публичной проекции выбрать и обосновать состояние, действительно нужное reader-use; не переименовывать Draft в Stable/accepted автоматически и не маскировать development-state новым словом. Выбор конкретного статуса/публикационной политики остаётся владельцу edition.",
+  "closureTest": [
+    "Предъявить exact исправленный carrier и product-owned status basis.",
+    "Убедиться, что ToC/headers согласованы, обязательное Status сохранено и development-state не рассеян по пользовательскому пути.",
+    "Повторить только affected PFM7, D5/D9 и согласованность PFM12; полный textual reread по этой метке сам по себе не требуется."
+  ],
+  "preservation": {
+    "originalFilesSHA256": {
+      "initial.md": "7b87c02ba3e429baed4a4a039f2e92ee3ad9d3384edc1d445e2f588de2b8e4b6",
+      "assessment.json": "40d28d4ff394b1ba89fdbd7d6891215c001677247e114fd6013c084ba7ffe9da",
+      "assessment.md": "e733e8f6957da289a3006d2e26dff6951d1f25ce44c213c38af03755e0e31fea",
+      "source-access.json": "c312147c464b3c6606c9b8f9a989fde62dc3436a93a6252b96a9fde760ed1fb2"
+    },
+    "unchangedAfter": true,
+    "frameworkEdited": false,
+    "newFilesOnly": [
+      "addendum.json",
+      "addendum.md"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "checked_object": "Complete local stage, before selected-root promotion",
+  "result": "Structural/source-preservation checks passed; current content/package conclusions in the five exact independent review results",
+  "selected_DPF": 17,
+  "method_count": 266,
+  "changed_DPF_methods": 53,
+  "canonical_frames": "53 complete source bodies with sections1–12 and End; actual actions/cases/limits judged in full E21, not inferred from structure",
+  "new_editions": {
+    "ISDLC": {
+      "edition": "0.5.0",
+      "path": "frameworks/dpf/ISDLC/0.5.0/ISDLC.md",
+      "sha256": "647e16e9aad2cb5a38640731bd869d52c29f110988025e5e13b26ca07b016f93",
+      "current_review": "docs/dpf/ISDLC/0.5.0/Reviews/round-2/assessment.json",
+      "current_review_sha256": "df35ddebc23b2b7b2e3c07bbb511f83e8becfe80381b7f1fe9a3fac5c1936600"
+    },
+    "WEP": {
+      "edition": "0.2.0",
+      "path": "frameworks/dpf/WEP/0.2.0/WEP.md",
+      "sha256": "55393186d85b8b218a5eecba04215b6f2b696e387771eb9d80f45bd1b4dd7645",
+      "current_review": "docs/dpf/WEP/0.2.0/Reviews/round-3/assessment.json",
+      "current_review_sha256": "354e5d337647c329afc574a34ef81ecce0bcfa14171e9ab93e15df4dcb7c680b"
+    },
+    "VID": {
+      "edition": "0.4.0",
+      "path": "frameworks/dpf/VID/0.4.0/VID.md",
+      "sha256": "0f4953991e414428dbbcae19b1ce52c91d43f378756700487ca6b1e732c588d4",
+      "current_review": "docs/dpf/VID/0.4.0/Reviews/round-2/assessment.json",
+      "current_review_sha256": "ceb3e95513df967905de81a2ed4c6749266f4094938be0f00bde67e98b8393c7"
+    },
+    "DDB": {
+      "edition": "0.2.0",
+      "path": "frameworks/dpf/DDB/0.2.0/DDB.md",
+      "sha256": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
+      "current_review": "docs/dpf/DDB/0.2.0/Reviews/round-2/assessment.json",
+      "current_review_sha256": "c3d8707b0af8a4b1f5de13ff70136e7072c033c2483039b452d42add247aa4ed"
+    },
+    "SVV": {
+      "edition": "0.2.0",
+      "path": "frameworks/dpf/SVV/0.2.0/SVV.md",
+      "sha256": "a241e3b858c227e422fac48385974ad546e90f3b7cf7b0c2e12f07c3dd166bea",
+      "current_review": "docs/dpf/SVV/0.2.0/Reviews/round-3/assessment.json",
+      "current_review_sha256": "33e1af8b88c8c716663a0348540923496c009bea28f53cf1526076f7bf5687bc"
+    }
+  },
+  "independent_complete_current_counts": {
+    "E21_judgements": 1007,
+    "DA_judgements": 60,
+    "PFM_dispositions": 65
+  },
+  "source_restoration": "121 original source correspondences;13 historical carrier relations, including explicit non-link-only preface repair, checked by full inverse",
+  "other12_source_bytes_unchanged": true,
+  "Core_formation_entry_licenses_unchanged": true,
+  "initial_and_negative_results_preserved": true,
+  "storage_rules_preserved": true,
+  "publication_of_new_DPF": false,
+  "actual_root_promotion_effect": "Recorded separately in project/artifacts/dpf-independence-2026-10-20/FINAL_CHECKS.json after effect verification",
+  "limits": "Prepared-reader text guidance; no real application correctness, Human comprehension, production or statistical independence inferred"
+}

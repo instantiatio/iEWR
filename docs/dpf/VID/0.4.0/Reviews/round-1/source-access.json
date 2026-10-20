@@ -1,0 +1,162 @@
+{
+  "files": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/REVIEW_PROTOCOL.md",
+      "phase": "before initial",
+      "sha256": "8a6c94522a3d05112a62c3e265f191de1a8db1981977c2302e0851226f498fb1",
+      "sections": "весь текст",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/VID-REQUEST.json",
+      "phase": "before initial",
+      "sha256": "f392df8874303c02421e8a61c6bc597b0829eae5fca96115cb5a2faae6286b36",
+      "sections": "весь JSON",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/VID/0.4.0/VID.md",
+      "phase": "before initial",
+      "sha256": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+      "sections": "первичный cat был обрезан; затем прочитаны участки 83–943; opening/tail доступны в первичном выводе; завершение пробелов 310–337/943–1007 после initial",
+      "access": "direct expert reading, затем целый текст по chunks"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/docs/DPF_FORMATION_METHOD.md",
+      "phase": "after initial",
+      "sha256": "d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea",
+      "sections": "весь вход",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+      "phase": "after initial",
+      "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+      "sections": "E.4.PFAD:4.1 (92376–92400); E.4.DPF:4 (92770–92813); E.4.DPF.DA:1–4.5 (93387–93643, отдельные outputs частично обрезались, critical coordinate/PFM/regulations прочитаны повторно); E.4.PFIP:4.1–4.5 (94200–94302); E.8:4.1 (95124–95160), :11 (95805–95842); E.11.PFP:2–4.2 (102511–102584), :4.6–4.7.1 (102676–102739); E.19:4.2 (110895–110925), :4.3.3 (111321–111382); E.21:4–4.7 (112000–112355; coordinates/precision повторно 112167–112260); F.19:4 (124172–124297); A.15.10:4–5 (32556–32648); E.13:4–5 (103297–103367); heading-only rg navigation for these families",
+      "access": "bounded original reading; не полный FPF"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/predecessors/VID/VID.md",
+      "phase": "after initial",
+      "sha256": "2c99f8318335b7fcfebb04f6d488cecbb2e70c279e068779225220cf84e4a6c4",
+      "sections": "все 1007 строк посредством совпавших current spans + отдельно все 34 differing old spans; полная opcode inventory в assessment",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/CHANGES.json",
+      "phase": "after initial",
+      "sha256": "44be54fc8dd0bce02d417e3cfd15493ba46d3c22b0df7ea10ede2044892f3b47",
+      "sections": "VID 38 записей; первый общий вывод был обрезан, relevant VID/diff прочитаны отдельно; unrelated sections не оценивались",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/VID-RESTORE.json",
+      "phase": "after initial",
+      "sha256": "6c64ec34332cc439e243bca2acdc72ec92dcce3651465a87f1aa280d084f4553",
+      "sections": "все restore spans в механической сверке; изменённые old/new passages прочитаны в двух diff-chunks",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/README.md",
+      "phase": "after initial",
+      "sha256": "1a6f355984096ead8eb51a699c1963e6584d74fb671cc42b47fe952f422537fc",
+      "sections": "README/VERIFICATION целиком; PROVENANCE вывод обрезан, relevant accepted source correspondence восстановлена через CHANGES/полный diff",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/VERIFICATION.md",
+      "phase": "after initial",
+      "sha256": "7fc69661c0c59ac131a4e7c0380da46979cd2aed029c3378895c850f6654b523",
+      "sections": "README/VERIFICATION целиком; PROVENANCE вывод обрезан, relevant accepted source correspondence восстановлена через CHANGES/полный diff",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.4.0/PROVENANCE.md",
+      "phase": "after initial",
+      "sha256": "3aceae427589c3d719995979d9515e1b7cdb7dcf7baaec0a4e9041951135f66e",
+      "sections": "README/VERIFICATION целиком; PROVENANCE вывод обрезан, relevant accepted source correspondence восстановлена через CHANGES/полный diff",
+      "access": "direct read"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.3.0/Reviews/Patterns/SOURCE-BASIS.md",
+      "phase": "after initial",
+      "sha256": "5aaf5f2a7fdc45d25c4463c5f84975fba2723caa764095bf108576aff552eca3",
+      "sections": "полный source-reading account",
+      "access": "bounded prior source payload reuse; не новый первичный доступ и не grade reuse"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.3.0/Reviews/Patterns/Recheck/SOURCE-BASIS.md",
+      "phase": "after initial",
+      "sha256": "b0207c6ecca2d6cd01926147a6be5a7cb06eeffb9d4fd650ff7847cfcc8bdda1",
+      "sections": "весь вывод source basis до E21-CURRENT",
+      "access": "source condition/correspondence context only"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/VID/0.3.0/Reviews/Patterns/Recheck/E21-CURRENT.md",
+      "phase": "after initial",
+      "sha256": "c1e451a66efccfcda45b9a2d45dcce2bbd23be729641fdd79d1a6b731b70b77c",
+      "sections": "вывод был обрезан; видимые начало/конец и S9/S4/maturity sections; оценки не наследовались",
+      "access": "prior assessment consulted, not complete read"
+    }
+  ],
+  "web": [
+    {
+      "url": "https://www.w3.org/TR/2024/REC-WCAG22-20241212/",
+      "phase": "after initial",
+      "sections": "identity/front + 1.4.1/1.4.3–5/1.4.8/1.4.10–12, web lines 413–656",
+      "mode": "fresh primary text read",
+      "hash": "not supplied by web tool; exact Recommendation URL pins selected edition"
+    },
+    {
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "phase": "after initial",
+      "sections": "About, keyboard, role/name/state/focus web lines 18–53",
+      "mode": "fresh primary text read",
+      "hash": "not supplied by web tool; dynamic live read 20.10.2026"
+    },
+    {
+      "url": "https://practicaltypography.com/typography-in-ten-minutes.html",
+      "phase": "after initial",
+      "sections": "main text lines 0–24",
+      "mode": "fresh primary text read",
+      "hash": "not supplied by web tool; live text read"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/anthropics/skills/41bbe19d1a1a7eaab5e7bb9050a417e5c6cffc8f/skills/frontend-design/SKILL.md",
+      "phase": "after initial",
+      "sections": "front/process lines 0–41; rest source-reading reuse only",
+      "mode": "fresh primary text read; source instructions not activated",
+      "hash": "not supplied by web tool; exact commit URL"
+    }
+  ],
+  "errors": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/prior-review/VID",
+      "effect": "rg: no such file or directory; optional prior-review unavailable. Пригодные source-reading records в stage прочитаны; отсутствие не объявлено отсутствием прошлых проверок."
+    },
+    {
+      "effect": "Несколько больших cat/sed выводов были усечены. Для framework/критических original rules/всех old-new differences использованы меньшие chunks; неполное чтение prior E21 не использовано как положительная оценка."
+    }
+  ],
+  "reuseBoundary": "Все 209 coordinate judgements сделаны заново по current body; старые source-reading observations использованы только для совпадающего payload и своих ограничений. Прямые первичные чтения отличаются от сохранённых свидетельств. Иные рамки DPF не читались.",
+  "isolation": {
+    "enforcedFilesystemIsolation": false,
+    "compensation": "поручение/последовательность/initial before history/этот actual-access account",
+    "limitations": "shared filesystem не мешает увидеть иной файл, независимость статистически не установлена"
+  },
+  "inputIntegrity": {
+    "expected": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+    "actualBefore": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+    "actualAfter": "c8c6bdfc6e8a4fcc136a022c44213ffa01d1af60ad5a24cc2427609519914375",
+    "unchanged": true
+  },
+  "initialSha256": "7216eaef9c5b32b3f74a1239ebfd66d684a80da503b32ba32a5374327216750e",
+  "readOnlyScope": "Сохранены только 4 итоговых review файла в review/VID/round-1. Вспомогательный /private/tmp/vid_review_build.py был создан для сборки JSON и удалён после проверки; это временный технический след вне требуемой write boundary, не изменение исходников. Рамка/предшественник/методы/источники не менялись.",
+  "deviations": [
+    {
+      "item": "временный script вне назначенной review boundary",
+      "effect": "создан /private/tmp/vid_review_build.py, затем удалён; внешних вызовов/изменений исходников не делал",
+      "limitation": "точная write-boundary дисциплина нарушена вспомогательной сборкой, что не скрыто за read-only claim"
+    }
+  ]
+}

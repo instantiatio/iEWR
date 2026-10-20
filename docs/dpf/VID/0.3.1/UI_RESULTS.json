@@ -1,0 +1,36 @@
+{
+  "kind": "Bounded author-created DOM interaction probe; not independent reader evidence",
+  "browser": "155.0.8059.85",
+  "methods": [
+    "ISDLC.5/.6/.7/.11",
+    "VID.10/.6"
+  ],
+  "fixture_sha256": "9dd0eada8e837722f2215a7c2b8e7746d74b0367a17251393ebf7f287094561e",
+  "observations": [
+    {
+      "width": 320,
+      "committed_effects": 1,
+      "unknown_after_truncated_confirmation": true,
+      "input_retained_after_reload": true,
+      "reconcile_confirmed_without_second_effect": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "width": 1280,
+      "committed_effects": 1,
+      "unknown_after_truncated_confirmation": true,
+      "input_retained_after_reload": true,
+      "reconcile_confirmed_without_second_effect": true,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "negative_counterexample": {
+    "defect": "Treat transport200 with unusable body as application success",
+    "detected_by_same_status_criterion": true
+  },
+  "limits": [
+    "Synthetic facts in same-origin localStorage; no real remote server, HTTP failure injection, database durability or machine failure.",
+    "No human perception, aesthetic acceptance, complete WCAG or general visual regression claim.",
+    "The probe supports the retained handoff only; it does not assign E21 coordinate values."
+  ]
+}

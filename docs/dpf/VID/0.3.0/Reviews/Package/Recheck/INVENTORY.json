@@ -1,0 +1,2203 @@
+{
+  "candidate_sha256": "7de6e5610c5e43e5a7cd125afc76ea40231fde91e9604885bb3e4b221230f09d",
+  "comparisons": {
+    "initial": {
+      "ref": "7ffd17c",
+      "sha256": "ec0e16353471599aeca912fd4ca1c52715955691c93797ba727f7cf67d691bf2",
+      "rows": [
+        {
+          "unit": "# Visual Interface Design Principles Framework",
+          "prior_line": 1,
+          "current_line": 1,
+          "status": "identical"
+        },
+        {
+          "unit": "# Table of Contents",
+          "prior_line": 5,
+          "current_line": 5,
+          "status": "changed"
+        },
+        {
+          "unit": "# Visual Interface Design - Readme",
+          "prior_line": 27,
+          "current_line": 27,
+          "status": "identical"
+        },
+        {
+          "unit": "## Practical entries",
+          "prior_line": 29,
+          "current_line": 29,
+          "status": "identical"
+        },
+        {
+          "unit": "### NEW — новое выразительное решение",
+          "prior_line": 35,
+          "current_line": 35,
+          "status": "identical"
+        },
+        {
+          "unit": "### EXISTING — достаточный бренд и локальная помеха",
+          "prior_line": 43,
+          "current_line": 43,
+          "status": "identical"
+        },
+        {
+          "unit": "### CHECK — установить фактические свойства",
+          "prior_line": 51,
+          "current_line": 51,
+          "status": "identical"
+        },
+        {
+          "unit": "### TYPE — текст плохо читается или не выдержал перевод",
+          "prior_line": 59,
+          "current_line": 59,
+          "status": "identical"
+        },
+        {
+          "unit": "# Visual Interface Design - Preface",
+          "prior_line": 67,
+          "current_line": 67,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:1 - Problem frame — читатель и предмет",
+          "prior_line": 69,
+          "current_line": 69,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:2 - Problem и Forces — что требуется согласовать",
+          "prior_line": 77,
+          "current_line": 77,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:3 - Solution — репертуар и соединения",
+          "prior_line": 83,
+          "current_line": 83,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:4 - Внешние результаты и возврат в репертуар",
+          "prior_line": 95,
+          "current_line": 95,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:5 - Archetypal Grounding — выразительная страница и спокойный реестр",
+          "prior_line": 109,
+          "current_line": 109,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:6 - Bias-Annotation и границы свидетельств",
+          "prior_line": 133,
+          "current_line": 133,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:7 - Conformance Checklist — достаточное применение",
+          "prior_line": 137,
+          "current_line": 137,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:8 - Common Anti-Patterns и Consequences — цена и типовые потери",
+          "prior_line": 141,
+          "current_line": 141,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:9 - Architectural Rationale — почему эти входы",
+          "prior_line": 145,
+          "current_line": 145,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:10 - SoTA-Echoing — что изменяет способ",
+          "prior_line": 151,
+          "current_line": 151,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:11 - Relations и пересмотр",
+          "prior_line": 155,
+          "current_line": 155,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:End",
+          "prior_line": 159,
+          "current_line": 159,
+          "status": "identical"
+        },
+        {
+          "unit": "# Patterns",
+          "prior_line": 161,
+          "current_line": 161,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.1 - Установить задачу и сохраняемое содержание",
+          "prior_line": 163,
+          "current_line": 163,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:1 - Problem frame",
+          "prior_line": 169,
+          "current_line": 169,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:2 - Problem",
+          "prior_line": 173,
+          "current_line": 173,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:3 - Forces",
+          "prior_line": 177,
+          "current_line": 177,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:4 - Solution",
+          "prior_line": 181,
+          "current_line": 181,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.1:5 - Archetypal Grounding",
+          "prior_line": 191,
+          "current_line": 191,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:6 - Bias-Annotation",
+          "prior_line": 199,
+          "current_line": 199,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:7 - Conformance Checklist",
+          "prior_line": 203,
+          "current_line": 203,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 207,
+          "current_line": 207,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:9 - Consequences",
+          "prior_line": 211,
+          "current_line": 211,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:10 - Architectural Rationale",
+          "prior_line": 215,
+          "current_line": 215,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:11 - SoTA-Echoing",
+          "prior_line": 219,
+          "current_line": 219,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:12 - Relations",
+          "prior_line": 225,
+          "current_line": 225,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:End",
+          "prior_line": 229,
+          "current_line": 229,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.2 - Выбрать и выразить визуальное направление",
+          "prior_line": 231,
+          "current_line": 231,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:1 - Problem frame",
+          "prior_line": 237,
+          "current_line": 237,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:2 - Problem",
+          "prior_line": 241,
+          "current_line": 241,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:3 - Forces",
+          "prior_line": 245,
+          "current_line": 245,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:4 - Solution",
+          "prior_line": 249,
+          "current_line": 249,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:5 - Archetypal Grounding",
+          "prior_line": 257,
+          "current_line": 257,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:6 - Bias-Annotation",
+          "prior_line": 265,
+          "current_line": 265,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:7 - Conformance Checklist",
+          "prior_line": 269,
+          "current_line": 269,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 275,
+          "current_line": 275,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:9 - Consequences",
+          "prior_line": 279,
+          "current_line": 279,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:10 - Architectural Rationale",
+          "prior_line": 283,
+          "current_line": 283,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:11 - SoTA-Echoing",
+          "prior_line": 287,
+          "current_line": 287,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:12 - Relations",
+          "prior_line": 295,
+          "current_line": 295,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:End",
+          "prior_line": 299,
+          "current_line": 299,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.7 - Настроить типографическую систему",
+          "prior_line": 301,
+          "current_line": 301,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:1 - Problem frame",
+          "prior_line": 307,
+          "current_line": 307,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:2 - Problem",
+          "prior_line": 311,
+          "current_line": 311,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:3 - Forces",
+          "prior_line": 315,
+          "current_line": 315,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:4 - Solution",
+          "prior_line": 319,
+          "current_line": 319,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:5 - Archetypal Grounding",
+          "prior_line": 329,
+          "current_line": 329,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:6 - Bias-Annotation",
+          "prior_line": 335,
+          "current_line": 335,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:7 - Conformance Checklist",
+          "prior_line": 339,
+          "current_line": 339,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 345,
+          "current_line": 345,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:9 - Consequences",
+          "prior_line": 349,
+          "current_line": 349,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:10 - Architectural Rationale",
+          "prior_line": 353,
+          "current_line": 353,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:11 - SoTA-Echoing",
+          "prior_line": 357,
+          "current_line": 357,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:12 - Relations",
+          "prior_line": 365,
+          "current_line": 365,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:End",
+          "prior_line": 369,
+          "current_line": 369,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.3 - Построить читаемую композицию",
+          "prior_line": 371,
+          "current_line": 371,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:1 - Problem frame",
+          "prior_line": 377,
+          "current_line": 377,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:2 - Problem",
+          "prior_line": 381,
+          "current_line": 381,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:3 - Forces",
+          "prior_line": 385,
+          "current_line": 385,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:4 - Solution",
+          "prior_line": 389,
+          "current_line": 389,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:5 - Archetypal Grounding",
+          "prior_line": 399,
+          "current_line": 399,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:6 - Bias-Annotation",
+          "prior_line": 405,
+          "current_line": 405,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:7 - Conformance Checklist",
+          "prior_line": 409,
+          "current_line": 409,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 413,
+          "current_line": 413,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:9 - Consequences",
+          "prior_line": 417,
+          "current_line": 417,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:10 - Architectural Rationale",
+          "prior_line": 421,
+          "current_line": 421,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:11 - SoTA-Echoing",
+          "prior_line": 425,
+          "current_line": 425,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:12 - Relations",
+          "prior_line": 431,
+          "current_line": 431,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:End",
+          "prior_line": 435,
+          "current_line": 435,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.8 - Выбрать цветовые отношения",
+          "prior_line": 437,
+          "current_line": 437,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:1 - Problem frame",
+          "prior_line": 443,
+          "current_line": 443,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:2 - Problem",
+          "prior_line": 447,
+          "current_line": 447,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:3 - Forces",
+          "prior_line": 451,
+          "current_line": 451,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:4 - Solution",
+          "prior_line": 455,
+          "current_line": 455,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:5 - Archetypal Grounding",
+          "prior_line": 467,
+          "current_line": 467,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:6 - Bias-Annotation",
+          "prior_line": 475,
+          "current_line": 475,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:7 - Conformance Checklist",
+          "prior_line": 479,
+          "current_line": 479,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 485,
+          "current_line": 485,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:9 - Consequences",
+          "prior_line": 489,
+          "current_line": 489,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:10 - Architectural Rationale",
+          "prior_line": 493,
+          "current_line": 493,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:11 - SoTA-Echoing",
+          "prior_line": 497,
+          "current_line": 497,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:12 - Relations",
+          "prior_line": 503,
+          "current_line": 503,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:End",
+          "prior_line": 507,
+          "current_line": 507,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.9 - Назначить работу изображению",
+          "prior_line": 509,
+          "current_line": 509,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:1 - Problem frame",
+          "prior_line": 515,
+          "current_line": 515,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:2 - Problem",
+          "prior_line": 519,
+          "current_line": 519,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:3 - Forces",
+          "prior_line": 523,
+          "current_line": 523,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:4 - Solution",
+          "prior_line": 527,
+          "current_line": 527,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:5 - Archetypal Grounding",
+          "prior_line": 539,
+          "current_line": 541,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:6 - Bias-Annotation",
+          "prior_line": 545,
+          "current_line": 549,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:7 - Conformance Checklist",
+          "prior_line": 549,
+          "current_line": 553,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 553,
+          "current_line": 557,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:9 - Consequences",
+          "prior_line": 557,
+          "current_line": 561,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:10 - Architectural Rationale",
+          "prior_line": 561,
+          "current_line": 565,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:11 - SoTA-Echoing",
+          "prior_line": 565,
+          "current_line": 569,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:12 - Relations",
+          "prior_line": 573,
+          "current_line": 577,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:End",
+          "prior_line": 577,
+          "current_line": 581,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.4 - Сохранить смысл и действия при адаптации",
+          "prior_line": 579,
+          "current_line": 583,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:1 - Problem frame",
+          "prior_line": 585,
+          "current_line": 589,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:2 - Problem",
+          "prior_line": 589,
+          "current_line": 593,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:3 - Forces",
+          "prior_line": 593,
+          "current_line": 597,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:4 - Solution",
+          "prior_line": 597,
+          "current_line": 601,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.4:5 - Archetypal Grounding",
+          "prior_line": 609,
+          "current_line": 613,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:6 - Bias-Annotation",
+          "prior_line": 617,
+          "current_line": 621,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:7 - Conformance Checklist",
+          "prior_line": 621,
+          "current_line": 625,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 625,
+          "current_line": 629,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:9 - Consequences",
+          "prior_line": 629,
+          "current_line": 633,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:10 - Architectural Rationale",
+          "prior_line": 633,
+          "current_line": 637,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:11 - SoTA-Echoing",
+          "prior_line": 637,
+          "current_line": 641,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.4:12 - Relations",
+          "prior_line": 645,
+          "current_line": 649,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:End",
+          "prior_line": 649,
+          "current_line": 653,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.10 - Выразить состояния и переходы",
+          "prior_line": 651,
+          "current_line": 655,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:1 - Problem frame",
+          "prior_line": 657,
+          "current_line": 661,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:2 - Problem",
+          "prior_line": 661,
+          "current_line": 665,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:3 - Forces",
+          "prior_line": 665,
+          "current_line": 669,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:4 - Solution",
+          "prior_line": 669,
+          "current_line": 673,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:5 - Archetypal Grounding",
+          "prior_line": 681,
+          "current_line": 685,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:6 - Bias-Annotation",
+          "prior_line": 691,
+          "current_line": 695,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:7 - Conformance Checklist",
+          "prior_line": 695,
+          "current_line": 699,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 701,
+          "current_line": 705,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:9 - Consequences",
+          "prior_line": 707,
+          "current_line": 711,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:10 - Architectural Rationale",
+          "prior_line": 711,
+          "current_line": 715,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:11 - SoTA-Echoing",
+          "prior_line": 715,
+          "current_line": 719,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:12 - Relations",
+          "prior_line": 723,
+          "current_line": 727,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:End",
+          "prior_line": 727,
+          "current_line": 731,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.5 - Реализовать визуальные роли средствами интерфейса",
+          "prior_line": 729,
+          "current_line": 733,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:1 - Problem frame",
+          "prior_line": 735,
+          "current_line": 739,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:2 - Problem",
+          "prior_line": 739,
+          "current_line": 743,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:3 - Forces",
+          "prior_line": 743,
+          "current_line": 747,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:4 - Solution",
+          "prior_line": 747,
+          "current_line": 751,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.5:5 - Archetypal Grounding",
+          "prior_line": 759,
+          "current_line": 763,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:6 - Bias-Annotation",
+          "prior_line": 767,
+          "current_line": 771,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:7 - Conformance Checklist",
+          "prior_line": 771,
+          "current_line": 775,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 775,
+          "current_line": 779,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:9 - Consequences",
+          "prior_line": 779,
+          "current_line": 783,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:10 - Architectural Rationale",
+          "prior_line": 783,
+          "current_line": 787,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:11 - SoTA-Echoing",
+          "prior_line": 787,
+          "current_line": 791,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.5:12 - Relations",
+          "prior_line": 795,
+          "current_line": 799,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:End",
+          "prior_line": 799,
+          "current_line": 803,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.11 - Провести предметную критику дизайна",
+          "prior_line": 801,
+          "current_line": 805,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:1 - Problem frame",
+          "prior_line": 807,
+          "current_line": 811,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:2 - Problem",
+          "prior_line": 811,
+          "current_line": 815,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:3 - Forces",
+          "prior_line": 815,
+          "current_line": 819,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:4 - Solution",
+          "prior_line": 819,
+          "current_line": 823,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:5 - Archetypal Grounding",
+          "prior_line": 829,
+          "current_line": 833,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:6 - Bias-Annotation",
+          "prior_line": 835,
+          "current_line": 839,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:7 - Conformance Checklist",
+          "prior_line": 839,
+          "current_line": 843,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 845,
+          "current_line": 849,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:9 - Consequences",
+          "prior_line": 849,
+          "current_line": 853,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:10 - Architectural Rationale",
+          "prior_line": 853,
+          "current_line": 857,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:11 - SoTA-Echoing",
+          "prior_line": 857,
+          "current_line": 861,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:12 - Relations",
+          "prior_line": 865,
+          "current_line": 869,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:End",
+          "prior_line": 869,
+          "current_line": 873,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.6 - Проверить отображение и исправить причину",
+          "prior_line": 871,
+          "current_line": 875,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:1 - Problem frame",
+          "prior_line": 877,
+          "current_line": 881,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:2 - Problem",
+          "prior_line": 881,
+          "current_line": 885,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:3 - Forces",
+          "prior_line": 885,
+          "current_line": 889,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:4 - Solution",
+          "prior_line": 889,
+          "current_line": 893,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:5 - Archetypal Grounding",
+          "prior_line": 901,
+          "current_line": 905,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:6 - Bias-Annotation",
+          "prior_line": 909,
+          "current_line": 913,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:7 - Conformance Checklist",
+          "prior_line": 913,
+          "current_line": 917,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 919,
+          "current_line": 923,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:9 - Consequences",
+          "prior_line": 923,
+          "current_line": 927,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:10 - Architectural Rationale",
+          "prior_line": 927,
+          "current_line": 931,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:11 - SoTA-Echoing",
+          "prior_line": 931,
+          "current_line": 935,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:12 - Relations",
+          "prior_line": 939,
+          "current_line": 943,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:End",
+          "prior_line": 943,
+          "current_line": 947,
+          "status": "identical"
+        },
+        {
+          "unit": "# Источники, издание и пересмотр",
+          "prior_line": 945,
+          "current_line": 949,
+          "status": "identical"
+        },
+        {
+          "unit": "## Источники и их роли",
+          "prior_line": 949,
+          "current_line": 953,
+          "status": "changed"
+        },
+        {
+          "unit": "## Точные внешние соединения и каноническая основа",
+          "prior_line": 982,
+          "current_line": 987,
+          "status": "identical"
+        },
+        {
+          "unit": "## Зависимость от канонических различений",
+          "prior_line": 986,
+          "current_line": 991,
+          "status": "identical"
+        },
+        {
+          "unit": "## Что сохранено в публичном носителе",
+          "prior_line": 992,
+          "current_line": 997,
+          "status": "identical"
+        },
+        {
+          "unit": "## Преемственность и условия пересмотра",
+          "prior_line": 998,
+          "current_line": 1003,
+          "status": "identical"
+        }
+      ],
+      "new_headings": []
+    },
+    "predecessor": {
+      "ref": "0389ac984d4cea0a3bca18bc917be4315b641c33",
+      "sha256": "5475436cc9e0cb20b37f5d5ad331f15e3424dbe70b957114ec388f6c37f2d4be",
+      "rows": [
+        {
+          "unit": "# Visual Interface Design Principles Framework",
+          "prior_line": 1,
+          "current_line": 1,
+          "status": "changed"
+        },
+        {
+          "unit": "# Table of Contents",
+          "prior_line": 5,
+          "current_line": 5,
+          "status": "changed"
+        },
+        {
+          "unit": "# Visual Interface Design - Readme",
+          "prior_line": 27,
+          "current_line": 27,
+          "status": "identical"
+        },
+        {
+          "unit": "## Practical entries",
+          "prior_line": 29,
+          "current_line": 29,
+          "status": "identical"
+        },
+        {
+          "unit": "### NEW — новое выразительное решение",
+          "prior_line": 35,
+          "current_line": 35,
+          "status": "changed"
+        },
+        {
+          "unit": "### EXISTING — достаточный бренд и локальная помеха",
+          "prior_line": 43,
+          "current_line": 43,
+          "status": "identical"
+        },
+        {
+          "unit": "### CHECK — установить фактические свойства",
+          "prior_line": 51,
+          "current_line": 51,
+          "status": "identical"
+        },
+        {
+          "unit": "### TYPE — текст плохо читается или не выдержал перевод",
+          "prior_line": 59,
+          "current_line": 59,
+          "status": "identical"
+        },
+        {
+          "unit": "# Visual Interface Design - Preface",
+          "prior_line": 67,
+          "current_line": 67,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:1 - Problem frame — читатель и предмет",
+          "prior_line": 69,
+          "current_line": 69,
+          "status": "changed"
+        },
+        {
+          "unit": "## VID.Preface:2 - Problem и Forces — что требуется согласовать",
+          "prior_line": 75,
+          "current_line": 77,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:3 - Solution — репертуар и соединения",
+          "prior_line": 81,
+          "current_line": 83,
+          "status": "changed"
+        },
+        {
+          "unit": "## VID.Preface:4 - Внешние результаты и возврат в репертуар",
+          "prior_line": 91,
+          "current_line": 95,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:5 - Archetypal Grounding — выразительная страница и спокойный реестр",
+          "prior_line": 105,
+          "current_line": 109,
+          "status": "changed"
+        },
+        {
+          "unit": "## VID.Preface:6 - Bias-Annotation и границы свидетельств",
+          "prior_line": 127,
+          "current_line": 133,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:7 - Conformance Checklist — достаточное применение",
+          "prior_line": 131,
+          "current_line": 137,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:8 - Common Anti-Patterns и Consequences — цена и типовые потери",
+          "prior_line": 135,
+          "current_line": 141,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:9 - Architectural Rationale — почему эти входы",
+          "prior_line": 139,
+          "current_line": 145,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:10 - SoTA-Echoing — что изменяет способ",
+          "prior_line": 145,
+          "current_line": 151,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:11 - Relations и пересмотр",
+          "prior_line": 149,
+          "current_line": 155,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.Preface:End",
+          "prior_line": 153,
+          "current_line": 159,
+          "status": "identical"
+        },
+        {
+          "unit": "# Patterns",
+          "prior_line": 155,
+          "current_line": 161,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.1 - Установить задачу и сохраняемое содержание",
+          "prior_line": 157,
+          "current_line": 163,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:1 - Problem frame",
+          "prior_line": 163,
+          "current_line": 169,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:2 - Problem",
+          "prior_line": 167,
+          "current_line": 173,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:3 - Forces",
+          "prior_line": 171,
+          "current_line": 177,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:4 - Solution",
+          "prior_line": 175,
+          "current_line": 181,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.1:5 - Archetypal Grounding",
+          "prior_line": 183,
+          "current_line": 191,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:6 - Bias-Annotation",
+          "prior_line": 191,
+          "current_line": 199,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:7 - Conformance Checklist",
+          "prior_line": 195,
+          "current_line": 203,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 199,
+          "current_line": 207,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:9 - Consequences",
+          "prior_line": 203,
+          "current_line": 211,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:10 - Architectural Rationale",
+          "prior_line": 207,
+          "current_line": 215,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:11 - SoTA-Echoing",
+          "prior_line": 211,
+          "current_line": 219,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:12 - Relations",
+          "prior_line": 217,
+          "current_line": 225,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.1:End",
+          "prior_line": 221,
+          "current_line": 229,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.2 - Выбрать и выразить визуальное направление",
+          "prior_line": 223,
+          "current_line": 231,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:1 - Problem frame",
+          "prior_line": 229,
+          "current_line": 237,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.2:2 - Problem",
+          "prior_line": 233,
+          "current_line": 241,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:3 - Forces",
+          "prior_line": 237,
+          "current_line": 245,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:4 - Solution",
+          "prior_line": 241,
+          "current_line": 249,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.2:5 - Archetypal Grounding",
+          "prior_line": 249,
+          "current_line": 257,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.2:6 - Bias-Annotation",
+          "prior_line": 255,
+          "current_line": 265,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:7 - Conformance Checklist",
+          "prior_line": 259,
+          "current_line": 269,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.2:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 263,
+          "current_line": 275,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:9 - Consequences",
+          "prior_line": 267,
+          "current_line": 279,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:10 - Architectural Rationale",
+          "prior_line": 271,
+          "current_line": 283,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:11 - SoTA-Echoing",
+          "prior_line": 275,
+          "current_line": 287,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.2:12 - Relations",
+          "prior_line": 281,
+          "current_line": 295,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.2:End",
+          "prior_line": 285,
+          "current_line": 299,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.7 - Настроить типографическую систему",
+          "prior_line": 287,
+          "current_line": 301,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:1 - Problem frame",
+          "prior_line": 293,
+          "current_line": 307,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:2 - Problem",
+          "prior_line": 297,
+          "current_line": 311,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:3 - Forces",
+          "prior_line": 301,
+          "current_line": 315,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:4 - Solution",
+          "prior_line": 305,
+          "current_line": 319,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.7:5 - Archetypal Grounding",
+          "prior_line": 315,
+          "current_line": 329,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:6 - Bias-Annotation",
+          "prior_line": 321,
+          "current_line": 335,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:7 - Conformance Checklist",
+          "prior_line": 325,
+          "current_line": 339,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.7:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 329,
+          "current_line": 345,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:9 - Consequences",
+          "prior_line": 333,
+          "current_line": 349,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:10 - Architectural Rationale",
+          "prior_line": 337,
+          "current_line": 353,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:11 - SoTA-Echoing",
+          "prior_line": 341,
+          "current_line": 357,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.7:12 - Relations",
+          "prior_line": 347,
+          "current_line": 365,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.7:End",
+          "prior_line": 351,
+          "current_line": 369,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.3 - Построить читаемую композицию",
+          "prior_line": 353,
+          "current_line": 371,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:1 - Problem frame",
+          "prior_line": 359,
+          "current_line": 377,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:2 - Problem",
+          "prior_line": 363,
+          "current_line": 381,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:3 - Forces",
+          "prior_line": 367,
+          "current_line": 385,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:4 - Solution",
+          "prior_line": 371,
+          "current_line": 389,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:5 - Archetypal Grounding",
+          "prior_line": 381,
+          "current_line": 399,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:6 - Bias-Annotation",
+          "prior_line": 387,
+          "current_line": 405,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:7 - Conformance Checklist",
+          "prior_line": 391,
+          "current_line": 409,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 395,
+          "current_line": 413,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:9 - Consequences",
+          "prior_line": 399,
+          "current_line": 417,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:10 - Architectural Rationale",
+          "prior_line": 403,
+          "current_line": 421,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:11 - SoTA-Echoing",
+          "prior_line": 407,
+          "current_line": 425,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:12 - Relations",
+          "prior_line": 413,
+          "current_line": 431,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.3:End",
+          "prior_line": 417,
+          "current_line": 435,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.8 - Выбрать цветовые отношения",
+          "prior_line": 419,
+          "current_line": 437,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:1 - Problem frame",
+          "prior_line": 425,
+          "current_line": 443,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:2 - Problem",
+          "prior_line": 429,
+          "current_line": 447,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:3 - Forces",
+          "prior_line": 433,
+          "current_line": 451,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:4 - Solution",
+          "prior_line": 437,
+          "current_line": 455,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.8:5 - Archetypal Grounding",
+          "prior_line": 449,
+          "current_line": 467,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.8:6 - Bias-Annotation",
+          "prior_line": 455,
+          "current_line": 475,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:7 - Conformance Checklist",
+          "prior_line": 459,
+          "current_line": 479,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.8:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 463,
+          "current_line": 485,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:9 - Consequences",
+          "prior_line": 467,
+          "current_line": 489,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:10 - Architectural Rationale",
+          "prior_line": 471,
+          "current_line": 493,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:11 - SoTA-Echoing",
+          "prior_line": 475,
+          "current_line": 497,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.8:12 - Relations",
+          "prior_line": 481,
+          "current_line": 503,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.8:End",
+          "prior_line": 485,
+          "current_line": 507,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.9 - Назначить работу изображению",
+          "prior_line": 487,
+          "current_line": 509,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:1 - Problem frame",
+          "prior_line": 493,
+          "current_line": 515,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:2 - Problem",
+          "prior_line": 497,
+          "current_line": 519,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:3 - Forces",
+          "prior_line": 501,
+          "current_line": 523,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:4 - Solution",
+          "prior_line": 505,
+          "current_line": 527,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:5 - Archetypal Grounding",
+          "prior_line": 515,
+          "current_line": 541,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:6 - Bias-Annotation",
+          "prior_line": 521,
+          "current_line": 549,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:7 - Conformance Checklist",
+          "prior_line": 525,
+          "current_line": 553,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 529,
+          "current_line": 557,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:9 - Consequences",
+          "prior_line": 533,
+          "current_line": 561,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:10 - Architectural Rationale",
+          "prior_line": 537,
+          "current_line": 565,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:11 - SoTA-Echoing",
+          "prior_line": 541,
+          "current_line": 569,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.9:12 - Relations",
+          "prior_line": 547,
+          "current_line": 577,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.9:End",
+          "prior_line": 551,
+          "current_line": 581,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.4 - Сохранить смысл и действия при адаптации",
+          "prior_line": 553,
+          "current_line": 583,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:1 - Problem frame",
+          "prior_line": 559,
+          "current_line": 589,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:2 - Problem",
+          "prior_line": 563,
+          "current_line": 593,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:3 - Forces",
+          "prior_line": 567,
+          "current_line": 597,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:4 - Solution",
+          "prior_line": 571,
+          "current_line": 601,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.4:5 - Archetypal Grounding",
+          "prior_line": 581,
+          "current_line": 613,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.4:6 - Bias-Annotation",
+          "prior_line": 587,
+          "current_line": 621,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:7 - Conformance Checklist",
+          "prior_line": 591,
+          "current_line": 625,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 595,
+          "current_line": 629,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:9 - Consequences",
+          "prior_line": 599,
+          "current_line": 633,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:10 - Architectural Rationale",
+          "prior_line": 603,
+          "current_line": 637,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:11 - SoTA-Echoing",
+          "prior_line": 607,
+          "current_line": 641,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.4:12 - Relations",
+          "prior_line": 613,
+          "current_line": 649,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.4:End",
+          "prior_line": 617,
+          "current_line": 653,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.10 - Выразить состояния и переходы",
+          "prior_line": 619,
+          "current_line": 655,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:1 - Problem frame",
+          "prior_line": 625,
+          "current_line": 661,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:2 - Problem",
+          "prior_line": 629,
+          "current_line": 665,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:3 - Forces",
+          "prior_line": 633,
+          "current_line": 669,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:4 - Solution",
+          "prior_line": 637,
+          "current_line": 673,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:5 - Archetypal Grounding",
+          "prior_line": 647,
+          "current_line": 685,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:6 - Bias-Annotation",
+          "prior_line": 653,
+          "current_line": 695,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:7 - Conformance Checklist",
+          "prior_line": 657,
+          "current_line": 699,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 661,
+          "current_line": 705,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:9 - Consequences",
+          "prior_line": 665,
+          "current_line": 711,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:10 - Architectural Rationale",
+          "prior_line": 669,
+          "current_line": 715,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:11 - SoTA-Echoing",
+          "prior_line": 673,
+          "current_line": 719,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.10:12 - Relations",
+          "prior_line": 679,
+          "current_line": 727,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.10:End",
+          "prior_line": 683,
+          "current_line": 731,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.5 - Реализовать визуальные роли средствами интерфейса",
+          "prior_line": 685,
+          "current_line": 733,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:1 - Problem frame",
+          "prior_line": 691,
+          "current_line": 739,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:2 - Problem",
+          "prior_line": 695,
+          "current_line": 743,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:3 - Forces",
+          "prior_line": 699,
+          "current_line": 747,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:4 - Solution",
+          "prior_line": 703,
+          "current_line": 751,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.5:5 - Archetypal Grounding",
+          "prior_line": 713,
+          "current_line": 763,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.5:6 - Bias-Annotation",
+          "prior_line": 719,
+          "current_line": 771,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:7 - Conformance Checklist",
+          "prior_line": 723,
+          "current_line": 775,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 727,
+          "current_line": 779,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:9 - Consequences",
+          "prior_line": 731,
+          "current_line": 783,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:10 - Architectural Rationale",
+          "prior_line": 735,
+          "current_line": 787,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:11 - SoTA-Echoing",
+          "prior_line": 739,
+          "current_line": 791,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.5:12 - Relations",
+          "prior_line": 745,
+          "current_line": 799,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.5:End",
+          "prior_line": 749,
+          "current_line": 803,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.11 - Провести предметную критику дизайна",
+          "prior_line": 751,
+          "current_line": 805,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:1 - Problem frame",
+          "prior_line": 757,
+          "current_line": 811,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:2 - Problem",
+          "prior_line": 761,
+          "current_line": 815,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:3 - Forces",
+          "prior_line": 765,
+          "current_line": 819,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:4 - Solution",
+          "prior_line": 769,
+          "current_line": 823,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.11:5 - Archetypal Grounding",
+          "prior_line": 779,
+          "current_line": 833,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.11:6 - Bias-Annotation",
+          "prior_line": 785,
+          "current_line": 839,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:7 - Conformance Checklist",
+          "prior_line": 789,
+          "current_line": 843,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.11:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 793,
+          "current_line": 849,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:9 - Consequences",
+          "prior_line": 797,
+          "current_line": 853,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:10 - Architectural Rationale",
+          "prior_line": 801,
+          "current_line": 857,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:11 - SoTA-Echoing",
+          "prior_line": 805,
+          "current_line": 861,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.11:12 - Relations",
+          "prior_line": 811,
+          "current_line": 869,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.11:End",
+          "prior_line": 815,
+          "current_line": 873,
+          "status": "identical"
+        },
+        {
+          "unit": "## VID.6 - Проверить отображение и исправить причину",
+          "prior_line": 817,
+          "current_line": 875,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:1 - Problem frame",
+          "prior_line": 823,
+          "current_line": 881,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:2 - Problem",
+          "prior_line": 827,
+          "current_line": 885,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:3 - Forces",
+          "prior_line": 831,
+          "current_line": 889,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:4 - Solution",
+          "prior_line": 835,
+          "current_line": 893,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:5 - Archetypal Grounding",
+          "prior_line": 845,
+          "current_line": 905,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:6 - Bias-Annotation",
+          "prior_line": 851,
+          "current_line": 913,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:7 - Conformance Checklist",
+          "prior_line": 855,
+          "current_line": 917,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:8 - Common Anti-Patterns and How to Avoid Them",
+          "prior_line": 859,
+          "current_line": 923,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:9 - Consequences",
+          "prior_line": 863,
+          "current_line": 927,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:10 - Architectural Rationale",
+          "prior_line": 867,
+          "current_line": 931,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:11 - SoTA-Echoing",
+          "prior_line": 871,
+          "current_line": 935,
+          "status": "changed"
+        },
+        {
+          "unit": "### VID.6:12 - Relations",
+          "prior_line": 877,
+          "current_line": 943,
+          "status": "identical"
+        },
+        {
+          "unit": "### VID.6:End",
+          "prior_line": 881,
+          "current_line": 947,
+          "status": "identical"
+        },
+        {
+          "unit": "# Источники, издание и пересмотр",
+          "prior_line": 883,
+          "current_line": 949,
+          "status": "changed"
+        },
+        {
+          "unit": "## Источники и их роли",
+          "prior_line": 887,
+          "current_line": 953,
+          "status": "changed"
+        },
+        {
+          "unit": "## Точные внешние соединения и каноническая основа",
+          "prior_line": 916,
+          "current_line": 987,
+          "status": "identical"
+        },
+        {
+          "unit": "## Зависимость от канонических различений",
+          "prior_line": 920,
+          "current_line": 991,
+          "status": "identical"
+        },
+        {
+          "unit": "## Что сохранено в публичном носителе",
+          "prior_line": 926,
+          "current_line": 997,
+          "status": "identical"
+        },
+        {
+          "unit": "## Преемственность и условия пересмотра",
+          "prior_line": 932,
+          "current_line": 1003,
+          "status": "identical"
+        }
+      ],
+      "new_headings": []
+    }
+  }
+}

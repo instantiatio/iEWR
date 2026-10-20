@@ -1,0 +1,236 @@
+{
+  "configuration": "single reviewer WEP round-1",
+  "phaseBoundary": "initial.md created once after public-only reading and before other DPF/history/FPF/quality material",
+  "initialSHA256": "7b87c02ba3e429baed4a4a039f2e92ee3ad9d3384edc1d445e2f588de2b8e4b6",
+  "enforcedIsolation": false,
+  "compensation": "instruction boundary + actual ordered reads + this report; same filesystem accessible",
+  "local": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/REVIEW_PROTOCOL.md",
+      "sha256": "8a6c94522a3d05112a62c3e265f191de1a8db1981977c2302e0851226f498fb1",
+      "phase": "before initial",
+      "readExtent": "full",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/WEP-REQUEST.json",
+      "sha256": "c65e5259049f203b789048584c734117cacceb559991ad2af6b4b28d89f6659a",
+      "phase": "before initial",
+      "readExtent": "full",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/WEP/0.2.0/WEP.md",
+      "sha256": "924c4b31da035a1ebdd0ae84ced4894debdc9ea8739f8cefb972d7c07283e5e5",
+      "phase": "before and after initial",
+      "readExtent": "before: broad cat truncated, embedded public entry/Reference, explicit 190–420 and 560–800; after: complete public main using all ranges and overlap; 1049 lines, no current text excluded",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/WEP-RESTORE.json",
+      "sha256": "95844578f9f3272da619c9e25a6e8a0c9b097a4b10870a7ae73b771b369a6d53",
+      "phase": "after initial",
+      "readExtent": "full machine data inspected and exact zero-based half-open reconstruction",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/CHANGES.json",
+      "sha256": "44be54fc8dd0bce02d417e3cfd15493ba46d3c22b0df7ea10ede2044892f3b47",
+      "phase": "after initial",
+      "readExtent": "initial broad output accidentally included other branches in truncated tail; not relied on. WEP branch subsequently read in full; 25 accepted entries interpreted against final text, not historical intermediate prose",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/predecessors/WEP/WEP.md",
+      "sha256": "4570bc23bb8515e692d72100789e129ef803f5ad08181a7cd252a206f32ca3d6",
+      "phase": "after initial",
+      "readExtent": "all 1049 lines through full current equal-spans plus every changed/deleted span; 1030 equal lines and 18 differing spans (19 differing lines), complete inventory traversed",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/WEP/0.2.0/README.md",
+      "sha256": "c171cce3288dd342d4286512537925998f28ee85ee3bab08d68d07662b08f9ca",
+      "phase": "after initial",
+      "readExtent": "full",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/WEP/0.2.0/PROVENANCE.md",
+      "sha256": "8053529200fea499152802ce01ef6d9f53898e3e44db73f60db5bca84142759d",
+      "phase": "after initial",
+      "readExtent": "full with initial truncated-output reread of tail",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/WEP/0.2.0/VERIFICATION.md",
+      "sha256": "b010bbd08c3b325bce65d367ecb84aabd931a81243e8adfacabecddb8674105a",
+      "phase": "after initial",
+      "readExtent": "full",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/prior-review/WEP/README.md",
+      "sha256": "e71bf3049e42f7f34e3a966da3838a73cf18b35fe72a33e86a5cf61c9c3ac118",
+      "phase": "after initial",
+      "readExtent": "full",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/prior-review/WEP/REVIEW.md",
+      "sha256": "d0662b8afec1a079598c2d0a8540eee5e6d3508bd7ca034018460bc7f61cb63e",
+      "phase": "after initial",
+      "readExtent": "selected configuration/source/maturity/recovery/PFIP sections; output truncated; not full independent source review and no grades inherited",
+      "access": "read successful; truncations explicitly shown"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/docs/DPF_FORMATION_METHOD.md",
+      "sha256": "d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea",
+      "phase": "after initial",
+      "readExtent": "full",
+      "access": "success"
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+      "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+      "phase": "after initial",
+      "readExtent": "Selected original bodies/sections only: E.4.DPF:4/source routes/4.0, E.4.PFAD:4.1.1–4.4, E.4.PFIP:4–7, E.8:0–4.1 and 4.1.2 excerpts/11, E.11.PFP:4.1–4.2/4.5–4.7.1, E.19:4.1–4.2 and :4.3.3/4.4 excerpts, E.21:1–4.5 including all coordinates/scale/profile/maturity/source rules, E.4.DPF.DA:1–4.5/7 excerpts including all D/PFM questions; E.22:4.3; C.39:1–5 selected comparator. No full-FPF read. Some large output calls were truncated; required coordinate/source/profile rules then explicitly reread. First broad rg discovery returned unrelated matching headings/text snippets, not used. Additional explicit read: E.21:4.5.1–4.7 mandatory cap/result rules; E.11.PFP:4.3 full ordinary/card grammar.",
+      "access": "success; digest exact request pin"
+    }
+  ],
+  "web": [
+    {
+      "url": "https://editors.ca/publications/professional-editorial-standards/",
+      "phase": "after initial",
+      "readExtent": "PES 2024 introduction: scope/stages/error/productivity limitations",
+      "basisAndLimits": "primary official overview; no entire standard read",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://editors.ca/publications/professional-editorial-standards/fundamentals-editing/",
+      "phase": "after initial",
+      "readExtent": "A1–A4 selected; especially A2 scope/meaning and A3 overlapping stages",
+      "basisAndLimits": "primary official 2024 content",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://editors.ca/publications/professional-editorial-standards/stylistic-editing/",
+      "phase": "after initial",
+      "readExtent": "C1–C5 selected; construction, voice/style, narrative context",
+      "basisAndLimits": "primary official 2024 content",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://www.w3.org/TR/its20/",
+      "phase": "after initial",
+      "readExtent": "2013 Recommendation §§8.2–8.4; code/UI untranslated examples and term annotation",
+      "basisAndLimits": "primary standard; adaptation only, not universal copyright/string-protection policy",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "phase": "after initial",
+      "readExtent": "2.4.4, 2.4.6 and 2.4.10 selected text",
+      "basisAndLimits": "primary standard; web guidance, no print certification",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://writingcenter.fas.harvard.edu/tips-organizing-your-essay",
+      "phase": "after initial",
+      "readExtent": "Strategies 1–3, especially reverse outline questions",
+      "basisAndLimits": "primary institutional guidance",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://owl.purdue.edu/owl/general_writing/the_writing_process/proofreading/revising_for_cohesion.html",
+      "phase": "after initial",
+      "readExtent": "Principles and Diagnosis/Analysis/Revision, sample repeated-topic discussion",
+      "basisAndLimits": "primary institutional guidance adapting Williams; no claim to full Williams reading",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://writingcenter.unc.edu/tips-and-tools/reading-aloud/",
+      "phase": "after initial",
+      "readExtent": "benefits, exact-text reading and avoiding smoothing, own/friend/TTS options",
+      "basisAndLimits": "primary institutional guidance; no human/audio observation performed",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://assets.cambridge.org/97811084/44088/excerpt/9781108444088_excerpt.pdf",
+      "phase": "after initial",
+      "readExtent": "Biber/Conrad Register, Genre, and Style 2nd ed.; selected pp.2–5 (register/genre/style contrast, situation factors); not complete excerpt or book",
+      "basisAndLimits": "primary publisher excerpt; supports distinction, not attributed voice-check operation",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    },
+    {
+      "url": "https://eva.fic.udelar.edu.uy/pluginfile.php/26559/mod_resource/content/1/Flower%20y%20Hayes%201981.pdf",
+      "phase": "after initial",
+      "readExtent": "Flower/Hayes 1981 original article pp.367–371 selected, human recursive planning/composing/revising and environment constraints",
+      "basisAndLimits": "primary article via university mirror; empirical human-process paper not AI efficacy evidence",
+      "access": "web tool successful",
+      "sha256": null,
+      "hashLimit": "web supplied text/PDF extraction and locator, not exact raw response bytes; no invented digest",
+      "observedOn": "2026-10-20"
+    }
+  ],
+  "priorBasisReuse": {
+    "gradesInherited": false,
+    "reused": "prior-review describes source roles/limits and prior probes; this is a secondary map only. Current bodies and substantive comparisons assessed anew; fresh sources support current source claims where needed.",
+    "notNewlyRead": "Накорякова/Галь/Zinsser/Янко/Gopen/Swan/АКАДЕМОС/НКРЯ original material not fetched. Their historical attribution is preserved, not presented as fresh independent confirmation. Concrete linguistic disputes not raised by current probes remain future task inputs."
+  },
+  "toolAndReadLimitations": [
+    "System python lacked markdown parsers; bundled existing Node marked used; no installation.",
+    "Broad CHANGES print accidentally exposed other framework change records after initial; they were not used as method supply or grounds for WEP.",
+    "Initial broad canonical rg was overbroad and truncated; unrelated snippets not relied on.",
+    "No framework mutation, agent spawning, external messaging, publication or deployment."
+  ],
+  "inputFinalSHA256": "924c4b31da035a1ebdd0ae84ced4894debdc9ea8739f8cefb972d7c07283e5e5",
+  "unchangedVsREQUEST": true,
+  "carrierInspection": {
+    "parser": "marked 17.0.5",
+    "node": "v24.19.0",
+    "runtimeBundle": "26.1017.22135",
+    "settings": "default marked lexer and parse, GFM tables",
+    "candidate": {
+      "H1": 7,
+      "headings": 189,
+      "patternIndexRows": 12,
+      "sourceTableRows": 0,
+      "sourceRowsInOneParagraph": 12,
+      "rawHTMLBlocks": 0
+    },
+    "predecessor": {
+      "sourceTableRows": 14
+    },
+    "expectedAfterAcceptedDeletion": {
+      "sourceTableRows": 12
+    },
+    "basis": "actual lexer token structure and generated HTML inspected; no browser-pixel or PDF result asserted"
+  }
+}

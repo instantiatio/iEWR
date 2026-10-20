@@ -1,0 +1,219 @@
+{
+  "review": "DDB round2 familiar recheck",
+  "inputSha256Before": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
+  "inputSha256After": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
+  "initialSha256": "86d399e92d66aed906af6eac7351f8f597a1dbb2c274fb5ddedd46bcad600490",
+  "round1AssessmentSha256": "eb070bef8c839ec605441b8a702deec0aeb33947617daca1f61547c63bd612c8",
+  "phase": "Every access after saved round1 initial and full first review; no new cold phase.",
+  "accesses": [
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/DDB-RECHECK.json",
+      "sha256": "9226113b2e9f60944ab869920d88691d96aa8ce406a956447dbe7131865efc22",
+      "sections": "whole",
+      "access": "fresh read",
+      "use": "Exact current source/initial pin, dependent scope and own write boundary."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/REPAIRS.json",
+      "sha256": "ebc93b5b99d4699ae8e576ce4890cb93b1038982fa07130579a6055f360ff36d",
+      "sections": "DDB2 source-repair rows and current_source_sha256.DDB; metadata repair entries inspected for own relevance",
+      "access": "fresh read/filtered",
+      "use": "Actual before/after compared to current source. Other-framework metadata I04/WEP/status changes do not support DDB method judgements."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/INTEGRATION_FINDINGS.json",
+      "sha256": "1ccb5c8ba0d7bc3b21b83211449e90b8a809f14f386898229c9714070b75c5d1",
+      "sections": "keys and matching DDB-containing I01 row only",
+      "access": "fresh filtered read",
+      "use": "Integration ownership context only; unrelated current workspace/NOTICE work remains parent-owned, no DDB source grade from it."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/frameworks/dpf/DDB/0.2.0/DDB.md",
+      "sha256": "d564d946dfe9760dae43588bbf2ff54f6f4ea7844382e63c533dcb538757db57",
+      "sections": "complete diff vs frozen round1; all6 complete method-body hashes; new declaration and linked tail read",
+      "access": "fresh comparison + qualified unchanged-text reuse",
+      "use": "Exact new bearer. All6 method bodies equal, all affected publication/source/cue changes separately checked."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/frameworks/dpf/DDB/0.2.0/DDB.md",
+      "sha256": "fb98104985118319d0fd398a082ac32fb9ff8bdd6dc864be5f7dd7990f05420c",
+      "sections": "whole byte correspondence, six body extents and all non-equal spans",
+      "access": "fresh comparison",
+      "use": "Exact round1 predecessor, not a label or assumed unchanged input."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/predecessors/DDB/DDB.md",
+      "sha256": "59ca20b31ea109f6f70c7a4b7c334399ffc851253c8cda8a798476a605b63f39",
+      "sections": "whole519-line original/current inventory; prior full semantic traversal retained only for exact matched contents",
+      "access": "fresh whole comparison + qualified prior semantic reading",
+      "use": "Complete original lineage preservation, independent of27 accepted contribution checks."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/DDB/0.2.0/README.md",
+      "sha256": "352ee8a40b4538460b44f925c5a85fc9b264cab8b38bd63ada1dd6f29804f24c",
+      "sections": "whole current support read and full comparison to own frozen round1; PROVENANCE original38 lines unchanged, append39–72 read",
+      "access": "fresh read/comparison",
+      "use": "Source-map/capture/entry/history/quality boundary. Combined output partly truncated historical quote already covered by exact prior equivalence; new primary-map region and current README received fully."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/docs/dpf/DDB/0.2.0/README.md",
+      "sha256": "414c0cff1fd7fe8cf01ae99be1abafa799328e2048fba8ce6be9d9a2df9a8719",
+      "sections": "whole current/frozen correspondence",
+      "access": "fresh comparison",
+      "use": "Disposition of every changed support span; no assumed unchanged sidecar."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/DDB/0.2.0/PROVENANCE.md",
+      "sha256": "711daa9e4759c1c37e1c596e4019b243681f56079a2062e734031ec62bd9fb5d",
+      "sections": "whole current support read and full comparison to own frozen round1; PROVENANCE original38 lines unchanged, append39–72 read",
+      "access": "fresh read/comparison",
+      "use": "Source-map/capture/entry/history/quality boundary. Combined output partly truncated historical quote already covered by exact prior equivalence; new primary-map region and current README received fully."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/docs/dpf/DDB/0.2.0/PROVENANCE.md",
+      "sha256": "b4ccd11f76a41028d74c4bfefbe90b019d36862ee63241b89c2ec13a8858914c",
+      "sections": "whole current/frozen correspondence",
+      "access": "fresh comparison",
+      "use": "Disposition of every changed support span; no assumed unchanged sidecar."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/DDB/0.2.0/VERIFICATION.md",
+      "sha256": "3fcf1ae2a7114f3d64e68d5bfc9aebbb486884357c2bfbb5e73a84dc20c1ca7a",
+      "sections": "whole current support read and full comparison to own frozen round1; PROVENANCE original38 lines unchanged, append39–72 read",
+      "access": "fresh read/comparison",
+      "use": "Source-map/capture/entry/history/quality boundary. Combined output partly truncated historical quote already covered by exact prior equivalence; new primary-map region and current README received fully."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/history/round-1-stage/docs/dpf/DDB/0.2.0/VERIFICATION.md",
+      "sha256": "3fcf1ae2a7114f3d64e68d5bfc9aebbb486884357c2bfbb5e73a84dc20c1ca7a",
+      "sections": "whole current/frozen correspondence",
+      "access": "fresh comparison",
+      "use": "Disposition of every changed support span; no assumed unchanged sidecar."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/DDB/round-1/assessment.json",
+      "sha256": "eb070bef8c839ec605441b8a702deec0aeb33947617daca1f61547c63bd612c8",
+      "sections": "whole parsed; all114 coordinate rationales, DA12/PFM13/D12/F19/PFIP inspected for affected property/basis",
+      "access": "qualified reuse",
+      "use": "Not automatic grades: every current row carries prior exact result hash/current body proof and scope/reader/source-premise check. Traceability/corpus/affected DA and PFM freshly judged."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/DDB/round-1/source-access.json",
+      "sha256": "34a02b19ff9c2c1b03584156843a4b9c4a9a43b670cfbb1878f3540a8423d017",
+      "sections": "prior actual reading/basis/configuration and limitations",
+      "access": "qualified reuse",
+      "use": "Prior addressed canonical/primary/comparator content reading is not called a new read or current test."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/review/DDB/round-1/initial.md",
+      "sha256": "86d399e92d66aed906af6eac7351f8f597a1dbb2c274fb5ddedd46bcad600490",
+      "sections": "hash only; prior actual response limits retained",
+      "access": "fresh hash only",
+      "use": "No rewrite, replay or new cold trial; exact expected86d399...490."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/external-sources/fpf/2026-10-19-rev-cc2e8aa9/FPF-Spec.md",
+      "sha256": "07b2f6339ec5a8add1d0a28613cd1ea8a1696fc6200d3be6774924967d09c26e",
+      "sections": "hash only now; previously read addressed E21/DA/E8/E11/E19/F19/PFIP/PFAD and C39/E3 retained per round1 source-access",
+      "access": "fresh hash + qualified addressed-reading reuse",
+      "use": "Exact07b2...26e unchanged; no whole-FPF reading or development."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/frameworks/dpf/CHK/2026-09-25-rev-9e1c4834/CHK.md",
+      "sha256": "028e882dbaa8e0df6f5a5934552ed14e8f8f7cbb0f000196b3086c214bb6f140",
+      "sections": "hash only now; prior CHK.6:4.1–4.3 retained",
+      "access": "fresh hash + qualified prior method reading",
+      "use": "Same028e...140 as catalog-qualified round1: scope the criterion/means, distinguish byte/route checks from semantic correctness and wider effects."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N01.html",
+      "sha256": "133053a3a56f926d9868a9fc508082634be3f8c8c88b60d84508c332cf6fb27e",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N02.html",
+      "sha256": "209f1abff4501a009799d186b517ce0b05637a97faef3cc2d663086ae9972e6e",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N04.html",
+      "sha256": "b65dc308fd9e0ce471844c97366a4f5ad3a1f42833a3b19486ad7d6555a8e24e",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/boundaries-2026-10-19/sources/N05.html",
+      "sha256": "23395653f04984e4310b287ed548202d874e06ecd2cba17f32b2714e5b7ebef7",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/software-dpf-development/development-2026-10-19/sources/Ramakrishnan-Gehrke-NormalForms.pdf",
+      "sha256": "3136da5266f50c2e58978b7577f28cddd7d51f146d9526875bdca2ac3568caea",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S05.html",
+      "sha256": "dbad83503774b48b2a33f70bbc9e3b21cbea40949680e1c4f6d29c206048c1aa",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S06.html",
+      "sha256": "0b5013fde5e842c82664f2d9fe599f1c8ef7756e8c3ecc254b589e3be9e0d356",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    },
+    {
+      "path": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/isdlc-research-2026-10-19/sources/S16.html",
+      "sha256": "df80af1db6661e2599a094ec5b6e9dfda0c4581c7b61c647d73d124e0449559b",
+      "sections": "bytes hash/availability only in round2",
+      "access": "fresh hash/availability",
+      "use": "Matches current own map exact capture pin; source content judgement only qualified prior selected reading (N01 supplementary provenance, no new content/effect grade)."
+    }
+  ],
+  "priorEvidenceRelation": "Round1 whole expert text/source/comparator reading is reused only where whole-body bytes, direct property, scope, reader, task and substantive source premises remain equal. Changed declaration/source map/route/README and their effects freshly read. Output has all114 current coordinate claims and all12 current DA claims; retained ordinal4 is newly affirmed from named matched content, not inherited acceptance.",
+  "freshChecks": [
+    "Whole current/frozen source and support comparisons",
+    "All6 method bodies exact equal hashes",
+    "Current linked relative path resolves to own actual heading",
+    "All8 capture locators exist and match current map SHA",
+    "One FACT/CHANGE form declaration, exactly two H3 ordinary entries and zero selected cards; practical use without mantra rechecked",
+    "Current full source original519-line and round1514-line inventories; original accepted25 + repair2 separately carried through",
+    "F1/F2 closure, affected traceability/corpus/DA/PFM/D12/F19 current judgements"
+  ],
+  "errorsAndLimitations": [
+    "No new access error. A combined support read truncated one old historical quote; exact original38-line support equality and qualified prior reading cover it. The complete new primary-map region was received.",
+    "Source captures are available in this local project, expressly not bundled into text supply; future absence keeps dependent new source check open. Hash match is not source truth/currentness/effect proof.",
+    "No live website/network availability tested, no implementation/concurrency/crash/human/production study. No new model/context independence claimed.",
+    "Shared filesystem is not isolated; own-write assignment, exact read-before-use hashes and postchecks compensate, without claiming arbitrary-writer conflict protection."
+  ],
+  "writes": [
+    "review/DDB/round-2/assessment.json",
+    "review/DDB/round-2/assessment.md",
+    "review/DDB/round-2/source-access.json"
+  ],
+  "unchangedArtifacts": [
+    "round-1/initial.md",
+    "all round1 assessment artifacts",
+    "reviewed DDB/framework/support inputs"
+  ],
+  "otherActions": "No new agents, source edits, installation, external app messages or publication.",
+  "postCheck": {
+    "candidateMatchesRecheck": true,
+    "initialMatchesOriginal": true,
+    "round1AssessmentUnchanged": true,
+    "DDBRepairRowsStillMatchCurrent": true,
+    "currentSupportMatchesAssessment": true
+  }
+}

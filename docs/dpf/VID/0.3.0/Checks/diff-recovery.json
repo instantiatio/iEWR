@@ -1,0 +1,15 @@
+{
+  "method": "Map two descriptive VID@identity header lines to a/b DPFs/VID.md in temporary directories; preserve all hunks/context; git apply --check and actual apply, then byte equality. Original evidence files unchanged. Raw diff context spaces and report EOF blank line preserved. Markdown diff check used -blank-at-eof and excluded literal *.patch evidence.",
+  "results": [
+    {
+      "basis_commit": "7ffd17c",
+      "diff": "Materials/VID/Development-0.3.0/Reviews/Package/Recheck/INITIAL-TO-CURRENT.patch",
+      "exact_current_restored": true
+    },
+    {
+      "basis_commit": "0389ac9",
+      "diff": "Materials/VID/Development-0.3.0/Reviews/Package/Recheck/PREDECESSOR-TO-CURRENT.patch",
+      "exact_current_restored": true
+    }
+  ]
+}

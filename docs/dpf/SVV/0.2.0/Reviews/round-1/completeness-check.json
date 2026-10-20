@@ -1,0 +1,70 @@
+{
+  "check": "post-interruption final completeness/integrity",
+  "sourceSHA256": "1aed8408571acc90bea27622116c9426da378549d6f9e2a48e1e24c43da7b3b2",
+  "sourceMatchesRequest": true,
+  "initialSHA256": "db5a10c9abfd6fd896f1225aa24e976447dfee01eb98b6dd756a6ee85033f8fe",
+  "initialUnchanged": true,
+  "E21": {
+    "methods": 6,
+    "coordinatesEach": 19,
+    "total": 114,
+    "adjacentRationalesEvidenceProfilesMaturitySoTAComplete": true
+  },
+  "DA": {
+    "coordinates": 12,
+    "PFM": 13,
+    "allDispositionsAllowed": true,
+    "D12FirstUseAndCrossFamilyCasePresent": true
+  },
+  "PFIP": {
+    "acceptedInputRows": 23,
+    "fullPredecessorLines": 520,
+    "inventoryExactlyOnce": true,
+    "RESTOREExactMatch": true
+  },
+  "F19": "whole expert and local actual recovery distinctly represented; source profile boundedLocal",
+  "render": {
+    "parser": "bundled marked GFM",
+    "headingsBlocksListsTableLinksInspected": true,
+    "htmlCounts": {
+      "h1": 6,
+      "p": 114,
+      "a": 34,
+      "ul": 4,
+      "li": 47,
+      "table": 1,
+      "thead": 1,
+      "tr": 7,
+      "th": 5,
+      "tbody": 1,
+      "td": 30,
+      "h2": 16,
+      "h3": 80,
+      "strong": 22,
+      "ol": 6
+    },
+    "localRelativeLinks": [
+      {
+        "url": "../../../../docs/dpf/SVV/0.2.0/README.md#%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F-%D0%B8-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8",
+        "target": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/README.md",
+        "exists": true
+      },
+      {
+        "url": "../../../../docs/dpf/SVV/0.2.0/README.md#%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F-%D0%B8-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8",
+        "target": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/README.md",
+        "exists": true
+      },
+      {
+        "url": "../../../../docs/dpf/SVV/0.2.0/PROVENANCE.md",
+        "target": "/Users/albert/Documents/Obsidian/Project/2026-10/iEWR-6.0.2-DEV/project/artifacts/dpf-independence-2026-10-20/stage/docs/dpf/SVV/0.2.0/PROVENANCE.md",
+        "exists": true
+      }
+    ]
+  },
+  "findings": [
+    "SVV-F1",
+    "SVV-F2"
+  ],
+  "result": "repairBeforeUse / repairBeforeDPFUse unchanged",
+  "limits": "Structural completeness checks do not independently establish semantic grades or backend correctness. Only own round1 output files written; reviewed source unchanged."
+}
