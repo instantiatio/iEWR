@@ -1,24 +1,24 @@
-# Состав iEWR 6.0.5 Beta
+# Состав iEWR 6.0.6 Beta
 
-17 DPF, 266 методов; история разработки и материалы проверок DPF в поставку не входят. [Проверки и пределы](VERIFICATION.md). Manifest не хеширует себя.
+17 DPF, 273 адресуемых метода; история разработки и материалы проверок DPF в поставку не входят. [Проверки и пределы](VERIFICATION.md). Manifest не хеширует себя.
 
 | Файл | SHA-256 |
 |---|---|
-| `AGENTS.md` | `9522b5b0c100ff4f55d87d0e08c91c9cea9a3f03a4ba26616b84137daf5235b4` |
-| `BASELINE_STATUS.md` | `b9e1602aef86fd2065beed181419845e097f4bd6950a6b7a7d1562335fad9ac4` |
-| `CONFIGURATION.json` | `182e501d707b6de021b4d3a057c0bf804058f6c5de84e6982e34db21aac437c8` |
+| `AGENTS.md` | `12cf2d2825944fe27e275e5e4ef62477475e7d610664b474ccb4aa576d9bb962` |
+| `BASELINE_STATUS.md` | `fe0291bf961654833efaf617723b1db658558f134d7d4fe7d65142a13bf239e4` |
+| `CONFIGURATION.json` | `47097acdedf7303288eca1914b119987e6bc6fbbb65eebf439c0a74de0caef57` |
 | `LICENSE` | `ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec` |
-| `README.md` | `93ec10112d10fb6bcf1dc89b2b94d5f0d1ded9f4de30c964725e68c2904d3b41` |
-| `RELEASE_NOTES.md` | `3f10faca8ee3251ddd9311f825a3023555273c4b9b43ba243e9925090cc1b2bc` |
-| `VERIFICATION.md` | `cdfe69b32d24eff7a23287c5e1b0073371ca4c4bc86a546f4184c62fbb1b281f` |
-| `catalog/README.md` | `4f75bf259e8e2a7dc26edc3a417f232481914f34380ae7f7a3262c30301b4a84` |
-| `catalog/dpf/METHODS.md` | `91aa4e419696831d442a8572ce67c983625cf48f17bce84b5bf060d7b5b0a8f6` |
+| `README.md` | `ee44476f547dcb0de9196f4b9103d8ce01fb1ae659cb537ca8dacd47168286c5` |
+| `RELEASE_NOTES.md` | `d1868300e880430b32f69672c29a463c504c09d550c8323ac07fcb87c1a5990c` |
+| `VERIFICATION.md` | `a35a46e8ed83c18eb0e5ecb307409d36e45d955698b53dc189ede09edb1fa894` |
+| `catalog/README.md` | `3802bde1cb05ddf0bd206c2c0b51fee33367eb1d588f2c502ebb208948f21ff6` |
+| `catalog/dpf/METHODS.md` | `21aa48a82fba0b708b455afd0e5d9684bb706a32599d94570c6bb647b70fdcde` |
 | `catalog/dpf/SOURCE_LINKS.md` | `08c6a510e7b2e91622c4cb6ca8c9ec856176881439a3118519796a81e3757546` |
 | `docs/DPF_FORMATION_METHOD.md` | `d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea` |
 | `docs/DPF_REGISTRATION_GUIDE.md` | `a11580ec87d38198c89f0c4646fb381a7c172fa6b3b7b298b5325e77a345434b` |
 | `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | `cfd66f0681b901644c06ee018a9f04b72ad16f79bf51382485d8bf1ec2a2c609` |
 | `docs/FPF_CONNECTION_GUIDE.md` | `c687d9a6ffe4fec66b23f01b6e904bad2ab425a801360ec6b49cdc43a0ae175d` |
-| `docs/IEWR_CONOPS.md` | `84fdd004aa4b2c2377fd313cc59e272311080c1352f52ed20fb61fd0f4dab9fe` |
+| `docs/IEWR_CONOPS.md` | `f8f6a1173ad9b0d63b81ba45c917e78df9383f55fbea330971f2860bf024e740` |
 | `docs/MIGRATION_6_0.md` | `c6b469fc9ac33a6e0a9a0783fe8a2595941f357d5949b40568d2b0fea4574ed3` |
 | `docs/SEPARATE_READER_TRIALS.md` | `dacfe34887c7a36964fc4186d2f0bb229db6d43259905727ef807f45f928a634` |
 | `docs/USER_DOCUMENTATION_RULES.md` | `d156945ef556d0c2466bdaebe3f70be8d074a0dc680524c13f5af60161183407` |
