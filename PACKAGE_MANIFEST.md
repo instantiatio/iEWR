@@ -1,25 +1,25 @@
-# Состав iEWR 6.0.6 Beta
+# Состав iEWR 6.0.7 Beta
 
-17 DPF, 273 адресуемых метода; история разработки и материалы проверок DPF в поставку не входят. [Проверки и пределы](VERIFICATION.md). Manifest не хеширует себя.
+55 файлов; 19 DPF: 17 базовых и 2 дополнительных; 293 адресуемых метода. Публикационная копия итоговой локальной D1, подготовленная по отдельному прямому поручению Human. Тексты DPF и их условия сохранены; общая новая лицензия на ISEC/SPSEC не назначена. [Проверки и пределы](VERIFICATION.md). Manifest не хеширует себя.
 
 | Файл | SHA-256 |
 |---|---|
-| `AGENTS.md` | `12cf2d2825944fe27e275e5e4ef62477475e7d610664b474ccb4aa576d9bb962` |
-| `BASELINE_STATUS.md` | `fe0291bf961654833efaf617723b1db658558f134d7d4fe7d65142a13bf239e4` |
-| `CONFIGURATION.json` | `47097acdedf7303288eca1914b119987e6bc6fbbb65eebf439c0a74de0caef57` |
+| `AGENTS.md` | `b867a3acd9339747f386b28176305957ee3c770bc29313d54be65395e4bde0b9` |
+| `BASELINE_STATUS.md` | `f75df83b7db0eb6570a654351764b3bcb2a1440c2c6caafce080bb3c3cf58616` |
+| `CONFIGURATION.json` | `5b7945e73965804859eda596c7af9ba8f6647025f1a5176b0a6035e3d5970842` |
 | `LICENSE` | `ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec` |
-| `README.md` | `ee44476f547dcb0de9196f4b9103d8ce01fb1ae659cb537ca8dacd47168286c5` |
-| `RELEASE_NOTES.md` | `d1868300e880430b32f69672c29a463c504c09d550c8323ac07fcb87c1a5990c` |
-| `VERIFICATION.md` | `a35a46e8ed83c18eb0e5ecb307409d36e45d955698b53dc189ede09edb1fa894` |
-| `catalog/README.md` | `3802bde1cb05ddf0bd206c2c0b51fee33367eb1d588f2c502ebb208948f21ff6` |
-| `catalog/dpf/METHODS.md` | `21aa48a82fba0b708b455afd0e5d9684bb706a32599d94570c6bb647b70fdcde` |
-| `catalog/dpf/SOURCE_LINKS.md` | `08c6a510e7b2e91622c4cb6ca8c9ec856176881439a3118519796a81e3757546` |
+| `README.md` | `18ff5da2b0fb5595f1a2e6e4c9d8eabec4ffc888799f9183c0063a86f82c727e` |
+| `RELEASE_NOTES.md` | `4799a8049a530b4217cbee0b4b7e521f6e85c9fd74c71d53fa6fe437b8540926` |
+| `VERIFICATION.md` | `f8b2ebbae9ca15e38619646b74a1376dbba4631f5fbfbd7825978912cff22b6f` |
+| `catalog/README.md` | `aaf8cde4f5139fce50d6f53a9c4cad676d059f2ab367cbb6d6bc2b324f0def96` |
+| `catalog/dpf/METHODS.md` | `145a9a336ba53ddf877fb12d91906a20d1edbf426103e2f11dda8255ce74dcb7` |
+| `catalog/dpf/SOURCE_LINKS.md` | `ceb359716a38c4d22d4a411afe24a128f4c3298f9278256c7d947e5d0a8bb29d` |
 | `docs/DPF_FORMATION_METHOD.md` | `d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea` |
 | `docs/DPF_REGISTRATION_GUIDE.md` | `a11580ec87d38198c89f0c4646fb381a7c172fa6b3b7b298b5325e77a345434b` |
 | `docs/EWR_CORE_ARCHITECTURE_CONTRACT.md` | `cfd66f0681b901644c06ee018a9f04b72ad16f79bf51382485d8bf1ec2a2c609` |
 | `docs/FPF_CONNECTION_GUIDE.md` | `c687d9a6ffe4fec66b23f01b6e904bad2ab425a801360ec6b49cdc43a0ae175d` |
 | `docs/IEWR_CONOPS.md` | `f8f6a1173ad9b0d63b81ba45c917e78df9383f55fbea330971f2860bf024e740` |
-| `docs/MIGRATION_6_0.md` | `c6b469fc9ac33a6e0a9a0783fe8a2595941f357d5949b40568d2b0fea4574ed3` |
+| `docs/MIGRATION_6_0.md` | `910d470a2bae5a460e3c9e76bcb2544ce13a308d0ef8aaf4cd85516103da28df` |
 | `docs/SEPARATE_READER_TRIALS.md` | `dacfe34887c7a36964fc4186d2f0bb229db6d43259905727ef807f45f928a634` |
 | `docs/USER_DOCUMENTATION_RULES.md` | `d156945ef556d0c2466bdaebe3f70be8d074a0dc680524c13f5af60161183407` |
 | `docs/checks/6.0.3/READER_TRIALS.json` | `9dc9b81b5aa62f2c707762c7541df35ca20c6beac18cf897a0ea288111b80c98` |
@@ -33,19 +33,21 @@
 | `frameworks/dpf/DDB/0.2.0/DDB.md` | `8ec4f829e6e8b4f79a8224032f1440e09da32dba00fc2bc8515145d579b68fa9` |
 | `frameworks/dpf/EXD/2026-10-17-rev-d9c3dd65/EXD.md` | `502e0bc8aeaff7bb66e82a88f2e5ca84f540426f25f37f30008b6fe68c8f931c` |
 | `frameworks/dpf/ISDLC/0.5.0/ISDLC.md` | `44bdba49c02286ebc0546bef116c5a2719839c33d71c7e48be07c6fe62c0b59b` |
+| `frameworks/dpf/ISEC/0.12/ISEC.md` | `e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e` |
 | `frameworks/dpf/KCAE/snapshot-2026-10-14-rev-7d0a7800/KCAE.md` | `413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec` |
 | `frameworks/dpf/LICENSE` | `9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94` |
 | `frameworks/dpf/LICENSING.md` | `305af7f05ed7e837e427acabdd8706735fc31911a1aa64aeb8813341038e9175` |
 | `frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md` | `a64b6fb1c697088ceb9683cf730f61986ed28ae54dbb6f982a495ec87593111c` |
-| `frameworks/dpf/NOTICE.md` | `a27c1e69bd1be1765a984473f454d2e51615a35df6fb37d838d2089256fb640d` |
+| `frameworks/dpf/NOTICE.md` | `6a8ba7b876ae576921170a8ab46a7df7133cfb25fe0e5c11d46c0f428fb2bb33` |
 | `frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md` | `5761b872000c51d796dc1c1bb88ddc034fd50c55dbd13edaaf20dee44a1ea6cf` |
 | `frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md` | `17fb2e191d7935235277811d9b4d7a3d8bff6eb451f1533a0c533e0018504754` |
 | `frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md` | `316c1097e11a28df8a94855212b42ea0f971995fe12f78ea2221f71a6d02c106` |
-| `frameworks/dpf/README.md` | `7cc3d271a3a3996a320a73966abb0e50152200c7543ba9559d6976e23c3284b9` |
-| `frameworks/dpf/REPERTOIRE.yaml` | `0165c7cbfa58132f09f28d9d2e426c5b078f4ed399a45cd44714739fff0caad7` |
+| `frameworks/dpf/README.md` | `ad68a2270ad5b0061a436773fb35d26468cdcec83a57173522bb6ef022c582d5` |
+| `frameworks/dpf/REPERTOIRE.yaml` | `37b63c235684490c79b72ae4f12ca3a4f3c8c1e8e346df92bd65c9f003ad9dc3` |
 | `frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md` | `901ce47bc815c8835b0adc8d82a8f9109ebec22c2ef92145e91a58260bee817d` |
 | `frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md` | `91f5ac7fafaefd0488534bde4924723622b82b62f816d3fad729aca014dba189` |
-| `frameworks/dpf/SOURCES.json` | `047a2510e53274b855918946a41484dd9680f26874d8f05fcf37b3fb0d817609` |
+| `frameworks/dpf/SOURCES.json` | `8f3435996e0c63563ef7346b5a48ab2e87228b62a8908f68e7f45c96c1f5e111` |
+| `frameworks/dpf/SPSEC/0.2/SPSEC.md` | `70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106` |
 | `frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md` | `765f39a55b6de6898fb0488fcb5c2583733d86048a35ab12ccb856af759e31a4` |
 | `frameworks/dpf/SVV/0.2.0/SVV.md` | `8822280c24c1b141fb371aadfdb2e9448938a07daf8dcbc40b2136f72351cabb` |
 | `frameworks/dpf/SYSE/2026-10-15-rev-b40c9df9/SYSE.md` | `d88b2bda2346a3dd151ef95ca7e517b335dbbe7faf8caf12260c9229a31687a3` |

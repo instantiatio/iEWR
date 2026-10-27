@@ -329,6 +329,84 @@
           "to": "https://github.com/instantiatio/dpf-lab/blob/cf27b21556136c5aec19aef0ff66333af779f0d1/Materials/SVV/Development-0.2.0/PROVENANCE.md#предметные-источники"
         }
       ]
+    },
+    {
+      "code": "ISEC",
+      "edition": "0.12",
+      "upstream": {
+        "url": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/ISEC.md",
+        "repository": "instantiatio/dpf-lab",
+        "commit": "bec8cffd06b3fff07ac50b9fa3932e9b319a7808",
+        "path": "DPFs/ISEC.md",
+        "git_blob": "435838a9861eddc036e7a8b317001708747244c9",
+        "size_bytes": 148626,
+        "sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e",
+        "access": "private; retrieved through authenticated GitHub CLI on 2026-10-27"
+      },
+      "carrier": {
+        "path": "frameworks/dpf/ISEC/0.12/ISEC.md",
+        "sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e"
+      },
+      "adaptations": "None. Exact UTF-8 source bytes retained, including author statuses, attribution and use limits.",
+      "author_metadata": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/Materials/ISEC/README.md",
+      "author_metadata_identity": {
+        "git_blob": "4398a43af0192e9ef4cdc2dd87fb38fea9115923",
+        "sha256": "d27dc5e287248111171dfeca535ebfe6db01928c1b61fbb704038936be4691f9"
+      },
+      "use_conditions": {
+        "accepted_use": "owner personal iEWR",
+        "acceptance_date": "2026-10-26",
+        "pattern_status": "seedOnly",
+        "further_distribution_license": "not selected",
+        "public_distribution": "Selected iEWR 6.0.7 Beta publication separately authorized by Human on 2026-10-27; no general further-distribution license.",
+        "quality_change_by_registration": false
+      },
+      "independent_editions": true,
+      "required_other_dpf": [],
+      "link_changes_this_cleanup": [],
+      "publication_authorization": {
+        "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+      }
+    },
+    {
+      "code": "SPSEC",
+      "edition": "0.2",
+      "upstream": {
+        "url": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/SPSEC.md",
+        "repository": "instantiatio/dpf-lab",
+        "commit": "bec8cffd06b3fff07ac50b9fa3932e9b319a7808",
+        "path": "DPFs/SPSEC.md",
+        "git_blob": "b75ec960f937cca5e6c736c23589ac5d7d446e41",
+        "size_bytes": 115498,
+        "sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
+        "access": "private; retrieved through authenticated GitHub CLI on 2026-10-27"
+      },
+      "carrier": {
+        "path": "frameworks/dpf/SPSEC/0.2/SPSEC.md",
+        "sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106"
+      },
+      "adaptations": "None. Exact UTF-8 source bytes retained, including author statuses, attribution and use limits.",
+      "author_metadata": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/Materials/SPSEC/README.md",
+      "author_metadata_identity": {
+        "git_blob": "ca73143caf5db0ec0c26afdcead313609a3fe9b6",
+        "sha256": "99f2cacf7e7beb87a7e8013bd40b43fff13aa3d0aa2820c10f8c1492424ca350"
+      },
+      "use_conditions": {
+        "accepted_use": "owner personal iEWR",
+        "acceptance_date": "2026-10-26",
+        "pattern_status": "seedOnly",
+        "further_distribution_license": "not selected",
+        "public_distribution": "Selected iEWR 6.0.7 Beta publication separately authorized by Human on 2026-10-27; no general further-distribution license.",
+        "quality_change_by_registration": false
+      },
+      "independent_editions": true,
+      "required_other_dpf": [],
+      "link_changes_this_cleanup": [],
+      "publication_authorization": {
+        "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+      }
     }
   ],
   "rules": "docs/dpf/README.md#правила-хранения",

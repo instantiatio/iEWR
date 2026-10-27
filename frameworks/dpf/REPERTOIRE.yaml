@@ -77,7 +77,7 @@
       "required_slot": "ME",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; raw bytes unchanged, attribution and third-party notices retained.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; the registered local carrier is not byte-identical to the pinned upstream text; source and carrier SHA-256 values are recorded separately; see frameworks/dpf/SOURCES.json for the recorded adaptations; attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
@@ -160,7 +160,7 @@
       "required_slot": "PSD",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; the registered local carrier is not byte-identical to the pinned upstream text; source and carrier SHA-256 values are recorded separately; see frameworks/dpf/SOURCES.json for the recorded adaptations; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
@@ -325,7 +325,7 @@
       "required_slot": "ADM",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; the registered local carrier is not byte-identical to the pinned upstream text; source and carrier SHA-256 values are recorded separately; see frameworks/dpf/SOURCES.json for the recorded adaptations; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
@@ -448,7 +448,7 @@
       "required_slot": "STR",
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; raw bytes unchanged; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 7d0a78002c04f2337283b97d707991c888013a73; the registered local carrier is not byte-identical to the pinned upstream text; source and carrier SHA-256 values are recorded separately; see frameworks/dpf/SOURCES.json for the recorded adaptations; attribution and third-party notices retained. Local inclusion permitted; no public-release grant inferred.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
@@ -489,7 +489,7 @@
       "source_bytes_modified_by_registration": true,
       "distribution_basis": {
         "status": "confirmed",
-        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; raw bytes unchanged, attribution and third-party notices retained.",
+        "statement": "Original framework text by Anatoly Levenchuk under CC BY 4.0 at pinned commit 9e1c48349bd0a06d8d49e2de45fbcff386d47ae5; the registered local carrier is not byte-identical to the pinned upstream text; source and carrier SHA-256 values are recorded separately; see frameworks/dpf/SOURCES.json for the recorded adaptations; attribution and third-party notices retained.",
         "locus": "frameworks/dpf/NOTICE.md; frameworks/dpf/LICENSING.md; frameworks/dpf/LICENSE"
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
@@ -702,6 +702,96 @@
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
       "use_status": "admissibleForDeclaredDPFUse"
+    },
+    {
+      "source_id": "instantiatio-isec",
+      "display_name": "Принципы обеспечения информационной безопасности",
+      "aliases": [
+        "ISEC"
+      ],
+      "edition_id": "0.12",
+      "scope": "package",
+      "selection_role": "base",
+      "source_locus": "frameworks/dpf/ISEC/0.12/ISEC.md",
+      "normative_loci": [
+        "frameworks/dpf/ISEC/0.12/ISEC.md"
+      ],
+      "declared_status": {
+        "value": "seedOnly; принят владельцем 26.10.2026 как готовый для личного iEWR. Полная независимая E.21 не заявлена; промышленная пригодность не установлены. Включение в базу не меняет качество и не создаёт нового приёмочного этапа для согласованного личного использования.",
+        "locus": "frameworks/dpf/ISEC/0.12/ISEC.md#сведения-о-редакции"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/ISEC.md",
+      "fpf_grounding_claim": {
+        "value": "Авторская атрибуция FPF сохранена. Регистрация готового DPF не является authoring, не активирует оригинальный FPF и не устанавливает новую conformance.",
+        "locus": "frameworks/dpf/ISEC/0.12/ISEC.md#сведения-о-редакции"
+      },
+      "files": [
+        {
+          "path": "ISEC.md",
+          "sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e"
+        }
+      ],
+      "edition_manifest_sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e",
+      "registered_at": "2026-10-27",
+      "registration_basis": "Прямое поручение Human включить точную выбранную редакцию в базовую локальную поставку iEWR 6.0.7 Beta на основе текущего состава 6.0.6 Beta, без публичной публикации.",
+      "source_bytes_modified_by_registration": false,
+      "source_sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e",
+      "required_slot": "ISEC",
+      "distribution_basis": {
+        "status": "confirmed_for_selected_publication_only",
+        "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "use_status": "acceptedForOwnerPersonalIEWR",
+      "pattern_status": "seedOnly",
+      "independent_editions": true,
+      "required_other_dpf": []
+    },
+    {
+      "source_id": "instantiatio-spsec",
+      "display_name": "Безопасная разработка и сопровождение программного продукта",
+      "aliases": [
+        "SPSEC"
+      ],
+      "edition_id": "0.2",
+      "scope": "package",
+      "selection_role": "base",
+      "source_locus": "frameworks/dpf/SPSEC/0.2/SPSEC.md",
+      "normative_loci": [
+        "frameworks/dpf/SPSEC/0.2/SPSEC.md"
+      ],
+      "declared_status": {
+        "value": "seedOnly; принят владельцем 26.10.2026 как готовый для личного iEWR. Полная независимая E.21 и E.4.DPF.DA не заявлена; промышленная пригодность и фактический эффект на продукте не установлены. Включение в базу не меняет качество и не создаёт нового приёмочного этапа для согласованного личного использования.",
+        "locus": "frameworks/dpf/SPSEC/0.2/SPSEC.md#сведения-о-редакции"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/SPSEC.md",
+      "fpf_grounding_claim": {
+        "value": "Авторская атрибуция FPF сохранена. Регистрация готового DPF не является authoring, не активирует оригинальный FPF и не устанавливает новую conformance.",
+        "locus": "frameworks/dpf/SPSEC/0.2/SPSEC.md#сведения-о-редакции"
+      },
+      "files": [
+        {
+          "path": "SPSEC.md",
+          "sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106"
+        }
+      ],
+      "edition_manifest_sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
+      "registered_at": "2026-10-27",
+      "registration_basis": "Прямое поручение Human включить точную выбранную редакцию в базовую локальную поставку iEWR 6.0.7 Beta на основе текущего состава 6.0.6 Beta, без публичной публикации.",
+      "source_bytes_modified_by_registration": false,
+      "source_sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
+      "required_slot": "SPSEC",
+      "distribution_basis": {
+        "status": "confirmed_for_selected_publication_only",
+        "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "use_status": "acceptedForOwnerPersonalIEWR",
+      "pattern_status": "seedOnly",
+      "independent_editions": true,
+      "required_other_dpf": []
     }
   ]
 }
