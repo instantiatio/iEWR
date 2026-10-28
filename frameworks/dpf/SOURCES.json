@@ -366,7 +366,8 @@
       "link_changes_this_cleanup": [],
       "publication_authorization": {
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
-        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
+        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
       }
     },
     {
@@ -405,7 +406,58 @@
       "link_changes_this_cleanup": [],
       "publication_authorization": {
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
-        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
+        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
+      }
+    },
+    {
+      "code": "CDP",
+      "edition": "0.1.2",
+      "upstream": {
+        "url": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/DPFs/CDP.md",
+        "repository": "instantiatio/dpf-lab",
+        "commit": "cfc69565a6e5647297b225a99728273332a29c3c",
+        "path": "DPFs/CDP.md",
+        "git_blob": "bb3e505e4f491e8274f6bdb560750bec80736606",
+        "size_bytes": 164970,
+        "sha256": "0c84ecb8125434d9971b4b2e62d6110aed705dd9cc00ad1bba2a586a3e152716",
+        "access": "private; retrieved through authenticated GitHub CLI on 2026-10-28"
+      },
+      "carrier": {
+        "path": "frameworks/dpf/CDP/0.1.2/CDP.md",
+        "sha256": "83ba799f087cfb323d105286592ee94b42bcc6a06abf922a1fba3b897adae299"
+      },
+      "adaptations": "Only one relative provenance-link destination changed to the exact same document at its pinned upstream commit. Reversing the following replacement restores the exact source bytes. No method text or conditions changed.",
+      "link_changes_this_cleanup": [
+        {
+          "old": "../Materials/CDP/PROVENANCE.md",
+          "new": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/Materials/CDP/PROVENANCE.md",
+          "occurrences": 1
+        }
+      ],
+      "author_metadata": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/Materials/CDP/PROVENANCE.md",
+      "author_verification": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/Materials/CDP/VERIFICATION.md",
+      "author_metadata_identity": {
+        "git_blob": "33246f7112b2ef508d341c7230fff4c8f2bfac2f",
+        "sha256": "3952707832a2038721def30e9b9b6cbd5442b67d01e9637a2c1a29b1fa9afa5d"
+      },
+      "author_verification_identity": {
+        "git_blob": "d025e388253e763869d7601f2c5a014267feaff0",
+        "sha256": "d885ef1288e4f43badaad22c8f0b780e5f56c20c35fdfd60b2cbf907b072ceb6"
+      },
+      "use_conditions": {
+        "declared_use": "ordinary use by a prepared practitioner; choose by task",
+        "pattern_status": "Guide",
+        "quality_basis": "Guide; заявленное обычное применение подготовленным автором, редактором, дизайнером или AI. Авторский отчёт: полные AI-оценки E.21 десяти методов (19 координат, floor 4), оценка комплекта E.4.DPF.DA, исправление и перепроверка; 0.1.2 сохраняет тела 0.1.1, редакционный перенос проверен отдельно. Не установлены понимание реальной аудитории, экономия времени, эффект на бизнес-решения, полная WCAG/PDF-UA conformance или пригодность для всех производственных условий. Регистрация не является повторной независимой оценкой и не повышает качество.",
+        "further_distribution_license": "not selected; reused FPF/EXD/CHK expression retains attribution and CC BY 4.0",
+        "public_distribution": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab.",
+        "quality_change_by_registration": false
+      },
+      "independent_editions": true,
+      "required_other_dpf": [],
+      "publication_authorization": {
+        "statement": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab.",
+        "locus": "frameworks/dpf/NOTICE.md#cdp-в-607-beta"
       }
     }
   ],

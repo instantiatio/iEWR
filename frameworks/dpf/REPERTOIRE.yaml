@@ -740,7 +740,8 @@
       "distribution_basis": {
         "status": "confirmed_for_selected_publication_only",
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
-        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
+        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
       "use_status": "acceptedForOwnerPersonalIEWR",
@@ -785,11 +786,57 @@
       "distribution_basis": {
         "status": "confirmed_for_selected_publication_only",
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
-        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta"
+        "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
+        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
       },
       "source_transfer_record": "frameworks/dpf/SOURCES.json",
       "use_status": "acceptedForOwnerPersonalIEWR",
       "pattern_status": "seedOnly",
+      "independent_editions": true,
+      "required_other_dpf": []
+    },
+    {
+      "source_id": "instantiatio-cdp",
+      "display_name": "Коммуникационный дизайн публикаций",
+      "aliases": [
+        "CDP"
+      ],
+      "edition_id": "0.1.2",
+      "scope": "package",
+      "selection_role": "base",
+      "source_locus": "frameworks/dpf/CDP/0.1.2/CDP.md",
+      "normative_loci": [
+        "frameworks/dpf/CDP/0.1.2/CDP.md"
+      ],
+      "declared_status": {
+        "value": "Guide; заявленное обычное применение подготовленным автором, редактором, дизайнером или AI. Авторский отчёт: полные AI-оценки E.21 десяти методов (19 координат, floor 4), оценка комплекта E.4.DPF.DA, исправление и перепроверка; 0.1.2 сохраняет тела 0.1.1, редакционный перенос проверен отдельно. Не установлены понимание реальной аудитории, экономия времени, эффект на бизнес-решения, полная WCAG/PDF-UA conformance или пригодность для всех производственных условий. Регистрация не является повторной независимой оценкой и не повышает качество.",
+        "locus": "frameworks/dpf/CDP/0.1.2/CDP.md#cdpedition1---редакция-и-область-применения"
+      },
+      "publication_locator": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/DPFs/CDP.md",
+      "fpf_grounding_claim": {
+        "value": "Авторская основа и атрибуция FPF/EXD/CHK сохранены. Регистрация готового CDP не является authoring и не активирует оригинальный FPF.",
+        "locus": "frameworks/dpf/CDP/0.1.2/CDP.md#cdpedition2---семантическая-основа-и-связи-редакций"
+      },
+      "files": [
+        {
+          "path": "CDP.md",
+          "sha256": "83ba799f087cfb323d105286592ee94b42bcc6a06abf922a1fba3b897adae299"
+        }
+      ],
+      "edition_manifest_sha256": "83ba799f087cfb323d105286592ee94b42bcc6a06abf922a1fba3b897adae299",
+      "registered_at": "2026-10-28",
+      "registration_basis": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab.",
+      "source_bytes_modified_by_registration": true,
+      "source_sha256": "0c84ecb8125434d9971b4b2e62d6110aed705dd9cc00ad1bba2a586a3e152716",
+      "required_slot": "CDP",
+      "distribution_basis": {
+        "status": "confirmed_for_selected_publication_only",
+        "statement": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab. Source and carrier are not byte-identical: one provenance-link destination adapted; all ten method bodies unchanged.",
+        "locus": "frameworks/dpf/NOTICE.md#cdp-в-607-beta"
+      },
+      "source_transfer_record": "frameworks/dpf/SOURCES.json",
+      "use_status": "declaredOrdinaryUseForPreparedPractitioner",
+      "pattern_status": "Guide",
       "independent_editions": true,
       "required_other_dpf": []
     }
