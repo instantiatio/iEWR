@@ -367,7 +367,7 @@
       "publication_authorization": {
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
         "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
-        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
+        "current_build_authorization": "Human 28.10.2026 исправил номер ранее порученной публичной сборки с CDP на 6.0.8 Beta: «Я чото косякнул с версиями. Надо было 6.0.8 назвать. Можем поправить?». В пределах прежнего поручения публикации как Latest и обновления главной это разрешает публикацию того же выбранного состава под tag 6.0.8 с исправленными номером, ссылками и учётом. Состав, редакции, качество и условия DPF не расширяются; прежние tags и assets сохраняются. Общая новая лицензия не назначается."
       }
     },
     {
@@ -407,7 +407,7 @@
       "publication_authorization": {
         "statement": "Direct Human instruction of 2026-10-27 separately authorizes publication of the selected iEWR 6.0.7 Beta with D1 correction in instantiatio/iEWR main/README, tag 6.0.7 and Latest GitHub release with ZIP/SHA-256. No blanket further-distribution license, DPF quality promotion, other-edition grant or dpf-lab history publication. Original personal acceptance and source notices remain unchanged.",
         "locus": "frameworks/dpf/NOTICE.md#isec-и-spsec-в-607-beta",
-        "current_build_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab."
+        "current_build_authorization": "Human 28.10.2026 исправил номер ранее порученной публичной сборки с CDP на 6.0.8 Beta: «Я чото косякнул с версиями. Надо было 6.0.8 назвать. Можем поправить?». В пределах прежнего поручения публикации как Latest и обновления главной это разрешает публикацию того же выбранного состава под tag 6.0.8 с исправленными номером, ссылками и учётом. Состав, редакции, качество и условия DPF не расширяются; прежние tags и assets сохраняются. Общая новая лицензия не назначается."
       }
     },
     {
@@ -457,7 +457,8 @@
       "required_other_dpf": [],
       "publication_authorization": {
         "statement": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab.",
-        "locus": "frameworks/dpf/NOTICE.md#cdp-в-607-beta"
+        "locus": "frameworks/dpf/NOTICE.md#cdp-в-607-beta",
+        "current_build_authorization": "Human 28.10.2026 исправил номер ранее порученной публичной сборки с CDP на 6.0.8 Beta: «Я чото косякнул с версиями. Надо было 6.0.8 назвать. Можем поправить?». В пределах прежнего поручения публикации как Latest и обновления главной это разрешает публикацию того же выбранного состава под tag 6.0.8 с исправленными номером, ссылками и учётом. Состав, редакции, качество и условия DPF не расширяются; прежние tags и assets сохраняются. Общая новая лицензия не назначается."
       }
     }
   ],

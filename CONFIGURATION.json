@@ -1,8 +1,8 @@
 {
   "schema": 2,
   "purpose": "static_selected_package_inventory_not_runtime_or_authority",
-  "package_id": "iEWR 6.0.7 Beta",
-  "version": "6.0.7",
+  "package_id": "iEWR 6.0.8 Beta",
+  "version": "6.0.8",
   "architecture_revision": 2,
   "status": "Beta",
   "activation_entry": "AGENTS.md",
@@ -39,35 +39,36 @@
       "scope": "Only distribution_basis.statement in ME, PSDA, ADM, STR, CHK: distinguish pinned upstream text from adapted local carrier. Source/carrier digests, flags, origins, licenses, use and quality statuses unchanged.",
       "previous_reviewed_archive_sha256": "eca67af2e30e69478c89f7eb5590e9f91ca3fc8e32b27e74f194b66496e4c466",
       "previous_reviewed_archive_preserved": true,
-      "verification": "VERIFICATION.md#локальная-пересборка-после-замечания-d1",
+      "verification": "https://github.com/instantiatio/iEWR/blob/b432d42828216cca5ea2349d5a550faabdcd0f1d/VERIFICATION.md#локальная-пересборка-после-замечания-d1",
       "publication": "No publication; local rebuild of 6.0.7 Beta only.",
       "review_status": "Author same-criterion check and familiar reviewer follow-up; not a new cold reading."
     },
     "current_build": {
-      "id": "2026-10-28-CDP",
+      "id": "2026-10-28-6.0.8",
       "date": "2026-10-28",
-      "scope": "Register CDP 0.1.2 as base, adapt only provenance-link destination, preserve all ten method bodies and previous 19 DPF; update instructions, discovery, docs and inventory.",
-      "publication_authorization": "Прямое поручение Human от 28.10.2026 разрешает включение CDP 0.1.2 в базу, проверку и публикацию выбранной обновлённой iEWR 6.0.7 Beta как Latest в instantiatio/iEWR с обновлением main/README. Предыдущий tag 6.0.7 и его assets сохраняются; новая сборка 2026-10-28-CDP, tag 6.0.7-cdp-20261028. Общая лицензия на авторские тексты не назначается; условия и статусы сохраняются. История и проверки DPF остаются в dpf-lab.",
-      "baseline_commit": "b432d42828216cca5ea2349d5a550faabdcd0f1d",
-      "baseline_public_archive_sha256": "7587f73a2d8e67eb40314d53640372f2daa2f34066c4cfcb04a60a492590b89d"
+      "scope": "Correct version 6.0.7-cdp-20261028 to 6.0.8, release URLs/inventory, stale migration count and historical verification pointers. All 20 DPF bodies and AGENTS unchanged.",
+      "publication_authorization": "Human 28.10.2026 исправил номер ранее порученной публичной сборки с CDP на 6.0.8 Beta: «Я чото косякнул с версиями. Надо было 6.0.8 назвать. Можем поправить?». В пределах прежнего поручения публикации как Latest и обновления главной это разрешает публикацию того же выбранного состава под tag 6.0.8 с исправленными номером, ссылками и учётом. Состав, редакции, качество и условия DPF не расширяются; прежние tags и assets сохраняются. Общая новая лицензия не назначается.",
+      "baseline_commit": "4faeb4aac2303538eb67f62f1315d4ef3f246c13",
+      "baseline_public_archive_sha256": "70f9be6dd1119be368fd3f1c9df1ccc074f8ee9bc76b2048b4c823b9419b18ba",
+      "verification": "VERIFICATION.md#исправление-номера-и-повторные-проверки"
     }
   },
   "files": {
     "AGENTS.md": "cb14284f789b528aa1dddce876b9d328422a1774087d3682086d1a41b5c23d9f",
-    "BASELINE_STATUS.md": "351fa97a9d2cc8a559dbdd648df1cc8e675335430b23ddc9900c6aba707ebb32",
+    "BASELINE_STATUS.md": "3d3d2f309d943abaf9928e49fa8e36d825484ef1bb8087cccded1c978eda5509",
     "LICENSE": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec",
-    "README.md": "a444e13a89f6adf73178795f08fdf30b4f06127d9c723376b4d531f8aa27c869",
-    "RELEASE_NOTES.md": "e82357f4c7cad3692b156a861a2878bac012077e25db1c406d661bfe5ebf87f8",
-    "VERIFICATION.md": "3c667dc61b4f485728ef765434e9685218e97592bcdbb27db441ac0c51b59507",
+    "README.md": "ee755188141f1caa9a4df7ebf696964a7b13cae46166a3c3b44c9e07ea609aa2",
+    "RELEASE_NOTES.md": "b5d410c7bf774f3f94828677933672839af5dd40b4fc3f933c6b7822f599b383",
+    "VERIFICATION.md": "6551b2486732091995708902ef2edc22933bdccc1676695bd66cf64d16255007",
     "catalog/README.md": "62ef7c0d4822f44f19a6c3f6d3528cf2e9661469641c6c04f7af98934bbfe8bc",
-    "catalog/dpf/METHODS.md": "0d8e1fb4139439e2b0a183e6304a31ccd346e6420c1ac0eb1ad2a712719b53de",
-    "catalog/dpf/SOURCE_LINKS.md": "11ad1af7e59d0ebd9b3efdf8cd087e24b6f58fb22366112f5cbc88d8eaf1e703",
+    "catalog/dpf/METHODS.md": "61a6a6af7c24a34dc35080ce449b8efe710fffcd8d068ab8f0ea9bab090ddc0a",
+    "catalog/dpf/SOURCE_LINKS.md": "046bc9c171e99d83f1430732f9ca02d59ce52c99cb7418cba2517e694258b5e8",
     "docs/DPF_FORMATION_METHOD.md": "d968fd735a10d4a5890f18415d26e54a27b63c8fb98c040d0d63c0e5086978ea",
     "docs/DPF_REGISTRATION_GUIDE.md": "a11580ec87d38198c89f0c4646fb381a7c172fa6b3b7b298b5325e77a345434b",
     "docs/EWR_CORE_ARCHITECTURE_CONTRACT.md": "cfd66f0681b901644c06ee018a9f04b72ad16f79bf51382485d8bf1ec2a2c609",
     "docs/FPF_CONNECTION_GUIDE.md": "c687d9a6ffe4fec66b23f01b6e904bad2ab425a801360ec6b49cdc43a0ae175d",
     "docs/IEWR_CONOPS.md": "f8f6a1173ad9b0d63b81ba45c917e78df9383f55fbea330971f2860bf024e740",
-    "docs/MIGRATION_6_0.md": "910d470a2bae5a460e3c9e76bcb2544ce13a308d0ef8aaf4cd85516103da28df",
+    "docs/MIGRATION_6_0.md": "c01faad427a1949c88d920a14af9482e2d84ede2a4e1b0ddfa271daac14d9acf",
     "docs/SEPARATE_READER_TRIALS.md": "dacfe34887c7a36964fc4186d2f0bb229db6d43259905727ef807f45f928a634",
     "docs/USER_DOCUMENTATION_RULES.md": "d156945ef556d0c2466bdaebe3f70be8d074a0dc680524c13f5af60161183407",
     "docs/checks/6.0.3/READER_TRIALS.json": "9dc9b81b5aa62f2c707762c7541df35ca20c6beac18cf897a0ea288111b80c98",
@@ -87,15 +88,15 @@
     "frameworks/dpf/LICENSE": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
     "frameworks/dpf/LICENSING.md": "305af7f05ed7e837e427acabdd8706735fc31911a1aa64aeb8813341038e9175",
     "frameworks/dpf/ME/2026-09-20-rev-9e1c4834/ME.md": "a64b6fb1c697088ceb9683cf730f61986ed28ae54dbb6f982a495ec87593111c",
-    "frameworks/dpf/NOTICE.md": "31ac401c49c402a16cb6c4d4dac7a8f9dccee2a73cba8153938d454c427768cf",
+    "frameworks/dpf/NOTICE.md": "f6457cb34b0f3e77eb5c6eaaaa28353750c716fe53820cf47c9c8bf1884b75ce",
     "frameworks/dpf/OCE/2026-10-15-rev-b40c9df9/OCE.md": "5761b872000c51d796dc1c1bb88ddc034fd50c55dbd13edaaf20dee44a1ea6cf",
     "frameworks/dpf/OPS/2026-10-15-rev-b40c9df9/OPS.md": "17fb2e191d7935235277811d9b4d7a3d8bff6eb451f1533a0c533e0018504754",
     "frameworks/dpf/PSDA/2026-10-12-rev-7d0a7800/PSDA.md": "316c1097e11a28df8a94855212b42ea0f971995fe12f78ea2221f71a6d02c106",
-    "frameworks/dpf/README.md": "83a55ce0d7459b9797c77a8b0e5541c0d196dd456587e7a81b53947b5afaef2d",
-    "frameworks/dpf/REPERTOIRE.yaml": "48f1878404c606f114bd4078f185bee161b5451c447ce3fc8b2cb28a00714e4f",
+    "frameworks/dpf/README.md": "881c573032c9aa32ca990106fc608c5fddffa3a27dd5e10e27f1d01e95035227",
+    "frameworks/dpf/REPERTOIRE.yaml": "e307b71b1fcca4df6142e9dd65afad7553ac1062c17e1164920de67f0737cd9e",
     "frameworks/dpf/RMP/2026-10-15-rev-b40c9df9/RMP.md": "901ce47bc815c8835b0adc8d82a8f9109ebec22c2ef92145e91a58260bee817d",
     "frameworks/dpf/SIE/2026-10-15-rev-b40c9df9/SIE.md": "91f5ac7fafaefd0488534bde4924723622b82b62f816d3fad729aca014dba189",
-    "frameworks/dpf/SOURCES.json": "b56623347c25ad3b5f68b8399f13ec0320e303abd91d282099683e79d4abc01e",
+    "frameworks/dpf/SOURCES.json": "1f2a61e4d9c70ee4393d5091d7ab84e3ac1795f4c842da173ff33f4806bff5b9",
     "frameworks/dpf/SPSEC/0.2/SPSEC.md": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
     "frameworks/dpf/STR/2026-10-14-rev-7d0a7800/STR.md": "765f39a55b6de6898fb0488fcb5c2583733d86048a35ab12ccb856af759e31a4",
     "frameworks/dpf/SVV/0.2.0/SVV.md": "8822280c24c1b141fb371aadfdb2e9448938a07daf8dcbc40b2136f72351cabb",
@@ -109,16 +110,19 @@
     "project/source/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "release": {
-    "name": "iEWR 6.0.7 Beta — CDP",
-    "version": "6.0.7",
-    "build": "2026-10-28-CDP",
+    "name": "iEWR 6.0.8 Beta",
+    "version": "6.0.8",
+    "build": "2026-10-28-6.0.8",
     "date": "2026-10-28",
-    "tag": "6.0.7-cdp-20261028",
+    "tag": "6.0.8",
     "status": "prepared_for_authorized_publication",
     "public_publication_authorized": true,
     "public_publication_performed": false,
-    "actual_effect_evidence": "GitHub main, tag, Latest and downloaded release assets; retained outside static payload",
-    "previous_release_preserved": "6.0.7"
+    "actual_effect_evidence": "GitHub main/tag/Latest and downloaded assets; retained outside static payload",
+    "previous_releases_preserved": [
+      "6.0.7",
+      "6.0.7-cdp-20261028"
+    ]
   },
   "publication_revision": {
     "date": "2026-10-27",
@@ -126,6 +130,6 @@
     "final_local_D1_sha256": "d639a47009a3d4f8341309103bf246550d5c5da6afd06936d520802ffc46ba70",
     "scope": "Publication description, permission/provenance and inventory metadata only; all 19 DPF bodies unchanged from final local D1",
     "license_limit": "Selected publication authorization only; no new blanket license for ISEC/SPSEC",
-    "verification": "VERIFICATION.md#подготовка-публикационной-копии"
+    "verification": "https://github.com/instantiatio/iEWR/blob/b432d42828216cca5ea2349d5a550faabdcd0f1d/VERIFICATION.md#подготовка-публикационной-копии"
   }
 }
