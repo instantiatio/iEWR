@@ -498,7 +498,7 @@
     },
     "qualification": "Candidate описания; пригодность устанавливается для конкретного использования",
     "description_alignment": {
-      "current": "base-v3.4",
+      "current": "base-v3.10",
       "scope": "Самостоятельные текущие описания с применимыми условиями и источниками"
     }
   },
@@ -538,13 +538,14 @@
   },
   "method_engineering": {
     "general_suppliers": "Direct FPF method family; navigation/task-entries.yaml",
-    "local_storage_adapter": "IE-M003@v1.4",
-    "local_environment_adapter": "IE-M004@v1.4",
+    "local_storage_adapter": "IE-M003@v1.8",
+    "local_environment_adapter": "IE-M004@v1.8",
     "specialist_returns": "ME18 ordinaryMR + RES-RECOVERY; ME19 C28 + RES-HISTORY; actual stronger mathematical/domain inputs remain conditional"
   },
   "product_name": "iEWR",
   "research_stage": "Eternal Alpha",
   "methodpack_control": {
+    "method": "IE-M003@v1.8",
     "tool": "tools/methodpack.py",
     "guide": "docs/METHODPACK_CHECK.md",
     "commands": [
@@ -552,6 +553,15 @@
       "activate",
       "recover"
     ],
-    "boundary": "Helper and cooperating POSIX writers; no OS prohibition of direct outside writes"
+    "implementations": [
+      "reference_Python_POSIX",
+      "ADE_single_writer"
+    ],
+    "boundary": "Required consistency/preservation/recovery properties; ADE path needs one agreed writer including paused helper writers and dependent readers. Shared pending is not a lock."
+  },
+  "dependency_policy": {
+    "daily_iEWR_and_MP": "No mandatory Python; sufficient actual ADE capabilities required; reuse suitable supplied helper",
+    "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
+    "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
   }
 }

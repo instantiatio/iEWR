@@ -3,9 +3,9 @@
   "path_base": "project_root",
   "pack": {
     "id": "iEWR-MethodPack",
-    "edition": "base-v3.4",
+    "edition": "base-v3.10",
     "description": "methods/METHOD_PACK.md",
-    "snapshot": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+    "snapshot": "methods/snapshots/base-v3.10/METHOD_PACK.md",
     "qualification": "Прикладные описания candidate; фактическая пригодность проверяется для конкретного использования.",
     "project_application_history": "empty"
   },
@@ -13,27 +13,31 @@
     {
       "id": "IE-M003",
       "name": "Согласовать текущую книгу, индекс и сохранённые редакции",
-      "edition": "v1.4",
+      "edition": "v1.8",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ie-m003-v1-4",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Нужно согласовать локальную current book/index пару с неизменными snapshots и metadata",
+      "anchor": "ie-m003-v1-8",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Нужно согласовать местную текущую пару книги и индекса с неизменяемыми снимками и метаданными",
       "keywords": [
         "MethodPack",
         "редакция",
-        "snapshot",
-        "индекс"
+        "снимок",
+        "индекс",
+        "выбор средств ADE",
+        "один участник записи",
+        "обновление без Python",
+        "восстановление попытки"
       ],
       "status": "candidate",
       "basis": [
         {
           "path": "external-sources/fpf/SOURCE.json",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "role": "Direct generic suppliers are separate from local repository/activation adapter"
+          "role": "Прямые общие поставщики отделены от местного адаптера хранения и подключения"
         },
         {
           "path": "docs/PROJECT_METHODS.md",
-          "role": "Current local convention and entry; working document, not a pinned historical edition"
+          "role": "Текущее местное соглашение и вход; рабочий документ, не закреплённая историческая редакция"
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -50,14 +54,14 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "supplies",
-          "target": "IE-M004@v1.4",
-          "compatibility": "Порученное изменение среды затрагивает MethodPack book/index; paired preservation and activation conditions met",
+          "target": "IE-M004@v1.8",
+          "compatibility": "Порученное изменение среды затрагивает книгу и индекс MethodPack; условия сохранения пары и подключения выполнены",
           "basis": "Local operations and output/input conditions; no formal composition asserted",
           "status": "candidate"
         }
@@ -68,7 +72,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "C.39.RP",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
+          "compatibility": "Только недостающий общий вклад; местное соглашение о файлах остаётся в этом теле",
           "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
           "status": "candidate"
         },
@@ -77,7 +81,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "A.3.2.DE",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
+          "compatibility": "Только недостающий общий вклад; местное соглашение о файлах остаётся в этом теле",
           "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
           "status": "candidate"
         },
@@ -86,7 +90,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "A.3.1.MV",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
+          "compatibility": "Только недостающий общий вклад; местное соглашение о файлах остаётся в этом теле",
           "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
           "status": "candidate"
         },
@@ -95,7 +99,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "F.0.2.MA",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
+          "compatibility": "Только недостающий общий вклад; местное соглашение о файлах остаётся в этом теле",
           "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
           "status": "candidate"
         },
@@ -104,40 +108,40 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "F.0.2.RC",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
+          "compatibility": "Только недостающий общий вклад; местное соглашение о файлах остаётся в этом теле",
           "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
           "status": "candidate"
         }
       ],
       "location": {
         "start_line": 26,
-        "end_line": 50
+        "end_line": 84
       },
       "source_contributions": []
     },
     {
       "id": "IE-M004",
       "name": "Подключить проверенную редакцию среды в установленном проекте",
-      "edition": "v1.4",
+      "edition": "v1.8",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ie-m004-v1-4",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "ie-m004-v1-8",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Human поручил изменение/подключение редакции именно этой среды",
       "keywords": [
         "саморазвитие",
-        "before-after",
-        "assurance"
+        "до и после",
+        "обеспечение уверенности"
       ],
       "status": "candidate",
       "basis": [
         {
           "path": "external-sources/fpf/SOURCE.json",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "role": "Direct generic suppliers are separate from local repository/activation adapter"
+          "role": "Прямые общие поставщики отделены от местного адаптера репозитория и подключения."
         },
         {
           "path": "docs/SELF_DEVELOPMENT.md",
-          "role": "Current local convention and entry; working document, not a pinned historical edition"
+          "role": "Текущее локальное соглашение и вход; рабочий документ, а не закреплённая историческая редакция."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -154,15 +158,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses",
-          "target": "IE-M003@v1.4",
-          "compatibility": "Порученное изменение среды затрагивает MethodPack book/index; paired preservation and activation conditions met",
-          "basis": "Local operations and output/input conditions; no formal composition asserted",
+          "target": "IE-M003@v1.8",
+          "compatibility": "Порученное изменение среды затрагивает книгу и индекс MethodPack; выполнены условия парного сохранения и подключения.",
+          "basis": "Местные операции и условия выхода и входа; формальная композиция не заявлена",
           "status": "candidate"
         }
       ],
@@ -172,8 +176,8 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "C.39.MF",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
-          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "compatibility": "Только недостающий общий вклад; местное файловое соглашение остаётся в этом теле.",
+          "basis": "Прочитай названного поставщика FPF в закреплённом оригинале и проверь его условия для текущего использования; местные операции остаются в теле этого метода",
           "status": "candidate"
         },
         {
@@ -181,8 +185,8 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "C.39.MC",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
-          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "compatibility": "Только недостающий общий вклад; местное файловое соглашение остаётся в этом теле.",
+          "basis": "Прочитай названного поставщика FPF в закреплённом оригинале и проверь его условия для текущего использования; местные операции остаются в теле этого метода",
           "status": "candidate"
         },
         {
@@ -190,8 +194,8 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "C.43",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
-          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "compatibility": "Только недостающий общий вклад; местное файловое соглашение остаётся в этом теле.",
+          "basis": "Прочитай названного поставщика FPF в закреплённом оригинале и проверь его условия для текущего использования; местные операции остаются в теле этого метода",
           "status": "candidate"
         },
         {
@@ -199,36 +203,39 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "pattern": "A.10",
-          "compatibility": "Only the missing generic contribution; local file convention remains in this body",
-          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "compatibility": "Только недостающий общий вклад; местное файловое соглашение остаётся в этом теле.",
+          "basis": "Прочитай названного поставщика FPF в закреплённом оригинале и проверь его условия для текущего использования; местные операции остаются в теле этого метода",
           "status": "candidate"
         }
       ],
       "location": {
-        "start_line": 53,
-        "end_line": 77
+        "start_line": 87,
+        "end_line": 111
       },
       "source_contributions": []
     },
     {
       "id": "KCA-01",
       "name": "Организовать материалы и точное чтение редакции",
-      "edition": "v1.2",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-01-v1-2",
+      "anchor": "kca-01-v1-4",
       "location": {
-        "start_line": 80,
-        "end_line": 106
+        "start_line": 114,
+        "end_line": 152
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Нужно разместить входы и результаты, повторно получать текст по адресу, подготовить extraction или устранить неоднозначность имени/редакции.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Нужно разместить входы и результаты, повторно получать текст по адресу, подготовить извлечение или устранить неоднозначность имени и редакции; требуется определить состав снимка или экспорта по назначению получателя",
       "keywords": [
         "организация материалов",
         "именование",
         "редакции",
-        "exact reader",
-        "source",
-        "snapshot"
+        "точное чтение",
+        "источник",
+        "снимок",
+        "экспорт",
+        "архив",
+        "состав снимка"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -245,7 +252,7 @@
             "start_line": 117735,
             "end_line": 117903
           },
-          "role": "Точная редакция и question-relative role; changing question отделён от variants; complementary finding; context reading; next-use/affordability stop. Не поставляет сервер индекса и population aggregation."
+          "role": "Точная редакция и роль относительно вопроса; изменение вопроса отделено от вариантов; дополняющий поиск; чтение контекста; остановка по следующему использованию и доступности затрат. Не поставляет сервер индекса и агрегирование совокупности."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -256,7 +263,7 @@
             "start_line": 18366,
             "end_line": 18472
           },
-          "role": "Сохранить существенное при смене representation; различить derived inference/loss/source return. Не объявляет OCR и parsing семантическим RT автоматически."
+          "role": "Сохранить существенное при смене представления; различить производный вывод, потери и возврат к источнику. Не объявляет OCR и разбор семантическим RT автоматически."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -267,7 +274,7 @@
             "start_line": 53817,
             "end_line": 53907
           },
-          "role": "Recoverable structure относительно reader, operations, support и budget; comparison/correctness; stop при достаточном структурном ответе. Не поставляет pagination implementation."
+          "role": "Восстанавливаемая структура относительно читателя, операций, обеспечения и бюджета; сравнение и корректность; остановка при достаточном структурном ответе. Не поставляет реализацию постраничной выдачи."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -278,7 +285,7 @@
             "start_line": 26950,
             "end_line": 27155
           },
-          "role": "Source claim delta; bounded source-outward/receiver-oriented discovery; actual dependence; action-changing reach; direct subject revalidation; prior editions/results recoverable."
+          "role": "Изменение утверждения источника; ограниченное обнаружение от источника наружу и со стороны получателя; фактическая зависимость; охват, меняющий действие; прямая повторная проверка предмета; прежние редакции и результаты восстанавливаемы."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -295,28 +302,28 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-02@v1.3",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-02@v1.5",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-03@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-03@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-04@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-04@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         }
@@ -328,24 +335,24 @@
     {
       "id": "KCA-02",
       "name": "Получить полезный вклад через доступные маршруты корпуса",
-      "edition": "v1.3",
+      "edition": "v1.5",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-02-v1-3",
+      "anchor": "kca-02-v1-5",
       "location": {
-        "start_line": 109,
-        "end_line": 137
+        "start_line": 155,
+        "end_line": 183
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Неизвестно, какой источник/фрагмент поможет; поиск повторяет правдоподобные ответы, нужна независимая проверка blind spot или ограниченный обзор корпуса.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Неизвестно, какой источник или фрагмент поможет; поиск повторяет правдоподобные ответы, нужна независимая проверка слепой зоны или ограниченный обзор корпуса.",
       "keywords": [
         "поиск",
-        "unknown source",
-        "independent scan",
-        "synthesis",
-        "coverage",
-        "assessment",
-        "routes",
-        "full cost"
+        "неизвестный источник",
+        "независимый просмотр",
+        "синтез",
+        "охват",
+        "оценка",
+        "маршруты",
+        "полные затраты"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -362,7 +369,7 @@
             "start_line": 117735,
             "end_line": 117903
           },
-          "role": "Точная редакция и question-relative role; changing question отделён от variants; complementary finding; context reading; next-use/affordability stop. Не поставляет сервер индекса и population aggregation."
+          "role": "Точная редакция и роль относительно вопроса; изменение вопроса отделено от вариантов; дополняющий поиск; чтение контекста; остановка по следующему использованию и доступности затрат. Не поставляет сервер индекса и агрегирование совокупности."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -373,7 +380,7 @@
             "start_line": 81946,
             "end_line": 82102
           },
-          "role": "Получить missing operation, backward/forward joins, conversions, shared constraints, variations и selective repair; stop при достаточном continuation. Не является corpus service."
+          "role": "Получить недостающую операцию, обратные и прямые соединения, преобразования, общие ограничения, вариации и избирательное исправление; остановка при достаточном продолжении. Не является сервисом корпуса."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -384,7 +391,7 @@
             "start_line": 57117,
             "end_line": 57260
           },
-          "role": "Receiving question, feasible inquiry, whole burden, no-change comparator и useful completion; domain permission/experimental design остаются отдельными."
+          "role": "Вопрос получателя, выполнимое исследование, полная нагрузка, сравнение с отсутствием изменений и полезное завершение; предметное разрешение и планирование эксперимента остаются отдельными."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -395,7 +402,7 @@
             "start_line": 53817,
             "end_line": 53907
           },
-          "role": "Recoverable structure относительно reader, operations, support и budget; comparison/correctness; stop при достаточном структурном ответе. Не поставляет pagination implementation."
+          "role": "Восстанавливаемая структура относительно читателя, операций, обеспечения и бюджета; сравнение и корректность; остановка при достаточном структурном ответе. Не поставляет реализацию постраничной выдачи."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -406,7 +413,7 @@
             "start_line": 103304,
             "end_line": 103455
           },
-          "role": "Fit/misfit/insufficient basis, applicability отдельно recommendation; reuse earlier result по question/edition/dependencies/currentness; coordination без forced order. Scope FPF pattern use."
+          "role": "Пригодность, непригодность или недостаточность основания; применимость отдельно от рекомендации; переиспользование прежнего результата по вопросу, редакции, зависимостям и актуальности; координация без навязанного порядка. Область — использование паттерна FPF."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -417,7 +424,7 @@
             "start_line": 10139,
             "end_line": 10255
           },
-          "role": "Qualification отдельного Method/candidate/local connection; failed criterion vs insufficient basis, whole question отдельно."
+          "role": "Квалификация отдельного Method, кандидата или местного соединения; невыполнение критерия отличается от недостаточности основания, целый вопрос отдельно."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -428,7 +435,7 @@
             "start_line": 26950,
             "end_line": 27155
           },
-          "role": "Source claim delta; bounded source-outward/receiver-oriented discovery; actual dependence; action-changing reach; direct subject revalidation; prior editions/results recoverable."
+          "role": "Изменение утверждения источника; ограниченное обнаружение от источника наружу и со стороны получателя; фактическая зависимость; охват, меняющий действие; прямая повторная проверка предмета; прежние редакции и результаты восстанавливаемы."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -445,35 +452,35 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-01@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-01@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-03@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-03@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-04@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-04@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-05@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-05@v1.6",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         }
@@ -547,24 +554,24 @@
     },
     {
       "id": "KCA-03",
-      "name": "Доставить достаточное чтение в реальном runtime",
-      "edition": "v1.2",
+      "name": "Доставить достаточное чтение в реальной среде исполнения",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-03-v1-2",
+      "anchor": "kca-03-v1-4",
       "location": {
-        "start_line": 140,
-        "end_line": 163
+        "start_line": 186,
+        "end_line": 209
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Полезный материал найден, но его нужно передать человеку/model/tool/later reader без потери conditions и с допустимыми затратами.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Полезный материал найден, но его нужно передать человеку, модели, инструменту или последующему читателю без потери условий и с допустимыми затратами.",
       "keywords": [
-        "delivery",
+        "доставка",
         "контекст",
         "бюджет",
-        "truncation",
-        "pagination",
-        "reader",
-        "isolation"
+        "обрезка",
+        "разбиение на части",
+        "читатель",
+        "изоляция"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -581,7 +588,7 @@
             "start_line": 53817,
             "end_line": 53907
           },
-          "role": "Recoverable structure относительно reader, operations, support и budget; comparison/correctness; stop при достаточном структурном ответе. Не поставляет pagination implementation."
+          "role": "Восстановимая структура относительно читателя, операций, поддержки и бюджета; сравнение и корректность; остановка при достаточном структурном ответе. Не поставляет реализацию разбиения на части."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -592,7 +599,7 @@
             "start_line": 57117,
             "end_line": 57260
           },
-          "role": "Receiving question, feasible inquiry, whole burden, no-change comparator и useful completion; domain permission/experimental design остаются отдельными."
+          "role": "Вопрос получателя, выполнимое исследование, полные затраты и нагрузка, сравнение с отсутствием изменений и полезное завершение; предметное разрешение и проект эксперимента остаются отдельными."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -603,7 +610,7 @@
             "start_line": 117735,
             "end_line": 117903
           },
-          "role": "Точная редакция и question-relative role; changing question отделён от variants; complementary finding; context reading; next-use/affordability stop. Не поставляет сервер индекса и population aggregation."
+          "role": "Точная редакция и роль относительно вопроса; изменение вопроса отделено от вариантов; дополняющий поиск, чтение контекста, остановка по следующему использованию и доступным затратам. Не поставляет сервер индекса и агрегирование совокупности."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -614,7 +621,7 @@
             "start_line": 81946,
             "end_line": 82102
           },
-          "role": "Получить missing operation, backward/forward joins, conversions, shared constraints, variations и selective repair; stop при достаточном continuation. Не является corpus service."
+          "role": "Получить недостающую операцию, обратные и прямые соединения, преобразования, общие ограничения, вариации и избирательное исправление; остановка при достаточном продолжении. Не является услугой корпуса."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -631,29 +638,29 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-01@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-01@v1.4",
+          "compatibility": "Проверить результат для получателя, редакцию источника, условия и фактическую способность по обоим телам.",
+          "basis": "Соединение и остановка текущего тела; необязательное обращение по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-02@v1.3",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-02@v1.5",
+          "compatibility": "Проверить результат для получателя, редакцию источника, условия и фактическую способность по обоим телам.",
+          "basis": "Соединение и остановка текущего тела; необязательное обращение по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-04@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-04@v1.4",
+          "compatibility": "Проверить результат для получателя, редакцию источника, условия и фактическую способность по обоим телам.",
+          "basis": "Соединение и остановка текущего тела; необязательное обращение по отсутствующему вкладу",
           "status": "candidate"
         }
       ],
@@ -664,23 +671,26 @@
     {
       "id": "KCA-04",
       "name": "Сохранить согласованные редакции источников и представлений",
-      "edition": "v1.2",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-04-v1-2",
+      "anchor": "kca-04-v1-4",
       "location": {
-        "start_line": 166,
-        "end_line": 190
+        "start_line": 212,
+        "end_line": 242
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Источник/extraction/permissions/model/case basis меняется, а reading/reuse продолжается. Для frozen one-use dossier достаточно fixed basis KCA-01.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Источник, извлечение, разрешения, модель или основания дела меняются, а чтение и переиспользование продолжаются. Для зафиксированного досье однократного использования достаточно фиксированного основания KCA-01; после существенного изменения нужно согласовать используемые текущие записи",
       "keywords": [
         "обновление",
-        "coherent generation",
-        "source view",
-        "revocation",
-        "deletion",
-        "reload",
-        "currentness"
+        "согласованное поколение",
+        "представление источника",
+        "отзыв доступа",
+        "удаление",
+        "повторная загрузка",
+        "актуальность",
+        "текущее состояние",
+        "передача",
+        "конфликт записей"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -697,7 +707,7 @@
             "start_line": 26950,
             "end_line": 27155
           },
-          "role": "Source claim delta; bounded source-outward/receiver-oriented discovery; actual dependence; action-changing reach; direct subject revalidation; prior editions/results recoverable."
+          "role": "Изменение утверждения источника; ограниченный поиск от источника и со стороны получателя; фактическая зависимость; охват, меняющий действие; прямая повторная проверка предмета; прежние редакции и результаты восстановимы."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -708,7 +718,7 @@
             "start_line": 131167,
             "end_line": 131381
           },
-          "role": "Currentness отдельно adequacy, scope actual dependency closure; refresh plan не Work; unchanged result не требует нового refresh record. :4.1 linkage schema открыт частично, не используется как исполненный contract."
+          "role": "Актуальность отдельно от достаточности, область по замыканию фактических зависимостей; план обновления не является U.Work; неизменённый результат не требует новой записи обновления. :4.1 схема связей открыта частично, не используется как исполненный контракт."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -719,7 +729,7 @@
             "start_line": 18366,
             "end_line": 18472
           },
-          "role": "Сохранить существенное при смене representation; различить derived inference/loss/source return. Не объявляет OCR и parsing семантическим RT автоматически."
+          "role": "Сохранить существенное при смене представления; различить производный вывод, потерю и возврат к источнику. Не объявляет OCR и синтаксический разбор семантическим RT автоматически."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -730,7 +740,7 @@
             "start_line": 117735,
             "end_line": 117903
           },
-          "role": "Точная редакция и question-relative role; changing question отделён от variants; complementary finding; context reading; next-use/affordability stop. Не поставляет сервер индекса и population aggregation."
+          "role": "Точная редакция и роль относительно вопроса; изменение вопроса отделено от вариантов; дополняющий поиск, чтение контекста, остановка по следующему использованию и доступной цене. Не поставляет сервер индекса и агрегирование популяции."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -747,36 +757,36 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-01@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-01@v1.4",
+          "compatibility": "Проверить принимаемый результат, редакцию источника, условия и фактическую способность по обоим телам",
+          "basis": "Соединение и остановка текущего тела; необязательно, по недостающему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-02@v1.3",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-02@v1.5",
+          "compatibility": "Проверить принимаемый результат, редакцию источника, условия и фактическую способность по обоим телам",
+          "basis": "Соединение и остановка текущего тела; необязательно, по недостающему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-03@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-03@v1.4",
+          "compatibility": "Проверить принимаемый результат, редакцию источника, условия и фактическую способность по обоим телам",
+          "basis": "Соединение и остановка текущего тела; необязательно, по недостающему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-05@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
-          "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
+          "target": "KCA-05@v1.6",
+          "compatibility": "Проверить принимаемый результат, редакцию источника, условия и фактическую способность по обоим телам",
+          "basis": "Соединение и остановка текущего тела; необязательно, по недостающему вкладу",
           "status": "candidate"
         }
       ],
@@ -787,22 +797,25 @@
     {
       "id": "KCA-05",
       "name": "Сохранить условную память и переоткрываемые вопросы",
-      "edition": "v1.2",
+      "edition": "v1.6",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-05-v1-2",
+      "anchor": "kca-05-v1-6",
       "location": {
-        "start_line": 193,
-        "end_line": 215
+        "start_line": 245,
+        "end_line": 273
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Повторяется source-to-work connection либо unresolved cue нужен разрешённому later use.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Повторяется связь источника с работой либо нерешённый сигнал нужен для разрешённого последующего использования; нужно восстановить поручение, последнее подтверждённое состояние и разрешённое продолжение",
       "keywords": [
-        "memory",
         "память",
-        "open question",
-        "retention",
-        "reverse lookup",
-        "recognition"
+        "память",
+        "открытый вопрос",
+        "хранение",
+        "обратный поиск",
+        "распознавание",
+        "продолжение",
+        "действующее поручение",
+        "историческое наблюдение"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -819,7 +832,7 @@
             "start_line": 50256,
             "end_line": 50390
           },
-          "role": "Вопрос из ordinary successful work, early cue без forced diagnosis, revisable question, useful next move или quiet continuation."
+          "role": "Вопрос из обычной успешной работы, ранний сигнал без навязанного диагноза, допускающий пересмотр вопрос, полезный следующий ход или тихое продолжение."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -830,7 +843,7 @@
             "start_line": 33766,
             "end_line": 33870
           },
-          "role": "Сохранение раннего cue с nucleus/grounds без преждевременного endpoint; не задаёт operational episode index и retention engine."
+          "role": "Сохранение раннего сигнала с ядром и основаниями без преждевременного конечного результата; не задаёт операционный индекс эпизодов и механизм хранения."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -841,7 +854,7 @@
             "start_line": 103304,
             "end_line": 103455
           },
-          "role": "Fit/misfit/insufficient basis, applicability отдельно recommendation; reuse earlier result по question/edition/dependencies/currentness; coordination без forced order. Scope FPF pattern use."
+          "role": "Пригодность, непригодность или недостаточность основания; применимость отдельно от рекомендации; переиспользование прежнего результата по вопросу, редакции, зависимостям и актуальности; координация без навязанного порядка. Область — использование паттерна FPF."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -852,7 +865,7 @@
             "start_line": 26950,
             "end_line": 27155
           },
-          "role": "Source claim delta; bounded source-outward/receiver-oriented discovery; actual dependence; action-changing reach; direct subject revalidation; prior editions/results recoverable."
+          "role": "Изменение утверждения источника; ограниченное обнаружение от источника наружу и со стороны получателя; фактическая зависимость; охват, меняющий действие; прямая повторная проверка предмета; прежние редакции и результаты восстанавливаемы."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -863,7 +876,7 @@
             "start_line": 131167,
             "end_line": 131381
           },
-          "role": "Currentness отдельно adequacy, scope actual dependency closure; refresh plan не Work; unchanged result не требует нового refresh record. :4.1 linkage schema открыт частично, не используется как исполненный contract."
+          "role": "Актуальность отдельно от достаточности, область — фактическое замыкание зависимостей; план обновления не является Work; неизменный результат не требует новой записи обновления. Схема связей :4.1 открыта частично, не используется как исполненный контракт."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -874,7 +887,7 @@
             "start_line": 57117,
             "end_line": 57260
           },
-          "role": "Receiving question, feasible inquiry, whole burden, no-change comparator и useful completion; domain permission/experimental design остаются отдельными."
+          "role": "Вопрос получателя, выполнимое исследование, полная нагрузка, сравнение с отсутствием изменений и полезное завершение; предметное разрешение и планирование эксперимента остаются отдельными."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -891,28 +904,28 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-01@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-01@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-04@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-04@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-06@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-06@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         }
@@ -924,24 +937,24 @@
     {
       "id": "KCA-06",
       "name": "Обеспечить реальную встречу с полезным знанием",
-      "edition": "v1.2",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "kca-06-v1-2",
+      "anchor": "kca-06-v1-4",
       "location": {
-        "start_line": 218,
-        "end_line": 244
+        "start_line": 276,
+        "end_line": 302
       },
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Есть authorised occasion, где useful question/cue мог бы войти в ordinary work; search box не открывают, потому что никто ещё не видит вопроса. Это optional способ, не standing monitoring mandate.",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Есть разрешённая ситуация, в которой полезный вопрос или сигнал мог бы войти в обычную работу; строку поиска не открывают, потому что никто ещё не видит вопроса. Это необязательный способ, не постоянный мандат на наблюдение.",
       "keywords": [
-        "encounter",
+        "встреча со знанием",
         "наблюдение",
-        "event",
-        "observer",
-        "retry",
-        "receipt",
-        "idempotency",
-        "quiet"
+        "событие",
+        "наблюдатель",
+        "повторная попытка",
+        "получение",
+        "идемпотентность",
+        "без уведомления"
       ],
       "groups": [
         "обеспечение работы iEWR",
@@ -958,7 +971,7 @@
             "start_line": 50256,
             "end_line": 50390
           },
-          "role": "Вопрос из ordinary successful work, early cue без forced diagnosis, revisable question, useful next move или quiet continuation."
+          "role": "Вопрос из обычной успешной работы, ранний сигнал без навязанного диагноза, допускающий пересмотр вопрос, полезный следующий ход или тихое продолжение."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -969,7 +982,7 @@
             "start_line": 32516,
             "end_line": 32625
           },
-          "role": "Actual occasion, understandable relevance, reachable instructions/capability; matched non-fit; compare cue burden и remove unhelpful prompting."
+          "role": "Фактическая ситуация, понятная значимость, доступные инструкции и способность; сопоставленный неподходящий случай; сравнить нагрузку сигнала и убрать бесполезные запросы."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -980,7 +993,7 @@
             "start_line": 57117,
             "end_line": 57260
           },
-          "role": "Receiving question, feasible inquiry, whole burden, no-change comparator и useful completion; domain permission/experimental design остаются отдельными."
+          "role": "Вопрос получателя, выполнимое исследование, полная нагрузка, сравнение с отсутствием изменений и полезное завершение; предметное разрешение и планирование эксперимента остаются отдельными."
         },
         {
           "path": "external-sources/fpf/FPF-Spec.md",
@@ -991,7 +1004,7 @@
             "start_line": 103304,
             "end_line": 103455
           },
-          "role": "Fit/misfit/insufficient basis, applicability отдельно recommendation; reuse earlier result по question/edition/dependencies/currentness; coordination без forced order. Scope FPF pattern use."
+          "role": "Пригодность, непригодность или недостаточность основания; применимость отдельно от рекомендации; переиспользование прежнего результата по вопросу, редакции, зависимостям и актуальности; координация без навязанного порядка. Область — использование паттерна FPF."
         },
         {
           "path": "docs/METHOD_SOURCE_NOTICES.md",
@@ -1008,28 +1021,28 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_or_supplies",
-          "target": "KCA-02@v1.3",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-02@v1.5",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-03@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-03@v1.4",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         },
         {
           "type": "uses_or_supplies",
-          "target": "KCA-05@v1.2",
-          "compatibility": "Проверить receiving result, source edition, conditions и actual capability по обоим телам",
+          "target": "KCA-05@v1.6",
+          "compatibility": "Проверить результат получателя, редакцию источника, условия и фактическую возможность по обоим телам",
           "basis": "Join и stop текущего тела; optional по отсутствующему вкладу",
           "status": "candidate"
         }
@@ -1041,10 +1054,10 @@
     {
       "id": "DEC-VALUES",
       "name": "Сравнить последствия при неопределённых ценностях",
-      "edition": "v1.3",
+      "edition": "v1.5",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "dec-values-v1-3",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "dec-values-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Сравнить последствия при неопределённых ценностях",
       "keywords": [
         "DEC-VALUES",
@@ -1078,7 +1091,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -1088,7 +1101,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Choice inventory/rule/result; does not itself elicit all value models or construct domain consequences.",
+          "compatibility": "Состав вариантов, правило и результат выбора; само по себе не выявляет все модели ценности и не строит предметные последствия.",
           "status": "source_compared"
         },
         {
@@ -1096,7 +1109,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Inquiry/advice attainable value versus whole burden, present force of disputed requirements.",
+          "compatibility": "Достижимая ценность исследования и совета против полной нагрузки, текущая сила спорных требований.",
           "status": "source_compared"
         },
         {
@@ -1104,7 +1117,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение управления целым: фактическое начальное состояние, информационные различия, условные продолжения, сравнение целого, выполнимое действие во времени, возврат по зависимостям и связь с развитием. Названный профиль MP поставляет предметную реализацию.",
           "status": "source_compared"
         }
       ],
@@ -1118,17 +1131,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 370,
-        "end_line": 397
+        "start_line": 428,
+        "end_line": 455
       }
     },
     {
       "id": "SYS-CONCEPT",
       "name": "Сформировать инженерную концепцию и архитектуру",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sys-concept-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "sys-concept-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Сформировать инженерную концепцию и архитектуру",
       "keywords": [
         "SYS-CONCEPT",
@@ -1162,20 +1175,20 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "SYS-DELIVERY@v1.1",
+          "target": "SYS-DELIVERY@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "SYS-ASSURANCE@v1.1",
+          "target": "SYS-ASSURANCE@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -1187,7 +1200,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.6",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Direct subject and bounded project focus/ChoiceResult; not engineering shared focus by label.",
+          "compatibility": "Прямой предмет и ограниченный фокус проекта или ChoiceResult; не построение общего инженерного фокуса по метке.",
           "status": "source_compared"
         },
         {
@@ -1195,7 +1208,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Same-result complete candidate formation/parity; choice and domain realization remain separate.",
+          "compatibility": "Формирование полных кандидатов и их сопоставимость по одному результату; выбор и предметная реализация остаются отдельными.",
           "status": "source_compared"
         },
         {
@@ -1203,7 +1216,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение управления целым: фактическое начальное состояние, информационные различия, условные продолжения, сравнение целого, выполнимое действие во времени, возврат по зависимостям и связь с развитием. Названный профиль MP поставляет предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -1211,7 +1224,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источника от результата, обратное и прямое построение и явные соединения; прямой достаточный предметный Method может завершить использование.",
           "status": "source_compared"
         },
         {
@@ -1219,7 +1232,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.PAD",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Architecture decision relation and constructive decision path; supplied engineering candidate/evidence remain necessary.",
+          "compatibility": "Отношение архитектурного решения и конструктивный путь решения; предоставленные инженерный кандидат и свидетельства остаются необходимыми.",
           "status": "source_compared"
         }
       ],
@@ -1238,17 +1251,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 261,
-        "end_line": 285
+        "start_line": 319,
+        "end_line": 343
       }
     },
     {
       "id": "SYS-DELIVERY",
       "name": "Получить и согласовать инженерный вклад",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sys-delivery-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "sys-delivery-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Получить и согласовать инженерный вклад",
       "keywords": [
         "SYS-DELIVERY",
@@ -1282,15 +1295,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "SYS-ASSURANCE@v1.1",
+          "target": "SYS-ASSURANCE@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -1300,7 +1313,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Same-result complete candidate formation/parity; choice and domain realization remain separate.",
+          "compatibility": "Формирование полных кандидатов для того же результата и равенство условий сравнения; выбор и предметная реализация остаются отдельными.",
           "status": "source_compared"
         },
         {
@@ -1308,7 +1321,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источника от результата, обратное и прямое построение, явные соединения; прямой достаточный предметный метод может закрыть использование.",
           "status": "source_compared"
         },
         {
@@ -1316,7 +1329,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение целого управления: фактическое исходное состояние, информационные различия, условные продолжения, сравнение целого, выполнимое действие во времени, возврат по зависимостям и связь развития. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         }
       ],
@@ -1333,17 +1346,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 288,
-        "end_line": 311
+        "start_line": 346,
+        "end_line": 369
       }
     },
     {
       "id": "SYS-ASSURANCE",
       "name": "Согласовать конфигурацию, свидетельства и решения",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sys-assurance-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "sys-assurance-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Согласовать конфигурацию, свидетельства и решения",
       "keywords": [
         "SYS-ASSURANCE",
@@ -1377,7 +1390,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -1387,7 +1400,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источников от нужного результата, построение назад и вперёд, явные соединения; прямой достаточный предметный Method может завершить использование.",
           "status": "source_compared"
         },
         {
@@ -1395,7 +1408,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение управления целым: фактическое начальное состояние, информационные различия, условные продолжения, сравнение целого, осуществимое действие во времени, возврат по зависимостям и связь с развитием. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -1403,7 +1416,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Choice inventory/rule/result; does not itself elicit all value models or construct domain consequences.",
+          "compatibility": "Состав выбора, правило и результат; сам не выявляет все ценностные модели и не строит предметные последствия.",
           "status": "source_compared"
         },
         {
@@ -1411,7 +1424,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Inquiry/advice attainable value versus whole burden, present force of disputed requirements.",
+          "compatibility": "Достижимая ценность исследования вопроса и совета в сравнении с полной нагрузкой, текущая сила спорных требований.",
           "status": "source_compared"
         },
         {
@@ -1419,7 +1432,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized source change, actual direct reliance/reach and independently governed subject revalidation.",
+          "compatibility": "Изменение источника в размере утверждения, фактическая прямая зависимость и охват, независимо регулируемая повторная проверка предмета.",
           "status": "source_compared"
         },
         {
@@ -1427,7 +1440,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.9",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Available-result qualification, worthwhile bounded acquisition, supplier ownership, receiving use and local reopen.",
+          "compatibility": "Оценка пригодности доступного результата, оправданное ограниченное получение, ответственность поставщика, принимающее использование и местный пересмотр.",
           "status": "source_compared"
         },
         {
@@ -1435,7 +1448,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.36",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Cultural continuation/intervention distinctions; domain enactment and outcome support retain own evidence.",
+          "compatibility": "Различения культурного продолжения и вмешательства; предметное исполнение и обоснование исхода сохраняют собственные свидетельства.",
           "status": "source_compared"
         }
       ],
@@ -1455,17 +1468,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 314,
-        "end_line": 339
+        "start_line": 372,
+        "end_line": 397
       }
     },
     {
       "id": "SYS-LIFECYCLE",
       "name": "Изменить и завершить поддерживаемое использование",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sys-lifecycle-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "sys-lifecycle-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Изменить и завершить поддерживаемое использование",
       "keywords": [
         "SYS-LIFECYCLE",
@@ -1499,15 +1512,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "SYS-ASSURANCE@v1.1",
+          "target": "SYS-ASSURANCE@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -1517,7 +1530,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источника от результата, обратное и прямое построение, явные соединения; прямой достаточный предметный метод может закрыть использование.",
           "status": "source_compared"
         },
         {
@@ -1525,7 +1538,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение целого управления: фактическое исходное состояние, информационные различия, условные продолжения, сравнение целого, выполнимое действие во времени, возврат по зависимостям и связь развития. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -1533,7 +1546,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Same-result complete candidate formation/parity; choice and domain realization remain separate.",
+          "compatibility": "Формирование полных кандидатов для того же результата и равенство условий сравнения; выбор и предметная реализация остаются отдельными.",
           "status": "source_compared"
         }
       ],
@@ -1551,17 +1564,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 342,
-        "end_line": 367
+        "start_line": 400,
+        "end_line": 425
       }
     },
     {
       "id": "AGENT-SUPPORT",
       "name": "Обеспечить инструменты, обучение и управление работой агента",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "agent-support-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "agent-support-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Обеспечить инструменты, обучение и управление работой агента",
       "keywords": [
         "AGENT-SUPPORT",
@@ -1595,15 +1608,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "KCA-03@v1.2",
+          "target": "KCA-03@v1.4",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -1613,7 +1626,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.24",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Fixed-action call planning; actual execution/effect application is explicitly outside planning result.",
+          "compatibility": "Планирование вызова фиксированного действия; фактическое исполнение и применение эффекта явно находятся вне результата планирования.",
           "status": "source_compared"
         },
         {
@@ -1621,7 +1634,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.9",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Available-result qualification, worthwhile bounded acquisition, supplier ownership, receiving use and local reopen.",
+          "compatibility": "Проверка пригодности доступного результата, полезное ограниченное получение, владение поставщика, использование получателем и локальное возобновление.",
           "status": "source_compared"
         },
         {
@@ -1629,7 +1642,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение целого управления: фактическое исходное состояние, информационные различия, условные продолжения, сравнение целого, выполнимое действие во времени, возврат по зависимостям и связь развития. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -1637,7 +1650,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Continuation configuration and direct-domain recovery probe; no universal memory/checkpoint mechanism.",
+          "compatibility": "Конфигурация продолжения и прямая предметная проба восстановления; не универсальный механизм памяти или контрольных точек.",
           "status": "source_compared"
         },
         {
@@ -1645,7 +1658,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источника от результата, обратное и прямое построение, явные соединения; прямой достаточный предметный метод может закрыть использование.",
           "status": "source_compared"
         },
         {
@@ -1653,7 +1666,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Same-result complete candidate formation/parity; choice and domain realization remain separate.",
+          "compatibility": "Формирование полных кандидатов для того же результата и равенство условий сравнения; выбор и предметная реализация остаются отдельными.",
           "status": "source_compared"
         },
         {
@@ -1661,7 +1674,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Choice inventory/rule/result; does not itself elicit all value models or construct domain consequences.",
+          "compatibility": "Перечень вариантов, правило и результат выбора; сам не выявляет все модели ценности и не строит предметные последствия.",
           "status": "source_compared"
         },
         {
@@ -1669,7 +1682,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Inquiry/advice attainable value versus whole burden, present force of disputed requirements.",
+          "compatibility": "Достижимая ценность исследования или совета против полных затрат и нагрузки, текущая сила оспариваемых требований.",
           "status": "source_compared"
         }
       ],
@@ -1691,17 +1704,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 431,
-        "end_line": 459
+        "start_line": 489,
+        "end_line": 517
       }
     },
     {
       "id": "DEC-INQUIRY",
       "name": "Сформировать вопрос и дать обоснованную рекомендацию",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "dec-inquiry-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
+      "anchor": "dec-inquiry-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
       "use_when": "Сформировать вопрос и дать обоснованную рекомендацию",
       "keywords": [
         "DEC-INQUIRY",
@@ -1735,7 +1748,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -1745,7 +1758,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источников от нужного результата, построение назад и вперёд, явные соединения; прямой достаточный предметный Method может завершить использование.",
           "status": "source_compared"
         },
         {
@@ -1753,7 +1766,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение управления целым: фактическое начальное состояние, информационные различия, условные продолжения, сравнение целого, осуществимое действие во времени, возврат по зависимостям и связь с развитием. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -1761,7 +1774,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Same-result complete candidate formation/parity; choice and domain realization remain separate.",
+          "compatibility": "Построение полных кандидатов одного результата в сопоставимых условиях; выбор и предметная реализация остаются отдельными.",
           "status": "source_compared"
         },
         {
@@ -1769,7 +1782,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Choice inventory/rule/result; does not itself elicit all value models or construct domain consequences.",
+          "compatibility": "Состав выбора, правило и результат; сам не выявляет все ценностные модели и не строит предметные последствия.",
           "status": "source_compared"
         },
         {
@@ -1777,7 +1790,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Inquiry/advice attainable value versus whole burden, present force of disputed requirements.",
+          "compatibility": "Достижимая ценность исследования вопроса и совета в сравнении с полной нагрузкой, текущая сила спорных требований.",
           "status": "source_compared"
         },
         {
@@ -1785,7 +1798,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized source change, actual direct reliance/reach and independently governed subject revalidation.",
+          "compatibility": "Изменение источника в размере утверждения, фактическая прямая зависимость и охват, независимо регулируемая повторная проверка предмета.",
           "status": "source_compared"
         },
         {
@@ -1793,7 +1806,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.9",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Available-result qualification, worthwhile bounded acquisition, supplier ownership, receiving use and local reopen.",
+          "compatibility": "Оценка пригодности доступного результата, оправданное ограниченное получение, ответственность поставщика, принимающее использование и местный пересмотр.",
           "status": "source_compared"
         },
         {
@@ -1801,7 +1814,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.36",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Cultural continuation/intervention distinctions; domain enactment and outcome support retain own evidence.",
+          "compatibility": "Различения культурного продолжения и вмешательства; предметное исполнение и обоснование исхода сохраняют собственные свидетельства.",
           "status": "source_compared"
         }
       ],
@@ -1827,21 +1840,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 400,
-        "end_line": 428
+        "start_line": 458,
+        "end_line": 486
       }
     },
     {
       "id": "ADM-CASE",
-      "name": "обеспечить административное условие и сохранить открытые обязательства",
-      "edition": "v1.1",
+      "name": "Обеспечить административное условие и сохранить открытые обязательства",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "adm-case-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "обеспечить административное условие и сохранить открытые обязательства",
+      "anchor": "adm-case-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Обеспечить административное условие и сохранить открытые обязательства",
       "keywords": [
         "ADM-CASE",
-        "обеспечить административное условие и сохранить открытые обязательства",
+        "Обеспечить административное условие и сохранить открытые обязательства",
         "ADM"
       ],
       "groups": [
@@ -1871,7 +1884,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -1881,7 +1894,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.8.PER",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Точное permission/grant/exercise/conflict; конкретные policy и jurisdiction не поставляет.",
+          "compatibility": "Точные разрешение, предоставление права, осуществление и конфликт; конкретную политику и юрисдикцию не поставляет.",
           "status": "source_compared"
         },
         {
@@ -1889,7 +1902,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-bound evidence/source provenance и предел reliance; содержание доменного вывода самостоятельно не устанавливает.",
+          "compatibility": "Свидетельства и происхождение источников, связанные с утверждением, предел зависимого использования; содержание предметного вывода самостоятельно не устанавливает.",
           "status": "source_compared"
         },
         {
@@ -1897,7 +1910,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.12",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Promise/outcome/window/acceptance result; содержание институционального fulfillment rule берётся отдельно.",
+          "compatibility": "Обещание, исход, окно и результат приёмки; содержание институционального правила исполнения берётся отдельно.",
           "status": "source_compared"
         },
         {
@@ -1905,7 +1918,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.27.TA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Temporal subject, predicate, reference/window/currentness/reopen; даты не устанавливает.",
+          "compatibility": "Временной предмет, предикат, точка отсчёта, окно, актуальность и пересмотр; даты не устанавливает.",
           "status": "source_compared"
         },
         {
@@ -1913,7 +1926,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.7",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой seven-step situation-responsive next-action selection с exact branch/authority/performance/feedback/stop.",
+          "compatibility": "Прямой семишаговый выбор следующего действия по ситуации с точными ветвью, полномочиями, исполнением, обратной связью и остановкой.",
           "status": "source_compared"
         },
         {
@@ -1921,7 +1934,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -1929,7 +1942,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Соединение observation/choice/actual realization, time/resource/permission conditions и адресный consequence return.",
+          "compatibility": "Соединение наблюдения, выбора и фактической реализации, условий времени, ресурсов и разрешения, адресный возврат последствий.",
           "status": "source_compared"
         },
         {
@@ -1937,7 +1950,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -1945,7 +1958,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.5",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -1953,7 +1966,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DBR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Recover actual reliance, qualify later result, affect only dependent use, prepare actual next decision and stop.",
+          "compatibility": "Восстановить фактическую зависимость, оценить пригодность позднейшего результата, затронуть только зависимое использование, подготовить фактическое следующее решение и остановиться.",
           "status": "source_compared"
         },
         {
@@ -1961,7 +1974,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.3.1.MI",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Bounded introduction with truthful candidate/admitted status, receiving use, observation and keep/change/reopen.",
+          "compatibility": "Ограниченное введение с достоверным статусом candidate/admitted, принимающим использованием, наблюдением и сохранением, изменением или пересмотром.",
           "status": "source_compared"
         },
         {
@@ -1969,7 +1982,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Duty bearer/referents, constituting grounds, scope/validity и fulfilment; политика не создаётся описанием.",
+          "compatibility": "Носитель обязанности и её предметы, учреждающие основания, область, действительность и исполнение; политика не создаётся описанием.",
           "status": "source_compared"
         }
       ],
@@ -1994,21 +2007,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 480,
-        "end_line": 514
+        "start_line": 538,
+        "end_line": 572
       }
     },
     {
       "id": "OPS-STATE",
-      "name": "восстановить операционное состояние для конкретного решения",
-      "edition": "v1.1",
+      "name": "Восстановить операционное состояние для конкретного решения",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-state-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "восстановить операционное состояние для конкретного решения",
+      "anchor": "ops-state-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Восстановить операционное состояние для конкретного решения",
       "keywords": [
         "OPS-STATE",
-        "восстановить операционное состояние для конкретного решения",
+        "Восстановить операционное состояние для конкретного решения",
         "OPS"
       ],
       "groups": [
@@ -2038,7 +2051,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2048,7 +2061,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.1.SCR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "System-dependent question и достаточный subject-pattern exit.",
+          "compatibility": "Зависящий от системы вопрос и достаточный выход к предметному паттерну.",
           "status": "source_compared"
         },
         {
@@ -2056,7 +2069,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -2064,7 +2077,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -2072,7 +2085,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -2080,7 +2093,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Situated method-option worth, current alternatives, learning/transition/recurring burdens and bounded maintain/stop.",
+          "compatibility": "Ценность варианта метода в ситуации, текущие альтернативы, нагрузка обучения, перехода и повторного исполнения, ограниченное поддержание или остановка.",
           "status": "source_compared"
         },
         {
@@ -2088,7 +2101,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Соединение observation/choice/actual realization, time/resource/permission conditions и адресный consequence return.",
+          "compatibility": "Соединение наблюдения, выбора и фактической реализации, условий времени, ресурсов и разрешения, адресный возврат последствий.",
           "status": "source_compared"
         }
       ],
@@ -2103,21 +2116,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 517,
-        "end_line": 531
+        "start_line": 575,
+        "end_line": 589
       }
     },
     {
       "id": "OPS-CONTINUE",
-      "name": "admission, case continuation и обязательства во времени",
-      "edition": "v1.1",
+      "name": "Определить допуск, продолжение случая и обязательства во времени",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-continue-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "admission, case continuation и обязательства во времени",
+      "anchor": "ops-continue-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Определить допуск, продолжение случая и обязательства во времени",
       "keywords": [
         "OPS-CONTINUE",
-        "admission, case continuation и обязательства во времени",
+        "Определить допуск, продолжение случая и обязательства во времени",
         "OPS"
       ],
       "groups": [
@@ -2147,7 +2160,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2157,7 +2170,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.5",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Next consuming operation readiness; readiness не permission.",
+          "compatibility": "Готовность следующей потребляющей операции; готовность не является разрешением.",
           "status": "source_compared"
         },
         {
@@ -2165,7 +2178,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.8.PER",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Точное permission/grant/exercise/conflict; конкретные policy и jurisdiction не поставляет.",
+          "compatibility": "Точное различение разрешения, его предоставления, осуществления и конфликта; конкретные политики и юрисдикцию не поставляет.",
           "status": "source_compared"
         },
         {
@@ -2173,7 +2186,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Choice только над live available OptionSet; не конструирует отсутствующие professional operations.",
+          "compatibility": "Выбор только среди действующего доступного OptionSet; не строит отсутствующие профессиональные операции.",
           "status": "source_compared"
         },
         {
@@ -2181,7 +2194,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.27.TA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой указанный исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен при исполнении.",
           "status": "source_compared"
         },
         {
@@ -2189,7 +2202,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Duty bearer/referents, constituting grounds, scope/validity и fulfilment; политика не создаётся описанием.",
+          "compatibility": "Носитель обязанности и референты, учреждающие основания, область, действительность и исполнение; политика не создаётся описанием.",
           "status": "source_compared"
         },
         {
@@ -2197,7 +2210,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DBR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Recover actual reliance, qualify later result, affect only dependent use, prepare actual next decision and stop.",
+          "compatibility": "Восстановить фактическую опору на основания, установить пригодность более позднего результата, затронуть только зависимое использование, подготовить фактическое следующее решение и остановиться.",
           "status": "source_compared"
         },
         {
@@ -2205,7 +2218,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.12",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Promise/outcome/window/acceptance result; содержание институционального fulfillment rule берётся отдельно.",
+          "compatibility": "Обещание, исход, окно и результат приёмки; содержание институционального правила исполнения берётся отдельно.",
           "status": "source_compared"
         }
       ],
@@ -2221,21 +2234,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 534,
-        "end_line": 548
+        "start_line": 592,
+        "end_line": 606
       }
     },
     {
       "id": "OPS-RELEASE",
-      "name": "release при возвратах и сохранение protective capacity",
-      "edition": "v1.1",
+      "name": "Допустить работу к исполнению с учётом возвратов и сохранить защитный резерв мощности",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-release-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "release при возвратах и сохранение protective capacity",
+      "anchor": "ops-release-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Допустить работу к исполнению с учётом возвратов и сохранить защитный резерв мощности",
       "keywords": [
         "OPS-RELEASE",
-        "release при возвратах и сохранение protective capacity",
+        "Допустить работу к исполнению с учётом возвратов и сохранить защитный резерв мощности",
         "OPS"
       ],
       "groups": [
@@ -2265,7 +2278,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2275,7 +2288,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.5",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Next consuming operation readiness; readiness не permission.",
+          "compatibility": "Готовность следующей потребляющей операции; готовность не означает разрешения.",
           "status": "source_compared"
         },
         {
@@ -2283,7 +2296,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "B.1.6",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Measured resource aggregation, overlap/deduplication; не queue/scheduling theorem.",
+          "compatibility": "Агрегирование измеренных ресурсов, пересечение и устранение двойного счёта; не теорема очередей или расписания.",
           "status": "source_compared"
         },
         {
@@ -2291,7 +2304,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.CRC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Finite S0/delta/S1 comparison с protected/resource coordinates и interactions.",
+          "compatibility": "Конечное сравнение S0, изменения и S1 с защищаемыми и ресурсными координатами и взаимодействиями.",
           "status": "source_compared"
         }
       ],
@@ -2306,21 +2319,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 551,
-        "end_line": 567
+        "start_line": 609,
+        "end_line": 625
       }
     },
     {
       "id": "OPS-CAPACITY",
-      "name": "построить соразмерный расчёт capacity и deadline",
-      "edition": "v1.1",
+      "name": "Построить соразмерный расчёт доступной мощности ресурсов и сроков выполнения",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-capacity-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "построить соразмерный расчёт capacity и deadline",
+      "anchor": "ops-capacity-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Построить соразмерный расчёт доступной мощности ресурсов и сроков выполнения",
       "keywords": [
         "OPS-CAPACITY",
-        "построить соразмерный расчёт capacity и deadline",
+        "Построить соразмерный расчёт доступной мощности ресурсов и сроков выполнения",
         "OPS"
       ],
       "groups": [
@@ -2350,7 +2363,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2360,7 +2373,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "B.1.6",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Measured resource aggregation, overlap/deduplication; не queue/scheduling theorem.",
+          "compatibility": "Измеряемое агрегирование ресурсов, перекрытие и устранение двойного учёта; не теорема очередей или расписаний.",
           "status": "source_compared"
         },
         {
@@ -2368,7 +2381,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.27.TA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Temporal subject, predicate, reference/window/currentness/reopen; даты не устанавливает.",
+          "compatibility": "Временной предмет, предикат, точка отсчёта, окно, актуальность и переоткрытие; даты не устанавливает.",
           "status": "source_compared"
         },
         {
@@ -2376,7 +2389,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole performance/provision alternatives, executable joins, capability/time/support allocation; local operating/strategic models остаются отдельными входами.",
+          "compatibility": "Полные альтернативы выполнения и обеспечения, исполнимые соединения, распределение способностей, времени и обеспечения; местные операционные и стратегические модели остаются отдельными входами.",
           "status": "source_compared"
         }
       ],
@@ -2391,21 +2404,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 570,
-        "end_line": 586
+        "start_line": 628,
+        "end_line": 644
       }
     },
     {
       "id": "OPS-COUPLING",
-      "name": "согласовать изменение между структурами (OPS.11)",
-      "edition": "v1.1",
+      "name": "Согласовать изменение между структурами (OPS.11)",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-coupling-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "согласовать изменение между структурами (OPS.11)",
+      "anchor": "ops-coupling-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Согласовать изменение между структурами (OPS.11)",
       "keywords": [
         "OPS-COUPLING",
-        "согласовать изменение между структурами (OPS.11)",
+        "Согласовать изменение между структурами (OPS.11)",
         "OPS"
       ],
       "groups": [
@@ -2435,13 +2448,13 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "OPS-STATE@v1.1",
+          "target": "OPS-STATE@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -2453,7 +2466,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой указанный исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен при исполнении.",
           "status": "source_compared"
         },
         {
@@ -2461,7 +2474,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.JF",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Qualified joint reachability, simultaneous/sequence/alternatives distinction, common demands, protection/transition/recovery and bounded verdict.",
+          "compatibility": "Совместная достижимость с установленной пригодностью, различение одновременности, последовательности и альтернатив, общие потребности, защита, переход, восстановление и ограниченный вердикт.",
           "status": "source_compared"
         },
         {
@@ -2469,7 +2482,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Соединение observation/choice/actual realization, time/resource/permission conditions и адресный consequence return.",
+          "compatibility": "Соединение наблюдения, выбора и фактической реализации, условия времени, ресурсов и разрешений и адресный возврат по последствиям.",
           "status": "source_compared"
         }
       ],
@@ -2481,21 +2494,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 589,
-        "end_line": 606
+        "start_line": 647,
+        "end_line": 664
       }
     },
     {
       "id": "OPS-EVIDENCE",
-      "name": "получить интерпретируемые operating consequences",
-      "edition": "v1.1",
+      "name": "Получить интерпретируемые результаты операционной деятельности",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-evidence-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "получить интерпретируемые operating consequences",
+      "anchor": "ops-evidence-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Получить интерпретируемые результаты операционной деятельности",
       "keywords": [
         "OPS-EVIDENCE",
-        "получить интерпретируемые operating consequences",
+        "Получить интерпретируемые результаты операционной деятельности",
         "OPS"
       ],
       "groups": [
@@ -2525,7 +2538,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2535,7 +2548,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-bound evidence/source provenance и предел reliance; содержание доменного вывода самостоятельно не устанавливает.",
+          "compatibility": "Привязанные к утверждению свидетельства, происхождение источника и предел опирания; содержание предметного вывода самостоятельно не устанавливает.",
           "status": "source_compared"
         },
         {
@@ -2543,7 +2556,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "B.1.6",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Measured resource aggregation, overlap/deduplication; не queue/scheduling theorem.",
+          "compatibility": "Агрегирование измеренных ресурсов, перекрытие и устранение дубликатов; не теорема очередей или расписания.",
           "status": "source_compared"
         },
         {
@@ -2551,7 +2564,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Worthwhile attainable inquiry/continuation/stop против полного burden.",
+          "compatibility": "Полезное достижимое исследование, продолжение или остановка против полных затрат и нагрузки.",
           "status": "source_compared"
         }
       ],
@@ -2567,21 +2580,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 609,
-        "end_line": 623
+        "start_line": 667,
+        "end_line": 681
       }
     },
     {
       "id": "ORG-DESIGN",
-      "name": "спроектировать contribution relations и получить отдельные решения",
-      "edition": "v1.1",
+      "name": "Спроектировать отношения вклада и получить отдельные решения",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "org-design-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "спроектировать contribution relations и получить отдельные решения",
+      "anchor": "org-design-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Спроектировать отношения вклада и получить отдельные решения",
       "keywords": [
         "ORG-DESIGN",
-        "спроектировать contribution relations и получить отдельные решения",
+        "Спроектировать отношения вклада и получить отдельные решения",
         "OCE"
       ],
       "groups": [
@@ -2611,15 +2624,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "ORG-CHANGE@v1.1",
+          "target": "ORG-CHANGE@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -2629,7 +2642,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.1.CSD",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Discovery consequence-bearing Systems с actual/prospective status.",
+          "compatibility": "Выявление систем, несущих последствия, с различением фактического и предполагаемого состояния.",
           "status": "source_compared"
         },
         {
@@ -2637,7 +2650,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -2645,7 +2658,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.8.PER",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Точное permission/grant/exercise/conflict; конкретные policy и jurisdiction не поставляет.",
+          "compatibility": "Точные разрешение, предоставление права, осуществление и конфликт; конкретную политику и юрисдикцию не поставляет.",
           "status": "source_compared"
         },
         {
@@ -2653,7 +2666,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Construct complete materially different same-result ways with parity, unknowns, acceptance, authority, burden and freeze for choice.",
+          "compatibility": "Построить полные существенно разные способы одного результата с сопоставимостью, неизвестным, приёмкой, полномочиями, нагрузкой и фиксацией для выбора.",
           "status": "source_compared"
         },
         {
@@ -2661,7 +2674,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.DC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole prospective directions from contribution/current S0, materially different premises, support configurations and finite comparison.",
+          "compatibility": "Целостные предполагаемые направления от вклада и текущего S0, существенно разные основания, конфигурации обеспечения и конечное сравнение.",
           "status": "source_compared"
         },
         {
@@ -2669,7 +2682,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.2.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Direct assignment species/local domain/additional participants/predicate/occurrence identity; missing-governor and separate neighboring relations. Local institution supplies appointment rule.",
+          "compatibility": "Прямой вид назначения, местный домен, дополнительные участники, предикат и идентичность случая отношения; missing-governor и отдельные соседние отношения. Местный институт поставляет правило назначения.",
           "status": "source_compared"
         },
         {
@@ -2677,7 +2690,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.6.REL",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Direct relation/predicate/applicability/identity and actual participant discipline; no generic relation substitutes for a missing governor.",
+          "compatibility": "Дисциплина прямого отношения, предиката, применимости, идентичности и фактических участников; общее отношение не заменяет отсутствующий регулятор.",
           "status": "source_compared"
         },
         {
@@ -2685,7 +2698,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.JF",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Qualified joint reachability, simultaneous/sequence/alternatives distinction, common demands, protection/transition/recovery and bounded verdict.",
+          "compatibility": "Оценённая совместная достижимость, различение одновременности, последовательности и альтернатив, общие потребности, защита, переход, восстановление и ограниченное заключение.",
           "status": "source_compared"
         }
       ],
@@ -2703,21 +2716,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 626,
-        "end_line": 658
+        "start_line": 684,
+        "end_line": 716
       }
     },
     {
       "id": "ORG-CHANGE",
-      "name": "реализовать и пересмотреть изменение при работающей услуге",
-      "edition": "v1.1",
+      "name": "Реализовать и пересмотреть изменение при работающей услуге",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "org-change-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "реализовать и пересмотреть изменение при работающей услуге",
+      "anchor": "org-change-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Реализовать и пересмотреть изменение при работающей услуге",
       "keywords": [
         "ORG-CHANGE",
-        "реализовать и пересмотреть изменение при работающей услуге",
+        "Реализовать и пересмотреть изменение при работающей услуге",
         "OCE"
       ],
       "groups": [
@@ -2747,7 +2760,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2757,7 +2770,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.15.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Work performance configuration, receiving joins и recovery test.",
+          "compatibility": "Конфигурация исполнения работы, соединения с получателем и проверка восстановления.",
           "status": "source_compared"
         },
         {
@@ -2765,7 +2778,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.3.1.MI",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Bounded introduction with truthful candidate/admitted status, receiving use, observation and keep/change/reopen.",
+          "compatibility": "Ограниченное внедрение с правдивым статусом кандидата или допущенного, использованием получателем, наблюдением, сохранением, изменением и возобновлением.",
           "status": "source_compared"
         },
         {
@@ -2773,7 +2786,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Соединение observation/choice/actual realization, time/resource/permission conditions и адресный consequence return.",
+          "compatibility": "Соединение наблюдения, выбора и фактической реализации, условия времени, ресурсов и разрешений, адресный возврат последствий.",
           "status": "source_compared"
         },
         {
@@ -2781,7 +2794,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.36.MC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямое адресное исходное решение; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен во время исполнения.",
           "status": "source_compared"
         },
         {
@@ -2789,7 +2802,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямое адресное исходное решение; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен во время исполнения.",
           "status": "source_compared"
         },
         {
@@ -2797,7 +2810,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole performance/provision alternatives, executable joins, capability/time/support allocation; local operating/strategic models остаются отдельными входами.",
+          "compatibility": "Полные альтернативы исполнения и предоставления, исполнимые соединения, распределение способности, времени и поддержки; локальные операционные и стратегические модели остаются отдельными входами.",
           "status": "source_compared"
         },
         {
@@ -2805,7 +2818,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.JF",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Qualified joint reachability, simultaneous/sequence/alternatives distinction, common demands, protection/transition/recovery and bounded verdict.",
+          "compatibility": "Совместная достижимость с проверенной пригодностью, различение одновременности, последовательности и альтернатив, общие потребности, защита, переход, восстановление и ограниченное заключение.",
           "status": "source_compared"
         },
         {
@@ -2813,7 +2826,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.CRC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямое адресное исходное решение; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен во время исполнения.",
           "status": "source_compared"
         },
         {
@@ -2821,7 +2834,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DBR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Recover actual reliance, qualify later result, affect only dependent use, prepare actual next decision and stop.",
+          "compatibility": "Восстановить фактическое опирание, проверить пригодность последующего результата, затронуть только зависимое использование, подготовить фактическое следующее решение и остановиться.",
           "status": "source_compared"
         },
         {
@@ -2829,7 +2842,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39.WI",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Discover consequential limits and compare remedies/current practice with whole burden, actual implementation and later use.",
+          "compatibility": "Обнаружить существенные ограничения и сравнить меры исправления с текущей практикой по полным затратам и нагрузке, фактической реализации и последующему использованию.",
           "status": "source_compared"
         },
         {
@@ -2837,7 +2850,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39.RP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Source operations/repertoire with exact status, claim-bearing passage, relations and use limits.",
+          "compatibility": "Операции или репертуар источника с точным статусом, фрагментом, несущим утверждение, отношениями и ограничениями использования.",
           "status": "source_compared"
         },
         {
@@ -2845,7 +2858,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Situated method-option worth, current alternatives, learning/transition/recurring burdens and bounded maintain/stop.",
+          "compatibility": "Полезность варианта метода в конкретных условиях, текущие альтернативы, нагрузки научения, перехода и повторного применения, ограниченное поддержание или остановка.",
           "status": "source_compared"
         }
       ],
@@ -2862,21 +2875,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 661,
-        "end_line": 695
+        "start_line": 719,
+        "end_line": 753
       }
     },
     {
       "id": "STR-OPTIONS",
-      "name": "построить стратегические направления и различающие возможности",
-      "edition": "v1.1",
+      "name": "Построить стратегические направления и различающие возможности",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "str-options-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "построить стратегические направления и различающие возможности",
+      "anchor": "str-options-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Построить стратегические направления и различающие возможности",
       "keywords": [
         "STR-OPTIONS",
-        "построить стратегические направления и различающие возможности",
+        "Построить стратегические направления и различающие возможности",
         "STR"
       ],
       "groups": [
@@ -2906,7 +2919,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -2916,7 +2929,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.CRC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Finite S0/delta/S1 comparison с protected/resource coordinates и interactions.",
+          "compatibility": "Конечное сравнение S0/delta/S1 с координатами защиты и ресурсов, взаимодействиями.",
           "status": "source_compared"
         },
         {
@@ -2924,7 +2937,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Worthwhile attainable inquiry/continuation/stop против полного burden.",
+          "compatibility": "Полезное достижимое исследование, продолжение или остановка против полных затрат и нагрузки.",
           "status": "source_compared"
         },
         {
@@ -2932,7 +2945,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.1.CSD",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Discovery consequence-bearing Systems с actual/prospective status.",
+          "compatibility": "Поиск систем, несущих последствия, с фактическим или перспективным статусом.",
           "status": "source_compared"
         },
         {
@@ -2940,7 +2953,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.DC",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole prospective directions from contribution/current S0, materially different premises, support configurations and finite comparison.",
+          "compatibility": "Полные перспективные направления от вклада и текущего S0, существенно различные предпосылки, конфигурации поддержки и конечное сравнение.",
           "status": "source_compared"
         },
         {
@@ -2948,7 +2961,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Construct complete materially different same-result ways with parity, unknowns, acceptance, authority, burden and freeze for choice.",
+          "compatibility": "Построить полные существенно различные способы того же результата с равными условиями сравнения, неизвестным, приёмкой, полномочиями, нагрузкой и фиксацией для выбора.",
           "status": "source_compared"
         },
         {
@@ -2956,7 +2969,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.40.JF",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Qualified joint reachability, simultaneous/sequence/alternatives distinction, common demands, protection/transition/recovery and bounded verdict.",
+          "compatibility": "Совместная достижимость с проверенной пригодностью, различение одновременности, последовательности и альтернатив, общие потребности, защита, переход, восстановление и ограниченное заключение.",
           "status": "source_compared"
         },
         {
@@ -2964,7 +2977,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.32.MWA.PP",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямое адресное исходное решение; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен во время исполнения.",
           "status": "source_compared"
         }
       ],
@@ -2982,21 +2995,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 698,
-        "end_line": 712
+        "start_line": 756,
+        "end_line": 770
       }
     },
     {
       "id": "STR-COMMIT",
-      "name": "квалифицировать cohort signal перед пересмотром commitment",
-      "edition": "v1.1",
+      "name": "Проверить применимость когортного показателя перед пересмотром обязательства",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "str-commit-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "квалифицировать cohort signal перед пересмотром commitment",
+      "anchor": "str-commit-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Проверить применимость когортного показателя перед пересмотром обязательства",
       "keywords": [
         "STR-COMMIT",
-        "квалифицировать cohort signal перед пересмотром commitment",
+        "Проверить применимость когортного показателя перед пересмотром обязательства",
         "STR"
       ],
       "groups": [
@@ -3026,7 +3039,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3036,7 +3049,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DBR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Recover actual reliance, qualify later result, affect only dependent use, prepare actual next decision and stop.",
+          "compatibility": "Восстановить фактическую опору на основания, установить пригодность более позднего результата, затронуть только зависимое использование, подготовить фактическое следующее решение и остановиться.",
           "status": "source_compared"
         },
         {
@@ -3044,7 +3057,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.27.TA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой указанный исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен при исполнении.",
           "status": "source_compared"
         },
         {
@@ -3052,7 +3065,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой указанный исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен при исполнении.",
           "status": "source_compared"
         }
       ],
@@ -3064,21 +3077,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 715,
-        "end_line": 729
+        "start_line": 773,
+        "end_line": 787
       }
     },
     {
       "id": "RES-INQUIRY",
-      "name": "получить criticizable answer и не назначать ненужное исследование",
-      "edition": "v1.1",
+      "name": "Получить ответ с основаниями, допускающий содержательную критику, и не назначать ненужное исследование",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "res-inquiry-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "получить criticizable answer и не назначать ненужное исследование",
+      "anchor": "res-inquiry-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Получить ответ с основаниями, допускающий содержательную критику, и не назначать ненужное исследование",
       "keywords": [
         "RES-INQUIRY",
-        "получить criticizable answer и не назначать ненужное исследование",
+        "Получить ответ с основаниями, допускающий содержательную критику, и не назначать ненужное исследование",
         "RMP"
       ],
       "groups": [
@@ -3108,7 +3121,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3118,7 +3131,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Worthwhile attainable inquiry/continuation/stop против полного burden.",
+          "compatibility": "Полезное достижимое исследование, продолжение или остановка против полных затрат и нагрузки.",
           "status": "source_compared"
         },
         {
@@ -3126,7 +3139,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-bound evidence/source provenance и предел reliance; содержание доменного вывода самостоятельно не устанавливает.",
+          "compatibility": "Привязанные к утверждению свидетельства, происхождение источника и предел опирания; содержание предметного вывода самостоятельно не устанавливает.",
           "status": "source_compared"
         },
         {
@@ -3134,7 +3147,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.28",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Triage causal claim, threat screen, needed support components, bounded verdict; historical discrimination и domain evidence construction не подменяет.",
+          "compatibility": "Первичный разбор причинного утверждения, проверка угроз, нужные компоненты оснований и ограниченное заключение; не подменяет историческое различение и построение предметных свидетельств.",
           "status": "source_compared"
         },
         {
@@ -3142,7 +3155,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.38",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Construct complete materially different same-result ways with parity, unknowns, acceptance, authority, burden and freeze for choice.",
+          "compatibility": "Построить полные существенно различные способы того же результата с равными условиями сравнения, неизвестным, приёмкой, полномочиями, нагрузкой и фиксацией для выбора.",
           "status": "source_compared"
         }
       ],
@@ -3161,21 +3174,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 742,
-        "end_line": 756
+        "start_line": 800,
+        "end_line": 814
       }
     },
     {
       "id": "RES-RECOVERY",
-      "name": "восстановить reusable-way accounts по различающим evidence",
-      "edition": "v1.1",
+      "name": "Восстановить описания переиспользуемых способов по различающим свидетельствам",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "res-recovery-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "восстановить reusable-way accounts по различающим evidence",
+      "anchor": "res-recovery-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Восстановить описания переиспользуемых способов по различающим свидетельствам",
       "keywords": [
         "RES-RECOVERY",
-        "восстановить reusable-way accounts по различающим evidence",
+        "Восстановить описания переиспользуемых способов по различающим свидетельствам",
         "ME",
         "RMP"
       ],
@@ -3212,15 +3225,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "RES-INQUIRY@v1.1",
+          "target": "RES-INQUIRY@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -3230,7 +3243,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.3.1.MR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Contribution and qualification as reported in the preserved allocation record.",
+          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
           "status": "source_compared"
         },
         {
@@ -3238,7 +3251,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.DUA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -3246,7 +3259,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -3254,7 +3267,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "FPF.Reference:16.9.4",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Contribution and qualification as reported in the preserved allocation record.",
+          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
           "status": "source_compared"
         }
       ],
@@ -3267,21 +3280,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 759,
-        "end_line": 773
+        "start_line": 817,
+        "end_line": 831
       }
     },
     {
       "id": "RES-HISTORY",
-      "name": "объяснить differentiation через диагностические исторические данные",
-      "edition": "v1.1",
+      "name": "Объяснить расхождение методов по различающим историческим данным",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "res-history-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "объяснить differentiation через диагностические исторические данные",
+      "anchor": "res-history-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Объяснить расхождение методов по различающим историческим данным",
       "keywords": [
         "RES-HISTORY",
-        "объяснить differentiation через диагностические исторические данные",
+        "Объяснить расхождение методов по различающим историческим данным",
         "ME",
         "RMP"
       ],
@@ -3318,15 +3331,15 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "RES-INQUIRY@v1.1",
+          "target": "RES-INQUIRY@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -3336,7 +3349,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.28",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Contribution and qualification as reported in the preserved allocation record.",
+          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
           "status": "source_compared"
         },
         {
@@ -3344,7 +3357,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -3352,7 +3365,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.27.TA",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Прямой addressed исходный Solution; нужные условия читаются в поставленном оригинале FPF по этому pattern; журнал авторского чтения не нужен runtime.",
+          "compatibility": "Прямой исходный Solution по точному адресу; нужные условия читаются в поставленном оригинале FPF по этому паттерну; журнал авторского чтения не нужен для исполнения.",
           "status": "source_compared"
         },
         {
@@ -3360,7 +3373,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "FPF.Reference:16.9.3",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Contribution and qualification as reported in the preserved allocation record.",
+          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
           "status": "source_compared"
         }
       ],
@@ -3373,21 +3386,21 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 776,
-        "end_line": 794
+        "start_line": 834,
+        "end_line": 852
       }
     },
     {
       "id": "DATA-MEANING",
-      "name": "Получить semantic integration для одного receiving use",
-      "edition": "v1.1",
+      "name": "Получить смысловую интеграцию для одного конкретного использования получателем",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "data-meaning-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Интегратор с domain owners и получателем запроса; нужны доступ к точным schemes/definitions, понимание смысла identifiers/units/effectivity и способность получить implementation evidence.",
+      "anchor": "data-meaning-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Интегратор работает с предметными владельцами и получателем запроса; нужны доступ к точным схемам и определениям, понимание смысла идентификаторов, единиц и периода действия, способность получить свидетельства реализации.",
       "keywords": [
         "DATA-MEANING",
-        "Получить semantic integration для одного receiving use",
+        "Получить смысловую интеграцию для одного конкретного использования получателем",
         "SIE"
       ],
       "groups": [
@@ -3417,7 +3430,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3427,7 +3440,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.9",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Точные local senses, independently tested correspondence, separate bounded use and loss/reliance; не identity/mapping implementation.",
+          "compatibility": "Точные локальные значения, независимо проверенное соответствие, отдельное ограниченное использование, потери и опирание; не реализация идентичности или отображения.",
           "status": "source_compared"
         },
         {
@@ -3435,7 +3448,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в масштабе утверждения, ограниченный двунаправленный поиск затронутых использований, фактическое опирание, возврат к предмету и локальная остановка.",
           "status": "source_compared"
         },
         {
@@ -3443,7 +3456,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, варианты представления с независимым управлением, предъявление, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3451,7 +3464,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу для получателя, полным затратам и нагрузке; сохранение, пересмотр, замена, разветвление, остановка и границы переноса.",
           "status": "source_compared"
         },
         {
@@ -3459,7 +3472,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.0.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Source-local meaning with exact passage; optional durable cell only when used; neither truth, access authority nor whole source adequacy.",
+          "compatibility": "Локальный смысл источника с точным фрагментом; необязательная долговременная ячейка лишь при использовании; не истинность, полномочия доступа или пригодность всего источника.",
           "status": "source_compared"
         },
         {
@@ -3467,7 +3480,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.0.2",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Bounded framework-authoring synthesis/contrast/unresolved inquiry; not runtime data-fusion authority.",
+          "compatibility": "Ограниченные синтез, сопоставление и неразрешённое исследование при создании фреймворка; не полномочие объединять данные во время исполнения.",
           "status": "source_compared"
         },
         {
@@ -3475,7 +3488,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "F.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Question-led finding/source cut, inspected answer-changing roles, exact editions and scoped access/coverage stops.",
+          "compatibility": "Поиск и отбор источников по вопросу, проверенные роли, меняющие ответ, точные редакции и остановки по доступу и покрытию в заданной области.",
           "status": "source_compared"
         },
         {
@@ -3483,7 +3496,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "B.5.FM",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Construct inferentially useful first model through participants/distinctions/relations/consequence/challenge; subject premises remain domain-owned.",
+          "compatibility": "Построить первую модель, полезную для выводов, через участников, различия, отношения, последствия и оспаривание; предметные предпосылки остаются у предметных владельцев.",
           "status": "source_compared"
         }
       ],
@@ -3504,18 +3517,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 809,
-        "end_line": 871
+        "start_line": 867,
+        "end_line": 929
       }
     },
     {
       "id": "EXPLAIN",
       "name": "Подготовить и исправить объяснение для адресата",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "explain-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Объясняющий располагает warranted subject account, понимает его derivation/conditions и имеет канал, доступный адресату. Знание предмета не предполагается из fluency.",
+      "anchor": "explain-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Объясняющий располагает обоснованным описанием предмета, понимает его вывод и условия, имеет канал, доступный адресату. Знание предмета не предполагается из беглости речи.",
       "keywords": [
         "EXPLAIN",
         "Подготовить и исправить объяснение для адресата",
@@ -3548,7 +3561,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3558,7 +3571,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, варианты представления с независимым управлением, предъявление, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3566,7 +3579,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу для получателя, полным затратам и нагрузке; сохранение, пересмотр, замена, разветвление, остановка и границы переноса.",
           "status": "source_compared"
         },
         {
@@ -3574,7 +3587,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в масштабе утверждения, ограниченный двунаправленный поиск затронутых использований, фактическое опирание, возврат к предмету и локальная остановка.",
           "status": "source_compared"
         },
         {
@@ -3582,7 +3595,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.2.8",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Selected structural recovery is relative to account/form/observer, correctness, preparation/help/access/budget; amount is not effort, utility, learning or world warrant.",
+          "compatibility": "Выбранное структурное восстановление зависит от описания, формы, наблюдателя, корректности, подготовки, помощи, доступа и бюджета; количество не является усилиями, полезностью, научением или основанием о мире.",
           "status": "source_compared"
         },
         {
@@ -3590,7 +3603,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.3.2.DE",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Use-relative actionable Method description/candidate account; inputs→operation→result→conditions, small receiving-use check; not human learning/subject warrant.",
+          "compatibility": "Пригодное для действия описание метода или кандидат описания относительно использования; входы→операция→результат→условия, малая проверка использования получателем; не научение человека или предметное основание.",
           "status": "source_compared"
         },
         {
@@ -3598,7 +3611,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.6.3.RT.OE",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Construct expression for selected operation: identity/grouping/reference/conventions, execute and repair; subject operation and learning separately supplied.",
+          "compatibility": "Построить выражение для выбранной операции: идентичность, группировка, ссылки и соглашения, исполнение и исправление; предметная операция и научение предоставляются отдельно.",
           "status": "source_compared"
         }
       ],
@@ -3614,18 +3627,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 874,
-        "end_line": 917
+        "start_line": 932,
+        "end_line": 975
       }
     },
     {
       "id": "TEXT-EDIT",
       "name": "Получить естественный текст в разрешённой смысловой границе",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "text-edit-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Редактор/автор понимает язык и контекст; есть original/material, поручение, protected spans и при необходимости точная нормативная статья. Для предметной истинности нужен отдельный источник.",
+      "anchor": "text-edit-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Редактор/автор понимает язык и контекст; есть оригинал или материал, поручение, защищённые фрагменты и при необходимости точная нормативная статья. Для предметной истинности нужен отдельный источник.",
       "keywords": [
         "TEXT-EDIT",
         "Получить естественный текст в разрешённой смысловой границе",
@@ -3658,7 +3671,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3668,7 +3681,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, независимо регулируемые кандидаты представлений, раскрытие, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3676,7 +3689,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу получателю и полной нагрузке; сохранение, пересмотр, замена, ветвление, остановка и запрет автоматического переноса.",
           "status": "source_compared"
         },
         {
@@ -3684,7 +3697,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в размере утверждения, ограниченное двунаправленное обнаружение затронутого использования, фактическая опора на основание, возврат к предмету и местная остановка.",
           "status": "source_compared"
         }
       ],
@@ -3707,18 +3720,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 920,
-        "end_line": 970
+        "start_line": 978,
+        "end_line": 1028
       }
     },
     {
       "id": "UI-DESIGN",
       "name": "Воплотить и проверить видимое интерфейсное решение",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ui-design-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Подготовленный дизайнер/разработчик или AI с known content/scenario, доступными assets/fonts, знанием платформы и разрешённым render/control средством. Human задаёт существенное направление и окончательный вкус.",
+      "anchor": "ui-design-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Подготовленный дизайнер/разработчик или AI с известными содержанием и сценарием, доступными материалами и шрифтами, знанием платформы и разрешённым средством отрисовки и управления. Человек задаёт существенное направление и окончательный вкус.",
       "keywords": [
         "UI-DESIGN",
         "Воплотить и проверить видимое интерфейсное решение",
@@ -3751,7 +3764,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [],
@@ -3761,7 +3774,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, независимо регулируемые кандидаты представлений, раскрытие, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3769,7 +3782,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу получателю и полной нагрузке; сохранение, пересмотр, замена, ветвление, остановка и запрет автоматического переноса.",
           "status": "source_compared"
         },
         {
@@ -3777,7 +3790,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в размере утверждения, ограниченное двунаправленное обнаружение затронутого использования, фактическая опора на основание, возврат к предмету и местная остановка.",
           "status": "source_compared"
         }
       ],
@@ -3799,18 +3812,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 973,
-        "end_line": 1026
+        "start_line": 1031,
+        "end_line": 1084
       }
     },
     {
       "id": "PUBLICATION",
       "name": "Подготовить публикацию для обещанного режима использования",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "publication-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Автор/редактор/дизайнер с factual material, known reader operation и инструментом исходника/export/render. Print/EPUB/accessibility specialist нужен там, где его операция существенна.",
+      "anchor": "publication-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Автор, редактор или дизайнер располагает фактическим материалом, известным действием читателя и инструментом исходника, экспорта и отрисовки. Специалист по печати, EPUB или доступности нужен там, где его операция существенна.",
       "keywords": [
         "PUBLICATION",
         "Подготовить публикацию для обещанного режима использования",
@@ -3843,22 +3856,22 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "TEXT-EDIT@v1.1",
+          "target": "TEXT-EDIT@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "EXPLAIN@v1.1",
+          "target": "EXPLAIN@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -3868,7 +3881,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, варианты представления с независимым управлением, предъявление, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3876,7 +3889,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу для получателя, полным затратам и нагрузке; сохранение, пересмотр, замена, разветвление, остановка и границы переноса.",
           "status": "source_compared"
         },
         {
@@ -3884,7 +3897,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в масштабе утверждения, ограниченный двунаправленный поиск затронутых использований, фактическое опирание, возврат к предмету и локальная остановка.",
           "status": "source_compared"
         }
       ],
@@ -3905,18 +3918,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1029,
-        "end_line": 1080
+        "start_line": 1087,
+        "end_line": 1138
       }
     },
     {
       "id": "INFO-SEC",
       "name": "Обеспечить конкретный вклад защиты и его поддержание",
-      "edition": "v1.1",
+      "edition": "v1.2",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "info-sec-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Подготовленный практик с владельцем деятельности и profile experts по необходимости; source ISEC0.12 seedOnly, принят только для личного iEWR владельца. Полный E.21 и промышленное применение не заявлены.",
+      "anchor": "info-sec-v1-2",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Подготовленный практик с владельцем деятельности и профильными экспертами по необходимости; источник ISEC0.12 seedOnly, принят только для личной iEWR владельца. Полный E.21 и промышленное применение не заявлены.",
       "keywords": [
         "INFO-SEC",
         "Обеспечить конкретный вклад защиты и его поддержание",
@@ -3949,7 +3962,7 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования",
         "Источник seedOnly; принятое личное использование и пределы качества сохраняются, новая общая лицензия распространения не назначается"
       ],
@@ -3960,7 +3973,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, кандидаты представлений с независимым управлением, подверженность, потеря, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -3968,7 +3981,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по принимаемому вкладу и полной нагрузке; сохранение, пересмотр, замена, разветвление, остановка и непереносимость вывода.",
           "status": "source_compared"
         },
         {
@@ -3976,7 +3989,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в размере утверждения, ограниченный двунаправленный поиск затронутых использований, фактическая зависимость, возврат к предмету и местная остановка.",
           "status": "source_compared"
         }
       ],
@@ -3997,18 +4010,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1256,
-        "end_line": 1295
+        "start_line": 1312,
+        "end_line": 1351
       }
     },
     {
       "id": "SW-SEC",
       "name": "Реализовать защитное свойство программного продукта",
-      "edition": "v1.1",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sw-sec-v1-1",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Разработчик, владеющий stack и способный получить безопасные tests, exact criteria и profile expertise. SPSEC0.2 seedOnly; E.21/E.4.DPF.DA не заявлены, согласован личный scope. Самодостаточность по криптографии/identity-provider/особому parser не обещается.",
+      "anchor": "sw-sec-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Разработчик владеет технологическим стеком и способен получить безопасные проверки, точные критерии и профильную компетенцию. SPSEC0.2 сохраняет seedOnly; E.21/E.4.DPF.DA не заявлены, согласована личная область применения. Самодостаточность по криптографии, поставщику идентичности или особому анализатору не обещается.",
       "keywords": [
         "SW-SEC",
         "Реализовать защитное свойство программного продукта",
@@ -4041,16 +4054,16 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования",
         "Источник seedOnly; принятое личное использование и пределы качества сохраняются, новая общая лицензия распространения не назначается"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "INFO-SEC@v1.1",
+          "target": "INFO-SEC@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -4060,7 +4073,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, варианты представления с независимым управлением, предъявление, потери, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -4068,7 +4081,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по вкладу для получателя, полным затратам и нагрузке; сохранение, пересмотр, замена, разветвление, остановка и границы переноса.",
           "status": "source_compared"
         },
         {
@@ -4076,7 +4089,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в масштабе утверждения, ограниченный двунаправленный поиск затронутых использований, фактическое опирание, возврат к предмету и локальная остановка.",
           "status": "source_compared"
         }
       ],
@@ -4097,18 +4110,18 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1298,
-        "end_line": 1347
+        "start_line": 1354,
+        "end_line": 1403
       }
     },
     {
       "id": "SW-01",
       "name": "Изменить и довести программное поведение до проверенного использования",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sw-01-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.4/METHOD_PACK.md",
-      "use_when": "Подготовленный разработчик или команда с пониманием выбранного языка/стека меняет существующее поведение, исправляет дефект, проверяет состав, переносит данные, собирает, развёртывает или восстанавливает сервис. Нужны поручение, исходная редакция и незавершённые изменения, пользовательский результат и независимое основание ожидаемого ответа, фактическая конфигурация/данные, доступные средства и действующие права. Полномочия прочитать, изменить, испытать, активировать и воздействовать на рабочие данные различаются. Для конкретной СУБД, криптографии, identity-provider или особого parser необходим пригодный технический механизм и компетенция; название технологии или документа их не устанавливает. При отсутствии удерживается только зависимая гарантия или действие.",
+      "anchor": "sw-01-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "use_when": "Подготовленный разработчик или команда с пониманием выбранного языка и стека меняет существующее поведение, исправляет дефект, проверяет состав, переносит данные, собирает, развёртывает или восстанавливает сервис. Нужны поручение, исходная редакция и незавершённые изменения, пользовательский результат и независимое основание ожидаемого ответа, фактическая конфигурация и данные, доступные средства и действующие права. Полномочия прочитать, изменить, испытать, активировать и воздействовать на рабочие данные различаются. Для конкретной СУБД, криптографии, поставщика идентификации или особого синтаксического анализатора необходим пригодный технический механизм и компетенция; название технологии или документа их не устанавливает. При отсутствии удерживается только зависимая гарантия или действие.",
       "keywords": [
         "SW-01",
         "Изменить и довести программное поведение до проверенного использования",
@@ -4148,29 +4161,29 @@
       ],
       "evidence": [],
       "limits": [
-        "Описание candidate; примеры и файловая сверка не устанавливают фактическую результативность",
+        "Описание имеет статус candidate; примеры и файловая сверка не устанавливают фактическую результативность",
         "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
       ],
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "UI-DESIGN@v1.1",
+          "target": "UI-DESIGN@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "SW-SEC@v1.1",
+          "target": "SW-SEC@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "DATA-MEANING@v1.1",
+          "target": "DATA-MEANING@v1.2",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
-          "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
+          "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         }
       ],
@@ -4180,7 +4193,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.39",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Result-first source recovery, backward/forward construction and explicit joins; direct adequate domain Method can close the use.",
+          "compatibility": "Восстановление источников от нужного результата, построение назад и вперёд, явные соединения; прямой достаточный предметный Method может завершить использование.",
           "status": "source_compared"
         },
         {
@@ -4188,7 +4201,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.43",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Whole control construction: actual starting state, information distinctions, conditional continuations, whole comparison, feasible timed action, dependency-based return and development connection. The named MP profile supplies domain-specific realization.",
+          "compatibility": "Построение управления целым: фактическое начальное состояние, информационные различия, условные продолжения, сравнение целого, осуществимое действие во времени, возврат по зависимостям и связь с развитием. Названный профиль MP даёт предметную реализацию.",
           "status": "source_compared"
         },
         {
@@ -4196,7 +4209,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.37",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Один receiver/action, independently governed representation candidates, exposure/loss/selection и direct exit; не предметные операции реализации.",
+          "compatibility": "Один получатель и действие, кандидаты представлений с независимым управлением, подверженность, потеря, выбор и прямой выход; не предметные операции реализации.",
           "status": "source_compared"
         },
         {
@@ -4204,7 +4217,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.11.MV",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Сравнение реализуемых вариантов способа по receiving contribution/full burden, keep/revise/replace/branch/stop и non-transfer.",
+          "compatibility": "Сравнение реализуемых вариантов способа по принимаемому вкладу и полной нагрузке; сохранение, пересмотр, замена, разветвление, остановка и непереносимость вывода.",
           "status": "source_compared"
         },
         {
@@ -4212,7 +4225,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.10.1",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Claim-sized comparison, bounded bidirectional affected-use discovery, actual reliance, subject return and local stop.",
+          "compatibility": "Сравнение в размере утверждения, ограниченный двунаправленный поиск затронутых использований, фактическая зависимость, возврат к предмету и местная остановка.",
           "status": "source_compared"
         }
       ],
@@ -4252,8 +4265,8 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1093,
-        "end_line": 1253
+        "start_line": 1151,
+        "end_line": 1309
       }
     }
   ],
