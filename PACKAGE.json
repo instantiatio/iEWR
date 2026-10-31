@@ -1,9 +1,9 @@
 {
   "id": "iEWR",
   "name": "iEWR",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "research_stage": "Eternal Alpha",
-  "display_name": "iEWR 7.0.0 Eternal Alpha",
+  "display_name": "iEWR 7.0.1 Eternal Alpha",
   "status": "research_prerelease",
   "public_release": true,
   "publication_authorized": true,
@@ -19,10 +19,10 @@
   "FPF": "external-sources/fpf/SOURCE.json",
   "methodpack_control": "tools/methodpack.py",
   "inventory": "INSTALLATION.json",
-  "change_scope": "Публикация проверенной локальной основы 7.0.3 candidate-r2 под закреплённым именем iEWR 7.0.0 Eternal Alpha; release-r2 отдельной меткой, main и Latest 6.0.8 не изменяются.",
+  "change_scope": "Присвоение проверенной обновлённой сборке отдельной версии 7.0.1 с согласованными именем, меткой и ZIP; методы и поведение сохранены; main и Latest остаются 6.0.8.",
   "project_application_history": "empty",
   "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
-  "build_revision": "release-r2",
+  "build_revision": "release-r1",
   "repository": {
     "type": "git",
     "url": "https://github.com/instantiatio/iEWR",
@@ -35,17 +35,18 @@
     }
   },
   "source_edition": {
-    "kind": "local_distribution",
-    "version": "7.0.3",
-    "build_revision": "candidate-r2",
-    "archive_name": "iEWR-7.0.3-Eternal-Alpha-candidate-r2.zip",
-    "archive_sha256": "f35a00fe428f7c520597e2f4b3e625e1202e5bc447ced0aebdfd68fb48f2bc0b",
-    "repository_commit": null,
-    "role": "Точная непосредственная локальная основа этой публикуемой сборки; собственный опубликованный коммит для неё не назначен."
+    "kind": "published_distribution",
+    "version": "7.0.0",
+    "build_revision": "release-r2",
+    "archive_name": "iEWR-7.0.0-Eternal-Alpha.zip",
+    "archive_sha256": "8a3e4cc003568cd46f19926b77783b851d5aec1af74fdcb3fba5524dc187f4f3",
+    "repository_commit": "910a37996a0016d17af3c8a17aa7c2af50b34377",
+    "repository_url": "https://github.com/instantiatio/iEWR/tree/910a37996a0016d17af3c8a17aa7c2af50b34377",
+    "role": "Точная непосредственная ранее опубликованная основа. Её файлы и публичный Git-коммит сохранены; номер этой поставки уточнён до 7.0.1."
   },
   "release": {
-    "tag": "7.0.0-release-r2",
-    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.0-release-r2",
+    "tag": "7.0.1",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.1",
     "prerelease": true,
     "latest": false
   },
@@ -60,5 +61,5 @@
     "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
     "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
   },
-  "distribution_root": "iEWR-7.0.0-Eternal-Alpha"
+  "distribution_root": "iEWR-7.0.1-Eternal-Alpha"
 }

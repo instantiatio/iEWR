@@ -1,6 +1,6 @@
 {
-  "product": "iEWR 7.0.0 Eternal Alpha",
-  "build_revision": "release-r2",
+  "product": "iEWR 7.0.1 Eternal Alpha",
+  "build_revision": "release-r1",
   "FPF": {
     "record": "external-sources/fpf/SOURCE.json",
     "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"

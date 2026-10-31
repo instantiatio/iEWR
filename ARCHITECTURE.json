@@ -441,7 +441,7 @@
   "bearer": "Одна LLM + текущие ADE + источники и рабочая память",
   "not_required": "Последовательный проход семи функций, семь агентов или собственный универсальный runtime не требуются.",
   "support_limits": "Предписания в AGENTS declared; свойства ADE проверяются для конкретного действия.",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "layers": {
     "universal_core": {
       "instructions": "AGENTS.md",

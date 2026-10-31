@@ -1,22 +1,22 @@
 {
   "kind": "clean_iEWR_distribution",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "research_stage": "Eternal Alpha",
-  "build_revision": "release-r2",
+  "build_revision": "release-r1",
   "product_name": "iEWR",
-  "display_name": "iEWR 7.0.0 Eternal Alpha",
-  "distribution_root": "iEWR-7.0.0-Eternal-Alpha",
+  "display_name": "iEWR 7.0.1 Eternal Alpha",
+  "distribution_root": "iEWR-7.0.1-Eternal-Alpha",
   "current_pack": "base-v3.10",
   "active_method_descriptions": 37,
   "project_application_history": "empty",
   "files": {
     "AGENTS.md": {
       "bytes": 9723,
-      "sha256": "23f5bf95a08872efa967d3852a4be39ec53195cca8038f5eeb37b4744f650248"
+      "sha256": "bca51374c9c3a8667e4096c8bd6fcff07f17a37e37606a33b6cc6ebed932a7ea"
     },
     "ARCHITECTURE.json": {
       "bytes": 32009,
-      "sha256": "8a8bef5694968315b9c7acadb6967727b3bd8c0dd7a73de2f7ac509d19385306"
+      "sha256": "9a4bd04cb76b9b526f5f924534ef549bafa258f2184d13b8c96af41e0f60473a"
     },
     "LICENSE": {
       "bytes": 1086,
@@ -24,19 +24,19 @@
     },
     "ORIGINS.json": {
       "bytes": 20219,
-      "sha256": "573c860d74e11210b54936ba456ef7d37098989c261ba3e7bea74c6d6177c1da"
+      "sha256": "3dff8f44f1a3a79a6c9a01b1e8eb609f6424075eb7c3ed31ce5adf38b07bef2d"
     },
     "PACKAGE.json": {
-      "bytes": 3101,
-      "sha256": "e180dc92805f61a209e7f24aeb5da67c151ed7dbbada398895e718231525a7e0"
+      "bytes": 3248,
+      "sha256": "82db3517c76d09e1cfcb5dde5128e0c610abdef2a579d430ca6691660d904a89"
     },
     "README.md": {
-      "bytes": 9649,
-      "sha256": "a49641117260a5772e750ef6429d1337ca3cfac44ae511b4babeb0f072a666be"
+      "bytes": 9540,
+      "sha256": "c2906eee2800521ccd976e578b3eccb9f2280d677256a4b03705ef6c65fd8c2d"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 3195,
-      "sha256": "59c5cd195c6f5d36977fd7a70ba3cdbdd1387c5bfcb69d7fab2e03b7533a40fa"
+      "bytes": 3075,
+      "sha256": "28b85341ced303a4ac1d081386ef6a33fea07222993715f24bf572a42a5d89ee"
     },
     "START.txt": {
       "bytes": 154,
@@ -44,7 +44,7 @@
     },
     "STATUS.md": {
       "bytes": 4446,
-      "sha256": "4f9eaff5757b7f38fae0650d3c8ee6eb707d43f28ca787c43b660006d32b9845"
+      "sha256": "817046b5494c4a9bf6ddc63aa0d7c5066ae18cb398524e135201a06008be146a"
     },
     "docs/BASE_METHODS.md": {
       "bytes": 807,
@@ -56,7 +56,7 @@
     },
     "docs/FILES.md": {
       "bytes": 6214,
-      "sha256": "2e8755b583faa79cba8709322ec64d4d1aadc2f82fba40b0cf9ea2077fbd8b8d"
+      "sha256": "37f2778c04d58d6970f34991e1b2ee3a342140c0705e15298d245bc64f40474d"
     },
     "docs/FPF_INDEX.md": {
       "bytes": 11537,
@@ -88,7 +88,7 @@
     },
     "docs/NEW_PROJECT.md": {
       "bytes": 3953,
-      "sha256": "aa6ea2a3808ca32b10e85e939821131f0835d21b4735967b7d9cd99bdc8a15d3"
+      "sha256": "82a4fcc19315ab51bde85c3361d261ed7a112ef535f2c174a1458caf96c6fd42"
     },
     "docs/PORTABILITY.md": {
       "bytes": 8322,

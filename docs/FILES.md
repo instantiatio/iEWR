@@ -4,7 +4,7 @@
 
 Папки project/source/, project/reference/, project/artifacts/ и project/handoff/ пусты: материалы и история применения появляются по работе нового проекта.
 
-**Корень iEWR-7.0.0-Eternal-Alpha/**
+**Корень iEWR-7.0.1-Eternal-Alpha/**
 
 | Файл | Назначение | Строк | КБ |
 |---|---|---:|---:|
@@ -13,9 +13,9 @@
 | [INSTALLATION.json](../INSTALLATION.json) | Опись поставки, размеры и SHA-256 файлов | 156 | 5,6 |
 | [LICENSE](../LICENSE) | Лицензия MIT для собственных частей iEWR | 21 | 1,1 |
 | [ORIGINS.json](../ORIGINS.json) | Источники методов, авторство, точные редакции и SHA-256 | 215 | 19,7 |
-| [PACKAGE.json](../PACKAGE.json) | Версия, статус и непосредственная основа комплекта | 64 | 3,0 |
-| [README.md](../README.md) | Назначение и начало работы | 54 | 9,4 |
-| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Изменения и условия локального кандидата | 17 | 3,1 |
+| [PACKAGE.json](../PACKAGE.json) | Версия, статус и непосредственная основа комплекта | 65 | 3,2 |
+| [README.md](../README.md) | Назначение и начало работы | 54 | 9,3 |
+| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Изменения и условия локального кандидата | 17 | 3,0 |
 | [START.txt](../START.txt) | Короткий вход к AGENTS.md | 1 | 0,2 |
 | [STATUS.md](../STATUS.md) | Область проверок и пределы использования | 17 | 4,3 |
 
