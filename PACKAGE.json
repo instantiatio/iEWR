@@ -1,0 +1,52 @@
+{
+  "id": "iEWR",
+  "name": "iEWR",
+  "version": "7.0.0",
+  "research_stage": "Eternal Alpha",
+  "display_name": "iEWR 7.0.0 Eternal Alpha",
+  "status": "research_prerelease",
+  "public_release": true,
+  "publication_authorized": true,
+  "entry": "AGENTS.md",
+  "start": "START.txt",
+  "readme": "README.md",
+  "architecture": "ARCHITECTURE.json",
+  "ConOps": "docs/IEWR_CONOPS.md",
+  "mini_ConOps": "docs/MINI_CONOPS.md",
+  "method_catalog": "docs/METHODS.md",
+  "current_pack_edition": "base-v3.4",
+  "active_method_descriptions": 37,
+  "FPF": "external-sources/fpf/SOURCE.json",
+  "methodpack_control": "tools/methodpack.py",
+  "inventory": "INSTALLATION.json",
+  "change_scope": "Публикация выбранного исследовательского комплекта отдельным предварительным выпуском; методы, FPF и main не изменяются.",
+  "project_application_history": "empty",
+  "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
+  "build_revision": "release-r1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/instantiatio/iEWR",
+    "releases_url": "https://github.com/instantiatio/iEWR/releases",
+    "public_baseline": {
+      "tag": "6.0.8",
+      "commit": "06f54f0b9460ff6e86f46505e8312edaed510843",
+      "url": "https://github.com/instantiatio/iEWR/tree/06f54f0b9460ff6e86f46505e8312edaed510843",
+      "role": "Закреплённая публичная опора исходной линии iEWR; она не подменяет непосредственную основу этой сборки."
+    }
+  },
+  "source_edition": {
+    "kind": "local_distribution",
+    "version": "7.0.0",
+    "build_revision": "clean-r2",
+    "archive_name": "iEWR-7.0.0-Eternal-Alpha.zip",
+    "archive_sha256": "96275651b155297748781f141651b659006e8c82e64107374e0094db0bdee8d5",
+    "repository_commit": null,
+    "role": "Точная непосредственная основа этой сборки. Для неё не установлен опубликованный Git-коммит; адрес репозитория не означает побайтного совпадения."
+  },
+  "release": {
+    "tag": "7.0.0",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.0",
+    "prerelease": true,
+    "latest": false
+  }
+}

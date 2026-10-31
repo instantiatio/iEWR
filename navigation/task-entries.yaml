@@ -1,0 +1,1423 @@
+{
+  "schema_version": 1,
+  "kind": "composed_task_entries",
+  "path_base": "project_root",
+  "scope": "Composed candidate addresses only; follow selection_policy_ref for source priority. No ready FPF target is not evidence of no FPF method. Targets do not form required stages.",
+  "entries": [
+    {
+      "id": "context",
+      "question": "Каких актуальных сведений достаточно для ближайшего решения?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.43:4.2",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89668,
+            "end_line": 89677
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "F.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 117681,
+            "end_line": 118161
+          }
+        }
+      ]
+    },
+    {
+      "id": "contribution",
+      "question": "Какой вклад нужен уже существующей системе?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39:4.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81986,
+            "end_line": 81997
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.43:4.3",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89678,
+            "end_line": 89689
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.15.6",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 30977,
+            "end_line": 31388
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.43:4.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89610,
+            "end_line": 89667
+          }
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "question": "Как получить достаточный способ: переиспользовать, адаптировать или построить?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81946,
+            "end_line": 82248
+          }
+        }
+      ]
+    },
+    {
+      "id": "admissibility",
+      "question": "Допустимо ли конкретное действие и обеспечены ли его условия?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.43:4.5",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89713,
+            "end_line": 89736
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.2.8.PER",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 8360,
+            "end_line": 8675
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.21",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 39676,
+            "end_line": 39975
+          }
+        }
+      ]
+    },
+    {
+      "id": "continuation",
+      "question": "Как исполнить и продолжить после неопределённого эффекта?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.43:4.6",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89737,
+            "end_line": 89755
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.15.7",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31389,
+            "end_line": 31593
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.15.8",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31594,
+            "end_line": 31820
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.15.8.MS",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31821,
+            "end_line": 32142
+          }
+        }
+      ]
+    },
+    {
+      "id": "assurance",
+      "question": "Как проверить пригодность результата и средства проверки?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.41.QC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89125,
+            "end_line": 89278
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.21",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 39676,
+            "end_line": 39975
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.10.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27287
+          }
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "question": "Как сохранить участие Human и применить точное решение?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.2.9",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 8676,
+            "end_line": 9064
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "E.14",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 104588,
+            "end_line": 104933
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.43:4.3",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89678,
+            "end_line": 89689
+          }
+        }
+      ]
+    },
+    {
+      "id": "corpus-organization",
+      "question": "Как выбрать хранение, имена, редакции и точное чтение материалов?",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "KCA-01",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-01-v1-2",
+          "edition": "v1.2"
+        }
+      ]
+    },
+    {
+      "id": "corpus-finding",
+      "question": "Как найти нужное при неполной карточке, меняющемся вопросе или плохом индексе?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "F.1:4.4",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 117805,
+            "end_line": 117865
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "KCA-02",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-02-v1-3",
+          "edition": "v1.3"
+        }
+      ]
+    },
+    {
+      "id": "corpus-delivery",
+      "question": "Как передать достаточный материал в доступный контекст исполнителя?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.2.8",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 53781,
+            "end_line": 54027
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "KCA-03",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-03-v1-2",
+          "edition": "v1.2"
+        }
+      ]
+    },
+    {
+      "id": "corpus-change",
+      "question": "Как изменить корпус и представления, сохранив зависимые и исторические применения?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.10.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27287
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "KCA-04",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-04-v1-2",
+          "edition": "v1.2"
+        }
+      ]
+    },
+    {
+      "id": "corpus-memory",
+      "question": "Как сохранять и переоткрывать условную память и вопросы?",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "KCA-05",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-05-v1-2",
+          "edition": "v1.2"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-encounter",
+      "question": "Как организовать фактический вызов при полезном событии?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.15.11",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 32516,
+            "end_line": 32739
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "KCA-06",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "kca-06-v1-2",
+          "edition": "v1.2"
+        }
+      ]
+    },
+    {
+      "id": "method-focus",
+      "question": "Что нужно менять: способ, описание, связь методов, средство или способность?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.MF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 82939,
+            "end_line": 83108
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-repertoire",
+      "question": "Как восстановить пригодный репертуар и его происхождение?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.RP",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 83428,
+            "end_line": 83607
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-requirements",
+      "question": "Какие требования к способу нужны в данной ситуации?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.RQ",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 83608,
+            "end_line": 83829
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-documentary-recovery",
+      "question": "Как восстановить вклад метода из документов?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.DR",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 9934,
+            "end_line": 10138
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-work-recovery",
+      "question": "Как восстановить возможный способ по свидетельствам работы?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.MR",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 9729,
+            "end_line": 9933
+          }
+        }
+      ],
+      "conditional_specialist_return": {
+        "id": "RMP.10",
+        "body_in_package": false,
+        "purpose": "larger specialist evidence programme when ordinary recovery cannot supply it",
+        "rule": "Exact specialist body/source and prerequisites must be available for that use; the FPF floor and a link do not supply it."
+      }
+    },
+    {
+      "id": "method-qualification",
+      "question": "Пригоден ли отдельный способ для нужного вклада?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.QM",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10139,
+            "end_line": 10298
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-arrangement",
+      "question": "Как сравнить совместное исполнение и обеспечение методов?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.32.MWA.PP",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 78186,
+            "end_line": 78843
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-whole",
+      "question": "Достаточно ли оснований считать предложенную комбинацию одним методом?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "B.1.5.CM",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 42756,
+            "end_line": 42948
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-description",
+      "question": "Как описать способ для нужного использования?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.2.DE",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 11668,
+            "end_line": 11854
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-representations",
+      "question": "Какие представления метода нужны разным действиям?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.37.MP",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81272,
+            "end_line": 81507
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.37.CF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81508,
+            "end_line": 81743
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-support",
+      "question": "Как настроить средства поддержки исполнения?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.15.8.MS",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31821,
+            "end_line": 32142
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-trial",
+      "question": "Как получить и интерпретировать пробу метода на работе?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.WT",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10299,
+            "end_line": 10503
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-claim",
+      "question": "Как проверить согласованность утверждения о методе?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.CC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10504,
+            "end_line": 10705
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-transfer",
+      "question": "Можно ли переносить способ в изменённые условия?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.FT",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10706,
+            "end_line": 10897
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-worth",
+      "question": "Стоит ли предпочесть этот способ доступным альтернативам?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.11.MV",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 57374,
+            "end_line": 57621
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-variant",
+      "question": "Как сохранить и проверить изменённый вариант?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.MV",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10898,
+            "end_line": 11099
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-introduction",
+      "question": "Как ввести способ в практику и оценить полученное?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "A.3.1.MI",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 11100,
+            "end_line": 11358
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-culture",
+      "question": "Как продолжать и менять культуру работы с методами?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.36.MC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 90375,
+            "end_line": 90710
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-allocation",
+      "question": "Как сопоставить источники и распределить полезные вклады?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "F.0.2.MA",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 117348,
+            "end_line": 117506
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-language",
+      "question": "Нужен ли связный язык описаний и какие связи полезны?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "E.8.ML",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 97038,
+            "end_line": 97203
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-coverage",
+      "question": "Восстанавливается ли обещанный вклад через описания и источники?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "F.0.2.RC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 117507,
+            "end_line": 117680
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-continuation",
+      "question": "Как продолжить разработку способа после нового условия?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.MC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 83830,
+            "end_line": 84030
+          }
+        }
+      ]
+    },
+    {
+      "id": "method-mathematical-change",
+      "question": "Как обосновать изменение способа математическим построением?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.29",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 68245,
+            "end_line": 69258
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.39",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81946,
+            "end_line": 82248
+          }
+        }
+      ],
+      "conditional_specialist_return": {
+        "id": "MMP.22",
+        "body_in_package": false,
+        "purpose": "Specialist mathematical construction when not supplied by ordinary available mathematics",
+        "rule": "Current FPF general construction does not imply external body read or proof/competence availability."
+      }
+    },
+    {
+      "id": "method-pack-storage",
+      "question": "Как сохранить книгу, YAML, прежние тела и точные адреса этого экземпляра?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.RP",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 83428,
+            "end_line": 83607
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.3.1.MV",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 10898,
+            "end_line": 11099
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "IE-M003",
+          "edition": "v1.4",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ie-m003-v1-4"
+        }
+      ]
+    },
+    {
+      "id": "environment-change",
+      "question": "Как изменить конкретную среду iEWR по поручению?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.39.MF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 82939,
+            "end_line": 83108
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.39.MC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 83830,
+            "end_line": 84030
+          }
+        },
+        {
+          "kind": "MethodPack",
+          "id": "IE-M004",
+          "edition": "v1.4",
+          "index": "methods/index.yaml",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ie-m004-v1-4"
+        }
+      ]
+    },
+    {
+      "id": "method-history",
+      "question": "Как исследовать историю различения профессиональных способов?",
+      "targets": [
+        {
+          "kind": "FPF",
+          "id": "C.28",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 67045,
+            "end_line": 67811
+          }
+        }
+      ],
+      "target_limit": "C.28 addresses causal reliance, not the full specialist historical-research operation.",
+      "conditional_specialist_return": {
+        "id": "RMP.11",
+        "body_in_package": false,
+        "purpose": "specialist history with discriminating evidence",
+        "rule": "Use the exact separately provided source if needed; source/routing alone is not method availability."
+      }
+    },
+    {
+      "id": "applied-dec-values",
+      "question": "Сравнить последствия при неопределённых ценностях",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "DEC-VALUES",
+          "edition": "v1.3",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "dec-values-v1-3",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sys-concept",
+      "question": "Сформировать инженерную концепцию и архитектуру",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SYS-CONCEPT",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sys-concept-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sys-delivery",
+      "question": "Получить и согласовать инженерный вклад",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SYS-DELIVERY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sys-delivery-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sys-assurance",
+      "question": "Согласовать конфигурацию, свидетельства и решения",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SYS-ASSURANCE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sys-assurance-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sys-lifecycle",
+      "question": "Изменить и завершить поддерживаемое использование",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SYS-LIFECYCLE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sys-lifecycle-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-agent-support",
+      "question": "Обеспечить инструменты, обучение и управление работой агента",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "AGENT-SUPPORT",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "agent-support-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-dec-inquiry",
+      "question": "Сформировать вопрос и дать обоснованную рекомендацию",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "DEC-INQUIRY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "dec-inquiry-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-adm-case",
+      "question": "обеспечить административное условие и сохранить открытые обязательства",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "ADM-CASE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "adm-case-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-state",
+      "question": "восстановить операционное состояние для конкретного решения",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-STATE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-state-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-continue",
+      "question": "admission, case continuation и обязательства во времени",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-CONTINUE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-continue-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-release",
+      "question": "release при возвратах и сохранение protective capacity",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-RELEASE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-release-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-capacity",
+      "question": "построить соразмерный расчёт capacity и deadline",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-CAPACITY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-capacity-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-coupling",
+      "question": "согласовать изменение между структурами (OPS.11)",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-COUPLING",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-coupling-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ops-evidence",
+      "question": "получить интерпретируемые operating consequences",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "OPS-EVIDENCE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ops-evidence-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-org-design",
+      "question": "спроектировать contribution relations и получить отдельные решения",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "ORG-DESIGN",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "org-design-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-org-change",
+      "question": "реализовать и пересмотреть изменение при работающей услуге",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "ORG-CHANGE",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "org-change-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-str-options",
+      "question": "построить стратегические направления и различающие возможности",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "STR-OPTIONS",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "str-options-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-str-commit",
+      "question": "квалифицировать cohort signal перед пересмотром commitment",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "STR-COMMIT",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "str-commit-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-res-inquiry",
+      "question": "получить criticizable answer и не назначать ненужное исследование",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "RES-INQUIRY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "res-inquiry-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-res-recovery",
+      "question": "восстановить reusable-way accounts по различающим evidence",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "RES-RECOVERY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "res-recovery-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-res-history",
+      "question": "объяснить differentiation через диагностические исторические данные",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "RES-HISTORY",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "res-history-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-data-meaning",
+      "question": "Получить semantic integration для одного receiving use",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "DATA-MEANING",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "data-meaning-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-explain",
+      "question": "Подготовить и исправить объяснение для адресата",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "EXPLAIN",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "explain-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-text-edit",
+      "question": "Получить естественный текст в разрешённой смысловой границе",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "TEXT-EDIT",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "text-edit-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-ui-design",
+      "question": "Воплотить и проверить видимое интерфейсное решение",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "UI-DESIGN",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "ui-design-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-publication",
+      "question": "Подготовить публикацию для обещанного режима использования",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "PUBLICATION",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "publication-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-info-sec",
+      "question": "Обеспечить конкретный вклад защиты и его поддержание",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "INFO-SEC",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "info-sec-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sw-sec",
+      "question": "Реализовать защитное свойство программного продукта",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SW-SEC",
+          "edition": "v1.1",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sw-sec-v1-1",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    },
+    {
+      "id": "applied-sw-01",
+      "question": "Изменить и довести программное поведение до проверенного использования",
+      "targets": [
+        {
+          "kind": "MethodPack",
+          "id": "SW-01",
+          "edition": "v1.2",
+          "description": "methods/METHOD_PACK.md",
+          "anchor": "sw-01-v1-2",
+          "index": "methods/index.yaml"
+        }
+      ],
+      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+    }
+  ],
+  "selection_policy_ref": {
+    "path": "AGENTS.md",
+    "anchor": "method-source-priority"
+  },
+  "specialist_ME_returns": {
+    "ME.18": {
+      "ordinary_floor": "A.3.1.MR",
+      "applied_method": "RES-RECOVERY@v1.1"
+    },
+    "ME.19": {
+      "causal_floor": "C.28",
+      "applied_method": "RES-HISTORY@v1.1"
+    },
+    "mathematics": "C.29/C.39 general construction; actual specialized mathematical method required only by the selected stronger claim"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "product": "iEWR 7.0.0 Eternal Alpha",
+  "build_revision": "release-r1",
+  "FPF": {
+    "record": "external-sources/fpf/SOURCE.json",
+    "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+  },
+  "MethodPack": {
+    "edition": "base-v3.4",
+    "current_book": "methods/METHOD_PACK.md",
+    "index": "methods/index.yaml",
+    "source_notices": "docs/METHOD_SOURCE_NOTICES.md",
+    "qualification": "Прикладные описания candidate; фактическая пригодность проверяется для конкретного использования."
+  },
+  "local_methods": {
+    "IE-M003": {
+      "author": "Instantiatio EWR contributors",
+      "scope": "Местные операции хранения и согласования репертуара"
+    },
+    "IE-M004": {
+      "author": "Instantiatio EWR contributors",
+      "scope": "Местная подготовка и подключение среды"
+    }
+  },
+  "method_sources": {
+    "SYSE": {
+      "edition": "2026-10-15-rev-b40c9df9",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "0ad7d10887375a2a8411c01784835763bfbd97706f3848580a791968b984e235",
+      "used_text_sha256": "d88b2bda2346a3dd151ef95ca7e517b335dbbe7faf8caf12260c9229a31687a3",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "ME": {
+      "edition": "2026-09-20-rev-9e1c4834",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "15e74fa6fcc5aeed7492cda684f04a619e333c99df3a50931c1f873d832851f6",
+      "used_text_sha256": "a64b6fb1c697088ceb9683cf730f61986ed28ae54dbb6f982a495ec87593111c",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "OCE": {
+      "edition": "2026-10-15-rev-b40c9df9",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "fe38dc07204ccac79b8bd8d22e299c8a360e1b634830b68e3725088c5db13235",
+      "used_text_sha256": "5761b872000c51d796dc1c1bb88ddc034fd50c55dbd13edaaf20dee44a1ea6cf",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "PSDA": {
+      "edition": "2026-10-12-rev-7d0a7800",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "dd3db5f227c3fa913f2253c55b8145de68f164e1c60e8bb89ff2f44027ccac08",
+      "used_text_sha256": "316c1097e11a28df8a94855212b42ea0f971995fe12f78ea2221f71a6d02c106",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "OPS": {
+      "edition": "2026-10-15-rev-b40c9df9",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "2b97199a8c16f77d6d46c1431829bb985a6389c164b01b245c4277952a94da91",
+      "used_text_sha256": "17fb2e191d7935235277811d9b4d7a3d8bff6eb451f1533a0c533e0018504754",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "ISDLC": {
+      "edition": "0.5.0",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/cf27b21556136c5aec19aef0ff66333af779f0d1/DPFs/ISDLC.md",
+      "upstream_sha256": "d09ef776fec2ceac86a125c4d776371cabc0e46f53edc278c72ace89a1a647e8",
+      "used_text_sha256": "44bdba49c02286ebc0546bef116c5a2719839c33d71c7e48be07c6fe62c0b59b",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Руководство; редакция текста не устанавливает качество или допуск."
+    },
+    "EXD": {
+      "edition": "2026-10-17-rev-d9c3dd65",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "5573c21c117fa2348dddb04414a405dd15c06c60fb14017be6a4035c100e91fd",
+      "used_text_sha256": "502e0bc8aeaff7bb66e82a88f2e5ca84f540426f25f37f30008b6fe68c8f931c",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "ADM": {
+      "edition": "2026-09-20-rev-7d0a7800",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "441f633d9be8dbb4fe4e79d01fb2ef9486c7afeb1720e55d92f2cf2c5f960b07",
+      "used_text_sha256": "9fa234afba70f84d555386597acaceffa93fff76b8da55c012a27e05ba04b2b9",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "RMP": {
+      "edition": "2026-10-15-rev-b40c9df9",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "fb5dff009015f2c137e24d6c44a2a6aa662ff125e272457f1a2f38a3b99061b2",
+      "used_text_sha256": "901ce47bc815c8835b0adc8d82a8f9109ebec22c2ef92145e91a58260bee817d",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "SIE": {
+      "edition": "2026-10-15-rev-b40c9df9",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/cc2e8aa9e6183481a00300c3a987a1478ecf5860/DPFs/Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "750c1aee8861b490d22fa9fc05b109b319a966994e52d86e024a17d68f768d40",
+      "used_text_sha256": "91f5ac7fafaefd0488534bde4924723622b82b62f816d3fad729aca014dba189",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "STR": {
+      "edition": "2026-10-14-rev-7d0a7800",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "3c8c348e5d638f3728a2a110bdd0c407a0c5e5622a5b1b00b0e61f85e54be66a",
+      "used_text_sha256": "765f39a55b6de6898fb0488fcb5c2583733d86048a35ab12ccb856af759e31a4",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "CHK": {
+      "edition": "2026-09-25-rev-9e1c4834",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/9e1c48349bd0a06d8d49e2de45fbcff386d47ae5/Engineering%20DPF%20Suite/CHECKLIST-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "503da6fef65ee02de0e8ce41c2600479a2ce7e6163f3cb5ea6f09d6c026ce679",
+      "used_text_sha256": "028e882dbaa8e0df6f5a5934552ed14e8f8f7cbb0f000196b3086c214bb6f140",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "KCAE": {
+      "edition": "snapshot-2026-10-14-rev-7d0a7800",
+      "author": "Anatoly Levenchuk, AI-assisted",
+      "source_url": "https://github.com/ailev/FPF/blob/7d0a78002c04f2337283b97d707991c888013a73/DPFs/Engineering%20DPF%20Suite/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md",
+      "upstream_sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec",
+      "used_text_sha256": "413dc305e05dbfaad54899109255e1712bd9615fda540037a3bda780ca675fec",
+      "license": "CC BY4.0 for original Anatoly publications, with third-party conditions retained; see exact source NOTICE.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Условия применимости определяются исходным текстом; статус источника не является квалификацией местной адаптации."
+    },
+    "WEP": {
+      "edition": "0.2.0",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/cf27b21556136c5aec19aef0ff66333af779f0d1/DPFs/WEP.md",
+      "upstream_sha256": "aec967f4797d606c45b46e5825d800ba0296110b98e19e354c4f6ea2b233557d",
+      "used_text_sha256": "06707ead52f948f69f84f710c50eae87a90c09b483fa11a98fcc290827315be0",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Руководство; редакция текста не устанавливает качество или допуск."
+    },
+    "VID": {
+      "edition": "0.4.0",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/cf27b21556136c5aec19aef0ff66333af779f0d1/DPFs/VID.md",
+      "upstream_sha256": "1fb08f82366b7c3e0e925cace5183994666f03576cbc67c9cba8c77360a4b27a",
+      "used_text_sha256": "fbbed8467ebb19c458e7068cd9ad8be3587f2e4324436913bce92790e623c140",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Руководство; редакция текста не устанавливает качество или допуск."
+    },
+    "ISEC": {
+      "edition": "0.12",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/ISEC.md",
+      "upstream_sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e",
+      "used_text_sha256": "e28f41543eed2dffad80b982f358f2e6e0afdd7339815bbe9fc096f299c0b07e",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "seedOnly",
+      "accepted_use": "Личное использование владельцем",
+      "distribution_license": "Общая лицензия дальнейшего распространения не назначена",
+      "quality_change_by_inclusion": false
+    },
+    "SPSEC": {
+      "edition": "0.2",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/bec8cffd06b3fff07ac50b9fa3932e9b319a7808/DPFs/SPSEC.md",
+      "upstream_sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
+      "used_text_sha256": "70d5724c56774cea27f850aab27cf9969dc9ab6060e047d92cfa407f66f4b106",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "seedOnly",
+      "accepted_use": "Личное использование владельцем",
+      "distribution_license": "Общая лицензия дальнейшего распространения не назначена",
+      "quality_change_by_inclusion": false
+    },
+    "CDP": {
+      "edition": "0.1.2",
+      "author": "Albert (Instantiatio), AI-assisted",
+      "source_url": "https://github.com/instantiatio/dpf-lab/blob/cfc69565a6e5647297b225a99728273332a29c3c/DPFs/CDP.md",
+      "upstream_sha256": "0c84ecb8125434d9971b4b2e62d6110aed705dd9cc00ad1bba2a586a3e152716",
+      "used_text_sha256": "83ba799f087cfb323d105286592ee94b42bcc6a06abf922a1fba3b897adae299",
+      "license": "No general license assigned to independent Albert text. Selected publication authorizations do not create a blanket MIT/CC grant; see exact source NOTICE and registration.",
+      "adaptation": "Прикладное описание на русском языке; условия и операционные ветви сохранены, FPF применяется непосредственно.",
+      "source_status": "Руководство; редакция текста не устанавливает качество или допуск."
+    }
+  },
+  "own_license": "LICENSE",
+  "rights": "Самостоятельные источники сохраняют авторство и собственные условия; новое общее разрешение публикации или распространения не создаётся."
+}

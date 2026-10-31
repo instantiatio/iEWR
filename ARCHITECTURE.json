@@ -1,0 +1,557 @@
+{
+  "status": "Рабочая функциональная организация исследовательской сборки, не доказанная архитектура всей EWR.",
+  "functions": [
+    {
+      "id": "CF",
+      "name": "Context Formation",
+      "group": "Generative Core",
+      "claim": "Среда восстанавливает достаточный актуальный контекст для ближайшего решения.",
+      "inputs": [
+        "Поручение и решения Human",
+        "Текущая система и источники",
+        "Результаты, наблюдения, неизвестные эффекты",
+        "Индекс методов и условия применимости выбранной редакции, без обязательной загрузки всего репертуара"
+      ],
+      "output": "Достаточное основание ближайшего действия с редакциями и различием фактов, гипотез, решений и неизвестного.",
+      "trigger": "Новое поручение, продолжение после перерыва либо существенное изменение.",
+      "stop": "Недоступная существенная связь удерживает зависимый вывод; достаточное основание переиспользуется.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "C.43:4.2",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89668,
+            "end_line": 89677
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "F.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 117681,
+            "end_line": 118161
+          }
+        }
+      ]
+    },
+    {
+      "id": "SF",
+      "name": "System Formation",
+      "group": "Generative Core",
+      "claim": "Среда определяет, какой вклад нужен формируемой системе для её использования при текущем состоянии.",
+      "inputs": [
+        "Квалифицированный контекст",
+        "Назначение, критерии и ограничения системы"
+      ],
+      "output": "Нужный ближайший вклад, его получатель и условия пригодности; существенные альтернативы и зависимости, если они меняют решение.",
+      "trigger": "Неясно, какую работу требует состояние системы, либо изменились её назначение/условия.",
+      "stop": "Выбор новой цели или существенного компромисса вне делегирования возвращается Human; новое оформление не требуется при достаточной постановке.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "A.15.6",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 30977,
+            "end_line": 31388
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.43:4.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89610,
+            "end_line": 89667
+          }
+        }
+      ]
+    },
+    {
+      "id": "DMG",
+      "name": "Dynamic Method Generation",
+      "group": "Generative Core",
+      "claim": "Среда получает достаточный способ нужного вклада: переиспользует, находит, адаптирует или строит его.",
+      "inputs": [
+        "Нужный результат и условия пригодности",
+        "FPF, предметные знания, доступные источники и опыт",
+        "Возможности и ограничения исполнителя/ADE",
+        "Релевантные точные редакции методов methods/index.yaml, их основания и опыт"
+      ],
+      "output": "Применимый достаточный способ с существенными операциями, соединениями, проверкой и условиями остановки либо точный пробел; повторно полезный вклад сохраняется в MethodPack по необходимости.",
+      "trigger": "Нужный способ отсутствует, недостаточен либо его применимость/соединение стало текущим вопросом.",
+      "stop": "Достаточный способ применяется напрямую; недоступные знания/средства не заменяются выдуманными. Описание способа не объявляется формально допущенным Method без отдельного основания.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "C.39",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 81946,
+            "end_line": 82248
+          }
+        }
+      ]
+    },
+    {
+      "id": "EG",
+      "name": "Execution Governance",
+      "group": "Governance",
+      "claim": "Среда связывает конкретное действие с действующим мандатом и необходимыми условиями допустимости.",
+      "inputs": [
+        "Конкретный исполнитель, предмет, действие, объём и время",
+        "Действующие решения и ограничения",
+        "Фактические средства защиты"
+      ],
+      "output": "Основание допустимого следующего действия либо удержание зависимой части с точным недостающим условием.",
+      "trigger": "Существенное действие или изменение его существенных условий.",
+      "stop": "Способность, технический доступ и рекомендации не создают полномочия. Обязательное необеспеченное условие без допустимой компенсации удерживает действие.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "A.2.8.PER",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 8360,
+            "end_line": 8675
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.21",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 39676,
+            "end_line": 39975
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "C.43:4.5",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89713,
+            "end_line": 89736
+          }
+        }
+      ]
+    },
+    {
+      "id": "WEC",
+      "name": "Work Execution & Continuation",
+      "group": "Governance",
+      "claim": "Среда выполняет разрешённые операции, сверяет эффекты и сохраняет возможность продолжить работу.",
+      "inputs": [
+        "Достаточный способ и предметные данные",
+        "Действующие условия исполнения",
+        "Средства ADE и состояние той же попытки при неопределённом эффекте"
+      ],
+      "output": "Фактический результат и сведения об эффектах/неизвестном; достаточное основание продолжения либо блокер. Передача связывается с использованной редакцией метода.",
+      "trigger": "Готовое ближайшее действие, возвращённый вклад, сбой или возобновление.",
+      "stop": "Неизвестный эффект сначала сверяется; завершённое не повторяется. Полученный ответ инструмента отдельно от результата для пользователя.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "A.15.7",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31389,
+            "end_line": 31593
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.15.8.MS",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 31821,
+            "end_line": 32142
+          }
+        }
+      ]
+    },
+    {
+      "id": "RAF",
+      "name": "Result Assurance & Feedback",
+      "group": "Governance",
+      "claim": "Среда устанавливает пригодность результата для заданного использования и возвращает существенные дефекты к исправлению.",
+      "inputs": [
+        "Полученный результат и предназначенное использование",
+        "Критерии, источники и наблюдения",
+        "Условия/квалификация проверки"
+      ],
+      "output": "Обоснованный вывод в пределах проверенного: пригодно, непригодно, неизвестно или не проверено; зависимые исправления/ограничения. Наблюдение применения и пределы могут пополнить запись метода; запись не заменяет проверку.",
+      "trigger": "Получен результат, изменилось основание или наблюдение может изменить допустимость использования.",
+      "stop": "Решение о принятии риска вне полномочий остаётся Human. Проверка не доказывает наблюдение, которого не было; достаточная проверка не повторяется без основания.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "C.41.QC",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 89125,
+            "end_line": 89278
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.21",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 39676,
+            "end_line": 39975
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "A.10.1",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27287
+          }
+        }
+      ]
+    },
+    {
+      "id": "HI",
+      "name": "Human Interaction",
+      "group": "Human Interaction",
+      "claim": "Среда сохраняет выбранное участие человека и получает от него только недостающие существенные намерения, выборы и полномочия.",
+      "inputs": [
+        "Прямые высказывания Human с предметом и условиями",
+        "Текущий вопрос, варианты и основания",
+        "Предпочтение S3/S4 и границы делегирования"
+      ],
+      "output": "Понятный человеку результат/вопрос и пригодное для продолжения точное решение в его действительном объёме.",
+      "trigger": "Нужен существенный выбор Human, изменяется выбранный способ участия либо требуется передать результат.",
+      "stop": "Молчание не является ответом; условное согласие не расширяется. Достаточные ответы сохраняются и используются без повторного согласования обычных шагов.",
+      "method_suppliers": [
+        {
+          "kind": "FPF",
+          "id": "A.2.9",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 8676,
+            "end_line": 9064
+          }
+        },
+        {
+          "kind": "FPF",
+          "id": "E.14",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "index": "navigation/fpf-index.yaml",
+          "source_edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 104588,
+            "end_line": 104933
+          }
+        }
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "J01",
+      "producers": [
+        "HI"
+      ],
+      "consumers": [
+        "CF",
+        "EG"
+      ],
+      "passing_result": "Точное поручение/решение с предметом, редакцией и условиями.",
+      "compatibility_condition": "Одинаково распознаны цель, выбранное участие и предел разрешения; совет не превращён в мандат.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J02",
+      "producers": [
+        "CF"
+      ],
+      "consumers": [
+        "SF"
+      ],
+      "passing_result": "Текущее состояние системы и основания знания.",
+      "compatibility_condition": "Сохранены идентичность системы/результата, существенная редакция и неизвестные свойства.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J03",
+      "producers": [
+        "SF"
+      ],
+      "consumers": [
+        "DMG",
+        "RAF"
+      ],
+      "passing_result": "Нужный вклад и условия его пригодности.",
+      "compatibility_condition": "Критерий относится к использованию результата; недостаток способа отличён от недостатка факта или права.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J04",
+      "producers": [
+        "DMG"
+      ],
+      "consumers": [
+        "EG",
+        "WEC"
+      ],
+      "passing_result": "Достаточный способ и необходимые участники/средства/условия.",
+      "compatibility_condition": "Исполнитель может выполнить существенные операции; выходы пригодны следующим операциям. Описание не считается исполнением.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J05",
+      "producers": [
+        "EG"
+      ],
+      "consumers": [
+        "WEC"
+      ],
+      "passing_result": "Действующее основание разрешённого ближайшего действия.",
+      "compatibility_condition": "Те же исполнитель, предмет, объём, условия и срок; изменение существенного аргумента требует пересмотра.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J06",
+      "producers": [
+        "WEC"
+      ],
+      "consumers": [
+        "RAF",
+        "CF"
+      ],
+      "passing_result": "Полученное, точная попытка, наблюдаемый/неизвестный эффект.",
+      "compatibility_condition": "Успешный вызов не подменяет предметный результат; частичный журнал не стирает установленное событие.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J07",
+      "producers": [
+        "RAF"
+      ],
+      "consumers": [
+        "CF",
+        "SF",
+        "DMG",
+        "WEC"
+      ],
+      "passing_result": "Вывод, дефект/изменённая предпосылка и граница зависимых результатов.",
+      "compatibility_condition": "Пересматривается затронутое. Изменение задачи/метода не считается автоматически разрешённым выводом проверки.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J08",
+      "producers": [
+        "CF",
+        "SF",
+        "DMG",
+        "EG",
+        "WEC",
+        "RAF"
+      ],
+      "consumers": [
+        "HI"
+      ],
+      "passing_result": "Достаточный краткий результат, различающие варианты либо точный блокер.",
+      "compatibility_condition": "Сначала понятный смысл для Human; необходимое основание и пределы доступны. Вопрос действительно требует человеческого вклада.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J09",
+      "producers": [
+        "HI"
+      ],
+      "consumers": [
+        "SF",
+        "EG",
+        "WEC"
+      ],
+      "passing_result": "Решение Human по предъявленному предмету.",
+      "compatibility_condition": "Сохранены условия, отказы и частичный scope; зависимое действие ждёт необходимого ответа, независимое продолжается.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    },
+    {
+      "id": "J10",
+      "producers": [
+        "CF",
+        "SF",
+        "DMG",
+        "EG",
+        "WEC",
+        "RAF",
+        "HI"
+      ],
+      "consumers": [
+        "CF",
+        "WEC"
+      ],
+      "passing_result": "Сохранённая основа продолжения.",
+      "compatibility_condition": "Следующему исполнителю доступны решения, точная использованная основа, результат, эффект/неизвестное и следующий вопрос; завершённое не запускается снова.",
+      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+    }
+  ],
+  "bearer": "Одна LLM + текущие ADE + источники и рабочая память",
+  "not_required": "Последовательный проход семи функций, семь агентов или собственный универсальный runtime не требуются.",
+  "support_limits": "Предписания в AGENTS declared; свойства ADE проверяются для конкретного действия.",
+  "version": "7.0.0",
+  "layers": {
+    "universal_core": {
+      "instructions": "AGENTS.md",
+      "FPF": "external-sources/fpf/FPF-Spec.md",
+      "role": "Instructions are environment entry and source wiring; FPF provides general principles/methods. Local procedures and adaptations reside in MP."
+    },
+    "dynamic_method_generation": {
+      "function": "DMG",
+      "role": "Находит/переиспользует/адаптирует/создаёт достаточный способ под текущую задачу."
+    },
+    "project_specialization": {
+      "index": "methods/index.yaml",
+      "descriptions": "methods/METHOD_PACK.md#<anchor>",
+      "rules": "docs/PROJECT_METHODS.md",
+      "role": "One repertoire per instance: environment support, general-purpose methods and accumulated specialization; shared body may serve both groups.",
+      "historical_descriptions": "Собственные использованные редакции проекта сохраняются в methods/snapshots/"
+    }
+  },
+  "method_lifecycle": [
+    "Переиспользовать достаточное актуальное основание; для нового выбора подключать источники по AGENTS.md#method-source-priority",
+    "Открыть выбранное точное тело и существенные условия/зависимости; адрес в навигации не доказывает полноту",
+    "Применить, адаптировать или получить недостающий способ из FPF/знаний/источников/опыта",
+    "Проверить условия, полномочия, исполнить и наблюдать результат",
+    "Сохранить переиспользуемый способ и опыт; содержательное изменение новой редакцией; пересмотреть затронутую применимость"
+  ],
+  "human_initiated_modes": [
+    {
+      "id": "self_development",
+      "entry": "docs/SELF_DEVELOPMENT.md",
+      "trigger": "Прямое поручение изменить саму iEWR",
+      "result": "Проверенное изменение среды с сохранением исходной основы, before/after и пределов",
+      "participation": "S3 или S4 согласно поручению"
+    },
+    {
+      "id": "dpf_creation",
+      "entry": "docs/DPF_CREATION.md",
+      "trigger": "Поручение получить/содержательно изменить DPF",
+      "canonical_basis": "E.4.DPF в поставленном оригинале FPF и применимые зависимости",
+      "result": "Обоснованно выбранный достаточный результат; если DPF действительно нужен — authoring и проверки оригинального метода",
+      "participation": "S3 или S4 согласно поручению"
+    }
+  ],
+  "method_pack": {
+    "current": "methods/METHOD_PACK.md",
+    "index": "methods/index.yaml",
+    "path_base": "project_root",
+    "snapshots": "methods/snapshots/<pack-edition>/",
+    "role": "Connected project methods including environment management; thematic grouping is publication navigation, not automatic Method composition",
+    "bootstrap": "Current mandate, exact supplied FPF, professional knowledge and available subject sources permit direct start with empty MP; missing essential source holds its dependent use.",
+    "procedures": {
+      "selection_development": "Task navigation points to exact MP or FPF suppliers; sufficient ways reused directly, DMG supplies missing operations.",
+      "maintenance": "Preservation and edition handling through selected MP or FPF source methods.",
+      "self_development": "Human-initiated mode, same functional architecture."
+    },
+    "qualification": "Candidate описания; пригодность устанавливается для конкретного использования",
+    "description_alignment": {
+      "current": "base-v3.4",
+      "scope": "Самостоятельные текущие описания с применимыми условиями и источниками"
+    }
+  },
+  "base_methodpack": {
+    "starter": "methods/index.yaml",
+    "active_methods": 37,
+    "coverage": "General function suppliers directly in FPF; applied/local domain profiles selected by task",
+    "selection": "Functional/source views, no required stages or seven-method requirement",
+    "core_allocation": "docs/BASE_METHODS.md",
+    "status": "installed_clean_base_methodpack"
+  },
+  "navigation": {
+    "source_structure": "navigation/fpf-index.yaml",
+    "task_entries": "navigation/task-entries.yaml",
+    "source_structure_role": "Generated only from exact original, no task recommendations",
+    "task_entries_role": "Composed pointers to FPF or MP, not copies of methods"
+  },
+  "structure": {
+    "instructions": "AGENTS.md",
+    "architecture": "ARCHITECTURE.json",
+    "documentation": "docs/",
+    "original": "external-sources/fpf/",
+    "navigation": "navigation/",
+    "repertoire": "methods/",
+    "project_materials": {
+      "source": "direct inputs",
+      "reference": "reference and historical material",
+      "artifacts": "results and check evidence",
+      "handoff": "state and decisions for continuation"
+    },
+    "inside_project": "Organization and naming selected by use, no mandatory full document set.",
+    "new_project_guide": "docs/NEW_PROJECT.md"
+  },
+  "method_source_policy_ref": {
+    "path": "AGENTS.md",
+    "anchor": "method-source-priority"
+  },
+  "method_engineering": {
+    "general_suppliers": "Direct FPF method family; navigation/task-entries.yaml",
+    "local_storage_adapter": "IE-M003@v1.4",
+    "local_environment_adapter": "IE-M004@v1.4",
+    "specialist_returns": "ME18 ordinaryMR + RES-RECOVERY; ME19 C28 + RES-HISTORY; actual stronger mathematical/domain inputs remain conditional"
+  },
+  "product_name": "iEWR",
+  "research_stage": "Eternal Alpha",
+  "methodpack_control": {
+    "tool": "tools/methodpack.py",
+    "guide": "docs/METHODPACK_CHECK.md",
+    "commands": [
+      "check",
+      "activate",
+      "recover"
+    ],
+    "boundary": "Helper and cooperating POSIX writers; no OS prohibition of direct outside writes"
+  }
+}

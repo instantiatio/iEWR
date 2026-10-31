@@ -1,0 +1,151 @@
+{
+  "kind": "clean_iEWR_distribution",
+  "version": "7.0.0",
+  "research_stage": "Eternal Alpha",
+  "build_revision": "release-r1",
+  "product_name": "iEWR",
+  "display_name": "iEWR 7.0.0 Eternal Alpha",
+  "current_pack": "base-v3.4",
+  "active_method_descriptions": 37,
+  "project_application_history": "empty",
+  "files": {
+    "AGENTS.md": {
+      "bytes": 7778,
+      "sha256": "d1d643cbc5220d01d1227d49dd7ec4d6593f81b5f62923348acc5269db3e309b"
+    },
+    "ARCHITECTURE.json": {
+      "bytes": 31390,
+      "sha256": "85be1391dff5e991b75ec8d65e796bf53991cb1f004a4dc1f82c32f5b8cef789"
+    },
+    "LICENSE": {
+      "bytes": 1086,
+      "sha256": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec"
+    },
+    "ORIGINS.json": {
+      "bytes": 20218,
+      "sha256": "059442ef221e31ae3077bb6a593ab5c565b36f1de71b706692593c64959e58fd"
+    },
+    "PACKAGE.json": {
+      "bytes": 2383,
+      "sha256": "12d0c75700eb482b48554372ada49d48687c7f18b562922b6b59a87f7a5e4f29"
+    },
+    "README.md": {
+      "bytes": 7509,
+      "sha256": "a12e07dea753eb39dc715c0af77e15554ec4a7aa735cc650c38904cf4863a409"
+    },
+    "RELEASE_NOTES.md": {
+      "bytes": 3306,
+      "sha256": "7e19176bf66762e69e9e8206d22c7fb1bc38bd9d4d394d174d7f88e2562dd6d1"
+    },
+    "START.txt": {
+      "bytes": 154,
+      "sha256": "dccadef1d9207bfe09f5bfa9682b398d9529cc0ca65e74eaeafc1e2eb4ec0986"
+    },
+    "STATUS.md": {
+      "bytes": 2343,
+      "sha256": "5c5d06a74d2fbf6dc491ea348d4e646d9a2674bfe082210672584e3bfbd6e19b"
+    },
+    "docs/BASE_METHODS.md": {
+      "bytes": 807,
+      "sha256": "35828275174c4481ff3c688cb47f0f29848a8375d75e18d6cbf943b63d53428f"
+    },
+    "docs/DPF_CREATION.md": {
+      "bytes": 10742,
+      "sha256": "a15cb3303430f8a78cf17d6543aee16ce71ee8433aa4dbc6fc0833ce8ecb6594"
+    },
+    "docs/FILES.md": {
+      "bytes": 5943,
+      "sha256": "218c6d13615f2e4dea00880242d76210894060f50469ab64c3502baa85641590"
+    },
+    "docs/FPF_INDEX.md": {
+      "bytes": 5909,
+      "sha256": "5664122b4c4d6c56a87e9eae365af3f81a5af8ea61ecfb45dfd880a49b02dfaa"
+    },
+    "docs/IEWR_CONOPS.md": {
+      "bytes": 20567,
+      "sha256": "7e9d05e92ec8034d633c54912f1666b752d1407e217a724cca8e593993003934"
+    },
+    "docs/MATERIALS.md": {
+      "bytes": 1527,
+      "sha256": "59ad0c441d5052023f9fc86ed62ab21ad58ec169dacbf917b82b599ee8bacbe2"
+    },
+    "docs/METHODPACK_CHECK.md": {
+      "bytes": 12000,
+      "sha256": "fd8791622f53d0040c3d337dc24bea4db871de6bc52e4f3e6d7b7dcc4618b120"
+    },
+    "docs/METHODS.md": {
+      "bytes": 6947,
+      "sha256": "7e7be9f6aee5d7d9b516ba4521f10f42e7b86c415f439bec46a936f031d87c75"
+    },
+    "docs/METHOD_SOURCE_NOTICES.md": {
+      "bytes": 15515,
+      "sha256": "3daf80fc4e7216062333cced87363fadcf2a03bfca6d4f9ddf72f3789b46bf36"
+    },
+    "docs/MINI_CONOPS.md": {
+      "bytes": 15817,
+      "sha256": "b22f707c77939e72b9f123951c3c03b32f6b0dd01a85bc6af668a875797d4849"
+    },
+    "docs/NEW_PROJECT.md": {
+      "bytes": 3010,
+      "sha256": "84885388ad438a104a6557f48765624727cfdbd33b5bce44683941ac3add1548"
+    },
+    "docs/PROJECT_METHODS.md": {
+      "bytes": 3365,
+      "sha256": "1b61541768d0ca0ef5531830283e0cc8b37fbb5e9b238a4fb8e91d37ef8adc12"
+    },
+    "docs/SELF_DEVELOPMENT.md": {
+      "bytes": 9056,
+      "sha256": "a7146512045b89e29a734c638973903e8bc158e1a53cd5510b1e6178b4adf934"
+    },
+    "external-sources/fpf/FPF-Spec.md": {
+      "bytes": 17988882,
+      "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+    },
+    "external-sources/fpf/LICENSE": {
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    "external-sources/fpf/LICENSING.md": {
+      "bytes": 3490,
+      "sha256": "686ee0b66f8564b6a51b21b2007e5572989d2a20f6ebf51f60129f73108e15e2"
+    },
+    "external-sources/fpf/SOURCE.json": {
+      "bytes": 2308,
+      "sha256": "0db25fea96c8562d83c636a3ac9bbf81b119cf31d952feecba92a5c2acc40045"
+    },
+    "methods/METHOD_PACK.md": {
+      "bytes": 406459,
+      "sha256": "48e694add9104dc7bdd5c99be44e598f13bf064cd5d583b7b70d54b4478fdf70"
+    },
+    "methods/index.yaml": {
+      "bytes": 201992,
+      "sha256": "261f601cb6da2d3d18ed94428b68e2230c22b5c32414fc6d4f03d2c4f0929786"
+    },
+    "methods/snapshots/base-v3.4/METHOD_PACK.md": {
+      "bytes": 406459,
+      "sha256": "48e694add9104dc7bdd5c99be44e598f13bf064cd5d583b7b70d54b4478fdf70"
+    },
+    "methods/snapshots/base-v3.4/index.yaml": {
+      "bytes": 201992,
+      "sha256": "261f601cb6da2d3d18ed94428b68e2230c22b5c32414fc6d4f03d2c4f0929786"
+    },
+    "navigation/fpf-index.yaml": {
+      "bytes": 2681536,
+      "sha256": "898523cc16d24b1e5e4388057c2f108764da98e65dc61f9e9b4c67f441b65d7a"
+    },
+    "navigation/task-entries.yaml": {
+      "bytes": 53339,
+      "sha256": "4dac6e495034d39af754ee8a90109f8931910be4461b284f5db942b0e64ed3bc"
+    },
+    "tools/build_fpf_index.py": {
+      "bytes": 9367,
+      "sha256": "65193f64b4d3490792654a7cb31ec1225f0d46e3bbee6b1c043b15b9be4f7f80"
+    },
+    "tools/methodpack.py": {
+      "bytes": 26321,
+      "sha256": "2308eedb37a4075e5a838ca7d1c9b667dcc645f867fd9981de1bd8998c9425dc"
+    }
+  },
+  "scope": "Exact shipped bytes; no semantic, authenticity, permission or runtime qualification",
+  "inventory_self_reference": "INSTALLATION.json is not self-hashed; ZIP checksum supplied alongside archive"
+}
