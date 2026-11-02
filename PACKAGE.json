@@ -1,0 +1,68 @@
+{
+  "id": "iEWR",
+  "name": "iEWR",
+  "version": "7.0.2",
+  "research_stage": "Eternal Alpha",
+  "display_name": "iEWR 7.0.2 Eternal Alpha",
+  "status": "research_release",
+  "public_release": true,
+  "publication_authorized": true,
+  "entry": "AGENTS.md",
+  "start": "START.txt",
+  "readme": "README.md",
+  "architecture": "ARCHITECTURE.json",
+  "ConOps": "docs/IEWR_CONOPS.md",
+  "mini_ConOps": "docs/MINI_CONOPS.md",
+  "method_catalog": "docs/METHOD_CATALOG.md",
+  "current_pack_edition": "base-v3.10",
+  "active_method_descriptions": 37,
+  "FPF": "external-sources/fpf/SOURCE.json",
+  "methodpack_control": "tools/methodpack.py",
+  "inventory": "INSTALLATION.json",
+  "change_scope": "Уточнение оснований решений, применения и доставки источников, проверки готовности; ограниченные пробы контекста и передачи; публикация 7.0.2 в main и Latest. FPF, MP и инструменты сохранены.",
+  "project_application_history": "empty",
+  "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
+  "build_revision": "release-r1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/instantiatio/iEWR",
+    "releases_url": "https://github.com/instantiatio/iEWR/releases",
+    "public_baseline": {
+      "tag": "6.0.8",
+      "commit": "06f54f0b9460ff6e86f46505e8312edaed510843",
+      "url": "https://github.com/instantiatio/iEWR/tree/06f54f0b9460ff6e86f46505e8312edaed510843",
+      "role": "Закреплённая публичная опора исходной линии iEWR; она не подменяет непосредственную основу этой сборки."
+    }
+  },
+  "source_edition": {
+    "kind": "local_revision",
+    "version": "7.0.1",
+    "build_revision": "context-r2",
+    "archive_name": "BEFORE-7.0.1-context-r2.zip",
+    "archive_sha256": "afcd910d653ad6f20dbbcbcfa7908efc6b4087c8d134e4682fe823db142b0904",
+    "role": "Непосредственная локальная основа сохранена в проекте разработки; её не следует отождествлять с публичным коммитом 7.0.1.",
+    "public_base": {
+      "tag": "7.0.1",
+      "commit": "607e2d67552f04d2ec35cb448c3f71753c7a5793",
+      "url": "https://github.com/instantiatio/iEWR/tree/607e2d67552f04d2ec35cb448c3f71753c7a5793"
+    }
+  },
+  "portability_assessment": "docs/PORTABILITY.md",
+  "methodpack_update_method": "IE-M003@v1.8",
+  "methodpack_implementations": [
+    "Python/POSIX helper",
+    "ADE single writer with paused dependent readers"
+  ],
+  "dependency_policy": {
+    "daily_iEWR_and_MP": "No mandatory Python; sufficient actual ADE capabilities required; reuse suitable supplied helper",
+    "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
+    "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
+  },
+  "distribution_root": "iEWR 7.0.2 Eternal Alpha",
+  "release": {
+    "tag": "7.0.2",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.2",
+    "prerelease": false,
+    "latest": true
+  }
+}

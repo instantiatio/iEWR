@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/ailev/FPF",
+  "author": "Anatoly Levenchuk",
+  "commit": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+  "declared_version": "October 2026",
+  "scope": "Прямая методологическая опора для текущего проекта в пределах намеренного подключения Human. Эта сборка даёт точную доступную редакцию; её наличие само не задаёт новую предметную задачу.",
+  "selection": "FPF-Spec.md и два авторских файла условий; это выбранные файлы исходного репозитория, не вся библиотека.",
+  "files": [
+    {
+      "path": "FPF-Spec.md",
+      "source_url": "https://raw.githubusercontent.com/ailev/FPF/c3b34de07a6bd2df85c7081a4c367fd09978079c/FPF-Spec.md",
+      "bytes": 17988882,
+      "git_blob_sha1": "dca8951217474d87a9b4e5685625b616398e0b1c",
+      "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/ailev/FPF/c3b34de07a6bd2df85c7081a4c367fd09978079c/LICENSE",
+      "bytes": 18656,
+      "git_blob_sha1": "4ea99c213c5c0c005ae4e80df8e52169d06896ec",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "path": "LICENSING.md",
+      "source_url": "https://raw.githubusercontent.com/ailev/FPF/c3b34de07a6bd2df85c7081a4c367fd09978079c/LICENSING.md",
+      "bytes": 3490,
+      "git_blob_sha1": "4ffd8f048e43ad809a4f820603765e685a717676",
+      "sha256": "686ee0b66f8564b6a51b21b2007e5572989d2a20f6ebf51f60129f73108e15e2"
+    }
+  ],
+  "license": "CC BY 4.0 for original content; third-party terms preserved by original notices",
+  "modifications": "None",
+  "access": "Прямое адресное чтение; USING не требуется. Полное чтение FPF и развитие FPF не включены в scope.",
+  "copy_reason": "Точная закреплённая редакция FPF включена для прямого адресного чтения в iEWR; оригинальные тексты и условия сохранены без изменений."
+}
