@@ -1,50 +1,49 @@
 {
   "kind": "clean_iEWR_distribution",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "research_stage": "Eternal Alpha",
-  "build_revision": "release-r1",
   "product_name": "iEWR",
-  "display_name": "iEWR 7.0.2 Eternal Alpha",
-  "distribution_root": "iEWR 7.0.2 Eternal Alpha",
+  "display_name": "iEWR 7.0.3 Eternal Alpha",
+  "distribution_root": "iEWR-7.0.3-Eternal Alpha",
   "current_pack": "base-v3.10",
   "active_method_descriptions": 37,
   "project_application_history": "empty",
   "files": {
     "AGENTS.md": {
-      "bytes": 14194,
-      "sha256": "e67b26a1fe4625906d2347615a834407c44cbcb982e92f7914a3a4ad5c204a6b"
+      "bytes": 14817,
+      "sha256": "bc546120e7341f5486d78e0158009d1966ab9b3022226ab2088623181b8f0f72"
     },
     "ARCHITECTURE.json": {
-      "bytes": 33467,
-      "sha256": "d97352497d87e826ac97bbff490dfe56cf6a3b77224debfa0adef87d13ac439b"
+      "bytes": 33518,
+      "sha256": "656271eb7e3816575e849e0cd1a2d2c40575ef3898f966feb9a991f14784a3d5"
     },
     "LICENSE": {
       "bytes": 1086,
       "sha256": "ef4da070e506cd1018f449fc78bae57537b96f797264cf56f133e411b5b611ec"
     },
     "ORIGINS.json": {
-      "bytes": 20219,
-      "sha256": "ed506049e267d67dd656857b481699c1cb966c0e51815030850a53643a24b235"
+      "bytes": 20185,
+      "sha256": "3ae569fc646cb9b86f527afc24a99ee8a4ca3ad87f142bc607a51fb068f02026"
     },
     "PACKAGE.json": {
-      "bytes": 3303,
-      "sha256": "68c011c3b448bd133743daec927e1ab6fd57333f7190831ca624ef0b419a10d7"
+      "bytes": 3278,
+      "sha256": "03375f28ca5ef17bdf4cf888b2d7a1f5ddd0fee59cb1d12c5eaea1f508a007a5"
     },
     "README.md": {
-      "bytes": 9884,
-      "sha256": "0bc8f0dca613e9b2a0a51069ee066e7b2c79091153666002151e487649c514b8"
+      "bytes": 8087,
+      "sha256": "53521f6f23449bda1ffdd58e1153db5908d616af05c1dc8c477693bf29b9319d"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 5067,
-      "sha256": "97cf1f0062b411002486fd2d0a9a516750d054c7d0a1d97e365747987bb195ff"
+      "bytes": 3360,
+      "sha256": "9e5cf25402c413c9ca55947e02232ccd74fc0a802d4b46636cb3fe288a226d04"
     },
     "START.txt": {
       "bytes": 154,
       "sha256": "dccadef1d9207bfe09f5bfa9682b398d9529cc0ca65e74eaeafc1e2eb4ec0986"
     },
     "STATUS.md": {
-      "bytes": 7520,
-      "sha256": "5948a895404573cf8df2350dd7f627273e6e8317560b91500ac972d2b273f0e7"
+      "bytes": 8604,
+      "sha256": "1d71b11bfaaf0bc70546856af4685d1a281f5e2754001a99ee7575500fbe76a1"
     },
     "docs/BASE_METHODS.md": {
       "bytes": 1426,
@@ -55,16 +54,16 @@
       "sha256": "a15cb3303430f8a78cf17d6543aee16ce71ee8433aa4dbc6fc0833ce8ecb6594"
     },
     "docs/FILES.md": {
-      "bytes": 6358,
-      "sha256": "4861f411d4c9901c149b4e25da62159d63eb33d817091cbf7faba52549c1016d"
+      "bytes": 6271,
+      "sha256": "24dedc1406476223afc588a1905e463490d082d411ba3d239778a32bd589d2c3"
     },
     "docs/FPF_INDEX.md": {
       "bytes": 11537,
       "sha256": "ae9d70edf8d28df30102a3a001f07c80e48d87b560a37978d489f4c3b060937f"
     },
     "docs/IEWR_CONOPS.md": {
-      "bytes": 21314,
-      "sha256": "3b48f791615aba18f8da7e60a5aec64040c5724664759dfb197aeb8cad3478ca"
+      "bytes": 41132,
+      "sha256": "fa72fb0b4e660f8c7c2a28ed7f31f7204a270d3e63f60f9b6bcba4037c2088c6"
     },
     "docs/MATERIALS.md": {
       "bytes": 2483,
@@ -83,12 +82,8 @@
       "sha256": "3daf80fc4e7216062333cced87363fadcf2a03bfca6d4f9ddf72f3789b46bf36"
     },
     "docs/MINI_CONOPS.md": {
-      "bytes": 17785,
-      "sha256": "8491281024cdb258f6af7b36fbb4016ae5c3f92ac853c3a0a20c02872027e46f"
-    },
-    "docs/NEW_PROJECT.md": {
-      "bytes": 3953,
-      "sha256": "c5e41b8749e1a6db10e97b63d6fa5d45f07c4b5f26294a05c469b50508a0ff56"
+      "bytes": 17771,
+      "sha256": "ce82c50d5495a47e285f70ef31a3d2efe1a4c32572cd03f066512429459bac78"
     },
     "docs/PORTABILITY.md": {
       "bytes": 8322,
@@ -99,8 +94,8 @@
       "sha256": "a3cfb4aaa1537968ccc6c8725368c4f3e8ba33e106c7ea531783a1fad19b4de3"
     },
     "docs/SELF_DEVELOPMENT.md": {
-      "bytes": 9912,
-      "sha256": "b3b57d536fefa4d09f16968b48439a942501d7b6f02ce7f8cc8bbf144af76a48"
+      "bytes": 14267,
+      "sha256": "af45945f530a8a89f07aed1da6a859efb9bc04e27b558554b51cf0ac6a1edccb"
     },
     "external-sources/fpf/FPF-Spec.md": {
       "bytes": 17988882,

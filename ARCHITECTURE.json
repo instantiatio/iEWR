@@ -445,7 +445,7 @@
   "bearer": "Одна LLM + текущие ADE + источники и рабочая память",
   "not_required": "Последовательный проход семи функций, семь агентов или собственный универсальный runtime не требуются.",
   "support_limits": "Предписания в AGENTS declared; свойства ADE проверяются для конкретного действия.",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "layers": {
     "universal_core": {
       "instructions": "AGENTS.md",
@@ -534,7 +534,7 @@
       "handoff": "state and decisions for continuation"
     },
     "inside_project": "Organization and naming selected by use, no mandatory full document set.",
-    "new_project_guide": "docs/NEW_PROJECT.md"
+    "new_project_guide": "README.md#порядок-переноса-проекта-в-среду"
   },
   "method_source_policy_ref": {
     "path": "AGENTS.md",
