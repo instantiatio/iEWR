@@ -1,11 +1,11 @@
 {
-  "product": "iEWR 7.0.3 Eternal Alpha",
+  "product": "iEWR 7.0.4 Eternal Alpha",
   "FPF": {
     "record": "external-sources/fpf/SOURCE.json",
     "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
   },
   "MethodPack": {
-    "edition": "base-v3.10",
+    "edition": "base-v3.14",
     "current_book": "methods/METHOD_PACK.md",
     "index": "methods/index.yaml",
     "source_notices": "docs/METHOD_SOURCE_NOTICES.md",

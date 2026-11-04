@@ -3,11 +3,11 @@
   "path_base": "project_root",
   "pack": {
     "id": "iEWR-MethodPack",
-    "edition": "base-v3.10",
+    "edition": "base-v3.14",
     "description": "methods/METHOD_PACK.md",
-    "snapshot": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+    "snapshot": "methods/snapshots/base-v3.14/METHOD_PACK.md",
     "qualification": "Прикладные описания candidate; фактическая пригодность проверяется для конкретного использования.",
-    "project_application_history": "empty"
+    "project_application_history": "local_instruction_revision; domain-method execution not claimed"
   },
   "methods": [
     {
@@ -1847,10 +1847,10 @@
     {
       "id": "ADM-CASE",
       "name": "Обеспечить административное условие и сохранить открытые обязательства",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "adm-case-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "adm-case-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Обеспечить административное условие и сохранить открытые обязательства",
       "keywords": [
         "ADM-CASE",
@@ -2014,10 +2014,10 @@
     {
       "id": "OPS-STATE",
       "name": "Восстановить операционное состояние для конкретного решения",
-      "edition": "v1.2",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-state-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "ops-state-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Восстановить операционное состояние для конкретного решения",
       "keywords": [
         "OPS-STATE",
@@ -2161,7 +2161,8 @@
       "evidence": [],
       "limits": [
         "Описание кандидата; примеры и файловая сверка не устанавливают фактическую результативность",
-        "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
+        "Данные, компетенция, средства и полномочия проверяются для конкретного использования",
+        "Частичный вклад OPS.6 — продолжение случая: исполнитель, разрешение, входы, следующая работа, свидетельства, остановка и запасной вариант; выполнение и состояние предмета устанавливаются отдельно. Полный перенос всех условий исходного OPS.6 не заявлен."
       ],
       "relations": [],
       "external_relations": [
@@ -2224,6 +2225,7 @@
       ],
       "source_contributions": [
         "OPS.5",
+        "OPS.6",
         "OPS.7",
         "OPS.13",
         "OPS.21",
@@ -2326,10 +2328,10 @@
     {
       "id": "OPS-CAPACITY",
       "name": "Построить соразмерный расчёт доступной мощности ресурсов и сроков выполнения",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ops-capacity-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "ops-capacity-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Построить соразмерный расчёт доступной мощности ресурсов и сроков выполнения",
       "keywords": [
         "OPS-CAPACITY",
@@ -2454,7 +2456,7 @@
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "OPS-STATE@v1.2",
+          "target": "OPS-STATE@v1.4",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая source reconciliation и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -2630,7 +2632,7 @@
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "ORG-CHANGE@v1.3",
+          "target": "ORG-CHANGE@v1.5",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -2723,10 +2725,10 @@
     {
       "id": "ORG-CHANGE",
       "name": "Реализовать и пересмотреть изменение при работающей услуге",
-      "edition": "v1.3",
+      "edition": "v1.5",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "org-change-v1-3",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "org-change-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Реализовать и пересмотреть изменение при работающей услуге",
       "keywords": [
         "ORG-CHANGE",
@@ -2761,7 +2763,8 @@
       "evidence": [],
       "limits": [
         "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
-        "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
+        "Данные, компетенция, средства и полномочия проверяются для конкретного использования",
+        "Частичный вклад OCE.18 — согласовать для человека текущую работу, практику и подготовку, фактическую роль и реальную возможность принимающей работы; завершение обучения не доказывает последующее использование. Полный перенос всех условий исходного OCE.18 не заявлен."
       ],
       "relations": [],
       "external_relations": [
@@ -2866,6 +2869,7 @@
         "OCE.9",
         "OCE.10",
         "OCE.11",
+        "OCE.18",
         "OCE.13",
         "OCE.14",
         "OCE.15"
@@ -3122,7 +3126,8 @@
       "evidence": [],
       "limits": [
         "Описание-кандидат; примеры и файловая сверка не устанавливают фактическую результативность",
-        "Данные, компетенция, средства и полномочия проверяются для конкретного использования"
+        "Данные, компетенция, средства и полномочия проверяются для конкретного использования",
+        "Частичный вклад RMP.9 — сравнить компетентную нынешнюю исследовательскую практику с достижимым изменением; невыгодность дальнейшего исследования не означает достаточности основания. Полный перенос всех условий исходного RMP.9 не заявлен."
       ],
       "relations": [],
       "external_relations": [
@@ -3167,7 +3172,8 @@
         "RMP.5",
         "RMP.6",
         "RMP.7",
-        "RMP.8"
+        "RMP.8",
+        "RMP.9"
       ],
       "source_quality": {
         "seedOnly": false,
@@ -3243,7 +3249,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "A.3.1.MR",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
+          "compatibility": "Обычное восстановление кандидата по A.3.1.MR:4.2–4.5 (строки 9796–9833 оригинала): прослеживаемое описание, альтернативы и понижение результата. Если этого достаточно, отдельная эмпирическая реконструкция не нужна; RMP.10 применяется лишь к оставшемуся исследовательскому пробелу.",
           "status": "source_compared"
         },
         {
@@ -3267,7 +3273,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "FPF.Reference:16.9.4",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
+          "compatibility": "Сконструированный пример в FPF.Reference:16.9.4 (строки 1859–1876 оригинала) иллюстрирует границу обычного восстановления и переход к RMP.10, когда для нужного результата недостаточно сведений о неявных суждениях и различающихся условиях. Число случаев и контрольный случай относятся к этому примеру, не являются общим требованием RES-RECOVERY и не доказывают его фактическое применение.",
           "status": "source_compared"
         }
       ],
@@ -3349,7 +3355,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "C.28",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
+          "compatibility": "При отдельно требуемом причинном использовании применяй C.28:4: назови вопрос и фактический путь свидетельств, проверь угрозы, получи только нужные специальные компоненты и передай заключение с поддержанными и неподдержанными использованиями. Хронология или диагностическая находка сами не дают положительного причинного обоснования.",
           "status": "source_compared"
         },
         {
@@ -3373,7 +3379,7 @@
           "path": "external-sources/fpf/FPF-Spec.md",
           "pattern": "FPF.Reference:16.9.3",
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
-          "compatibility": "Вклад и оценка пригодности, как указано в сохранённой записи распределения.",
+          "compatibility": "Сконструированный пример в FPF.Reference:16.9.3 (строки 1837–1856 оригинала) разделяет наблюдённые различия, неподдержанное причинное использование и отдельное сегодняшнее решение. Он иллюстрирует границу RES-HISTORY, не является историческим свидетельством текущего проекта или самостоятельным причинным обоснованием.",
           "status": "source_compared"
         }
       ],
@@ -3393,10 +3399,10 @@
     {
       "id": "DATA-MEANING",
       "name": "Получить смысловую интеграцию для одного конкретного использования получателем",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "data-meaning-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "data-meaning-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Интегратор работает с предметными владельцами и получателем запроса; нужны доступ к точным схемам и определениям, понимание смысла идентификаторов, единиц и периода действия, способность получить свидетельства реализации.",
       "keywords": [
         "DATA-MEANING",
@@ -3524,10 +3530,10 @@
     {
       "id": "EXPLAIN",
       "name": "Подготовить и исправить объяснение для адресата",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "explain-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "explain-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Объясняющий располагает обоснованным описанием предмета, понимает его вывод и условия, имеет канал, доступный адресату. Знание предмета не предполагается из беглости речи.",
       "keywords": [
         "EXPLAIN",
@@ -3634,10 +3640,10 @@
     {
       "id": "TEXT-EDIT",
       "name": "Получить естественный текст в разрешённой смысловой границе",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "text-edit-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "text-edit-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Редактор/автор понимает язык и контекст; есть оригинал или материал, поручение, защищённые фрагменты и при необходимости точная нормативная статья. Для предметной истинности нужен отдельный источник.",
       "keywords": [
         "TEXT-EDIT",
@@ -3727,10 +3733,10 @@
     {
       "id": "UI-DESIGN",
       "name": "Воплотить и проверить видимое интерфейсное решение",
-      "edition": "v1.3",
+      "edition": "v1.5",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "ui-design-v1-3",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "ui-design-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Подготовленный дизайнер/разработчик или AI с известными содержанием и сценарием, доступными материалами и шрифтами, знанием платформы и разрешённым средством отрисовки и управления. Человек задаёт существенное направление и окончательный вкус.",
       "keywords": [
         "UI-DESIGN",
@@ -3819,10 +3825,10 @@
     {
       "id": "PUBLICATION",
       "name": "Подготовить публикацию для обещанного режима использования",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "publication-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "publication-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Автор, редактор или дизайнер располагает фактическим материалом, известным действием читателя и инструментом исходника, экспорта и отрисовки. Специалист по печати, EPUB или доступности нужен там, где его операция существенна.",
       "keywords": [
         "PUBLICATION",
@@ -3862,14 +3868,14 @@
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "TEXT-EDIT@v1.2",
+          "target": "TEXT-EDIT@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "EXPLAIN@v1.2",
+          "target": "EXPLAIN@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -3925,10 +3931,10 @@
     {
       "id": "INFO-SEC",
       "name": "Обеспечить конкретный вклад защиты и его поддержание",
-      "edition": "v1.2",
+      "edition": "v1.3",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "info-sec-v1-2",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "info-sec-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Подготовленный практик с владельцем деятельности и профильными экспертами по необходимости; источник ISEC0.12 seedOnly, принят только для личной iEWR владельца. Полный E.21 и промышленное применение не заявлены.",
       "keywords": [
         "INFO-SEC",
@@ -4017,10 +4023,10 @@
     {
       "id": "SW-SEC",
       "name": "Реализовать защитное свойство программного продукта",
-      "edition": "v1.3",
+      "edition": "v1.4",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sw-sec-v1-3",
-      "preserved_body": "methods/snapshots/base-v3.10/METHOD_PACK.md",
+      "anchor": "sw-sec-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.14/METHOD_PACK.md",
       "use_when": "Разработчик владеет технологическим стеком и способен получить безопасные проверки, точные критерии и профильную компетенцию. SPSEC0.2 сохраняет seedOnly; E.21/E.4.DPF.DA не заявлены, согласована личная область применения. Самодостаточность по криптографии, поставщику идентичности или особому анализатору не обещается.",
       "keywords": [
         "SW-SEC",
@@ -4061,7 +4067,7 @@
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "INFO-SEC@v1.2",
+          "target": "INFO-SEC@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
@@ -4167,21 +4173,21 @@
       "relations": [
         {
           "type": "uses_when_needed",
-          "target": "UI-DESIGN@v1.3",
+          "target": "UI-DESIGN@v1.5",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "SW-SEC@v1.3",
+          "target": "SW-SEC@v1.4",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"
         },
         {
           "type": "uses_when_needed",
-          "target": "DATA-MEANING@v1.2",
+          "target": "DATA-MEANING@v1.3",
           "compatibility": "Тот же выбранный результат, объект/редакция и существенные условия; используется лишь недостающий вклад",
           "basis": "Общая сверка источников и описанные соединения; не формальная композиция",
           "status": "candidate"

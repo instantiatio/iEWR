@@ -1,21 +1,21 @@
 {
   "kind": "clean_iEWR_distribution",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "research_stage": "Eternal Alpha",
   "product_name": "iEWR",
-  "display_name": "iEWR 7.0.3 Eternal Alpha",
-  "distribution_root": "iEWR-7.0.3-Eternal Alpha",
-  "current_pack": "base-v3.10",
+  "display_name": "iEWR 7.0.4 Eternal Alpha",
+  "distribution_root": "iEWR-7.0.4-Eternal Alpha",
+  "current_pack": "base-v3.14",
   "active_method_descriptions": 37,
   "project_application_history": "empty",
   "files": {
     "AGENTS.md": {
-      "bytes": 14817,
-      "sha256": "bc546120e7341f5486d78e0158009d1966ab9b3022226ab2088623181b8f0f72"
+      "bytes": 15768,
+      "sha256": "d4208f24c273e2746d84a9a6cf5f9fe12e1b12af05f45774dec9d334a367d606"
     },
     "ARCHITECTURE.json": {
-      "bytes": 33518,
-      "sha256": "656271eb7e3816575e849e0cd1a2d2c40575ef3898f966feb9a991f14784a3d5"
+      "bytes": 33551,
+      "sha256": "cf6dca00dda0449cd3263588dbc1744be25d2df40ee926fb9e552840f87e1eec"
     },
     "LICENSE": {
       "bytes": 1086,
@@ -23,27 +23,27 @@
     },
     "ORIGINS.json": {
       "bytes": 20185,
-      "sha256": "3ae569fc646cb9b86f527afc24a99ee8a4ca3ad87f142bc607a51fb068f02026"
+      "sha256": "4905b64c52b00e204d7f501b1db2c1528f4d8db1d6709f08fc4c685dca408955"
     },
     "PACKAGE.json": {
-      "bytes": 3278,
-      "sha256": "03375f28ca5ef17bdf4cf888b2d7a1f5ddd0fee59cb1d12c5eaea1f508a007a5"
+      "bytes": 3274,
+      "sha256": "71b485391e530b39f02634012137e1345a94d5485801ac88da1330413301f322"
     },
     "README.md": {
-      "bytes": 8087,
-      "sha256": "53521f6f23449bda1ffdd58e1153db5908d616af05c1dc8c477693bf29b9319d"
+      "bytes": 8857,
+      "sha256": "7d9852127678e3727cab7fb26db589682facbbefd83dc7a8346bbdc414ee1eb4"
     },
     "RELEASE_NOTES.md": {
-      "bytes": 3360,
-      "sha256": "9e5cf25402c413c9ca55947e02232ccd74fc0a802d4b46636cb3fe288a226d04"
+      "bytes": 3737,
+      "sha256": "f826eac4b550d0d1fc7d32b4bc489228fb261c7300df0d526841c9e7715a0e06"
     },
     "START.txt": {
       "bytes": 154,
       "sha256": "dccadef1d9207bfe09f5bfa9682b398d9529cc0ca65e74eaeafc1e2eb4ec0986"
     },
     "STATUS.md": {
-      "bytes": 8604,
-      "sha256": "1d71b11bfaaf0bc70546856af4685d1a281f5e2754001a99ee7575500fbe76a1"
+      "bytes": 13449,
+      "sha256": "e24eaeeba75ef4ec31d50b6f3d2745d55d61322fcf82083a8be9038eb1bbaf63"
     },
     "docs/BASE_METHODS.md": {
       "bytes": 1426,
@@ -54,20 +54,20 @@
       "sha256": "a15cb3303430f8a78cf17d6543aee16ce71ee8433aa4dbc6fc0833ce8ecb6594"
     },
     "docs/FILES.md": {
-      "bytes": 6271,
-      "sha256": "24dedc1406476223afc588a1905e463490d082d411ba3d239778a32bd589d2c3"
+      "bytes": 7033,
+      "sha256": "c9426541c00cb1c1e1139474658cadc011acc88769f8d58d44017dd241562266"
     },
     "docs/FPF_INDEX.md": {
       "bytes": 11537,
       "sha256": "ae9d70edf8d28df30102a3a001f07c80e48d87b560a37978d489f4c3b060937f"
     },
     "docs/IEWR_CONOPS.md": {
-      "bytes": 41132,
-      "sha256": "fa72fb0b4e660f8c7c2a28ed7f31f7204a270d3e63f60f9b6bcba4037c2088c6"
+      "bytes": 41360,
+      "sha256": "c318d3c606e7ec92297c3187c8ac0a712f4172550bd46a4f83e1ae2822e132e6"
     },
     "docs/MATERIALS.md": {
-      "bytes": 2483,
-      "sha256": "b1e90c509560728a02507d90984638b6f942eb0b7080f072b36c3aee43cd339c"
+      "bytes": 2525,
+      "sha256": "d10ee6b9b49a8e419fc0dcf368870cd845811e2377cde442e4b0384b5616842d"
     },
     "docs/METHODPACK_CHECK.md": {
       "bytes": 13544,
@@ -75,7 +75,7 @@
     },
     "docs/METHOD_CATALOG.md": {
       "bytes": 7515,
-      "sha256": "aaab6019570197212710fef75d586ec6600252465eacd7ae18409786e35ba23c"
+      "sha256": "f36d1daddf6abb2e731f8a1505cff59dc5ccd3581ccecaf3be7753fb1e7bd95c"
     },
     "docs/METHOD_SOURCE_NOTICES.md": {
       "bytes": 15515,
@@ -83,7 +83,7 @@
     },
     "docs/MINI_CONOPS.md": {
       "bytes": 17771,
-      "sha256": "ce82c50d5495a47e285f70ef31a3d2efe1a4c32572cd03f066512429459bac78"
+      "sha256": "db23651d36fc7dc289e79152c3fe73c167cc1bc8b74e37ff9bc32d3d6119af51"
     },
     "docs/PORTABILITY.md": {
       "bytes": 8322,
@@ -94,8 +94,8 @@
       "sha256": "a3cfb4aaa1537968ccc6c8725368c4f3e8ba33e106c7ea531783a1fad19b4de3"
     },
     "docs/SELF_DEVELOPMENT.md": {
-      "bytes": 14267,
-      "sha256": "af45945f530a8a89f07aed1da6a859efb9bc04e27b558554b51cf0ac6a1edccb"
+      "bytes": 24076,
+      "sha256": "1611d5149655c60d91180e25c7a8ab40befcfb53cfdf618c47edeb3bf51aecc3"
     },
     "external-sources/fpf/FPF-Spec.md": {
       "bytes": 17988882,
@@ -114,12 +114,12 @@
       "sha256": "0db25fea96c8562d83c636a3ac9bbf81b119cf31d952feecba92a5c2acc40045"
     },
     "methods/METHOD_PACK.md": {
-      "bytes": 627857,
-      "sha256": "7986f49d7669fb7b3ca2b5ee15b5347f3ea688630f89d44d282d1b8764b8cd0d"
+      "bytes": 627933,
+      "sha256": "bac0f33107f9b3dbdf4652c3dc41bdb0a506290ab11d69f869e246cca49333d9"
     },
     "methods/index.yaml": {
-      "bytes": 235604,
-      "sha256": "26bba15c25385185808f70e8f4f2438756dcf75e3f582653d66a83521ac9e222"
+      "bytes": 238925,
+      "sha256": "f1d7bfdb054e7717b261b6ea0387a95a9e59582e746c8f33463f6c62dc2e3914"
     },
     "methods/snapshots/base-v3.10/METHOD_PACK.md": {
       "bytes": 627857,
@@ -129,13 +129,21 @@
       "bytes": 235604,
       "sha256": "26bba15c25385185808f70e8f4f2438756dcf75e3f582653d66a83521ac9e222"
     },
+    "methods/snapshots/base-v3.14/METHOD_PACK.md": {
+      "bytes": 627933,
+      "sha256": "bac0f33107f9b3dbdf4652c3dc41bdb0a506290ab11d69f869e246cca49333d9"
+    },
+    "methods/snapshots/base-v3.14/index.yaml": {
+      "bytes": 238925,
+      "sha256": "f1d7bfdb054e7717b261b6ea0387a95a9e59582e746c8f33463f6c62dc2e3914"
+    },
     "navigation/fpf-index.yaml": {
       "bytes": 2681536,
       "sha256": "898523cc16d24b1e5e4388057c2f108764da98e65dc61f9e9b4c67f441b65d7a"
     },
     "navigation/task-entries.yaml": {
       "bytes": 56157,
-      "sha256": "dd939cff9ec57d1fdc0a4195f7af8c52bee1c32ecace89e20a79c2da6116beb7"
+      "sha256": "eca0536c5e0a825faccb4e864bb59a3ea1cabc141ef2519c4b7dac5543d80277"
     },
     "tools/build_fpf_index.py": {
       "bytes": 9367,
@@ -146,6 +154,13 @@
       "sha256": "2308eedb37a4075e5a838ca7d1c9b667dcc645f867fd9981de1bd8998c9425dc"
     }
   },
-  "scope": "Точные байты этой поставки; не квалификация семантики, полномочий или работы на иной платформе",
-  "inventory_self_reference": "INSTALLATION.json не хеширует себя; SHA-256 фактического ZIP поставляется рядом с архивом"
+  "scope": "Точные файлы чистого комплекта. Проектные каталоги пусты; рабочая история и промежуточные кандидаты не включены. Опись не квалифицирует методы или полномочия.",
+  "inventory_self_reference": "INSTALLATION.json не хеширует себя. SHA-256 всего ZIP, включая опись, содержится в отдельном файле .zip.sha256.",
+  "published": true,
+  "previous_inventory_sha256": "749caa3da1c9fea0a13fba816f1113dec026d5bc60e92efb3e52d78011aaf820",
+  "runtime_exclusions": [
+    "project/**",
+    "methods/.activation/**",
+    "methods/.activation.lock"
+  ]
 }

@@ -1,9 +1,9 @@
 {
   "id": "iEWR",
   "name": "iEWR",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "research_stage": "Eternal Alpha",
-  "display_name": "iEWR 7.0.3 Eternal Alpha",
+  "display_name": "iEWR 7.0.4 Eternal Alpha",
   "status": "research_release",
   "public_release": true,
   "publication_authorized": true,
@@ -14,12 +14,12 @@
   "ConOps": "docs/IEWR_CONOPS.md",
   "mini_ConOps": "docs/MINI_CONOPS.md",
   "method_catalog": "docs/METHOD_CATALOG.md",
-  "current_pack_edition": "base-v3.10",
+  "current_pack_edition": "base-v3.14",
   "active_method_descriptions": 37,
   "FPF": "external-sources/fpf/SOURCE.json",
   "methodpack_control": "tools/methodpack.py",
   "inventory": "INSTALLATION.json",
-  "change_scope": "Уточнение ConOps, редактура README по замечаниям Human, порядок переноса в README, правило стабильного описания при смене версии и чистая упаковка. FPF, MP и инструменты сохранены.",
+  "change_scope": "Публикация принятых F.19-уточнений, MP base-v3.14 и соразмерных условий приёмки; согласованные примеры вопросов в README. При подготовке выпуска README изменён только по номеру версии.",
   "project_application_history": "empty",
   "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
   "repository": {
@@ -35,14 +35,14 @@
   },
   "source_edition": {
     "kind": "local_workspace_snapshot",
-    "version": "7.0.2",
-    "archive_name": "BEFORE-7.0.3.zip",
-    "archive_sha256": "248b9cee6b279e4967515e5ac666d63cabed30c586d7ab4da092bb05e04620b5",
-    "role": "Точная непосредственная основа — рабочая 7.0.2 с локальными доработками документов. Снимок сохранён в проекте разработки; он не тождествен публичному выпуску 7.0.2.",
-    "public_base": {
-      "tag": "7.0.2",
-      "commit": "a836aac671c035b13fe95f421974714d329c2255",
-      "url": "https://github.com/instantiatio/iEWR/tree/a836aac671c035b13fe95f421974714d329c2255"
+    "version": "7.0.3",
+    "archive_name": "BEFORE-7.0.4.zip",
+    "archive_sha256": "79fd54b412fe57027ad2229a8e6a605dd202c6ead6d690087d35be94d98c3256",
+    "role": "Точная непосредственная основа: принятая локальная рабочая 7.0.3 с MP base-v3.14. Снимок сохранён в проекте разработки; он отличается от публичного выпуска 7.0.3.",
+    "published_base": {
+      "tag": "7.0.3",
+      "commit": "4e3be5344dc5621a99b729894627700e47951e5f",
+      "url": "https://github.com/instantiatio/iEWR/tree/4e3be5344dc5621a99b729894627700e47951e5f"
     }
   },
   "portability_assessment": "docs/PORTABILITY.md",
@@ -56,10 +56,10 @@
     "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
     "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
   },
-  "distribution_root": "iEWR-7.0.3-Eternal Alpha",
+  "distribution_root": "iEWR-7.0.4-Eternal Alpha",
   "release": {
-    "tag": "7.0.3",
-    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.3",
+    "tag": "7.0.4",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.4",
     "prerelease": false,
     "latest": true
   }

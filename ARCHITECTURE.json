@@ -445,7 +445,7 @@
   "bearer": "Одна LLM + текущие ADE + источники и рабочая память",
   "not_required": "Последовательный проход семи функций, семь агентов или собственный универсальный runtime не требуются.",
   "support_limits": "Предписания в AGENTS declared; свойства ADE проверяются для конкретного действия.",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "layers": {
     "universal_core": {
       "instructions": "AGENTS.md",
@@ -502,7 +502,7 @@
     },
     "qualification": "Candidate описания; пригодность устанавливается для конкретного использования",
     "description_alignment": {
-      "current": "base-v3.10",
+      "current": "base-v3.14",
       "scope": "Самостоятельные текущие описания с применимыми условиями и источниками"
     }
   },
@@ -512,7 +512,8 @@
     "coverage": "General function suppliers directly in FPF; applied/local domain profiles selected by task",
     "selection": "Functional/source views, no required stages or seven-method requirement",
     "core_allocation": "docs/BASE_METHODS.md",
-    "status": "installed_clean_base_methodpack"
+    "status": "locally_revised_base_methodpack",
+    "source_pack": "base-v3.10"
   },
   "navigation": {
     "source_structure": "navigation/fpf-index.yaml",

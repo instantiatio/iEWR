@@ -1,6 +1,6 @@
 # Материалы экземпляра
 
-Размещение, именование, редакции, снимки и точное чтение выполняются по KCA-01 в `methods/METHOD_PACK.md`. Вход по задаче — `navigation/task-entries.yaml`, точное тело — `methods/index.yaml`.
+Размещение, именование, редакции, снимки и точное чтение выполняются по KCA-01 в `methods/METHOD_PACK.md`. Вход по задаче — `navigation/task-entries.yaml`, точное тело в `methods/METHOD_PACK.md` находи по `methods/index.yaml`.
 
 | Роль | Обычное место |
 |---|---|

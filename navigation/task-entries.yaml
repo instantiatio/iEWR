@@ -1083,9 +1083,9 @@
         {
           "kind": "MethodPack",
           "id": "ADM-CASE",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "adm-case-v1-2",
+          "anchor": "adm-case-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1098,9 +1098,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-STATE",
-          "edition": "v1.2",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-state-v1-2",
+          "anchor": "ops-state-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1143,9 +1143,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-CAPACITY",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-capacity-v1-2",
+          "anchor": "ops-capacity-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1203,9 +1203,9 @@
         {
           "kind": "MethodPack",
           "id": "ORG-CHANGE",
-          "edition": "v1.3",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "org-change-v1-3",
+          "anchor": "org-change-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1293,9 +1293,9 @@
         {
           "kind": "MethodPack",
           "id": "DATA-MEANING",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "data-meaning-v1-2",
+          "anchor": "data-meaning-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1308,9 +1308,9 @@
         {
           "kind": "MethodPack",
           "id": "EXPLAIN",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "explain-v1-2",
+          "anchor": "explain-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1323,9 +1323,9 @@
         {
           "kind": "MethodPack",
           "id": "TEXT-EDIT",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "text-edit-v1-2",
+          "anchor": "text-edit-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1338,9 +1338,9 @@
         {
           "kind": "MethodPack",
           "id": "UI-DESIGN",
-          "edition": "v1.3",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ui-design-v1-3",
+          "anchor": "ui-design-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1353,9 +1353,9 @@
         {
           "kind": "MethodPack",
           "id": "PUBLICATION",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "publication-v1-2",
+          "anchor": "publication-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1368,9 +1368,9 @@
         {
           "kind": "MethodPack",
           "id": "INFO-SEC",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "info-sec-v1-2",
+          "anchor": "info-sec-v1-3",
           "index": "methods/index.yaml"
         }
       ],
@@ -1383,9 +1383,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-SEC",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-sec-v1-3",
+          "anchor": "sw-sec-v1-4",
           "index": "methods/index.yaml"
         }
       ],
