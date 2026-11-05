@@ -1,48 +1,28 @@
-# Состояние iEWR 7.0.4 Eternal Alpha
+# iEWR 7.0.5 Eternal Alpha status
 
-Исследовательский выпуск из принятой локальной редакции 7.0.3. Текущий MP — base-v3.14, 37 описаний; в комплекте сохранены исходная пара base-v3.10 и точный текущий снимок base-v3.14. Проектные папки пусты. История разработки, промежуточные кандидаты и протоколы опытов сохранены в проекте разработки отдельно от чистой поставки. Точный состав — [INSTALLATION.json](INSTALLATION.json) и [карта файлов](docs/FILES.md).
+Research release based on published iEWR 7.0.4 Eternal Alpha. English is the primary language of active iEWR materials. User interaction follows the user's language; project outputs follow the task and recipient. No LLM reasoning language is prescribed. Human authorized GitHub publication as Latest, updating main, and local activation on 5 November 2026. Publication does not expand the evidence described below.
 
-## Область изменений и приёмки 7.0.4
+The current MethodPack is base-v3.15 with the same 37 method identities. Every translated active description receives its next minor edition; three embedded profile descriptions also advance from v0.2 to v0.3. The exact historical base-v3.10 and base-v3.14 pairs are retained. The original FPF and its structural index, both supplied tools, and license files are unchanged. The seven functions, System Formation, DMG, authority boundaries, storage organization, and technical mechanisms retain their previous design.
 
-Выпуск включает ранее принятые F.19-уточнения инструкций и описаний методов, согласованную работу с неизвестностью, источниками и границами готовности. В [SELF_DEVELOPMENT.md](docs/SELF_DEVELOPMENT.md#условия-приёмки-доработки) закреплены пять общих и два условных условия приёмки. Проверки выбираются по последствиям изменения; достаточные прежние свидетельства переиспользуются. Полный обход FPF/MP и новая независимая проба при каждой малой правке не предписаны.
+The clean distribution contains empty project directories. The exact contents and hashes are in [INSTALLATION.json](INSTALLATION.json); purposes and sizes are in the [file map](docs/FILES.md). Development records, original translation drafts, review findings, and runtime fixtures are retained separately in the development project.
 
-Локальная приёмка исходной редакции включала независимое смысловое чтение, адресное исправление одного замечания, девять известных контрольных случаев (два положительных и семь отрицательных, без ошибок на этом наборе), реальную подготовку и восстановление задачи другим контекстом, а также подготовку полезного предложения с удержанием допуска при отсутствии обязательного источника. Содержательные задания направлялись GPT-6.1 Sol/xhigh; точный backend snapshot отдельно не удостоверялся. Исходные ответы и предыдущие редакции сохранены в проекте разработки.
+## Evidence for the migration
 
-Практические пробы проводились до адресного исправления абзаца о вариантах метода и переиспользованы только для незатронутых ветвей. Исправленный абзац проверен повторным семантическим чтением знакомым проверяющим; новое runtime-испытание этой ветви не заявлено. Это ограниченная приёмка правил и указанных сценариев в файловой среде, не статистическая надёжность проверяющих, квалификация всех 37 методов или production admission.
+| Question | Result and scope |
+|---|---|
+| Preservation of meaning | All 37 method bodies, metadata, instructions, architecture, and both ConOps were compared with 7.0.4. Authors checked their translations; other agents cross-read the method portions, metadata, and governing documents. Detected meaning and terminology defects were corrected and reread. This is bounded semantic judgment, not formal equivalence for every possible use. |
+| Method identity and history | IDs, relation topology, direct FPF suppliers, statuses, and source provenance are retained. Description editions and references change coherently. Numeric examples, branch codes, and link targets match after accounting for declared edition changes. |
+| Structural integrity | The supplied MP helper checked the new snapshot, activated it within the separate candidate, and verified actual current. No errors or warnings occurred. The unchanged FPF index passed its supplied structural check: 10,576 sections, no unmatched table-of-contents metadata. Release-file checks cover the actual extracted ZIP, inventory, links, map, and exact navigation editions. Their final results accompany the archive. |
+| Checking means | A reviewer distinguished all nine pre-established valid/invalid instruction cases. Isolated helper challenges accepted a valid pair, rejected a changed body under its old edition and a dangling relation, and held a modeled interrupted pair before restoring exact prior bytes. These are bounded discrimination checks, not general checker reliability. |
+| Multilingual work and continuation | Matched file-based tasks on 7.0.4 and corrected 7.0.5 produced English drafts, then fresh agents recovered the saved context and produced Russian notes. Sources and drafts were preserved. Missing publication policy held only the dependent readiness conclusion; useful editorial work completed. No material regression was found in these cases. |
+| DMG and execution | The observed task chains used source selection, reuse, and task-specific adaptation of FPF and MP guidance. No new reusable method was necessary. New-method construction, every domain branch, and other ADEs were not exercised. |
 
-При подготовке 7.0.4 меняются номера версии и сведения о поставке; принятые правила и SELF_DEVELOPMENT сохранены. README сохранён с заменой 7.0.3 на 7.0.4. Функциональная архитектура, содержательная часть ConOps, текущая MP-пара, оригинал и индекс FPF, инструменты и условия источников сохраняются относительно непосредственной локальной основы. Для выпуска проверяются фактический извлечённый ZIP, состав, контрольные суммы, пустые проектные папки, ссылки/якоря, карта файлов, MP и структура FPF. Эти проверки поставки не расширяют прежние свидетельства применения.
+An initial English probe is retained as evidence from before a navigation metadata repair. After detecting stale edition fields, the English task was rerun on corrected navigation before the fresh Russian continuation. The release retains the tested operative instructions and method pair; the subsequent README language-scope clarification and release-status/inventory updates do not change those task conditions.
 
-Ниже — исторические сведения об опубликованной 7.0.3 и её предшественниках. Они не описывают текущую MP-редакцию 7.0.4 и не приписывают прежние события новой сборке. Общая доработка зафиксированных пробелов ConOps остаётся отложенной.
+## Limits and retained observations
 
-## Опубликованная основа 7.0.3 — MP base-v3.10
+The checks support this language migration within the stated scope. They do not establish statistical model reliability, mastery of the entire environment, full domain qualification of all 37 methods, other-platform behavior, power-loss durability, audience usability, or production admission. Agents inherited the session model configuration; an exact backend snapshot was not independently attested. Source-reading chronology is described in the agents' handoffs; an independent full tool-transcript audit was not performed.
 
-Исследовательский выпуск 7.0.3 Eternal Alpha. В чистом комплекте 37 прикладных описаний и одна исходная пара MP base-v3.10. Проектные папки пусты; история разработки и протоколы опытов в поставку не включены.
+Prior acceptance and technical evidence are reused only for unchanged mechanisms and conditions. Historical evidence remains attached to its own editions; it does not establish translated-reader behavior. The previous status and release history remain in [7.0.4](https://github.com/instantiatio/iEWR/releases/tag/7.0.4) and in the preserved development basis.
 
-Состав и SHA-256 — INSTALLATION.json; описание файлов — docs/FILES.md. Поставка проверяется по файловой целостности, текущей паре MethodPack, прямым источникам и структурному индексу FPF. Полнота содержания метода и фактическая пригодность требуют проверки для выбранного использования; описание и примеры не являются отчётом о выполнении.
-
-Все описания candidate. ISEC/SPSEC сохраняют seedOnly и принятую область личного использования. Авторство, точные источники и условия — ORIGINS.json и docs/METHOD_SOURCE_NOTICES.md. Эта поставка не создаёт общей новой лицензии на самостоятельные авторские тексты.
-
-Для готового Python helper: check без записи доступен на Python 3.10+; для поставленного JSON-представления YAML достаточно стандартной библиотеки, иной YAML требует доступного PyYAML. activate/recover используют POSIX flock. Контроль действует через helper/сотрудничающих writers; произвольная прямая запись не блокируется ОС этим инструментом. Замена пары последовательна с pending/recover.
-
-На macOS проверены ограниченные случаи штатного инструмента: допустимое подключение, повтор уже подключённой пары, повреждённый кандидат, устаревший токен, изменение тела при прежней редакции, занятый lock, прерывание и восстановление, удержание при чужой правке. Отсутствие fcntl моделировалось: check доступен, activate отказывает. Это не натурная проверка иной ОС. Утилиты не изменялись; их успешные проверки не квалифицируют все методы для любого применения.
-
-DMG и обычное чтение не требуют Python. Предусмотрен ограниченный файловый путь обновления MP одним агентом без обязательных Python/POSIX. Его условия, организационные компенсации и непроверенные свойства — [PORTABILITY.md](docs/PORTABILITY.md). Новые платформенные адаптеры не включены.
-
-Оригинальный FPF и лицензионные файлы сохранены без изменения. Возможности ADE, права и средства устанавливаются для конкретной задачи.
-
-Правило обслуживания FPF — подключение готового согласованного комплекта оригинала и индекса по поручению. Python нужен поставленному инструменту локальной генерации/структурной проверки, а не повседневной работе среды. В этой редакции уточнены инструкции: фактическая новая редакция FPF не получалась и не подключалась; текущие FPF/индекс, все тела MP и инструменты сохранены побайтно.
-
-
-### Проверки уточнений контекста
-
-2 ноября 2026 проведены три свежие пробы разработки и продолжения (две на промежуточной редакции и одна на непосредственной основе 7.0.2). Отдельно повторены агентские наборы проверок: 18, 27 и 11; независимые поведенческие пробы: 8, 12 и 8; файловые проверки: 12. Сохранены прежние редакции, изменения продолжены другим агентом. Аудит обнаружил усечённые чтения и позднее получение части условий. В последней пробе нужные короткие разделы SW-01 §7/9 получены до реализации; полное чтение всех заявленных ветвей и зависимостей не подтверждено. Хронология восстанавливалась из доступной истории, а не из независимого полного журнала ввода-вывода.
-
-Отдельная проба структуры контекста: один свежий автор прошёл четыре последовательных изменения, другой свежий агент прочитал передачу без изменения файлов. 11 файловых проверок подтвердили сохранение использованной v1, создание v2 при изменении условий, исправление одной опечатки без новой версии и актуальные ссылки продолжения. Читатель восстановил условия, открытые вопросы и отсутствие поручения на реализацию. В одном сообщении автора оказалась неверно оформлена Markdown-ссылка с пробелами; сам файл и путь CURRENT были верны.
-
-Все свежие запуски использовали одну модель в общей файловой среде с заданной областью. Это ограниченные сценарии, не измерение экономии внимания человека или частоты дефектов. Исходный DeepSeek Harness не перепроверялся и не исправлялся; большой корпус, параллельная запись и межплатформенная работа этими пробами не подтверждены. Проверки прежней реализации MP/FPF сохраняют прежний ограниченный статус. Успех файловых и поведенческих проверок не доказывает полное методологическое соответствие каждой работы.
-
-### Проверки сборки 7.0.3
-
-Проверены фактический ZIP после извлечения, его корневая папка, состав, контрольные суммы, пустые проектные каталоги, местные ссылки и якоря, согласованность MethodPack и структурного индекса FPF. README сохраняет согласованный текст с изменением номера версии и имени папки по поручению Human. Содержательная часть ConOps сохранена; обновлена только шапка.
-
-Исторические пробы выше относятся к прежним редакциям и сохраняют свои ограничения. Новый модельный самоаудит чистого проекта на 7.0.3 не проводился. Сборка и успешные файловые проверки не устанавливают эксплуатационную пригодность или устранение зафиксированных пробелов ConOps.
+Previously deferred ConOps improvements remain outside this migration. One existing ambiguity in OCE-PARTICIPATION—the unspecified object of “reconstruction” in its final source-boundary sentence—was retained and recorded separately rather than substantively repaired. Its statement still says that this reconstruction is not required for the described local operations. ISEC/SPSEC retain seedOnly and their established source/use limits; translation does not expand licensing or publication authority.

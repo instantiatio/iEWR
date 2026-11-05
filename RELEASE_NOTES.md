@@ -1,19 +1,19 @@
-# iEWR 7.0.4 Eternal Alpha
+# iEWR 7.0.5 Eternal Alpha
 
-Выпуск от 04.11.2026 из принятой локальной редакции 7.0.3; текущий MethodPack — base-v3.14, 37 описаний.
+Prepared from published iEWR 7.0.4 Eternal Alpha. Human authorized publication as Latest, updating main, and local activation on 5 November 2026.
 
-Описание iEWR, начало работы и перенос проекта — в [README.md](README.md).
+The environment's purpose, getting started, and project transfer procedure are in [README.md](README.md).
 
-## Что изменилось относительно опубликованной 7.0.3
+## Changes
 
-- Опубликованы ранее подготовленные и проверенные уточнения инструкций по F.19: сохранение смысла, работа с неизвестностью и источниками, связь фактических проверок с заявлениями готовности.
-- Включены согласованные редакции описаний MP base-v3.14 и навигации. Семь функций остаются функциями; нового обязательного метода или этапа не введено.
-- Закреплены соразмерные условия приёмки доработки: F.19, A.2.8.PER, A.10.1/C.39.MC, C.41.QC, A.10; условно — различение метода/описания и A.3.1.MV, а также A.15.8 для существенного изменения поддержки/продолжения. Достаточные прежние результаты переиспользуются; удерживается зависимая часть с существенным пробелом.
-- В README сохранён ранее согласованный раздел «Спросите саму среду» с четырьмя разными примерами. При подготовке 7.0.4 его описание и структура не менялись: обновлены только номера версии.
-- Подготовлен чистый комплект с папкой `iEWR-7.0.4-Eternal Alpha`, пустыми проектными каталогами и необходимыми снимками MP base-v3.10/base-v3.14. Прежние рабочая и опубликованная версии, промежуточные редакции и основания проверок сохранены отдельно.
+- English becomes the primary language of active iEWR instructions, architecture and ConOps, documentation, MethodPack descriptions, and navigation metadata.
+- Communication follows the user's language. The task and recipient determine project-artifact language. The environment does not prescribe an LLM's internal reasoning language.
+- All 37 method identities remain. Translated descriptions receive new editions in MP base-v3.15; the prior base-v3.10 and base-v3.14 pairs are preserved unchanged. This is a language migration, not a new MethodPack branch or architecture redesign.
+- README is translated under the explicit migration instruction, retaining its agreed purpose, structure, examples, and terms. Current release metadata and file inventory are updated.
+- The original FPF, structural FPF index, supplied tools, and license files are preserved byte for byte. Historical evidence retains its own editions and limits.
 
-## Проверки и границы
+## Verification and limits
 
-Для исходной локальной редакции выполнены независимое чтение, девять известных контрольных случаев и две практические пробы на отдельных копиях. Одно замечание к новой формулировке условного применения A.3.1.MV исправлено и адресно перечитано. Содержательная работа направлялась GPT-6.1 Sol/xhigh. Пробы не устанавливают общую надёжность модели, освоение всей среды или предметную эффективность всех методов.
+Verification results and readiness limits are recorded in [STATUS.md](STATUS.md). Translation checks distinguish semantic comparison, independent reading, structural verification, and observed use; a prior 7.0.4 result does not establish behavior under translated instructions. The deferred ConOps improvements are outside this migration.
 
-Проверки поставки охватывают фактический извлечённый ZIP, файлы и SHA-256, местные ссылки и якоря, карту файлов, согласованность MP и структурного индекса FPF. Оригинал FPF, инструменты, лицензии и функциональная архитектура сохранены. Полная область свидетельств и исторические ограничения — в [STATUS.md](STATUS.md). Зафиксированные пробелы ConOps остаются отложенными.
+The exact previous distribution and historical release notes remain available in [release 7.0.4](https://github.com/instantiatio/iEWR/releases/tag/7.0.4). The development project additionally preserves the complete pre-migration workspace, translation parts, reviews, and packaging evidence.

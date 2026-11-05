@@ -1,6 +1,6 @@
-# Семь функций и поставщики
+# Seven functions and their suppliers
 
-| Функция | Прямые поставщики FPF |
+| Function | Direct FPF suppliers |
 |---|---|
 | CF | C.43:4.2, F.1 |
 | SF | A.15.6, C.43:4.1 |
@@ -10,6 +10,6 @@
 | RAF | C.41.QC, A.21, A.10.1 |
 | HI | A.2.9, E.14 |
 
-Функции сочетаются по нужде задачи; обязательная последовательность или семь методов не требуются. Необходимые местные и предметные операции находятся в MethodPack. Откройте оригинальный FPF и применимые условия выбранного поставщика; имя раздела не является выполнением метода.
+Combine functions as the task requires; neither a mandatory sequence nor seven methods is required. Necessary local and domain operations are in MethodPack. Open the original FPF and the selected supplier's applicable conditions; naming a section does not execute a method.
 
-Для существенной доработки существующей системы используйте вход `change-basis` в navigation/task-entries.yaml: C.43:4.2 для достаточных оснований, C.41.QC для критериев/средств проверки; нужная прикладная конкретика — SW-01 и SYS-ASSURANCE. Сверяется содержательная связь с решением и результатом; отдельная карточка CF и перечитывание неизменной основы не обязательны.
+For a material change to an existing system, use the `change-basis` entry in navigation/task-entries.yaml: C.43:4.2 for sufficient grounds, C.41.QC for criteria/checking means; SW-01 and SYS-ASSURANCE supply necessary applied detail. Check the substantive connection to the decision and result; a separate CF card and rereading an unchanged basis are not mandatory.

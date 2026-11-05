@@ -1,86 +1,93 @@
-# Файлы iEWR 7.0.4 Eternal Alpha
+# iEWR 7.0.5 Eternal Alpha files
 
-Карта файлов комплекта iEWR 7.0.4 Eternal Alpha, MP base-v3.14. Ссылки относительные; размеры без сжатия, КБ = 1024 байта. Число строк включает пустые строки.
+File map for iEWR 7.0.5 Eternal Alpha, MP base-v3.15. Links are relative; sizes are uncompressed, KiB = 1024 bytes. Line counts include blank lines.
 
-Проектные каталоги в чистой поставке пусты. Таблицы и INSTALLATION.json описывают файлы среды; рабочая история и промежуточные кандидаты сохранены отдельно в проекте разработки.
+Project directories in the clean distribution are empty. These tables and INSTALLATION.json describe environment files; working history and intermediate candidates are preserved separately in the development project.
 
-**Корень среды/**
+**Environment root/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [AGENTS.md](../AGENTS.md) | Рабочие инструкции агента и входы к способам | 52 | 15,4 |
-| [ARCHITECTURE.json](../ARCHITECTURE.json) | Семь функций, связи и слои архитектуры | 572 | 32,8 |
-| [INSTALLATION.json](../INSTALLATION.json) | Опись поставки, размеры и SHA-256 файлов | 166 | 6,1 |
-| [LICENSE](../LICENSE) | Лицензия MIT для собственных частей iEWR | 21 | 1,1 |
-| [ORIGINS.json](../ORIGINS.json) | Источники методов, авторство, точные редакции и SHA-256 | 214 | 19,7 |
-| [PACKAGE.json](../PACKAGE.json) | Версия, статус и непосредственная основа комплекта | 66 | 3,2 |
-| [README.md](../README.md) | Назначение, начало работы и перенос проекта | 70 | 8,6 |
-| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Изменения выпуска и локальной документации | 19 | 3,6 |
-| [START.txt](../START.txt) | Короткий вход к AGENTS.md | 1 | 0,2 |
-| [STATUS.md](../STATUS.md) | Область проверок и пределы использования | 48 | 13,1 |
+| [AGENTS.md](../AGENTS.md) | Agent working instructions and method entries | 52 | 9.6 |
+| [ARCHITECTURE.json](../ARCHITECTURE.json) | Seven functions, relations, and architecture layers | 572 | 25.4 |
+| [INSTALLATION.json](../INSTALLATION.json) | Distribution inventory, file sizes, and SHA-256 | 174 | 6.3 |
+| [LICENSE](../LICENSE) | MIT license for iEWR own parts | 21 | 1.1 |
+| [ORIGINS.json](../ORIGINS.json) | Method sources, authorship, exact editions, and SHA-256 | 220 | 17.3 |
+| [PACKAGE.json](../PACKAGE.json) | Version, status, and immediate distribution basis | 70 | 3.0 |
+| [README.md](../README.md) | Purpose, getting started, and project transfer | 72 | 5.7 |
+| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Release and local-documentation changes | 19 | 1.8 |
+| [START.txt](../START.txt) | Short entry to AGENTS.md | 1 | 0.1 |
+| [STATUS.md](../STATUS.md) | Verification scope and use limits | 28 | 5.2 |
 
 **docs/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [BASE_METHODS.md](BASE_METHODS.md) | Прямые поставщики FPF для семи функций | 15 | 1,4 |
-| [DPF_CREATION.md](DPF_CREATION.md) | Вход в создание DPF по каноническому FPF | 40 | 10,5 |
-| [FILES.md](FILES.md) | Карта фактического состава и размеров комплекта | 86 | 6,9 |
-| [FPF_INDEX.md](FPF_INDEX.md) | Использование структурного индекса FPF | 56 | 11,3 |
-| [IEWR_CONOPS.md](IEWR_CONOPS.md) | Концепция работы среды | 192 | 40,4 |
-| [MATERIALS.md](MATERIALS.md) | Роли каталогов и входы в организацию материалов | 19 | 2,5 |
-| [METHODPACK_CHECK.md](METHODPACK_CHECK.md) | Проверка, подключение и восстановление MethodPack | 60 | 13,2 |
-| [METHOD_CATALOG.md](METHOD_CATALOG.md) | Каталог 37 действующих методов | 45 | 7,3 |
-| [METHOD_SOURCE_NOTICES.md](METHOD_SOURCE_NOTICES.md) | Авторство, лицензии и статусы источников | 142 | 15,2 |
-| [MINI_CONOPS.md](MINI_CONOPS.md) | Краткая архитектура и сценарий работы | 106 | 17,4 |
-| [PORTABILITY.md](PORTABILITY.md) | Возможности и пределы без Python/POSIX | 34 | 8,1 |
-| [PROJECT_METHODS.md](PROJECT_METHODS.md) | Применение и развитие репертуара | 19 | 4,1 |
-| [SELF_DEVELOPMENT.md](SELF_DEVELOPMENT.md) | Порученное изменение самой среды | 67 | 23,5 |
+| [BASE_METHODS.md](BASE_METHODS.md) | Direct FPF suppliers for the seven functions | 15 | 0.9 |
+| [DPF_CREATION.md](DPF_CREATION.md) | Entry to DPF creation through canonical FPF | 40 | 6.0 |
+| [FILES.md](FILES.md) | Actual distribution contents and sizes | 93 | 5.2 |
+| [FPF_INDEX.md](FPF_INDEX.md) | Using the FPF structural index | 56 | 6.6 |
+| [IEWR_CONOPS.md](IEWR_CONOPS.md) | Environment concept of operations | 194 | 22.9 |
+| [MATERIALS.md](MATERIALS.md) | Directory roles and material-organization entries | 19 | 1.5 |
+| [METHODPACK_CHECK.md](METHODPACK_CHECK.md) | MethodPack checking, activation, and recovery | 60 | 8.2 |
+| [METHOD_CATALOG.md](METHOD_CATALOG.md) | Catalog of 37 active methods | 45 | 5.1 |
+| [METHOD_SOURCE_NOTICES.md](METHOD_SOURCE_NOTICES.md) | Authorship, terms, and source statuses | 142 | 10.1 |
+| [MINI_CONOPS.md](MINI_CONOPS.md) | Architecture overview and work scenario | 106 | 10.0 |
+| [PORTABILITY.md](PORTABILITY.md) | Capabilities and limits without Python/POSIX | 34 | 4.6 |
+| [PROJECT_METHODS.md](PROJECT_METHODS.md) | Applying and developing the repertoire | 19 | 2.6 |
+| [SELF_DEVELOPMENT.md](SELF_DEVELOPMENT.md) | Assigned changes to the environment itself | 67 | 13.4 |
 
 **external-sources/fpf/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [FPF-Spec.md](../external-sources/fpf/FPF-Spec.md) | Точный неизменённый оригинал FPF | 132247 | 17567,3 |
-| [LICENSE](../external-sources/fpf/LICENSE) | Лицензия оригинального FPF | 395 | 18,2 |
-| [LICENSING.md](../external-sources/fpf/LICENSING.md) | Условия сторонних материалов FPF | 29 | 3,4 |
-| [SOURCE.json](../external-sources/fpf/SOURCE.json) | Редакция, происхождение и контрольная сумма FPF | 35 | 2,3 |
+| [FPF-Spec.md](../external-sources/fpf/FPF-Spec.md) | Exact unchanged original FPF | 132247 | 17567.3 |
+| [LICENSE](../external-sources/fpf/LICENSE) | Original FPF license | 395 | 18.2 |
+| [LICENSING.md](../external-sources/fpf/LICENSING.md) | Terms of third-party FPF materials | 29 | 3.4 |
+| [SOURCE.json](../external-sources/fpf/SOURCE.json) | FPF edition, provenance, and checksum | 35 | 2.3 |
 
 **methods/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [METHOD_PACK.md](../methods/METHOD_PACK.md) | Текущая книга 37 прикладных методов | 1403 | 613,2 |
-| [index.yaml](../methods/index.yaml) | Поиск точных тел, редакций, условий и связей | 4280 | 233,3 |
+| [METHOD_PACK.md](../methods/METHOD_PACK.md) | Current book of 37 applied methods | 1403 | 335.2 |
+| [index.yaml](../methods/index.yaml) | Exact bodies, editions, conditions, and relations | 4280 | 177.3 |
 
 **methods/snapshots/base-v3.10/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [METHOD_PACK.md](../methods/snapshots/base-v3.10/METHOD_PACK.md) | Неизменяемый исходный снимок поставляемой книги | 1403 | 613,1 |
-| [index.yaml](../methods/snapshots/base-v3.10/index.yaml) | Точный индекс исходной пары снимка | 4274 | 230,1 |
+| [METHOD_PACK.md](../methods/snapshots/base-v3.10/METHOD_PACK.md) | Unchanged historical MP snapshot | 1403 | 613.1 |
+| [index.yaml](../methods/snapshots/base-v3.10/index.yaml) | Unchanged historical MP snapshot | 4274 | 230.1 |
 
 **methods/snapshots/base-v3.14/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [METHOD_PACK.md](../methods/snapshots/base-v3.14/METHOD_PACK.md) | Точный снимок текущей пары MP | 1403 | 613,2 |
-| [index.yaml](../methods/snapshots/base-v3.14/index.yaml) | Точный снимок текущей пары MP | 4280 | 233,3 |
+| [METHOD_PACK.md](../methods/snapshots/base-v3.14/METHOD_PACK.md) | Unchanged historical MP snapshot | 1403 | 613.2 |
+| [index.yaml](../methods/snapshots/base-v3.14/index.yaml) | Unchanged historical MP snapshot | 4280 | 233.3 |
+
+**methods/snapshots/base-v3.15/**
+
+| File | Purpose | Lines | KiB |
+|---|---|---:|---:|
+| [METHOD_PACK.md](../methods/snapshots/base-v3.15/METHOD_PACK.md) | Exact current MP snapshot | 1403 | 335.2 |
+| [index.yaml](../methods/snapshots/base-v3.15/index.yaml) | Exact current MP snapshot | 4280 | 177.3 |
 
 **navigation/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [fpf-index.yaml](../navigation/fpf-index.yaml) | Структурный индекс разделов оригинала FPF | 120985 | 2618,7 |
-| [task-entries.yaml](../navigation/task-entries.yaml) | Входы по задачам к исходным способам | 1472 | 54,8 |
+| [fpf-index.yaml](../navigation/fpf-index.yaml) | Structural index of original FPF sections | 120985 | 2618.7 |
+| [task-entries.yaml](../navigation/task-entries.yaml) | Task entries leading to source methods | 1472 | 49.4 |
 
 **tools/**
 
-| Файл | Назначение | Строк | КБ |
+| File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [build_fpf_index.py](../tools/build_fpf_index.py) | Генерация и проверка структурного индекса FPF | 229 | 9,1 |
-| [methodpack.py](../tools/methodpack.py) | Проверка, подключение и восстановление пары MP | 424 | 25,7 |
+| [build_fpf_index.py](../tools/build_fpf_index.py) | FPF structural-index generation and checking | 229 | 9.1 |
+| [methodpack.py](../tools/methodpack.py) | MP pair checking, activation, and recovery | 424 | 25.7 |
 
-Снимок base-v3.10 сохраняет исходную пару; base-v3.14 — точную текущую пару. Промежуточные кандидаты сохранены в проекте разработки отдельно от чистой поставки. Текущая редакция определяется согласованной парой и проверенным подключением по IE-M003.
+Snapshots base-v3.10 and base-v3.14 preserve historical pairs unchanged; base-v3.15 is the exact current English pair. The coherent pair and checked activation under IE-M003 determine the current edition.
 
-Карта и опись фиксируют эту поставку, не квалифицируют качество методов или полномочия. После дальнейшей работы состав учитывается по необходимости; обязательного реестра каждого рабочего файла нет.
+The map and inventory describe this distribution; they do not qualify method quality or authority. After further work, track contents as needed; no mandatory registry of every working file is required.

@@ -6,7 +6,7 @@
   "entries": [
     {
       "id": "context",
-      "question": "Каких актуальных сведений достаточно для ближайшего решения?",
+      "question": "What current information is sufficient for the next decision?",
       "targets": [
         {
           "kind": "FPF",
@@ -33,11 +33,11 @@
           }
         }
       ],
-      "use": "Перед зависящим существенным решением при недостаточном контексте; достаточные актуальные основания переиспользуются. Не обязательная стадия или карточка."
+      "use": "Before a dependent material decision when context is insufficient; reuse sufficient current grounds. Not a mandatory stage or card."
     },
     {
       "id": "contribution",
-      "question": "Какой вклад нужен уже существующей системе?",
+      "question": "What contribution does the existing system need?",
       "targets": [
         {
           "kind": "FPF",
@@ -91,7 +91,7 @@
     },
     {
       "id": "method",
-      "question": "Как получить достаточный способ: переиспользовать, адаптировать или построить?",
+      "question": "How can a sufficient method be obtained: reuse, adapt, or construct?",
       "targets": [
         {
           "kind": "FPF",
@@ -109,7 +109,7 @@
     },
     {
       "id": "admissibility",
-      "question": "Допустимо ли конкретное действие и обеспечены ли его условия?",
+      "question": "Is the specific action admissible, and are its conditions provided?",
       "targets": [
         {
           "kind": "FPF",
@@ -151,7 +151,7 @@
     },
     {
       "id": "continuation",
-      "question": "Как исполнить и продолжить после неопределённого эффекта?",
+      "question": "How can work be executed and continued after an uncertain effect?",
       "targets": [
         {
           "kind": "FPF",
@@ -205,7 +205,7 @@
     },
     {
       "id": "assurance",
-      "question": "Как проверить пригодность результата и средства проверки?",
+      "question": "How can the fitness of the result and checking means be checked?",
       "targets": [
         {
           "kind": "FPF",
@@ -244,11 +244,11 @@
           }
         }
       ],
-      "use": "Для утверждения о готовности: сопоставь существенные требования, наблюдения и охват проверок; PASS не закрывает непроверенное."
+      "use": "For a readiness claim, compare material requirements, observations, and check coverage; PASS does not cover what remains unchecked."
     },
     {
       "id": "human",
-      "question": "Как сохранить участие Human и применить точное решение?",
+      "question": "How can Human participation be preserved and an exact decision applied?",
       "targets": [
         {
           "kind": "FPF",
@@ -290,21 +290,21 @@
     },
     {
       "id": "corpus-organization",
-      "question": "Как выбрать хранение, имена, редакции, точное чтение и состав снимка или экспорта?",
+      "question": "How should storage, names, editions, exact reading, and snapshot or export contents be chosen?",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "KCA-01",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-01-v1-4",
-          "edition": "v1.4"
+          "anchor": "kca-01-v1-5",
+          "edition": "v1.5"
         }
       ]
     },
     {
       "id": "corpus-finding",
-      "question": "Как найти нужное при неполной карточке, меняющемся вопросе или плохом индексе?",
+      "question": "How can the needed material be found with an incomplete card, changing question, or poor index?",
       "targets": [
         {
           "kind": "FPF",
@@ -323,14 +323,14 @@
           "id": "KCA-02",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-02-v1-5",
-          "edition": "v1.5"
+          "anchor": "kca-02-v1-6",
+          "edition": "v1.6"
         }
       ]
     },
     {
       "id": "corpus-delivery",
-      "question": "Как передать достаточный материал в доступный контекст исполнителя?",
+      "question": "How can sufficient material be delivered into the performer's available context?",
       "targets": [
         {
           "kind": "FPF",
@@ -349,14 +349,14 @@
           "id": "KCA-03",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-03-v1-4",
-          "edition": "v1.4"
+          "anchor": "kca-03-v1-5",
+          "edition": "v1.5"
         }
       ]
     },
     {
       "id": "corpus-change",
-      "question": "Как согласовать текущие записи после изменения, сохранив зависимые и исторические применения?",
+      "question": "How can current records be reconciled after a change while preserving dependent and historical applications?",
       "targets": [
         {
           "kind": "FPF",
@@ -375,28 +375,28 @@
           "id": "KCA-04",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-04-v1-4",
-          "edition": "v1.4"
+          "anchor": "kca-04-v1-5",
+          "edition": "v1.5"
         }
       ]
     },
     {
       "id": "corpus-memory",
-      "question": "Как восстановить действующее поручение и состояние для продолжения и переоткрывать условную память?",
+      "question": "How can the current assignment and state be recovered for continuation and conditional memory reopened?",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "KCA-05",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-05-v1-6",
-          "edition": "v1.6"
+          "anchor": "kca-05-v1-7",
+          "edition": "v1.7"
         }
       ]
     },
     {
       "id": "knowledge-encounter",
-      "question": "Как организовать фактический вызов при полезном событии?",
+      "question": "How can actual invocation be arranged at a useful event?",
       "targets": [
         {
           "kind": "FPF",
@@ -415,14 +415,14 @@
           "id": "KCA-06",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-06-v1-4",
-          "edition": "v1.4"
+          "anchor": "kca-06-v1-5",
+          "edition": "v1.5"
         }
       ]
     },
     {
       "id": "method-focus",
-      "question": "Что нужно менять: способ, описание, связь методов, средство или способность?",
+      "question": "What needs to change: a method, description, method relationship, means, or capability?",
       "targets": [
         {
           "kind": "FPF",
@@ -440,7 +440,7 @@
     },
     {
       "id": "method-repertoire",
-      "question": "Как восстановить пригодный репертуар и его происхождение?",
+      "question": "How can a usable repertoire and its provenance be recovered?",
       "targets": [
         {
           "kind": "FPF",
@@ -458,7 +458,7 @@
     },
     {
       "id": "method-requirements",
-      "question": "Какие требования к способу нужны в данной ситуации?",
+      "question": "What method requirements are needed in this situation?",
       "targets": [
         {
           "kind": "FPF",
@@ -476,7 +476,7 @@
     },
     {
       "id": "method-documentary-recovery",
-      "question": "Как восстановить вклад метода из документов?",
+      "question": "How can a method's contribution be recovered from documents?",
       "targets": [
         {
           "kind": "FPF",
@@ -494,7 +494,7 @@
     },
     {
       "id": "method-work-recovery",
-      "question": "Как восстановить возможный способ по свидетельствам работы?",
+      "question": "How can a possible method be recovered from work evidence?",
       "targets": [
         {
           "kind": "FPF",
@@ -518,7 +518,7 @@
     },
     {
       "id": "method-qualification",
-      "question": "Пригоден ли отдельный способ для нужного вклада?",
+      "question": "Is an individual method fit for the needed contribution?",
       "targets": [
         {
           "kind": "FPF",
@@ -536,7 +536,7 @@
     },
     {
       "id": "method-arrangement",
-      "question": "Как сравнить совместное исполнение и обеспечение методов?",
+      "question": "How can joint execution and provision of methods be compared?",
       "targets": [
         {
           "kind": "FPF",
@@ -554,7 +554,7 @@
     },
     {
       "id": "method-whole",
-      "question": "Достаточно ли оснований считать предложенную комбинацию одним методом?",
+      "question": "Are there sufficient grounds to regard a proposed combination as one method?",
       "targets": [
         {
           "kind": "FPF",
@@ -572,7 +572,7 @@
     },
     {
       "id": "method-description",
-      "question": "Как описать способ для нужного использования?",
+      "question": "How can a method be described for its intended use?",
       "targets": [
         {
           "kind": "FPF",
@@ -590,7 +590,7 @@
     },
     {
       "id": "method-representations",
-      "question": "Какие представления метода нужны разным действиям?",
+      "question": "Which method representations are needed by different actions?",
       "targets": [
         {
           "kind": "FPF",
@@ -620,7 +620,7 @@
     },
     {
       "id": "method-support",
-      "question": "Как настроить средства поддержки исполнения?",
+      "question": "How can execution-support means be configured?",
       "targets": [
         {
           "kind": "FPF",
@@ -638,7 +638,7 @@
     },
     {
       "id": "method-trial",
-      "question": "Как получить и интерпретировать пробу метода на работе?",
+      "question": "How can a trial of a method in work be obtained and interpreted?",
       "targets": [
         {
           "kind": "FPF",
@@ -656,7 +656,7 @@
     },
     {
       "id": "method-claim",
-      "question": "Как проверить согласованность утверждения о методе?",
+      "question": "How can the consistency of a claim about a method be checked?",
       "targets": [
         {
           "kind": "FPF",
@@ -674,7 +674,7 @@
     },
     {
       "id": "method-transfer",
-      "question": "Можно ли переносить способ в изменённые условия?",
+      "question": "Can a method be transferred to changed conditions?",
       "targets": [
         {
           "kind": "FPF",
@@ -692,7 +692,7 @@
     },
     {
       "id": "method-worth",
-      "question": "Стоит ли предпочесть этот способ доступным альтернативам?",
+      "question": "Should this method be preferred to available alternatives?",
       "targets": [
         {
           "kind": "FPF",
@@ -710,7 +710,7 @@
     },
     {
       "id": "method-variant",
-      "question": "Как сохранить и проверить изменённый вариант?",
+      "question": "How can a changed variant be preserved and checked?",
       "targets": [
         {
           "kind": "FPF",
@@ -728,7 +728,7 @@
     },
     {
       "id": "method-introduction",
-      "question": "Как ввести способ в практику и оценить полученное?",
+      "question": "How can a method be introduced into practice and the result assessed?",
       "targets": [
         {
           "kind": "FPF",
@@ -746,7 +746,7 @@
     },
     {
       "id": "method-culture",
-      "question": "Как продолжать и менять культуру работы с методами?",
+      "question": "How can a culture of working with methods be continued and changed?",
       "targets": [
         {
           "kind": "FPF",
@@ -764,7 +764,7 @@
     },
     {
       "id": "method-allocation",
-      "question": "Как сопоставить источники и распределить полезные вклады?",
+      "question": "How can sources be compared and useful contributions allocated?",
       "targets": [
         {
           "kind": "FPF",
@@ -782,7 +782,7 @@
     },
     {
       "id": "method-language",
-      "question": "Нужен ли связный язык описаний и какие связи полезны?",
+      "question": "Is a coherent description language needed, and which links are useful?",
       "targets": [
         {
           "kind": "FPF",
@@ -800,7 +800,7 @@
     },
     {
       "id": "method-coverage",
-      "question": "Восстанавливается ли обещанный вклад через описания и источники?",
+      "question": "Can the promised contribution be recovered through descriptions and sources?",
       "targets": [
         {
           "kind": "FPF",
@@ -818,7 +818,7 @@
     },
     {
       "id": "method-continuation",
-      "question": "Как продолжить разработку способа после нового условия?",
+      "question": "How can method development continue after a new condition?",
       "targets": [
         {
           "kind": "FPF",
@@ -836,7 +836,7 @@
     },
     {
       "id": "method-mathematical-change",
-      "question": "Как обосновать изменение способа математическим построением?",
+      "question": "How can a method change be justified by mathematical construction?",
       "targets": [
         {
           "kind": "FPF",
@@ -872,7 +872,7 @@
     },
     {
       "id": "method-pack-storage",
-      "question": "Как сохранить книгу, YAML, прежние тела и точные адреса этого экземпляра?",
+      "question": "How can this instance's book, YAML, previous bodies, and exact addresses be preserved?",
       "targets": [
         {
           "kind": "FPF",
@@ -901,16 +901,16 @@
         {
           "kind": "MethodPack",
           "id": "IE-M003",
-          "edition": "v1.8",
+          "edition": "v1.9",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ie-m003-v1-8"
+          "anchor": "ie-m003-v1-9"
         }
       ]
     },
     {
       "id": "environment-change",
-      "question": "Как изменить конкретную среду iEWR по поручению?",
+      "question": "How can a specific iEWR environment be changed under an assignment?",
       "targets": [
         {
           "kind": "FPF",
@@ -939,16 +939,16 @@
         {
           "kind": "MethodPack",
           "id": "IE-M004",
-          "edition": "v1.8",
+          "edition": "v1.9",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ie-m004-v1-8"
+          "anchor": "ie-m004-v1-9"
         }
       ]
     },
     {
       "id": "method-history",
-      "question": "Как исследовать историю различения профессиональных способов?",
+      "question": "How can the history of differentiation among professional methods be investigated?",
       "targets": [
         {
           "kind": "FPF",
@@ -973,442 +973,442 @@
     },
     {
       "id": "applied-dec-values",
-      "question": "Сравнить последствия при неопределённых ценностях",
+      "question": "Compare consequences under uncertain values",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "DEC-VALUES",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "dec-values-v1-5",
+          "anchor": "dec-values-v1-6",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sys-concept",
-      "question": "Сформировать инженерную концепцию и архитектуру",
+      "question": "Form an engineering concept and architecture",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SYS-CONCEPT",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-concept-v1-3",
+          "anchor": "sys-concept-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sys-delivery",
-      "question": "Получить и согласовать инженерный вклад",
+      "question": "Obtain and coordinate an engineering contribution",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SYS-DELIVERY",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-delivery-v1-2",
+          "anchor": "sys-delivery-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sys-assurance",
-      "question": "Согласовать конфигурацию, свидетельства и решения",
+      "question": "Reconcile configuration, evidence, and decisions",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SYS-ASSURANCE",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-assurance-v1-2",
+          "anchor": "sys-assurance-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sys-lifecycle",
-      "question": "Изменить и завершить поддерживаемое использование",
+      "question": "Change and end supported use",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SYS-LIFECYCLE",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-lifecycle-v1-3",
+          "anchor": "sys-lifecycle-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-agent-support",
-      "question": "Обеспечить инструменты, обучение и управление работой агента",
+      "question": "Provide tools, training, and management of an agent's work",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "AGENT-SUPPORT",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "agent-support-v1-3",
+          "anchor": "agent-support-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-dec-inquiry",
-      "question": "Сформировать вопрос и дать обоснованную рекомендацию",
+      "question": "Frame a question and give a grounded recommendation",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "DEC-INQUIRY",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "dec-inquiry-v1-3",
+          "anchor": "dec-inquiry-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-adm-case",
-      "question": "обеспечить административное условие и сохранить открытые обязательства",
+      "question": "provide an administrative condition and preserve open obligations",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "ADM-CASE",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "adm-case-v1-3",
+          "anchor": "adm-case-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-state",
-      "question": "восстановить операционное состояние для конкретного решения",
+      "question": "recover the operational state for a specific decision",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-STATE",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-state-v1-4",
+          "anchor": "ops-state-v1-5",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-continue",
-      "question": "admission, case continuation и обязательства во времени",
+      "question": "admission, case continuation, and obligations over time",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-CONTINUE",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-continue-v1-4",
+          "anchor": "ops-continue-v1-5",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-release",
-      "question": "release при возвратах и сохранение protective capacity",
+      "question": "release with returns and preservation of protective capacity",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-RELEASE",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-release-v1-2",
+          "anchor": "ops-release-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-capacity",
-      "question": "построить соразмерный расчёт capacity и deadline",
+      "question": "develop a proportionate capacity and deadline calculation",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-CAPACITY",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-capacity-v1-3",
+          "anchor": "ops-capacity-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-coupling",
-      "question": "согласовать изменение между структурами (OPS.11)",
+      "question": "coordinate a change across structures (OPS.11)",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-COUPLING",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-coupling-v1-3",
+          "anchor": "ops-coupling-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ops-evidence",
-      "question": "получить интерпретируемые operating consequences",
+      "question": "obtain interpretable operating consequences",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "OPS-EVIDENCE",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-evidence-v1-2",
+          "anchor": "ops-evidence-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-org-design",
-      "question": "спроектировать contribution relations и получить отдельные решения",
+      "question": "design contribution relations and obtain separate decisions",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "ORG-DESIGN",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "org-design-v1-2",
+          "anchor": "org-design-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-org-change",
-      "question": "реализовать и пересмотреть изменение при работающей услуге",
+      "question": "implement and reconsider a change while the service operates",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "ORG-CHANGE",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "org-change-v1-5",
+          "anchor": "org-change-v1-6",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-str-options",
-      "question": "построить стратегические направления и различающие возможности",
+      "question": "develop strategic directions and discriminating opportunities",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "STR-OPTIONS",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "str-options-v1-3",
+          "anchor": "str-options-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-str-commit",
-      "question": "квалифицировать cohort signal перед пересмотром commitment",
+      "question": "qualify a cohort signal before revising a commitment",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "STR-COMMIT",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "str-commit-v1-2",
+          "anchor": "str-commit-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-res-inquiry",
-      "question": "получить criticizable answer и не назначать ненужное исследование",
+      "question": "obtain a criticizable answer and avoid commissioning unnecessary inquiry",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "RES-INQUIRY",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-inquiry-v1-2",
+          "anchor": "res-inquiry-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-res-recovery",
-      "question": "восстановить reusable-way accounts по различающим evidence",
+      "question": "recover reusable-way accounts from discriminating evidence",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "RES-RECOVERY",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-recovery-v1-4",
+          "anchor": "res-recovery-v1-5",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-res-history",
-      "question": "объяснить differentiation через диагностические исторические данные",
+      "question": "explain differentiation through diagnostic historical data",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "RES-HISTORY",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-history-v1-2",
+          "anchor": "res-history-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-data-meaning",
-      "question": "Получить semantic integration для одного receiving use",
+      "question": "Obtain semantic integration for one receiving use",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "DATA-MEANING",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "data-meaning-v1-3",
+          "anchor": "data-meaning-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-explain",
-      "question": "Подготовить и исправить объяснение для адресата",
+      "question": "Prepare and repair an explanation for its audience",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "EXPLAIN",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "explain-v1-3",
+          "anchor": "explain-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-text-edit",
-      "question": "Получить естественный текст в разрешённой смысловой границе",
+      "question": "Produce natural text within the authorized semantic boundary",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "TEXT-EDIT",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "text-edit-v1-3",
+          "anchor": "text-edit-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-ui-design",
-      "question": "Воплотить и проверить видимое интерфейсное решение",
+      "question": "Implement and check a visible interface solution",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "UI-DESIGN",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ui-design-v1-5",
+          "anchor": "ui-design-v1-6",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-publication",
-      "question": "Подготовить публикацию для обещанного режима использования",
+      "question": "Prepare a publication for the promised mode of use",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "PUBLICATION",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "publication-v1-3",
+          "anchor": "publication-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-info-sec",
-      "question": "Обеспечить конкретный вклад защиты и его поддержание",
+      "question": "Provide a specific protective contribution and its maintenance",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "INFO-SEC",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "info-sec-v1-3",
+          "anchor": "info-sec-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sw-sec",
-      "question": "Реализовать защитное свойство программного продукта",
+      "question": "Implement a software product's protective property",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SW-SEC",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-sec-v1-4",
+          "anchor": "sw-sec-v1-5",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "applied-sw-01",
-      "question": "Изменить и довести программное поведение до проверенного использования",
+      "question": "Change and bring software behavior to verified use",
       "targets": [
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-3",
+          "anchor": "sw-01-v1-4",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "При нужном предметном/местном вкладе после проверки достаточного FPF; не обязательная стадия"
+      "use": "When a domain/local contribution is needed after checking sufficient FPF; not a mandatory stage"
     },
     {
       "id": "change-basis",
-      "question": "Какие основания нужны для существенной доработки существующей системы и вывода о её готовности?",
+      "question": "What grounds are needed for a material change to an existing system and a conclusion about its readiness?",
       "targets": [
         {
           "kind": "FPF",
@@ -1437,21 +1437,21 @@
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-3",
+          "anchor": "sw-01-v1-4",
           "index": "methods/index.yaml"
         },
         {
           "kind": "MethodPack",
           "id": "SYS-ASSURANCE",
-          "edition": "v1.2",
+          "edition": "v1.3",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-assurance-v1-2",
+          "anchor": "sys-assurance-v1-3",
           "index": "methods/index.yaml"
         }
       ],
-      "use": "FPF — общий вклад; MP — нужная предметная конкретика. Не новый Method и не обязательный порядок стадий. Существующая достаточная запись решения/проверки переиспользуется. При усечении получения источника — KCA-03; нужны фактически выданные условия до зависимого решения."
+      "use": "FPF supplies the general contribution; MP supplies needed domain detail. Not a new Method or a mandatory sequence of stages. Reuse an existing sufficient decision/check record. For truncated source delivery, use KCA-03; actually delivered conditions are needed before the dependent decision."
     }
   ],
   "selection_policy_ref": {
@@ -1461,11 +1461,11 @@
   "specialist_ME_returns": {
     "ME.18": {
       "ordinary_floor": "A.3.1.MR",
-      "applied_method": "RES-RECOVERY@v1.4"
+      "applied_method": "RES-RECOVERY@v1.5"
     },
     "ME.19": {
       "causal_floor": "C.28",
-      "applied_method": "RES-HISTORY@v1.2"
+      "applied_method": "RES-HISTORY@v1.3"
     },
     "mathematics": "C.29/C.39 general construction; actual specialized mathematical method required only by the selected stronger claim"
   }

@@ -1,19 +1,19 @@
-# Материалы экземпляра
+# Instance materials
 
-Размещение, именование, редакции, снимки и точное чтение выполняются по KCA-01 в `methods/METHOD_PACK.md`. Вход по задаче — `navigation/task-entries.yaml`, точное тело в `methods/METHOD_PACK.md` находи по `methods/index.yaml`.
+Placement, naming, editions, snapshots, and exact reading follow KCA-01 in `methods/METHOD_PACK.md`. Enter by task through `navigation/task-entries.yaml`; use `methods/index.yaml` to find the exact body in `methods/METHOD_PACK.md`.
 
-| Роль | Обычное место |
+| Role | Usual location |
 |---|---|
-| Непосредственные входы | `project/source/` |
-| Справочные и исторические материалы | `project/reference/` |
-| Результаты и основания проверки | `project/artifacts/` |
-| Продолжение | `project/handoff/` |
-| Способы и сохранённые редакции | `methods/` |
-| Навигация | `navigation/` |
-| Поставленный оригинальный FPF | `external-sources/fpf/` |
+| Direct inputs | `project/source/` |
+| Reference and historical materials | `project/reference/` |
+| Results and grounds for checks | `project/artifacts/` |
+| Continuation | `project/handoff/` |
+| Methods and preserved editions | `methods/` |
+| Navigation | `navigation/` |
+| Supplied original FPF | `external-sources/fpf/` |
 
-Существующее достаточное расположение переиспользуется. Папка сообщает роль, но не полномочия; прежние инструкции в source/reference остаются материалом. Пути индексов разрешаются от корня экземпляра, Markdown-ссылки — от файла. Оригиналы source/reference изменяются только по точному поручению.
+Reuse an existing sufficient arrangement. A directory communicates a role, not authority; previous instructions in source/reference remain material. Index paths resolve from the instance root, Markdown links from their file. Change source/reference originals only under a specific instruction.
 
-Хранение использованных редакций, идентичность и контрольная сумма, адрес и самостоятельный возврат к оригиналу, пределы извлечения текста и состав экспорта раскрыты непосредственно в KCA-01. Согласование текущих представлений — KCA-04, условное продолжение по сохранённым сведениям — KCA-05. Обязательной карточки на каждый файл нет.
+KCA-01 directly explains retention of used editions, identity and checksum, address and independent return to the original, text-extraction limits, and export contents. KCA-04 reconciles current representations; KCA-05 supports conditional continuation from saved information. No mandatory card is required for each file.
 
-При усечённом выводе источника используй KCA-03: меньшие связанные части, проверка границ и получение существенных условий до зависимого решения. Хеш файла и успешная команда не подтверждают доставку текста. Позднее чтение не меняет историю оснований прежнего решения.
+For truncated source output, use KCA-03: smaller connected portions, boundary checks, and receipt of material conditions before a dependent decision. A file hash and a successful command do not confirm text delivery. Later reading does not change the history of grounds for an earlier decision.

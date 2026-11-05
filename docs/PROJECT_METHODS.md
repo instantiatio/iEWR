@@ -1,19 +1,19 @@
-# MethodPack проекта
+# Project MethodPack
 
-Текущий репертуар — methods/METHOD_PACK.md и methods/index.yaml. В исходном комплекте 37 описаний; условия и прямые FPF-поставщики выбираются под задачу. Входы — navigation/task-entries.yaml, перечень — METHOD_CATALOG.md. Пустой MP допускает начало по FPF и достаточным профессиональным знаниям.
+The current repertoire is methods/METHOD_PACK.md and methods/index.yaml. The starting distribution contains 37 descriptions; select conditions and direct FPF suppliers for the task. Entries are in navigation/task-entries.yaml; the list is in METHOD_CATALOG.md. An empty MP permits starting from FPF and sufficient professional knowledge.
 
-## Описание и источники
+## Description and sources
 
-Индекс schema 2 использует path_base:project_root. Действующая запись содержит ID, edition, точное тело и anchor, полный location, сохранённое тело, условия выбора, основания, статус и пределы. Связи relations указывают действующий ID@edition с условием совместимости; тематическая группа не устанавливает формальную композицию. Markdown-ссылки разрешаются от файла.
+The schema 2 index uses path_base:project_root. An active entry contains ID, edition, exact body and anchor, full location, preserved body, selection conditions, grounds, status, and limits. Relations refer to an active ID@edition with a compatibility condition; a thematic group does not establish formal composition. Markdown links resolve relative to their file.
 
-Операционные действия, условия, проверка и остановки находятся в основном теле. Общие методы применяются прямо из FPF. Авторство, исходные редакции, SHA-256, условия и статусы источников — ORIGINS.json и METHOD_SOURCE_NOTICES.md. Источник не становится поручением или доказательством качества. ISEC/SPSEC сохраняют seedOnly; MIT iEWR не переносится на самостоятельные авторские тексты автоматически.
+Operational actions, conditions, checks, and stops are in the main body. Apply general methods directly from FPF. Authorship, source editions, SHA-256, terms, and source statuses are in ORIGINS.json and METHOD_SOURCE_NOTICES.md. A source does not become an instruction or evidence of quality. ISEC/SPSEC retain seedOnly; iEWR's MIT license does not automatically transfer to independent authored texts.
 
-## Изменение репертуара
+## Changing the repertoire
 
-Местные операции — IE-M003, подключение изменения среды — IE-M004. Использованное тело сохраняется до изменения, новое описание получает свою редакцию; старое наблюдение остаётся при своих входах. Новый проект начинает с одной точной исходной парой в methods/snapshots/base-v3.10/. Свои снимки и записи активации накапливает после собственных изменений.
+IE-M003 provides local operations; IE-M004 connects an environment change. Preserve a used body before changing it; the new description receives its own edition, while an old observation retains its original inputs. A new project starts with the exact current pair in methods/snapshots/base-v3.15/ and preserved historical pairs base-v3.10/base-v3.14. It accumulates its own snapshots and activation records after its own changes.
 
-Команды check/activate/recover и границы контроля описаны в METHODPACK_CHECK.md. Подготовленный новый снимок проверяется до подключения; current token связывает действие с фактической исходной парой, before сохраняется. Pending требует сверки той же попытки. Прямая запись сторонним writer не является технически запрещённой этим helper.
+Commands check/activate/recover and control limits are described in METHODPACK_CHECK.md. Check the prepared new snapshot before connecting it; the current token binds the action to the actual starting pair, and before is preserved. Pending requires reconciliation of the same attempt. The helper does not technically prohibit direct writes by another writer.
 
-Candidate описание, наблюдавшееся применение и квалификация для конкретного использования — разные результаты. История применения появляется по фактической работе проекта; сведения об источнике её не создают.
+A candidate description, observed application, and qualification for a specific use are different results. Application history arises from actual project work; source information does not create it.
 
-Возможность читать и готовить методы средствами ADE отличается от возможности безопасно подключить пару. Поставленные утилиты и оценка работы без Python/POSIX описаны в [PORTABILITY.md](PORTABILITY.md). Доступен ограниченный файловый способ IE-M003 для одного согласованного участника записи при приостановленных зависимых читателях; готовый Python helper остаётся другой реализацией тех же требований. Совместимый журнал не доказывает равенства всех проверок и гарантий.
+The ability to read and prepare methods with ADE tools differs from the ability to connect a pair safely. Supplied utilities and the assessment of work without Python/POSIX are described in [PORTABILITY.md](PORTABILITY.md). IE-M003 provides a limited file-based method for one agreed writer with dependent readers paused; the supplied Python helper remains another implementation of the same requirements. A compatible log does not prove equality of all checks and guarantees.

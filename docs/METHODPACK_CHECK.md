@@ -1,47 +1,47 @@
-# Проверка и подключение MethodPack
+# Checking and connecting MethodPack
 
-Обязательные свойства обновления задаёт IE-M003 в [MethodPack](../methods/METHOD_PACK.md#ie-m003-v1-8): сохранность, согласованность, проверенный переход, запись попытки и сверка результата. Python/POSIX не обязательны для самого обновления. Выбирай достаточную реализацию по фактическим средствам ADE.
+IE-M003 in [MethodPack](../methods/METHOD_PACK.md#ie-m003-v1-9) defines the required update properties: preservation, consistency, a checked transition, an attempt record, and result reconciliation. Python/POSIX are not mandatory for the update itself. Choose a sufficient implementation using actual ADE capabilities.
 
-Готовая реализация — `tools/methodpack.py`: она проверяет книгу, индекс schema 2, снимки и переход. В этой реализации новая редакция подключается командой `activate`, которая сама проверяет снимок до замены current. Наличие успешного старого отчёта не заменяет проверку текущих входов. Ниже описаны именно команды Python helper.
+The supplied implementation is `tools/methodpack.py`: it checks the book, schema 2 index, snapshots, and transition. In this implementation, the `activate` command connects a new edition and checks its snapshot before replacing current. An old successful report does not replace checking the current inputs. The commands below belong specifically to the Python helper.
 
-Альтернативная файловая процедура для одного агента полностью дана в IE-M003, подраздел «Выбор средств и подключение одним агентом». Она требует согласованной паузы всех остальных writers, включая helper, и зависимых readers, точных байтов/SHA-256, достаточной проверки пары/истории и общего формата before/after/record/pending. Для первого профиля поддержан канонический JSON-индекс. Pending не является lock. Отсутствие нужной способности удерживает подключение; содержательный отказ helper нельзя обходить другой реализацией. Границы и переносимость — [PORTABILITY.md](PORTABILITY.md).
+The alternative file procedure for one agent is fully specified in IE-M003, under “Choosing means and activation by one agent.” It requires an agreed pause of all other writers, including the helper, and dependent readers; exact bytes/SHA-256; sufficient pair/history checking; and the shared before/after/record/pending format. The initial profile supports a canonical JSON index. Pending is not a lock. A missing required capability holds activation; a substantive helper rejection cannot be bypassed with another implementation. Limits and portability are in [PORTABILITY.md](PORTABILITY.md).
 
-## Проверка без записи
+## Read-only checking
 
-Из корня экземпляра:
+From the instance root:
 
 ```sh
 python3 -B tools/methodpack.py check --json
 python3 -B tools/methodpack.py check --snapshot v-next --json
 ```
 
-Первая команда проверяет current; вторая — уже подготовленную пару `methods/snapshots/v-next/{METHOD_PACK.md,index.yaml}`. Пути индекса разрешаются от корня экземпляра, а current ссылки candidate проверяются по новой книге. Ключ `--root /absolute/project` выбирает другой экземпляр явно.
+The first command checks current; the second checks an already prepared pair at `methods/snapshots/v-next/{METHOD_PACK.md,index.yaml}`. Index paths resolve from the instance root, and candidate current references are checked against the new book. `--root /absolute/project` explicitly selects another instance.
 
-Проверяются pack edition/путь/заголовок, побайтное равенство книги и индекса заявленному снимку, уникальные active IDs, соответствие ID/edition заголовкам, anchors и полным диапазонам тел, сохранённые тела, активные relations и файловые основания. Закреплённый digest сверяется, если указан. Строковые файловые ссылки с разделителем каталога или расширением, в том числе basename и пути с пробелами, также проверяются. Для неоднозначного имени без расширения используй явный объект `{"path": "имя"}`; строковая ссылка на внешний URL не загружается и остаётся непроверенной citation. Текстовые citations допустимы, но возвращают `citation_not_file_checked`: их смысл и фактическая опора не подтверждены этой проверкой. Поддерживаемая редакция описания имеет числовой вид (`v1.2`, `1.2`, `2026-10-30`); `candidate` — статус. Диапазон начинается на anchor либо на самом заголовке и заканчивается последней строкой всего тела; anchor непосредственно предшествует заголовку. Смена только этих координат не меняет текст описания. Заголовок метода может иметь уровень H1–H6 и не требует тире; вне зарегистрированных диапазонов такая запись с явным HTML anchor удерживает проверку. Обычный заголовок раздела без маркера метода и fenced code examples не становятся методами; смысловую полноту книги инструмент не определяет. Вложенный профиль внутри тела допускается; отдельная якорная запись метода вне индекса отклоняется. Исторические пары не обязаны совпадать с current и не переключаются автоматически.
+Checks cover pack edition/path/heading, byte equality of book and index to the declared snapshot, unique active IDs, ID/edition agreement with headings, anchors and full body ranges, preserved bodies, active relations, and file grounds. A pinned digest is checked if given. String file references containing a directory separator or extension, including basenames and paths with spaces, are also checked. For an ambiguous extensionless name, use an explicit object `{"path": "name"}`; a string external URL is not fetched and remains an unchecked citation. Text citations are allowed but return `citation_not_file_checked`: their meaning and actual support are not confirmed by this check. A supported description edition is numeric (`v1.2`, `1.2`, `2026-10-30`); `candidate` is a status. A range begins at the anchor or heading itself and ends on the last line of the entire body; the anchor immediately precedes the heading. Changing only these coordinates does not change the description text. A method heading can be H1–H6 and needs no dash; such an entry with an explicit HTML anchor outside registered ranges holds the check. Ordinary section headings without a method marker and fenced code examples do not become methods; the tool does not determine the book's semantic completeness. A nested profile within a body is allowed; a separate anchored method entry missing from the index is rejected. Historical pairs need not match current and are not switched automatically.
 
-Отсутствие обоих current файлов — допустимый пустой старт; отсутствие только одного — ошибка. Пустая согласованная книга с `methods: []` также допустима. Проверка не создаёт файлов и не назначает задачу.
+Absence of both current files is a valid empty start; absence of only one is an error. An empty coherent book with `methods: []` is also allowed. Checking creates no files and assigns no task.
 
-Результат имеет `passed`, точные ошибки и `current_token` из двух фактических файлов. Код завершения 0 означает успех, 1 — удержание. После изменения любого проверенного входа результат требует новой сверки.
+The result contains `passed`, precise errors, and `current_token` from the two actual files. Exit code 0 means success; 1 means held. Any changed checked input requires renewed reconciliation of the result.
 
-## Подключение сохранённой новой пары
+## Connecting a preserved new pair
 
-Сначала по IE-M003 подготовь новую книгу и индекс в новом каталоге снимка. Не перезаписывай использованный снимок. В новом индексе `pack.edition` и `pack.snapshot` должны указывать на эту новую пару; active description остаётся `methods/METHOD_PACK.md`. Значения `preserved_body` должны существовать до проверки. Содержательное тело с изменённым текстом получает новую редакцию описания; метаданные без изменения тела не требуют новой method edition.
+First, under IE-M003, prepare the new book and index in a new snapshot directory. Do not overwrite a used snapshot. In the new index, `pack.edition` and `pack.snapshot` must refer to this new pair; active description remains `methods/METHOD_PACK.md`. `preserved_body` targets must exist before checking. A substantive body whose text changes receives a new description edition; metadata without body changes do not require a new method edition.
 
-Прочитай current и возьми точное значение `current_token`. Затем:
+Read current and take the exact `current_token`. Then:
 
 ```sh
 python3 -B tools/methodpack.py activate --snapshot v-next --expect-current 'BOOK_SHA256:INDEX_SHA256' --json
 ```
 
-Для первого подключения при отсутствии обоих файлов токен — `absent`. Значение из примера заменяется фактическим токеном. Токен удостоверяет байты, а не полномочие. Команда применяется в пределах действующего поручения.
+For the first activation when both files are absent, the token is `absent`. Replace the example value with the actual token. The token attests to bytes, not authority. Run the command within the effective instruction's scope.
 
-`activate` проверяет candidate, берёт POSIX lock для сотрудничающих writers, сверяет токен current, проверяет сохранность текущей пары и допустимость перехода. Одинаковый ID/edition не может получить другой текст тела, включая возврат после новой редакции или retirement. Проверяются текущие active/retired тела и точные before/published after из сохранённых попыток инструмента. Старые архивы иных схем не квалифицируются заново. Снятый ID получает retirement record с точными edition/body/anchor, причиной и доступным сохранённым телом. Затем повторно проверяются candidate и прочитанные зависимости. До завершения записи подготовленной попытки используется `.activation/.prepare-<attempt>/`; сбой здесь не меняет current, а эти остатки не выдаются за опубликованную историю. Подготовленная запись целиком переводится в каталог попытки до pending и первой замены. Предыдущие файлы сохраняются в `methods/.activation/<attempt>/before/`, новые — в `after/`; запись незавершённой попытки создаётся до первой замены current. Каждая замена файла атомарна, замена двух файлов последовательна. После неё выполняется проверка фактической current пары. Снимки не перезаписываются.
+`activate` checks the candidate, takes a POSIX lock for cooperating writers, compares the current token, and checks preservation of the current pair and admissibility of the transition. The same ID/edition cannot receive different body text, including a return after a new edition or retirement. The check covers current active/retired bodies and exact before/published after from preserved tool attempts. Old archives of other schemas are not requalified. A removed ID receives a retirement record with exact edition/body/anchor, reason, and an available preserved body. Candidate and read dependencies are then checked again. Until the prepared attempt is fully recorded, `.activation/.prepare-<attempt>/` is used; failure here does not change current, and these remnants are not represented as published history. The complete prepared record is moved to the attempt directory before pending and the first replacement. Previous files are preserved in `methods/.activation/<attempt>/before/`, new ones in `after/`; an unfinished-attempt record is created before the first current replacement. Each file replacement is atomic; the two-file replacement is sequential. Afterwards, the actual current pair is checked. Snapshots are not overwritten.
 
-Повтор для уже подключённой точной пары возвращает `already_current` без новой замены. Неверный candidate, устаревший токен или занятый lock удерживают подключение. Не исправляй автоматически содержимое индекса ради зелёного результата: исправляется подготовленная редакция с сохранением использованного before.
+Repeating activation of the exact already-connected pair returns `already_current` without another replacement. An invalid candidate, stale token, or occupied lock holds activation. Do not automatically repair index content just to get a green result: repair the prepared edition while preserving the used before state.
 
-## Прерывание
+## Interruption
 
-Если остался `methods/.activation/pending.json`, обычная проверка и новое подключение удерживаются. Сначала прочитай отчёт, pending и соответствующий `record.json`, установи фактические файлы и результат той же попытки. Для явно выбранного возврата предыдущих байтов:
+If `methods/.activation/pending.json` remains, ordinary checking and new activation are held. First read the report, pending, and matching `record.json`; establish the actual files and outcome of that same attempt. For an explicitly selected restoration of previous bytes:
 
 ```sh
 python3 -B tools/methodpack.py check --json
@@ -49,12 +49,12 @@ python3 -B tools/methodpack.py recover --expect-current 'ACTUAL_BOOK_SHA256:ACTU
 python3 -B tools/methodpack.py check --json
 ```
 
-Токен берётся из текущей проверки, даже если она сообщает pending. Для незавершённого первого подключения отсутствующая сторона токена обозначается `absent`. Восстановление сверяет before backup и допускает только записанные before/after байты каждой стороны. Неизвестная чужая правка удерживает восстановление. Оно не отменяет предметные или внешние эффекты и не утверждает, что прежняя редакция методически пригодна. Завершённые попытки и before сохраняются: они участвуют в проверке исторических ID/edition. Не удаляй .activation ради очистки места; потеря этих записей уменьшает доступную историю контроля.
+Take the token from the current check even if it reports pending. For an unfinished first activation, an absent token side is represented by `absent`. Recovery checks the before backup and permits only each side's recorded before/after bytes. An unknown third-party edit holds recovery. Recovery does not undo domain or external effects and does not assert that the previous edition is methodologically suitable. Completed attempts and before states are retained: they participate in historical ID/edition checking. Do not delete .activation to free space; losing these records reduces the available control history.
 
-## Область защиты и средства
+## Protection scope and tools
 
-Поставка использует JSON-представление YAML: для него достаточно Python 3.10+. Обычный YAML требует доступного PyYAML; без него инструмент возвращает `yaml_parser_unavailable`. Ничего не устанавливается из сети. Используется safe parser, дубли ключей и aliases отклоняются. Команды из полей и источников не выполняются.
+The distribution uses YAML represented as JSON; Python 3.10+ is sufficient for this. Ordinary YAML requires available PyYAML; without it the tool returns `yaml_parser_unavailable`. Nothing is installed from the network. A safe parser is used; duplicate keys and aliases are rejected. Commands in fields and sources are not executed.
 
-`check` доступен независимо от POSIX lock. `activate/recover` используют POSIX `flock` (проверено на macOS); при недоступности контроля возвращают `lock_unsupported`. Права среды не появляются от копирования инструмента. Правила именования и передача описаны в IE-M003/004; отсутствующее обязательное средство удерживает зависимую активацию.
+`check` is available independently of the POSIX lock. `activate/recover` use POSIX `flock` (tested on macOS); when control is unavailable they return `lock_unsupported`. Copying the tool creates no environment permissions. IE-M003/004 describe naming and handoff rules; missing mandatory means hold dependent activation.
 
-Контроль замены работает для вызова через этот инструмент и сотрудничающих writers. Прямая запись другим средством может его обойти: это не файловый sandbox и не запрет произвольного writer. Поэтому сохраняются единственный writer/согласованная очередь и чтение результата перед использованием. Согласованность файлов не доказывает правильность метода, правдивость evidence, полномочие, экономию или production readiness.
+Replacement control applies to calls through this tool and cooperating writers. Direct writes by other means can bypass it: it is not a filesystem sandbox or a prohibition on arbitrary writers. Therefore a single writer/agreed queue and reading the result before use remain necessary. File consistency does not prove method correctness, evidence truthfulness, authority, savings, or production readiness.

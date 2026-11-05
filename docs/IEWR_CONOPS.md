@@ -1,192 +1,194 @@
-# Концепция работы iEWR
+# iEWR Concept of Operations
 
-| Сведения о документе | Значение |
+| Document information | Value |
 |---|---|
-| Основа | iEWR 7.0.4 Eternal Alpha |
-| Редакция документа | 04.11.2026 |
-| Статус | Исследовательская концепция; область проверки указана в STATUS.md |
-| Связанные описания | [Архитектура](../ARCHITECTURE.json), [состав файлов](../INSTALLATION.json), [состояние и ограничения исходной сборки](../STATUS.md) |
+| Basis | iEWR 7.0.5 Eternal Alpha |
+| Document edition | 05.11.2026 |
+| Status | Research concept; checking scope is stated in STATUS.md |
+| Related descriptions | [Architecture](../ARCHITECTURE.json), [file inventory](../INSTALLATION.json), [source build status and limits](../STATUS.md) |
 
-Эта редакция описывает ожидаемое поведение и не расширяет прежнюю область проверенности. PACKAGE и досье испытаний относятся к проекту разработки среды, а не к результатам нового предметного проекта. Описание возможности не подтверждает её техническую реализацию.
+This edition describes expected behavior and does not expand the previous scope of verification. PACKAGE and the test dossier concern the environment development project, not the results of a new domain project. Describing a capability does not confirm its technical implementation.
 
 ---
 
-iEWR помогает человеку и AI получать пригодный инженерный результат и организовывать необходимую работу при разумных общих затратах. Человек задаёт намерение, ценность результата и пределы делегирования. AI восстанавливает контекст, определяет нужный вклад, выбирает или разрабатывает способ, выполняет разрешённую работу средствами агентской среды и проверяет результат для его использования.
+iEWR helps a person and AI obtain a fit engineering result and organize the necessary work at reasonable total cost. The person sets intent, result value, and delegation limits. AI recovers context, determines the required contribution, selects or develops a method, performs authorized work using the agent environment's means, and checks the result for its use.
 
-## Пользователь и ситуации использования
+English is the primary language of iEWR's own internal methodological, architectural, normative, and operational materials. The user chooses the language of interaction; the task and recipient requirements determine the language of project artifacts. This policy does not require an LLM to reason in English.
 
-Главный пользователь iEWR — человек с замыслом и предметной компетентностью, способный оценить ценность результата и его пригодность. Это может быть предприниматель, инженер, исследователь или руководитель, работающий один либо в организации. Часть необходимой работы может выходить за пределы его исполнительской специализации. Среда помогает определить нужные вклады, найти способы их получения и организовать разрешённое выполнение.
+## User and use situations
 
-Типичные ситуации — создание новой системы, изменение существующей и исследование, в котором сначала нужно установить, какое изменение требуется. При создании системы уточняют её использование, нужный результат и необходимые вклады. В существующей системе переиспользуют пригодные решения, код и свидетельства. При исследовании достаточным результатом могут быть основания, позволяющие различить варианты и подготовить выбор человека. Новая задача не требует проходить полный цикл разработки или восстанавливать всю систему с нуля.
+The main iEWR user is a person with an intention and domain competence, able to assess the result's value and fitness. This may be an entrepreneur, engineer, researcher, or manager working alone or in an organization. Some required work may lie outside their execution specialization. The environment helps determine the necessary contributions, find ways to obtain them, and organize authorized execution.
 
-Ожидаемая ценность iEWR — сокращение пути от намерения к пригодному результату при сохранении инженерной ответственности. Цели и неделегированные компромиссы остаются за человеком. Работа ограничена доступной компетенцией, источниками, средствами и мандатом. Необходимый внешний или специальный вклад нельзя заменить описанием возможности.
+Typical situations are creating a new system, changing an existing one, and research that must first establish what change is needed. Creating a system involves clarifying its use, required result, and necessary contributions. An existing system reuses fit decisions, code, and evidence. In research, grounds that distinguish options and prepare a human choice can be a sufficient result. A new task does not require traversing a full development cycle or reconstructing the entire system from scratch.
 
-## Формирование системы и организация работы
+The expected value of iEWR is a shorter path from intent to a fit result while preserving engineering responsibility. Goals and undelegated tradeoffs remain with the person. Work is bounded by available competence, sources, means, and mandate. A necessary external or specialist contribution cannot be replaced by a capability description.
 
-**System Formation** связывает работу с формируемой системой: зачем она нужна, кто и как будет её использовать, какими свойствами она должна обладать и что уже существует. Агент выясняет, какой вклад нужен при текущем состоянии системы и на чём основан этот выбор. Иногда требуется изменить конструкцию; иногда — сначала получить знание, уточнить критерий, согласовать решение или обеспечить недостающее полномочие.
+## System formation and work organization
 
-Для ближайшего существенного решения агент связывает поручение с использованием, устройством и состоянием системы, её окружением, ограничениями и действующими решениями. Он восстанавливает существенные зависимости и различает факты, предположения, решения и неизвестное. Это целостный инженерный контекст: глубина его восстановления определяется предстоящим решением и последствиями ошибки, а не числом прочитанных файлов. Достаточные сведения используются повторно, пока сохраняется их применимость.
+**System Formation** connects work to the system being formed: why it is needed, who will use it and how, what properties it must have, and what already exists. The agent establishes which contribution is needed in the system's current state and the grounds for that choice. Sometimes the design must change; sometimes knowledge must first be obtained, a criterion clarified, a decision agreed, or missing authority provided.
 
-**Runtime** означает, что необходимая работа определяется и перестраивается во время исполнения. Новый факт, результат проверки или решение человека может изменить ближайший вопрос, способ, состав участников или порядок действий. Агент пересматривает затронутые решения и результаты, сохраняя пригодную часть и действующие ограничения. Работы можно добавлять, объединять, перестраивать или отменять; существенное изменение цели и критериев остаётся за человеком, если этот выбор не делегирован.
+For the next significant decision, the agent connects the assignment to system use, structure and state, surroundings, constraints, and current decisions. It recovers significant dependencies and distinguishes facts, assumptions, decisions, and unknowns. This is a whole engineering context: the depth of its recovery is determined by the upcoming decision and consequences of error, not by the number of files read. Sufficient information is reused while it remains applicable.
 
-Если неизвестное может изменить допустимость или результат действия, либо получи сведение, различающее возможные ситуации, либо выбери действие или условный план, допустимые и пригодные для порученного результата в каждой из ещё возможных ситуаций, согласующихся с имеющимися сведениями, либо удержи зависимую часть. Подробная модель нужна лишь тогда, когда она помогает такому решению. Работа завершается, когда результата достаточно для порученного использования и существенные эффекты учтены.
+**Runtime** means that necessary work is determined and reorganized during execution. A new fact, checking result, or human decision may change the next question, method, participants, or action sequence. The agent reviews affected decisions and results while preserving the fit part and current constraints. Work can be added, combined, reorganized, or canceled; significant changes to goals and criteria remain with the person unless that choice is delegated.
 
-Для предметной системы iEWR входит в обеспечивающую инженерную команду. При порученном саморазвитии целевой системой становится сама среда. В обоих случаях результаты и обратная связь определяют дальнейшую работу. Универсальный порядок операций и отдельный программный движок для этого не обязательны.
+If an unknown can change an action's admissibility or result, either obtain information that distinguishes the possible situations, choose an action or conditional plan that is admissible and fit for the assigned result in every still-possible situation consistent with available information, or withhold the dependent part. A detailed model is needed only when it helps such a decision. Work finishes when the result is sufficient for the assigned use and significant effects are accounted for.
 
-## Методологическая основа и прикладной репертуар
+For a domain system, iEWR forms part of the supporting engineering team. In assigned self-development, the environment itself becomes the target system. In both cases, results and feedback determine further work. A universal operation sequence and a separate software engine are not mandatory for this.
 
-**FPF — методологическая основа iEWR.** Точный оригинал содержит общие понятия, различения, принципы и методы. Если его содержания достаточно для задачи, агент применяет его напрямую, сохраняя существенные условия и зависимости.
+## Methodological basis and applied repertoire
 
-**MethodPack (MP) — прикладной репертуар.** Он содержит предметные способы, местные операции обеспечения iEWR, необходимые адаптации и накопленный опыт. Метод MP может быть основным рабочим способом конкретной задачи. Для дополнения репертуара объясняют, что оно добавляет к доступной основе и зачем нужно получателю результата.
+**FPF is the methodological basis of iEWR.** The exact original contains general concepts, distinctions, principles, and methods. If its content is sufficient for the task, the agent applies it directly, preserving significant conditions and dependencies.
 
-**Dynamic Method Generation (DMG)** находит, переиспользует, адаптирует или разрабатывает достаточный способ под текущую задачу. Источниками служат FPF, профессиональные знания, разрешённые предметные материалы и опыт. Разовое действие не требует нового поддерживаемого метода. Повторно полезный вклад сохраняется вместе с основаниями, условиями применения и пределами проверки.
+**MethodPack (MP) is the applied repertoire.** It contains domain methods, local operations supporting iEWR, necessary adaptations, and accumulated experience. An MP method can be the primary working method for a specific task. An addition to the repertoire explains what it adds to the available basis and why the result's recipient needs it.
 
-При новом выборе сначала проверяют, достаточно ли FPF. Если нужна предметная конкретика или адаптация, обращаются к MP. Недостающий способ получают через DMG; если необходимых источников или средств нет, указывают точный незакрытый пробел. Уже прочитанный достаточный способ используют повторно, пока сохраняются его условия; обход всего FPF и повторный поиск перед каждой операцией не нужны.
+**Dynamic Method Generation (DMG)** finds, reuses, adapts, or develops a sufficient method for the current task. Sources include FPF, professional knowledge, authorized domain materials, and experience. A one-off action does not require a new maintained method. A repeatedly useful contribution is retained together with grounds, applicability conditions, and checking limits.
 
-Инструкции задают вход в экземпляр, правила подключения основы, условия конкретной среды и участие человека. Навигация помогает найти полное описание выбранной редакции, но не заменяет его содержание и не создаёт новую методику. У существенного способа одно основное место содержания.
+For a new choice, first check whether FPF is sufficient. If domain specifics or adaptation are needed, turn to MP. Obtain a missing method through DMG; if necessary sources or means are unavailable, state the exact unclosed gap. Reuse an already read sufficient method while its conditions hold; a full FPF traversal and repeated search before every operation are unnecessary.
 
-DPF могут использоваться как связные профессиональные источники. Наличие DPF, запись в YAML и прежний успех не делают источник обязательным для любой задачи и не повышают качество автоматически. Сохраняются его происхождение, редакция, атрибуция и ограничения.
+Instructions establish the instance entry, rules for connecting the basis, conditions of the specific environment, and human participation. Navigation helps locate the full description of a selected edition but does not replace its content or create a new methodology. A significant method has one principal content location.
 
-## Участники и граница среды
+DPFs can serve as coherent professional sources. The presence of a DPF, a YAML entry, and previous success do not make a source mandatory for every task or automatically raise quality. Its provenance, edition, attribution, and limits are preserved.
 
-| Участник или средство | Вклад |
+## Participants and environment boundary
+
+| Participant or means | Contribution |
 |---|---|
-| Human | Намерение, ценность, мандат, существенные неделегированные решения и выбранное участие |
-| AI и другие исполнители | Формирование и выполнение работы в пределах назначения, доступных способностей и полномочий |
-| FPF и MP | Методологическое содержание, условия и объяснение способов |
-| Агентская среда ADE | Инструменты, вычисления, доступы и фактические технические ограничения |
-| Проектные ресурсы | Исходники, решения, точные редакции, результаты, свидетельства и основа продолжения |
+| Human | Intent, value, mandate, significant undelegated decisions, and selected participation |
+| AI and other performers | Forming and performing work within the assignment, available capabilities, and authority |
+| FPF and MP | Methodological content, conditions, and explanations of methods |
+| Agent environment ADE | Tools, computation, access, and actual technical constraints |
+| Project resources | Sources, decisions, exact editions, results, evidence, and continuation basis |
 
-Текущая конфигурация iEWR связывает эти вклады для порученной работы. Одного человека и одного агента может быть достаточно. Дополнительные участники и технические механизмы нужны, когда они обеспечивают необходимое свойство при приемлемых затратах. Использование внешнего сервиса само по себе не включает всю его инфраструктуру в состав iEWR.
+The current iEWR configuration connects these contributions for the assigned work. One person and one agent may be sufficient. Additional participants and technical mechanisms are needed when they provide a required property at acceptable cost. Using an external service does not itself include all its infrastructure within iEWR.
 
-## Совместная работа команд
+## Teams working together
 
-Инженерная команда объединяет людей, AI-исполнителей, способы и средства для получения согласованного вклада в систему. Команда действует в пределах своего мандата. Дополнительные команды нужны, когда требуются отдельные компетенции, ответственность или возможности исполнения.
+An engineering team brings together people, AI performers, methods, and means to obtain a coherent contribution to the system. A team acts within its mandate. Additional teams are needed when separate competencies, responsibility, or execution capabilities are required.
 
-| Связь между участниками и командами | Что должно быть согласовано |
+| Relationship between participants and teams | What must be agreed |
 |---|---|
-| Мандат и делегирование | Порученный вклад, ответственный, допустимые решения и эффекты. Передача задания сама не расширяет полномочия получателя |
-| Поставка и приёмка | Получатель, точная редакция результата, условия пригодности, свидетельства и пределы. Кто вправе принять вклад и что ещё требуется для использования |
-| Интерфейсы и интеграция | Совместимость вкладов и их предпосылок, зависимости и существенные изменения. Пригодность целого проверяется отдельно от готовности частей |
-| Эскалация | Какой вопрос выходит за пределы полномочий или возможностей, кому он передаётся и какая зависимая работа удерживается |
+| Mandate and delegation | Assigned contribution, responsible party, admissible decisions and effects. Transferring an assignment does not itself expand the recipient's authority |
+| Delivery and acceptance | Recipient, exact result edition, fitness conditions, evidence, and limits. Who may accept the contribution and what else is required for use |
+| Interfaces and integration | Compatibility of contributions and their premises, dependencies, and significant changes. Fitness of the whole is checked separately from readiness of parts |
+| Escalation | Which question exceeds authority or capability, to whom it is transferred, and which dependent work is withheld |
 
-Существенное решение или изменение основания своевременно доводится до тех, чья работа от него зависит. Получатель восстанавливает поручение, редакции, ограничения и неизвестные эффекты. Общее файловое пространство само не обеспечивает согласованности или изоляции. Если необходимого вклада, разрешения или защиты нет, зависимая часть удерживается; независимая разрешённая работа может продолжаться.
+A significant decision or change of grounds is communicated promptly to those whose work depends on it. The recipient recovers the assignment, editions, constraints, and unknown effects. Shared file space does not itself provide consistency or isolation. If a necessary contribution, permission, or protection is absent, the dependent part is withheld; independent authorized work may continue.
 
-Распределение команд не обязано повторять устройство продукта. Целостность системы сохраняется через согласование использования, критериев и зависимостей и проверку совместного результата. Одна функция может обеспечиваться несколькими участниками, а один участник — выполнять несколько функций. Способ координации выбирается по задаче и фактическим возможностям ADE.
+Team allocation need not mirror product structure. System integrity is preserved through agreement on use, criteria, and dependencies and checking the joint result. Several participants may supply one function, and one participant may perform several functions. The coordination method is selected according to the task and actual ADE capabilities.
 
-## Семь функций и их связи
+## Seven functions and their relationships
 
-| Функция | Нужный вклад |
+| Function | Required contribution |
 |---|---|
-| CF — Context Formation | Достаточная актуальная основа ближайшего решения с существенным неизвестным |
-| SF — System Formation | Вклад, необходимый системе для заданного использования, и условия его пригодности |
-| DMG — Dynamic Method Generation | Достаточный исполнимый способ и соединения либо точный незакрытый пробел |
-| EG — Execution Governance | Допустимость конкретного действия при действующем мандате и средствах защиты |
-| WEC — Work Execution & Continuation | Выполненная работа, фактические эффекты и достаточная основа продолжения |
-| RAF — Result Assurance & Feedback | Проверенный вывод о пригодности и возврат дефекта к затронутому основанию |
-| HI — Human Interaction | Точное поручение или решение, сохранённое участие человека и понятная передача результата |
+| CF — Context Formation | Sufficient current grounds for the next decision, including significant unknowns |
+| SF — System Formation | The contribution the system needs for its specified use and its fitness conditions |
+| DMG — Dynamic Method Generation | A sufficient executable method and joins, or a specific unclosed gap |
+| EG — Execution Governance | Admissibility of a specific action under the current mandate and protective means |
+| WEC — Work Execution & Continuation | Completed work, actual effects, and sufficient grounds for continuation |
+| RAF — Result Assurance & Feedback | A checked fitness conclusion and return of a defect to the affected basis |
+| HI — Human Interaction | An exact assignment or decision, preserved human participation, and understandable result delivery |
 
-CF, SF и DMG образуют Generative Core; EG, WEC и RAF — Governance. HI связывает работу с человеком. Функции обеспечивают и предметную деятельность, и управление самой средой. Это не семь обязательных стадий, методов, команд или агентов.
+CF, SF, and DMG form the Generative Core; EG, WEC, and RAF form Governance. HI connects work to the person. The functions support both domain activity and management of the environment itself. They are not seven mandatory stages, methods, teams, or agents.
 
-CF даёт основу SF. SF связывает необходимый результат со способом DMG и критерием RAF. EG проверяет допустимость конкретного действия, которое выполняет WEC. RAF сопоставляет полученное с нужным использованием и возвращает обнаруженный дефект к зависимым решениям и результатам. HI сохраняет человеческий выбор во всех этих связях. Если нужный вклад уже обеспечен, остальные функции не требуется выполнять заново.
+CF supplies grounds for SF. SF connects the necessary result to a DMG method and RAF criterion. EG checks admissibility of the specific action performed by WEC. RAF compares what was obtained with the required use and returns discovered defects to dependent decisions and results. HI preserves human choice throughout these relationships. If the necessary contribution is already provided, the remaining functions need not be performed again.
 
-## Участие человека и допустимость действий
+## Human participation and action admissibility
 
-**S3 — совместное мышление.** Агент исследует вопрос и готовит основания, сохраняя выбранное участие человека. **S4 — делегированная работа.** Агент самостоятельно выполняет необходимые обычные решения в согласованном объёме. S4 не запрещает человеку участвовать и не расширяет мандат автоматически.
+**S3 is joint thinking.** The agent explores the question and prepares grounds while preserving the selected human participation. **S4 is delegated work.** The agent independently makes necessary ordinary decisions within the agreed scope. S4 does not prohibit human participation or automatically expand the mandate.
 
-**Human Gate** нужен, когда требуется неделегированное существенное решение: изменение цели, выбор компромисса, расширение полномочий или разрешение эффекта. Согласованный выбор используется повторно. Условный ответ сохраняется вместе с предъявленным предметом, редакцией и условием. Пока необходимого решения нет, зависимая часть удерживается, а независимая разрешённая работа продолжается.
+A **Human Gate** is needed for a significant undelegated decision: changing a goal, choosing a tradeoff, expanding authority, or permitting an effect. An agreed choice is reused. A conditional answer is preserved together with the presented subject, edition, and condition. Until the necessary decision exists, the dependent part is withheld while independent authorized work continues.
 
-Полномочие, способность исполнителя, технический доступ и доказательство качества — разные основания. Перед существенным действием проверяют, охватывает ли мандат конкретного исполнителя, действие, ресурс, объём и текущие условия. При отложенном исполнении учитывают отзыв разрешения, срок и изменение предмета. Публикация, развёртывание и обращение к внешним системам остаются в пределах прямых поручений.
+Authority, performer capability, technical access, and evidence of quality are different grounds. Before a significant action, check whether the mandate covers the specific performer, action, resource, scope, and current conditions. For deferred execution, account for permission revocation, time limit, and subject changes. Publication, deployment, and access to external systems remain within direct assignments.
 
-### Выбор технической защиты
+### Selecting technical protection
 
-Методическое предписание само не гарантирует исполнения. Контроль выбирают по защищаемому условию и последствиям его нарушения:
+A methodological prescription does not itself guarantee execution. Choose control according to the protected condition and consequences of violating it:
 
-- Если ошибку допустимо обнаружить и исправить до существенного использования результата, могут быть достаточны методы, наблюдение и корректировка при приемлемых общих затратах.
-- Если нарушение недопустимо, а последствия нельзя приемлемо исправить после действия, необходима техническая защита, удерживающая границу независимо от правильности решения агента.
-- Если ADE не обеспечивает нужного ограничения, меняют условия исполнения, сужают доступные эффекты, выбирают другое средство либо удерживают зависимое действие.
+- If an error may be detected and corrected before significant use of the result, methods, observation, and correction may suffice at acceptable total cost.
+- If a violation is inadmissible and its consequences cannot acceptably be corrected after the action, technical protection is required to maintain the boundary independently of the correctness of the agent's decision.
+- If ADE does not provide the required limit, change execution conditions, narrow available effects, choose other means, or withhold the dependent action.
 
-Для существенного контроля должно быть понятно, какое условие он защищает, откуда взялось требование, кто вправе его изменить и какой механизм фактически действует. Состояния контроля различаются:
+For a significant control, it must be clear which condition it protects, where the requirement came from, who may change it, and which mechanism actually operates. Control states are distinct:
 
-| Состояние | Что установлено |
+| State | What is established |
 |---|---|
-| `declared` — объявленное правило | Действие предписано или запрещено, но техническое обеспечение этим не установлено |
-| `enforced` — техническое обеспечение | Фактический механизм ADE удерживает нужное ограничение в установленных условиях |
-| `compensated` — допустимая компенсация | Недостающее обеспечение заменено приемлемым способом; известны основание допустимости и пределы замены |
-| `unsupported` — отсутствие поддержки | Нужное условие не обеспечено |
+| `declared` — stated rule | An action is prescribed or prohibited, but this does not establish technical enforcement |
+| `enforced` — technical enforcement | An actual ADE mechanism maintains the required constraint under established conditions |
+| `compensated` — admissible compensation | Missing support is replaced by an acceptable method; grounds for admissibility and substitution limits are known |
+| `unsupported` — absence of support | The required condition is not provided |
 
-Компенсацию оценивают по защищаемому условию, последствиям и действующему разрешению. Она должна обеспечивать необходимое свойство в согласованных пределах; её ограничения и остаточный риск сохраняются вместе с основанием допустимости. Согласие на отдельную операцию не отменяет обязательного ограничения. Если обязательное условие не обеспечено и допустимой компенсации нет, зависимое действие не выполняется.
+Evaluate compensation against the protected condition, consequences, and current permission. It must provide the necessary property within agreed boundaries; its limitations and residual risk are retained with the grounds for admissibility. Agreement to an individual operation does not remove a mandatory constraint. If a mandatory condition is unmet and no admissible compensation exists, the dependent action is not performed.
 
-Общее файловое пространство и новый контекст агента сами по себе не обеспечивают изоляции. Наличие инструмента не доказывает пригодности контроля: нужные свойства устанавливают для фактической конфигурации ADE и конкретного действия.
+Shared file space and a new agent context do not themselves provide isolation. The presence of a tool does not prove control fitness: necessary properties are established for the actual ADE configuration and specific action.
 
-## Результат и продолжение
+## Result and continuation
 
-Результат оценивают по тому, может ли получатель использовать его для порученной цели. Критерий, наблюдение и вывод сохраняют разные роли. Число файлов, вариантов, операций или пройденных второстепенных проверок не заменяет существенного свойства целого.
+A result is assessed by whether its recipient can use it for the assigned purpose. Criterion, observation, and conclusion retain distinct roles. Counts of files, options, operations, or passed minor checks do not replace a significant property of the whole.
 
-При изменении источника, условия, исполнителя или средства пересматривают зависимую часть работы. Историческая редакция и наблюдавшееся событие сохраняются: исправление сегодняшнего вывода не переписывает прошлое. Если эффект операции неизвестен, сначала сверяют состояние той же попытки, затем выбирают допустимое продолжение.
+When a source, condition, performer, or means changes, review the dependent part of the work. A historical edition and observed event are preserved: correcting today's conclusion does not rewrite the past. If an operation's effect is unknown, first reconcile the state of that same attempt, then select an admissible continuation.
 
-Проектные материалы имеют устойчивые роли: `project/source/` — непосредственные входы, `project/reference/` — справочные и исторические источники, `project/artifacts/` — результаты и основания проверки, `project/handoff/` — продолжение. Внутренняя организация выбирается по использованию. Повторно полезные способы находятся в едином `methods/`. Факты, поручения и конкретные выполнения остаются рабочими материалами и не становятся методами автоматически.
+Project materials have stable roles: `project/source/` holds direct inputs, `project/reference/` reference and historical sources, `project/artifacts/` results and checking grounds, and `project/handoff/` continuation. Internal organization is chosen according to use. Repeatedly useful methods reside in one `methods/`. Facts, assignments, and specific executions remain working materials and do not automatically become methods.
 
-Для передачи следующему исполнителю нужны действующее поручение, существенные решения, точная использованная основа, полученные результаты, известные и неизвестные эффекты, открытый вопрос и условия продолжения. Достаточная существующая система учёта используется повторно. Обязательный универсальный журнал, scheduler или комплект документов не требуется.
+Handoff to the next performer requires the current assignment, significant decisions, exact basis used, obtained results, known and unknown effects, open question, and continuation conditions. An existing sufficient recording system is reused. A mandatory universal log, scheduler, or document set is not required.
 
-## Пример работы с существующей системой
+## Example of work on an existing system
 
-Это сконструированный пример. В существующей системе новый клиент не может отправить обращение без номера договора. Человек поручает исследовать причину и подготовить проверенное изменение в отдельной копии. Новое правило продукта и публикация остаются за владельцем.
+This is a constructed example. In an existing system, a new customer cannot submit an inquiry without a contract number. The person assigns investigation of the cause and preparation of a checked change in a separate copy. The new product rule and publication remain with the owner.
 
-Проверка показывает, что форма и сервер согласованно требуют договор, хотя описание использования предусматривает нового клиента. Исправление одного поля не разрешит смыслового противоречия. Агент готовит варианты: обычная заявка без договора, отдельное предварительное обращение либо сохранение ограничения с изменением условий использования. Пока требуется решение владельца, независимое исследование последствий продолжается.
+Checking shows that the form and server consistently require a contract, although the use description includes a new customer. Fixing one field will not resolve the semantic contradiction. The agent prepares options: a normal request without a contract, a separate preliminary inquiry, or retaining the constraint with changed use conditions. While the owner's decision is needed, independent investigation of consequences continues.
 
-Владелец выбирает предварительное обращение с ответственным получателем и без запуска исполнения заказа. Агент сохраняет выбор, согласует форму, серверные правила и маршрут обработки. Проверяется весь путь: новый клиент может отправить обращение, ответственный получает нужные сведения, исполнение заказа не начинается, прежний путь клиента с договором сохранён. Способ выбирается через FPF и прикладной MP, с учётом установленного противоречия.
+The owner chooses a preliminary inquiry with a responsible recipient and without starting order execution. The agent preserves the choice and aligns the form, server rules, and processing route. The entire path is checked: a new customer can submit an inquiry, the responsible person receives the required information, order execution does not begin, and the previous path for a customer with a contract is preserved. The method is selected through FPF and the applied MP, taking the established contradiction into account.
 
-Передача включает подготовленную редакцию, наблюдения и пределы проверки. Успех локальных тестов не означает публикации и не доказывает поведения действующей системы. Если поручена только проверенная подготовка, на этой передаче работа завершается.
+Handoff includes the prepared edition, observations, and checking limits. Successful local tests do not mean publication or prove behavior of the live system. If only checked preparation was assigned, work finishes at this handoff.
 
-## Отклонения и возвраты
+## Deviations and returns
 
-| Ситуация | Нужное продолжение |
+| Situation | Required continuation |
 |---|---|
-| Готового FPF достаточно | Применить исходный вклад без нового метода MP, повторяющего его содержание |
-| Нужна местная конкретика | Открыть полное описание подходящей редакции MP и её условия |
-| Нужного способа нет | Разработать недостающий вклад через DMG и проверить для текущего использования |
-| Существенный источник или средство недоступны | Назвать зависимый пробел; продолжить разрешённую независимую часть |
-| Изменилось основание | Пересмотреть зависимые выводы, сохранив пригодное и историю |
-| Потерян ответ с возможным эффектом | Сверить ту же попытку; отсутствие записи не доказывает отсутствия действия |
-| Работа передана другому исполнителю | Восстановить поручение и существенные основания, не повторяя завершённое |
-| MP пуст | Начать по подключённому FPF, достаточным профессиональным знаниям и разрешённым источникам |
+| Existing FPF is sufficient | Apply the original contribution without a new MP method that repeats its content |
+| Local specifics are needed | Open the full description of the suitable MP edition and its conditions |
+| The required method is absent | Develop the missing contribution through DMG and check it for current use |
+| A significant source or means is unavailable | Name the dependent gap; continue the authorized independent part |
+| Grounds have changed | Review dependent conclusions, preserving what remains fit and the history |
+| A response is lost with a possible effect | Reconcile the same attempt; absence of a record does not prove absence of action |
+| Work is handed to another performer | Recover the assignment and significant grounds without repeating completed work |
+| MP is empty | Begin with the connected FPF, sufficient professional knowledge, and authorized sources |
 
-## Критерии успешности
+## Success criteria
 
-Успех — пригодный результат в пределах мандата и при разумных общих затратах. Для конкретного использования выбирают существенные вопросы из таблицы. До вывода о готовности для каждого из них нужны условия, достаточное наблюдение и признак неуспеха. Таблица помогает построить проверку; обязательного полного перечня испытаний и общего балла она не задаёт.
+Success is a fit result within the mandate and at reasonable total cost. For a specific use, select significant questions from the table. Before a readiness conclusion, each requires conditions, sufficient observation, and an indication of failure. The table helps construct checking; it does not prescribe a mandatory complete test list or an overall score.
 
-| Характеристика | Вопрос для оценки |
+| Characteristic | Assessment question |
 |---|---|
-| Полезность | Какую нужную получателю пользу даёт результат или какие основания позволяют ожидать её при порученном использовании? |
-| Пригодность | Может ли получатель использовать результат для порученной цели при заявленных условиях? |
-| Проверяемость | Подтверждены ли существенные свойства подходящими наблюдениями, с различением критерия, свидетельства и вывода? |
-| Автономность | Выполняется ли необходимая работа без ненужного вмешательства человека при сохранении выбранного S3/S4 и границ делегирования? |
-| Управляемость | Сохранены ли мандат, допустимые эффекты и необходимые решения человека; обеспечены ли обязательные ограничения фактическими средствами либо допустимой компенсацией? |
-| Адаптивность | Пересмотрены ли затронутые решения, способы и действия при изменении существенных фактов или условий? |
-| Непрерывность | Может ли следующий исполнитель восстановить поручение, точные основания, результаты и эффекты и продолжить без потери существенного и повторения завершённого? |
-| Полные затраты | Приемлема ли суммарная нагрузка, включая человеческое внимание, проверки, исправления и поддержку; для утверждения о выигрыше есть ли сопоставимая альтернатива? |
+| Usefulness | What benefit needed by the recipient does the result provide, or what grounds support expecting it in the assigned use? |
+| Fitness | Can the recipient use the result for the assigned purpose under the stated conditions? |
+| Checkability | Are significant properties confirmed by suitable observations, distinguishing criterion, evidence, and conclusion? |
+| Autonomy | Is necessary work performed without unnecessary human intervention while preserving the selected S3/S4 and delegation boundaries? |
+| Governability | Are the mandate, admissible effects, and necessary human decisions preserved; are mandatory constraints provided by actual means or admissible compensation? |
+| Adaptability | Are affected decisions, methods, and actions reviewed when significant facts or conditions change? |
+| Continuity | Can the next performer recover the assignment, exact grounds, results, and effects and continue without losing significant information or repeating completed work? |
+| Total cost | Is the combined burden acceptable, including human attention, checks, corrections, and support; is there a comparable alternative for a claimed gain? |
 
-Подтверждённое, непригодное, неизвестное и непроверенное передают раздельно. Неуспех по существенному условию не компенсируется числом положительных ответов. Пример выше помогает подготовить проверки, но не служит свидетельством фактического применения. Успех отдельной пробы относится к её конфигурации и условиям. Устойчивость и экономия требуют соответствующих наблюдений.
+Confirmed, unfit, unknown, and unchecked results are delivered separately. Failure of a significant condition is not compensated by a count of positive answers. The example above helps prepare checks but does not serve as evidence of actual use. Success of an individual trial concerns its configuration and conditions. Robustness and savings require corresponding observations.
 
-Полные затраты включают поиск, чтение, выполнение, проверки, исправления, поддержку средств и человеческое внимание. Вывод о выигрыше требует сопоставимой альтернативы. Компактность текста и степень автономности сами его не устанавливают.
+Total cost includes search, reading, execution, checks, corrections, tool support, and human attention. A conclusion of gain requires a comparable alternative. Text compactness and degree of autonomy do not themselves establish it.
 
-## Развитие среды
+## Environment development
 
-Саморазвитие iEWR запускается прямым поручением и использует ту же архитектуру. Изменение должно улучшать нужное поведение целого, сохраняя исходную основу и путь возврата. Обычное накопление способов MP не требует менять среду целиком.
+iEWR self-development starts with a direct assignment and uses the same architecture. A change must improve the required behavior of the whole while preserving the source basis and a return path. Ordinary accumulation of MP methods does not require changing the entire environment.
 
-Создание или содержательная переработка DPF имеет собственный вход к каноническому методу в точном FPF. Достаточным результатом могут быть обычная пригодная процедура, дополнение существующего описания или более удобный доступ. Наличие связной книги MP само по себе не делает её каноническим DPF.
+Creating or substantively revising a DPF has its own entry to the canonical method in the exact FPF. A sufficient result may be an ordinary fit procedure, an addition to an existing description, or more convenient access. The existence of a coherent MP book does not by itself make it a canonical DPF.
 
-Концепция поддерживает AI-native-first: необходимые функции сохраняются при смене моделей, методов и инструментов. Сильнейший доступный исполнитель получает допустимую работу, а человек сохраняет контроль над целями и ответственными решениями. Методологическая основа — FPF; прикладной репертуар — MethodPack; техническое исполнение — ADE.
+The concept supports AI-native-first: necessary functions are preserved as models, methods, and tools change. The strongest available performer receives admissible work, while the person retains control of goals and responsible decisions. The methodological basis is FPF; the applied repertoire is MethodPack; technical execution is ADE.
 
-Текущая работа iEWR и развитие проектного MP выполняются достаточными средствами ADE без обязательного Python; доступный подходящий helper используется повторно. Смену редакции FPF выполняют по поручению: подключают готовую согласованную пару оригинала и индекса с происхождением и проверкой по [FPF_INDEX.md](FPF_INDEX.md). Локальная генерация индекса не является условием текущей работы.
+Current iEWR work and development of the project MP use sufficient ADE means without mandatory Python; an available suitable helper is reused. The FPF edition is changed when assigned: a prepared coherent original/index pair is connected with provenance and checking according to [FPF_INDEX.md](FPF_INDEX.md). Local index generation is not a condition of current work.
 
-## Изменение концепции
+## Changing the concept
 
-ConOps изменяют по обоснованному предложению и решению Human, относящемуся к предъявленной редакции и её условиям. Предложение показывает затруднение или новые основания, затронутые положения, ожидаемое поведение, разумные альтернативы и последствия для использования, архитектуры и реализации. Архитектуру, состав поставки и пределы проверенности сверяют отдельно. Новый текст сам по себе не меняет их и не разрешает реализацию или публикацию.
+ConOps is changed on a grounded proposal and Human decision relating to the presented edition and its conditions. A proposal shows the difficulty or new grounds, affected provisions, expected behavior, reasonable alternatives, and consequences for use, architecture, and implementation. Architecture, distribution composition, and verification limits are checked separately. New text does not by itself change them or authorize implementation or publication.
 
-Прямое поручение доработать концепцию в согласованных пределах даёт основание выполнить и проверить доработку. Повторное общее согласование обычных шагов не требуется. Существенный новый выбор цели, компромисса или полномочия за пределами поручения передаётся через Human Gate. До решения сохраняется принятая редакция затронутого положения, предложение обозначается отдельно, а зависимая часть работы удерживается.
+A direct assignment to revise the concept within agreed boundaries provides grounds to perform and check the revision. Repeated general approval of ordinary steps is unnecessary. A significant new choice of goal, tradeoff, or authority beyond the assignment is presented through the Human Gate. Until a decision, the accepted edition of the affected provision is preserved, the proposal is marked separately, and dependent work is withheld.
 
-При принятом изменении сохраняются точная предыдущая редакция, основание решения, область изменений и достаточный путь возврата. Указатели продолжения связываются с фактической текущей редакцией; исторические результаты остаются при прежней основе. Проверяются затронутые положения и связи целого, без обязательного полного обхода неизменной основы.
+When a change is accepted, preserve the exact previous edition, decision grounds, change scope, and a sufficient return path. Continuation pointers are connected to the actual current edition; historical results remain tied to their previous basis. Check affected provisions and relationships of the whole without a mandatory complete traversal of the unchanged basis.
 
-Дефект или ограничение реализации может обосновать предложение, но не меняет концепцию автоматически. Ограничение версии обозначают вместе с затронутым использованием и допустимым продолжением. Концепцию не переписывают для оправдания выбранной реализации. Обязательное необеспеченное условие без допустимой компенсации по-прежнему удерживает зависимое действие.
+An implementation defect or limitation may justify a proposal but does not automatically change the concept. A version limitation is stated together with the affected use and admissible continuation. The concept is not rewritten to justify the chosen implementation. An unmet mandatory condition without admissible compensation still withholds dependent action.

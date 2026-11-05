@@ -1,1 +1,1 @@
-Прочитай AGENTS.md и используй его как рабочие инструкции для моего текущего поручения.
+Read AGENTS.md and use it as working instructions for my current task.

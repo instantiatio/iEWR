@@ -1,34 +1,34 @@
-# Выбор средств обновления MethodPack
+# Choosing means for MethodPack updates
 
-DMG, FPF и методы MP применяются средствами фактической агентской среды (ADE). Python/POSIX не являются обязательными для обновления MP. Требования сохранности, согласованности, допустимого перехода и восстановления находятся в IE-M003; недостаточное средство удерживает зависимую запись при любом языке реализации.
+DMG, FPF, and MP methods are applied through the actual agent execution environment (ADE). Python/POSIX are not mandatory for MP updates. IE-M003 defines preservation, consistency, admissible-transition, and recovery requirements; inadequate means hold the dependent write regardless of implementation language.
 
-## Две реализации
+## Two implementations
 
-| Работа | Готовый Python helper | Ограниченный файловый путь ADE |
+| Work | Supplied Python helper | Limited ADE file path |
 |---|---|---|
-| Проверка MP | Python 3.10+, schema 2; поставленный JSON либо безопасный YAML при доступном PyYAML | Достаточный разбор и все существенные проверки IE-M003; первый профиль ограничен каноническим JSON |
-| Подключение/возврат | activate/recover требуют POSIX flock; токен, before/after, pending и повторная сверка | Один согласованный writer, пауза всех остальных writers (включая helper) и зависимых readers; фактические SHA-256, проверка пары/истории, тот же формат журнала |
-| Несколько writers | flock координирует сотрудничающих участников; произвольную запись не блокирует | Одновременная запись не поддержана: сначала согласовать единственного writer, иначе сохранить отдельного кандидата |
-| Частичная попытка | При сохранных receipts точный before/after допускает recover; неизвестные bytes удерживают возврат | То же правило известных сторон; неатомарная оборванная запись с третьим хешем удерживает автовозврат |
-| Подключение новой редакции FPF | Готовая согласованная пара оригинала и индекса с происхождением/условиями; при доступности полезен Python --check | Получение готовой пары, проверка привязки/байтов и достаточных оснований средствами ADE по FPF_INDEX.md; обязательной локальной генерации нет |
-| Локальная генерация индекса FPF | tools/build_fpf_index.py требует Python; flock не нужен | Альтернативный генератор этой поставкой не реализован; это подготовка/обслуживание основы, отдельная от текущей работы |
+| MP checking | Python 3.10+, schema 2; supplied JSON or safe YAML when PyYAML is available | Sufficient parsing and all material IE-M003 checks; first profile limited to canonical JSON |
+| Activation/restoration | activate/recover require POSIX flock; token, before/after, pending, and rechecking | One agreed writer, all other writers (including helper) and dependent readers paused; actual SHA-256, pair/history checks, same log format |
+| Multiple writers | flock coordinates cooperating participants; does not block arbitrary writes | Concurrent writes unsupported: agree on a single writer first, otherwise preserve a separate candidate |
+| Partial attempt | With intact receipts, exact before/after permits recover; unknown bytes hold restoration | Same known-side rule; a torn non-atomic write with a third hash holds automatic restoration |
+| Connecting a new FPF edition | Prepared coherent original-and-index pair with provenance/terms; Python --check is useful when available | Receive a prepared pair; check binding/bytes and sufficient grounds with ADE means under FPF_INDEX.md; no mandatory local generation |
+| Local FPF index generation | tools/build_fpf_index.py requires Python; no flock needed | No alternative generator implemented in this distribution; preparation/maintenance of the basis is separate from current work |
 
-Готовый подходящий helper переиспользуется. Альтернативный путь не означает «игнорировать ошибку check»: повреждённый кандидат, устаревшая основа или неизвестный эффект остаются препятствием. Факт наличия JavaScript или другого runtime не доказывает достаточности средств. Дубли ключей, недопустимые пути, отсутствующие сохранённые тела и несовместимый переход не принимаются.
+Reuse a suitable supplied helper. The alternative path does not mean ignoring a check error: a damaged candidate, stale basis, or unknown effect remains a blocker. Availability of JavaScript or another runtime does not prove sufficient capabilities. Duplicate keys, invalid paths, missing preserved bodies, and incompatible transitions are not accepted.
 
-## Что реально обеспечивается
+## What is actually provided
 
-`enforced` — работающий механизм в своей области; `compensated` — организационная компенсация с пределами; `unsupported` — нужной поддержки нет.
+`enforced` means a working mechanism within its scope; `compensated` means organizational compensation with limits; `unsupported` means the necessary support is absent.
 
-- Python helper обеспечивает свои программные проверки (`enforced`), а flock — только взаимодействие сотрудничающих writers. Правило не писать сторонним средством остаётся условием согласования.
-- В файловом пути точные проверки, сравнение hashes и создание/чтение журнала выполняются доступными API (`enforced` в проверенной области). Единственный writer и пауза readers — `compensated`, не машинная блокировка. Pending фиксирует попытку и удерживает корректных читателей, но не является lock и не останавливает helper, уже вошедший в свою операцию.
-- Произвольные параллельные writers, атомарность двух файлов, универсальное восстановление повреждённого marker/record и устойчивость к потере питания не обеспечиваются этим описанием (`unsupported` без дополнительных фактических средств).
+- The Python helper provides its programmatic checks (`enforced`), while flock covers only interaction among cooperating writers. The rule against writing through other means remains a coordination condition.
+- In the file path, exact checks, hash comparison, and log creation/reading use available APIs (`enforced` within the tested scope). A single writer and paused readers are `compensated`, not a machine lock. Pending records the attempt and holds compliant readers, but it is not a lock and does not stop a helper that has already entered its operation.
+- Arbitrary parallel writers, two-file atomicity, universal recovery of a damaged marker/record, and power-loss resilience are not provided by this description (`unsupported` without additional actual means).
 
-Точная процедура и формат before/after/record/pending — IE-M003 в METHOD_PACK.md. Подключение и восстановление выполняет агент в пределах поручения; отдельный новый пользовательский режим не нужен. История попыток и прежние снимки сохраняются. Файловая проверка не повышает статус пригодности метода.
+IE-M003 in METHOD_PACK.md contains the exact procedure and before/after/record/pending format. The agent performs activation and recovery within the instruction; no separate new user mode is needed. Attempt history and previous snapshots are retained. A file check does not raise a method's suitability status.
 
-## Форматы и пределы переносимости
+## Formats and portability limits
 
-Индекс MP поставляется в JSON-представлении YAML; готовому helper для него достаточно стандартной библиотеки Python. Первый ADE-профиль принимает только каноническую сериализацию JSON, проверяя точное повторное представление; простой JSON.parse не обнаруживает дубликаты. Для иного YAML нужен достаточный безопасный парсер либо другой способ, а не молчаливая нормализация оригинала.
+The MP index is supplied as YAML represented in JSON; the supplied helper needs only Python's standard library for it. The first ADE profile accepts only canonical JSON serialization, checking its exact reserialization; plain JSON.parse does not detect duplicates. Other YAML needs a sufficient safe parser or another method, not silent normalization of the original.
 
-Структурный индекс FPF записан обычным YAML. Текущая работа iEWR и развитие MP используют готовую поставленную пару; изменение MP не требует перестраивать неизменный FPF-индекс. Новую редакцию FPF получают готовым согласованным комплектом по [FPF_INDEX.md](FPF_INDEX.md), с проверкой байтов, привязки и достаточных оснований. Штатная локальная генерация/повторная структурная проверка используют стандартную библиотеку Python и относятся к подготовке/обслуживанию. Получение готовой проверенной пары не требует обязательного запуска этих команд.
+The FPF structural index uses ordinary YAML. Current iEWR work and MP development use the supplied prepared pair; changing MP does not require rebuilding an unchanged FPF index. Obtain a new FPF edition as a prepared coherent package under [FPF_INDEX.md](FPF_INDEX.md), checking bytes, binding, and sufficient grounds. Supplied local generation/repeated structural checking use Python's standard library and are preparation/maintenance operations. Receiving a prepared checked pair does not mandate running these commands.
 
-Альтернативный способ выбирается по фактическим возможностям ADE. Конкретная проба с файловыми API и SHA-256 встроенного REPL не делает Node.js новой обязательной зависимостью поставки. Работа без вызовов Python/shell/flock не доказывает натурную переносимость на другую ОС. При отсутствии нужных средств доступны чтение и отдельный кандидат; общая замена удерживается.
+Choose the alternative method according to actual ADE capabilities. A specific trial using file APIs and an embedded REPL's SHA-256 does not make Node.js a new mandatory distribution dependency. Work without Python/shell/flock calls does not prove actual portability to another OS. If necessary means are missing, reading and a separate candidate remain possible; shared replacement is held.

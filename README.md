@@ -1,70 +1,72 @@
-# iEWR 7.0.4 Eternal Alpha
+# iEWR 7.0.5 Eternal Alpha
 
-iEWR — исследовательская инженерная среда для совместной работы человека и AI. Вы задаёте, какой результат нужен, зачем и в каких пределах агент действует самостоятельно. Агент помогает сформировать работу, подобрать способы, выполнить порученное и проверить результат.
+iEWR is a research engineering environment for collaboration between people and AI. You specify the result you need, why it matters, and the bounds within which the agent acts independently. The agent helps shape the work, select methods, carry out the assignment, and check the result.
 
-Среда помогает воплощать замысел в пригодный результат: разобраться в задаче, определить необходимую работу, связать вклады участников и сохранить основания для проверки и продолжения. Ей можно поручить, например:
+The environment helps turn an idea into a usable result: understand the task, identify the work needed, connect participants' contributions, and preserve the grounds for checking and continuation. You can assign it, for example:
 
-- разработку приложения или изменение существующего программного продукта;
-- подготовку инженерной концепции системы или рабочего процесса;
-- исследование вопроса, сравнение вариантов и подготовку обоснованного решения.
+- developing an application or changing an existing software product;
+- preparing an engineering concept for a system or workflow;
+- investigating a question, comparing options, and preparing a reasoned decision.
 
-**Eternal Alpha** обозначает исследовательский характер среды: её устройство и методы развиваются по результатам применения. Пригодность конкретного результата проверяется для его использования.
+**Eternal Alpha** indicates the environment's research character: its design and methods evolve through use. The suitability of each result is checked for its intended use.
 
-## Начало работы
+## Getting started
 
-1. Распакуйте архив и откройте папку `iEWR-7.0.4-Eternal Alpha` в агентской среде, которая умеет читать и изменять файлы и выполнять необходимые для задачи действия.
-2. Дайте агенту прочитать [AGENTS.md](AGENTS.md), если среда не подключает этот файл автоматически. Готовый текст начала — [START.txt](START.txt).
-3. Опишите задачу, нужный результат и существенные ограничения. Материалы можно положить в `project/source/` либо указать уже существующий рабочий контекст.
-4. Результаты сохраняются в `project/artifacts/`, а материалы для передачи и продолжения между людьми и агентами — в `project/handoff/`.
+1. Extract the archive and open the `iEWR-7.0.5-Eternal Alpha` directory in an agent environment that can read and modify files and perform the actions your task requires.
+2. Have the agent read [AGENTS.md](AGENTS.md) if the environment does not load it automatically. A ready-to-use starting instruction is in [START.txt](START.txt).
+3. Describe the task, required result, and material constraints. Put materials in `project/source/` or point to an existing working context.
+4. Results are saved in `project/artifacts/`; materials for handoff and continuation between people and agents are saved in `project/handoff/`.
 
-Например: «Изучи материалы в project/source/, предложи решение и обсуди со мной существенные варианты». Или: «Подготовь и проверь решение самостоятельно в этих пределах».
+English is the primary language of the environment's own active internal materials. Communicate with the agent in your preferred language; project outputs follow the task and recipient's requirements.
 
-## Спросите саму среду
+For example: “Study the materials in project/source/, propose a solution, and discuss the material options with me.” Or: “Prepare and check a solution independently within these bounds.”
 
-О возможностях и устройстве iEWR удобнее всего спрашивать агента, работающего в среде. Например:
+## Ask the environment itself
 
-- «Перечисли методы из MethodPack и кратко поясни назначение каждого».
-- «Как перенести сюда старый проект, сохранив его материалы и незавершённую работу?»
-- «Как устроена iEWR и как связаны её семь функций?»
-- «Какие действия ты можешь выполнить здесь, а для каких нужны дополнительные инструменты или доступ?»
+The most convenient way to learn about iEWR's capabilities and design is to ask an agent working in it. For example:
 
-## Методологическая основа
+- “List the methods in the MethodPack and briefly explain what each is for.”
+- “How can I transfer an old project here while preserving its materials and unfinished work?”
+- “How is iEWR organized, and how are its seven functions connected?”
+- “Which actions can you perform here, and which require additional tools or access?”
 
-Рабочая связка — **Инструкции + FPF + MethodPack**. FPF (First Principles Framework) Анатолия Левенчука предоставляет общую методологию; точный оригинал включён в комплект. MethodPack — прикладной репертуар: одна тематическая книга и YAML-индекс с 37 описаниями методов. При новом выборе агент сначала проверяет достаточный вклад FPF, затем нужную конкретику MethodPack и развивает недостающее под задачу.
+## Methodological basis
 
-Этот механизм называется **Dynamic Method Generation (DMG)**. Он охватывает поиск, переиспользование, адаптацию и создание способов. Повторно полезные методы накапливаются с основаниями, связями, проверками и сохранёнными редакциями. Полный обход FPF и применение всего репертуара не требуются.
+The working combination is **Instructions + FPF + MethodPack**. FPF (First Principles Framework), by Anatoly Levenchuk, provides general methodology; the exact original is included. MethodPack is the applied repertoire: one thematic book and a YAML index with 37 method descriptions. For a new choice, the agent first checks for a sufficient FPF contribution, then the necessary MethodPack detail, and develops what is missing for the task.
 
-Можно поручать методы напрямую: «Примени TEXT-EDIT из MethodPack к этому тексту».
+This mechanism is called **Dynamic Method Generation (DMG)**. It covers finding, reusing, adapting, and creating ways of doing work. Methods useful again accumulate with their grounds, relations, checks, and preserved editions. Neither a full FPF traversal nor use of the entire repertoire is required.
 
-- [Карта файлов](docs/FILES.md) — назначение и расположение файлов комплекта.
-- [Каталог методов](docs/METHOD_CATALOG.md) — доступные способы и ссылки на их описания.
-- [Краткое описание архитектуры и mini ConOps](docs/MINI_CONOPS.md) — устройство среды и пример работы.
-- [Полный ConOps](docs/IEWR_CONOPS.md) — концепция использования, участники, функции и условия работы.
+You can request methods directly: “Apply TEXT-EDIT from the MethodPack to this text.”
 
-## Порядок переноса проекта в среду
+- [File map](docs/FILES.md): purposes and locations of distribution files.
+- [Method catalog](docs/METHOD_CATALOG.md): available methods and links to their descriptions.
+- [Architecture overview and mini ConOps](docs/MINI_CONOPS.md): how the environment works, with an example.
+- [Full ConOps](docs/IEWR_CONOPS.md): concept of operations, participants, functions, and working conditions.
 
-Выберите один из способов передать агенту материалы существующего проекта:
+## Project transfer into the environment
 
-1. **Укажите путь к папке проекта.** Это удобно как первый шаг: агент может изучить проект до переноса материалов.
-2. **Скопируйте всю папку проекта в `project/source/`.** Этот вариант подходит для небольших проектов.
-3. **Положите ZIP папки проекта в `project/source/`.** Это предпочтительный вариант передачи проекта целиком.
+Choose a way to provide an existing project's materials to the agent:
 
-Укажите, что агенту поручено сделать с проектом: изучить материалы, предложить решение или подготовить изменение. Сохраните исходники, данные, методы, принятые решения и незавершённую работу. Для изменений агент готовит рабочую копию в согласованном месте; исходные материалы сохраняются. Архив проекта не следует распаковывать поверх файлов среды или рабочей папки вслепую.
+1. **Specify the project directory path.** This is a convenient first step: the agent can study the project before transferring materials.
+2. **Copy the whole project directory into `project/source/`.** This suits small projects.
+3. **Put a ZIP of the project directory into `project/source/`.** This is the preferred way to transfer an entire project.
 
-## Развитие среды
+State what the agent is assigned to do with the project: study materials, propose a solution, or prepare a change. Preserve sources, data, methods, accepted decisions, and unfinished work. For changes, the agent prepares a working copy in an agreed location; original materials are preserved. Do not blindly extract a project archive over the environment files or working directory.
 
-Агент может по поручению [развивать саму среду](docs/SELF_DEVELOPMENT.md) и [создавать связные предметные методики (DPF)](docs/DPF_CREATION.md) по каноническому методу FPF.
+## Developing the environment
 
-## Проект и выпуски
+When instructed, the agent can [develop the environment itself](docs/SELF_DEVELOPMENT.md) and [create coherent domain methodologies (DPFs)](docs/DPF_CREATION.md) using the canonical FPF method.
 
-[Репозиторий iEWR](https://github.com/instantiatio/iEWR) · [Опубликованные выпуски](https://github.com/instantiatio/iEWR/releases) · [Изменения версий](RELEASE_NOTES.md).
+## Project and releases
 
-## Авторство и условия
+[iEWR repository](https://github.com/instantiatio/iEWR) · [Published releases](https://github.com/instantiatio/iEWR/releases) · [Release changes](RELEASE_NOTES.md).
+
+## Authorship and terms
 
 Copyright (c) 2026 Instantiatio EWR contributors
 
 - Distributed under the [MIT License](https://github.com/instantiatio/iDPF/blob/main/LICENSE)
 
-[Полный текст MIT этого комплекта](LICENSE). Внешняя ссылка MIT выше ведёт к тексту лицензии в репозитории iDPF. Самостоятельные источники сохраняют свои условия: [авторство прикладных методов](docs/METHOD_SOURCE_NOTICES.md), [точные источники и редакции](ORIGINS.json).
+[This distribution's full MIT text](LICENSE). The external MIT link above points to the license text in the iDPF repository. Independent sources retain their own terms: [applied-method authorship](docs/METHOD_SOURCE_NOTICES.md), [exact sources and editions](ORIGINS.json).
 
-FPF — [Анатолий Левенчук](https://ailev.ru/). [Авторский репозиторий FPF](https://github.com/ailev/FPF). [Точная редакция и происхождение](external-sources/fpf/SOURCE.json), [CC BY 4.0](external-sources/fpf/LICENSE) и [условия сторонних материалов](external-sources/fpf/LICENSING.md) сохранены. Поставка не означает одобрения iEWR автором FPF.
+FPF — [Anatoly Levenchuk](https://ailev.ru/). [Author's FPF repository](https://github.com/ailev/FPF). The [exact edition and provenance](external-sources/fpf/SOURCE.json), [CC BY 4.0](external-sources/fpf/LICENSE), and [third-party material terms](external-sources/fpf/LICENSING.md) are preserved. Distribution does not imply endorsement of iEWR by FPF's author.

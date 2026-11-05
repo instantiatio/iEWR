@@ -1,20 +1,20 @@
 {
-  "status": "Рабочая функциональная организация исследовательской сборки, не доказанная архитектура всей EWR.",
+  "status": "Working functional organization of the research build, not a demonstrated architecture of the whole EWR.",
   "functions": [
     {
       "id": "CF",
       "name": "Context Formation",
       "group": "Generative Core",
-      "claim": "Среда восстанавливает достаточный актуальный контекст для ближайшего решения.",
+      "claim": "The environment recovers sufficient current context for the next decision.",
       "inputs": [
-        "Поручение и решения Human",
-        "Текущая система и источники",
-        "Результаты, наблюдения, неизвестные эффекты",
-        "Индекс методов и условия применимости выбранной редакции, без обязательной загрузки всего репертуара"
+        "Human assignment and decisions",
+        "Current system and sources",
+        "Results, observations, unknown effects",
+        "Method index and applicability conditions of the selected edition, without mandatory loading of the entire repertoire"
       ],
-      "output": "Достаточное основание ближайшего действия с редакциями и различием фактов, гипотез, решений и неизвестного.",
-      "trigger": "Новое поручение, продолжение после перерыва либо существенное изменение.",
-      "stop": "Недоступная существенная связь удерживает зависимый вывод; достаточное основание переиспользуется.",
+      "output": "Sufficient grounds for the next action, with editions and distinctions between facts, hypotheses, decisions, and unknowns.",
+      "trigger": "A new assignment, continuation after a break, or a significant change.",
+      "stop": "An unavailable significant link withholds the dependent conclusion; sufficient grounds are reused.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -41,22 +41,22 @@
           }
         }
       ],
-      "activation_rule": "Достаточные основания нужны до зависящего существенного решения/действия; уже достаточный контекст переиспользуется. CF не отдельная обязательная стадия, карточка или чтение всех файлов.",
-      "observation_boundary": "Чтение источника и запись сами не доказывают достаточности. Отсутствие отдельной карточки не доказывает отсутствия CF; проверяется связь основания с решением и существенным неизвестным.",
-      "reading_boundary": "Усечённые и невыданные условия не считаются полученными. До зависимого выбора/действия получают нужный полный фрагмент; позднее чтение не переносится на прошлый выбор."
+      "activation_rule": "Sufficient grounds are required before a dependent significant decision/action; already sufficient context is reused. CF is not a separate mandatory stage, card, or reading of all files.",
+      "observation_boundary": "Reading a source and making a record do not themselves prove sufficiency. Absence of a separate card does not prove absence of CF; the connection of grounds to the decision and significant unknowns is checked.",
+      "reading_boundary": "Truncated and undelivered conditions are not considered received. Obtain the required complete passage before a dependent choice/action; later reading is not attributed to a past choice."
     },
     {
       "id": "SF",
       "name": "System Formation",
       "group": "Generative Core",
-      "claim": "Среда определяет, какой вклад нужен формируемой системе для её использования при текущем состоянии.",
+      "claim": "The environment determines the contribution needed by the system being formed for its use in its current state.",
       "inputs": [
-        "Квалифицированный контекст",
-        "Назначение, критерии и ограничения системы"
+        "Qualified context",
+        "System purpose, criteria, and constraints"
       ],
-      "output": "Нужный ближайший вклад, его получатель и условия пригодности; существенные альтернативы и зависимости, если они меняют решение.",
-      "trigger": "Неясно, какую работу требует состояние системы, либо изменились её назначение/условия.",
-      "stop": "Выбор новой цели или существенного компромисса вне делегирования возвращается Human; новое оформление не требуется при достаточной постановке.",
+      "output": "The next required contribution, its recipient and fitness conditions; significant alternatives and dependencies when they change the decision.",
+      "trigger": "It is unclear what work the system state requires, or its purpose/conditions have changed.",
+      "stop": "Selection of a new goal or significant tradeoff outside delegation returns to Human; no new documentation is required when the task is sufficiently stated.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -88,16 +88,16 @@
       "id": "DMG",
       "name": "Dynamic Method Generation",
       "group": "Generative Core",
-      "claim": "Среда получает достаточный способ нужного вклада: переиспользует, находит, адаптирует или строит его.",
+      "claim": "The environment obtains a sufficient way to make the required contribution: reuses, finds, adapts, or constructs it.",
       "inputs": [
-        "Нужный результат и условия пригодности",
-        "FPF, предметные знания, доступные источники и опыт",
-        "Возможности и ограничения исполнителя/ADE",
-        "Релевантные точные редакции методов methods/index.yaml, их основания и опыт"
+        "Required result and fitness conditions",
+        "FPF, domain knowledge, available sources, and experience",
+        "Capabilities and constraints of the performer/ADE",
+        "Relevant exact method editions in methods/index.yaml, their grounds and experience"
       ],
-      "output": "Применимый достаточный способ с существенными операциями, соединениями, проверкой и условиями остановки либо точный пробел; повторно полезный вклад сохраняется в MethodPack по необходимости.",
-      "trigger": "Нужный способ отсутствует, недостаточен либо его применимость/соединение стало текущим вопросом.",
-      "stop": "Достаточный способ применяется напрямую; недоступные знания/средства не заменяются выдуманными. Описание способа не объявляется формально допущенным Method без отдельного основания.",
+      "output": "An applicable sufficient method with significant operations, joins, checking, and stop conditions, or a specific gap; a repeatedly useful contribution is retained in MethodPack as needed.",
+      "trigger": "The required method is absent or insufficient, or its applicability/join has become the current question.",
+      "stop": "A sufficient method is applied directly; unavailable knowledge/means are not replaced with invented ones. A description of a way of doing is not declared a formally admitted Method without separate grounds.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -117,15 +117,15 @@
       "id": "EG",
       "name": "Execution Governance",
       "group": "Governance",
-      "claim": "Среда связывает конкретное действие с действующим мандатом и необходимыми условиями допустимости.",
+      "claim": "The environment connects a specific action to the current mandate and necessary admissibility conditions.",
       "inputs": [
-        "Конкретный исполнитель, предмет, действие, объём и время",
-        "Действующие решения и ограничения",
-        "Фактические средства защиты"
+        "Specific performer, subject, action, scope, and time",
+        "Current decisions and constraints",
+        "Actual protective means"
       ],
-      "output": "Основание допустимого следующего действия либо удержание зависимой части с точным недостающим условием.",
-      "trigger": "Существенное действие или изменение его существенных условий.",
-      "stop": "Способность, технический доступ и рекомендации не создают полномочия. Обязательное необеспеченное условие без допустимой компенсации удерживает действие.",
+      "output": "Grounds for an admissible next action, or withholding the dependent part with the exact missing condition.",
+      "trigger": "A significant action or a change in its significant conditions.",
+      "stop": "Capability, technical access, and recommendations do not create authority. An unmet mandatory condition without admissible compensation withholds the action.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -169,15 +169,15 @@
       "id": "WEC",
       "name": "Work Execution & Continuation",
       "group": "Governance",
-      "claim": "Среда выполняет разрешённые операции, сверяет эффекты и сохраняет возможность продолжить работу.",
+      "claim": "The environment performs authorized operations, checks effects, and preserves the ability to continue work.",
       "inputs": [
-        "Достаточный способ и предметные данные",
-        "Действующие условия исполнения",
-        "Средства ADE и состояние той же попытки при неопределённом эффекте"
+        "Sufficient method and domain data",
+        "Current execution conditions",
+        "ADE means and the state of the same attempt when its effect is uncertain"
       ],
-      "output": "Фактический результат и сведения об эффектах/неизвестном; достаточное основание продолжения либо блокер. Передача связывается с использованной редакцией метода.",
-      "trigger": "Готовое ближайшее действие, возвращённый вклад, сбой или возобновление.",
-      "stop": "Неизвестный эффект сначала сверяется; завершённое не повторяется. Полученный ответ инструмента отдельно от результата для пользователя.",
+      "output": "Actual result and information on effects/unknowns; sufficient grounds for continuation or a blocker. Handoff is tied to the method edition used.",
+      "trigger": "A ready next action, returned contribution, failure, or resumption.",
+      "stop": "An unknown effect is checked first; completed work is not repeated. A received tool response is separate from the result for the user.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -209,15 +209,15 @@
       "id": "RAF",
       "name": "Result Assurance & Feedback",
       "group": "Governance",
-      "claim": "Среда устанавливает пригодность результата для заданного использования и возвращает существенные дефекты к исправлению.",
+      "claim": "The environment establishes result fitness for the specified use and returns significant defects for correction.",
       "inputs": [
-        "Полученный результат и предназначенное использование",
-        "Критерии, источники и наблюдения",
-        "Условия/квалификация проверки"
+        "Obtained result and intended use",
+        "Criteria, sources, and observations",
+        "Checking conditions/qualification"
       ],
-      "output": "Обоснованный вывод в пределах проверенного: пригодно, непригодно, неизвестно или не проверено; зависимые исправления/ограничения. Наблюдение применения и пределы могут пополнить запись метода; запись не заменяет проверку.",
-      "trigger": "Получен результат, изменилось основание или наблюдение может изменить допустимость использования.",
-      "stop": "Решение о принятии риска вне полномочий остаётся Human. Проверка не доказывает наблюдение, которого не было; достаточная проверка не повторяется без основания.",
+      "output": "A grounded conclusion within the checked scope: fit, unfit, unknown, or not checked; dependent corrections/limitations. Observations of use and limits may supplement a method record; recording does not replace checking.",
+      "trigger": "A result has been obtained, grounds have changed, or an observation may change admissibility of use.",
+      "stop": "A risk-acceptance decision outside delegated authority remains with Human. Checking does not prove an observation that did not occur; sufficient checking is not repeated without grounds.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -256,21 +256,21 @@
           }
         }
       ],
-      "readiness_rule": "До вывода о готовности сверяются существенные условия поручения и Human decisions, фактическое поведение и охват проверок. Пропущенное требование и известный дефект не закрываются числом PASS."
+      "readiness_rule": "Before a readiness conclusion, compare significant assignment conditions and Human decisions, actual behavior, and checking coverage. PASS counts do not close a missed requirement or known defect."
     },
     {
       "id": "HI",
       "name": "Human Interaction",
       "group": "Human Interaction",
-      "claim": "Среда сохраняет выбранное участие человека и получает от него только недостающие существенные намерения, выборы и полномочия.",
+      "claim": "The environment preserves the selected human participation and obtains only missing significant intentions, choices, and authority from the person.",
       "inputs": [
-        "Прямые высказывания Human с предметом и условиями",
-        "Текущий вопрос, варианты и основания",
-        "Предпочтение S3/S4 и границы делегирования"
+        "Direct Human statements with subject and conditions",
+        "Current question, options, and grounds",
+        "S3/S4 preference and delegation boundaries"
       ],
-      "output": "Понятный человеку результат/вопрос и пригодное для продолжения точное решение в его действительном объёме.",
-      "trigger": "Нужен существенный выбор Human, изменяется выбранный способ участия либо требуется передать результат.",
-      "stop": "Молчание не является ответом; условное согласие не расширяется. Достаточные ответы сохраняются и используются без повторного согласования обычных шагов.",
+      "output": "A result/question understandable to the person and an exact decision in its actual scope, suitable for continuation.",
+      "trigger": "A significant Human choice is needed, the selected mode of participation changes, or a result must be handed over.",
+      "stop": "Silence is not an answer; conditional agreement is not expanded. Sufficient answers are retained and used without reapproving ordinary steps.",
       "method_suppliers": [
         {
           "kind": "FPF",
@@ -309,9 +309,9 @@
         "CF",
         "EG"
       ],
-      "passing_result": "Точное поручение/решение с предметом, редакцией и условиями.",
-      "compatibility_condition": "Одинаково распознаны цель, выбранное участие и предел разрешения; совет не превращён в мандат.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Exact assignment/decision with subject, edition, and conditions.",
+      "compatibility_condition": "Goal, selected participation, and permission boundary are recognized consistently; advice has not been turned into a mandate.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J02",
@@ -321,9 +321,9 @@
       "consumers": [
         "SF"
       ],
-      "passing_result": "Текущее состояние системы и основания знания.",
-      "compatibility_condition": "Сохранены идентичность системы/результата, существенная редакция и неизвестные свойства.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Current system state and grounds for knowledge.",
+      "compatibility_condition": "System/result identity, significant edition, and unknown properties are preserved.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J03",
@@ -334,9 +334,9 @@
         "DMG",
         "RAF"
       ],
-      "passing_result": "Нужный вклад и условия его пригодности.",
-      "compatibility_condition": "Критерий относится к использованию результата; недостаток способа отличён от недостатка факта или права.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Required contribution and its fitness conditions.",
+      "compatibility_condition": "The criterion concerns use of the result; a missing method is distinguished from a missing fact or permission.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J04",
@@ -347,9 +347,9 @@
         "EG",
         "WEC"
       ],
-      "passing_result": "Достаточный способ и необходимые участники/средства/условия.",
-      "compatibility_condition": "Исполнитель может выполнить существенные операции; выходы пригодны следующим операциям. Описание не считается исполнением.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Sufficient method and necessary participants/means/conditions.",
+      "compatibility_condition": "The performer can execute significant operations; outputs are fit for subsequent operations. Description is not treated as execution.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J05",
@@ -359,9 +359,9 @@
       "consumers": [
         "WEC"
       ],
-      "passing_result": "Действующее основание разрешённого ближайшего действия.",
-      "compatibility_condition": "Те же исполнитель, предмет, объём, условия и срок; изменение существенного аргумента требует пересмотра.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Current grounds for the authorized next action.",
+      "compatibility_condition": "The same performer, subject, scope, conditions, and time limit; a change in a significant argument requires review.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J06",
@@ -372,9 +372,9 @@
         "RAF",
         "CF"
       ],
-      "passing_result": "Полученное, точная попытка, наблюдаемый/неизвестный эффект.",
-      "compatibility_condition": "Успешный вызов не подменяет предметный результат; частичный журнал не стирает установленное событие.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "What was obtained, exact attempt, observed/unknown effect.",
+      "compatibility_condition": "A successful call does not replace the domain result; a partial log does not erase an established event.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J07",
@@ -387,9 +387,9 @@
         "DMG",
         "WEC"
       ],
-      "passing_result": "Вывод, дефект/изменённая предпосылка и граница зависимых результатов.",
-      "compatibility_condition": "Пересматривается затронутое. Изменение задачи/метода не считается автоматически разрешённым выводом проверки.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Conclusion, defect/changed premise, and boundary of dependent results.",
+      "compatibility_condition": "The affected part is reviewed. A task/method change is not automatically treated as an authorized conclusion of checking.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J08",
@@ -404,9 +404,9 @@
       "consumers": [
         "HI"
       ],
-      "passing_result": "Достаточный краткий результат, различающие варианты либо точный блокер.",
-      "compatibility_condition": "Сначала понятный смысл для Human; необходимое основание и пределы доступны. Вопрос действительно требует человеческого вклада.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Sufficient concise result, discriminating options, or a specific blocker.",
+      "compatibility_condition": "Meaning understandable to Human comes first; necessary grounds and limits are available. The question really requires human contribution.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J09",
@@ -418,9 +418,9 @@
         "EG",
         "WEC"
       ],
-      "passing_result": "Решение Human по предъявленному предмету.",
-      "compatibility_condition": "Сохранены условия, отказы и частичный scope; зависимое действие ждёт необходимого ответа, независимое продолжается.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Human decision on the presented subject.",
+      "compatibility_condition": "Conditions, refusals, and partial scope are preserved; dependent action waits for the necessary answer, independent work continues.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     },
     {
       "id": "J10",
@@ -437,15 +437,15 @@
         "CF",
         "WEC"
       ],
-      "passing_result": "Сохранённая основа продолжения.",
-      "compatibility_condition": "Следующему исполнителю доступны решения, точная использованная основа, результат, эффект/неизвестное и следующий вопрос; завершённое не запускается снова.",
-      "realization": "Предложены передачи через текущий контекст LLM и рабочие файлы; пригодность следующему исполнителю требует отдельной пробы."
+      "passing_result": "Preserved grounds for continuation.",
+      "compatibility_condition": "The next performer can access decisions, the exact basis used, result, effect/unknowns, and next question; completed work is not restarted.",
+      "realization": "Handoffs through the current LLM context and working files are proposed; fitness for the next performer requires a separate trial."
     }
   ],
-  "bearer": "Одна LLM + текущие ADE + источники и рабочая память",
-  "not_required": "Последовательный проход семи функций, семь агентов или собственный универсальный runtime не требуются.",
-  "support_limits": "Предписания в AGENTS declared; свойства ADE проверяются для конкретного действия.",
-  "version": "7.0.4",
+  "bearer": "One LLM + current ADE + sources and working memory",
+  "not_required": "A sequential traversal of seven functions, seven agents, or an own universal runtime is not required.",
+  "support_limits": "AGENTS prescriptions are declared; ADE properties are checked for the specific action.",
+  "version": "7.0.5",
   "layers": {
     "universal_core": {
       "instructions": "AGENTS.md",
@@ -454,38 +454,38 @@
     },
     "dynamic_method_generation": {
       "function": "DMG",
-      "role": "Находит/переиспользует/адаптирует/создаёт достаточный способ под текущую задачу."
+      "role": "Finds/reuses/adapts/creates a sufficient method for the current task."
     },
     "project_specialization": {
       "index": "methods/index.yaml",
       "descriptions": "methods/METHOD_PACK.md#<anchor>",
       "rules": "docs/PROJECT_METHODS.md",
       "role": "One repertoire per instance: environment support, general-purpose methods and accumulated specialization; shared body may serve both groups.",
-      "historical_descriptions": "Собственные использованные редакции проекта сохраняются в methods/snapshots/"
+      "historical_descriptions": "The project's own used editions are preserved in methods/snapshots/"
     }
   },
   "method_lifecycle": [
-    "Переиспользовать достаточное актуальное основание; для нового выбора подключать источники по AGENTS.md#method-source-priority",
-    "Открыть выбранное точное тело и существенные условия/зависимости; адрес в навигации не доказывает полноту",
-    "Применить, адаптировать или получить недостающий способ из FPF/знаний/источников/опыта",
-    "Проверить условия, полномочия, исполнить и наблюдать результат",
-    "Сохранить переиспользуемый способ и опыт; содержательное изменение новой редакцией; пересмотреть затронутую применимость"
+    "Reuse sufficient current grounds; for a new choice, connect sources according to AGENTS.md#method-source-priority",
+    "Open the selected exact body and significant conditions/dependencies; a navigation address does not prove completeness",
+    "Apply, adapt, or obtain the missing method from FPF/knowledge/sources/experience",
+    "Check conditions and authority, execute, and observe the result",
+    "Preserve the reusable method and experience; substantive change receives a new edition; review affected applicability"
   ],
   "human_initiated_modes": [
     {
       "id": "self_development",
       "entry": "docs/SELF_DEVELOPMENT.md",
-      "trigger": "Прямое поручение изменить саму iEWR",
-      "result": "Проверенное изменение среды с сохранением исходной основы, before/after и пределов",
-      "participation": "S3 или S4 согласно поручению"
+      "trigger": "Direct assignment to change iEWR itself",
+      "result": "A checked environment change preserving the source basis, before/after, and limits",
+      "participation": "S3 or S4 according to the assignment"
     },
     {
       "id": "dpf_creation",
       "entry": "docs/DPF_CREATION.md",
-      "trigger": "Поручение получить/содержательно изменить DPF",
-      "canonical_basis": "E.4.DPF в поставленном оригинале FPF и применимые зависимости",
-      "result": "Обоснованно выбранный достаточный результат; если DPF действительно нужен — authoring и проверки оригинального метода",
-      "participation": "S3 или S4 согласно поручению"
+      "trigger": "Assignment to obtain/substantively change a DPF",
+      "canonical_basis": "E.4.DPF in the supplied FPF original and applicable dependencies",
+      "result": "A grounded choice of a sufficient result; if a DPF is actually needed, authoring and checks of the original method",
+      "participation": "S3 or S4 according to the assignment"
     }
   ],
   "method_pack": {
@@ -500,10 +500,10 @@
       "maintenance": "Preservation and edition handling through selected MP or FPF source methods.",
       "self_development": "Human-initiated mode, same functional architecture."
     },
-    "qualification": "Candidate описания; пригодность устанавливается для конкретного использования",
+    "qualification": "Candidate descriptions; fitness is established for the specific use",
     "description_alignment": {
-      "current": "base-v3.14",
-      "scope": "Самостоятельные текущие описания с применимыми условиями и источниками"
+      "current": "base-v3.15",
+      "scope": "Self-contained current descriptions with applicable conditions and sources"
     }
   },
   "base_methodpack": {
@@ -535,7 +535,7 @@
       "handoff": "state and decisions for continuation"
     },
     "inside_project": "Organization and naming selected by use, no mandatory full document set.",
-    "new_project_guide": "README.md#порядок-переноса-проекта-в-среду"
+    "new_project_guide": "README.md#project-transfer-into-the-environment"
   },
   "method_source_policy_ref": {
     "path": "AGENTS.md",
@@ -543,14 +543,14 @@
   },
   "method_engineering": {
     "general_suppliers": "Direct FPF method family; navigation/task-entries.yaml",
-    "local_storage_adapter": "IE-M003@v1.8",
-    "local_environment_adapter": "IE-M004@v1.8",
+    "local_storage_adapter": "IE-M003@v1.9",
+    "local_environment_adapter": "IE-M004@v1.9",
     "specialist_returns": "ME18 ordinaryMR + RES-RECOVERY; ME19 C28 + RES-HISTORY; actual stronger mathematical/domain inputs remain conditional"
   },
   "product_name": "iEWR",
   "research_stage": "Eternal Alpha",
   "methodpack_control": {
-    "method": "IE-M003@v1.8",
+    "method": "IE-M003@v1.9",
     "tool": "tools/methodpack.py",
     "guide": "docs/METHODPACK_CHECK.md",
     "commands": [

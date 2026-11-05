@@ -1,106 +1,106 @@
-# iEWR: архитектура и mini ConOps
+# iEWR: Architecture and Mini ConOps
 
-*iEWR 7.0.4 Eternal Alpha · 4 ноября 2026*
+*iEWR 7.0.5 Eternal Alpha · 5 November 2026*
 
-<!-- Три смысловые страницы; два явных разрыва для печати и экспорта. -->
+<!-- Three conceptual pages; two explicit breaks for printing and export. -->
 
-## 1/3. Архитектура: человек, методология, работа
+## 1/3. Architecture: human, methodology, work
 
-**iEWR — инженерная среда совместной работы человека и AI.** Человек задаёт намерение, ценность результата и пределы самостоятельности. AI помогает сформировать необходимую работу, выбрать способ, выполнить порученное и проверить результат для его использования. Исходной точкой может быть уже работающая система с накопленным контекстом.
+**iEWR is an engineering environment for human–AI collaboration.** The person sets intent, the value of the result, and limits of autonomy. AI helps form the necessary work, select a method, perform the assignment, and check the result for its use. A system already in operation with accumulated context can be the starting point.
 
-Архитектура опирается на связку **Инструкции + FPF + MethodPack**. Инструкции подключают среду, источники и действующие правила. **FPF — First Principles Framework Анатолия Левенчука — предоставляет общие понятия, принципы и методы. MethodPack (MP) содержит прикладные способы и опыт проекта.** Предметные знания модели и доступные источники дополняют эту основу.
+The architecture rests on **Instructions + FPF + MethodPack**. Instructions connect the environment, sources, and current rules. **FPF—First Principles Framework by Anatoly Levenchuk—provides general concepts, principles, and methods. MethodPack (MP) contains applied methods and project experience.** The model's domain knowledge and available sources supplement this basis.
 
-Техническое выполнение обеспечивает **ADE — агентская среда исполнения**: файлы, команды, программирование, поиск, браузер и внешние системы в пределах предоставленного доступа. Поручение, способность исполнителя и технический доступ учитываются отдельно.
+Technical execution is provided by **ADE—the agent execution environment**: files, commands, programming, search, a browser, and external systems within the access granted. Assignment, performer capability, and technical access are accounted for separately.
 
-### Семь функций
+### Seven functions
 
-| Функция | Какой вклад обеспечивает |
+| Function | Contribution provided |
 |---|---|
-| **CF — Context Formation** | Достаточный актуальный контекст: задача, система, источники, решения и существенное неизвестное. |
-| **SF — System Formation** | Определение необходимого изменения системы, ожидаемого использования и критериев результата. |
-| **DMG — Dynamic Method Generation** | Получение подходящего способа: поиск, переиспользование, адаптация или создание. |
-| **EG — Execution Governance** | Проверка допустимости конкретного действия, ограничений и условий выполнения. |
-| **WEC — Work Execution & Continuation** | Выполнение работы, учёт фактических эффектов и обеспечение продолжения. |
-| **RAF — Result Assurance & Feedback** | Проверка пригодности результата и возврат обнаруженных проблем к их основаниям. |
-| **HI — Human Interaction** | Совместное мышление, делегирование, решения человека и понятная передача результатов. |
+| **CF — Context Formation** | Sufficient current context: task, system, sources, decisions, and significant unknowns. |
+| **SF — System Formation** | Determining the necessary system change, expected use, and result criteria. |
+| **DMG — Dynamic Method Generation** | Obtaining a suitable method: search, reuse, adaptation, or creation. |
+| **EG — Execution Governance** | Checking admissibility of a specific action, constraints, and execution conditions. |
+| **WEC — Work Execution & Continuation** | Performing work, accounting for actual effects, and enabling continuation. |
+| **RAF — Result Assurance & Feedback** | Checking result fitness and returning discovered problems to their grounds. |
+| **HI — Human Interaction** | Joint thinking, delegation, human decisions, and understandable delivery of results. |
 
-CF, SF и DMG образуют **Generative Core**. EG, WEC и RAF образуют **Governance**. HI связывает человека со всей работой. Семь функций выбираются и сочетаются по задаче; готовый достаточный вклад используется повторно.
+CF, SF, and DMG form the **Generative Core**. EG, WEC, and RAF form **Governance**. HI connects the person to all the work. The seven functions are selected and combined according to the task; an existing sufficient contribution is reused.
 
 ```text
-Человек ⇄ HI ⇄ Generative Core: CF · SF · DMG
+Human ⇄ HI ⇄ Generative Core: CF · SF · DMG
                          ⇅
                  Governance: EG · WEC · RAF
                          ⇅
-                 Работа · эффекты · результат
+                 Work · effects · result
 ```
 
-Результаты и обратная связь обновляют контекст, представление системы и способы работы. Эти функции обеспечивают и предметную деятельность, и управление самой iEWR. Изменение среды запускается соответствующим поручением человека.
+Results and feedback update context, the system representation, and ways of working. These functions support both domain activity and management of iEWR itself. Changing the environment starts with the corresponding human assignment.
 
 <div style="break-after: page; page-break-after: always;"></div>
 
-## 2/3. DMG и MethodPack: способ под задачу, опыт для повторного применения
+## 2/3. DMG and MethodPack: a method for the task, experience for reuse
 
-**Идея DMG — получать достаточный способ под текущую задачу.** Агент начинает с нужного результата и проверяет, какие действия, знания, условия и средства позволяют его получить. Готовый пригодный способ применяется напрямую; развитие требуется там, где остаётся существенный пробел.
+**The idea of DMG is to obtain a sufficient method for the current task.** The agent starts with the required result and checks which actions, knowledge, conditions, and means make it achievable. An existing suitable method is applied directly; development is required where a significant gap remains.
 
-При новом выборе действует порядок **FPF → MethodPack → недостающее развитие**. Сначала агент ищет достаточный принцип или метод в FPF и читает исходный раздел с условиями. Если требуется предметная конкретика, открывает соответствующее тело MP. Сохранившийся пробел закрывает адаптацией или построением способа из профессиональных знаний, доступных источников и опыта. DMG охватывает весь этот механизм. Уже установленная достаточная основа используется повторно, пока сохраняются её условия.
+A new choice follows **FPF → MethodPack → missing development**. First, the agent looks for a sufficient principle or method in FPF and reads the original section with its conditions. If domain specifics are required, it opens the corresponding MP body. It closes any remaining gap by adapting or constructing a method from professional knowledge, available sources, and experience. DMG covers this entire mechanism. An already established sufficient basis is reused while its conditions continue to hold.
 
-### Что накапливается в MethodPack
+### What MethodPack accumulates
 
-MethodPack — **связный прикладной репертуар проекта**: единая книга с тематическими блоками и YAML-индексом. В нём находятся методы обеспечения работы iEWR, методы общего назначения и накопленная специализация. Один метод может служить нескольким областям применения.
+MethodPack is a **coherent applied project repertoire**: one book with thematic blocks and a YAML index. It contains methods supporting iEWR work, general-purpose methods, and accumulated specialization. One method can serve several areas of use.
 
-В описании полезного способа сохраняются:
+A useful method's description preserves:
 
-- задача, ожидаемый результат и условия применения;
-- необходимые входы, средства и подготовка исполнителя;
-- действия, существенные связи, развилки и условия остановки;
-- основания: точные источники, редакции и доступный опыт;
-- способы проверки, наблюдавшиеся результаты и ограничения;
-- связи с другими методами и условия пересмотра.
+- the task, expected result, and conditions of use;
+- necessary inputs, means, and performer preparation;
+- actions, significant connections, branches, and stop conditions;
+- grounds: exact sources, editions, and available experience;
+- checking methods, observed results, and limits;
+- relationships with other methods and review conditions.
 
-Связи помогают соединять вклады и находить альтернативы. YAML-индекс ведёт к точному телу и редакции. Структурный индекс FPF отдельно помогает находить разделы оригинала; рекомендации по рабочим вопросам находятся во входах по задачам.
+Relationships help connect contributions and find alternatives. The YAML index leads to an exact body and edition. A separate structural FPF index helps locate sections in the original; recommendations by work question are in task entries.
 
-**Повторно полезный способ сохраняется с основаниями и пределами.** Факты проекта, поручения и отдельные выполнения остаются рабочими материалами. Разовое простое действие может завершиться результатом без новой записи MP. Пустой репертуар допускает начало работы по FPF и достаточным профессиональным знаниям.
+**A repeatedly useful method is retained with its grounds and limits.** Project facts, assignments, and individual executions remain working materials. A simple one-off action may finish with a result without a new MP entry. An empty repertoire permits starting work using FPF and sufficient professional knowledge.
 
-### Как репертуар развивается
+### How the repertoire develops
 
-DPF — Domain Principles Framework — может предоставляться как предметный источник связанных принципов и методов. Его полезные вклады учитываются при формировании способа; оригинальное происхождение сохраняется. Создание самостоятельного DPF имеет отдельный вход к каноническому методу FPF.
+A DPF—Domain Principles Framework—may be supplied as a domain source of connected principles and methods. Its useful contributions are considered when forming a method; original provenance is preserved. Creating a standalone DPF has a separate entry to the canonical FPF method.
 
-При изменении использованного описания прежняя редакция сохраняется. Агент готовит новую книгу, индекс и снимок, затем выполняет IE-M003 доступными средствами. Готовый Python helper использует **`activate`**; ограниченная альтернатива — файловая процедура одного согласованного участника записи. Обе требуют проверки до подключения, сохранения предыдущих файлов и сверки результата. Достаточно поручения через чат; специальной команды Human не требуется. Содержательную пригодность метода проверяют по задаче и результату его применения.
+When a used description changes, its previous edition is preserved. The agent prepares a new book, index, and snapshot, then performs IE-M003 using available means. The supplied Python helper uses **`activate`**; the bounded alternative is a file procedure with one agreed writer. Both require checking before activation, preservation of previous files, and result verification. An assignment through chat is sufficient; no special Human command is required. The substantive fitness of a method is checked against the task and its application result.
 
 <div style="break-after: page; page-break-after: always;"></div>
 
-## 3/3. Mini ConOps: от поручения до продолжения работы
+## 3/3. Mini ConOps: from assignment to continuation
 
-### Участие человека
+### Human participation
 
-В **S3** человек и агент совместно исследуют вопрос и принимают решения. В **S4** агенту делегирована самостоятельная работа в согласованных пределах. Человек сохраняет неделегированные решения о целях, существенных компромиссах и новых обязательствах. Обычные необходимые действия выполняются в пределах уже данного поручения.
+In **S3**, the person and agent jointly explore a question and make decisions. In **S4**, the agent is delegated autonomous work within agreed boundaries. The person retains undelegated decisions about goals, significant tradeoffs, and new commitments. Ordinary necessary actions are performed within the assignment already given.
 
-### Пример: изменение существующей CRM
+### Example: changing an existing CRM
 
-> Добавь сроки действия коммерческих предложений. Последний день срока включён. Старые принятые документы сохрани. Подготовь и проверь изменение в отдельной копии системы.
+> Add expiry dates to commercial proposals. The final day is included. Preserve old accepted documents. Prepare and check the change in a separate system copy.
 
-**1. Восстановить основу.** Агент читает поручение, действующие решения, доступные исходники и материалы продолжения. Устанавливает, как устроены предложения, редакции, права и данные. Уточняет только неизвестное, которое мешает ближайшему существенному решению: например, источник календарной даты или правило для старых черновиков.
+**1. Recover the basis.** The agent reads the assignment, current decisions, available sources, and continuation materials. It establishes how proposals, editions, permissions, and data work. It clarifies only unknowns that obstruct the next significant decision: for example, the calendar-date source or the rule for old drafts.
 
-**2. Определить нужное изменение и способ.** Требуемый результат связывается с моделью данных, серверными правилами, интерфейсом и историей документов. Через FPF и MP агент находит достаточные общие и прикладные способы. Существующая сериализация правок переиспользуется; правила срока и миграции получают необходимую адаптацию через DMG.
+**2. Determine the required change and method.** The required result is connected to the data model, server rules, interface, and document history. Through FPF and MP, the agent finds sufficient general and applied methods. Existing serialization of changes is reused; expiry and migration rules receive the necessary adaptation through DMG.
 
-**3. Выполнить разрешённую работу.** Агент сохраняет исходное состояние, готовит изменение в порученной копии и использует доступные инструменты ADE. Новые сведения могут изменить план. Если обязательного источника, средства или разрешения не хватает, зависимая часть удерживается, а полезная независимая работа продолжается.
+**3. Perform the authorized work.** The agent preserves the initial state, prepares the change in the assigned copy, and uses available ADE tools. New information can change the plan. If a mandatory source, means, or permission is missing, the dependent part is withheld while useful independent work continues.
 
-**4. Проверить результат для использования.** Проверяются граничные даты, неизменность принятых предложений, сохранность данных, права и конкурирующие операции. Обнаруженный дефект исправляется вместе с затронутыми основаниями; затем повторяются зависимые проверки. Подготовка и проверка копии завершаются передачей результата; подключение к действующей системе выполняется в пределах отдельного действующего поручения.
+**4. Check the result for use.** Boundary dates, immutability of accepted proposals, data preservation, permissions, and concurrent operations are checked. A discovered defect is corrected together with affected grounds; dependent checks are then repeated. Preparation and checking of the copy finish with delivery of the result; activation in the live system occurs within a separate current assignment.
 
-**5. Сохранить опыт и передать работу.** Повторно полезная адаптация становится новой редакцией местного метода. Сохраняются прежнее тело, основания проверок, ограничения и условия пересмотра. Передача включает выполненное, фактические эффекты, открытые вопросы и достаточные сведения для следующего исполнителя.
+**5. Preserve experience and hand over the work.** A repeatedly useful adaptation becomes a new edition of a local method. The previous body, checking grounds, limits, and review conditions are preserved. Handoff includes what was done, actual effects, open questions, and sufficient information for the next performer.
 
-Сценарий адаптируется к состоянию системы: действия могут совмещаться, повторяться или завершаться на уже достаточном результате. При новом требовании агент пересматривает затронутые решения и способы, сохраняя пригодные результаты.
+The scenario adapts to system state: actions can be combined, repeated, or finish at an already sufficient result. With a new requirement, the agent reviews affected decisions and methods while preserving applicable results.
 
-### Рабочая память и критерий успеха
+### Working memory and success criterion
 
-Входы размещаются в `project/source/`, справочные материалы — в `project/reference/`, результаты и основания проверки — в `project/artifacts/`, продолжение — в `project/handoff/`. Повторно полезные способы находятся в `methods/`. Сохраняется достаточная основа следующего действия; обязательный комплект документов для каждой задачи не требуется.
+Inputs go in `project/source/`, reference materials in `project/reference/`, results and checking grounds in `project/artifacts/`, and continuation in `project/handoff/`. Repeatedly useful methods are in `methods/`. Sufficient grounds for the next action are preserved; a mandatory document set for every task is not required.
 
-**Успех — пригодный результат в пределах мандата и при разумных общих затратах**, с понятными основаниями проверки и возможностью продолжения. AI-native-first означает готовность менять модели, инструменты и конкретные способы по мере развития возможностей, сохраняя цели человека и инженерную ответственность.
+**Success is a fit result within the mandate and at reasonable total cost**, with understandable checking grounds and the ability to continue. AI-native-first means readiness to change models, tools, and specific methods as capabilities develop while preserving human goals and engineering responsibility.
 
-*Основа описания: [ConOps iEWR](IEWR_CONOPS.md), [правила MethodPack](PROJECT_METHODS.md), [контроль подключения](METHODPACK_CHECK.md).*
+*Description basis: [iEWR ConOps](IEWR_CONOPS.md), [MethodPack rules](PROJECT_METHODS.md), [activation control](METHODPACK_CHECK.md).*
 
-Текущая работа iEWR и развитие проектного MP выполняются достаточными средствами ADE без обязательного Python; доступный подходящий helper переиспользуется. Смена редакции FPF относится к обслуживанию методологической основы: по поручению подключается готовая согласованная пара оригинала и индекса с происхождением и проверкой по [FPF_INDEX.md](FPF_INDEX.md). Локальная генерация индекса не является условием текущей работы.
+Current iEWR work and development of the project MP use sufficient ADE means without mandatory Python; an available suitable helper is reused. Changing the FPF edition is maintenance of the methodological basis: when assigned, a prepared coherent original/index pair is connected with provenance and checking according to [FPF_INDEX.md](FPF_INDEX.md). Local index generation is not a condition of current work.
 
-### Основания решений и готовности
+### Grounds for decisions and readiness
 
-Перед существенным решением агент восстанавливает достаточные основания и применяет выбранный исходный вклад FPF/MP; до вывода о готовности связывает существенные условия поручения с фактическим результатом и охватом проверки. Существующие достаточные записи используются повторно. Карточка CF, отдельная стадия и полный обход репертуара не обязательны. Вход для доработки — `change-basis` в navigation/task-entries.yaml. Это заявленное правило, а не технический запрет записи и не доказательство соблюдения всеми моделями.
+Before a significant decision, the agent recovers sufficient grounds and applies the selected original FPF/MP contribution; before a readiness conclusion, it connects significant assignment conditions to the actual result and checking coverage. Existing sufficient records are reused. A CF card, separate stage, and full repertoire traversal are not mandatory. The entry for modification is `change-basis` in navigation/task-entries.yaml. This is a declared rule, not a technical write prohibition or proof of compliance by every model.
