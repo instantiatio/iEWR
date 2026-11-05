@@ -1,0 +1,23 @@
+<header class="md-header site-header" data-md-component="header">
+  <div class="header-row container">
+    <a class="brand" href="{{ locale_root }}" aria-label="Instantiatio / iEWR" data-md-component="logo">
+      {% include "partials/logo.html" %}<span>Instantiatio<span class="brand-suffix"> / iEWR</span></span>
+    </a>
+    <div class="md-header__title site-native-title" data-md-component="header-title" aria-hidden="true"><div class="md-header__ellipsis"><div class="md-header__topic">{{ config.site_name }}</div><div class="md-header__topic" data-md-component="header-topic">{{ page.title }}</div></div></div>
+    <nav class="desktop-nav" aria-label="{{ 'Main navigation' if locale == 'eng' else 'Основная навигация' }}">
+      {% for item in site_navigation %}<a href="{{ item.url | url }}"{% if item.active %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+    </nav>
+    <div class="header-tools">
+      {% if 'material/search' in config.plugins %}
+        <label class="md-header__button md-icon site-search-button" for="__search" tabindex="0" role="button" aria-label="{{ lang.t('search') }}">
+          {% include ".icons/material/magnify.svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      {% endif %}
+      {% for alt in config.extra.alternate %}
+        <a class="md-select__link language-link" href="{{ alt.link }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}" title="{{ alt.name }}"{% if alt.lang == config.theme.language %} hidden aria-current="true"{% endif %}>{{ 'EN' if alt.lang == 'en' else 'RU' }}</a>
+      {% endfor %}
+      <label class="md-header__button site-menu-button" for="__drawer" tabindex="0" role="button" aria-label="{{ lang.t('nav') }}">{{ 'Menu' if locale == 'eng' else 'Меню' }}</label>
+    </div>
+  </div>
+</header>

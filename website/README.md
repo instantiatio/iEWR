@@ -5,6 +5,16 @@ English is primary at `/iEWR/eng/`; Russian is at `/iEWR/ru/`. The project root
 redirects to English. Both languages use identical paths, with equivalent-page
 language links rendered in HTML. Each language has its own search index and UI.
 
+The accepted **Blue Architecture / Formative Clarity** style uses a deep-blue
+Home introduction, a pale-blue practical action and light reading pages.
+`overrides/` extends Material rather than replacing its search, mobile drawer,
+code-copy controls or localized navigation. `hooks.py` groups the Home content
+for presentation without editing the Markdown. The build check compares the
+rendered article's words and order with those sources.
+
+Manrope is served locally; its OFL license and source hashes are in
+`assets/fonts/`. No remote font service is required.
+
 ## Build and check
 
 Use Python 3.14 in a virtual environment:

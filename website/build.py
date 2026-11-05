@@ -17,7 +17,7 @@ def main():
                 '--config-file', str(ROOT / f'mkdocs.{locale}.yml'),
                 '--site-dir', str(stage / locale),
             ], check=True, cwd=ROOT)
-        shutil.copytree(ROOT / 'assets', stage / 'assets')
+        shutil.copytree(ROOT / 'assets', stage / 'assets', ignore=shutil.ignore_patterns('.DS_Store', '._*'))
         (stage / '.nojekyll').touch()
         (stage / 'index.html').write_text('''<!doctype html>
 <html lang="en"><head><meta charset="utf-8">

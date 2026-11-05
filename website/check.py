@@ -8,6 +8,7 @@ import sys
 import zipfile
 
 from bs4 import BeautifulSoup
+import markdown
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://instantiatio.github.io/iEWR/'
@@ -59,6 +60,19 @@ def check(site):
             expected = BASE + locale + '/' + path
             if doc.html.get('lang') != code:
                 errors.append(f'{file}: wrong HTML language')
+            source = ROOT / 'docs' / locale / path / 'index.md'
+            text = re.sub(r'^---\n.*?\n---\n', '', source.read_text(), count=1, flags=re.S)
+            original = BeautifulSoup(markdown.markdown(text, extensions=['attr_list', 'tables', 'fenced_code', 'toc']), 'html.parser')
+            article = BeautifulSoup(str(doc.select_one('.md-content article')), 'html.parser')
+            for added in article.select('.eyebrow, .section-number, .headerlink'):
+                added.decompose()
+            tokenize = lambda value: re.findall(r'\w+|[^\w\s]', value, flags=re.UNICODE)
+            if tokenize(original.get_text(' ', strip=True)) != tokenize(article.get_text(' ', strip=True)):
+                errors.append(f'{file}: presentation changed content or its order')
+            if not doc.select_one('header .site-search-button') or not doc.select_one('.md-search[data-md-component="search"]'):
+                errors.append(f'{file}: missing native search')
+            if not doc.select_one('header .site-menu-button[for="__drawer"]'):
+                errors.append(f'{file}: missing native mobile menu')
             canonical = doc.find('link', rel='canonical')
             if not canonical or canonical.get('href') != expected:
                 errors.append(f'{file}: wrong canonical')

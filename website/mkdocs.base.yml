@@ -5,13 +5,14 @@ edit_uri: ''
 use_directory_urls: true
 theme:
   name: material
+  custom_dir: overrides
   language: en
   font: false
+  favicon: /iEWR/assets/favicon.svg
   palette:
     primary: white
     accent: indigo
   features:
-    - navigation.tabs
     - navigation.indexes
     - navigation.top
     - search.highlight
@@ -25,6 +26,8 @@ markdown_extensions:
       permalink: true
 extra_css:
   - /iEWR/assets/site.css
+extra_javascript:
+  - /iEWR/assets/site.js
 hooks:
   - hooks.py
 extra:

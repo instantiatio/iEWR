@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% set locale = locale | default('eng' if config.theme.language == 'en' else 'ru') %}
+{% set locale_root = locale_root | default('/iEWR/' ~ locale ~ '/') %}
+{% block extrahead %}
+  <link rel="preload" href="/iEWR/assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+{% endblock %}
+{% block site_nav %}
+  <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+    <div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner">
+      {% include "partials/nav.html" %}
+    </div></div>
+  </div>
+  {% if page and not page.is_homepage and page %}
+    <aside class="reading-rail">
+      {% if page.url.startswith('foundations/') %}
+        <a class="back-link" href="{{ locale_root }}foundations/">Foundations ↗</a>
+        <p class="rail-label">{{ 'Foundations' if locale == 'eng' else 'Основания' }}</p>
+        <nav class="foundation-nav" aria-label="{{ 'Foundations' if locale == 'eng' else 'Основания' }}">
+          {% for item in foundation_navigation %}
+            <a href="{{ item.url | url }}"{% if item.active %} aria-current="page"{% endif %}><span aria-hidden="true">{{ '%02d' | format(loop.index) }}</span>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      {% endif %}
+      {% if content_sections %}
+        <p class="rail-label toc-label">{{ lang.t('toc') }}</p>
+        <nav class="article-toc" aria-label="{{ lang.t('toc') }}">
+          {% for section in content_sections %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}
+        </nav>
+      {% endif %}
+    </aside>
+  {% endif %}
+{% endblock %}
+{% block container %}
+  <div class="md-content{% if page and page.is_homepage %} home-content{% endif %}" data-md-component="content" data-site-page="{{ page.url if page else "404.html" }}" data-site-locale="{{ locale }}">
+    <article class="md-content__inner md-typeset{% if page and not page.is_homepage %} prose{% endif %}{% if page and page.url == 'foundations/' %} foundations-index{% endif %}">
+      {% if page and not page.is_homepage %}<p class="eyebrow">Instantiatio{% if page.url.startswith('foundations/') %} / {{ 'Foundations' if locale == 'eng' else 'Основания' }}{% endif %}</p>{% endif %}
+      {% block content %}{% include "partials/content.html" %}{% endblock %}
+    </article>
+  </div>
+{% endblock %}
+{% block footer %}
+  <footer class="site-footer"><div class="container footer-row">
+    <a class="footer-brand" href="{{ locale_root }}">Instantiatio / iEWR</a>
+    <nav aria-label="{{ 'Project links' if locale == 'eng' else 'Ссылки проекта' }}">
+      <a href="https://github.com/instantiatio/iEWR">GitHub ↗</a>
+      <a href="https://t.me/instantiatio">Telegram ↗</a>
+      <a href="{{ locale_root }}try/">{{ 'Try iEWR' if locale == 'eng' else 'Попробовать iEWR' }} ↗</a>
+    </nav>
+  </div></footer>
+{% endblock %}
