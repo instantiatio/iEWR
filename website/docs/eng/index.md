@@ -14,7 +14,7 @@ iEWR — an AGENTS.md-based agent-native application. AI independently organizes
 
 ## Start with a task or a question
 
-You can begin with a rough idea. Describe the result you want; iEWR helps clarify the task, find suitable methods, and organize the work. You can ask it to explain its capabilities and how to use them in ordinary words.
+Open the iEWR folder in Codex or another compatible agent environment. You can begin with a rough idea. Describe the result you want; iEWR helps clarify the task, find suitable methods, and organize the work. You can ask it to explain its capabilities and how to use them in ordinary words.
 
 Project materials, decisions, results, checks, and unfinished work are kept in the project so another session can pick them up. Start with “What can you do?”, “Help me work through my task”, or “How can we continue this project?”.
 
@@ -22,9 +22,9 @@ Project materials, decisions, results, checks, and unfinished work are kept in t
 
 ## Where to use iEWR
 
-- **Apps, websites, and automation.** Create and improve software, with working code, interfaces, tests, and run instructions.
-- **Research and decisions.** Investigate a question, test hypotheses, compare alternatives, and prepare a reasoned choice.
-- **Systems and organizations.** Design or change an application, a technical system, a process, or how participants work together.
+- **Apps, websites, and automation.** Create and improve software, with working code, interfaces, tests, documentation, and run instructions.
+- **Research and decisions.** Investigate questions and data, test hypotheses, run calculations, and prepare a reasoned choice.
+- **Systems and organizations.** Design products, technical systems, processes, and how participants work together.
 - **People and AI working together.** Organize contributions, check results, and preserve the basis for continuation.
 
 **AI is not limited to the starting repertoire of methods.** It can find, adapt, or develop ways of doing the work and retain useful methods for later tasks.
