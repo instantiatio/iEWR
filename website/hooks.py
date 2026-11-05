@@ -22,19 +22,17 @@ def on_page_content(html, *, page, config, files):
     cut = next(i for i, node in enumerate(nodes) if getattr(node, 'name', None) == 'h2')
     intro = BeautifulSoup(''.join(str(x) for x in nodes[:cut]), 'html.parser')
     heading = intro.h1.extract()
-    if config.theme['language'] == 'en':
-        permalink = heading.select_one('.headerlink')
-        if permalink:
-            permalink.extract()
-        heading.clear()
-        heading.append('AI-native-first')
-        heading.append(intro.new_tag('br'))
-        engineering = intro.new_tag('span'); engineering.string = 'engineering'
-        heading.append(engineering)
-        if permalink:
-            heading.append(permalink)
-    else:
-        heading['class'] = ['russian-title']
+    permalink = heading.select_one('.headerlink')
+    if permalink:
+        permalink.extract()
+    heading.clear()
+    heading.append('AI-native-first')
+    heading.append(intro.new_tag('br'))
+    engineering = intro.new_tag('span')
+    engineering.string = 'engineering' if config.theme['language'] == 'en' else 'инженерия'
+    heading.append(engineering)
+    if permalink:
+        heading.append(permalink)
     paras = intro.find_all('p', recursive=False)
     actions = paras[-1].extract(); actions['class'] = ['hero-actions']
     body = ''.join(str(p) for p in paras[:-1])
