@@ -4,11 +4,19 @@ GEO CRM brings sales, stock, expense requests, and a 13-week liquidity forecast 
 
 ## From an assignment to a working CRM
 
-Build a local CRM for a company selling surveying equipment. Use Bitrix24 as the reference for interaction, research its interface independently, and deliver a working demonstration.
+### Assignment in brief
 
-The brief set the stack, the scope of the first release, and the main rules for sales and stock. The agent organized the interface research, architecture, implementation, and checks independently.
+> Build a local CRM for a company selling surveying equipment. Use Bitrix24 as the reference for interaction, research its interface independently, and deliver a working demonstration.
+>
+> The brief specifies the stack, the scope of the first release, and the main rules for sales and stock.
 
-The result included customers, deals, a sales kanban, stock reservations, and versioned quotations. The person set the direction and made the necessary domain decisions; AI turned those requirements into a connected application.
+### The agent's work
+
+The agent independently organized the interface research, architecture, implementation, and checks. The person set the direction and made the necessary domain decisions.
+
+### Result
+
+A connected application with customers, deals, a sales kanban, stock reservations, and versioned quotations.
 
 ![GEO CRM sales pipeline with demonstration deals](/iEWR/assets/geo-crm/01-sales-pipeline.jpg)
 

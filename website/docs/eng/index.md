@@ -46,4 +46,4 @@ Explore the ideas behind the work whenever you want to go deeper:
 - [Engineering Work Runtime](/iEWR/eng/foundations/ewr/)
 - [FPF and Dynamic Method Generation](/iEWR/eng/foundations/methods/)
 
-[Explore Foundations](/iEWR/eng/foundations/) · [About](/iEWR/eng/about/) · [Русский](/iEWR/ru/)
+[All foundations →](/iEWR/eng/foundations/){ .section-action }

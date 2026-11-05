@@ -46,4 +46,4 @@ iEWR — агентное приложение на основе AGENTS.md. AI �
 - [Engineering Work Runtime](/iEWR/ru/foundations/ewr/)
 - [FPF и Dynamic Method Generation](/iEWR/ru/foundations/methods/)
 
-[Перейти в Foundations](/iEWR/ru/foundations/) · [О проекте](/iEWR/ru/about/) · [English](/iEWR/eng/)
+[Все основания →](/iEWR/ru/foundations/){ .section-action }

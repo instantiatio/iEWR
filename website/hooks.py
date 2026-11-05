@@ -56,6 +56,9 @@ def on_page_content(html, *, page, config, files):
         elif current is not None:
             current.select_one('.section-body').append(node.extract())
     for section in sections:
+        # Keep list semantics when the editorial Home layout suppresses markers.
+        for listing in section.select('.section-body > ul'):
+            listing['role'] = 'list'
         images = section.find_all('img')
         if images:
             section['class'].append('case-section')
