@@ -1,7 +1,7 @@
 <header class="md-header site-header" data-md-component="header">
   <div class="header-row container">
     <a class="brand" href="{{ locale_root }}" aria-label="Instantiatio / iEWR" data-md-component="logo">
-      {% include "partials/logo.html" %}<span>Instantiatio<span class="brand-suffix"> / iEWR</span></span>
+      <img class="brand-mark" src="/iEWR/assets/logo/instantiatio.jpg" width="40" height="40" alt="" aria-hidden="true"><span>Instantiatio<span class="brand-suffix"> / iEWR</span></span>
     </a>
     <div class="md-header__title site-native-title" data-md-component="header-title" aria-hidden="true"><div class="md-header__ellipsis"><div class="md-header__topic">{{ config.site_name }}</div><div class="md-header__topic" data-md-component="header-topic">{{ page.title }}</div></div></div>
     <nav class="desktop-nav" aria-label="{{ 'Main navigation' if locale == 'eng' else 'Основная навигация' }}">

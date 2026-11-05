@@ -34,6 +34,7 @@ body { background:var(--paper); color:var(--ink); font:16px/1.65 var(--sans); }
 .site-header .header-row { padding:0; }
 .site-header .brand { margin:0; padding:0; }
 .site-header .brand svg { fill:currentColor; }
+.site-header .brand-mark { display:block; width:40px; height:40px; flex:none; object-fit:contain; }
 .site-header .md-header__button { margin:0; color:inherit; }
 .md-header .site-menu-button { display:none; font-size:12px; padding:9px 0; }
 .md-header .site-search-button { display:inline-flex; padding:8px; cursor:pointer; }
@@ -99,6 +100,7 @@ label[role=button]:focus-visible { outline:3px solid #2879e7; outline-offset:5px
   html { scroll-padding-top:95px; }
   .md-main__inner:not(:has(.home-content)) { width:calc(100% - 40px); padding:32px 0 55px; }
   .home-content .hero-actions .md-button { width:auto; min-width:190px; min-height:48px; font-size:14px!important; padding:12px 20px; }
+  .site-header .brand-mark { width:32px; height:32px; }
   .site-header .header-tools { gap:12px; }
   .site-search-button { padding:8px 4px; }
   .site-menu-button { font-size:11px; }
