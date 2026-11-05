@@ -1,0 +1,54 @@
+name: website-pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['website/**', '.github/workflows/website-pages.yml']
+  pull_request:
+    paths: ['website/**', '.github/workflows/website-pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: website/requirements.txt
+      - name: Install pinned website dependencies
+        run: python -m pip install -r website/requirements.txt
+      - name: Build EN and RU
+        run: python website/build.py
+      - name: Check links, language pairs, search and evidence
+        run: python website/check.py
+      - name: Upload checked Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: website/site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish checked artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

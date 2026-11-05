@@ -1,0 +1,107 @@
+"""Check the built project URLs, locale pairs, search, links and evidence."""
+from pathlib import Path
+from urllib.parse import urljoin, urlsplit, unquote
+import hashlib
+import json
+import re
+import sys
+import zipfile
+
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).resolve().parent
+BASE = 'https://instantiatio.github.io/iEWR/'
+PATHS = ('', 'try/', 'cases/', 'cases/geo-crm/', 'foundations/',
+         'foundations/instantiatio/', 'foundations/ai-native-first/',
+         'foundations/system-formation/', 'foundations/ewr/',
+         'foundations/methods/', 'how-iewr-works/', 'about/')
+PRIVATE = re.compile(r'/Users/[^\s<]+|/home/[^\s<]+|/private/(?:tmp|var)/[^\s<]+'
+                     r'|(?:github_pat_|ghp_|sk-proj-)[A-Za-z0-9_\-]+')
+
+
+def check(site):
+    errors, external = [], set()
+    documents = {}
+    for file in site.rglob('*.html'):
+        documents[file] = BeautifulSoup(file.read_text(), 'html.parser')
+    for file, doc in documents.items():
+        url = BASE + file.relative_to(site).as_posix().removesuffix('index.html')
+        for node in doc.select('[href], img[src], script[src]'):
+            ref = node.get('href', node.get('src', ''))
+            resolved = urlsplit(urljoin(url, ref))
+            if resolved.scheme not in ('http', 'https'):
+                continue
+            if resolved.netloc != urlsplit(BASE).netloc:
+                external.add(resolved._replace(fragment='').geturl())
+                continue
+            if not resolved.path.startswith('/iEWR/'):
+                errors.append(f'{file}: URL escapes project: {ref}')
+                continue
+            target = site / unquote(resolved.path.removeprefix('/iEWR/'))
+            if resolved.path.endswith('/'):
+                target = target / 'index.html'
+            if not target.is_file():
+                errors.append(f'{file}: missing {ref}')
+            elif resolved.fragment and target.suffix == '.html':
+                target_doc = documents.get(target)
+                if target_doc and not target_doc.find(id=unquote(resolved.fragment)):
+                    errors.append(f'{file}: missing anchor {ref}')
+        for img in doc.select('article img'):
+            if not img.get('alt'):
+                errors.append(f'{file}: image without alt text')
+    for locale, code in (('eng', 'en'), ('ru', 'ru')):
+        for path in PATHS:
+            file = site / locale / path / 'index.html'
+            doc = documents.get(file)
+            if doc is None:
+                errors.append(f'missing page {locale}/{path}')
+                continue
+            expected = BASE + locale + '/' + path
+            if doc.html.get('lang') != code:
+                errors.append(f'{file}: wrong HTML language')
+            canonical = doc.find('link', rel='canonical')
+            if not canonical or canonical.get('href') != expected:
+                errors.append(f'{file}: wrong canonical')
+            for other, other_code in (('eng', 'en'), ('ru', 'ru')):
+                link = doc.select_one(f'.md-select__link[hreflang="{other_code}"]')
+                if not link or link.get('href') != '/iEWR/' + other + '/' + path:
+                    errors.append(f'{file}: language switch loses page')
+        search = json.loads((site / locale / 'search/search_index.json').read_text())
+        found = {urlsplit(x['location']).path for x in search['docs']}
+        for path in PATHS:
+            if path not in found:
+                errors.append(f'{locale}: missing search document {path}')
+        if search['config']['lang'] != [code]:
+            errors.append(f'{locale}: wrong search language')
+    root = documents[site / 'index.html']
+    redirect = root.find('meta', attrs={'http-equiv': 'refresh'})
+    if not redirect or redirect.get('content') != '0; url=eng/':
+        errors.append('root does not redirect to English')
+    for file in site.rglob('*'):
+        if file.suffix in ('.html', '.json', '.xml', '.txt', '.css', '.js'):
+            if PRIVATE.search(file.read_text()):
+                errors.append(f'{file}: private path or token pattern')
+        elif file.suffix == '.zip':
+            with zipfile.ZipFile(file) as z:
+                if z.testzip():
+                    errors.append(f'{file}: failed ZIP CRC')
+                for name in z.namelist():
+                    if name.startswith('/') or '..' in Path(name).parts:
+                        errors.append(f'{file}: unsafe ZIP member {name}')
+                    if name.endswith(('.md', '.txt', '.json', '.xml', '.csv', '.py')):
+                        if PRIVATE.search(z.read(name).decode('utf-8')):
+                            errors.append(f'{file}: private path or token in {name}')
+    manifest = json.loads((ROOT / 'evidence-manifest.json').read_text())
+    for relative, digest in manifest.items():
+        file = site / relative
+        if hashlib.sha256(file.read_bytes()).hexdigest() != digest:
+            errors.append(f'{relative}: evidence bytes changed')
+    return {'pages': 24, 'html_documents': len(documents),
+            'evidence_files': len(manifest), 'errors': errors,
+            'external_urls': sorted(external)}
+
+
+if __name__ == '__main__':
+    result = check(ROOT / 'site')
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    sys.exit(bool(result['errors']))

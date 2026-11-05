@@ -1,0 +1,10 @@
+/* Neutral first edition. Keep the practical entry visible and text readable. */
+.md-typeset { font-size: .85rem; line-height: 1.65; }
+.md-typeset h1 { color: var(--md-default-fg-color); }
+.md-typeset img { height: auto; border: 1px solid var(--md-default-fg-color--lightest); }
+.md-content { max-width: 52rem; }
+.md-typeset .md-button { margin-bottom: .35rem; }
+@media (max-width: 44.9375em) {
+  .md-typeset { font-size: .8rem; }
+  .md-typeset .md-button { padding: .45em 1em; }
+}

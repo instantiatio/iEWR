@@ -1,0 +1,37 @@
+site_name: Instantiatio / iEWR
+repo_url: https://github.com/instantiatio/iEWR
+repo_name: instantiatio/iEWR
+edit_uri: ''
+use_directory_urls: true
+theme:
+  name: material
+  language: en
+  font: false
+  palette:
+    primary: white
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+markdown_extensions:
+  - attr_list
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+extra_css:
+  - /iEWR/assets/site.css
+hooks:
+  - hooks.py
+extra:
+  alternate:
+    - name: English
+      link: /iEWR/eng/
+      lang: en
+    - name: Русский
+      link: /iEWR/ru/
+      lang: ru

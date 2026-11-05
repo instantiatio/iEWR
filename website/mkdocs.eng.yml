@@ -1,0 +1,24 @@
+INHERIT: mkdocs.base.yml
+site_url: https://instantiatio.github.io/iEWR/eng/
+site_description: AI-native-first engineering. People define goals and accept results; AI organizes and performs the work. Try iEWR.
+docs_dir: docs/eng
+theme:
+  language: en
+plugins:
+  - search:
+      lang: en
+nav:
+  - Home: index.md
+  - Try iEWR: try/index.md
+  - Cases & Experiments:
+      - cases/index.md
+      - GEO CRM: cases/geo-crm/index.md
+  - Foundations:
+      - foundations/index.md
+      - Instantiatio: foundations/instantiatio/index.md
+      - AI-native-first: foundations/ai-native-first/index.md
+      - System Formation: foundations/system-formation/index.md
+      - Engineering Work Runtime: foundations/ewr/index.md
+      - FPF, DMG & MethodPack: foundations/methods/index.md
+  - How iEWR works: how-iewr-works/index.md
+  - About: about/index.md
