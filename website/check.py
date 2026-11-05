@@ -58,6 +58,10 @@ def check(site):
                 errors.append(f'missing page {locale}/{path}')
                 continue
             expected = BASE + locale + '/' + path
+            if path == 'cases/geo-crm/' and any(
+                    urlsplit(a['href']).path.lower().endswith('.zip')
+                    for a in doc.select('article a[href]')):
+                errors.append(f'{file}: GEO CRM evidence must be PDF, not ZIP')
             if doc.html.get('lang') != code:
                 errors.append(f'{file}: wrong HTML language')
             source = ROOT / 'docs' / locale / path / 'index.md'
@@ -107,6 +111,8 @@ def check(site):
                     if name.endswith(('.md', '.txt', '.json', '.xml', '.csv', '.py')):
                         if PRIVATE.search(z.read(name).decode('utf-8')):
                             errors.append(f'{file}: private path or token in {name}')
+    if (site / 'assets/geo-crm-evidence.zip').exists():
+        errors.append('GEO CRM evidence ZIP must not be published')
     manifest = json.loads((ROOT / 'evidence-manifest.json').read_text())
     for relative, digest in manifest.items():
         file = site / relative

@@ -2,9 +2,9 @@
 
 The task, the work performed, the result, and its checks make an experiment useful to others. The materials below connect assignments to results, checks, and conditions.
 
-## GEO CRM: an integrated demonstration system
+## GEO CRM: one project across agent environments
 
-Customers, deals, quotations, stock, expense requests, and LIQ-13 work in one local application. GEO CRM 1.2.3-demo was checked with iEWR 7.0.0: 33 tests, a connected business scenario, and arithmetic verification of 182 daily rows.
+From a local CRM assignment to sales, stock, expense requests, and liquidity modelling in one application. Development continued through **Codex → DeepSeek Harness → Codex**; the saved context also supported two finance guides. The current 1.3.1-demo report records 36 tests, a connected business scenario, and an independent cash-flow calculation.
 
 [Read the GEO CRM case and view the screenshots](/iEWR/eng/cases/geo-crm/).
 

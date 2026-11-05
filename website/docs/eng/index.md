@@ -26,15 +26,15 @@ Download and extract iEWR. Open the folder in an AI agent environment with acces
 
 ## GEO CRM: sales, stock, and liquidity
 
-An AI-developed demonstration CRM connects customers, deals, versioned quotations, stock, expenses, and a 13-week liquidity model. The report reran 33 tests and checked a scenario from a new customer through shipment and an expense request to the cash forecast.
+A local CRM grew into a connected sales and finance application through **Codex → DeepSeek Harness → Codex**. AI implemented stock handling, quotations, expense requests, and a 13-week liquidity model; the saved project context also supported two illustrated finance guides.
 
-![GEO CRM sales pipeline](/iEWR/assets/geo-crm/01-kanban.jpg)
+![GEO CRM sales pipeline](/iEWR/assets/geo-crm/01-sales-pipeline.jpg)
 
-![GEO CRM liquidity scenario with a 30-day delay](/iEWR/assets/geo-crm/07-liquidity-delay30.jpg)
+![GEO CRM liquidity scenario with a 30-day delay](/iEWR/assets/geo-crm/09-liquidity-delay30.jpg)
 
-*GEO CRM 1.2.3-demo, checked with iEWR 7.0.0. The current screenshots show the Russian interface and synthetic data.*
+*GEO CRM 1.3.1-demo · iEWR 7.0.0. English interface, synthetic GBP data. The report records 36 tests and a connected sales-to-forecast scenario.*
 
-[Read the GEO CRM case and checks](/iEWR/eng/cases/geo-crm/)
+[Read how the system was built and checked](/iEWR/eng/cases/geo-crm/)
 
 ## Explore the foundations
 
