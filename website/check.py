@@ -73,6 +73,8 @@ def check(site):
                 errors.append(f'{file}: missing native search')
             if not doc.select_one('header .site-menu-button[for="__drawer"]'):
                 errors.append(f'{file}: missing native mobile menu')
+            if (site / locale / path / 'sitemap.xml').read_bytes() != (site / locale / 'sitemap.xml').read_bytes():
+                errors.append(f'{file}: translation sitemap discovery differs from locale sitemap')
             canonical = doc.find('link', rel='canonical')
             if not canonical or canonical.get('href') != expected:
                 errors.append(f'{file}: wrong canonical')

@@ -15,7 +15,7 @@
         {% include "partials/search.html" %}
       {% endif %}
       {% for alt in config.extra.alternate %}
-        <a class="md-select__link language-link" href="{{ alt.link }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}" title="{{ alt.name }}"{% if alt.lang == config.theme.language %} hidden aria-current="true"{% endif %}>{{ 'EN' if alt.lang == 'en' else 'RU' }}</a>
+        <a class="md-select__link language-link" href="{{ alt.link }}" hreflang="{{ alt.lang }}" lang="{{ alt.lang }}" title="{{ alt.name }}" target="_self"{% if alt.lang == config.theme.language %} hidden aria-current="true"{% endif %}>{{ 'EN' if alt.lang == 'en' else 'RU' }}</a>
       {% endfor %}
       <label class="md-header__button site-menu-button" for="__drawer" tabindex="0" role="button" aria-label="{{ lang.t('nav') }}">{{ 'Menu' if locale == 'eng' else 'Меню' }}</label>
     </div>

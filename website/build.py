@@ -17,6 +17,13 @@ def main():
                 '--config-file', str(ROOT / f'mkdocs.{locale}.yml'),
                 '--site-dir', str(stage / locale),
             ], check=True, cwd=ROOT)
+            # Material 9.8 discovers translations from each head alternate URL.
+            # Our alternates identify the exact translated page, so expose the
+            # locale sitemap there too. Direct language links need no JS rewrite.
+            locale_site = stage / locale
+            for page in locale_site.rglob('index.html'):
+                if page.parent != locale_site:
+                    shutil.copyfile(locale_site / 'sitemap.xml', page.parent / 'sitemap.xml')
         shutil.copytree(ROOT / 'assets', stage / 'assets', ignore=shutil.ignore_patterns('.DS_Store', '._*'))
         (stage / '.nojekyll').touch()
         (stage / 'index.html').write_text('''<!doctype html>
