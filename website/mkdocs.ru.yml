@@ -10,6 +10,7 @@ plugins:
 nav:
   - Главная: index.md
   - Попробовать iEWR: try/index.md
+  - Применение: applications/index.md
   - Кейсы и эксперименты:
       - cases/index.md
       - GEO CRM: cases/geo-crm/index.md
@@ -20,5 +21,4 @@ nav:
       - System Formation: foundations/system-formation/index.md
       - Engineering Work Runtime: foundations/ewr/index.md
       - FPF, DMG и MethodPack: foundations/methods/index.md
-  - Как работает iEWR: how-iewr-works/index.md
   - О проекте: about/index.md

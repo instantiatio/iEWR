@@ -6,23 +6,29 @@ hide:
 
 # AI-native-first engineering
 
-Instantiatio is a research programme on AI-native-first ways of working. People define goals, judge value, and accept results.
+Instantiatio is a research programme on AI-native-first work. People set goals, judge value, and accept results.
 
-iEWR — an AGENTS.md-based agent-native application. AI independently organizes and performs engineering work assigned by a person.
+iEWR — an AGENTS.md-based agent-native application. AI independently organizes, performs, and checks engineering work while maintaining the project context.
 
 [Try iEWR](/iEWR/eng/try/){ .md-button .md-button--primary } · [Download 7.0.6 Eternal Alpha](https://github.com/instantiatio/iEWR/releases/download/7.0.6/iEWR-7.0.6-Eternal-Alpha.zip)
 
-## Get started
+## Start with a task or a question
 
-Download and extract iEWR. Open the folder in an AI agent environment with access to files and commands. Describe the result you need and the bounds of independent work.
+You can begin with a rough idea. Describe the result you want; iEWR helps clarify the task, find suitable methods, and organize the work. You can ask it to explain its capabilities and how to use them in ordinary words.
 
-[Try iEWR](/iEWR/eng/try/) includes the requirements, setup steps, and a ready-to-use first assignment. You can think through decisions together or delegate the work. See [How iEWR works](/iEWR/eng/how-iewr-works/) for the environment's organization.
+Project materials, decisions, results, checks, and unfinished work are kept in the project so another session can pick them up. Start with “What can you do?”, “Help me work through my task”, or “How can we continue this project?”.
 
-## What you can do with iEWR
+[Try iEWR](/iEWR/eng/try/) covers download, startup, and a checked first experiment. [How iEWR works](/iEWR/eng/how-iewr-works/) explains the working arrangement.
 
-- **Build and improve software.** Create a utility or application, add a feature, or change an existing system.
-- **Investigate a question.** Examine sources, compare options, and prepare a reasoned decision.
-- **Develop an engineering solution.** Clarify how a system should work, connect its parts, and define how to check the result.
+## Where to use iEWR
+
+- **Research and decisions.** Investigate a question, test hypotheses, compare alternatives, and prepare a reasoned choice.
+- **Systems and organizations.** Design or change an application, a technical system, a process, or how participants work together.
+- **People and AI working together.** Organize contributions, check results, and preserve the basis for continuation.
+
+**AI is not limited to the starting repertoire of methods.** It can find, adapt, or develop ways of doing the work and retain useful methods for later tasks.
+
+[Explore applications →](/iEWR/eng/applications/){ .section-action }
 
 ## GEO CRM: sales, stock, and liquidity
 

@@ -12,7 +12,7 @@ import markdown
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://instantiatio.github.io/iEWR/'
-PATHS = ('', 'try/', 'cases/', 'cases/geo-crm/', 'foundations/',
+PATHS = ('', 'try/', 'applications/', 'cases/', 'cases/geo-crm/', 'foundations/',
          'foundations/instantiatio/', 'foundations/ai-native-first/',
          'foundations/system-formation/', 'foundations/ewr/',
          'foundations/methods/', 'how-iewr-works/', 'about/')
@@ -118,7 +118,7 @@ def check(site):
         file = site / relative
         if hashlib.sha256(file.read_bytes()).hexdigest() != digest:
             errors.append(f'{relative}: evidence bytes changed')
-    return {'pages': 24, 'html_documents': len(documents),
+    return {'pages': 2 * len(PATHS), 'html_documents': len(documents),
             'evidence_files': len(manifest), 'errors': errors,
             'external_urls': sorted(external)}
 

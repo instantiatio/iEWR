@@ -1,6 +1,6 @@
 # Try iEWR
 
-Give AI a small engineering assignment and inspect a working result. You set the goal and acceptance conditions; AI chooses how to organize and perform the work.
+Start with a question, a rough idea, or an engineering assignment. iEWR helps clarify the result, organize the work, and check what has been achieved. You can learn how to use it by asking the agent in ordinary words.
 
 iEWR 7.0.6 Eternal Alpha runs in your agent environment. Start your agent in the extracted folder. You can try it without reading Foundations.
 
@@ -8,7 +8,6 @@ iEWR 7.0.6 Eternal Alpha runs in your agent environment. Start your agent in the
 
 - An installed, signed-in agent environment that can read and write local files and run commands. Codex CLI is the concrete route used for this check; a basic chat without file and execution access is insufficient.
 - Access to the agent's model service, according to its account and network requirements. Model usage follows that service's terms and limits.
-- Python 3 for this particular experiment. The tool uses the standard library; no additional packages or application server are required. Python is not a general requirement for using iEWR.
 
 ## Download
 
@@ -24,11 +23,29 @@ Start a new agent conversation with that folder as its workspace. In an already 
 codex --cd "/path/to/iEWR-7.0.6-Eternal Alpha"
 ```
 
-Replace the path with the extracted folder's actual location. Keep quotes around a path containing spaces. Allow the local file operations and Python commands needed by this exercise. No publication or external-system access is needed.
+Replace the path with the extracted folder's actual location. Keep quotes around a path containing spaces. For the prepared experiment below, allow the necessary local file operations and Python commands. It needs no publication or external-system access.
+
+## Your first message
+
+Once the agent is running in the iEWR folder, you can write:
+
+- “What can you do?”
+- “Help me work through my task.”
+- “How can we continue this project?”
+
+These are examples, not special commands. You do not need to know the internal architecture, select methods, or design an agent workflow before starting. Describe as much of the desired result as you know; the agent can ask for what is missing, explain the possibilities, and suggest a useful next step. You retain goals, important decisions, and acceptance of the result.
+
+### Returning to an existing project
+
+Open the same project folder and start a new conversation. Ask the agent to recover the current aim, results, decisions, checks, and unfinished work, then discuss or assign the next step. Keep the project files when moving to another session or compatible agent environment: they carry the continuation basis.
+
+If you want a prepared experiment with known expected results, use the assignment below. For your own work, you can go directly to [your task](#continue-with-your-own-task). See [Applications](/iEWR/eng/applications/) for examples beyond software.
 
 ## Give the assignment
 
-This experiment builds a quotation-expiry checker. It includes an exact final-day boundary and invalid dates, so you can assess more than whether a program starts.
+This checked experiment builds a quotation-expiry checker. It includes an exact final-day boundary and invalid dates, so you can assess more than whether a program starts.
+
+It requires Python 3 and uses only the standard library. Python is not a general requirement for questions or other work in iEWR.
 
 Copy the following assignment into the new conversation:
 
@@ -75,6 +92,8 @@ Describe the result you need, why it matters, constraints, and what AI may do in
 For background, explore [Foundations](/iEWR/eng/foundations/). See [How iEWR works](/iEWR/eng/how-iewr-works/) and the [case and evidence](/iEWR/eng/cases/). For current implementation and limitations, see the [README](https://github.com/instantiatio/iEWR/blob/7.0.6/README.md) and [release status](https://github.com/instantiatio/iEWR/blob/7.0.6/STATUS.md).
 
 ## Verification scope
+
+A separate question-led check used two fresh CLI sessions in a new 7.0.6 folder. An approximate idea in English led to a project brief and a continuation record created by the agent; a new session in Russian recovered the goal, result, and open decisions from those files without the previous conversation. This checked local entry and continuation on the same host and account.
 
 One English-language automated Codex CLI run completed this assignment in a newly extracted 7.0.6 folder on macOS, using Python 3.14.6. The output and tests were rerun separately; all six expected rows matched. Account setup, manual interactive startup, other agent environments and operating systems, and a separate Russian-language run were not tested.
 

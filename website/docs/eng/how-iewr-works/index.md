@@ -6,6 +6,12 @@ You specify the result, its purpose, and the bounds of independent action. AI in
 
 It supports software development and change, engineering concepts and solutions, research, comparison of alternatives, and preparation of reasoned decisions. [Try iEWR](/iEWR/eng/try/) provides a first assignment and the setup route.
 
+## You can begin with an unfinished idea
+
+You do not need to design the agent's workflow or choose its methods. Describe the result you want, even approximately, or ask for help understanding the problem. iEWR can clarify the intended use, identify the work needed, obtain a suitable method, carry out the assignment, and check the result.
+
+You can also ask it to explain its own capabilities, organization, or next steps. [Try iEWR](/iEWR/eng/try/) shows ordinary first messages and a checked experiment; [Applications](/iEWR/eng/applications/) describes the wider range of work.
+
 ## Your contribution and the agent's work
 
 You define intent, value, important constraints, and the decisions you retain. You assess the result and decide whether to accept it. You can think through a question together with AI or delegate a result within agreed bounds.
@@ -46,13 +52,21 @@ These functions are used according to the task. They are not seven mandatory sta
 
 For a new method choice, the agent checks for a sufficient FPF contribution, then the applied detail needed from MethodPack. DMG supplies what remains missing through adaptation or construction. Already established sufficient grounds are reused.
 
+The supplied repertoire is a starting point. Within the assignment, the agent can obtain missing knowledge from professional sources, including the internet through available tools, adapt a suitable method, or construct and check what is missing. You do not need to commission each method separately. Useful contributions are retained in MethodPack for later tasks with their conditions and checking grounds.
+
 The supplied MethodPack contains 37 candidate descriptions. Their purpose, conditions, and checking grounds determine their use. See the [method catalog](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_CATALOG.md) and [FPF, DMG, and MethodPack](/iEWR/eng/foundations/methods/).
+
+## Context that continues with the project
+
+The agent organizes working materials and maintains the basis for continuation as the project changes. You do not need to design a separate context-storage system. Inputs belong in `project/source/`, results and checking materials in `project/artifacts/`, and continuation materials in `project/handoff/`.
+
+Useful records connect the current assignment, decisions, source editions, obtained results, checks, unfinished work, and next questions. In a new session, the agent recovers the relevant state from these files and checks what still applies. Ask “How can we continue this project?” and then discuss or assign the next contribution.
+
+The project folder carries this basis between sessions. In the [GEO CRM case](/iEWR/eng/cases/geo-crm/), preserved context supported the observed Codex → DeepSeek Harness → Codex continuation and subsequent finance guides. The current instruction determines what to do next; a saved proposal does not become a new assignment on its own.
 
 ## Check and continue
 
 The agent compares the actual result with the assigned use and criteria. A discovered problem can return the work to a requirement, assumption, method, implementation, or check. Passing tests is evidence about the properties those tests observe.
-
-Inputs belong in `project/source/`, results and checking materials in `project/artifacts/`, and continuation materials in `project/handoff/`. The saved state connects the current assignment, decisions, editions, completed work, effects, and next questions. It enables continuation after a break or handoff.
 
 The actual configuration determines available tools and access. Instructions guide the agent; technical protection is supplied by the ADE and connected systems where needed. [STATUS 7.0.6](https://github.com/instantiatio/iEWR/blob/7.0.6/STATUS.md) records release verification, and [Cases & Experiments](/iEWR/eng/cases/) provides a checked application.
 
