@@ -1,8 +1,16 @@
 # Applications
 
-Use iEWR to investigate a question, develop a solution, or organize the work needed to change a system. That system can be an application, a technical product, an organization, a process, or a method.
+Use iEWR to build apps, websites, and automation, investigate questions, prepare decisions, or organize the work needed to change a system. That system can be an application, a technical product, an organization, a process, or a method.
 
-The six directions below describe uses and possible results. [Cases & Experiments](/iEWR/eng/cases/) records work actually performed and the scope of its checks. You can begin with an ordinary question in [Try iEWR](/iEWR/eng/try/); choosing a direction here is optional.
+The directions below describe uses and possible results. [Cases & Experiments](/iEWR/eng/cases/) records work actually performed and the scope of its checks. You can begin with an ordinary question in [Try iEWR](/iEWR/eng/try/); choosing a direction here is optional.
+
+## Apps, websites, and automation {#software}
+
+**An assignment:** “Create a working application or website for this idea. Implement the code, interface, and data it needs, check the result, and prepare the run instructions.”
+
+This includes new software, development of an existing product, websites, APIs, scripts, and workflow automation. Depending on the task, the work covers implementation design, coding, interfaces, tests, debugging, documentation, and preparation for deployment.
+
+The [GEO CRM case](/iEWR/eng/cases/geo-crm/) shows a connected application developed through successive assignments. [Try iEWR](/iEWR/eng/try/) includes a checked coding experiment with explicit expected results.
 
 ## Research lab
 

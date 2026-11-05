@@ -22,6 +22,7 @@ Project materials, decisions, results, checks, and unfinished work are kept in t
 
 ## Where to use iEWR
 
+- **Apps, websites, and automation.** Create and improve software, with working code, interfaces, tests, and run instructions.
 - **Research and decisions.** Investigate a question, test hypotheses, compare alternatives, and prepare a reasoned choice.
 - **Systems and organizations.** Design or change an application, a technical system, a process, or how participants work together.
 - **People and AI working together.** Organize contributions, check results, and preserve the basis for continuation.
