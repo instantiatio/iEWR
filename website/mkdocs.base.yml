@@ -8,7 +8,7 @@ theme:
   custom_dir: overrides
   language: en
   font: false
-  favicon: /iEWR/assets/favicon.svg
+  favicon: /iEWR/assets/favicon-instantiatio-32.png
   palette:
     primary: white
     accent: indigo

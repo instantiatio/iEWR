@@ -2,6 +2,7 @@
 {% set locale = locale | default('eng' if config.theme.language == 'en' else 'ru') %}
 {% set locale_root = locale_root | default('/iEWR/' ~ locale ~ '/') %}
 {% block extrahead %}
+  <link rel="icon" href="/iEWR/assets/favicon-instantiatio.svg" type="image/svg+xml" sizes="any">
   <link rel="preload" href="/iEWR/assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
 {% endblock %}
 {% block site_nav %}
