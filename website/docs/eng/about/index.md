@@ -6,7 +6,7 @@ The programme connects the [nine AI-native-first principles](/iEWR/eng/foundatio
 
 ## iEWR in practice
 
-iEWR is the programme's working engineering environment. Its instructions, methodology, methods, and project resources enable an agent to determine the necessary work, perform it, check results, and continue across sessions.
+iEWR is the programme's practical implementation: an application for organizing and performing engineering work with AI. [How iEWR works](/iEWR/eng/how-iewr-works/) explains its structure and execution environment.
 
 This site describes **iEWR 7.0.6 Eternal Alpha**. [Try iEWR](/iEWR/eng/try/) is the practical entry; [Cases & Experiments](/iEWR/eng/cases/) connects work to results and checks. Foundations provides optional full conceptual materials.
 

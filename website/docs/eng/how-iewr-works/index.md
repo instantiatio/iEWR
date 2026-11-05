@@ -1,6 +1,8 @@
 # How iEWR works
 
-**iEWR is an engineering environment in which AI independently organizes and performs work assigned by a person.** You specify the result, its purpose, and the bounds of independent action. The agent determines the necessary work, selects methods, executes the assignment, and checks the outcome.
+**iEWR — an AGENTS.md-based agent-native application.** It is not a separate AI model or an agent platform. It runs using the capabilities of Codex or another compatible agent environment.
+
+You specify the result, its purpose, and the bounds of independent action. AI independently organizes and performs the engineering work: the agent determines what is needed, selects methods, executes the assignment, and checks the outcome.
 
 It supports software development and change, engineering concepts and solutions, research, comparison of alternatives, and preparation of reasoned decisions. [Try iEWR](/iEWR/eng/try/) provides a first assignment and the setup route.
 
@@ -14,17 +16,15 @@ iEWR calls joint thinking **S3** and delegated work **S4**. These describe parti
 
 ## What you open
 
-The 7.0.6 distribution contains instructions, methodology, applied methods, navigation, and project directories. Your agent environment supplies files, commands, computation, and other available tools.
+AGENTS.md is the entry point. The 7.0.6 application includes instructions, FPF, MethodPack, and resources for organizing engineering work: navigation, project directories, checks, and continuation materials. Your agent environment supplies file access, commands, computation, and other available tools.
 
 | Part | Role |
 |---|---|
-| Instructions | Connect the environment, current task, working rules, and sources |
+| AGENTS.md and connected instructions | Connect the application, current task, working rules, and sources |
 | FPF | General concepts, principles, and methods |
 | MethodPack | Applied methods and accumulated specialization |
 | Agent environment (ADE) | Execution tools, access, and technical boundaries |
 | Project files | Inputs, decisions, results, checks, and continuation materials |
-
-The working combination is **Instructions + FPF + MethodPack**, used by AI through the available ADE. iEWR does not require a separate universal software engine.
 
 ## How the work is organized
 

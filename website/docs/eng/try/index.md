@@ -2,7 +2,7 @@
 
 Give AI a small engineering assignment and inspect a working result. You set the goal and acceptance conditions; AI chooses how to organize and perform the work.
 
-iEWR 7.0.6 Eternal Alpha is a research environment: instructions, methods, and project files used by an AI agent. Start your agent in the extracted folder. You can try it without reading Foundations.
+iEWR 7.0.6 Eternal Alpha runs in your agent environment. Start your agent in the extracted folder. You can try it without reading Foundations.
 
 ## Requirements
 
