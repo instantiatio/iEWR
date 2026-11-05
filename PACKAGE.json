@@ -1,9 +1,9 @@
 {
   "id": "iEWR",
   "name": "iEWR",
-  "version": "7.0.5",
+  "version": "7.0.6",
   "research_stage": "Eternal Alpha",
-  "display_name": "iEWR 7.0.5 Eternal Alpha",
+  "display_name": "iEWR 7.0.6 Eternal Alpha",
   "status": "research_release",
   "public_release": true,
   "publication_authorized": true,
@@ -14,12 +14,12 @@
   "ConOps": "docs/IEWR_CONOPS.md",
   "mini_ConOps": "docs/MINI_CONOPS.md",
   "method_catalog": "docs/METHOD_CATALOG.md",
-  "current_pack_edition": "base-v3.15",
+  "current_pack_edition": "base-v3.16",
   "active_method_descriptions": 37,
   "FPF": "external-sources/fpf/SOURCE.json",
   "methodpack_control": "tools/methodpack.py",
   "inventory": "INSTALLATION.json",
-  "change_scope": "English migration of active iEWR instructions, documentation, method descriptions and navigation; method identities and architecture retained.",
+  "change_scope": "Reconcile the 18 established DPF families with pinned author sources; refine English applied descriptions, restore supported losses, preserve local improvements and installed FPF.",
   "project_application_history": "empty",
   "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
   "repository": {
@@ -35,12 +35,12 @@
   },
   "source_edition": {
     "kind": "published_release",
-    "version": "7.0.4",
-    "archive_name": "iEWR-7.0.4-Eternal-Alpha.zip",
-    "archive_sha256": "71e7087d5195d995a2b06e3d31720acb56c3a6a98d88df2e965b28e1e6c277c0",
-    "tag": "7.0.4",
-    "commit": "4afee1f1d36eebf39470736b9b9f43714c2145af",
-    "role": "Exact immediate basis: published 7.0.4 with MP base-v3.14; verified installed distribution matches the published archive."
+    "version": "7.0.5",
+    "archive_name": "iEWR-7.0.5-Eternal-Alpha.zip",
+    "archive_sha256": "6e5d3f8881a21e0fd9080af807bc14d63ced46f605b94d66971cc429ba248245",
+    "tag": "7.0.5",
+    "commit": "846b31d302165e800e7df8d8a18c7a94a40d9555",
+    "role": "Exact immediate basis: published 7.0.5 with MP base-v3.15; preserved before this candidate preparation."
   },
   "portability_assessment": "docs/PORTABILITY.md",
   "methodpack_update_method": "IE-M003@v1.9",
@@ -53,10 +53,10 @@
     "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
     "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
   },
-  "distribution_root": "iEWR-7.0.5-Eternal Alpha",
+  "distribution_root": "iEWR-7.0.6-Eternal Alpha",
   "release": {
-    "tag": "7.0.5",
-    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.5",
+    "tag": "7.0.6",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.6",
     "prerelease": false,
     "latest": true
   },
@@ -66,5 +66,6 @@
     "project_artifacts": "Task and recipient requirements",
     "model_reasoning_language": "Not prescribed",
     "exceptions": "Immutable historical materials, external originals, license texts, user data"
-  }
+  },
+  "source_reconciliation": "docs/SOURCE_RECONCILIATION.md"
 }

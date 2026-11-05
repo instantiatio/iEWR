@@ -1,19 +1,11 @@
-# iEWR 7.0.5 Eternal Alpha
+# iEWR 7.0.6 Eternal Alpha
 
-Prepared from published iEWR 7.0.4 Eternal Alpha. Human authorized publication as Latest, updating main, and local activation on 5 November 2026.
+Prepared from published iEWR 7.0.5. Human authorized GitHub publication as Latest, updating main, and local activation on 5 November 2026. Publication does not expand the evidence or source rights described below. The agreed purpose, getting started and transfer procedure remain in [README.md](README.md).
 
-The environment's purpose, getting started, and project transfer procedure are in [README.md](README.md).
+The 18 established DPF families were compared with pinned author editions. English applied descriptions now incorporate supported source refinements directly and correct identified earlier adaptation/translation losses. This includes conditional event modelling and utility elicitation, goal/provision inquiry, shared capability conditions, operational knowledge upkeep and semantic integration construction. Earlier research, reserve-use, security, software and text-editing conditions were restored or clarified while retaining adequate local improvements.
 
-## Changes
+MP base-v3.16 keeps 37 candidate IDs. Twenty-five descriptions receive new editions; twelve bodies remain unchanged. Six newly used source contributions are registered: SYSE.54, PSDA.20, OPS.11.1, OPS.17, STR.6 and SIE.13. Historical pairs base-v3.10, base-v3.14 and base-v3.15 remain exact. Retained IDs express candidate lineage; changed semantics do not automatically inherit earlier qualification.
 
-- English becomes the primary language of active iEWR instructions, architecture and ConOps, documentation, MethodPack descriptions, and navigation metadata.
-- Communication follows the user's language. The task and recipient determine project-artifact language. The environment does not prescribe an LLM's internal reasoning language.
-- All 37 method identities remain. Translated descriptions receive new editions in MP base-v3.15; the prior base-v3.10 and base-v3.14 pairs are preserved unchanged. This is a language migration, not a new MethodPack branch or architecture redesign.
-- README is translated under the explicit migration instruction, retaining its agreed purpose, structure, examples, and terms. Current release metadata and file inventory are updated.
-- The original FPF, structural FPF index, supplied tools, and license files are preserved byte for byte. Historical evidence retains its own editions and limits.
+EXD/SIE attribution and exact source provenance are repaired. The supplied original FPF, FPF index, tools and licenses remain byte-identical; newer core material is not connected. README changes only version numbers. No new architecture or deferred ConOps work is introduced.
 
-## Verification and limits
-
-Verification results and readiness limits are recorded in [STATUS.md](STATUS.md). Translation checks distinguish semantic comparison, independent reading, structural verification, and observed use; a prior 7.0.4 result does not establish behavior under translated instructions. The deferred ConOps improvements are outside this migration.
-
-The exact previous distribution and historical release notes remain available in [release 7.0.4](https://github.com/instantiatio/iEWR/releases/tag/7.0.4). The development project additionally preserves the complete pre-migration workspace, translation parts, reviews, and packaging evidence.
+Three independent source readers and three further fresh-context task readers supplied bounded checks. One independently found OPS-RELEASE restriction was corrected and rechecked; eleven constructed operational tasks met their pre-established criteria, including a real isolated SQLite execution. Pair activation and exact readback occurred only inside the candidate. Verification and limits are in [STATUS.md](STATUS.md), with source lineage in [source reconciliation](docs/SOURCE_RECONCILIATION.md). This is not general domain qualification or production admission.

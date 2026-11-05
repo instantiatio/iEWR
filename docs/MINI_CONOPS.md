@@ -1,6 +1,6 @@
 # iEWR: Architecture and Mini ConOps
 
-*iEWR 7.0.5 Eternal Alpha · 5 November 2026*
+*iEWR 7.0.6 Eternal Alpha · 5 November 2026*
 
 <!-- Three conceptual pages; two explicit breaks for printing and export. -->
 

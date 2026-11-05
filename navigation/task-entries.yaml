@@ -323,8 +323,8 @@
           "id": "KCA-02",
           "index": "methods/index.yaml",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "kca-02-v1-6",
-          "edition": "v1.6"
+          "anchor": "kca-02-v1-7",
+          "edition": "v1.7"
         }
       ]
     },
@@ -978,9 +978,9 @@
         {
           "kind": "MethodPack",
           "id": "DEC-VALUES",
-          "edition": "v1.6",
+          "edition": "v1.7",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "dec-values-v1-6",
+          "anchor": "dec-values-v1-7",
           "index": "methods/index.yaml"
         }
       ],
@@ -993,9 +993,9 @@
         {
           "kind": "MethodPack",
           "id": "SYS-CONCEPT",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-concept-v1-4",
+          "anchor": "sys-concept-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1008,9 +1008,9 @@
         {
           "kind": "MethodPack",
           "id": "SYS-DELIVERY",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-delivery-v1-3",
+          "anchor": "sys-delivery-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1038,9 +1038,9 @@
         {
           "kind": "MethodPack",
           "id": "SYS-LIFECYCLE",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sys-lifecycle-v1-4",
+          "anchor": "sys-lifecycle-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1053,9 +1053,9 @@
         {
           "kind": "MethodPack",
           "id": "AGENT-SUPPORT",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "agent-support-v1-4",
+          "anchor": "agent-support-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1068,9 +1068,9 @@
         {
           "kind": "MethodPack",
           "id": "DEC-INQUIRY",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "dec-inquiry-v1-4",
+          "anchor": "dec-inquiry-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1083,9 +1083,9 @@
         {
           "kind": "MethodPack",
           "id": "ADM-CASE",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "adm-case-v1-4",
+          "anchor": "adm-case-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1098,9 +1098,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-STATE",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-state-v1-5",
+          "anchor": "ops-state-v1-6",
           "index": "methods/index.yaml"
         }
       ],
@@ -1128,9 +1128,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-RELEASE",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-release-v1-3",
+          "anchor": "ops-release-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1143,9 +1143,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-CAPACITY",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-capacity-v1-4",
+          "anchor": "ops-capacity-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1158,9 +1158,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-COUPLING",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-coupling-v1-4",
+          "anchor": "ops-coupling-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1173,9 +1173,9 @@
         {
           "kind": "MethodPack",
           "id": "OPS-EVIDENCE",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "ops-evidence-v1-3",
+          "anchor": "ops-evidence-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1188,9 +1188,9 @@
         {
           "kind": "MethodPack",
           "id": "ORG-DESIGN",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "org-design-v1-3",
+          "anchor": "org-design-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1203,9 +1203,9 @@
         {
           "kind": "MethodPack",
           "id": "ORG-CHANGE",
-          "edition": "v1.6",
+          "edition": "v1.7",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "org-change-v1-6",
+          "anchor": "org-change-v1-7",
           "index": "methods/index.yaml"
         }
       ],
@@ -1218,9 +1218,9 @@
         {
           "kind": "MethodPack",
           "id": "STR-OPTIONS",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "str-options-v1-4",
+          "anchor": "str-options-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1248,9 +1248,9 @@
         {
           "kind": "MethodPack",
           "id": "RES-INQUIRY",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-inquiry-v1-3",
+          "anchor": "res-inquiry-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1263,9 +1263,9 @@
         {
           "kind": "MethodPack",
           "id": "RES-RECOVERY",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-recovery-v1-5",
+          "anchor": "res-recovery-v1-6",
           "index": "methods/index.yaml"
         }
       ],
@@ -1278,9 +1278,9 @@
         {
           "kind": "MethodPack",
           "id": "RES-HISTORY",
-          "edition": "v1.3",
+          "edition": "v1.4",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "res-history-v1-3",
+          "anchor": "res-history-v1-4",
           "index": "methods/index.yaml"
         }
       ],
@@ -1293,9 +1293,9 @@
         {
           "kind": "MethodPack",
           "id": "DATA-MEANING",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "data-meaning-v1-4",
+          "anchor": "data-meaning-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1308,9 +1308,9 @@
         {
           "kind": "MethodPack",
           "id": "EXPLAIN",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "explain-v1-4",
+          "anchor": "explain-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1323,9 +1323,9 @@
         {
           "kind": "MethodPack",
           "id": "TEXT-EDIT",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "text-edit-v1-4",
+          "anchor": "text-edit-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1368,9 +1368,9 @@
         {
           "kind": "MethodPack",
           "id": "INFO-SEC",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "info-sec-v1-4",
+          "anchor": "info-sec-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1383,9 +1383,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-SEC",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-sec-v1-5",
+          "anchor": "sw-sec-v1-6",
           "index": "methods/index.yaml"
         }
       ],
@@ -1398,9 +1398,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-4",
+          "anchor": "sw-01-v1-5",
           "index": "methods/index.yaml"
         }
       ],
@@ -1437,9 +1437,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.4",
+          "edition": "v1.5",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-4",
+          "anchor": "sw-01-v1-5",
           "index": "methods/index.yaml"
         },
         {
@@ -1461,11 +1461,11 @@
   "specialist_ME_returns": {
     "ME.18": {
       "ordinary_floor": "A.3.1.MR",
-      "applied_method": "RES-RECOVERY@v1.5"
+      "applied_method": "RES-RECOVERY@v1.6"
     },
     "ME.19": {
       "causal_floor": "C.28",
-      "applied_method": "RES-HISTORY@v1.3"
+      "applied_method": "RES-HISTORY@v1.4"
     },
     "mathematics": "C.29/C.39 general construction; actual specialized mathematical method required only by the selected stronger claim"
   }

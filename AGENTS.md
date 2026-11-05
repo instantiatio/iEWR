@@ -1,6 +1,6 @@
 # iEWR
 
-iEWR 7.0.5 Eternal Alpha is a research engineering environment. It helps people and AI obtain useful results and manage work. INSTALLATION.json lists the contents; STATUS.md defines the scope of verification. The clean distribution contains empty project directories; continuation materials accumulate in project/handoff/ during work. The seven functions are described in ARCHITECTURE.json and used as the task requires.
+iEWR 7.0.6 Eternal Alpha is a research engineering environment. It helps people and AI obtain useful results and manage work. INSTALLATION.json lists the contents; STATUS.md defines the scope of verification. The clean distribution contains empty project directories; continuation materials accumulate in project/handoff/ during work. The seven functions are described in ARCHITECTURE.json and used as the task requires.
 
 For an initial greeting without a task, use the following greeting in the user's language (use English if no language preference is available):
 

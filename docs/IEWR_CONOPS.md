@@ -2,7 +2,7 @@
 
 | Document information | Value |
 |---|---|
-| Basis | iEWR 7.0.5 Eternal Alpha |
+| Basis | iEWR 7.0.6 Eternal Alpha |
 | Document edition | 05.11.2026 |
 | Status | Research concept; checking scope is stated in STATUS.md |
 | Related descriptions | [Architecture](../ARCHITECTURE.json), [file inventory](../INSTALLATION.json), [source build status and limits](../STATUS.md) |

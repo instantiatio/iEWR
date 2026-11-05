@@ -1,6 +1,6 @@
-# iEWR 7.0.5 Eternal Alpha files
+# iEWR 7.0.6 Eternal Alpha files
 
-File map for iEWR 7.0.5 Eternal Alpha, MP base-v3.15. Links are relative; sizes are uncompressed, KiB = 1024 bytes. Line counts include blank lines.
+File map for iEWR 7.0.6 Eternal Alpha, MP base-v3.16. Links are relative; sizes are uncompressed, KiB = 1024 bytes. Line counts include blank lines.
 
 Project directories in the clean distribution are empty. These tables and INSTALLATION.json describe environment files; working history and intermediate candidates are preserved separately in the development project.
 
@@ -10,14 +10,14 @@ Project directories in the clean distribution are empty. These tables and INSTAL
 |---|---|---:|---:|
 | [AGENTS.md](../AGENTS.md) | Agent working instructions and method entries | 52 | 9.6 |
 | [ARCHITECTURE.json](../ARCHITECTURE.json) | Seven functions, relations, and architecture layers | 572 | 25.4 |
-| [INSTALLATION.json](../INSTALLATION.json) | Distribution inventory, file sizes, and SHA-256 | 174 | 6.3 |
+| [INSTALLATION.json](../INSTALLATION.json) | Distribution inventory, file sizes, and SHA-256 | 186 | 6.7 |
 | [LICENSE](../LICENSE) | MIT license for iEWR own parts | 21 | 1.1 |
-| [ORIGINS.json](../ORIGINS.json) | Method sources, authorship, exact editions, and SHA-256 | 220 | 17.3 |
-| [PACKAGE.json](../PACKAGE.json) | Version, status, and immediate distribution basis | 70 | 3.0 |
+| [ORIGINS.json](../ORIGINS.json) | Method sources, authorship, exact editions, and SHA-256 | 506 | 42.7 |
+| [PACKAGE.json](../PACKAGE.json) | Version, status, and immediate distribution basis | 71 | 3.0 |
 | [README.md](../README.md) | Purpose, getting started, and project transfer | 72 | 5.7 |
-| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Release and local-documentation changes | 19 | 1.8 |
+| [RELEASE_NOTES.md](../RELEASE_NOTES.md) | Release and local-documentation changes | 11 | 2.1 |
 | [START.txt](../START.txt) | Short entry to AGENTS.md | 1 | 0.1 |
-| [STATUS.md](../STATUS.md) | Verification scope and use limits | 28 | 5.2 |
+| [STATUS.md](../STATUS.md) | Verification scope and use limits | 20 | 4.9 |
 
 **docs/**
 
@@ -25,17 +25,18 @@ Project directories in the clean distribution are empty. These tables and INSTAL
 |---|---|---:|---:|
 | [BASE_METHODS.md](BASE_METHODS.md) | Direct FPF suppliers for the seven functions | 15 | 0.9 |
 | [DPF_CREATION.md](DPF_CREATION.md) | Entry to DPF creation through canonical FPF | 40 | 6.0 |
-| [FILES.md](FILES.md) | Actual distribution contents and sizes | 93 | 5.2 |
+| [FILES.md](FILES.md) | Actual distribution contents and sizes | 101 | 5.7 |
 | [FPF_INDEX.md](FPF_INDEX.md) | Using the FPF structural index | 56 | 6.6 |
 | [IEWR_CONOPS.md](IEWR_CONOPS.md) | Environment concept of operations | 194 | 22.9 |
 | [MATERIALS.md](MATERIALS.md) | Directory roles and material-organization entries | 19 | 1.5 |
 | [METHODPACK_CHECK.md](METHODPACK_CHECK.md) | MethodPack checking, activation, and recovery | 60 | 8.2 |
 | [METHOD_CATALOG.md](METHOD_CATALOG.md) | Catalog of 37 active methods | 45 | 5.1 |
-| [METHOD_SOURCE_NOTICES.md](METHOD_SOURCE_NOTICES.md) | Authorship, terms, and source statuses | 142 | 10.1 |
+| [METHOD_SOURCE_NOTICES.md](METHOD_SOURCE_NOTICES.md) | Authorship, terms, and source statuses | 142 | 10.4 |
 | [MINI_CONOPS.md](MINI_CONOPS.md) | Architecture overview and work scenario | 106 | 10.0 |
 | [PORTABILITY.md](PORTABILITY.md) | Capabilities and limits without Python/POSIX | 34 | 4.6 |
 | [PROJECT_METHODS.md](PROJECT_METHODS.md) | Applying and developing the repertoire | 19 | 2.6 |
 | [SELF_DEVELOPMENT.md](SELF_DEVELOPMENT.md) | Assigned changes to the environment itself | 67 | 13.4 |
+| [SOURCE_RECONCILIATION.md](SOURCE_RECONCILIATION.md) | Author source updates, local lineage and preserved editions | 53 | 6.5 |
 
 **external-sources/fpf/**
 
@@ -50,8 +51,8 @@ Project directories in the clean distribution are empty. These tables and INSTAL
 
 | File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [METHOD_PACK.md](../methods/METHOD_PACK.md) | Current book of 37 applied methods | 1403 | 335.2 |
-| [index.yaml](../methods/index.yaml) | Exact bodies, editions, conditions, and relations | 4280 | 177.3 |
+| [METHOD_PACK.md](../methods/METHOD_PACK.md) | Current book of 37 applied methods | 1511 | 381.8 |
+| [index.yaml](../methods/index.yaml) | Exact bodies, editions, conditions, and relations | 4393 | 183.2 |
 
 **methods/snapshots/base-v3.10/**
 
@@ -71,8 +72,15 @@ Project directories in the clean distribution are empty. These tables and INSTAL
 
 | File | Purpose | Lines | KiB |
 |---|---|---:|---:|
-| [METHOD_PACK.md](../methods/snapshots/base-v3.15/METHOD_PACK.md) | Exact current MP snapshot | 1403 | 335.2 |
-| [index.yaml](../methods/snapshots/base-v3.15/index.yaml) | Exact current MP snapshot | 4280 | 177.3 |
+| [METHOD_PACK.md](../methods/snapshots/base-v3.15/METHOD_PACK.md) | Unchanged historical MP snapshot | 1403 | 335.2 |
+| [index.yaml](../methods/snapshots/base-v3.15/index.yaml) | Unchanged historical MP snapshot | 4280 | 177.3 |
+
+**methods/snapshots/base-v3.16/**
+
+| File | Purpose | Lines | KiB |
+|---|---|---:|---:|
+| [METHOD_PACK.md](../methods/snapshots/base-v3.16/METHOD_PACK.md) | Exact current MP snapshot | 1511 | 381.8 |
+| [index.yaml](../methods/snapshots/base-v3.16/index.yaml) | Exact current MP snapshot | 4393 | 183.2 |
 
 **navigation/**
 
@@ -88,6 +96,6 @@ Project directories in the clean distribution are empty. These tables and INSTAL
 | [build_fpf_index.py](../tools/build_fpf_index.py) | FPF structural-index generation and checking | 229 | 9.1 |
 | [methodpack.py](../tools/methodpack.py) | MP pair checking, activation, and recovery | 424 | 25.7 |
 
-Snapshots base-v3.10 and base-v3.14 preserve historical pairs unchanged; base-v3.15 is the exact current English pair. The coherent pair and checked activation under IE-M003 determine the current edition.
+Snapshots base-v3.10, base-v3.14 and base-v3.15 preserve historical pairs unchanged; base-v3.16 is the exact current source-reconciled English pair. The coherent pair and checked activation under IE-M003 determine the current edition.
 
 The map and inventory describe this distribution; they do not qualify method quality or authority. After further work, track contents as needed; no mandatory registry of every working file is required.

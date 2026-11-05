@@ -10,7 +10,7 @@ Operational actions, conditions, checks, and stops are in the main body. Apply g
 
 ## Changing the repertoire
 
-IE-M003 provides local operations; IE-M004 connects an environment change. Preserve a used body before changing it; the new description receives its own edition, while an old observation retains its original inputs. A new project starts with the exact current pair in methods/snapshots/base-v3.15/ and preserved historical pairs base-v3.10/base-v3.14. It accumulates its own snapshots and activation records after its own changes.
+IE-M003 provides local operations; IE-M004 connects an environment change. Preserve a used body before changing it; the new description receives its own edition, while an old observation retains its original inputs. A new project starts with the exact current pair in methods/snapshots/base-v3.16/ and preserved historical pairs base-v3.10/base-v3.14/base-v3.15. It accumulates its own snapshots and activation records after its own changes.
 
 Commands check/activate/recover and control limits are described in METHODPACK_CHECK.md. Check the prepared new snapshot before connecting it; the current token binds the action to the actual starting pair, and before is preserved. Pending requires reconciliation of the same attempt. The helper does not technically prohibit direct writes by another writer.
 
