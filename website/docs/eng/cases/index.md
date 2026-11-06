@@ -4,7 +4,7 @@ The task, the work performed, the result, and its checks make an experiment usef
 
 ## GEO CRM: one project across agent environments
 
-From a local CRM assignment to sales, stock, expense requests, and liquidity modelling in one application. Development continued through **Codex → DeepSeek Harness → Codex**; the saved context also supported two finance guides. The current 1.3.1-demo report records 36 tests, a connected business scenario, and an independent cash-flow calculation.
+From a local CRM assignment to sales, stock, expense requests, and liquidity modelling in one application. Development continued through **Codex → DeepSeek Harness → Codex**; the saved context also supported two finance guides. The current 1.4.0-demo report records 36 tests, a connected business scenario, and an independent cash-flow calculation.
 
 [Read the GEO CRM case and view the screenshots](/iEWR/eng/cases/geo-crm/).
 

@@ -13,6 +13,7 @@ nav:
       - try/index.md
       - First experiment: try/first-experiment/index.md
       - Advanced use: try/advanced/index.md
+  - How iEWR works: how-iewr-works/index.md
   - Applications: applications/index.md
   - Cases & Experiments:
       - cases/index.md

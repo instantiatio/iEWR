@@ -35,11 +35,11 @@ Project materials, decisions, results, checks, and unfinished work are kept in t
 
 A local CRM grew into a connected sales and finance application through **Codex → DeepSeek Harness → Codex**. AI implemented stock handling, quotations, expense requests, and a 13-week liquidity model; the saved project context also supported two illustrated finance guides.
 
-![GEO CRM sales pipeline](/iEWR/assets/geo-crm/01-sales-pipeline.jpg)
+![GEO CRM sales pipeline](/iEWR/assets/geo-crm/1.4.0-usd/01-sales-pipeline.jpg)
 
-![GEO CRM liquidity scenario with a 30-day delay](/iEWR/assets/geo-crm/09-liquidity-delay30.jpg)
+![GEO CRM liquidity scenario with a 30-day delay](/iEWR/assets/geo-crm/1.4.0-usd/08-liquidity-delay30.jpg)
 
-*GEO CRM 1.3.1-demo · iEWR 7.0.0. English interface, synthetic GBP data. The report records 36 tests and a connected sales-to-forecast scenario.*
+*GEO CRM 1.4.0-demo · iEWR 7.0.0. English interface, synthetic USD data. The report records 36 tests and a connected sales-to-forecast scenario.*
 
 [Read how the system was built and checked](/iEWR/eng/cases/geo-crm/)
 

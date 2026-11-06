@@ -110,3 +110,18 @@ label[role=button]:focus-visible { outline:3px solid #2879e7; outline-offset:5px
   .md-search__inner, #__search:checked~.md-header .md-search__inner { margin:84px auto 0; max-height:calc(100dvh - 100px); }
   .md-search__scrollwrap { max-height:calc(100dvh - 168px); }
 }
+
+/* Keep all seven navigation destinations reachable without crowding the header. */
+@media(min-width:681px) and (max-width:1300px) {
+  .site-header .brand { font-size:19px; }
+  .site-header .brand-suffix { display:none; }
+  .site-header .desktop-nav { gap:15px; }
+  .site-header .desktop-nav a { font-size:13px; }
+  .site-header .header-row { gap:16px; }
+}
+@media(max-width:1080px) {
+  .site-header .desktop-nav { display:none; }
+  .md-header .site-menu-button { display:block; }
+  .md-sidebar--primary { display:block; }
+  .md-sidebar--primary .md-nav__title { background:var(--paper); color:var(--ink); }
+}

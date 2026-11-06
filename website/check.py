@@ -77,6 +77,9 @@ def check(site):
             tokenize = lambda value: re.findall(r'\w+|[^\w\s]', value, flags=re.UNICODE)
             if tokenize(original.get_text(' ', strip=True)) != tokenize(article.get_text(' ', strip=True)):
                 errors.append(f'{file}: presentation changed content or its order')
+            if not any(urlsplit(urljoin(expected, link.get('href', ''))).path == f'/iEWR/{locale}/how-iewr-works/'
+                       for link in doc.select('header .desktop-nav a')):
+                errors.append(f'{file}: How iEWR works missing from main navigation')
             if not doc.select_one('header .site-search-button') or not doc.select_one('.md-search[data-md-component="search"]'):
                 errors.append(f'{file}: missing native search')
             if not doc.select_one('header .site-menu-button[for="__drawer"]'):
