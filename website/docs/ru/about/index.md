@@ -14,11 +14,13 @@ iEWR — практическая реализация программы: пр�
 
 Концептуальные материалы основаны на исследовательских текстах программы Instantiatio. Описание действующей среды опирается на репозиторий iEWR и документацию 7.0.6. В кейсах указаны версия, поручение и использованные свидетельства.
 
-Сведения об участниках iEWR и происхождении источников сохранены в репозитории. **Автор First Principles Framework (FPF) — Анатолий Левенчук**; исходные материалы и авторские уведомления сохранены в поставке. Авторы и источники прикладных методов указаны в [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) и [уведомлениях об источниках методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
+Разработчики iEWR — **Instantiatio EWR Contributors**. Сведения об участниках и происхождении источников сохранены в репозитории. **Автор First Principles Framework (FPF) — Анатолий Левенчук**; исходные материалы и авторские уведомления сохранены в поставке. Авторы и источники прикладных методов указаны в [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) и [уведомлениях об источниках методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
 
 ## Лицензии
 
 Собственные материалы поставки iEWR распространяются под [MIT License](https://github.com/instantiatio/iEWR/blob/7.0.6/LICENSE). Оригинальное содержание FPF — под [CC BY 4.0](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSE); сторонние материалы сохраняют [собственные условия](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSING.md). Точная подключённая редакция FPF и её происхождение указаны в [SOURCE.json](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/SOURCE.json).
+
+В [README](https://github.com/instantiatio/iEWR/blob/7.0.6/README.md) версии 7.0.6 указано «Instantiatio EWR contributors», а в LICENSE — «Instantiatio DPF contributors». Эти исходные уведомления сохранены без изменений.
 
 ## Статистика сайта
 

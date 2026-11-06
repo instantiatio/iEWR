@@ -8,7 +8,7 @@ hide:
 
 Instantiatio is a research programme on AI-native-first work. People set goals, judge value, and accept results.
 
-iEWR — an AGENTS.md-based agent-native application. AI independently organizes, performs, and checks engineering work while maintaining the project context.
+Instantiatio Engineering Work Runtime (iEWR) — an AGENTS.md-based agent-native application. AI independently organizes, performs, and checks engineering work while maintaining the project context.
 
 [Try iEWR](/iEWR/eng/try/){ .md-button .md-button--primary } · [Download 7.0.6 Eternal Alpha](https://github.com/instantiatio/iEWR/releases/download/7.0.6/iEWR-7.0.6-Eternal-Alpha.zip)
 

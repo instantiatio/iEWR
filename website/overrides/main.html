@@ -4,6 +4,7 @@
 {% block extrahead %}
   <link rel="icon" href="/iEWR/assets/favicon-instantiatio.svg" type="image/svg+xml" sizes="any">
   <link rel="preload" href="/iEWR/assets/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  {% if page and page.is_homepage %}<link rel="preload" href="/iEWR/assets/hero/instantiatio-frame-sphere-v1.webp" as="image" type="image/webp">{% endif %}
   {% include "partials/analytics.html" %}
 {% endblock %}
 {% block site_nav %}
@@ -42,7 +43,7 @@
 {% endblock %}
 {% block footer %}
   <footer class="site-footer"><div class="container footer-row">
-    <a class="footer-brand" href="{{ locale_root }}">Instantiatio / iEWR</a>
+    <a class="footer-brand" href="{{ locale_root }}about/">Instantiatio EWR Contributors</a>
     <nav aria-label="{{ 'Project links' if locale == 'eng' else 'Ссылки проекта' }}">
       <a href="https://github.com/instantiatio/iEWR">GitHub ↗</a>
       <a href="{{ locale_root }}try/">{{ 'Try iEWR' if locale == 'eng' else 'Попробовать iEWR' }} ↗</a>

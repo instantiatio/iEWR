@@ -15,6 +15,11 @@ rendered article's words and order with those sources.
 Manrope is served locally; its OFL license and source hashes are in
 `assets/fonts/`. No remote font service is required.
 
+The owner-selected frame-and-sphere background is a generated image exported as
+WebP in `assets/hero/`. Only Home uses it; CSS keeps the text zones quiet and
+limits the mobile image band to360px. The original PNG and generation prompt
+remain in the project's local visual-trial materials.
+
 ## Build and check
 
 Use Python 3.14 in a virtual environment:
