@@ -153,3 +153,7 @@ label[role=button]:focus-visible { outline:3px solid #2879e7; outline-offset:5px
 .prose li {
   font-weight:450;
 }
+
+/* Approved translucent Try fill; keep label and arrow fully opaque. */
+.home-content .hero-actions .md-button { background:rgba(173,226,255,.72); }
+.home-content .hero-actions .md-button:hover { background:rgba(173,226,255,.90); }

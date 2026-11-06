@@ -49,6 +49,6 @@ If the agent only proposes a plan, ask it to carry out and check the assigned so
 
 ## Evidence
 
-This experiment was performed with iEWR 7.0.6. Its result, repeated checks, exact conditions, and file package are in the [experiment case](/iEWR/eng/cases/). The original assignment is retained here so you can compare your run with the expected answers.
+This experiment was performed with iEWR 7.0.6. Its result, repeated checks, exact conditions, and file package are in the [experiment case](/iEWR/eng/cases/quotation-expiry/). The original assignment is retained here so you can compare your run with the expected answers.
 
 [Try iEWR](/iEWR/eng/try/) · [Русский](/iEWR/ru/try/first-experiment/)
