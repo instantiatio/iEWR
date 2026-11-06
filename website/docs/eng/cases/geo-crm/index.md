@@ -66,8 +66,8 @@ The new report records checks of **GEO CRM 1.4.0-demo**: **36 tests**, working s
 
 The application is a local demonstration with synthetic data and manual payment recording. The report identifies the checked source and conditions, and records remaining issues in cross-module access, return-reason history, and self-approval policy.
 
-[Report in English (PDF)](/iEWR/assets/geo-crm/1.4.0-usd/REPORT_EN.pdf) · [Отчёт на русском (PDF)](/iEWR/assets/geo-crm/1.4.0-usd/REPORT_RU.pdf)
+[Report in English (PDF)](/iEWR/assets/geo-crm/1.4.0-usd/REPORT_EN.pdf)
 
-Both reports contain the same facts and shared screenshots: the work, results, checks, source edition, and reproduction conditions.
+The report documents the work, results, checks, source edition, and reproduction conditions, with screenshots.
 
 [Cases & Experiments](/iEWR/eng/cases/) · [Try iEWR](/iEWR/eng/try/) · [Русский](/iEWR/ru/cases/geo-crm/)
