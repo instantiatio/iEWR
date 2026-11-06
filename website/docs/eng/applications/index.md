@@ -26,7 +26,7 @@ End-to-end work spans clarification, a result agreed with the person, verificati
 
 - **Architecture.** Alternative system designs, allocation of functions, components, interfaces, and reasons for the choice. The design depends on source information, constraints, and the necessary domain expertise.
 
-The [GEO CRM case](/iEWR/eng/cases/geo-crm/) shows a connected application developed through successive assignments. [Try iEWR](/iEWR/eng/try/) includes a checked coding experiment with explicit expected results.
+The [GEO CRM case](/iEWR/eng/cases/geo-crm/) shows a connected application developed through successive assignments. The [quotation-expiry case](/iEWR/eng/cases/quotation-expiry/) records a checked coding experiment with explicit expected results.
 
 ## Research lab {#research-lab}
 

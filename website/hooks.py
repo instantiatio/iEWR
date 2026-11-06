@@ -65,9 +65,12 @@ def on_page_content(html, *, page, config, files):
             strip = rest.new_tag('div', attrs={'class': 'case-images'})
             for image in images:
                 image['loading'] = 'lazy'
-                image['width'], image['height'] = '1600', '1000'
+                image['width'], image['height'] = '1425', '990'
                 strip.append(image.parent.extract())
-            section.select_one('.section-body').find('p', recursive=False).insert_after(strip)
+            section.append(strip)
+            for caption in list(section.select('.section-body > p:has(em)')):
+                caption['class'] = ['case-caption']
+                section.append(caption.extract())
     return hero + '<div class="container home-body">' + ''.join(str(s) for s in sections) + '</div>'
 
 

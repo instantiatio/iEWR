@@ -38,3 +38,7 @@ extra:
     - name: Русский
       link: /iEWR/ru/
       lang: ru
+
+# Retain the instruction source locally, exclude the retired page from the site.
+exclude_docs: |
+  /try/first-experiment/

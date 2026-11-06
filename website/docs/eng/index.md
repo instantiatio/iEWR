@@ -18,7 +18,7 @@ Open the iEWR folder in Codex or another compatible agent environment. You can b
 
 Project materials, decisions, results, checks, and unfinished work are kept in the project so another session can pick them up. Start with “What can you do?”, “Help me work through my task”, or “How can we continue this project?”.
 
-[Try iEWR](/iEWR/eng/try/) covers download, startup, and a checked first experiment. [How iEWR works](/iEWR/eng/how-iewr-works/) explains the working arrangement.
+[Try iEWR](/iEWR/eng/try/) covers download, startup, and getting started on your own task. [How iEWR works](/iEWR/eng/how-iewr-works/) explains the working arrangement.
 
 ## Where to use iEWR
 
@@ -35,13 +35,14 @@ Project materials, decisions, results, checks, and unfinished work are kept in t
 
 A local CRM grew into a connected sales and finance application through **Codex → DeepSeek Harness → Codex**. AI implemented stock handling, quotations, expense requests, and a 13-week liquidity model; the saved project context also supported two illustrated finance guides.
 
+[Read how the system was built and checked →](/iEWR/eng/cases/geo-crm/){ .section-action }
+
 ![GEO CRM sales pipeline](/iEWR/assets/geo-crm/1.4.0-usd/01-sales-pipeline.jpg)
 
 ![GEO CRM liquidity scenario with a 30-day delay](/iEWR/assets/geo-crm/1.4.0-usd/08-liquidity-delay30.jpg)
 
 *GEO CRM 1.4.0-demo · iEWR 7.0.0. English interface, synthetic USD data. The report records 36 tests and a connected sales-to-forecast scenario.*
 
-[Read how the system was built and checked](/iEWR/eng/cases/geo-crm/)
 
 ## Explore the foundations
 

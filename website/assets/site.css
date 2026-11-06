@@ -157,3 +157,38 @@ label[role=button]:focus-visible { outline:3px solid #2879e7; outline-offset:5px
 /* Approved translucent Try fill; keep label and arrow fully opaque. */
 .home-content .hero-actions .md-button { background:rgba(173,226,255,.72); }
 .home-content .hero-actions .md-button:hover { background:rgba(173,226,255,.90); }
+
+/* Approved Home grid: shared text columns and natural screenshot proportions. */
+.home-content .case-section { grid-template-columns:1fr 2fr; row-gap:24px; }
+.home-content .case-section h2 { max-width:290px; text-wrap:balance; }
+.home-content .case-section .section-body > p:first-child { margin-left:0; max-width:none; }
+.home-content .case-section .section-body > p:last-child a { margin-top:0; }
+.home-content .case-section > .case-images { grid-column:1/-1; margin-top:0; }
+.home-content .case-images img { width:100%; height:auto; aspect-ratio:1425 / 990; object-fit:contain; background:transparent; border:0; }
+.home-content .case-caption { grid-column:1/-1; margin:0; max-width:850px; font-size:12px; color:var(--muted); }
+@media(max-width:980px) { .home-content .case-section { grid-template-columns:1fr 1.55fr; } }
+@media(max-width:680px) {
+ .home-content .case-section { display:block; }
+ .home-content .case-section > .case-images { margin-top:24px; }
+ .home-content .case-caption { margin-top:16px; font-size:11px; }
+}
+
+/* Align the application introduction with the Home sections' text column. */
+.home-content .hero-support {
+  grid-template-columns:minmax(0,calc((100% - 60px) / 3)) minmax(0,1fr) 290px;
+  column-gap:60px;
+}
+.home-content .hero-copy { display:contents; }
+.home-content .hero-copy p + p { margin-top:0; }
+@media(max-width:1240px) and (min-width:981px) {
+  .home-content .hero-support {
+    grid-template-columns:minmax(0,calc((100% - 60px) / 3)) minmax(0,1fr) 250px;
+  }
+}
+@media(max-width:980px) and (min-width:681px) {
+  .home-content .hero-support { grid-template-columns:minmax(0,1fr) minmax(0,1.55fr); gap:24px 35px; }
+  .home-content .hero-actions { grid-column:2; }
+}
+@media(max-width:680px) {
+  .home-content .hero-support { column-gap:0; }
+}

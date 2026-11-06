@@ -4,13 +4,13 @@
 
 You specify the result, its purpose, and the bounds of independent action. AI independently organizes and performs the engineering work: the agent determines what is needed, selects methods, executes the assignment, and checks the outcome.
 
-It supports software development and change, engineering concepts and solutions, research, comparison of alternatives, and preparation of reasoned decisions. [Try iEWR](/iEWR/eng/try/) provides a first assignment and the setup route.
+It supports software development and change, engineering concepts and solutions, research, comparison of alternatives, and preparation of reasoned decisions. [Try iEWR](/iEWR/eng/try/) covers setup and getting started on your own task.
 
 ## You can begin with an unfinished idea
 
 You do not need to design the agent's workflow or choose its methods. Describe the result you want, even approximately, or ask for help understanding the problem. iEWR can clarify the intended use, identify the work needed, obtain a suitable method, carry out the assignment, and check the result.
 
-You can also ask it to explain its own capabilities, organization, or next steps. [Try iEWR](/iEWR/eng/try/) shows ordinary first messages and a checked experiment; [Applications](/iEWR/eng/applications/) describes the wider range of work.
+You can also ask it to explain its own capabilities, organization, or next steps. [Try iEWR](/iEWR/eng/try/) shows ordinary first messages and how to continue work; [Applications](/iEWR/eng/applications/) describes the wider range of work.
 
 ## Your contribution and the agent's work
 

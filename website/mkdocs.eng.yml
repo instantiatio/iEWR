@@ -11,7 +11,6 @@ nav:
   - Home: index.md
   - Try:
       - try/index.md
-      - First experiment: try/first-experiment/index.md
       - Advanced use: try/advanced/index.md
   - How it works: how-iewr-works/index.md
   - Applications: applications/index.md

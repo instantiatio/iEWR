@@ -28,8 +28,6 @@ Changing the checking date to 2026-11-06 changed Q2 to expired while Q3 remained
 
 ## Reproduce or inspect
 
-To have AI create the solution, open the [first experiment](/iEWR/eng/try/first-experiment/) and give its assignment in a new copy of the environment.
-
 To inspect the delivered solution, [download the evidence package](/iEWR/assets/quotation-expiry.zip) and extract it into a separate folder. From that folder, run:
 
 ```sh
@@ -37,7 +35,7 @@ python3 project/artifacts/first-experiment/check_quotes.py project/source/first-
 python3 -m unittest discover -s project/artifacts/first-experiment -v
 ```
 
-The package contains the program, tests, input, expected output, and recorded checks. This runs the produced tool; regenerating it through an agent is the Try iEWR experiment.
+The package contains the program, tests, input, expected output, and recorded checks. This runs the produced tool.
 
 ## Recorded conditions
 

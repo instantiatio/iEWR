@@ -61,7 +61,6 @@ If the result does not fit, identify the specific discrepancy and ask for a revi
 
 ## Next {#next}
 
-- [First experiment](/iEWR/eng/try/first-experiment/) — a small assignment with explicit expected results.
 - [Advanced use](/iEWR/eng/try/advanced/) — work with the system as a whole, delegate complex results, and assess fitness for use.
 - [Applications](/iEWR/eng/applications/) and [cases](/iEWR/eng/cases/) — possible tasks and work already performed.
 - [How iEWR works](/iEWR/eng/how-iewr-works/) — the environment's organization, whenever you want to go deeper.
