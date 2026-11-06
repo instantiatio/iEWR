@@ -1,11 +1,12 @@
-name: website-pages
+# Compatibility only: full website code and content live in instantiatio/ewr.
+name: website-redirects
 
 on:
   push:
     branches: [main]
-    paths: ['website/**', '.github/workflows/website-pages.yml']
+    paths: ['.github/workflows/website-pages.yml']
   pull_request:
-    paths: ['website/**', '.github/workflows/website-pages.yml']
+    paths: ['.github/workflows/website-pages.yml']
   workflow_dispatch:
 
 permissions:
@@ -20,22 +21,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          repository: instantiatio/ewr
+          ref: 52c4f27aae7af4b3567b5eb939c7c56d341a9244
+          path: website-source
       - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
-          cache: pip
-          cache-dependency-path: website/requirements.txt
-      - name: Install pinned website dependencies
-        run: python -m pip install -r website/requirements.txt
-      - name: Build EN and RU
-        run: python website/build.py
-      - name: Check links, language pairs, search and evidence
-        run: python website/check.py
-      - name: Upload checked Pages artifact
+      - name: Build legacy redirects and compatible downloads
+        run: python website-source/legacy/build.py
+      - name: Check redirect targets and evidence
+        run: python website-source/legacy/check.py
+      - name: Upload checked redirect artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4
         with:
-          path: website/site
+          path: website-source/legacy/site
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -49,6 +50,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/configure-pages@v5
-      - name: Publish checked artifact
+      - name: Publish legacy redirects
         id: deployment
         uses: actions/deploy-pages@v4

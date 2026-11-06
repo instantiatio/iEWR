@@ -1,5 +1,0 @@
-*.pdf binary
-*.jpg binary
-*.zip binary
-*.ttf binary
-assets/fonts/*-OFL.txt -whitespace
