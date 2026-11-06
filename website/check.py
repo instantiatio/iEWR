@@ -12,7 +12,7 @@ import markdown
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://instantiatio.github.io/iEWR/'
-PATHS = ('', 'try/', 'applications/', 'cases/', 'cases/geo-crm/', 'foundations/',
+PATHS = ('', 'try/', 'try/advanced/', 'try/first-experiment/', 'applications/', 'cases/', 'cases/geo-crm/', 'foundations/',
          'foundations/instantiatio/', 'foundations/ai-native-first/',
          'foundations/system-formation/', 'foundations/ewr/',
          'foundations/methods/', 'how-iewr-works/', 'about/')
@@ -32,6 +32,8 @@ def check(site):
             resolved = urlsplit(urljoin(url, ref))
             if resolved.scheme not in ('http', 'https'):
                 continue
+            if resolved.netloc.lower() in ('t.me', 'www.t.me', 'telegram.me', 'telegram.org'):
+                errors.append(f'{file}: Telegram link: {ref}')
             if resolved.netloc != urlsplit(BASE).netloc:
                 external.add(resolved._replace(fragment='').geturl())
                 continue
@@ -68,6 +70,8 @@ def check(site):
             text = re.sub(r'^---\n.*?\n---\n', '', source.read_text(), count=1, flags=re.S)
             original = BeautifulSoup(markdown.markdown(text, extensions=['attr_list', 'tables', 'fenced_code', 'toc']), 'html.parser')
             article = BeautifulSoup(str(doc.select_one('.md-content article')), 'html.parser')
+            if path.startswith('try/') and 'Codex CLI' in article.get_text():
+                errors.append(f'{file}: terminal-specific Codex route in Try')
             for added in article.select('.eyebrow, .section-number, .headerlink'):
                 added.decompose()
             tokenize = lambda value: re.findall(r'\w+|[^\w\s]', value, flags=re.UNICODE)

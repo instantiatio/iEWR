@@ -9,7 +9,10 @@ plugins:
       lang: ru
 nav:
   - Главная: index.md
-  - Попробовать iEWR: try/index.md
+  - Попробовать iEWR:
+      - try/index.md
+      - Первый эксперимент: try/first-experiment/index.md
+      - Для продвинутых: try/advanced/index.md
   - Применение: applications/index.md
   - Кейсы и эксперименты:
       - cases/index.md

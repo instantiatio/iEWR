@@ -12,7 +12,7 @@ iEWR — практическая реализация программы: пр�
 
 ## Авторство и источники
 
-Концептуальные материалы основаны на текстах программы Instantiatio и её Telegram-канала. Описание действующей среды опирается на репозиторий iEWR и документацию 7.0.6. В кейсах указаны версия, поручение и использованные свидетельства.
+Концептуальные материалы основаны на исследовательских текстах программы Instantiatio. Описание действующей среды опирается на репозиторий iEWR и документацию 7.0.6. В кейсах указаны версия, поручение и использованные свидетельства.
 
 Сведения об участниках iEWR и происхождении источников сохранены в репозитории. **Автор First Principles Framework (FPF) — Анатолий Левенчук**; исходные материалы и авторские уведомления сохранены в поставке. Авторы и источники прикладных методов указаны в [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) и [уведомлениях об источниках методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
 
@@ -24,7 +24,6 @@ iEWR — практическая реализация программы: пр�
 
 - [iEWR на GitHub](https://github.com/instantiatio/iEWR)
 - [Релиз iEWR 7.0.6](https://github.com/instantiatio/iEWR/releases/tag/7.0.6)
-- [Instantiatio в Telegram](https://t.me/instantiatio)
 - [GitHub Issues](https://github.com/instantiatio/iEWR/issues) для вопросов и воспроизводимых находок
 
 [Главная](/iEWR/ru/) · [Попробовать iEWR](/iEWR/ru/try/) · [English](/iEWR/eng/about/)

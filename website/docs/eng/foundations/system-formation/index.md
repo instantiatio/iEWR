@@ -50,4 +50,4 @@ The hypothesis calls for project comparisons that account for result fitness, to
 
 [AI-native-first](/iEWR/eng/foundations/ai-native-first/) provides principles for organizing activity. System Formation explains how the system determines the necessary work. [EWR](/iEWR/eng/foundations/ewr/) provides the supporting environment. In iEWR, AI uses context, methods, tools, and feedback to organize and perform that work on a person's assignment.
 
-[Try iEWR](/iEWR/eng/try/) · [How iEWR works](/iEWR/eng/how-iewr-works/) · [Source material](https://t.me/instantiatio/217) · [Русский](/iEWR/ru/foundations/system-formation/)
+[Try iEWR](/iEWR/eng/try/) · [How iEWR works](/iEWR/eng/how-iewr-works/) · [Русский](/iEWR/ru/foundations/system-formation/)

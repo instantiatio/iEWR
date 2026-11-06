@@ -49,4 +49,4 @@ As execution becomes easier, choosing which possibilities deserve attention beco
 
 The programme investigates which new possibilities this organization makes practical and under what conditions it produces useful results.
 
-[Try iEWR](/iEWR/eng/try/) · [Foundations](/iEWR/eng/foundations/) · [Original essay](https://t.me/instantiatio/156) · [Русский](/iEWR/ru/foundations/instantiatio/)
+[Try iEWR](/iEWR/eng/try/) · [Foundations](/iEWR/eng/foundations/) · [Русский](/iEWR/ru/foundations/instantiatio/)

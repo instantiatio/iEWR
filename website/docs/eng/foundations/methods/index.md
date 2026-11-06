@@ -54,4 +54,4 @@ Methodology also consumes effort: finding and interpreting sources, preserving d
 
 People retain goals, value judgments, and undelegated decisions. Methods help organize the work; their presence does not supply missing data, tools, or authority.
 
-[How iEWR works](/iEWR/eng/how-iewr-works/) · [Method catalog](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_CATALOG.md) · [Original FPF](https://github.com/ailev/FPF) · [Source discussion](https://t.me/instantiatio/238) · [Русский](/iEWR/ru/foundations/methods/)
+[How iEWR works](/iEWR/eng/how-iewr-works/) · [Method catalog](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_CATALOG.md) · [Original FPF](https://github.com/ailev/FPF) · [Русский](/iEWR/ru/foundations/methods/)

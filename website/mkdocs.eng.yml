@@ -9,7 +9,10 @@ plugins:
       lang: en
 nav:
   - Home: index.md
-  - Try iEWR: try/index.md
+  - Try iEWR:
+      - try/index.md
+      - First experiment: try/first-experiment/index.md
+      - Advanced use: try/advanced/index.md
   - Applications: applications/index.md
   - Cases & Experiments:
       - cases/index.md

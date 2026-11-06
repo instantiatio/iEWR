@@ -53,4 +53,4 @@ Instantiatio исследует воплощение намерения. AI-nati
 
 Вместе они ставят вопрос: какие системы теперь доступны человеку или небольшой команде, с какими полными затратами и качеством?
 
-[Попробовать iEWR](/iEWR/ru/try/) · [Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [Исходный материал](https://t.me/instantiatio/224) · [English](/iEWR/eng/foundations/ewr/)
+[Попробовать iEWR](/iEWR/ru/try/) · [Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [English](/iEWR/eng/foundations/ewr/)

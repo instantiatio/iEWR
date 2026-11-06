@@ -49,4 +49,4 @@ Instantiatio — исследовательская программа о воп
 
 Программа исследует, какие новые возможности становятся практически доступными при такой организации и в каких условиях она даёт полезные результаты.
 
-[Попробовать iEWR](/iEWR/ru/try/) · [Основания](/iEWR/ru/foundations/) · [Исходное эссе](https://t.me/instantiatio/156) · [English](/iEWR/eng/foundations/instantiatio/)
+[Попробовать iEWR](/iEWR/ru/try/) · [Основания](/iEWR/ru/foundations/) · [English](/iEWR/eng/foundations/instantiatio/)

@@ -50,4 +50,4 @@
 
 [AI-native-first](/iEWR/ru/foundations/ai-native-first/) задаёт принципы организации деятельности. System Formation объясняет, как система определяет необходимую работу. [EWR](/iEWR/ru/foundations/ewr/) предоставляет обеспечивающую среду. В iEWR AI использует контекст, методы, инструменты и обратную связь, чтобы организовывать и выполнять эту работу по поручению человека.
 
-[Попробовать iEWR](/iEWR/ru/try/) · [Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [Исходный материал](https://t.me/instantiatio/217) · [English](/iEWR/eng/foundations/system-formation/)
+[Попробовать iEWR](/iEWR/ru/try/) · [Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [English](/iEWR/eng/foundations/system-formation/)

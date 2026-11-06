@@ -31,7 +31,7 @@ Project materials, decisions, results, checks, and unfinished work are kept in t
 
 [Explore applications →](/iEWR/eng/applications/){ .section-action }
 
-## GEO CRM: sales, stock, and liquidity
+## GEO CRM case study: sales, stock, and liquidity
 
 A local CRM grew into a connected sales and finance application through **Codex → DeepSeek Harness → Codex**. AI implemented stock handling, quotations, expense requests, and a 13-week liquidity model; the saved project context also supported two illustrated finance guides.
 

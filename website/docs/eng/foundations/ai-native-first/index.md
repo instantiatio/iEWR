@@ -1,5 +1,7 @@
 # Nine AI-native-first principles
 
+*Principles edition: 1.1.*
+
 **AI-native-first** is an approach to designing activity around the capabilities of artificial intelligence. It reconsiders which functions are necessary, who should perform them, and how to obtain the result.
 
 The approach combines independent intellectual execution by AI, checking results, and human control over goals, authority, and consequential decisions. The nine principles describe complementary aspects of this organization of activity; they do not rank the importance of its functions.
@@ -112,4 +114,4 @@ The goal determines the organization of activity. Evaluation and choice guide cr
 
 The fitness of a particular arrangement depends on result quality, acceptable consequences, and the full cost of obtaining the result. The general principle is **the greatest justified independence of the performer, with the necessary control over results and consequences**.
 
-[Try iEWR](/iEWR/eng/try/) · [Foundations](/iEWR/eng/foundations/) · [Source edition 1.1](https://t.me/instantiatio/223) · [Русский](/iEWR/ru/foundations/ai-native-first/)
+[Try iEWR](/iEWR/eng/try/) · [Foundations](/iEWR/eng/foundations/) · [Русский](/iEWR/ru/foundations/ai-native-first/)

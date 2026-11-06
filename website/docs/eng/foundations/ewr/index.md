@@ -53,4 +53,4 @@ Instantiatio studies the realization of intent. AI-native-first supplies princip
 
 Together they motivate the question of which systems a person or small team can now create, and at what total cost and quality.
 
-[Try iEWR](/iEWR/eng/try/) · [How iEWR works](/iEWR/eng/how-iewr-works/) · [Source material](https://t.me/instantiatio/224) · [Русский](/iEWR/ru/foundations/ewr/)
+[Try iEWR](/iEWR/eng/try/) · [How iEWR works](/iEWR/eng/how-iewr-works/) · [Русский](/iEWR/ru/foundations/ewr/)

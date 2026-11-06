@@ -43,8 +43,7 @@ are in `assets/`; the quotation experiment has an inspectable evidence package,
 and GEO CRM links to its illustrated PDF report.
 Do not copy raw project archives or private working records here.
 
-Conceptual sources: the Instantiatio research programme and
-<https://t.me/instantiatio>. Technical descriptions: iEWR **7.0.6**, pinned in page
+Conceptual sources: the Instantiatio research programme’s texts. Technical descriptions: iEWR **7.0.6**, pinned in page
 links. GEO CRM evidence identifies its separate **7.0.0** environment. Screenshots
 show synthetic data and the current English CRM interface in both languages.
 

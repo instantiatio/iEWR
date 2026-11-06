@@ -1,100 +1,69 @@
 # Try iEWR
 
-Start with a question, a rough idea, or an engineering assignment. iEWR helps clarify the result, organize the work, and check what has been achieved. You can learn how to use it by asking the agent in ordinary words.
+## TL;DR {#quick-start}
 
-iEWR 7.0.6 Eternal Alpha runs in your agent environment. Start your agent in the extracted folder. You can try it without reading Foundations.
+1. [Download iEWR 7.0.6](https://github.com/instantiatio/iEWR/releases/download/7.0.6/iEWR-7.0.6-Eternal-Alpha.zip) and extract the archive.
+2. Open the folder containing `AGENTS.md` as a project in Codex.
+3. In a new chat, describe your task or ask where to start.
+4. Check the result. Discuss revisions and the next step.
 
-## Requirements
+Learn iEWR through a task of your own. You do not need to study its internals first; the details below help you get started.
 
-- An installed, signed-in agent environment that can read and write local files and run commands. Codex CLI is the concrete route used for this check; a basic chat without file and execution access is insufficient.
-- Access to the agent's model service, according to its account and network requirements. Model usage follows that service's terms and limits.
+## Download and open the project {#download}
 
-## Download
+[Download iEWR 7.0.6 Eternal Alpha ZIP](https://github.com/instantiatio/iEWR/releases/download/7.0.6/iEWR-7.0.6-Eternal-Alpha.zip) · [Release and checksum](https://github.com/instantiatio/iEWR/releases/tag/7.0.6)
 
-[Download iEWR 7.0.6 ZIP](https://github.com/instantiatio/iEWR/releases/download/7.0.6/iEWR-7.0.6-Eternal-Alpha.zip) · [Release and checksum](https://github.com/instantiatio/iEWR/releases/tag/7.0.6)
+Extract the archive into a separate folder for your project. You can rename it after the project. Its root should contain `AGENTS.md`, `START.txt`, `methods/`, and `project/`.
 
-Extract it into a new folder. Open **iEWR-7.0.6-Eternal Alpha**, the folder containing `AGENTS.md`, `START.txt`, `methods/`, and `project/`.
+Open **this folder as a project in Codex** and start a new chat there. `AGENTS.md` is the entry point that connects the agent to iEWR's instructions and resources.
 
-## Start
+If the environment does not load `AGENTS.md` automatically, ask: “Read AGENTS.md and follow the iEWR instructions for my task.”
 
-Start a new agent conversation with that folder as its workspace. In an already configured Codex CLI, the corresponding interactive command is:
+Here and below, Codex stands for an example of an **Agent Harness** with access to project files, command execution, and a model service. The same approach applies to another compatible agent environment. We assume you already know how to use one.
 
-```sh
-codex --cd "/path/to/iEWR-7.0.6-Eternal Alpha"
-```
+## Start a conversation {#start}
 
-Replace the path with the extracted folder's actual location. Keep quotes around a path containing spaces. For the prepared experiment below, allow the necessary local file operations and Python commands. It needs no publication or external-system access.
+Choose one real, small task. Explain in your own words what you want to obtain, who needs it and why, what materials you have, and what matters. If the result is still unclear, describe a difficulty, a concern, or something you would like to change.
 
-## Your first message
+> I have an idea: a website for a small repair workshop. I don't know yet what it should contain. Help me work it through and suggest a useful first step.
 
-Once the agent is running in the iEWR folder, you can write:
+If you already know the result you need, assign the work directly:
 
-- “What can you do?”
-- “Help me work through my task.”
-- “How can we continue this project?”
+> Review these materials and compare the possible solutions. Show the grounds for your conclusions and the questions that still need answering.
 
-These are examples, not special commands. You do not need to know the internal architecture, select methods, or design an agent workflow before starting. Describe as much of the desired result as you know; the agent can ask for what is missing, explain the possibilities, and suggest a useful next step. You retain goals, important decisions, and acceptance of the result.
+Ask “What can you do?”, “How should I work with you?”, or request an explanation as you go. This is an ordinary conversation; no special commands are needed.
 
-### Returning to an existing project
+## What happens next {#work}
 
-Open the same project folder and start a new conversation. Ask the agent to recover the current aim, results, decisions, checks, and unfinished work, then discuss or assign the next step. Keep the project files when moving to another session or compatible agent environment: they carry the continuation basis.
+iEWR identifies the engineering work needed for the result, selects or develops suitable methods, and organizes their use. When the task is sufficiently clear, the agent starts work. It helps clarify material gaps and brings decisions that need your input back to you.
 
-If you want a prepared experiment with known expected results, use the assignment below. For your own work, you can go directly to [your task](#continue-with-your-own-task). See [Applications](/iEWR/eng/applications/) for examples beyond software.
+The way of working changes as facts emerge. A plan, an investigation, or a trial may be useful for the task; you do not have to design the agent's process in advance. Your clarifications and corrections steer what happens next.
 
-## Give the assignment
+You retain the goal, significant decisions, the bounds of independent action, and acceptance of the result. The agent organizes and performs authorized work, checks the outcome, and preserves the basis for continuation.
 
-This checked experiment builds a quotation-expiry checker. It includes an exact final-day boundary and invalid dates, so you can assess more than whether a program starts.
+## Materials and continuation {#continuation}
 
-It requires Python 3 and uses only the standard library. Python is not a general requirement for questions or other work in iEWR.
+Put source documents and data in `project/source/` when useful. Finished results appear in `project/artifacts/`. Files are optional: you can describe the task in words.
 
-Copy the following assignment into the new conversation:
+iEWR organizes the retention of decisions, results, checks, and unfinished work. Tell it about new facts and changed decisions; you do not have to design a context storage system by hand.
 
-```text
-Read AGENTS.md and use it as working instructions for my current task.
+After a break, open the same project folder in Codex and start a new chat:
 
-Build and check a small command-line tool for checking whether sales quotations have expired. Work independently within this folder: choose a suitable method, implement the tool, run it, and test it. Use Python 3 and its standard library only; no package installation or network access is needed.
+> How can we continue this project? Recover the goal, current decisions, results, and open questions. Suggest the next step.
 
-The user supplies an explicit --as-of date in YYYY-MM-DD format. A quotation is valid through its final day, expired after that day, and invalid if valid_until is missing or is not a real YYYY-MM-DD calendar date. One invalid row must not stop processing the others. Preserve every row and its id in the output CSV, adding a status column with valid, expired, or invalid.
+Keep the whole project folder: its files support continuation between sessions and in a compatible environment. Use a separate copy of iEWR for a separate project.
 
-Create project/source/first-experiment/quotes.csv from this synthetic data, then leave that input unchanged:
-id,valid_until
-Q1,2026-11-04
-Q2,2026-11-05
-Q3,2026-11-06
-Q4,2026-02-30
-Q5,
-Q6,not-a-date
+## Check and refine {#check-result}
 
-Save the tool, tests, output for --as-of 2026-11-05, and a short README under project/artifacts/first-experiment/. Leave the released environment files unchanged. In your final response give one command to run the tool from the environment root, what you actually checked, and any remaining limits. This is a local experiment; do not publish anything.
-```
+Inspect whether the result can serve its intended use. Ask what was actually done, what checks were performed, and what remains unresolved. For software this may mean running a working scenario; for research, examining sources, calculations, and the grounds for conclusions.
 
-## Check the result
+If the result does not fit, identify the specific discrepancy and ask for a revision. When it is useful and sufficient, accept it and decide whether further work is needed.
 
-Open `project/artifacts/first-experiment/`. Follow the agent's README and rerun its command and tests. The output for the fixed date **2026-11-05** must contain all six rows:
+## Next {#next}
 
-| id | Expected status |
-|---|---|
-| Q1 | expired |
-| Q2 | valid |
-| Q3 | valid |
-| Q4 | invalid |
-| Q5 | invalid |
-| Q6 | invalid |
-
-Q2 checks that the final day is included. Q4–Q6 must remain visible as invalid; they must not disappear or prevent valid rows from being processed. Compare the original CSV with the six rows in your assignment. The agent should report actual checks and remaining limits. A polished explanation or passing self-written tests alone is insufficient.
-
-If the agent only proposes a plan, ask it to carry out and check the assigned solution. If execution is blocked, identify the missing command, access, or runtime before continuing. The outcome is a small local demonstration; assess suitability separately before using it with real business data.
-
-## Continue with your own task
-
-Describe the result you need, why it matters, constraints, and what AI may do independently. Provide materials in `project/source/`. Ask the agent to carry out the work, check the result, and report anything unresolved.
-
-For background, explore [Foundations](/iEWR/eng/foundations/). See [How iEWR works](/iEWR/eng/how-iewr-works/) and the [case and evidence](/iEWR/eng/cases/). For current implementation and limitations, see the [README](https://github.com/instantiatio/iEWR/blob/7.0.6/README.md) and [release status](https://github.com/instantiatio/iEWR/blob/7.0.6/STATUS.md).
-
-## Verification scope
-
-A separate question-led check used two fresh CLI sessions in a new 7.0.6 folder. An approximate idea in English led to a project brief and a continuation record created by the agent; a new session in Russian recovered the goal, result, and open decisions from those files without the previous conversation. This checked local entry and continuation on the same host and account.
-
-One English-language automated Codex CLI run completed this assignment in a newly extracted 7.0.6 folder on macOS, using Python 3.14.6. The output and tests were rerun separately; all six expected rows matched. Account setup, manual interactive startup, other agent environments and operating systems, and a separate Russian-language run were not tested.
+- [First experiment](/iEWR/eng/try/first-experiment/) — a small assignment with explicit expected results.
+- [Advanced use](/iEWR/eng/try/advanced/) — work with the system as a whole, delegate complex results, and assess fitness for use.
+- [Applications](/iEWR/eng/applications/) and [cases](/iEWR/eng/cases/) — possible tasks and work already performed.
+- [How iEWR works](/iEWR/eng/how-iewr-works/) — the environment's organization, whenever you want to go deeper.
 
 [Home](/iEWR/eng/) · [Русский](/iEWR/ru/try/)

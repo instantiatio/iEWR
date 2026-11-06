@@ -54,4 +54,4 @@ FPF помогает различать систему и её описание,
 
 За человеком остаются цели, оценка ценности и неделегированные решения. Методы помогают организовать работу; их наличие не предоставляет недостающих данных, инструментов или полномочий.
 
-[Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [Каталог методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_CATALOG.md) · [Оригинал FPF](https://github.com/ailev/FPF) · [Исходное обсуждение](https://t.me/instantiatio/238) · [English](/iEWR/eng/foundations/methods/)
+[Как устроена iEWR](/iEWR/ru/how-iewr-works/) · [Каталог методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_CATALOG.md) · [Оригинал FPF](https://github.com/ailev/FPF) · [English](/iEWR/eng/foundations/methods/)
