@@ -12,7 +12,7 @@ GEO CRM brings sales, stock, expense requests, and a 13-week liquidity forecast 
 
 ### The agent's work
 
-The agent independently organized the interface research, architecture, implementation, and checks. The person set the direction and made the necessary domain decisions.
+The AI agent independently organized the interface research, architecture design, implementation, and checks. The human user set the direction and made the necessary domain decisions.
 
 ### Result
 
