@@ -143,3 +143,13 @@ label[role=button]:focus-visible { outline:3px solid #2879e7; outline-offset:5px
     background-position:top center,top center,top right;
   }
 }
+
+/* Approved body weight450; preserve navigation, headings and emphasis. */
+.hero-copy p,
+.home-body .section-body > p:not(:has(em)):not(:has(.section-action)),
+.home-body .home-section:not(:last-child) .section-body > ul > li,
+.prose > p:not(.eyebrow):not(:last-child),
+.prose blockquote p,
+.prose li {
+  font-weight:450;
+}
