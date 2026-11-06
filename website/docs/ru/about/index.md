@@ -14,7 +14,11 @@ iEWR — практическая реализация программы: пр�
 
 Концептуальные материалы основаны на исследовательских текстах программы Instantiatio. Описание действующей среды опирается на репозиторий iEWR и документацию 7.0.6. В кейсах указаны версия, поручение и использованные свидетельства.
 
-Разработчики iEWR — **Instantiatio EWR Contributors**. Сведения об участниках и происхождении источников сохранены в репозитории. **Автор First Principles Framework (FPF) — Анатолий Левенчук**; исходные материалы и авторские уведомления сохранены в поставке. Авторы и источники прикладных методов указаны в [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) и [уведомлениях об источниках методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
+Разработчики iEWR — **Instantiatio EWR Contributors**. Сведения об участниках и происхождении источников сохранены в репозитории.
+
+**Автор First Principles Framework (FPF) — Анатолий Левенчук**; исходные материалы и авторские уведомления сохранены в поставке.
+
+Авторы и источники прикладных методов указаны в [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) и [уведомлениях об источниках методов](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
 
 ## Лицензии
 

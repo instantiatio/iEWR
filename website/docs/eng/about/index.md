@@ -14,7 +14,11 @@ This site describes **iEWR 7.0.6 Eternal Alpha**. [Try iEWR](/iEWR/eng/try/) is 
 
 The conceptual materials come from the Instantiatio programme’s research texts. Descriptions of the working environment use the iEWR repository and its 7.0.6 documentation. Case materials identify the version, assignment, and evidence used.
 
-iEWR is developed by **Instantiatio EWR Contributors**; contributor credits and source provenance are preserved in the repository. **First Principles Framework (FPF) is by Anatoly Levenchuk**, with original sources and author notices retained in the distribution. Applied-method sources and their authors are recorded in [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) and [method source notices](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
+iEWR is developed by **Instantiatio EWR Contributors**; contributor credits and source provenance are preserved in the repository.
+
+**First Principles Framework (FPF) is by Anatoly Levenchuk**, with original sources and author notices retained in the distribution.
+
+Applied-method sources and their authors are recorded in [ORIGINS.json](https://github.com/instantiatio/iEWR/blob/7.0.6/ORIGINS.json) and [method source notices](https://github.com/instantiatio/iEWR/blob/7.0.6/docs/METHOD_SOURCE_NOTICES.md).
 
 ## Licenses
 
