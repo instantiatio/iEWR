@@ -20,6 +20,10 @@ iEWR — практическая реализация программы: пр�
 
 Собственные материалы поставки iEWR распространяются под [MIT License](https://github.com/instantiatio/iEWR/blob/7.0.6/LICENSE). Оригинальное содержание FPF — под [CC BY 4.0](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSE); сторонние материалы сохраняют [собственные условия](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSING.md). Точная подключённая редакция FPF и её происхождение указаны в [SOURCE.json](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/SOURCE.json).
 
+## Статистика сайта
+
+Мы используем Plausible для статистики посещений и кликов по внешним ссылкам и скачиваемым файлам. Аналитика не использует cookies. Подробнее — в [политике обработки данных Plausible](https://plausible.io/data-policy).
+
 ## Ссылки проекта
 
 - [iEWR на GitHub](https://github.com/instantiatio/iEWR)

@@ -52,3 +52,19 @@ The repository MIT license and separately attributed FPF / third-party terms are
 preserved. MkDocs and Material for MkDocs retain their upstream licenses.
 
 The website build does not modify, package or release the engineering environment.
+
+## Analytics
+
+`overrides/partials/analytics.html` contains the owner-supplied Plausible snippet.
+It loads once per locale page; the redirect at the project root is not tracked.
+The site-specific script currently enables pageviews, engagement, outbound link
+clicks and file download clicks. Search terms and form contents are not sent by
+site code. Localhost is excluded by the standard Plausible script.
+
+Use `/iEWR/eng/try/` and `/iEWR/ru/try/` in page reports (or optional pageview
+goals) to inspect the practical entry. PDFs and the local experiment ZIP appear
+under `File Download`; the release ZIP on GitHub is an outbound link. These are
+click measurements, not confirmations of completed downloads or iEWR use.
+Tracking options are managed in the owner's Plausible account. No private API
+keys are stored in this repository. To stop collection, remove the analytics
+include from `overrides/main.html` and publish again; update the About notices.

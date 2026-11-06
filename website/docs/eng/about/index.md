@@ -20,6 +20,10 @@ iEWR contributor credits and source provenance are preserved in the repository. 
 
 iEWR's own distributed materials use the [MIT License](https://github.com/instantiatio/iEWR/blob/7.0.6/LICENSE). Original FPF content is distributed under [CC BY 4.0](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSE); third-party materials retain their [separate terms](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/LICENSING.md). The exact connected FPF edition and provenance are recorded in [SOURCE.json](https://github.com/instantiatio/iEWR/blob/7.0.6/external-sources/fpf/SOURCE.json).
 
+## Website analytics
+
+We use Plausible to measure visits and clicks on outbound links and downloadable files. The analytics does not use cookies. See [Plausible’s data policy](https://plausible.io/data-policy).
+
 ## Project links
 
 - [iEWR on GitHub](https://github.com/instantiatio/iEWR)

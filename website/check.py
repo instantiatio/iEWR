@@ -60,6 +60,11 @@ def check(site):
                 errors.append(f'missing page {locale}/{path}')
                 continue
             expected = BASE + locale + '/' + path
+            analytics = doc.select('script[src="https://plausible.io/js/pa-BakopUlN_Wa9Gy2RmlLyO.js"]')
+            if len(analytics) != 1 or not analytics[0].has_attr('async'):
+                errors.append(f'{file}: missing, duplicate or blocking Plausible script')
+            if sum('plausible.init()' in script.get_text() for script in doc.find_all('script')) != 1:
+                errors.append(f'{file}: Plausible must initialize exactly once')
             if path == 'cases/geo-crm/' and any(
                     urlsplit(a['href']).path.lower().endswith('.zip')
                     for a in doc.select('article a[href]')):
