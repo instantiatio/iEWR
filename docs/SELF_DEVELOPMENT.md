@@ -52,6 +52,8 @@ Use a sufficient decision or result record already needed for the work. Acceptan
 
 ## Carrying out a change
 
+Before proposing a change to an instruction, notice whether it would change who acts, when they act, what grounds they need, or when they stop. Such a change can raise a method choice even if the request is phrased as a wording edit.
+
 For a new method choice, first check a sufficient FPF principle/method under the [connection rule](../AGENTS.md#method-source-priority). C.39.MF helps resolve an unclear Method/non-Method focus; C.39 obtains missing methods and joins; C.39.MC supports continuation under changed conditions; C.43 connects observation, choice, and action and checks the effect. Do not search again for an already sufficient basis. A.10 distinguishes a historical report from a new actual check; an old specific event does not transfer to the current edition.
 
 [IE-M004 v1.9](../methods/METHOD_PACK.md#ie-m004-v1-9) provides local operations: recover the instance and current/candidate boundary, preserve before, prepare an authorized copy, change genuinely dependent references, run available checks, reconcile actual current, and connect the edition only when activation conditions are met. [IE-M003 v1.9](../methods/METHOD_PACK.md#ie-m003-v1-9) coordinates book/index/snapshots and the writer. These IDs are not universal start prerequisites: with an empty MP, direct FPF and a professional method allow assigned work while preserving the source and checking the material result.

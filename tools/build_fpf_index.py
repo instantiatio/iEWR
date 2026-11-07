@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+from tempfile import TemporaryDirectory
 
 SOURCE = "external-sources/fpf/FPF-Spec.md"
 PROVENANCE = "external-sources/fpf/SOURCE.json"
@@ -213,10 +214,11 @@ def main():
                 raise ValueError("Index differs from exact current source/generation; regenerate")
         else:
             output.parent.mkdir(parents=True, exist_ok=True)
-            # No source mutation. Deterministic derived output can be regenerated.
-            temporary = output.with_suffix(".yaml.tmp")
-            temporary.write_text(rendered, encoding="utf-8")
-            temporary.replace(output)
+            # Stage on the same filesystem without opening a predictable path.
+            with TemporaryDirectory(dir=output.parent, prefix=f".{output.name}.") as staging:
+                temporary = Path(staging) / output.name
+                temporary.write_text(rendered, encoding="utf-8")
+                temporary.replace(output)
         print(json.dumps({"passed": True, "mode": "check" if args.check else "generate",
                           "sections": len(document["sections"]),
                           "unmatched_toc_metadata": len(document["unmatched_toc_metadata"]),

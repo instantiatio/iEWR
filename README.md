@@ -1,4 +1,4 @@
-# iEWR 7.0.6 Eternal Alpha
+# iEWR 7.0.8 Eternal Alpha
 
 iEWR is a research engineering environment for collaboration between people and AI. You specify the result you need, why it matters, and the bounds within which the agent acts independently. The agent helps shape the work, select methods, carry out the assignment, and check the result.
 
@@ -12,8 +12,8 @@ The environment helps turn an idea into a usable result: understand the task, id
 
 ## Getting started
 
-1. Extract the archive and open the `iEWR-7.0.6-Eternal Alpha` directory in an agent environment that can read and modify files and perform the actions your task requires.
-2. Have the agent read [AGENTS.md](AGENTS.md) if the environment does not load it automatically. A ready-to-use starting instruction is in [START.txt](START.txt).
+1. Extract the archive and open the `iEWR-7.0.8-Eternal-Alpha` directory in an agent environment that can read and modify files and perform the actions your task requires.
+2. Have the agent read [AGENTS.md](AGENTS.md) if the environment does not load it automatically.
 3. Describe the task, required result, and material constraints. Put materials in `project/source/` or point to an existing working context.
 4. Results are saved in `project/artifacts/`; materials for handoff and continuation between people and agents are saved in `project/handoff/`.
 
@@ -58,6 +58,8 @@ State what the agent is assigned to do with the project: study materials, propos
 When instructed, the agent can [develop the environment itself](docs/SELF_DEVELOPMENT.md) and [create coherent domain methodologies (DPFs)](docs/DPF_CREATION.md) using the canonical FPF method.
 
 ## Project and releases
+
+[Download iEWR 7.0.8 Eternal Alpha](https://github.com/instantiatio/iEWR/releases/download/7.0.8/iEWR-7.0.8-Eternal-Alpha.zip) · [SHA-256](https://github.com/instantiatio/iEWR/releases/download/7.0.8/iEWR-7.0.8-Eternal-Alpha.zip.sha256) · [Release page](https://github.com/instantiatio/iEWR/releases/tag/7.0.8).
 
 [iEWR repository](https://github.com/instantiatio/iEWR) · [Published releases](https://github.com/instantiatio/iEWR/releases) · [Release changes](RELEASE_NOTES.md).
 
