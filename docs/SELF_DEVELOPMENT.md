@@ -17,9 +17,11 @@ When instructed to compare the environment with upstream or update it:
 
 If the network or exact previous basis is unavailable, identify the comparison limit and hold the dependent conclusion about upstream compatibility. Authorized local changes can continue while preserving the actual before state. The repository link provides navigation; updates and publication remain within the effective instruction.
 
-For an ordinary release, a version number is sufficient. Do not add administrative edition prefixes or suffixes to distribution names or current metadata without material need. Preserve exact source editions, method versions, and provenance as grounds independently of the new build's name.
+Preserve exact source editions, method versions, and provenance independently of the new build's name.
 
 ## README and release information
+
+Use `iEWR <version> Eternal Alpha` as the release title. Name the archive `iEWR-<version>-Eternal-Alpha.zip` and its root directory `iEWR-<version>-Eternal-Alpha`. Do not add prefixes or suffixes.
 
 README contains the agreed iEWR description: purpose, project examples, getting started, methodological basis, transfer procedure, and links to detailed materials. A version change alone does not authorize rewriting this description, restructuring its sections, or making stylistic or substantive changes. Such edits require a separate Human request; a direct instruction to change README within agreed bounds is already sufficient, without repeated general approval of routine steps.
 
@@ -51,8 +53,6 @@ Select checks by consequences and material unknowns; reuse sufficient earlier re
 Use a sufficient decision or result record already needed for the work. Acceptance itself does not require separate cards, a full traversal of FPF or every method, a new MP method, or a mandatory document cycle. When the conditions are met, the new edition is accepted within the agreed scope; this does not itself establish production admission. A material unresolved condition holds only the dependent activation or conclusion: report the specific gap and continuation condition, and continue useful independent work.
 
 ## Carrying out a change
-
-Before proposing a change to an instruction, notice whether it would change who acts, when they act, what grounds they need, or when they stop. Such a change can raise a method choice even if the request is phrased as a wording edit.
 
 For a new method choice, first check a sufficient FPF principle/method under the [connection rule](../AGENTS.md#method-source-priority). C.39.MF helps resolve an unclear Method/non-Method focus; C.39 obtains missing methods and joins; C.39.MC supports continuation under changed conditions; C.43 connects observation, choice, and action and checks the effect. Do not search again for an already sufficient basis. A.10 distinguishes a historical report from a new actual check; an old specific event does not transfer to the current edition.
 

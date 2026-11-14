@@ -1,9 +1,9 @@
 {
   "id": "iEWR",
   "name": "iEWR",
-  "version": "7.0.8",
+  "version": "7.0.9",
   "research_stage": "Eternal Alpha",
-  "display_name": "iEWR 7.0.8 Eternal Alpha",
+  "display_name": "iEWR 7.0.9 Eternal Alpha",
   "status": "research_release",
   "public_release": true,
   "publication_authorized": true,
@@ -13,12 +13,12 @@
   "ConOps": "docs/IEWR_CONOPS.md",
   "mini_ConOps": "docs/MINI_CONOPS.md",
   "method_catalog": "docs/METHOD_CATALOG.md",
-  "current_pack_edition": "base-v3.16",
+  "current_pack_edition": "base-v3.17",
   "active_method_descriptions": 37,
   "FPF": "external-sources/fpf/SOURCE.json",
   "methodpack_control": "tools/methodpack.py",
   "inventory": "INSTALLATION.json",
-  "change_scope": "Improve method choice and reassessment, retain actual method use, save chat attachment originals, and make FPF index generation safe.",
+  "change_scope": "Add independent software review before release, specify local method lookup, and clarify self-development and continuation in ConOps.",
   "project_application_history": "empty",
   "DMG": "Dynamic Method Generation is an internal mechanism/function, not the product name",
   "repository": {
@@ -33,11 +33,13 @@
     }
   },
   "source_edition": {
-    "kind": "local_release_archive",
-    "version": "7.0.7",
-    "archive_name": "iEWR-7.0.7-Eternal-Alpha.zip",
-    "archive_sha256": "d5461647d6b321c2c951dc4d648212dfe9651a24e4aab4b38f56ee3d8994f810",
-    "role": "Exact immediate candidate archive used for this work, with MP base-v3.16. The task 00 comparative baseline is 7.0.6."
+    "kind": "published_release",
+    "version": "7.0.8",
+    "archive_name": "iEWR-7.0.8-Eternal-Alpha.zip",
+    "archive_sha256": "ac268b35c8ac61a3c570e6f10155da63518d686d0dcb4875176f03f8a2d4bf84",
+    "tag": "7.0.8",
+    "commit": "645a1ab400de3a2170fc3522b389626612b5707a",
+    "role": "Exact immediate basis for this build, with MethodPack base-v3.16."
   },
   "portability_assessment": "docs/PORTABILITY.md",
   "methodpack_update_method": "IE-M003@v1.9",
@@ -50,10 +52,10 @@
     "FPF_edition_update": "Prepared coherent original+index with provenance/terms and sufficient verification; see docs/FPF_INDEX.md",
     "local_FPF_index_generation": "Supplied Python tool for preparation/maintenance; not daily runtime requirement"
   },
-  "distribution_root": "iEWR-7.0.8-Eternal-Alpha",
+  "distribution_root": "iEWR-7.0.9-Eternal-Alpha",
   "release": {
-    "tag": "7.0.8",
-    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.8",
+    "tag": "7.0.9",
+    "url": "https://github.com/instantiatio/iEWR/releases/tag/7.0.9",
     "prerelease": false,
     "latest": true
   },

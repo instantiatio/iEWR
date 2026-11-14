@@ -3,9 +3,9 @@
   "path_base": "project_root",
   "pack": {
     "id": "iEWR-MethodPack",
-    "edition": "base-v3.16",
+    "edition": "base-v3.17",
     "description": "methods/METHOD_PACK.md",
-    "snapshot": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+    "snapshot": "methods/snapshots/base-v3.17/METHOD_PACK.md",
     "qualification": "Applied descriptions have candidate status; actual suitability is checked for a specific use.",
     "project_application_history": "Source-based candidate refinement; observations remain bound to the checked editions and cases"
   },
@@ -1197,7 +1197,7 @@
           "status": "candidate"
         },
         {
-          "target": "SW-01@v1.5",
+          "target": "SW-01@v1.6",
           "type": "uses_when_needed",
           "compatibility": "Software implementation of a selected architecture, with the same configuration, state invariants and authorized change.",
           "status": "candidate",
@@ -4129,8 +4129,8 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1420,
-        "end_line": 1459
+        "start_line": 1426,
+        "end_line": 1465
       }
     },
     {
@@ -4229,17 +4229,17 @@
         "transfer_raises_quality": false
       },
       "location": {
-        "start_line": 1462,
-        "end_line": 1511
+        "start_line": 1468,
+        "end_line": 1517
       }
     },
     {
       "id": "SW-01",
       "name": "Change software behavior and bring it to verified use",
-      "edition": "v1.5",
+      "edition": "v1.6",
       "description": "methods/METHOD_PACK.md",
-      "anchor": "sw-01-v1-5",
-      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "anchor": "sw-01-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.17/METHOD_PACK.md",
       "use_when": "A prepared developer or team that understands the selected language and stack changes existing behavior, fixes a defect, checks composition, migrates data, builds, deploys, or restores a service. Required inputs are an assignment, initial edition and unfinished changes, user result and independent grounds for the expected answer, actual configuration and data, available means, and current rights. Authority to read, change, test, activate, and affect operational data differs. A specific DBMS, cryptography, identity provider, or specialized parser requires a suitable technical mechanism and competence; a technology or document name does not establish them. If absent, withhold only the dependent assurance or action.",
       "keywords": [
         "SW-01",
@@ -4346,6 +4346,14 @@
           "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
           "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual dependency, return to the subject, and local stopping.",
           "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39.WA:4.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "For §7 independent review before release: a competent reviewer forms an expectation from the original task and subject grounds before examining the candidate and earlier conclusions. SW-01 defines the software risk trigger, component checks and release record.",
+          "status": "source_compared"
         }
       ],
       "source_contributions": [
@@ -4385,7 +4393,7 @@
       },
       "location": {
         "start_line": 1259,
-        "end_line": 1417
+        "end_line": 1423
       }
     }
   ],

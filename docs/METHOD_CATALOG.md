@@ -40,6 +40,6 @@ The distribution contains 37 applied methods. Name an ID in chat: “Apply TEXT-
 | [PUBLICATION](../methods/METHOD_PACK.md#publication-v1-4) | Prepare a publication for the promised mode of use | CDP |
 | [INFO-SEC](../methods/METHOD_PACK.md#info-sec-v1-5) | Provide a specific protective contribution and maintain it | ISEC |
 | [SW-SEC](../methods/METHOD_PACK.md#sw-sec-v1-6) | Implement a protective property of a software product | SPSEC |
-| [SW-01](../methods/METHOD_PACK.md#sw-01-v1-5) | Change software behavior and bring it to verified use | ISDLC, SYSE |
+| [SW-01](../methods/METHOD_PACK.md#sw-01-v1-6) | Change software behavior and bring it to verified use | ISDLC, SYSE |
 
 Exact source editions and terms: [ORIGINS.json](../ORIGINS.json) and [method authorship](METHOD_SOURCE_NOTICES.md). General methodology is used directly from FPF. Product editions and method-description editions are independent.

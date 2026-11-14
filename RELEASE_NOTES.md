@@ -1,12 +1,11 @@
-# iEWR 7.0.8 Eternal Alpha
+# iEWR 7.0.9 Eternal Alpha
 
-This release includes the changes developed after the public 7.0.6 release. See [README.md](README.md) for the purpose of iEWR and how to get started.
+Prepared from iEWR 7.0.8 Eternal Alpha. See [README.md](README.md) for the purpose of iEWR, getting started, and project transfer.
 
-- A short cue ties method choice to the intended result and actual conditions. It helps the agent check an uncertainty that could change the choice, reuse a sufficient basis, and reopen a choice when its conditions change.
-- Ordinary projects keep a [method-use log](docs/METHOD_USE_LOG.md) of actual FPF and MethodPack applications. The default is one line per distinct application. A detailed entry can be added on request. The log retains significant failed, interrupted, and revised applications.
-- The agent saves accessible original chat attachments in the active project, verifies their bytes, and keeps distinct originals that share a name.
-- The FPF index generator stages writes in a private temporary directory. It replaces the index after a successful write and preserves the previous index on a write failure.
-- When input from Human is required, the agent completes useful independent work first. It can ask sooner when work can continue while waiting and the overlap is likely to save time. A handoff opens with a short status.
-- The startup instructions lead directly from README to AGENTS.md. The ZIP opens into the `iEWR-7.0.8-Eternal-Alpha` folder.
+- MethodPack base-v3.17 includes SW-01 v1.6. Section 7 defines when to arrange independent review before release, how the reviewer forms an initial expectation, and what to record for the release decision.
+- Method lookup uses the supplied FPF and the active MethodPack. The MethodPack index resolves author families and exact author method IDs. Online lookup requires an explicit Human request, including when the local lookup yields no suitable contribution.
+- ConOps names Recursive System Formation as the application of System Formation to iEWR during Human-assigned self-development. It also explains how the continuation record and the method-use log support resumption.
 
-See [STATUS.md](STATUS.md) for the checks and their scope.
+- Release naming is specified in [SELF_DEVELOPMENT.md](docs/SELF_DEVELOPMENT.md#readme-and-release-information).
+
+See [STATUS.md](STATUS.md) for the scope of the checks.

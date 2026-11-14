@@ -445,7 +445,7 @@
   "bearer": "One LLM + current ADE + sources and working memory",
   "not_required": "A sequential traversal of seven functions, seven agents, or an own universal runtime is not required.",
   "support_limits": "AGENTS prescriptions are declared; ADE properties are checked for the specific action.",
-  "version": "7.0.8",
+  "version": "7.0.9",
   "layers": {
     "universal_core": {
       "instructions": "AGENTS.md",
@@ -502,7 +502,7 @@
     },
     "qualification": "Candidate descriptions; fitness is established for the specific use",
     "description_alignment": {
-      "current": "base-v3.16",
+      "current": "base-v3.17",
       "scope": "Self-contained current descriptions with applicable conditions and sources"
     }
   },

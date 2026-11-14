@@ -48,6 +48,6 @@ New author refinements are distinguished from prior losses, including research c
 | [PUBLICATION](../methods/METHOD_PACK.md#publication-v1-4) | v1.4 | v1.4 | keep |
 | [INFO-SEC](../methods/METHOD_PACK.md#info-sec-v1-5) | v1.4 | v1.5 | revise same method |
 | [SW-SEC](../methods/METHOD_PACK.md#sw-sec-v1-6) | v1.5 | v1.6 | revise same method |
-| [SW-01](../methods/METHOD_PACK.md#sw-01-v1-5) | v1.4 | v1.5 | revise same method |
+| [SW-01](../methods/snapshots/base-v3.16/METHOD_PACK.md#sw-01-v1-5) | v1.4 | v1.5 | revise same method |
 
 Historical pairs base-v3.10, base-v3.14 and base-v3.15 are preserved exactly. The detailed source ranges, old/new comparisons, initial reviews and constructed trials are retained in the development project; they are not project history inside the clean distribution. No complete new reading of every cited professional work, empirical qualification of every method, or production admission is claimed.

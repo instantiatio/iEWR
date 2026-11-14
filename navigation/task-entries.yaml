@@ -1398,9 +1398,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-5",
+          "anchor": "sw-01-v1-6",
           "index": "methods/index.yaml"
         }
       ],
@@ -1437,9 +1437,9 @@
         {
           "kind": "MethodPack",
           "id": "SW-01",
-          "edition": "v1.5",
+          "edition": "v1.6",
           "description": "methods/METHOD_PACK.md",
-          "anchor": "sw-01-v1-5",
+          "anchor": "sw-01-v1-6",
           "index": "methods/index.yaml"
         },
         {

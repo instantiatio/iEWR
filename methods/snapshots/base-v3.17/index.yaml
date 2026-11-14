@@ -1,0 +1,4401 @@
+{
+  "schema_version": 2,
+  "path_base": "project_root",
+  "pack": {
+    "id": "iEWR-MethodPack",
+    "edition": "base-v3.17",
+    "description": "methods/METHOD_PACK.md",
+    "snapshot": "methods/snapshots/base-v3.17/METHOD_PACK.md",
+    "qualification": "Applied descriptions have candidate status; actual suitability is checked for a specific use.",
+    "project_application_history": "Source-based candidate refinement; observations remain bound to the checked editions and cases"
+  },
+  "methods": [
+    {
+      "id": "IE-M003",
+      "name": "Reconcile the current book, index, and preserved editions",
+      "edition": "v1.9",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ie-m003-v1-9",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The local current book/index pair needs reconciliation with immutable snapshots and metadata",
+      "keywords": [
+        "MethodPack",
+        "edition",
+        "snapshot",
+        "index",
+        "selection of ADE means",
+        "single writer",
+        "update without Python",
+        "attempt recovery"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Direct general suppliers are separated from the local storage and activation adapter"
+        },
+        {
+          "path": "docs/PROJECT_METHODS.md",
+          "role": "Current local convention and entry; a working document, not a pinned historical edition"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-iewr",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "local_methods"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "supplies",
+          "target": "IE-M004@v1.9",
+          "compatibility": "The assigned environment change affects the MethodPack book and index; pair preservation and activation conditions are met",
+          "basis": "Local operations and output/input conditions; no formal composition asserted",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "C.39.RP",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "A.3.2.DE",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "A.3.1.MV",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "F.0.2.MA",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "F.0.2.RC",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        }
+      ],
+      "location": {
+        "start_line": 26,
+        "end_line": 84
+      },
+      "source_contributions": []
+    },
+    {
+      "id": "IE-M004",
+      "name": "Activate a verified environment edition in an installed project",
+      "edition": "v1.9",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ie-m004-v1-9",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Human assigned a change/activation of an edition of this specific environment",
+      "keywords": [
+        "self-development",
+        "before and after",
+        "assurance"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Direct general suppliers are separated from the local repository and activation adapter."
+        },
+        {
+          "path": "docs/SELF_DEVELOPMENT.md",
+          "role": "Current local convention and entry; a working document, not a pinned historical edition."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-iewr",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "local_methods"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses",
+          "target": "IE-M003@v1.9",
+          "compatibility": "The assigned environment change affects the MethodPack book and index; pair preservation and activation conditions are met.",
+          "basis": "Local operations and output/input conditions; no formal composition is claimed",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "C.39.MF",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body.",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "C.39.MC",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body.",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "C.43",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body.",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "pattern": "A.10",
+          "compatibility": "Only the missing general contribution; the local file convention remains in this body.",
+          "basis": "Read the named FPF supplier in the pinned original and check its conditions for the current use; local operations remain in this method body",
+          "status": "candidate"
+        }
+      ],
+      "location": {
+        "start_line": 87,
+        "end_line": 111
+      },
+      "source_contributions": []
+    },
+    {
+      "id": "KCA-01",
+      "name": "Organize materials and exact reading of an edition",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-01-v1-5",
+      "location": {
+        "start_line": 114,
+        "end_line": 152
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Inputs and results need placement, text needs repeated retrieval by address, extraction needs preparation, or ambiguity in a name and edition needs resolution; snapshot or export contents must be defined by the recipient's purpose",
+      "keywords": [
+        "material organization",
+        "naming",
+        "editions",
+        "exact reading",
+        "source",
+        "snapshot",
+        "export",
+        "archive",
+        "snapshot contents"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "F.1",
+          "location": {
+            "start_line": 117735,
+            "end_line": 117903
+          },
+          "role": "Exact edition and question-relative role; question change is separated from alternatives; complementary search; contextual reading; stopping according to next use and affordable costs. Does not supply an index server or population aggregation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.6.3.RT",
+          "location": {
+            "start_line": 18366,
+            "end_line": 18472
+          },
+          "role": "Preserve what matters when changing representation; distinguish a derived conclusion, losses, and return to the source. Does not automatically declare OCR and parsing to be semantic RT."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.2.8",
+          "location": {
+            "start_line": 53817,
+            "end_line": 53907
+          },
+          "role": "Recoverable structure relative to reader, operations, support, and budget; comparison and correctness; stopping at a sufficient structural answer. Does not supply a pagination implementation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.10.1",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27155
+          },
+          "role": "Change in a source claim; bounded discovery outward from the source and from the recipient side; actual dependency; action-changing coverage; direct rechecking of the subject; earlier editions and results remain recoverable."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-02@v1.7",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-03@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-04@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.SOURCE"
+      ]
+    },
+    {
+      "id": "KCA-02",
+      "name": "Obtain a useful contribution through available corpus routes",
+      "edition": "v1.7",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-02-v1-7",
+      "location": {
+        "start_line": 155,
+        "end_line": 183
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "It is unknown which source or fragment will help; search repeats plausible answers, an independent blind-spot check is needed, or a bounded corpus overview is required.",
+      "keywords": [
+        "search",
+        "unknown source",
+        "independent review",
+        "synthesis",
+        "coverage",
+        "assessment",
+        "routes",
+        "full costs"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "F.1",
+          "location": {
+            "start_line": 117735,
+            "end_line": 117903
+          },
+          "role": "Exact edition and question-relative role; question change is separated from alternatives; complementary search; contextual reading; stopping according to next use and affordable costs. Does not supply an index server or population aggregation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.39",
+          "location": {
+            "start_line": 81946,
+            "end_line": 82102
+          },
+          "role": "Obtain the missing operation, backward and forward joins, transformations, shared constraints, variations, and selective correction; stop at sufficient continuation. Is not a corpus service."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.11.DUA",
+          "location": {
+            "start_line": 57117,
+            "end_line": 57260
+          },
+          "role": "Recipient question, feasible inquiry, full burden, comparison with no change, and useful completion; domain permission and experiment planning remain separate."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.2.8",
+          "location": {
+            "start_line": 53817,
+            "end_line": 53907
+          },
+          "role": "Recoverable structure relative to reader, operations, support, and budget; comparison and correctness; stopping at a sufficient structural answer. Does not supply a pagination implementation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "E.11.PUR",
+          "location": {
+            "start_line": 103304,
+            "end_line": 103455
+          },
+          "role": "Suitability, unsuitability, or insufficient grounds; applicability separately from recommendation; reuse of a previous result by question, edition, dependencies, and currentness; coordination without an imposed order. Scope is use of an FPF pattern."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.3.1.QM",
+          "location": {
+            "start_line": 10139,
+            "end_line": 10255
+          },
+          "role": "Qualification of an individual Method, candidate, or local join; failing a criterion differs from insufficient grounds; the whole question is separate."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.10.1",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27155
+          },
+          "role": "Change in a source claim; bounded discovery outward from the source and from the recipient side; actual dependency; action-changing coverage; direct rechecking of the subject; earlier editions and results remain recoverable."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-01@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-03@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-04@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-05@v1.7",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.USE",
+        "KCAE.INDEX",
+        "KCAE.SEARCH",
+        "KCAE.ASSESS",
+        "KCAE.COMPOSE",
+        "KCAE.EVAL"
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 78408,
+            "end_line": 78495
+          },
+          "compatibility": "Read the source section and its conditions when this contribution is needed for the selected application; not a mandatory sequence",
+          "basis": "Direct applicable supplier of the current description",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.6.3.RT",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 18366,
+            "end_line": 18472
+          },
+          "compatibility": "Read the source section and its conditions when this contribution is needed for the selected application; not a mandatory sequence",
+          "basis": "Direct applicable supplier of the current description",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "B.5.PI",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 50256,
+            "end_line": 50390
+          },
+          "compatibility": "Read the source section and its conditions when this contribution is needed for the selected application; not a mandatory sequence",
+          "basis": "Direct applicable supplier of the current description",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.3.1.DR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "location": {
+            "start_line": 9934,
+            "end_line": 10055
+          },
+          "compatibility": "Read the source section and its conditions when this contribution is needed for the selected application; not a mandatory sequence",
+          "basis": "Direct applicable supplier of the current description",
+          "status": "candidate"
+        }
+      ]
+    },
+    {
+      "id": "KCA-03",
+      "name": "Deliver sufficient reading in the actual execution environment",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-03-v1-5",
+      "location": {
+        "start_line": 186,
+        "end_line": 209
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Useful material has been found but needs delivery to a person, model, tool, or subsequent reader without losing conditions and at an acceptable cost.",
+      "keywords": [
+        "delivery",
+        "context",
+        "budget",
+        "truncation",
+        "chunking",
+        "reader",
+        "isolation"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.2.8",
+          "location": {
+            "start_line": 53817,
+            "end_line": 53907
+          },
+          "role": "Recoverable structure relative to reader, operations, support, and budget; comparison and correctness; stopping at a sufficient structural answer. Does not supply a chunking implementation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.11.DUA",
+          "location": {
+            "start_line": 57117,
+            "end_line": 57260
+          },
+          "role": "Recipient question, feasible inquiry, full costs and burden, comparison with no change, and useful completion; domain permission and experiment design remain separate."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "F.1",
+          "location": {
+            "start_line": 117735,
+            "end_line": 117903
+          },
+          "role": "Exact edition and question-relative role; question change is separated from alternatives; complementary search, contextual reading, stopping according to next use and affordable costs. Does not supply an index server or population aggregation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.39",
+          "location": {
+            "start_line": 81946,
+            "end_line": 82102
+          },
+          "role": "Obtain the missing operation, backward and forward joins, transformations, shared constraints, variations, and selective correction; stop at sufficient continuation. Is not a corpus service."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-01@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies.",
+          "basis": "Join and stop of the current body; optional use according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-02@v1.7",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies.",
+          "basis": "Join and stop of the current body; optional use according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-04@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies.",
+          "basis": "Join and stop of the current body; optional use according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.DELIVER"
+      ]
+    },
+    {
+      "id": "KCA-04",
+      "name": "Preserve coherent editions of sources and representations",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-04-v1-5",
+      "location": {
+        "start_line": 212,
+        "end_line": 242
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "A source, extraction, permissions, model, or case grounds change while reading and reuse continue. A fixed dossier for one-time use needs only the fixed basis of KCA-01; after a material change, current records in use need reconciliation",
+      "keywords": [
+        "update",
+        "coherent generation",
+        "source representation",
+        "access revocation",
+        "deletion",
+        "reloading",
+        "currentness",
+        "current state",
+        "handoff",
+        "conflicting records"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.10.1",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27155
+          },
+          "role": "Change in a source claim; bounded search from the source and the recipient side; actual dependency; action-changing coverage; direct rechecking of the subject; earlier editions and results remain recoverable."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "G.11",
+          "location": {
+            "start_line": 131167,
+            "end_line": 131381
+          },
+          "role": "Currentness separately from sufficiency, scope through closure of actual dependencies; an update plan is not U.Work; an unchanged result does not require a new update record. The :4.1 relation schema was only partially opened and is not used as an executed contract."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.6.3.RT",
+          "location": {
+            "start_line": 18366,
+            "end_line": 18472
+          },
+          "role": "Preserve what matters when changing representation; distinguish a derived conclusion, loss, and return to the source. Does not automatically declare OCR and syntactic parsing to be semantic RT."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "F.1",
+          "location": {
+            "start_line": 117735,
+            "end_line": 117903
+          },
+          "role": "Exact edition and question-relative role; question change is separated from alternatives; complementary search, contextual reading, stopping according to next use and affordable cost. Does not supply an index server or population aggregation."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-01@v1.5",
+          "compatibility": "Check the accepted result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional, according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-02@v1.7",
+          "compatibility": "Check the accepted result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional, according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-03@v1.5",
+          "compatibility": "Check the accepted result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional, according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-05@v1.7",
+          "compatibility": "Check the accepted result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional, according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.CHANGE"
+      ]
+    },
+    {
+      "id": "KCA-05",
+      "name": "Preserve conditional memory and questions that can be reopened",
+      "edition": "v1.7",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-05-v1-7",
+      "location": {
+        "start_line": 245,
+        "end_line": 273
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "A source-to-work relation recurs, or an unresolved signal is needed for authorized subsequent use; the assignment, latest confirmed state, and authorized continuation need recovery",
+      "keywords": [
+        "memory",
+        "memory",
+        "open question",
+        "retention",
+        "reverse search",
+        "recognition",
+        "continuation",
+        "active assignment",
+        "historical observation"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "B.5.PI",
+          "location": {
+            "start_line": 50256,
+            "end_line": 50390
+          },
+          "role": "A question from ordinary successful work, an early signal without an imposed diagnosis, a revisable question, a useful next move or quiet continuation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.16.1",
+          "location": {
+            "start_line": 33766,
+            "end_line": 33870
+          },
+          "role": "Preservation of an early signal with its core and grounds without a premature final result; does not specify an operational episode index or retention mechanism."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "E.11.PUR",
+          "location": {
+            "start_line": 103304,
+            "end_line": 103455
+          },
+          "role": "Suitability, unsuitability, or insufficient grounds; applicability separately from recommendation; reuse of a previous result by question, edition, dependencies, and currentness; coordination without an imposed order. Scope is use of an FPF pattern."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.10.1",
+          "location": {
+            "start_line": 26950,
+            "end_line": 27155
+          },
+          "role": "Change in a source claim; bounded discovery outward from the source and from the recipient side; actual dependency; action-changing coverage; direct rechecking of the subject; earlier editions and results remain recoverable."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "G.11",
+          "location": {
+            "start_line": 131167,
+            "end_line": 131381
+          },
+          "role": "Currentness separately from sufficiency, scope is actual dependency closure; an update plan is not Work; an unchanged result does not require a new update record. The :4.1 relation schema was only partially opened and is not used as an executed contract."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.11.DUA",
+          "location": {
+            "start_line": 57117,
+            "end_line": 57260
+          },
+          "role": "Recipient question, feasible inquiry, full burden, comparison with no change, and useful completion; domain permission and experiment planning remain separate."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-01@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-04@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-06@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.MEMORY"
+      ]
+    },
+    {
+      "id": "KCA-06",
+      "name": "Ensure an actual encounter with useful knowledge",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "kca-06-v1-5",
+      "location": {
+        "start_line": 276,
+        "end_line": 302
+      },
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "There is an authorized situation in which a useful question or signal could enter ordinary work; nobody opens search because nobody yet sees the question. This is an optional method, not a standing mandate to observe.",
+      "keywords": [
+        "encounter with knowledge",
+        "observation",
+        "event",
+        "observer",
+        "retry",
+        "receipt",
+        "idempotency",
+        "without notification"
+      ],
+      "groups": [
+        "iEWR work support",
+        "general purpose"
+      ],
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "B.5.PI",
+          "location": {
+            "start_line": 50256,
+            "end_line": 50390
+          },
+          "role": "A question from ordinary successful work, an early signal without an imposed diagnosis, a revisable question, a useful next move or quiet continuation."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "A.15.11",
+          "location": {
+            "start_line": 32516,
+            "end_line": 32625
+          },
+          "role": "Actual situation, understandable relevance, available instructions and capability; a matched unsuitable case; compare signal burden and remove useless requests."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "C.11.DUA",
+          "location": {
+            "start_line": 57117,
+            "end_line": 57260
+          },
+          "role": "Recipient question, feasible inquiry, full burden, comparison with no change, and useful completion; domain permission and experiment planning remain separate."
+        },
+        {
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6",
+          "pattern": "E.11.PUR",
+          "location": {
+            "start_line": 103304,
+            "end_line": 103455
+          },
+          "role": "Suitability, unsuitability, or insufficient grounds; applicability separately from recommendation; reuse of a previous result by question, edition, dependencies, and currentness; coordination without an imposed order. Scope is use of an FPF pattern."
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-kcae",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "KCAE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-02@v1.7",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-03@v1.5",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "target": "KCA-05@v1.7",
+          "compatibility": "Check the recipient result, source edition, conditions, and actual capability against both bodies",
+          "basis": "Join and stop of the current body; optional according to the missing contribution",
+          "status": "candidate"
+        }
+      ],
+      "source_contributions": [
+        "KCAE.ENCOUNTER"
+      ]
+    },
+    {
+      "id": "DEC-VALUES",
+      "name": "Compare consequences under uncertain values",
+      "edition": "v1.7",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "dec-values-v1-7",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Compare consequences under uncertain values",
+      "keywords": [
+        "DEC-VALUES",
+        "Compare consequences under uncertain values",
+        "PSDA"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-psda",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "PSDA"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Choice membership, rule, and result; does not itself elicit every value model or construct domain consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Reachable value of inquiry and advice against full burden, current force of disputed requirements.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and connection with development. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "PSDA.6",
+        "PSDA.8",
+        "PSDA.9"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 466,
+        "end_line": 513
+      }
+    },
+    {
+      "id": "SYS-CONCEPT",
+      "name": "Form an engineering concept and architecture",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sys-concept-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Form an engineering concept and architecture",
+      "keywords": [
+        "SYS-CONCEPT",
+        "Form an engineering concept and architecture",
+        "SYSE",
+        "EventStorming",
+        "domain events",
+        "architecture mechanism comparison"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "SYS-DELIVERY@v1.4",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_when_needed",
+          "target": "SYS-ASSURANCE@v1.3",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "target": "SW-01@v1.6",
+          "type": "uses_when_needed",
+          "compatibility": "Software implementation of a selected architecture, with the same configuration, state invariants and authorized change.",
+          "status": "candidate",
+          "basis": "Current bodies provide the corresponding conditional receiving operation; no formal composition asserted."
+        },
+        {
+          "target": "SYS-LIFECYCLE@v1.5",
+          "type": "uses_when_needed",
+          "compatibility": "Interface/component coexistence and lifecycle implications for the same architecture candidate.",
+          "status": "candidate",
+          "basis": "Current bodies provide the corresponding conditional receiving operation; no formal composition asserted."
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct subject and bounded project focus or ChoiceResult; not construction of a general engineering focus from a label.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Formation of complete candidates and their comparability for one result; choice and domain implementation remain separate.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and connection with development. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of a source from the result, backward and forward construction, and explicit joins; a sufficient direct domain Method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.PAD",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Architectural-decision relation and a constructive decision path; supplied engineering candidates and evidence remain necessary.",
+          "status": "source_compared"
+        },
+        {
+          "pattern": "B.5.SD",
+          "type": "uses_direct_FPF",
+          "compatibility": "Only the optional collaborative domain-behaviour branch; recover needed result, capable participants, inspectable reasoning and supported return.",
+          "basis": "installed FPF lines50448–50602; domain event operations from SYSE.54",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "status": "candidate",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+        },
+        {
+          "pattern": "A.3.3.TR",
+          "type": "uses_direct_FPF",
+          "compatibility": "Only when a qualitative event account needs an explicit state-change rule; recover state/step, operation semantics, invariants and unresolved guarantees.",
+          "basis": "installed FPF lines12403–12521",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "status": "candidate",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.1",
+        "SYSE.16",
+        "SYSE.17",
+        "SYSE.2",
+        "SYSE.22",
+        "SYSE.5",
+        "SYSE.6",
+        "SYSE.23",
+        "SYSE.54"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 319,
+        "end_line": 373
+      }
+    },
+    {
+      "id": "SYS-DELIVERY",
+      "name": "Obtain and reconcile an engineering contribution",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sys-delivery-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Obtain and reconcile an engineering contribution",
+      "keywords": [
+        "SYS-DELIVERY",
+        "Obtain and reconcile an engineering contribution",
+        "SYSE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "SYS-ASSURANCE@v1.3",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Formation of complete candidates for the same result and equal comparison conditions; choice and domain implementation remain separate.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of a source from the result, backward and forward construction, and explicit joins; a sufficient direct domain method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and development connection. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.8",
+        "SYSE.24",
+        "SYSE.3",
+        "SYSE.11",
+        "SYSE.12",
+        "SYSE.18"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 376,
+        "end_line": 407
+      }
+    },
+    {
+      "id": "SYS-ASSURANCE",
+      "name": "Reconcile configuration, evidence, and decisions",
+      "edition": "v1.3",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sys-assurance-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Reconcile configuration, evidence, and decisions",
+      "keywords": [
+        "SYS-ASSURANCE",
+        "Reconcile configuration, evidence, and decisions",
+        "SYSE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of sources from the needed result, backward and forward construction, and explicit joins; a sufficient direct domain Method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and connection with development. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Choice membership, rule, and result; does not itself elicit every value model or construct domain consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Reachable value of inquiry into a question and advice against full burden, current force of disputed requirements.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Source change at claim scale, actual direct dependency and coverage, independently governed rechecking of the subject.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.9",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Suitability assessment of an available result, justified bounded acquisition, supplier responsibility, receiving use, and local reconsideration.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.36",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Distinctions of cultural continuation and intervention; domain execution and outcome justification retain their own evidence.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.7",
+        "SYSE.10",
+        "SYSE.13",
+        "SYSE.14",
+        "SYSE.19",
+        "SYSE.4",
+        "SYSE.15",
+        "SYSE.20",
+        "SYSE.21"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 410,
+        "end_line": 435
+      }
+    },
+    {
+      "id": "SYS-LIFECYCLE",
+      "name": "Change and end supported use",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sys-lifecycle-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Change and end supported use",
+      "keywords": [
+        "SYS-LIFECYCLE",
+        "Change and end supported use",
+        "SYSE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "SYS-ASSURANCE@v1.3",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of a source from the result, backward and forward construction, and explicit joins; a sufficient direct domain method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and development connection. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Formation of complete candidates for the same result and equal comparison conditions; choice and domain implementation remain separate.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.25",
+        "SYSE.26",
+        "SYSE.27",
+        "SYSE.28",
+        "SYSE.29",
+        "SYSE.53",
+        "SYSE.39"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 438,
+        "end_line": 463
+      }
+    },
+    {
+      "id": "AGENT-SUPPORT",
+      "name": "Provide tools, learning, and management for an agent's work",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "agent-support-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Provide tools, learning, and management for an agent's work",
+      "keywords": [
+        "AGENT-SUPPORT",
+        "Provide tools, learning, and management for an agent's work",
+        "SYSE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "KCA-03@v1.5",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.24",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Planning invocation of a fixed action; actual execution and application of the effect are explicitly outside the planning result.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.9",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Suitability checking of an available result, useful bounded acquisition, supplier ownership, recipient use, and local resumption.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and development connection. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Continuation configuration and a direct domain recovery probe; not a universal memory or checkpoint mechanism.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of a source from the result, backward and forward construction, and explicit joins; a sufficient direct domain method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Formation of complete candidates for the same result and equal comparison conditions; choice and domain implementation remain separate.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "List of alternatives, choice rule, and result; does not itself elicit every value model or construct domain consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Reachable value of inquiry or advice against full costs and burden, current force of disputed requirements.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.42",
+        "SYSE.43",
+        "SYSE.44",
+        "SYSE.45",
+        "SYSE.46",
+        "SYSE.47",
+        "SYSE.48",
+        "SYSE.49",
+        "SYSE.50",
+        "SYSE.51",
+        "SYSE.52"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 561,
+        "end_line": 599
+      }
+    },
+    {
+      "id": "DEC-INQUIRY",
+      "name": "Form a question and provide a grounded recommendation",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "dec-inquiry-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Form a question and provide a grounded recommendation",
+      "keywords": [
+        "DEC-INQUIRY",
+        "Form a question and provide a grounded recommendation",
+        "PSDA",
+        "goals and provision",
+        "information value"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-psda",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "PSDA"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of sources from the needed result, backward and forward construction, and explicit joins; a sufficient direct domain Method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and connection with development. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of complete candidates for one result under comparable conditions; choice and domain implementation remain separate.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Choice membership, rule, and result; does not itself elicit every value model or construct domain consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Reachable value of inquiry into a question and advice against full burden, current force of disputed requirements.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Source change at claim scale, actual direct dependency and coverage, independently governed rechecking of the subject.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.9",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Suitability assessment of an available result, justified bounded acquisition, supplier responsibility, receiving use, and local reconsideration.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.36",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Distinctions of cultural continuation and intervention; domain execution and outcome justification retain their own evidence.",
+          "status": "source_compared"
+        },
+        {
+          "pattern": "C.40.CD",
+          "type": "uses_direct_FPF",
+          "compatibility": "Changed problem and obtaining way; preserve original need, joint conditions and independently valid results.",
+          "basis": "installed FPF lines84944–85043",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "status": "candidate",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+        },
+        {
+          "pattern": "B.5.SD",
+          "type": "uses_direct_FPF",
+          "compatibility": "Joint construction when participant contributions must form a substantive answer; adequate direct answer remains sufficient.",
+          "basis": "installed FPF lines50448–50602",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "status": "candidate",
+          "source_sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
+        }
+      ],
+      "source_contributions": [
+        "PSDA.1",
+        "PSDA.2",
+        "PSDA.3",
+        "PSDA.4",
+        "PSDA.5",
+        "PSDA.7",
+        "PSDA.11",
+        "PSDA.12",
+        "PSDA.13",
+        "PSDA.14",
+        "PSDA.15",
+        "PSDA.16",
+        "PSDA.17",
+        "PSDA.18",
+        "PSDA.19",
+        "PSDA.20"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 516,
+        "end_line": 558
+      }
+    },
+    {
+      "id": "ADM-CASE",
+      "name": "Provide an administrative condition and preserve open obligations",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "adm-case-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Provide an administrative condition and preserve open obligations",
+      "keywords": [
+        "ADM-CASE",
+        "Provide an administrative condition and preserve open obligations",
+        "ADM"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-adm",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "ADM"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.8.PER",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Exact permission, grant, exercise, and conflict; does not supply concrete policy or jurisdiction.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-linked evidence and source provenance, dependent-use limit; does not independently establish the content of the domain conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.12",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Promise, outcome, window, and acceptance result; the content of the institutional execution rule is obtained separately.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.27.TA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Temporal subject, predicate, reference point, window, currentness, and reconsideration; does not establish dates.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.7",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct seven-step selection of the next action for a situation with exact branch, authority, execution, feedback, and stop.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joining observation, choice, and actual implementation, conditions of time, resources, and permission, and targeted return of consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.5",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DBR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recover actual dependency, assess suitability of a later result, affect only dependent use, prepare the actual next decision, and stop.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.3.1.MI",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Bounded introduction with truthful candidate/admitted status, receiving use, observation, and retention, change, or reconsideration.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Duty bearer and subjects, constitutive grounds, scope, validity, and performance; a description does not create policy.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "ADM.1",
+        "ADM.2",
+        "ADM.3",
+        "ADM.4",
+        "ADM.5",
+        "ADM.6",
+        "ADM.7",
+        "ADM.9",
+        "ADM.10",
+        "ADM.11",
+        "ADM.13",
+        "ADM.14",
+        "ADM.15",
+        "ADM.16"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 620,
+        "end_line": 656
+      }
+    },
+    {
+      "id": "OPS-STATE",
+      "name": "Recover the operational state for a specific decision",
+      "edition": "v1.6",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-state-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Recover the operational state for a concrete decision",
+      "keywords": [
+        "OPS-STATE",
+        "Recover the operational state for a concrete decision",
+        "OPS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "OPS-COUPLING@v1.5",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.1.SCR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "System-dependent question and a sufficient exit to a domain pattern.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Value of a method variant in a situation, current alternatives, learning, transition and repeated-execution burden, bounded maintenance or stopping.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joining observation, choice, and actual implementation, conditions of time, resources, and permission, and targeted return of consequences.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.1",
+        "OPS.2",
+        "OPS.3",
+        "OPS.4"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 659,
+        "end_line": 673
+      }
+    },
+    {
+      "id": "OPS-CONTINUE",
+      "name": "Determine admission, case continuation, and obligations over time",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-continue-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Determine admission, case continuation, and obligations over time",
+      "keywords": [
+        "OPS-CONTINUE",
+        "Determine admission, case continuation, and obligations over time",
+        "OPS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use",
+        "Partial OPS.6 contribution—case continuation: performer, permission, inputs, next work, evidence, stop, and fallback; execution and subject state are established separately. Complete transfer of all original OPS.6 conditions is not claimed."
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.5",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Readiness of the next consuming operation; readiness is not permission.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.8.PER",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Exact distinction between permission, its grant, exercise, and conflict; does not supply concrete policies or jurisdiction.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Choice only within the active available OptionSet; does not construct missing professional operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.27.TA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The direct named source Solution; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Duty bearer and referents, constitutive grounds, scope, validity, and performance; a description does not create policy.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DBR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recover actual reliance on grounds, establish suitability of a later result, affect only dependent use, prepare the actual next decision, and stop.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.12",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Promise, outcome, window, and acceptance result; the content of the institutional execution rule is obtained separately.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.5",
+        "OPS.6",
+        "OPS.7",
+        "OPS.13",
+        "OPS.21",
+        "OPS.22"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 676,
+        "end_line": 690
+      }
+    },
+    {
+      "id": "OPS-RELEASE",
+      "name": "Release work for execution with returns taken into account and preserve protective capacity",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-release-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Release work for execution accounting for returns and preserve a protective capacity reserve",
+      "keywords": [
+        "OPS-RELEASE",
+        "Release work for execution accounting for returns and preserve a protective capacity reserve",
+        "OPS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.5",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Readiness of the next consuming operation; readiness does not mean permission.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "B.1.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Aggregation of measured resources, intersection, and removal of double counting; not a queueing or scheduling theorem.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.CRC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Finite comparison of S0, change, and S1 with protected and resource coordinates and interactions.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.8",
+        "OPS.8.1",
+        "OPS.8.2",
+        "OPS.9"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 693,
+        "end_line": 709
+      }
+    },
+    {
+      "id": "OPS-CAPACITY",
+      "name": "Develop a proportionate calculation of available resource capacity and completion times",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-capacity-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Construct a proportionate calculation of available resource capacity and completion times",
+      "keywords": [
+        "OPS-CAPACITY",
+        "Construct a proportionate calculation of available resource capacity and completion times",
+        "OPS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "B.1.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Measurable resource aggregation, overlap, and removal of double counting; not a queueing or scheduling theorem.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.27.TA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Temporal subject, predicate, reference point, window, currentness, and reopening; does not establish dates.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Complete execution and support alternatives, executable joins, allocation of capabilities, time, and support; local operational and strategic models remain separate inputs.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.10",
+        "OPS.10.1",
+        "OPS.10.2",
+        "OPS.11.1"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 712,
+        "end_line": 730
+      }
+    },
+    {
+      "id": "OPS-COUPLING",
+      "name": "Coordinate a change across structures (OPS.11)",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-coupling-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Reconcile a change across structures (OPS.11)",
+      "keywords": [
+        "OPS-COUPLING",
+        "Reconcile a change across structures (OPS.11)",
+        "OPS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "OPS-STATE@v1.6",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "ORG-DESIGN@v1.4",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        },
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "ORG-CHANGE@v1.7",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The direct named source Solution; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.JF",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joint reachability with established suitability, distinction among simultaneity, sequence, and alternatives, shared needs, protection, transition, recovery, and a bounded verdict.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joining observation, choice, and actual implementation, time, resource, and permission conditions, and targeted return according to consequences.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.11",
+        "OPS.11.1"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 733,
+        "end_line": 752
+      }
+    },
+    {
+      "id": "OPS-EVIDENCE",
+      "name": "Obtain interpretable operational results",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ops-evidence-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Obtain interpretable operational results",
+      "keywords": [
+        "OPS-EVIDENCE",
+        "Obtain interpretable operational results",
+        "OPS",
+        "knowledge-based support",
+        "KCS"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-ops",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OPS"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "KCA-02@v1.7",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        },
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "KCA-04@v1.5",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        },
+        {
+          "type": "uses_or_supplies",
+          "status": "candidate",
+          "basis": "Optional missing-result join explicitly stated in the revised body; resolve edition during parent assembly.",
+          "target": "KCA-05@v1.7",
+          "compatibility": "Check the same receiving result, source edition, conditions and actual capability against both bodies; use only the missing contribution."
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-linked evidence, source provenance, and reliance limit; does not independently establish the content of the domain conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "B.1.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Aggregation of measured resources, overlap, and deduplication; not a queueing or scheduling theorem.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Useful reachable inquiry, continuation, or stopping against full costs and burden.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OPS.12",
+        "OPS.14",
+        "OPS.15",
+        "OPS.15.1",
+        "OPS.18",
+        "OPS.17"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 755,
+        "end_line": 771
+      }
+    },
+    {
+      "id": "ORG-DESIGN",
+      "name": "Design contribution relationships and obtain separate decisions",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "org-design-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Design contribution relations and obtain separate decisions",
+      "keywords": [
+        "ORG-DESIGN",
+        "Design contribution relations and obtain separate decisions",
+        "OCE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-oce",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OCE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "ORG-CHANGE@v1.7",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.1.CSD",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Discovery of consequence-bearing systems while distinguishing actual and proposed state.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.8.PER",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Exact permission, grant, exercise, and conflict; does not supply concrete policy or jurisdiction.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construct complete materially different ways to one result with comparability, unknowns, acceptance, authority, burden, and fixation for choice.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.DC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Whole proposed directions from a contribution and current S0, materially different grounds, support configurations, and finite comparison.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.2.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct assignment kind, local domain, additional participants, predicate, and relation-instance identity; missing-governor and separate adjacent relations. The local institution supplies the assignment rule.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.6.REL",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Discipline of the direct relation, predicate, applicability, identity, and actual participants; a general relation does not replace a missing governor.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.JF",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Assessed joint reachability, distinction among simultaneity, sequence, and alternatives, shared needs, protection, transition, recovery, and a bounded conclusion.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OCE.1",
+        "OCE.2",
+        "OCE.3",
+        "OCE.4",
+        "OCE.5",
+        "OCE.6",
+        "OCE.7"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 774,
+        "end_line": 812
+      }
+    },
+    {
+      "id": "ORG-CHANGE",
+      "name": "Implement and reconsider a change while the service operates",
+      "edition": "v1.7",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "org-change-v1-7",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Implement and reconsider a change while a service is operating",
+      "keywords": [
+        "ORG-CHANGE",
+        "Implement and reconsider a change while a service is operating",
+        "OCE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-oce",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "OCE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use",
+        "Partial OCE.18 contribution—reconcile a person's current work, practice and preparation, actual role, and actual opportunity for receiving work; completion of training does not establish subsequent use. Complete transfer of all original OCE.18 conditions is not claimed."
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.15.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Work-execution configuration, joins with the recipient, and recovery checking.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.3.1.MI",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Bounded implementation with truthful candidate or admitted status, recipient use, observation, retention, change, and resumption.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joining observation, choice, and actual implementation, time, resource, and permission conditions, and targeted return of consequences.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.36.MC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source solution at the specific address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source solution at the specific address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Complete execution and provision alternatives, executable joins, allocation of capability, time, and support; local operational and strategic models remain separate inputs.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.JF",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joint reachability with checked suitability, distinction among simultaneity, sequence, and alternatives, shared needs, protection, transition, recovery, and a bounded conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.CRC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source solution at the specific address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DBR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recover actual reliance, check suitability of a subsequent result, affect only dependent use, prepare the actual next decision, and stop.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39.WI",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Discover material constraints and compare corrective measures with current practice by full costs and burden, actual implementation, and subsequent use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39.RP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Source operations or repertoire with exact status, claim-bearing fragment, relations, and use limitations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Usefulness of a method variant under concrete conditions, current alternatives, learning, transition, and repeated-use burdens, bounded maintenance or stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "OCE.9",
+        "OCE.10",
+        "OCE.11",
+        "OCE.18",
+        "OCE.13",
+        "OCE.14",
+        "OCE.15"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 815,
+        "end_line": 849
+      }
+    },
+    {
+      "id": "STR-OPTIONS",
+      "name": "Develop strategic directions and discriminating opportunities",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "str-options-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Construct strategic directions and discriminating opportunities",
+      "keywords": [
+        "STR-OPTIONS",
+        "Construct strategic directions and discriminating opportunities",
+        "STR"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-str",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "STR"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.CRC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Finite comparison of S0/delta/S1 with protection and resource coordinates and interactions.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Useful reachable inquiry, continuation, or stopping against full costs and burden.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.1.CSD",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Search for consequence-bearing systems with actual or prospective status.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.DC",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Complete prospective directions from a contribution and current S0, materially different prerequisites, support configurations, and finite comparison.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construct complete materially different ways to the same result with equal comparison conditions, unknowns, acceptance, authority, burden, and fixation for choice.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.40.JF",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Joint reachability with checked suitability, distinction among simultaneity, sequence, and alternatives, shared needs, protection, transition, recovery, and a bounded conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.32.MWA.PP",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source solution at the specific address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "STR.1",
+        "STR.3",
+        "STR.4",
+        "STR.5",
+        "STR.7",
+        "STR.8",
+        "STR.17",
+        "STR.6"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 852,
+        "end_line": 866
+      }
+    },
+    {
+      "id": "STR-COMMIT",
+      "name": "Check the applicability of a cohort metric before revising a commitment",
+      "edition": "v1.3",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "str-commit-v1-3",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Check applicability of a cohort metric before reconsidering a commitment",
+      "keywords": [
+        "STR-COMMIT",
+        "Check applicability of a cohort metric before reconsidering a commitment",
+        "STR"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-str",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "STR"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DBR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recover actual reliance on grounds, establish suitability of a later result, affect only dependent use, prepare the actual next decision, and stop.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.27.TA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The direct named source Solution; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The direct named source Solution; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary during execution.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "STR.12"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 869,
+        "end_line": 883
+      }
+    },
+    {
+      "id": "RES-INQUIRY",
+      "name": "Obtain a grounded answer open to substantive criticism and avoid commissioning unnecessary inquiry",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "res-inquiry-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Obtain a grounded answer open to substantive criticism and avoid assigning unnecessary research",
+      "keywords": [
+        "RES-INQUIRY",
+        "Obtain a grounded answer open to substantive criticism and avoid assigning unnecessary research",
+        "RMP"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-rmp",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "RMP"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use",
+        "Partial RMP.9 contribution—compare competent current research practice with a reachable change; lack of benefit from further research does not mean that grounds are sufficient. Complete transfer of all original RMP.9 conditions is not claimed."
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Useful reachable inquiry, continuation, or stopping against full costs and burden.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-linked evidence, source provenance, and reliance limit; does not independently establish the content of the domain conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.28",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Initial examination of a causal claim, threat checking, necessary components of grounds, and a bounded conclusion; does not replace historical discrimination or construction of domain evidence.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.38",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construct complete materially different ways to the same result with equal comparison conditions, unknowns, acceptance, authority, burden, and fixation for choice.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "RMP.1",
+        "RMP.2",
+        "RMP.3",
+        "RMP.4",
+        "RMP.5",
+        "RMP.6",
+        "RMP.7",
+        "RMP.8",
+        "RMP.9"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 896,
+        "end_line": 912
+      }
+    },
+    {
+      "id": "RES-RECOVERY",
+      "name": "Recover descriptions of reusable methods from discriminating evidence",
+      "edition": "v1.6",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "res-recovery-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Recover descriptions of reusable methods from discriminating evidence",
+      "keywords": [
+        "RES-RECOVERY",
+        "Recover descriptions of reusable methods from discriminating evidence",
+        "ME",
+        "RMP"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-me",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-rmp",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "ME",
+            "RMP"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "RES-INQUIRY@v1.4",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.3.1.MR",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Ordinary candidate recovery under A.3.1.MR:4.2–4.5 (original lines 9796–9833): traceable description, alternatives, and downgrading the result. If sufficient, separate empirical reconstruction is unnecessary; RMP.10 applies only to the remaining research gap.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.DUA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "FPF.Reference:16.9.4",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The constructed example in FPF.Reference:16.9.4 (original lines 1859–1876) illustrates the boundary of ordinary recovery and transition to RMP.10 when information about tacit judgments and differing conditions is insufficient for the needed result. The number of cases and the control case belong to this example; they are not a general RES-RECOVERY requirement and do not establish its actual application.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "RMP.10",
+        "ME.18"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 915,
+        "end_line": 929
+      }
+    },
+    {
+      "id": "RES-HISTORY",
+      "name": "Explain divergence between methods using discriminating historical data",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "res-history-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "Explain method divergence using discriminating historical data",
+      "keywords": [
+        "RES-HISTORY",
+        "Explain method divergence using discriminating historical data",
+        "ME",
+        "RMP"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-me",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-rmp",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "ME",
+            "RMP"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "RES-INQUIRY@v1.4",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.28",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "For separately required causal use, apply C.28:4: name the question and actual evidence path, check threats, obtain only the necessary specialized components, and deliver a conclusion with supported and unsupported uses. Chronology or a diagnostic finding alone does not provide positive causal justification.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.27.TA",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Direct source Solution at the exact address; read necessary conditions in the supplied FPF original under this pattern; an author's reading log is unnecessary for execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "FPF.Reference:16.9.3",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "The constructed example in FPF.Reference:16.9.3 (original lines 1837–1856) separates observed differences, unsupported causal use, and a separate present-day decision. It illustrates the RES-HISTORY boundary; it is not historical evidence for the current project or independent causal justification.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "RMP.11",
+        "ME.19"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 932,
+        "end_line": 950
+      }
+    },
+    {
+      "id": "DATA-MEANING",
+      "name": "Obtain semantic integration for one specific recipient use",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "data-meaning-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The integrator works with domain owners and the request recipient; access to exact schemas and definitions, understanding of identifier, unit, and effectivity semantics, and the ability to obtain implementation evidence are required.",
+      "keywords": [
+        "DATA-MEANING",
+        "Obtain semantic integration for one concrete recipient use",
+        "SIE",
+        "integration construction",
+        "joint contribution conditions"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-sie",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SIE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.9",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Exact local meanings, independently checked correspondence, separate bounded use, losses, and reliance; not an implementation of identity or mapping.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual reliance, return to the subject, and local stopping.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation alternatives, presentation, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution, full costs and burden; retention, reconsideration, replacement, branching, stopping, and transfer boundaries.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.0.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Local source meaning with an exact fragment; an optional durable cell only when used; not truth, access authority, or whole-source suitability.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.0.2",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Bounded synthesis, mapping, and unresolved inquiry during framework creation; not authority to merge data during execution.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "F.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Question-based source search and selection, checked answer-changing roles, exact editions, and access and coverage stops within the specified scope.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "B.5.FM",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construct a first model useful for inference through participants, distinctions, relations, consequences, and challenge; domain prerequisites remain with domain owners.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SIE.1",
+        "SIE.2",
+        "SIE.3",
+        "SIE.5",
+        "SIE.6",
+        "SIE.7",
+        "SIE.8",
+        "SIE.9",
+        "SIE.10",
+        "SIE.12",
+        "SIE.13"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 965,
+        "end_line": 1035
+      }
+    },
+    {
+      "id": "EXPLAIN",
+      "name": "Prepare and repair an explanation for its audience",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "explain-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The explainer has a grounded account of the subject, understands its conclusion and conditions, and has a channel accessible to the recipient. Fluency does not establish subject knowledge.",
+      "keywords": [
+        "EXPLAIN",
+        "Prepare and repair an explanation for its recipient",
+        "EXD"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-exd",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "EXD"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation alternatives, presentation, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution, full costs and burden; retention, reconsideration, replacement, branching, stopping, and transfer boundaries.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual reliance, return to the subject, and local stopping.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.2.8",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Selected structural recovery depends on description, form, observer, correctness, preparation, help, access, and budget; quantity is not effort, usefulness, learning, or grounds about the world.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.3.2.DE",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "An actionable method description or candidate description relative to use; inputs→operation→result→conditions, a small recipient-use check; not human learning or domain grounds.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.6.3.RT.OE",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construct an expression for the selected operation: identity, grouping, references and conventions, execution, and repair; the domain operation and learning are supplied separately.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "EXD.1",
+        "EXD.2",
+        "EXD.3",
+        "EXD.4",
+        "EXD.5"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1038,
+        "end_line": 1083
+      }
+    },
+    {
+      "id": "TEXT-EDIT",
+      "name": "Produce natural text within the authorized semantic boundary",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "text-edit-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The editor/author understands the language and context; an original or material, assignment, protected fragments, and, where needed, an exact normative provision are available. Domain truth requires a separate source.",
+      "keywords": [
+        "TEXT-EDIT",
+        "Produce natural text within the authorized semantic boundary",
+        "WEP"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-wep",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "WEP"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation candidates, disclosure, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution and full burden; retention, reconsideration, replacement, branching, stopping, and prohibition of automatic transfer.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional discovery of affected use, actual reliance on grounds, return to the subject, and local stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "WEP.1",
+        "WEP.2",
+        "WEP.3",
+        "WEP.4",
+        "WEP.5",
+        "WEP.6",
+        "WEP.7",
+        "WEP.8",
+        "WEP.9",
+        "WEP.10",
+        "WEP.11",
+        "WEP.12"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1086,
+        "end_line": 1136
+      }
+    },
+    {
+      "id": "UI-DESIGN",
+      "name": "Implement and check a visible interface solution",
+      "edition": "v1.6",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "ui-design-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "A prepared designer/developer or AI with known content and scenario, available materials and fonts, platform knowledge, and an authorized rendering and control means. Human sets the material direction and final taste.",
+      "keywords": [
+        "UI-DESIGN",
+        "Implement and check a visible interface solution",
+        "VID"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-vid",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "VID"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation candidates, disclosure, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution and full burden; retention, reconsideration, replacement, branching, stopping, and prohibition of automatic transfer.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional discovery of affected use, actual reliance on grounds, return to the subject, and local stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "VID.1",
+        "VID.2",
+        "VID.7",
+        "VID.3",
+        "VID.8",
+        "VID.9",
+        "VID.4",
+        "VID.10",
+        "VID.5",
+        "VID.11",
+        "VID.6"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1139,
+        "end_line": 1192
+      }
+    },
+    {
+      "id": "PUBLICATION",
+      "name": "Prepare a publication for the promised mode of use",
+      "edition": "v1.4",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "publication-v1-4",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The author, editor, or designer has actual material, a known reader action, and a source, export, and rendering tool. A print, EPUB, or accessibility specialist is needed where their operation is material.",
+      "keywords": [
+        "PUBLICATION",
+        "Prepare a publication for its promised mode of use",
+        "CDP"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-cdp",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "CDP"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "TEXT-EDIT@v1.5",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_when_needed",
+          "target": "EXPLAIN@v1.5",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation alternatives, presentation, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution, full costs and burden; retention, reconsideration, replacement, branching, stopping, and transfer boundaries.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual reliance, return to the subject, and local stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "CDP.1",
+        "CDP.2",
+        "CDP.3",
+        "CDP.4",
+        "CDP.5",
+        "CDP.6",
+        "CDP.7",
+        "CDP.8",
+        "CDP.9",
+        "CDP.10"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1195,
+        "end_line": 1246
+      }
+    },
+    {
+      "id": "INFO-SEC",
+      "name": "Provide a specific protective contribution and maintain it",
+      "edition": "v1.5",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "info-sec-v1-5",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "A prepared practitioner with the activity owner and relevant experts as needed; source ISEC0.12 is seedOnly, accepted only for the owner's personal iEWR. Full E.21 and industrial use are not claimed.",
+      "keywords": [
+        "INFO-SEC",
+        "Provide a concrete protective contribution and maintain it",
+        "ISEC"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-isec",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "ISEC"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use",
+        "The source is seedOnly; accepted personal use and quality limits are retained; no new general distribution license is assigned"
+      ],
+      "relations": [],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation candidates, exposure, loss, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by accepted contribution and full burden; retention, reconsideration, replacement, branching, stopping, and nontransferability of the conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual dependency, return to the subject, and local stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "ISEC.1",
+        "ISEC.2",
+        "ISEC.3",
+        "ISEC.4",
+        "ISEC.5",
+        "ISEC.6",
+        "ISEC.7",
+        "ISEC.8",
+        "ISEC.9",
+        "ISEC.10"
+      ],
+      "source_quality": {
+        "seedOnly": true,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1426,
+        "end_line": 1465
+      }
+    },
+    {
+      "id": "SW-SEC",
+      "name": "Implement a protective property of a software product",
+      "edition": "v1.6",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sw-sec-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "use_when": "The developer knows the technology stack and can obtain safe checks, exact criteria, and domain competence. SPSEC0.2 retains seedOnly; E.21/E.4.DPF.DA are not claimed, and a personal application scope is agreed. Self-sufficiency in cryptography, an identity provider, or a specialized analyzer is not promised.",
+      "keywords": [
+        "SW-SEC",
+        "Implement a protective property of a software product",
+        "SPSEC"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-spsec",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "SPSEC"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "Candidate description; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use",
+        "The source is seedOnly; accepted personal use and quality limits are retained; no new general distribution license is assigned"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "INFO-SEC@v1.5",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation alternatives, presentation, losses, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by recipient contribution, full costs and burden; retention, reconsideration, replacement, branching, stopping, and transfer boundaries.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual reliance, return to the subject, and local stopping.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SPSEC.1",
+        "SPSEC.2",
+        "SPSEC.3",
+        "SPSEC.4",
+        "SPSEC.5",
+        "SPSEC.6",
+        "SPSEC.7",
+        "SPSEC.8",
+        "SPSEC.9",
+        "SPSEC.10"
+      ],
+      "source_quality": {
+        "seedOnly": true,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1468,
+        "end_line": 1517
+      }
+    },
+    {
+      "id": "SW-01",
+      "name": "Change software behavior and bring it to verified use",
+      "edition": "v1.6",
+      "description": "methods/METHOD_PACK.md",
+      "anchor": "sw-01-v1-6",
+      "preserved_body": "methods/snapshots/base-v3.17/METHOD_PACK.md",
+      "use_when": "A prepared developer or team that understands the selected language and stack changes existing behavior, fixes a defect, checks composition, migrates data, builds, deploys, or restores a service. Required inputs are an assignment, initial edition and unfinished changes, user result and independent grounds for the expected answer, actual configuration and data, available means, and current rights. Authority to read, change, test, activate, and affect operational data differs. A specific DBMS, cryptography, identity provider, or specialized parser requires a suitable technical mechanism and competence; a technology or document name does not establish them. If absent, withhold only the dependent assurance or action.",
+      "keywords": [
+        "SW-01",
+        "Change software behavior and carry it through to verified use",
+        "ISDLC",
+        "SYSE"
+      ],
+      "groups": [
+        "general purpose",
+        "task-specific iEWR support"
+      ],
+      "group_condition": "Applies to iEWR itself only when it is the subject of the corresponding engineering work; there is no separate duplicate body",
+      "status": "candidate",
+      "basis": [
+        {
+          "path": "external-sources/fpf/SOURCE.json",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "role": "Exact original of direct general suppliers"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-isdlc",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "docs/METHOD_SOURCE_NOTICES.md",
+          "anchor": "source-syse",
+          "role": "Source authorship, terms, and status; exact editions and SHA-256 values are in ORIGINS.json"
+        },
+        {
+          "path": "ORIGINS.json",
+          "source_refs": [
+            "ISDLC",
+            "SYSE"
+          ],
+          "role": "Exact applicable sources and provenance of the current description"
+        }
+      ],
+      "evidence": [],
+      "limits": [
+        "The description has candidate status; examples and file reconciliation do not establish actual effectiveness",
+        "Data, competence, means, and authority are checked for the specific use"
+      ],
+      "relations": [
+        {
+          "type": "uses_when_needed",
+          "target": "UI-DESIGN@v1.6",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_when_needed",
+          "target": "SW-SEC@v1.6",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        },
+        {
+          "type": "uses_when_needed",
+          "target": "DATA-MEANING@v1.5",
+          "compatibility": "The same selected result, object/edition, and material conditions; only the missing contribution is used",
+          "basis": "General source reconciliation and described joins; not formal composition",
+          "status": "candidate"
+        }
+      ],
+      "external_relations": [
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Recovery of sources from the needed result, backward and forward construction, and explicit joins; a sufficient direct domain Method may complete the use.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.43",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Construction of whole management: actual initial state, informational distinctions, conditional continuations, whole comparison, feasible action over time, dependency-based return, and connection with development. The named MP profile supplies the domain implementation.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.37",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "One recipient and action, independently governed representation candidates, exposure, loss, choice, and direct exit; not domain implementation operations.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.11.MV",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Comparison of implementable method variants by accepted contribution and full burden; retention, reconsideration, replacement, branching, stopping, and nontransferability of the conclusion.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "A.10.1",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "Claim-scale comparison, bounded bidirectional search for affected uses, actual dependency, return to the subject, and local stopping.",
+          "status": "source_compared"
+        },
+        {
+          "type": "uses_direct_FPF",
+          "path": "external-sources/fpf/FPF-Spec.md",
+          "pattern": "C.39.WA:4.6",
+          "edition": "c3b34de07a6bd2df85c7081a4c367fd09978079c",
+          "compatibility": "For §7 independent review before release: a competent reviewer forms an expectation from the original task and subject grounds before examining the candidate and earlier conclusions. SW-01 defines the software risk trigger, component checks and release record.",
+          "status": "source_compared"
+        }
+      ],
+      "source_contributions": [
+        "SYSE.30",
+        "SYSE.31",
+        "SYSE.32",
+        "SYSE.33",
+        "SYSE.34",
+        "SYSE.35",
+        "SYSE.36",
+        "SYSE.37",
+        "SYSE.38",
+        "SYSE.40",
+        "SYSE.41",
+        "ISDLC.1",
+        "ISDLC.2",
+        "ISDLC.3",
+        "ISDLC.4",
+        "ISDLC.5",
+        "ISDLC.6",
+        "ISDLC.7",
+        "ISDLC.8",
+        "ISDLC.9",
+        "ISDLC.10",
+        "ISDLC.15",
+        "ISDLC.16",
+        "ISDLC.17",
+        "ISDLC.18",
+        "ISDLC.11",
+        "ISDLC.12",
+        "ISDLC.13",
+        "ISDLC.14"
+      ],
+      "source_quality": {
+        "seedOnly": false,
+        "transfer_raises_quality": false
+      },
+      "location": {
+        "start_line": 1259,
+        "end_line": 1423
+      }
+    }
+  ],
+  "retired_methods": []
+}

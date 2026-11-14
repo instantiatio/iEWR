@@ -2,12 +2,12 @@
 
 | Document information | Value |
 |---|---|
-| Basis | iEWR 7.0.6 Eternal Alpha |
-| Document edition | 05.11.2026 |
-| Status | Research concept; checking scope is stated in STATUS.md |
+| Basis | iEWR 7.0.8 Eternal Alpha |
+| Document edition | iEWR 7.0.9 Eternal Alpha, 14.11.2026 |
+| Status | Research concept. See [STATUS.md](../STATUS.md) for this edition’s verification scope. |
 | Related descriptions | [Architecture](../ARCHITECTURE.json), [file inventory](../INSTALLATION.json), [source build status and limits](../STATUS.md) |
 
-This edition describes expected behavior and does not expand the previous scope of verification. PACKAGE and the test dossier concern the environment development project, not the results of a new domain project. Describing a capability does not confirm its technical implementation.
+This edition describes expected behavior. STATUS.md identifies the checks for 7.0.9 and the evidence carried forward from earlier editions. PACKAGE and the test dossier concern the environment development project, not the results of a new domain project. Describing a capability does not confirm its technical implementation.
 
 ---
 
@@ -33,7 +33,11 @@ For the next significant decision, the agent connects the assignment to system u
 
 If an unknown can change an action's admissibility or result, either obtain information that distinguishes the possible situations, choose an action or conditional plan that is admissible and fit for the assigned result in every still-possible situation consistent with available information, or withhold the dependent part. A detailed model is needed only when it helps such a decision. Work finishes when the result is sufficient for the assigned use and significant effects are accounted for.
 
-For a domain system, iEWR forms part of the supporting engineering team. In assigned self-development, the environment itself becomes the target system. In both cases, results and feedback determine further work. A universal operation sequence and a separate software engine are not mandatory for this.
+For a domain system, iEWR forms part of the supporting engineering team.
+
+**Recursive System Formation** is the application of System Formation to iEWR itself during Human-assigned self-development. It identifies what contribution iEWR needs in its current state. Evidence from checking the resulting change informs subsequent work, including further changes to iEWR.
+
+In both cases, results and feedback determine further work. A universal operation sequence and a separate software engine are not mandatory for this.
 
 ## Methodological basis and applied repertoire
 
@@ -46,6 +50,8 @@ For a domain system, iEWR forms part of the supporting engineering team. In assi
 For a new choice, first check whether FPF is sufficient. If domain specifics or adaptation are needed, turn to MP. Obtain a missing method through DMG; if necessary sources or means are unavailable, state the exact unclosed gap. Reuse an already read sufficient method while its conditions hold; a full FPF traversal and repeated search before every operation are unnecessary.
 
 Instructions establish the instance entry, rules for connecting the basis, conditions of the specific environment, and human participation. Navigation helps locate the full description of a selected edition but does not replace its content or create a new methodology. A significant method has one principal content location.
+
+Method lookup uses the supplied FPF and the active MethodPack. If local lookup leaves a gap, report it and continue within the available grounds. Search online only on Human's explicit request for external sources. Follow the [source selection rule](../AGENTS.md#method-source-priority) for lookup by author family or method ID.
 
 DPFs can serve as coherent professional sources. The presence of a DPF, a YAML entry, and previous success do not make a source mandatory for every task or automatically raise quality. Its provenance, edition, attribution, and limits are preserved.
 
@@ -130,6 +136,8 @@ When a source, condition, performer, or means changes, review the dependent part
 Project materials have stable roles: `project/source/` holds direct inputs, `project/reference/` reference and historical sources, `project/artifacts/` results and checking grounds, and `project/handoff/` continuation. Internal organization is chosen according to use. Repeatedly useful methods reside in one `methods/`. Facts, assignments, and specific executions remain working materials and do not automatically become methods.
 
 Handoff to the next performer requires the current assignment, significant decisions, exact basis used, obtained results, known and unknown effects, open question, and continuation conditions. An existing sufficient recording system is reused. A mandatory universal log, scheduler, or document set is not required.
+
+On resumption, use `project/handoff/CURRENT.json` when present to recover the current state and decisions under the current assignment. The project method-use log, when available, helps recover which methods were applied, the relevant inputs and conditions, and the results and evidence.
 
 ## Example of work on an existing system
 

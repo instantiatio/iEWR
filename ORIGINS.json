@@ -1,11 +1,11 @@
 {
-  "product": "iEWR 7.0.6 Eternal Alpha",
+  "product": "iEWR 7.0.9 Eternal Alpha",
   "FPF": {
     "record": "external-sources/fpf/SOURCE.json",
     "sha256": "2f4351bb6dfba51c4334ebbfcc33bdb1af6c50cc9c173f466a9a8d7237eb0af6"
   },
   "MethodPack": {
-    "edition": "base-v3.16",
+    "edition": "base-v3.17",
     "current_book": "methods/METHOD_PACK.md",
     "index": "methods/index.yaml",
     "source_notices": "docs/METHOD_SOURCE_NOTICES.md",
@@ -20,6 +20,12 @@
       "version": "7.0.5",
       "pack": "base-v3.15",
       "preserved_book": "methods/snapshots/base-v3.15/METHOD_PACK.md"
+    },
+    "local_refinement": {
+      "previous_pack": "base-v3.16",
+      "previous_book": "methods/snapshots/base-v3.16/METHOD_PACK.md",
+      "description": "SW-01@v1.6",
+      "scope": "Independent software review before release in §7, using FPF C.39.WA §4.6 and the existing software checking guidance."
     },
     "source_reconciliation": {
       "record": "docs/SOURCE_RECONCILIATION.md",

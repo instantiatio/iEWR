@@ -1,4 +1,4 @@
-# MethodPack iEWR — base-v3.16
+# MethodPack iEWR — base-v3.17
 
 The instance's applied repertoire. General concepts, principles, and sufficient methods are used directly from the exact FPF edition; this pack retains the justified domain-specific/local remainder. Instructions and sources are selected under AGENTS.md#method-source-priority. The seven functions represent needed contributions, not mandatory stages or a required number of methods. One entry can support domain work and work on iEWR itself without a second copy.
 
@@ -1251,12 +1251,12 @@ Select the missing contribution by the question; use an already sufficient basis
 
 | Question and result | Exact body |
 |---|---|
-| Change software behavior and bring it to verified use | [SW-01](#sw-01-v1-5) |
+| Change software behavior and bring it to verified use | [SW-01](#sw-01-v1-6) |
 | Provide a specific protective contribution and maintain it | [INFO-SEC](#info-sec-v1-5) |
 | Implement a protective property of a software product | [SW-SEC](#sw-sec-v1-6) |
 
-<a id="sw-01-v1-5"></a>
-### SW-01 v1.5 — Change software behavior and bring it to verified use
+<a id="sw-01-v1-6"></a>
+### SW-01 v1.6 — Change software behavior and bring it to verified use
 
 One principal applied profile combines changing an application with bringing a particular artifact into use. Choose the entry by the missing result; the actions below have dependencies but do not prescribe a mandatory complete lifecycle. This is an ordinary MethodPack candidate, with no claim of canonical or formal method composition. Ordinary execution uses current bodies, applicable sources, and the actual task conditions.
 
@@ -1325,6 +1325,12 @@ Derive plausible incorrect behavior from a promise, premise, or observed failure
 Before the run, define success/failure/unknown. Perform a sufficient level of checks and preserve actual negative and positive results. Separate product regression, an incorrect checking reference, test equipment or environment failure, uncertainty, and absence of checking. Check the means on a meaningful pass and failure, and on failure of the feedback mechanism itself. If it accepts the incorrect variant, correct the necessary observation or criterion; a separate general mutation-testing campaign is not mandatory.
 
 Place fast targeted checks early while retaining necessary integration, acceptance, and performance checks. Integrate small changes into the current main line and restore it promptly; a build server for long isolated branches does not itself provide this. After repair, repeat affected checks and preserve applicable unaffected ones. Writing a test first is not mandatory for every change, but a claimed run requires observation on specified bytes. Required independence means competence, independent judgment, and access to grounds; a second agent does not create it by itself.
+
+**Independent review before release.** As soon as a working candidate is available and findings can still affect release, arrange independent review if the change can affect how an operation handles transaction boundaries, locking, record versions, retries, or access rules, and an error could cause duplicate effects, data loss, an incorrect financial result, or unauthorized access.
+
+Give a competent reviewer who took no part in the change the original task, the affected requirements and invariants, and the exact candidate identifier. Let the reviewer state the expected behavior and a plausible violation from those grounds before examining the implementation, tests, and the author's conclusions. If the judgment depends on the actual behavior of a DBMS or another component, exercise the scenario with that component in an isolated environment and check the operation results and the relevant effects.
+
+Give the authorized release decision maker a short record tied to the candidate. Include the invariant, scenario, expected and observed results, evidence reference, and status. For a confirmed violation, record its disposition and the affected recheck result when available. If no violation was observed, list the scenarios checked. For an open check, state what evidence is missing, who will follow up, and how the open issue affects release.
 
 #### 8. Build, artifact transfer, and environment
 
